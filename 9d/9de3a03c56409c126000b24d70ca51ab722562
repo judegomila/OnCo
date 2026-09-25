@@ -1,0 +1,54 @@
+src/data/globocan-map.ts
+  s_0beac9cb5d78fd::t_3ee7db9c04ec0c 53
+src/data/spikes/skin-core.ts
+  s_0beac9cb5d78fd::t_0643144a159b97 258,260
+  s_0beac9cb5d78fd::t_d6e838e6e9ed9f 36-38
+  s_0beac9cb5d78fd::t_ea2066157d7043 1-6,9,11,145-148,150-151,190-194,196-199,491-492,632,642-643,645,649
+  s_0beac9cb5d78fd::t_fd45c0a82c9128 237
+  s_0beac9cb5d78fd::t_9a69ef976ab37c 307,309-311
+  s_0beac9cb5d78fd::t_598b8910792aad 336
+  s_0beac9cb5d78fd::t_0f410bd127b67d 346-352,354-360
+  s_0beac9cb5d78fd::t_d543f7e6e963af 325,327-328
+  s_0beac9cb5d78fd::t_1655fb1d532e4d 375-376
+  s_0beac9cb5d78fd::t_506d03cde7d093 353
+  s_0beac9cb5d78fd::t_eb5db7f0c2b670 229
+  s_0beac9cb5d78fd::t_8cbdf45f453ca0 274,276-277
+  s_0beac9cb5d78fd::t_4629e2dd594852 223,305
+  s_0beac9cb5d78fd::t_429356bffad979 341
+  s_0beac9cb5d78fd::t_1eb44195f36029 7-8,10,12-35,39-50,82-117,126-132,135-144,149,152-169,186-189,195,200-222,224-228,230-236,238-241,243,245-257,259,261-273,275,278-304,306,308,312-319,321-324,326,329-335,337-340,342-345,361-374,377-396,400-401,403-477,479-490,493-547,549-619,621-631,633-641,644,646-648,650
+  s_0beac9cb5d78fd::t_14e386b806cb31 118-125
+  s_0beac9cb5d78fd::t_4f9f0ec35fde48 397-399
+  s_0beac9cb5d78fd::t_dd1ea4b10142fc 320
+  s_0beac9cb5d78fd::t_2e6eb11d9690a7 51-81
+  s_0beac9cb5d78fd::t_a64a4fa8b90476 402
+  s_0beac9cb5d78fd::t_2fdc0f4f5288f6 478,548,620
+  s_0beac9cb5d78fd::t_ad3337df140bdd 242,244
+  s_0beac9cb5d78fd::t_cd2b8bc4040272 133-134
+  s_0beac9cb5d78fd::t_77eefa78d6b29f 170-185
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_15e2030b5cf0ab 73,88
+docs/CANCER-PAGES.md
+  s_0beac9cb5d78fd::t_183c7a27344289 181-243
+src/data/staging.ts
+  s_0beac9cb5d78fd::t_e42ad80c0b24b7 85-99
+src/data/organ-schematics.ts
+  s_0beac9cb5d78fd::t_3ee7db9c04ec0c 253
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_319a08ea0ee4f8 100-101
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9d9de3a03c56409c126000b24d70ca51ab722562",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

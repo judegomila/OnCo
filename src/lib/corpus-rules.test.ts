@@ -73,6 +73,10 @@ const PHASE3_WITHOUT_NCT = new Set(["abc-02", "bilcap", "cadance-304", "circulat
   "chart-lung", "big-lung-trial",
   // Radiotherapy trials from the pre-registration era: CALGB 9343 (opened 1994), DAHANCA 5 (1986 to 1994), START-B, CHHiP, HYPO-RT-PC, PRIME II, IMPORT LOW and QUARTZ (UK and Nordic trials registered with ISRCTN only).
   "calgb-9343", "dahanca-5", "start-b", "chhip", "hypo-rt-pc", "prime-ii", "import-low", "quartz", "fast-forward",
+  // Prostate cancer trials that pre-date registration entirely: SPCG-4 randomised 1989 to 1999, RTOG 92-02 opened in 1992,
+  // SWOG 8794 opened in 1988 and TAX 327 recruited March 2000 to June 2002, before the 2005 ICMJE registration requirement.
+  // SPCG-7 and RADICALS-HD do have primary registry ids and carry them: ISRCTN01534787 and ISRCTN40814031.
+  "spcg-4", "rtog-9202", "swog-8794", "tax-327",
   // Lung cancer trials that pre-date ClinicalTrials.gov or are registered only where this field cannot hold the id:
   // IALT (randomised 1995 to 2000), JBR.10 (NCIC CTG, 1994 to 2001), Intergroup 0096 (Turrisi, opened 1989) and the
   // Dutch Bone Metastasis Study (1996) all pre-date registration; JCOG0802/WJOG4607L is UMIN000002317 and JROSG 99-1

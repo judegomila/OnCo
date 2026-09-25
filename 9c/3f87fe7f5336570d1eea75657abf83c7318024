@@ -1,0 +1,307 @@
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 26,295,324
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 205-212,227-233
+src/components/KindGraph.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-136
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 26,295,324
+src/components/CompanyTypePill.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-25
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 77,94
+src/data/spikes/tnbc-uk.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-380
+src/app/record-fold.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-118
+src/lib/supportive-care.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-73
+src/data/term-animations.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 387-416,435
+src/app/modalities/modalities.json/route.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-9
+src/components/KindGraphFrame.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-127
+src/lib/body-entry.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-30
+src/lib/model-reviews.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 94-98
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1
+src/components/PulseBoard.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 29
+src/data/spikes/tnbc-evidence.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-76
+scripts/fetch-entity-trials.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 25-28
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 26,295,324
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 9-12,14-23
+src/app/explore/page.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 23
+src/components/DrugChip.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 4,16
+src/lib/vercel-headers.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-61
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 45,48
+src/components/kind-graph.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-133
+src/data/term-categories.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 5,7-9,15,32
+src/app/[kind]/[id]/loading.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-10
+src/components/Neighbours.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 2,60,62
+src/app/layout.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 21,24-27,70
+src/data/drugs-approved-wave1.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 408
+docs/CANCERSIM-TERMS-GAP.md
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1,5-6,11-85,89-142,146-192,196-236,240-270,274-299,303-327,331-353,357-378,382-403,407-427,431-445
+src/app/loading.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-11
+public/llms.txt
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 5,142
+src/data/kidney-subtypes.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 16,43
+src/data/spikes/tnbc-evidence-roadmap.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-214
+src/data/sponsor-aliases.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 294-312,316,328,339,345-348
+src/lib/search-index.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 5,26-27,33
+src/data/supportive-drugs.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-58
+src/lib/uk-pathway.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 6-7,10-11,24-25,42-54,62,146-162
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 77
+scripts/mobile-audit.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 35-36,56-59,93-95,97,142-143
+src/lib/tables/modalities.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-138
+src/components/SupportivePill.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-35
+src/data/collections.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 21,23,55,57
+src/data/decision-tools/tnbc-after-chemotherapy.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-211
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 77
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 43-64,86-105
+src/data/questions.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 9,13
+scripts/fetch-fda.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 18,23-24,31,69-72
+src/components/IntentLink.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-28
+src/data/target-xrefs-cansim.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-21
+src/data/data-sources.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 509-560
+src/data/spikes/tnbc-evidence-shared.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-19
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 55-58,327-358
+src/app/modalities/modalities.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-230
+scripts/build-api.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 34,109-110
+src/lib/schema-docs.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 140
+scripts/fetch-company-drugs.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 45-47
+src/data/spikes/tnbc-evidence-papers-treatment.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-209
+src/components/RowAvatar.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 27
+public/newsletter/2026-09-25.json
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1
+src/data/terms-cansim-oncology.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-418
+src/lib/uk-pathway.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 13,131
+public/freshness.json
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1
+src/components/ScorecardTable.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 25
+src/lib/cooperative-groups.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-77
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 77
+src/lib/modalities.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-285
+src/lib/ask-compose.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 153
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 26,295,324
+src/lib/modular-formats.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 100-136
+src/lib/kind-graph.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-116
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 26,295,324
+src/data/colorectal-lymphoma-subtypes.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 91
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 7,10-16,23-28
+src/data/cancer-parents-wave2.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 14
+src/lib/tables/index.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 12,46
+src/components/CancerPipeline.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 7,43-44
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 46-48,55,60
+src/components/ui.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 14,29,31,37,44,62,64,66
+src/app/[kind]/page.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 99
+src/data/spikes/tnbc-evidence-papers-foundations.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-311
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 77
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 26,295,324
+src/lib/supportive-care.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-68
+src/data/term-categories.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 15-17
+docs/IMPROVEMENTS-100.md
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 321
+src/lib/startups.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 15,18-30
+src/app/pipeline/engine/[format]/page.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 9,56
+src/components/NavProgress.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-67
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 86
+src/app/globals.css
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 537-556,563-564
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 59
+src/app/page.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 4,12,22,111,113
+docs/cancersim-terms-gap.json
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 10-11,21-22,32-33,43-44,52-53,63-64,74-75,86-87,97-98,108-109,119-120,131-132,142-143,153-154,164-165,173-174,184-185,195-196,206-207,217-218,226-227,235-236,244-245,253-254,264-265,275-276,286-287,295-296,304-305,315-316,324-325,336-337,345-346,354-355,364-366,374-375,383-384,394-395,403-404,414-415,425-426,436-437,445-446,456-457,465-466,474-475,485-486,494-495,503-504,514-515,525-526,536-537,545-546,556-557,567-568,576-577,585-586,594-595,603-604,614-615,625-626,634-635,645-646,656-657,667-668,678-679,689-690,698-699,707-708,716-717,725-726,734-735,745-746,754-755,763-764,774-775,783-784,792-793,801-802,810-811,819-820,828-829,837-838,848-849,857-858,868-869,877-878,886-887,895-896,904-905,913-914,922-923,933-934,942-943,953-954,962-963,971-972,980-981,991-992,1000-1001,1009-1010,1018-1019,1029-1030,1042-1043,1053-1054,1062-1063,1073-1074,1082-1083,1091-1092,1101-1103,1113-1114,1124-1125,1133-1134,1144-1145,1156-1157,1167-1168,1178-1179,1187-1188,1198-1199,1209-1210,1220-1221,1229-1230,1240-1241,1251-1252,1262-1263,1273-1274,1284-1285,1293-1294,1303-1305,1313-1314,1318,1322-1323,1333-1334,1342-1343,1351-1352,1363-1364,1374-1375,1383-1384,1394-1395,1403-1404,1414-1415,1425-1426,1437-1438,1446-1447,1457-1458,1468-1469,1477-1478,1488-1489,1499-1500,1508-1509,1517-1518,1528-1529,1537-1538,1549-1550,1558-1559,1567-1568,1576-1577,1585-1586,1594-1595,1605-1606,1614-1615,1625-1626,1634-1635,1645-1646,1656-1657,1665-1666,1674-1675,1683-1684,1694-1695,1703-1704,1714-1715,1725-1726,1734-1735,1743-1744,1754-1755,1765-1766,1776-1777,1785-1786,1794-1795,1803-1804,1813-1815,1823-1824,1834-1835,1842-1844,1851-1853,1860-1862,1870-1871,1880-1882,1889-1891,1899-1900,1907-1909,1919-1920,1930-1931,1939-1940,1947-1949,1957-1958,1966-1967,1974-1976,1984-1985,1993-1994,2002-2003,2011-2012,2019-2021,2029-2030,2038-2039,2047-2048,2056-2057,2065-2066,2074-2075,2083-2084,2092-2093,2101-2102,2110-2111,2119-2120,2128-2129,2139-2140,2148-2149,2157-2158,2166-2167,2175-2176,2184-2185,2193-2194,2202-2203,2211-2212,2222-2223,2231-2232,2240-2241,2249-2250,2258-2259,2267-2268,2276-2277,2287-2288,2296-2297,2305-2306,2314-2315,2323-2324,2332-2333,2340-2342,2352-2353,2361-2362,2370-2371,2378-2380,2390-2391,2399-2400,2410-2411,2421-2422,2430-2431,2439-2440,2444,2447-2449,2457-2458,2462,2464,2468-2469,2478-2480,2490-2491,2499-2500,2508-2509,2517-2518,2527-2529,2537-2538,2545-2547,2555-2556,2566-2567,2575-2576,2583-2585,2595-2596,2604-2605,2613-2614,2622-2623,2633-2634,2642-2643,2651-2652,2662-2663,2670-2672,2682-2683,2691-2692,2702-2703,2713-2714,2722-2723,2733-2734,2744-2745,2755-2756,2766-2767,2775-2776,2786-2787,2795-2796,2806-2807,2817-2818,2828-2829,2839-2840,2844,2848-2849,2857-2858,2868-2870,2880-2881,2889-2890,2898-2899,2907-2908,2912,2916-2917,2927-2928,2938-2939,2947-2948,2958-2959,2963,2967-2968,2978-2979,2987-2988,2996-2997,3005-3006,3016-3017,3025-3026,3034-3035,3039,3043-3044,3052-3053,3061-3062,3073-3074,3084-3085,3093-3094,3102-3103,3111-3112,3120-3121,3131-3132,3140-3141,3151-3152,3160-3161,3169-3170,3178-3179,3187-3188,3196-3197,3205-3206,3214-3215,3225-3226,3230,3232,3236-3237,3245-3246,3254-3255,3263-3264,3272-3273,3283-3284,3292-3293,3301-3302,3310-3311,3319-3320,3328-3329,3337-3338,3346-3347,3355-3356,3366-3367,3375-3376,3386-3387,3397-3398,3406-3407,3415-3416,3424-3425,3433-3434,3442-3443,3451-3452,3460-3461,3469-3470,3478-3479,3487-3488,3496-3497,3505-3506,3514-3515,3523-3524,3532-3533,3541-3542,3550-3551,3559-3560,3568-3569,3577-3578,3588-3589,3597-3598,3606-3607,3615-3616,3626-3627,3635-3636,3644-3645,3653-3654,3662-3663,3671-3672,3680-3681,3691-3692,3700-3701
+src/app/modalities/[format]/page.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-367
+src/components/DrugCard.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1,19
+src/components/EntityBrowser.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 338
+src/lib/sitemap-urls.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 14,113
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 77
+src/components/BodyMap.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 7,11-12,14-18,38-53,60-61,85-88,174,176,188,194,203
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 77
+src/lib/nav-progress.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-43
+scripts/api-layout.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 29,109
+src/data/index.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 49,102,162-164,246,258,307-309,331-332
+src/data/spikes/tnbc-living.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-367
+src/app/cancers/[id]/loading.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-6
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 26,295,324
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 77
+public/newsletter/2026-09-25/index.html
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-15
+src/lib/decision-tools.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 3,76
+src/lib/graph.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 122-123
+src/lib/rankings.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 8,81-82,95,109,125,138,140,165,175,188,198,210,274-277,292
+package.json
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 61
+src/lib/github-stars.json
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1
+src/app/modalities/page.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-88
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 43,327,356
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 77
+src/components/ModalityPills.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-30
+scripts/fetch-ema.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 27,36-42,207-209
+src/lib/red-flags.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 34-35
+src/app/cancers/[id]/uk/page.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 189,292
+src/app/pipeline/engine/page.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 8,28
+src/lib/kind-browser.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 13,127,129
+src/lib/nav-progress.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-39
+src/data/companies.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 250
+src/components/FormatGlyph.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-21
+src/data/target-xrefs.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 7,17
+src/lib/first-60-days.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 62
+vercel.json
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 4-11
+src/data/companies-cooperative-groups.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-181
+src/data/targets-cansim.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-88
+src/app/[kind]/loading.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-6
+src/data/terms.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 46,62
+src/lib/valueTone.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 29,38
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 19,68-70,98,152-164,251,254,313,426,900
+scripts/perf-tti.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-85
+src/app/status/page.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 36
+src/data/cancers.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 119,174,223,247,264,327,392,411,429,493
+src/lib/decision-tools.test.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 10,149-173
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 26,295,324
+src/data/terms-cansim-methods.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-326
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 415-430
+src/components/Skeletons.tsx
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-141
+src/app/modalities/[format]/data.json/route.ts
+  s_0beac9cb5d78fd::t_8c8d5b1cd9beb8 1-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9c3f87fe7f5336570d1eea75657abf83c7318024",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

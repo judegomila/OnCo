@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
-- Colorectal reviewed against its sources: duplicate treatment rows folded, eleven NICE errors corrected, RAS wild-type recorded as a biomarker, 1,406 links checked
+- Lung cancer given a family and a patient side: five tiers under lung-cancer, ten decision rows, 86 appointment questions, six red-card sets
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -19,6 +19,11 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- Lung cancer: the patient side, written so a person who smoked and a person who never smoked are both addressed
+- Read the three new lung pages in the dev server and drop one redundant alias
+- Three more lung glossary terms the other layers will need, and an outlook paragraph on the family page
+- Lung taxonomy settled and the core layer written: the family now hangs together, and lung cancer is described from its sources
+- Colorectal reviewed against its sources: duplicate treatment rows folded, eleven NICE errors corrected, RAS wild-type recorded as a biomarker, 1,406 links checked
 - Review the colorectal deep spike: fold the duplicated rows, settle the contradictory figures, fix eleven NICE errors and add the RAS wild-type readout
 - Colorectal cancer deep spike complete (core, 710 trials, molecular landscape, evidence and roadmap); red cards re-sourced against the live toolkit; pages no longer grow with what is known about a reference; weekly jobs merge only when the gates pass
 - Roadmaps and dossiers made robust to corpus growth: a reference costs the same whatever is known about it, the dossier export is a file, and no bot merges a tree the tests have not seen

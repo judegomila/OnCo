@@ -201,21 +201,18 @@ export const cancers: CancerInput[] = [
     burden: "Pancreatic cancer causes about 500,000 cases per year. Surgery followed by mFOLFIRINOX cures a meaningful share of the ~20% found early, high-risk surveillance now finds most cancers in carriers at stage I, and the first RAS inhibitor, daraxonrasib, delivered the biggest result in the disease's history in advanced disease (RASolute 302, 2026). Five-year survival is about 13% overall and above 40% for resected patients who complete adjuvant chemotherapy; on current trends it will be the second most common cause of cancer death in the US by 2030.",
     prognosis: { text: "In the United States, 13.7% of people diagnosed with pancreatic cancer in 2016-2022 were alive five years later, relative to people of the same age without the disease. Stage at diagnosis is the biggest lever: only 15% of cases are found while still confined to the pancreas, and for those five-year relative survival is 43.6%; it is 17% for regional disease (28% of cases) and 3.4% for distant disease (51% of cases). These figures describe people diagnosed before the first RAS inhibitors and do not yet reflect them.", sources: [{ label: "SEER Cancer Stat Facts: Pancreatic Cancer", url: "https://seer.cancer.gov/statfacts/html/pancreas.html" }] },
     tldr: "Almost every pancreatic tumour carries a KRAS mutation, and for the first time drugs against it work: daraxonrasib nearly doubled survival in previously treated disease in 2026. Pancreatic cancer has been the hardest common cancer to treat once advanced; that is what is starting to change.",
-    summary: "FOLFIRINOX or gemcitabine/nab-paclitaxel remain the mainstays; surgery cures a minority. 2026 brought the first new approval in locally advanced disease in decades (Optune Pax TTFields). Daraxonrasib (pan-RAS) showed ~14.5-month OS in second line and is in phase 3; KRAS G12D inhibitors and KRAS vaccines (ELI-002) follow. Personalised mRNA vaccines (autogene cevumeran) show durable T-cell responses correlating with recurrence-free survival. CLDN18.2 and mesothelin are ADC/CAR-T targets; FAPI PET outperforms FDG. Germline BRCA (~5-7%): olaparib maintenance (POLO). MCED tests aim at earlier detection.",
-    biomarkers: ["KRAS (G12D 40%, G12V 30%, G12R 15%, G12C 1-2%)", "Germline BRCA/PALB2", "MSI (rare)", "NRG1 fusions (KRAS-wild-type)", "CLDN18.2", "CA19-9"],
+    // The summary, biomarkers, standard-of-care rows, history and open problems of this record are written by the
+    // pancreatic spikes (spikes/pancreatic*.ts), which merge over this base: scalars replace, arrays append. Only what no
+    // spike carries stays here, so the same milestone or biomarker is not listed twice (pancreatic QA, 24 Sept 2026).
+    summary: "FOLFIRINOX or gemcitabine/nab-paclitaxel remain the mainstays; surgery cures a minority. 2026 brought the first new approval in locally advanced disease in decades (Optune Pax TTFields) and the first RAS inhibitor, daraxonrasib, approved by the FDA on 26 August 2026 after RASolute 302; KRAS G12D inhibitors and KRAS vaccines (ELI-002) follow. Personalised mRNA vaccines (autogene cevumeran) show durable T-cell responses correlating with recurrence-free survival. CLDN18.2 and mesothelin are ADC/CAR-T targets; FAPI PET outperforms FDG. Germline BRCA (about 2 to 3% of unselected patients): olaparib maintenance (POLO). MCED tests aim at earlier detection.",
+    biomarkers: [],
     standardOfCare: [
-      // Rows for resectable, locally advanced and metastatic disease live in spikes/pancreatic.ts (fuller, with trial refs).
+      // Rows live in spikes/pancreatic.ts (surveillance) and spikes/pancreatic-treatment.ts (every treatment setting, with trial refs).
     ],
-    stateOfArt: ["First TTFields approval (2026).", "Pan-RAS inhibitors with unprecedented OS in phase 1/2.", "Personalised vaccines with durable immunity."],
-    history: [
-      { year: 1997, title: "Gemcitabine approved" },
-      { year: 2011, title: "FOLFIRINOX improves survival" },
-      { year: 2019, title: "POLO: olaparib maintenance in gBRCA", refs: ["olaparib"] },
-      { year: 2023, title: "Autogene cevumeran phase 1 in Nature", refs: ["autogene-cevumeran"] },
-      { year: 2026, title: "Optune Pax approved; daraxonrasib phase 3 enrolled", refs: ["optune", "daraxonrasib"] },
-    ],
+    stateOfArt: ["First TTFields approval (2026)."],
+    history: [],
     pipeline: ["daraxonrasib", "autogene-cevumeran", "cmg901", "fap-2286", "fapi-pet", "galleri", "satricabtagene-autoleucel", "in10018", "lm-108", "navlimetostat", "quemliclustat", "gfh375", "gotistobart", "sitneprotafib", "setidegrasib", "incb161734", "trabedersen", "qls31905", "ivospemin", "atebimetinib", "ibi343", "vs-7375", "tng462", "xnw27011", "e-edv-d682", "azd4360", "mavrostobart", "jk08", "jyp0015", "spevatamig", "azd5863", "ct3001", "ponsegromab", "jmt203", "lp-184", "pbp1510", "mitazalimab", "vb15010", "tqb2868", "nuv-1511"],
-    openProblems: ["Late diagnosis; no screening.", "Dense stroma blocks drug delivery.", "Immunologically cold."],
+    openProblems: [],
     targets: ["kras", "brca", "cldn18-2", "fap", "mesothelin", "her3"], technologies: ["kras-inhibitors", "neoantigen-mrna-vaccine", "ttfields", "fapi-pet", "mced", "car-t", "irreversible-electroporation", "omega3-epa-cachexia", "mistletoe-extracts", "gerson-therapy-detox-regimens"], pathways: ["ras-mapk", "ddr", "pancreatic-cancer-signalling"],
     tags: ["gi"], people: ["randy-pausch", "daniel-von-hoff"], drugs: ["catumaxomab", "tegafur-gimeracil-oteracil"], related: ["kras-roadmap", "early-detection-roadmap", "pancan", "idea-drugging-myc", "idea-nerve-tumour-blockade"], links: [{ label: "Wikipedia", url: W("Pancreatic_cancer") }], journals: ["journal-of-gastrointestinal-cancer"], companies: ["marker-therapeutics", "orion-orion-pharma", "crinetics-pharmaceuticals", "oncolytics-biotech", "shenzhen-ionova-life-sciences", "ascentawits-pharmaceuticals", "cebiotex", "civatech-oncology", "mbrace-therapeutics", "molecular-partners"],
   }),

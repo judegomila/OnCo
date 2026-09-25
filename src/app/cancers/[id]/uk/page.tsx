@@ -264,7 +264,7 @@ function Page({ p, id }: { p: UkPathway; id: string }) {
                 <div key={l.title} className="card p-4">
                   <div className="font-semibold">{l.title}</div>
                   <p className="text-sm mt-1 text-foreground/85 leading-relaxed">{l.story}</p>
-                  <div className="mt-2 flex flex-wrap gap-1">{l.trialIds.map((tid) => { const e = g.get(tid); return e ? <Link key={tid} href={routeFor(e)} className="chip bg-accent-soft text-accent text-[11px] hover:underline">{e.name}</Link> : null; })}</div>
+                  <div className="mt-2 flex flex-wrap gap-1">{l.trialIds.map((tid) => { const e = g.get(tid); return e ? <Link key={tid} href={routeFor(e)} className="chip bg-accent-soft text-accent text-[11px] hover:underline whitespace-normal text-start">{e.name}</Link> : null; })}</div>
                   <Sources items={l.sources} className="mt-2" />
                 </div>
               ))}

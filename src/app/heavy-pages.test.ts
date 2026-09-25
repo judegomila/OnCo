@@ -92,9 +92,16 @@ describe("heavy pages page their sections", () => {
     expect(html).toContain("Triple-negative breast cancer");
     expect(html).not.toContain("Coming down the pipeline");
     // 328 tiles with a TL;DR and an organ icon each: 441 KB when written, against 13.2 MB before.
-    // The rest is the footer nav, which costs about 120 bytes per site page and so grows with the
-    // corpus rather than with this page. The budget guards the tile grid; raise it only for chrome.
-    expect(Buffer.byteLength(html, "utf8"), "for me markup").toBeLessThan(610 * KB);
+    //
+    // Measured without the chrome, because the chrome is not this page's. Adding one nav entry costs about
+    // 118 bytes of footer markup on every page in the site, so a total including it grows whenever the site
+    // gains a section and has to be raised for a reason that has nothing to do with the tile grid. That is the
+    // same fault the explained page's budget had, and the same fix: measure the thing the budget is about.
+    // The chrome is still watched, on its own terms, in the assertion below.
+    const bare = renderToStaticMarkup(createElement(AppRouterContext.Provider, { value: router }, createElement(ForMe)));
+    expect(Buffer.byteLength(bare, "utf8"), "for me tiles").toBeLessThan(600 * KB);
+    const chrome = Buffer.byteLength(html, "utf8") - Buffer.byteLength(bare, "utf8");
+    expect(chrome / KB, `the chrome around every page is ${(chrome / KB).toFixed(1)} KB`).toBeLessThan(120);
   });
 
   it("explained renders every cancer heading, the first ten rows of each section and the Show more sentinel", () => {

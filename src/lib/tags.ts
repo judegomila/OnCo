@@ -58,6 +58,7 @@ export const TAG_DESCRIPTIONS: Readonly<Record<string, string>> = {
   "oeci-representative": "People named as the representative of an OECI-accredited cancer centre.",
   leader: "People in a leading role at their institution: directors, heads and chairs.",
   china: "Companies, products, trials, people and institutions based in or centred on China.",
+  uk: "NHS centres, charities, trials, people and decisions based in or centred on the United Kingdom.",
   "hospital-management": "People in hospital or health-system management roles.",
   "hospital management": "People in hospital or health-system management roles.",
   "registry-only": "Products and companies known so far only from a trial registry entry, with little else published.",

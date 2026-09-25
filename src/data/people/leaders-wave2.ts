@@ -1,4 +1,5 @@
 import type { PersonInput } from "@/lib/schema";
+import { COOPERATIVE_GROUP_IDS } from "../companies-cooperative-groups";
 
 /**
  * People, wave 2: the publicly listed leader (director, CEO, chief medical officer or head of oncology)
@@ -10,7 +11,8 @@ const asOf = "2026-09-10";
 const doi = (title: string, journal: string | undefined, year: number | undefined, d: string) => ({ title, journal, year, doi: d, url: `https://doi.org/${d}` });
 
 type P = Omit<PersonInput, "kind" | "asOf"> & { institutionId: string };
-const p = (x: P): PersonInput => ({ kind: "person", asOf, institutions: [x.institutionId], links: x.profiles, ...x });
+// A cooperative trials group is a company record, so a person whose primary affiliation is a group is filed under `companies`.
+const p = (x: P): PersonInput => ({ kind: "person", asOf, ...(COOPERATIVE_GROUP_IDS.has(x.institutionId) ? { companies: [x.institutionId] } : { institutions: [x.institutionId] }), links: x.profiles, ...x });
 
 export const peopleLeadersWave2: PersonInput[] = [
   // =================== Organisation of European Cancer Institutes ===================
@@ -917,7 +919,7 @@ export const peopleLeadersWave2: PersonInput[] = [
     profiles: [{ label: "Society page", url: "https://siope.eu/about-siope/board/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Dirksen+U%5BAuthor%5D" }],
     tags: ["leadership", "clinician-scientist", "paediatric oncology", "sarcoma"], cancers: ["ewing-sarcoma", "osteosarcoma"], trials: ["euro-ewing-2012"],
     papers: [{ title: "High-Dose Chemotherapy Compared With Standard Chemotherapy and Lung Radiation in Ewing Sarcoma With Pulmonary Metastases: Results of the European Ewing Tumour Working Initiative of National Groups, 99 Trial and EWING 2008", journal: "Journal of Clinical Oncology", year: 2019, doi: "10.1200/jco.19.00915" }, { title: "Rhabdomyosarcoma, Ewing Sarcoma, and Other Round Cell Sarcomas", journal: "Journal of Clinical Oncology", year: 2018, doi: "10.1200/jco.2017.74.7402" }, { title: "Cyclophosphamide Compared With Ifosfamide in Consolidation Treatment of Standard-Risk Ewing Sarcoma: Results of the Randomized Noninferiority Euro-EWING99-R1 Trial", journal: "Journal of Clinical Oncology", year: 2014, doi: "10.1200/jco.2013.54.4833" }] }),
-  p({ id: "gilles-vassal", institutions: ["accelerate-platform", "gustave-roussy", "itcc"], name: "Gilles Vassal", role: "Board member, Oncopolicy", institutionId: "siop-europe", specialisms: ["Paediatric oncology", "Paediatric drug development", "Oncology policy"],
+  p({ id: "gilles-vassal", institutions: ["accelerate-platform", "gustave-roussy"], companies: ["itcc"], name: "Gilles Vassal", role: "Board member, Oncopolicy", institutionId: "siop-europe", specialisms: ["Paediatric oncology", "Paediatric drug development", "Oncology policy"],
     tldr: "Gustave Roussy paediatric oncologist and past SIOPE president who leads its oncopolicy work and helped shape European paediatric medicines regulation.",
     summary: "Gilles Vassal is a member of the SIOP Europe board responsible for oncopolicy and is Professor of Paediatric Oncology at Gustave Roussy, Villejuif. A former SIOPE president, he has been a leading advocate for the EU Paediatric Regulation and for the ACCELERATE platform to speed access to innovative medicines for children with cancer, and he founded the Innovative Therapies for Children with Cancer (ITCC) consortium.",
     profiles: [{ label: "Society page", url: "https://siope.eu/about-siope/board/" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Vassal+G%5BAuthor%5D" }],

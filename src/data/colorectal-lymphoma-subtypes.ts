@@ -44,7 +44,7 @@ export const colorectalLymphomaTrials: TrialInput[] = [
     ],
     replication: "The Chinese FOWARC trial had earlier reported similar disease control with FOLFOX alone; national guidelines in the US and Europe added the chemotherapy-first option in 2023 and 2024.",
     drugs: ["folfox", "fluorouracil", "capecitabine"], cancers: ["colorectal", "rectal-cancer"], terms: ["chemoradiation", "total-mesorectal-excision"], technologies: ["imrt-igrt"],
-    institutions: ["alliance-oncology"],
+    companies: ["alliance-oncology"],
     links: [ct("NCT01515787"), { label: "New England Journal of Medicine 2023", url: "https://doi.org/10.1056/NEJMoa2303269" }] },
   { id: "beacon-crc", kind: "trial", name: "BEACON CRC", nct: "NCT02928224", phase: "3", status: "positive", yearReported: 2019, sponsor: "Pfizer (Array BioPharma)", enrolled: 665, asOf,
     setting: "BRAF V600E-mutant metastatic colorectal cancer after one or two prior lines: encorafenib plus cetuximab with or without binimetinib, versus irinotecan-based chemotherapy plus cetuximab",

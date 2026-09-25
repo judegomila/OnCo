@@ -357,6 +357,181 @@
       "source": "/drugs/iobenguane-i-131/:path*",
       "destination": "/drugs/i131-mibg/:path*",
       "permanent": true
+    },
+    {
+      "source": "/institutions/swog/:path*",
+      "destination": "/companies/swog/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/nrg-oncology/:path*",
+      "destination": "/companies/nrg-oncology/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/alliance-oncology/:path*",
+      "destination": "/companies/alliance-oncology/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/ecog-acrin/:path*",
+      "destination": "/companies/ecog-acrin/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/childrens-oncology-group/:path*",
+      "destination": "/companies/childrens-oncology-group/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/cctg/:path*",
+      "destination": "/companies/cctg/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/big/:path*",
+      "destination": "/companies/big/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/gbg/:path*",
+      "destination": "/companies/gbg/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/jcog/:path*",
+      "destination": "/companies/jcog/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/unicancer/:path*",
+      "destination": "/companies/unicancer/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/curie-nki-eortc/:path*",
+      "destination": "/companies/curie-nki-eortc/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/abcsg/:path*",
+      "destination": "/companies/abcsg/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/wjog/:path*",
+      "destination": "/companies/wjog/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/kcsg/:path*",
+      "destination": "/companies/kcsg/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/trog/:path*",
+      "destination": "/companies/trog/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/anzup/:path*",
+      "destination": "/companies/anzup/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/agitg/:path*",
+      "destination": "/companies/agitg/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/breast-cancer-trials/:path*",
+      "destination": "/companies/breast-cancer-trials/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/geicam/:path*",
+      "destination": "/companies/geicam/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/solti/:path*",
+      "destination": "/companies/solti/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/hovon/:path*",
+      "destination": "/companies/hovon/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/gimema/:path*",
+      "destination": "/companies/gimema/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/ielsg/:path*",
+      "destination": "/companies/ielsg/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/lysa/:path*",
+      "destination": "/companies/lysa/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/german-lymphoma-alliance/:path*",
+      "destination": "/companies/german-lymphoma-alliance/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/ghsg/:path*",
+      "destination": "/companies/ghsg/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/nordic-lymphoma-group/:path*",
+      "destination": "/companies/nordic-lymphoma-group/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/cclg/:path*",
+      "destination": "/companies/cclg/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/etop-ibcsg/:path*",
+      "destination": "/companies/etop-ibcsg/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/ifct/:path*",
+      "destination": "/companies/ifct/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/arcagy-gineco/:path*",
+      "destination": "/companies/arcagy-gineco/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/gog-foundation/:path*",
+      "destination": "/companies/gog-foundation/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/nsabp-foundation/:path*",
+      "destination": "/companies/nsabp-foundation/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/ctong/:path*",
+      "destination": "/companies/ctong/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/institutions/itcc/:path*",
+      "destination": "/companies/itcc/:path*",
+      "permanent": true
     }
   ],
   "ignoreCommand": "if [ \"$VERCEL_GIT_COMMIT_AUTHOR_LOGIN\" = \"github-actions[bot]\" ]; then exit 1; else exit 0; fi"

@@ -57,7 +57,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Overall survival at 4 years, low-risk relapse", unit: "%", arms: [{ name: "Chemotherapy with blinatumomab blocks", value: 90.4 }, { name: "Chemotherapy alone", value: 79.6 }], p: "0.11", source: doi("10.1200/jco.22.02200") },
       { endpoint: "Disease-free survival at 4 years, low-risk relapse involving the bone marrow", unit: "%", arms: [{ name: "Chemotherapy with blinatumomab blocks", value: 72.7, note: "174 patients with marrow relapse across both arms" }, { name: "Chemotherapy alone", value: 53.7 }], p: "0.015", source: doi("10.1200/jco.22.02200") },
     ],
-    drugs: ["blinatumomab"], cancers: ["all-paediatric-relapsed", "all-leukemia", "leukaemia"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-aall1331-brown-jama-2021", "paper-aall1331-low-risk-hogan-jco-2023"], links: [ct("NCT02101853")] }),
+    drugs: ["blinatumomab"], cancers: ["all-paediatric-relapsed", "all-leukemia", "leukaemia"], companies: ["childrens-oncology-group"], keyPapers: ["paper-aall1331-brown-jama-2021", "paper-aall1331-low-risk-hogan-jco-2023"], links: [ct("NCT02101853")] }),
 
   t({ id: "graall-2005", name: "GRAALL-2005", aka: ["GRAALL 2005", "GRAALL"], nct: "NCT00327678", phase: "3", status: "completed", yearReported: 2018, sponsor: "Assistance Publique - Hôpitaux de Paris", enrolled: 1080,
     technologies: ["cytotoxic-chemotherapy"],
@@ -111,7 +111,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Event-free survival from study entry, high allelic ratio FLT3-ITD (hazard for patients not given sorafenib against sorafenib cohorts 2 and 3)", arms: [{ name: "Chemotherapy without sorafenib (comparator)", n: 76 }, { name: "Chemotherapy + sorafenib (cohorts 2 and 3)", n: 72 }], hr: 2.37, ci: [1.45, 3.88], source: doi("10.1200/jco.21.01612") },
       { endpoint: "Relapse risk from complete remission, high allelic ratio FLT3-ITD (hazard for patients not given sorafenib)", arms: [{ name: "Chemotherapy without sorafenib (comparator)", n: 76 }, { name: "Chemotherapy + sorafenib (cohorts 2 and 3)", n: 72 }], hr: 3.03, ci: [1.31, 7.04], p: "0.010", source: doi("10.1200/jco.21.01612") },
     ],
-    drugs: ["bortezomib", "sorafenib"], cancers: ["aml-paediatric", "aml-flt3", "aml", "leukaemia"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-aaml1031-bortezomib-aplenc-haematologica-2020", "paper-aaml1031-sorafenib-flt3-pollard-jco-2022"], links: [ct("NCT01371981")] }),
+    drugs: ["bortezomib", "sorafenib"], cancers: ["aml-paediatric", "aml-flt3", "aml", "leukaemia"], companies: ["childrens-oncology-group"], keyPapers: ["paper-aaml1031-bortezomib-aplenc-haematologica-2020", "paper-aaml1031-sorafenib-flt3-pollard-jco-2022"], links: [ct("NCT01371981")] }),
 
   t({ id: "cll12", name: "CLL12", aka: ["GCLLSG CLL12"], nct: "NCT02863718", phase: "3", status: "mixed", yearReported: 2024, sponsor: "German CLL Study Group", enrolled: 515,
     technologies: ["kinase-inhibitors", "active-surveillance"],
@@ -137,7 +137,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Event-free survival at 5 years, patients aged 1 to 9 by regimen", unit: "%", arms: [{ name: "Dexamethasone + high-dose methotrexate", value: 91.2 }, { name: "Dexamethasone + Capizzi methotrexate", value: 83.2 }, { name: "Prednisone + high-dose methotrexate", value: 80.8 }, { name: "Prednisone + Capizzi methotrexate", value: 82.1 }], p: "0.015", source: doi("10.1200/JCO.2015.62.4544") },
       { endpoint: "Event-free survival at 5 years, patients aged 10 and over (registry results)", unit: "%", arms: [{ name: "Dexamethasone + high-dose methotrexate", value: 77.0 }, { name: "Dexamethasone + Capizzi methotrexate", value: 69.1 }, { name: "Prednisone + high-dose methotrexate", value: 75.8 }, { name: "Prednisone + Capizzi methotrexate", value: 73.5 }], source: results("NCT00075725") },
     ],
-    drugs: ["methotrexate", "dexamethasone", "prednisone", "asparaginase"], cancers: ["all-paediatric-high-risk", "all-leukemia", "leukaemia"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-aall0232-larsen-jco-2016"], links: [ct("NCT00075725")] }),
+    drugs: ["methotrexate", "dexamethasone", "prednisone", "asparaginase"], cancers: ["all-paediatric-high-risk", "all-leukemia", "leukaemia"], companies: ["childrens-oncology-group"], keyPapers: ["paper-aall0232-larsen-jco-2016"], links: [ct("NCT00075725")] }),
 
   t({ id: "aall1231", name: "AALL1231", aka: ["COG AALL1231"], nct: "NCT02112916", phase: "3", status: "mixed", yearReported: 2022, sponsor: "National Cancer Institute (NCI)", enrolled: 847,
     technologies: ["cytotoxic-chemotherapy"],
@@ -152,14 +152,14 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Overall survival at 4 years, T-lymphoblastic lymphoma", unit: "%", arms: [{ name: "Modified augmented BFM + bortezomib", value: 89.5 }, { name: "Modified augmented BFM", value: 78.3 }], p: "0.009", source: doi("10.1200/jco.21.02678") },
       { endpoint: "Event-free survival at 3 years, all randomised patients (registry results)", unit: "%", arms: [{ name: "Modified augmented BFM + bortezomib", value: 85.1 }, { name: "Modified augmented BFM", value: 81.7 }], hr: 0.782, ci: [0.561, 1.091], p: "0.074", source: results("NCT02112916") },
     ],
-    drugs: ["bortezomib", "dexamethasone", "asparaginase"], cancers: ["all-paediatric-high-risk", "all-leukemia", "leukaemia"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-aall1231-bortezomib-t-all-teachey-jco-2022"], links: [ct("NCT02112916")] }),
+    drugs: ["bortezomib", "dexamethasone", "asparaginase"], cancers: ["all-paediatric-high-risk", "all-leukemia", "leukaemia"], companies: ["childrens-oncology-group"], keyPapers: ["paper-aall1231-bortezomib-t-all-teachey-jco-2022"], links: [ct("NCT02112916")] }),
 
   t({ id: "aall1521", name: "AALL1521", aka: ["COG AALL1521", "INCB 18424-269"], nct: "NCT02723994", phase: "2", status: "completed", sponsor: "Incyte Corporation", enrolled: 171,
     technologies: ["kinase-inhibitors", "cytotoxic-chemotherapy"],
     setting: "Children and young adults with newly diagnosed high-risk Philadelphia chromosome-like B-cell acute lymphoblastic leukaemia carrying a CRLF2 rearrangement or a JAK pathway mutation: the JAK1 and JAK2 inhibitor ruxolitinib added to post-induction chemotherapy, in a dose-finding part and an efficacy part with three-year event-free survival as the endpoint",
     tldr: "AALL1521 is the trial that added the JAK-blocking pill ruxolitinib to chemotherapy for children whose leukaemia looks like Philadelphia-positive disease but is driven by JAK signalling; it has finished treating patients and the survival results are awaited.",
     summary: "AALL1521 is a single-arm phase 2 study run by Incyte with the Children's Oncology Group in children and young adults with newly diagnosed high-risk B-cell acute lymphoblastic leukaemia that is Philadelphia chromosome-like with a CRLF2 rearrangement or a JAK pathway mutation, or with other JAK-STAT activating lesions. Ruxolitinib was added to the AALL1131 high-risk chemotherapy backbone from consolidation onwards. Part 1 established the safe dose and schedule; Part 2 measures three-year event-free survival in each genetic cohort.\n\nThe study enrolled 171 patients and is recorded as completed with a primary completion date of March 2026. No primary results have been posted on the registry or published in a journal indexed by Europe PMC, so the corpus records what the trial tests and not a result. The Philadelphia-like leukaemia page cites it as the trial through which ruxolitinib is being added to chemotherapy.",
-    drugs: ["ruxolitinib"], cancers: ["all-ph-like", "all-leukemia", "leukaemia"], companies: ["incyte"], institutions: ["childrens-oncology-group"], links: [ct("NCT02723994")] }),
+    drugs: ["ruxolitinib"], cancers: ["all-ph-like", "all-leukemia", "leukaemia"], companies: ["incyte", "childrens-oncology-group"], links: [ct("NCT02723994")] }),
 
   t({ id: "esphall", name: "EsPhALL (EsPhALL2004 and EsPhALL2010)", aka: ["EsPhALL", "ESPHALL", "EsPhALL2004", "EsPhALL2010"], nct: "NCT00287105", phase: "2", status: "completed", yearReported: 2018, sponsor: "Rennes University Hospital", enrolled: 178, enrolledBasis: "registered", enrolledNote: "The registry lists 49 patients because most were registered through their national front-line trials; the EsPhALL2004 report enrolled 178 patients (108 good risk, 70 poor risk) and the single-arm EsPhALL2010 amendment a further 155.",
     technologies: ["kinase-inhibitors", "cytotoxic-chemotherapy", "allogeneic-hsct"],
@@ -276,7 +276,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Progression-free survival at 3 years, localised germinoma given reduced-dose radiotherapy (registry results)", primary: true, unit: "%", arms: [{ name: "Carboplatin and etoposide then response-based reduced-dose radiotherapy", value: 86.49, note: "95% CI 76.55 to 93.32" }], source: results("NCT01602666") },
       { endpoint: "Progression-free survival at 3 years, non-germinomatous stratum (registry results, all treated)", unit: "%", arms: [{ name: "Chemotherapy then reduced whole-ventricular irradiation", value: 83.33, note: "95% CI 72.13 to 91.38" }], source: results("NCT01602666") },
     ],
-    drugs: ["carboplatin", "etoposide", "ifosfamide"], cancers: ["cns-germ-cell-tumours", "paediatric-germ-cell-tumours", "brain-tumours", "childhood-cancers"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-acns1123-nggct-reduced-radiotherapy-fangusaro-jco-2019"], links: [ct("NCT01602666")] }),
+    drugs: ["carboplatin", "etoposide", "ifosfamide"], cancers: ["cns-germ-cell-tumours", "paediatric-germ-cell-tumours", "brain-tumours", "childhood-cancers"], companies: ["childrens-oncology-group"], keyPapers: ["paper-acns1123-nggct-reduced-radiotherapy-fangusaro-jco-2019"], links: [ct("NCT01602666")] }),
 
   t({ id: "acns0122", name: "ACNS0122", aka: ["COG ACNS0122"], nct: "NCT00047320", phase: "2", status: "completed", yearReported: 2015, sponsor: "Children's Oncology Group", enrolled: 104,
     technologies: ["cytotoxic-chemotherapy", "autologous-stem-cell-transplant"],
@@ -289,7 +289,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Progression-free survival at 3 years (as reported in the ACNS1123 comparison)", unit: "%", arms: [{ name: "Chemotherapy, second-look surgery, 36 Gy craniospinal irradiation with boost", value: 92 }], source: doi("10.1200/JCO.19.00701") },
       { endpoint: "Overall survival at 3 years (as reported in the ACNS1123 comparison)", unit: "%", arms: [{ name: "Chemotherapy, second-look surgery, 36 Gy craniospinal irradiation with boost", value: 94.1 }], source: doi("10.1200/JCO.19.00701") },
     ],
-    drugs: ["carboplatin", "etoposide", "ifosfamide", "thiotepa"], cancers: ["cns-germ-cell-tumours", "brain-tumours", "childhood-cancers"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-acns1123-nggct-reduced-radiotherapy-fangusaro-jco-2019"], links: [ct("NCT00047320")] }),
+    drugs: ["carboplatin", "etoposide", "ifosfamide", "thiotepa"], cancers: ["cns-germ-cell-tumours", "brain-tumours", "childhood-cancers"], companies: ["childrens-oncology-group"], keyPapers: ["paper-acns1123-nggct-reduced-radiotherapy-fangusaro-jco-2019"], links: [ct("NCT00047320")] }),
 
   t({ id: "acns0333", name: "ACNS0333", aka: ["COG ACNS0333"], nct: "NCT00653068", phase: "3", status: "positive", yearReported: 2020, sponsor: "Children's Oncology Group", enrolled: 70,
     technologies: ["cytotoxic-chemotherapy", "autologous-stem-cell-transplant", "imrt-igrt"],
@@ -303,7 +303,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Overall survival at 4 years, entire cohort", unit: "%", arms: [{ name: "ACNS0333 regimen", n: 65, value: 43, note: "95% CI 31 to 55" }], source: doi("10.1200/JCO.19.01776") },
       { endpoint: "Treatment-related deaths", unit: "participants", arms: [{ name: "ACNS0333 regimen", n: 65, value: 4 }], source: doi("10.1200/JCO.19.01776") },
     ],
-    drugs: ["carboplatin", "cisplatin", "cyclophosphamide", "etoposide", "thiotepa", "methotrexate", "vincristine"], cancers: ["atrt", "brain-tumours", "childhood-cancers"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-acns0333-atrt-high-dose-chemotherapy-reddy-jco-2020"], links: [ct("NCT00653068")] }),
+    drugs: ["carboplatin", "cisplatin", "cyclophosphamide", "etoposide", "thiotepa", "methotrexate", "vincristine"], cancers: ["atrt", "brain-tumours", "childhood-cancers"], companies: ["childrens-oncology-group"], keyPapers: ["paper-acns0333-atrt-high-dose-chemotherapy-reddy-jco-2020"], links: [ct("NCT00653068")] }),
 
   t({ id: "acns0121", name: "ACNS0121", aka: ["COG ACNS0121"], nct: "NCT00027846", phase: "2", status: "positive", yearReported: 2019, sponsor: "Children's Oncology Group", enrolled: 378,
     technologies: ["imrt-igrt", "cytotoxic-chemotherapy"],
@@ -315,7 +315,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Event-free survival at 5 years by treatment group", primary: true, unit: "%", arms: [{ name: "Near-total or gross-total resection then immediate conformal radiotherapy", value: 68.5, note: "95% CI 62.8 to 74.2" }, { name: "Observation after complete resection of differentiated supratentorial ependymoma", value: 61.4, note: "95% CI 34.5 to 89.6" }, { name: "Subtotal resection: chemotherapy, second surgery, radiotherapy", value: 37.2, note: "95% CI 24.8 to 49.6" }], source: doi("10.1200/JCO.18.01765") },
       { endpoint: "Event-free survival at 5 years, infratentorial tumours by 1q status", unit: "%", arms: [{ name: "Without 1q gain", value: 82.8 }, { name: "With 1q gain", value: 47.4 }], p: "0.0013", source: doi("10.1200/JCO.18.01765") },
     ],
-    drugs: ["carboplatin", "cyclophosphamide", "etoposide", "vincristine"], cancers: ["ependymoma", "brain-tumours", "childhood-cancers"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-acns0121-ependymoma-conformal-radiotherapy-merchant-jco-2019"], links: [ct("NCT00027846")] }),
+    drugs: ["carboplatin", "cyclophosphamide", "etoposide", "vincristine"], cancers: ["ependymoma", "brain-tumours", "childhood-cancers"], companies: ["childrens-oncology-group"], keyPapers: ["paper-acns0121-ependymoma-conformal-radiotherapy-merchant-jco-2019"], links: [ct("NCT00027846")] }),
 
   t({ id: "noa-08", name: "NOA-08", aka: ["Methusalem", "NOA-8"], nct: "NCT01502241", phase: "3", status: "positive", yearReported: 2012, sponsor: "Heidelberg University", enrolled: 412,
     technologies: ["cytotoxic-chemotherapy", "imrt-igrt"],
@@ -344,7 +344,7 @@ export const trialsSocWave: TrialInput[] = [
     setting: "Newly diagnosed average-risk WNT-driven medulloblastoma in children aged 3 to 21: reduced craniospinal irradiation of 18 Gy with a reduced tumour-bed boost and reduced maintenance chemotherapy (cisplatin, cyclophosphamide, lomustine, vincristine)",
     tldr: "ACNS1422 tests whether children with the WNT type of medulloblastoma, who almost always survive, can be given less radiotherapy to the brain and spine and less chemotherapy without more relapses; it has finished enrolling and the results are awaited.",
     summary: "ACNS1422 is a single-arm Children's Oncology Group phase 2 study of reduced therapy for children with average-risk WNT-activated medulloblastoma, a subgroup with survival above 90 percent on standard treatment. Craniospinal irradiation is reduced from 23.4 Gy to 18 Gy with a reduced boost volume, and maintenance chemotherapy is shortened. The primary endpoint is progression-free survival.\n\nThe registry gives an estimated enrolment of 45 with a primary completion date of March 2028 and no results. The corpus's WNT medulloblastoma page cites it with the St. Jude SJMB12 study (15 Gy) as the trials that define reduced-dose radiotherapy for this subgroup.",
-    drugs: ["cisplatin", "cyclophosphamide", "lomustine", "vincristine"], cancers: ["medulloblastoma-wnt", "medulloblastoma", "brain-tumours", "childhood-cancers"], institutions: ["childrens-oncology-group"], links: [ct("NCT02724579")] }),
+    drugs: ["cisplatin", "cyclophosphamide", "lomustine", "vincristine"], cancers: ["medulloblastoma-wnt", "medulloblastoma", "brain-tumours", "childhood-cancers"], companies: ["childrens-oncology-group"], links: [ct("NCT02724579")] }),
 
   t({ id: "ielsg32", name: "IELSG32", aka: ["IELSG-32", "MATRix trial"], nct: "NCT01011920", phase: "2", status: "positive", yearReported: 2016, sponsor: "International Extranodal Lymphoma Study Group (IELSG)", enrolled: 227,
     technologies: ["cytotoxic-chemotherapy", "autologous-stem-cell-transplant"],
@@ -357,7 +357,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Failure-free survival at 2 years after the second randomisation", primary: true, unit: "%", arms: [{ name: "Whole-brain radiotherapy 36 Gy with or without 9 Gy boost", value: 76, note: "95% CI 65 to 87" }, { name: "Carmustine-thiotepa conditioning and autologous stem cell transplant", value: 75, note: "95% CI 64 to 86" }], source: doi("10.1016/S2352-3026(17)30174-6") },
       { endpoint: "Deaths from toxicity during induction", unit: "%", arms: [{ name: "All induction arms", n: 219, value: 6 }], source: doi("10.1016/S2352-3026(16)00036-3") },
     ],
-    drugs: ["methotrexate", "cytarabine", "thiotepa", "rituximab", "carmustine"], cancers: ["primary-cns-lymphoma", "non-hodgkin-lymphoma", "brain-tumours"], institutions: ["ielsg"], keyPapers: ["paper-ielsg32-matrix-induction-ferreri-lancet-haematol-2016", "paper-ielsg32-wbrt-vs-asct-consolidation-ferreri-lancet-haematol-2017"], links: [ct("NCT01011920")] }),
+    drugs: ["methotrexate", "cytarabine", "thiotepa", "rituximab", "carmustine"], cancers: ["primary-cns-lymphoma", "non-hodgkin-lymphoma", "brain-tumours"], companies: ["ielsg"], keyPapers: ["paper-ielsg32-matrix-induction-ferreri-lancet-haematol-2016", "paper-ielsg32-wbrt-vs-asct-consolidation-ferreri-lancet-haematol-2017"], links: [ct("NCT01011920")] }),
 
   t({ id: "ielsg43", name: "MATRix/IELSG43", aka: ["IELSG43", "IELSG-43", "MATRix"], nct: "NCT02531841", phase: "3", status: "positive", yearReported: 2026, sponsor: "University Hospital Freiburg", enrolled: 368, enrolledBasis: "registered", enrolledNote: "The registry gives an estimated 250 and was not updated; the Lancet report enrolled 368 patients, 346 started induction and 230 were randomised (229 analysed).",
     technologies: ["autologous-stem-cell-transplant", "cytotoxic-chemotherapy"],
@@ -370,7 +370,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Mean adverse events per patient", arms: [{ name: "High-dose carmustine-thiotepa and autologous stem cell transplant", n: 114, value: 14.6 }, { name: "R-DeVIC non-myeloablative consolidation", n: 115, value: 9.3 }], source: doi("10.1016/S0140-6736(26)00917-7") },
       { endpoint: "Fatal serious adverse events after consolidation", unit: "participants", arms: [{ name: "High-dose carmustine-thiotepa and autologous stem cell transplant", n: 114, value: 5 }, { name: "R-DeVIC non-myeloablative consolidation", n: 115, value: 2 }], source: doi("10.1016/S0140-6736(26)00917-7") },
     ],
-    drugs: ["thiotepa", "carmustine", "rituximab", "methotrexate", "cytarabine", "etoposide", "ifosfamide", "carboplatin"], cancers: ["primary-cns-lymphoma", "non-hodgkin-lymphoma", "brain-tumours"], institutions: ["ccc-freiburg", "ielsg"], keyPapers: ["paper-matrix-ielsg43-asct-consolidation-pcnsl-illerhaus-lancet-2026"], links: [ct("NCT02531841")] }),
+    drugs: ["thiotepa", "carmustine", "rituximab", "methotrexate", "cytarabine", "etoposide", "ifosfamide", "carboplatin"], cancers: ["primary-cns-lymphoma", "non-hodgkin-lymphoma", "brain-tumours"], institutions: ["ccc-freiburg"], companies: ["ielsg"], keyPapers: ["paper-matrix-ielsg43-asct-consolidation-pcnsl-illerhaus-lancet-2026"], links: [ct("NCT02531841")] }),
 
   t({ id: "intuitt-nf2", name: "INTUITT-NF2", nct: "NCT04374305", phase: "2", status: "recruiting", yearReported: 2024, sponsor: "Scott R. Plotkin, MD, PhD (Massachusetts General Hospital)", enrolled: 109,
     technologies: ["kinase-inhibitors"],
@@ -398,7 +398,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Progression-free survival at 1 year, all dinutuximab patients", unit: "%", arms: [{ name: "Irinotecan + temozolomide + dinutuximab + GM-CSF", n: 53, value: 67.9 }], source: doi("10.1200/JCO.20.00203") },
       { endpoint: "Overall survival at 1 year, all dinutuximab patients", unit: "%", arms: [{ name: "Irinotecan + temozolomide + dinutuximab + GM-CSF", n: 53, value: 84.9 }], source: doi("10.1200/JCO.20.00203") },
     ],
-    drugs: ["irinotecan", "temozolomide", "dinutuximab", "temsirolimus", "sargramostim"], cancers: ["neuroblastoma-high-risk", "neuroblastoma", "childhood-cancers"], companies: ["united-therapeutics"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-anbl1221-irinotecan-temozolomide-dinutuximab-mody-lancet-oncol-2017", "paper-anbl1221-expansion-dinutuximab-gm-csf-mody-jco-2020"], links: [ct("NCT01767194")] }),
+    drugs: ["irinotecan", "temozolomide", "dinutuximab", "temsirolimus", "sargramostim"], cancers: ["neuroblastoma-high-risk", "neuroblastoma", "childhood-cancers"], companies: ["united-therapeutics", "childrens-oncology-group"], keyPapers: ["paper-anbl1221-irinotecan-temozolomide-dinutuximab-mody-lancet-oncol-2017", "paper-anbl1221-expansion-dinutuximab-gm-csf-mody-jco-2020"], links: [ct("NCT01767194")] }),
 
   t({ id: "anbl0531", name: "ANBL0531", aka: ["COG ANBL0531"], nct: "NCT00499616", phase: "3", status: "positive", yearReported: 2019, sponsor: "Children's Oncology Group", enrolled: 464,
     technologies: ["cytotoxic-chemotherapy"],
@@ -412,7 +412,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Event-free survival at 3 years, infants with stage 4 disease by biology", unit: "%", arms: [{ name: "Favourable biology", n: 61, value: 86.9 }, { name: "One or more unfavourable biological features", n: 47, value: 66.8 }], p: "0.02", source: doi("10.1200/JCO.19.00919") },
       { endpoint: "Overall survival at 3 years by treatment group (registry results)", primary: true, unit: "%", arms: [{ name: "Group 2 (two cycles, surgery)", value: 99.4 }, { name: "Group 3 (four cycles, surgery)", value: 93.5 }, { name: "Group 4 (eight cycles, surgery, isotretinoin)", value: 88.4 }], source: results("NCT00499616") },
     ],
-    drugs: ["carboplatin", "etoposide", "cyclophosphamide", "doxorubicin", "topotecan", "isotretinoin"], cancers: ["neuroblastoma-intermediate-risk", "neuroblastoma", "childhood-cancers"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-anbl0531-twist-jco-2019"], links: [ct("NCT00499616")] }),
+    drugs: ["carboplatin", "etoposide", "cyclophosphamide", "doxorubicin", "topotecan", "isotretinoin"], cancers: ["neuroblastoma-intermediate-risk", "neuroblastoma", "childhood-cancers"], companies: ["childrens-oncology-group"], keyPapers: ["paper-anbl0531-twist-jco-2019"], links: [ct("NCT00499616")] }),
 
   t({ id: "anbl17p1", name: "ANBL17P1", aka: ["COG ANBL17P1"], nct: "NCT03786783", phase: "2", status: "positive", yearReported: 2023, sponsor: "National Cancer Institute (NCI)", enrolled: 42,
     technologies: ["cytotoxic-chemotherapy", "autologous-stem-cell-transplant"],
@@ -424,7 +424,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Unacceptable toxicity over the first 5 cycles (registry results)", primary: true, unit: "%", arms: [{ name: "Induction chemotherapy + dinutuximab + GM-CSF", n: 42, value: 0.0 }], source: results("NCT03786783") },
       { endpoint: "Feasibility failure over the first 5 cycles (registry results)", primary: true, unit: "%", arms: [{ name: "Induction chemotherapy + dinutuximab + GM-CSF", n: 42, value: 0.0 }], source: results("NCT03786783") },
     ],
-    drugs: ["dinutuximab", "sargramostim", "cyclophosphamide", "topotecan", "cisplatin", "etoposide", "vincristine", "doxorubicin"], cancers: ["neuroblastoma-high-risk", "neuroblastoma", "childhood-cancers"], institutions: ["childrens-oncology-group"], links: [ct("NCT03786783"), { label: "ClinicalTrials.gov results", url: results("NCT03786783") }] }),
+    drugs: ["dinutuximab", "sargramostim", "cyclophosphamide", "topotecan", "cisplatin", "etoposide", "vincristine", "doxorubicin"], cancers: ["neuroblastoma-high-risk", "neuroblastoma", "childhood-cancers"], companies: ["childrens-oncology-group"], links: [ct("NCT03786783"), { label: "ClinicalTrials.gov results", url: results("NCT03786783") }] }),
 
   t({ id: "aews0031", name: "AEWS0031", aka: ["COG AEWS0031"], nct: "NCT00006734", phase: "3", status: "positive", yearReported: 2012, sponsor: "Children's Oncology Group", enrolled: 587,
     technologies: ["cytotoxic-chemotherapy"],
@@ -435,7 +435,7 @@ export const trialsSocWave: TrialInput[] = [
     outcomes: [
       { endpoint: "Event-free survival at 5 years", primary: true, unit: "%", arms: [{ name: "Interval-compressed VDC/IE every 14 days", n: 284, value: 73 }, { name: "Standard VDC/IE every 21 days", n: 284, value: 65 }], p: "0.048", source: doi("10.1200/JCO.2011.41.5703") },
     ],
-    drugs: ["vincristine", "doxorubicin", "cyclophosphamide", "ifosfamide", "etoposide", "filgrastim"], cancers: ["ewing-sarcoma", "sarcoma", "childhood-cancers"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-aews0031-interval-compressed-chemotherapy-ewing-womer-jco-2012"], links: [ct("NCT00006734")] }),
+    drugs: ["vincristine", "doxorubicin", "cyclophosphamide", "ifosfamide", "etoposide", "filgrastim"], cancers: ["ewing-sarcoma", "sarcoma", "childhood-cancers"], companies: ["childrens-oncology-group"], keyPapers: ["paper-aews0031-interval-compressed-chemotherapy-ewing-womer-jco-2012"], links: [ct("NCT00006734")] }),
 
   t({ id: "siopel-3", name: "SIOPEL-3", aka: ["SIOPEL 3", "SIOPEL3", "SIOP-SIOPEL-3"], nct: "NCT00003912", phase: "3", status: "positive", yearReported: 2009, sponsor: "Societe Internationale d'Oncologie Pediatrique", enrolled: 255, enrolledBasis: "randomised", enrolledNote: "The registry gives an estimated 260 for the whole liver tumour programme; the standard-risk randomisation reported in the New England Journal of Medicine randomised 255 children (126 to cisplatin, 129 to cisplatin plus doxorubicin) between 1998 and 2006.",
     technologies: ["cytotoxic-chemotherapy"],
@@ -472,7 +472,7 @@ export const trialsSocWave: TrialInput[] = [
     setting: "Malignant germ cell tumours in children, adolescents and adults up to 50: active surveillance after surgery for low-risk stage I disease, and a randomised comparison of carboplatin against cisplatin with bleomycin and etoposide for standard-risk disease, with hearing loss as a key outcome",
     tldr: "AGCT1531 is testing two ways to spare people with germ cell tumours from long-term harm: watching low-risk patients after surgery and giving chemotherapy only if the tumour returns, and swapping cisplatin for carboplatin, which is kinder to hearing, in standard-risk disease; it is still recruiting.",
     summary: "AGCT1531 is a Children's Oncology Group phase 3 study run with adult cooperative groups for malignant extracranial germ cell tumours from birth to age 50. Low-risk patients (stage I) enter active surveillance after surgery with chemotherapy reserved for relapse. Standard-risk patients are randomised to bleomycin, etoposide and carboplatin or bleomycin, etoposide and cisplatin, with paediatric and adult dosing schedules; the primary endpoints are event-free and overall survival at two years, and ototoxicity is a central secondary endpoint.\n\nThe registry gives an estimated enrolment of 1,780 with a primary completion date of June 2027 and no results. The corpus's childhood germ cell tumour page cites the AGCT1531 stratum for surveillance with chemotherapy only at relapse.",
-    drugs: ["carboplatin", "cisplatin", "bleomycin", "etoposide"], cancers: ["paediatric-germ-cell-tumours", "extragonadal-germ-cell-tumour", "testicular", "childhood-cancers"], institutions: ["childrens-oncology-group"], links: [ct("NCT03067181")] }),
+    drugs: ["carboplatin", "cisplatin", "bleomycin", "etoposide"], cancers: ["paediatric-germ-cell-tumours", "extragonadal-germ-cell-tumour", "testicular", "childhood-cancers"], companies: ["childrens-oncology-group"], links: [ct("NCT03067181")] }),
 
   t({ id: "ahod1331", name: "AHOD1331", aka: ["COG AHOD1331"], nct: "NCT02166463", phase: "3", status: "positive", yearReported: 2022, sponsor: "National Cancer Institute (NCI)", enrolled: 600,
     technologies: ["adc", "cytotoxic-chemotherapy"],
@@ -485,7 +485,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Overall survival at 3 years", unit: "%", arms: [{ name: "Brentuximab vedotin + AVEPC", value: 99.3, note: "95% CI 97.3 to 99.8" }, { name: "ABVE-PC (standard care)", value: 98.5, note: "95% CI 96.0 to 99.4" }], source: doi("10.1056/NEJMoa2206660") },
       { endpoint: "Patients given involved-site radiotherapy", unit: "%", arms: [{ name: "Brentuximab vedotin + AVEPC", value: 53.4 }, { name: "ABVE-PC (standard care)", value: 56.8 }], source: doi("10.1056/NEJMoa2206660") },
     ],
-    drugs: ["brentuximab-vedotin", "doxorubicin", "vincristine", "etoposide", "prednisone", "cyclophosphamide", "bleomycin"], cancers: ["hodgkin-lymphoma", "advanced-stage-classical-hodgkin-lymphoma", "childhood-cancers"], institutions: ["childrens-oncology-group"], keyPapers: ["paper-ahod1331-brentuximab-vedotin-paediatric-hodgkin-castellino-nejm-2022"], links: [ct("NCT02166463")] }),
+    drugs: ["brentuximab-vedotin", "doxorubicin", "vincristine", "etoposide", "prednisone", "cyclophosphamide", "bleomycin"], cancers: ["hodgkin-lymphoma", "advanced-stage-classical-hodgkin-lymphoma", "childhood-cancers"], companies: ["childrens-oncology-group"], keyPapers: ["paper-ahod1331-brentuximab-vedotin-paediatric-hodgkin-castellino-nejm-2022"], links: [ct("NCT02166463")] }),
 
   t({ id: "euronet-phl-c2", name: "EuroNet-PHL-C2", aka: ["EuroNet PHL-C2", "PHL-C2", "EuroNet-PHL-C2 trial"], nct: "NCT02684708", phase: "3", status: "completed", sponsor: "University of Giessen", enrolled: 2921,
     technologies: ["cytotoxic-chemotherapy", "imrt-igrt"],
@@ -748,7 +748,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Progression-free survival", unit: "months", arms: [{ name: "Carboplatin + weekly paclitaxel", n: 45, value: 8.1, note: "95% CI 6.6 to 8.8" }, { name: "Cisplatin + fluorouracil", n: 46, value: 5.7, note: "95% CI 3.3 to 9.0" }], source: doi("10.1200/JCO.19.03266") },
       { endpoint: "Serious adverse events", unit: "%", arms: [{ name: "Carboplatin + weekly paclitaxel", n: 45, value: 36 }, { name: "Cisplatin + fluorouracil", n: 46, value: 62 }], p: "0.016", source: doi("10.1200/JCO.19.03266") },
     ],
-    drugs: ["carboplatin", "paclitaxel", "cisplatin", "fluorouracil"], cancers: ["metastatic-anal-cancer", "anal"], institutions: ["royal-marsden", "ecog-acrin"], keyPapers: ["paper-interaact-carboplatin-paclitaxel-advanced-anal-cancer-rao-jco-2020"], links: [ct("NCT02051868"), ct("NCT02560298")] }),
+    drugs: ["carboplatin", "paclitaxel", "cisplatin", "fluorouracil"], cancers: ["metastatic-anal-cancer", "anal"], institutions: ["royal-marsden"], companies: ["ecog-acrin"], keyPapers: ["paper-interaact-carboplatin-paclitaxel-advanced-anal-cancer-rao-jco-2020"], links: [ct("NCT02051868"), ct("NCT02560298")] }),
 
   t({ id: "nci9673", name: "NCI9673", aka: ["NCI 9673", "ETCTN 9673"], nct: "NCT02314169", phase: "2", status: "mixed", yearReported: 2017, sponsor: "National Cancer Institute (NCI)", enrolled: 143,
     technologies: ["checkpoint-inhibitor"],
@@ -823,7 +823,7 @@ export const trialsSocWave: TrialInput[] = [
     setting: "Multiple myeloma after autologous stem cell transplant: maintenance with lenalidomide alone or with subcutaneous daratumumab, then a second randomisation in patients who are MRD-negative after two years between continuing and stopping maintenance, with overall survival as the primary endpoint",
     tldr: "DRAMMATIC asks two questions about maintenance treatment after a stem cell transplant for myeloma: whether adding daratumumab to lenalidomide helps people live longer, and whether those whose tests show no detectable disease after two years can safely stop; it is still running with about 1,100 patients.",
     summary: "DRAMMATIC (SWOG S1803) is a US National Clinical Trials Network phase 3 trial in patients with multiple myeloma after autologous stem cell transplant, randomised to lenalidomide maintenance or lenalidomide with subcutaneous daratumumab. After two years, patients who are MRD-negative are randomised a second time to continue or stop maintenance, making the trial one of the first to test MRD-guided discontinuation. The primary endpoint is overall survival, assessed for up to 15 years.\n\nThe registry lists an estimated 1,100 participants, active and no longer recruiting, with primary completion in 2032 and no results. The corpus's multiple myeloma page cites DRAMMATIC with MASTER for MRD-guided discontinuation in trials.",
-    drugs: ["daratumumab", "lenalidomide"], cancers: ["multiple-myeloma", "myeloma-transplant-eligible"], companies: ["johnson-johnson"], institutions: ["swog"], links: [ct("NCT04071457")] }),
+    drugs: ["daratumumab", "lenalidomide"], cancers: ["multiple-myeloma", "myeloma-transplant-eligible"], companies: ["johnson-johnson", "swog"], links: [ct("NCT04071457")] }),
 
   // ---------------------------------------------------------------- Rare cancers (phaeochromocytoma, penile, testicular, adrenocortical, trophoblastic, small bowel)
   t({ id: "firstmappp", name: "FIRSTMAPPP", aka: ["First International Randomized Study in Malignant Progressive Pheochromocytoma and Paraganglioma", "IGR2010/1715"], nct: "NCT01371201", phase: "2", status: "positive", yearReported: 2024, sponsor: "Gustave Roussy", enrolled: 78,
@@ -844,7 +844,7 @@ export const trialsSocWave: TrialInput[] = [
     setting: "Penile squamous cell carcinoma with inguinal lymph node involvement: a Bayesian multi-arm trial randomising between immediate inguinal node dissection, neoadjuvant paclitaxel, ifosfamide and cisplatin (TIP) then surgery, and neoadjuvant cisplatin chemoradiotherapy then surgery, with a second randomisation to prophylactic pelvic node dissection or surveillance in high-risk patients, and overall survival as the primary endpoint",
     tldr: "InPACT is the first international trial in penile cancer that has spread to the groin nodes; it tests whether chemotherapy or chemoradiotherapy before removing the nodes, and preventive removal of pelvic nodes afterwards, help people live longer, and it is the reason chemoradiotherapy is offered within the trial as an alternative to chemotherapy.",
     summary: "InPACT is an International Rare Cancers Initiative phase 3 trial led by the Institute of Cancer Research with ECOG-ACRIN and the National Cancer Institute, using a Bayesian multi-arm design in about 200 patients with node-positive penile squamous cell carcinoma. The first randomisation compares standard inguinal lymph node dissection with neoadjuvant TIP chemotherapy or neoadjuvant cisplatin-based chemoradiotherapy before surgery; a second randomisation in patients at high risk of pelvic relapse compares prophylactic pelvic lymph node dissection with surveillance. The primary endpoint is overall survival.\n\nThe registry lists the trial as active and no longer recruiting with primary completion in 2027 and no results. The corpus's node-positive penile cancer page cites InPACT for chemoradiotherapy as an alternative to neoadjuvant chemotherapy within the trial.",
-    drugs: ["paclitaxel", "ifosfamide", "cisplatin"], cancers: ["node-positive-penile-cancer", "penile"], institutions: ["icr-london", "ecog-acrin"], links: [ct("NCT02305654")] }),
+    drugs: ["paclitaxel", "ifosfamide", "cisplatin"], cancers: ["node-positive-penile-cancer", "penile"], institutions: ["icr-london"], companies: ["ecog-acrin"], links: [ct("NCT02305654")] }),
 
   t({ id: "getug-13", name: "GETUG 13", aka: ["GETUG-13", "GETUG13"], nct: "NCT00104676", phase: "3", status: "positive", yearReported: 2014, sponsor: "UNICANCER", enrolled: 263,
     technologies: ["cytotoxic-chemotherapy"],
@@ -858,7 +858,7 @@ export const trialsSocWave: TrialInput[] = [
       { endpoint: "Salvage high-dose chemotherapy with stem cell transplant required", unit: "%", arms: [{ name: "Dose-dense chemotherapy", n: 105, value: 6 }, { name: "Standard BEP", n: 98, value: 16 }], source: doi("10.1016/S1470-2045(14)70490-5") },
       { endpoint: "Grade 3 to 4 neurotoxicity", unit: "%", arms: [{ name: "Dose-dense chemotherapy", n: 105, value: 7 }, { name: "Standard BEP", n: 98, value: 1 }], source: doi("10.1016/S1470-2045(14)70490-5") },
     ],
-    drugs: ["bleomycin", "etoposide", "cisplatin", "paclitaxel", "oxaliplatin", "ifosfamide"], cancers: ["non-seminoma", "testicular"], institutions: ["unicancer", "md-anderson"], keyPapers: ["paper-getug-13-marker-guided-dose-dense-chemotherapy-fizazi-lancet-oncol-2014"], links: [ct("NCT00104676")] }),
+    drugs: ["bleomycin", "etoposide", "cisplatin", "paclitaxel", "oxaliplatin", "ifosfamide"], cancers: ["non-seminoma", "testicular"], institutions: ["md-anderson"], companies: ["unicancer"], keyPapers: ["paper-getug-13-marker-guided-dose-dense-chemotherapy-fizazi-lancet-oncol-2014"], links: [ct("NCT00104676")] }),
 
   t({ id: "adiuvo", name: "ADIUVO", aka: ["ADIUVO trial"], nct: "NCT00777244", phase: "3", status: "negative", yearReported: 2023, sponsor: "University of Turin, Italy", enrolled: 91, enrolledBasis: "randomised", enrolledNote: "The registry gives an estimated 200 and was never updated; the Lancet Diabetes and Endocrinology report randomised 91 patients (45 mitotane, 46 surveillance) between 2008 and 2018 before the trial closed for slow recruitment, alongside an observational cohort of 95.",
     setting: "Completely resected adrenocortical carcinoma at low to intermediate risk of recurrence (stage I to III, R0, Ki67 10 percent or less) at 23 centres in seven countries: adjuvant mitotane for at least two years against surveillance, with recurrence-free survival as the primary endpoint",

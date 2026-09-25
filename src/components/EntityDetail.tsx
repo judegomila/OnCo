@@ -366,9 +366,12 @@ function kindTabs(e: Entity): Tab[] {
           <Field label="Stage">{stage && <span className="inline-flex items-center gap-1.5"><StageIcon stage={stage} className="h-4 w-4 text-accent" />{STAGE_LABEL[stage]}{e.ycBatch && <span className="text-muted"> · Y Combinator {ycBatchLabel(e.ycBatch)}</span>}</span>}</Field>
           {e.website && <Field label={websiteView(e.website).label}><a className="underline break-all" href={e.website} rel="noopener">{websiteView(e.website).text}</a></Field>}
           <Field label="Founded">{e.founded}</Field>
+          {/* Cooperative groups came from institution records and keep their OpenAlex snapshot under the same id. */}
+          {e.companyType === "cooperative-group" && <ResearchOutput institutionId={e.id} />}
         </div>),
         ...(e.companyType === "investor" ? [{ id: "portfolio", label: "Portfolio", count: portfolio.length, content: <PortfolioPanel id={e.id} /> }] : []),
         ...productsTab([...new Map([...e.drugs.map((id) => g.must(id)), ...(g.incoming(e.id).get("drug") ?? [])].map((d) => [d.id, d])).values()]),
+        ...peopleTab([...(g.incoming(e.id).get("person") ?? []), ...e.people.map((id) => g.must(id))]),
       ];
     }
     case "institution": {
@@ -521,7 +524,7 @@ function kindTabs(e: Entity): Tab[] {
       return [
         overview(<div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
           <Field label="Role">{e.role}</Field>
-          <Field label="Institution">{inst && <Link className="underline" href={routeFor(inst)}>{inst.name}</Link>}</Field>
+          <Field label={inst?.kind === "company" ? "Group" : "Institution"}>{inst && <Link className="underline" href={routeFor(inst)}>{inst.name}</Link>}</Field>
           <Field label="Specialisms"><div className="flex flex-wrap gap-1">{e.specialisms.map((s) => <span key={s} className="chip bg-foreground/5">{s}</span>)}</div></Field>
           <Field label="Profiles"><ul className="space-y-0.5">{e.profiles.map((p) => <li key={p.url}><a className="underline" href={p.url} rel="noopener">{p.label}</a></li>)}{e.orcid && <li><a className="underline" href={`https://orcid.org/${e.orcid}`} rel="noopener">ORCID {e.orcid}</a></li>}</ul></Field>
         </div>),

@@ -546,7 +546,7 @@ export const papersRareWave: PaperInput[] = [
     whatItMeans: "Nodular lymphocyte-predominant Hodgkin lymphoma is rarely fatal when treated with standard Hodgkin lymphoma protocols, so the goal for most patients is to give less treatment, not more; the minority with advanced or variant disease still need better options.",
     caveats: ["Retrospective, and patients were treated on classical Hodgkin lymphoma protocols rather than with rituximab-based regimens now used by many centres.", "Trials spanned the 1990s to 2000s, so radiotherapy fields and chemotherapy were more intensive than current practice."],
     links: [{ label: "J Clin Oncol 2020", url: "https://doi.org/10.1200/JCO.19.00986" }, { label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/31626571/" }],
-    cancers: ["nodular-lymphocyte-predominant-hodgkin-lymphoma"], drugs: ["doxorubicin", "vinblastine", "dacarbazine"], institutions: ["ghsg"], journals: ["jco"] }),
+    cancers: ["nodular-lymphocyte-predominant-hodgkin-lymphoma"], drugs: ["doxorubicin", "vinblastine", "dacarbazine"], companies: ["ghsg"], journals: ["jco"] }),
 
   // ---------------------------------------------------------------------------------------------------------------------
   // Gestational trophoblastic neoplasia

@@ -542,6 +542,11 @@
       "permanent": true
     },
     {
+      "source": "/cancers/breast-carcinoma-medullary-pattern/:path*",
+      "destination": "/cancers/medullary-pattern-breast-carcinoma/:path*",
+      "permanent": true
+    },
+    {
       "source": "/key-papers/paper-adiuvo-adjuvant-mitotane-acc-lancet-diabetes-endocrinol-2023/:path*",
       "destination": "/key-papers/paper-adiuvo-adjuvant-mitotane-low-grade-acc-terzolo-lancet-diabetes-endocrinol-2023/:path*",
       "permanent": true

@@ -43,9 +43,15 @@ export function RedCards({ cards, cancerName, compact = false }: { cards: RedCar
         <h2 className={`${compact ? "text-base" : "text-lg"} font-semibold tracking-tight inline-flex items-center gap-2`}><RedCardsGlyph className="h-4 w-4 text-accent" />Red cards</h2>
         <span className="text-xs text-muted">From the labels and guidelines behind the standard of care. Your team&apos;s thresholds win.</span>
       </div>
+      {/* min-w-0 on the card: a grid item's automatic minimum size is its content's min-content width, and a
+          concern chip cannot wrap (globals.css `.chip` is nowrap by design, one pill being one unit), so a single
+          long record name widened the track and pushed the whole page past 390 px. Breast cancer's lymphoedema
+          card is the first long enough to show it ("Compression, decongestive therapy and exercise for
+          lymphoedema", 397 px at 390). With min-w-0 the track stays at the viewport and the chip's own max-width
+          and ellipsis do the truncating, with ChipTitles carrying the full label. */}
       <ul className={`grid gap-2 ${compact ? "sm:grid-cols-2" : "sm:grid-cols-2 lg:grid-cols-3"}`}>
         {cards.map((c) => (
-          <li key={c.id} className={`rounded-xl border p-3 text-sm flex flex-col gap-1.5 ${TONE_CLASS[c.tone]}`}>
+          <li key={c.id} className={`min-w-0 rounded-xl border p-3 text-sm flex flex-col gap-1.5 ${TONE_CLASS[c.tone]}`}>
             <div className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wide"><ToneGlyph tone={c.tone} className="h-3.5 w-3.5 shrink-0" />{TONE_LABEL[c.tone]}</div>
             <div className="font-medium leading-snug">{c.title}</div>
             <p className="text-[13px] leading-snug opacity-90">{c.body}</p>

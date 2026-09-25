@@ -13,8 +13,9 @@ import type { Spike, SpikeSupplement } from "./index";
  *   2. the SHARED story: what breast cancer is, how it is graded, how it is staged, and what the receptor tests
  *      actually measure, written once for everyone;
  *   3. the GLOSSARY the other three layers of this round will draw on.
- * It does not touch the surgery and radiotherapy spine (agent B), the NHS pathway and the screening programme
- * (agent C), or the shared decisions and living with it (agent F).
+ * It does not touch the surgery and radiotherapy spine (./breast-treatment.ts and its three trial files), the NHS
+ * pathway and the screening programme (./breast-uk.ts), or the shared decisions and living with it
+ * (./breast-living.ts and ../decision-tools/breast-surgery-choice.ts).
  *
  * ===================================================================================================================
  * THE TAXONOMY CALLS MADE IN THIS ROUND
@@ -92,8 +93,9 @@ import type { Spike, SpikeSupplement } from "./index";
  *     belongs to the family page is added here instead.
  *   - standardOfCare: the "Screening" one-liner ("every one to three years from around age 40 to 50 depending on
  *     country; MRI for high-risk women") is a strictly weaker duplicate of the screening rows in ./tnbc-core.ts and
- *     ./tnbc-uk.ts and of what agent C is writing this round. Removed. The surgery row and the DCIS row are left
- *     untouched for agent B and the DCIS page, and two rows this layer owns are added.
+ *     ./tnbc-uk.ts and of the NHS screening programme layer in ./breast-uk.ts. Removed. The surgery row and the
+ *     DCIS row are left untouched for ./breast-treatment.ts and the DCIS page, and two rows this layer owns are
+ *     added.
  *   - openProblems: all four ("metastatic disease remains incurable", "triple-negative and inflammatory have the
  *     worst outlook", "overdiagnosis from screening", "survival gaps") are said with their figures on the child pages
  *     and in the `health-disparities` term. Replaced by four problems that are the family's own and are sourced.
@@ -170,9 +172,9 @@ export const breastCoreTerms: TermInput[] = [
     links: [SRC.who5, SRC.crukTypes, SRC.g148],
   },
 
-  { id: "who-breast-classification", kind: "term", asOf, name: "The WHO classification of breast tumours, and what the 6th edition changed", category: "Pathology", wikipedia: W("WHO_classification_of_tumours"),
+  { id: "who-breast-classification", kind: "term", asOf, name: "The WHO classification of breast tumours, and what the 6th edition changed", category: "Pathology", wikipedia: W("WHO_Blue_Books"),
     aka: ["WHO classification of tumours of the breast", "WHO breast classification", "WHO 5th edition breast", "WHO 6th edition breast", "blue book", "WHO blue book breast", "breast tumour classification", "special type", "no special type", "NST"],
-    tldr: "The book that decides what a breast tumour is called. Its fifth edition (2019) is the one UK reports are written against in 2026; its sixth edition appeared in April 2026 and changed the vocabulary, the HER2 reporting categories and the rules for several rare types.",
+    tldr: "The book that decides what a breast tumour is called. Its fifth edition (2019) is the one UK reports are written against in 2026; its sixth edition was set out in April 2026, in the editorial board's own summary of it, and changed the vocabulary, the HER2 reporting categories and the rules for several rare types.",
     summary: "The WHO Classification of Tumours of the Breast is the reference every pathology report, guideline and trial protocol implicitly cites when it names a tumour. The fifth edition (2019, summarised for pathologists by Tan 2020) is the edition the UK reporting dataset in force is written against: it keeps invasive breast carcinoma of no special type as the large default group, into which it folded the former medullary, oncocytic, lipid-rich, glycogen-rich, sebaceous and pleomorphic carcinomas as patterns rather than types, and it keeps the special types, lobular, tubular, mucinous, cribriform, papillary, secretory, adenoid cystic, apocrine, micropapillary, metaplastic and neuroendocrine, as separate entities. Nearly every breast page here is written to that edition.\n\nThe sixth edition was published in April 2026 (Quinn 2026). Five of its changes matter to a reader holding a report. It fixes the vocabulary: a subtype differs clinically, histologically or genetically in a way that changes treatment or outcome, a pattern differs only in appearance, and the word variant is discouraged for anything but a molecular or genetic alteration, so a report or a website using variant to mean an unusual appearance is using the older, looser sense. It updates the HER2 reporting categories after the DESTINY-Breast04 and DESTINY-Breast06 trials, so that cases with no membrane staining at all are distinguished from cases with any membrane staining, because that boundary now decides who is offered trastuzumab deruxtecan. It recognises invasive lobular carcinoma with extracellular mucin as an emerging subtype that behaves more aggressively than classical lobular cancer. It moves mucinous carcinomas that are high grade, oestrogen receptor negative or HER2 positive out of mucinous carcinoma and into carcinoma of no special type with mucin production. It abandons the unified neuroendocrine neoplasm model the fifth edition applied across organs, on the ground that it is difficult to apply to the breast, and stops recommending routine neuroendocrine staining of ordinary carcinoma. And it lowers the bar for malignant phyllodes tumour from all five adverse histological features to four of the five.\n\nNone of that has reached a British report yet. The Royal College of Pathologists dataset in force (G148, version 3, November 2024) states that its histological subtypes were updated in line with the fifth edition, and it is due for full review in November 2026. So in 2026 a UK report is a fifth-edition report, and the sixth edition is what the next one will be written against.",
     cancers: ["breast-cancer", "invasive-breast-carcinoma-no-special-type", "invasive-lobular-carcinoma", "mucinous-carcinoma-breast", "phyllodes-tumour", "neuroendocrine-neoplasms-breast", "medullary-pattern-breast-carcinoma"],
     terms: ["terminal-duct-lobular-unit", "nottingham-grade", "her2-testing-uk-breast", "her2-low"],
@@ -182,7 +184,7 @@ export const breastCoreTerms: TermInput[] = [
     notes: ["Why the corpus still cites the fifth edition. The pages in this family were written against the edition the pathologist follows, not the newest one published. Where the sixth edition changes a name or a rule, this term records the change and the page it affects keeps the fifth-edition wording until the UK dataset moves, so that the page and the report in the reader's hand agree."],
   },
 
-  { id: "nottingham-grade", kind: "term", asOf, name: "Nottingham grade (breast cancer grade 1, 2 and 3)", category: "Pathology", wikipedia: W("Bloom%E2%80%93Richardson_scale"),
+  { id: "nottingham-grade", kind: "term", asOf, name: "Nottingham grade (breast cancer grade 1, 2 and 3)", category: "Pathology", wikipedia: W("Breast_cancer_classification"),
     aka: ["Nottingham grade", "Nottingham grading system", "Nottingham histological grade", "Elston-Ellis grade", "Elston and Ellis", "Bloom-Richardson", "Bloom and Richardson", "Scarff-Bloom-Richardson", "SBR grade", "breast cancer grade", "grade 1 breast cancer", "grade 2 breast cancer", "grade 3 breast cancer", "tubule formation", "nuclear pleomorphism", "mitotic count", "histological grade breast"],
     tldr: "The grade on a breast report is a sum of three scores: how much of the tumour still forms tubes, how ugly its nuclei are, and how many cells are caught dividing. Each is scored 1 to 3, and the total of 3 to 9 becomes grade 1, 2 or 3. Grade says how the cancer behaves, not how far it has spread.",
     summary: "The method is the one Elston and Ellis described in 1991, a deliberately more objective revision of Bloom and Richardson's grade, and UK practice allows no other: the dataset in force says that grading systems other than this one should not be used. Three features are scored from 1 to 3. Tubule and acinar formation: score 1 if more than 75 percent of the tumour forms tubular structures with a clear central lumen, 2 if 10 to 75 percent, 3 if under 10 percent. Nuclear atypia and pleomorphism: score 1 for small regular nuclei up to about twice the diameter of a red blood cell, rising to 3 for obvious atypia. Mitotic count: counted in a defined field area and standardised to the microscope's field diameter, because the number of cells in a high-power field varies between microscopes. The three scores are added: 3, 4 or 5 is grade 1, 6 or 7 is grade 2, 8 or 9 is grade 3. Tubule formation is judged across the whole tumour; nuclei and mitoses are judged in the worst area, usually at the edge.\n\nThe grade earns its place on the report. In the Nottingham/Tenovus study, grade was assessed in 1,831 of more than 2,200 patients with primary operable breast cancer entered since 1973, and grade 1 tumours had significantly better survival than grade 2 and 3 (p less than 0.0001) (Elston 1991). Grading is required for every invasive carcinoma, including the rare special types and including adenoid cystic carcinoma, because prognosis varies by grade within a type. For audit it is mandatory to record the three component scores and not only the total.\n\nTwo cautions a reader should have. First, the grades are not meant to come out in equal thirds: the dataset gives the expected ratio of grades 1, 2 and 3 as about 2:3:5 in symptomatic breast cancer and about 3:5:2 in screen-detected breast cancer, and a unit whose distribution departs far from that is told to review its fixation and grading protocols. A grade 3 is therefore commoner in a cancer found because of a lump than in one found by screening. Second, the grade on the needle biopsy and the grade on the surgical specimen agree only about 70 percent of the time, and where they differ the surgical specimen is normally used for management; if a mixed tumour turns out to have a higher-grade component that the biopsy missed, the dataset asks for the receptor assays to be repeated as well.",
@@ -287,7 +289,7 @@ const supplements: SpikeSupplement[] = [
     terms: ["who-breast-classification", "nottingham-grade"],
     links: [SRC.who5, SRC.who6],
     notes: [
-      "Two more series, folded in from the page this record replaced. In a Shiraz breast centre's 22-year experience, 179 medullary carcinomas among 3,246 patients (5.5 percent of that centre's series) were of higher grade than the 3,067 ductal carcinomas beside them and yet had a more favourable clinical outcome (Iranian Journal of Medical Sciences 2018). In 165 triple-negative basal-like carcinomas, prominent inflammation and anastomosing sheets in at least 30 percent of the tumour were each associated with better prognosis; their combination, a simplified medullary-like definition, was present in 17 percent of tumours, was an independent prognostic factor and showed good agreement between observers (Modern Pathology 2010). Both are quoted from the series named, and neither is a population figure: with the 2019 definition the pattern is no longer counted separately, so any percentage for how common medullary carcinoma is describes how often it was recognised.",
+      "Two more series, smaller than the trial cohorts above and quoted with their own denominators. In a Shiraz breast centre's 22-year experience, 179 medullary carcinomas among 3,246 patients (5.5 percent of that centre's series) were of higher grade than the 3,067 ductal carcinomas beside them and yet had a more favourable clinical outcome (Iranian Journal of Medical Sciences 2018). In 165 triple-negative basal-like carcinomas, prominent inflammation and anastomosing sheets in at least 30 percent of the tumour were each associated with better prognosis; their combination, a simplified medullary-like definition, was present in 17 percent of tumours, was an independent prognostic factor and showed good agreement between observers (Modern Pathology 2010). Both are quoted from the series named, and neither is a population figure: with the 2019 definition the pattern is no longer counted separately, so any percentage for how common medullary carcinoma is describes how often it was recognised.",
     ] },
 
   { id: "hormone-receptor-status", terms: ["er-pr-scoring-breast", "receptor-conversion-breast", "grade-stage-receptor-breast"], related: ["er-pr-scoring-breast"],
@@ -443,7 +445,9 @@ const tnbcPatch: Spike["patch"] = {
   asOf,
   aka: ["ER negative PR negative HER2 negative", "all three receptors negative", "receptor negative breast cancer", "grade 3 triple negative breast cancer", "ER- PR- HER2- breast cancer"],
   terms: ["grade-stage-receptor-breast", "nottingham-grade", "er-pr-scoring-breast", "her2-testing-uk-breast", "receptor-conversion-breast", "tnm-breast-cancer-editions", "who-breast-classification", "nottingham-prognostic-index"],
-  links: [SRC.seerSubtypes, SRC.g148],
+  // SRC.seerSubtypes is not repeated here: src/data/spikes/tnbc-core.ts already carries the same SEER
+  // breast-subtypes URL on this record under its own label, and two labels on one URL is a duplicate React key.
+  links: [SRC.g148],
   notes: [
     "What this page is called on a report, and why grade 3 does not send you anywhere else. Triple-negative means the oestrogen receptor under 1 percent, the progesterone receptor under 1 percent and HER2 scored 0 or 1+, or 2+ without amplification. Most triple-negative cancers are also grade 3, and a grade is not a page: someone told 'grade 3, triple negative' has been told one thing that chooses the page and one thing that does not. Grade 3 is expected here rather than alarming on top of the diagnosis, and the grade still matters, because it feeds the Nottingham Prognostic Index and the American prognostic stage. An oestrogen receptor figure of 1 to 10 percent is not triple-negative on paper but behaves like it, and those patients are excluded from most triple-negative trials.",
   ],
@@ -464,7 +468,9 @@ const lcisPatch: Spike["patch"] = {
   asOf,
   aka: ["Tis (LCIS)", "stage 0 lobular", "lobular neoplasia", "in situ lobular carcinoma"],
   terms: ["tnm-breast-cancer-editions", "carcinoma-in-situ", "terminal-duct-lobular-unit", "who-breast-classification"],
-  links: [SRC.g148, SRC.who5],
+  // SRC.who5 is not repeated here: src/data/cancers-wave4-breast.ts already carries the Tan 2020 DOI on this
+  // record under its own label.
+  links: [SRC.g148],
   notes: [
     "Why lobular carcinoma in situ is on its own page rather than under a receptor subtype. It is staged Tis (LCIS) and, unlike ductal carcinoma in situ, classical lobular carcinoma in situ behaves more as a marker of risk in both breasts than as a lesion that will become an invasive cancer where it sits. The 2024 UK dataset expanded its description to cover the florid and pleomorphic forms, which are treated more like ductal carcinoma in situ.",
   ],
@@ -474,7 +480,9 @@ const nstPatch: Spike["patch"] = {
   asOf,
   aka: ["ordinary breast cancer", "usual type breast cancer", "no special type", "NST breast cancer", "IDC NST"],
   terms: ["who-breast-classification", "nottingham-grade", "grade-stage-receptor-breast", "terminal-duct-lobular-unit", "breast-tumour-size-on-the-report"],
-  links: [SRC.who5, SRC.who6, SRC.g148],
+  // SRC.who5 is not repeated here: src/data/cancers-wave4-breast.ts already carries the Tan 2020 DOI on this
+  // record under its own label. The sixth edition (who6) is new and is what this note is about.
+  links: [SRC.who6, SRC.g148],
   notes: [
     "This is the default, and the default is where the receptor result takes over. Invasive carcinoma of no special type is defined by not having a special pattern, so once a report says no special type, or invasive ductal carcinoma, everything that follows is decided by the grade, the stage and the receptors rather than by the type. The sixth edition of the WHO classification (April 2026) moves two groups into this category that used not to be here: mucinous carcinomas that are high grade, oestrogen receptor negative or HER2 positive become carcinoma of no special type with mucin production, and the unified neuroendocrine model the fifth edition applied to the breast is abandoned, with routine neuroendocrine staining of ordinary carcinoma no longer recommended.",
   ],

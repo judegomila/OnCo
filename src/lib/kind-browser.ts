@@ -3,7 +3,7 @@ import { graph } from "@/lib/graph";
 import { logoSrc } from "@/lib/logos";
 import { portraitSrc } from "@/lib/portraits";
 import { rankInstitutions } from "@/lib/ranking";
-import { PHASE_FILTER_ORDER, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
+import { decadeLabel, PHASE_FILTER_ORDER, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
 import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_DISTRIBUTION_LABEL, TARGET_DISTRIBUTIONS, TARGET_ROLE_LABEL, TARGET_ROLES, TARGET_SPECIFICITIES, TARGET_SPECIFICITY_LABEL, type Entity } from "@/lib/schema";
 import { distributionTip, specificityTip, TUMOUR_AGNOSTIC_FACET } from "@/lib/target-specificity";
 import { COMPANY_TYPE_LABEL, portfolioOf, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf } from "@/lib/startups";
@@ -81,6 +81,12 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
   };
   /** Position of a value in a "what works first" ordering; unknown values sort last. */
   const rank = (order: readonly string[], v: string) => { const i = order.indexOf(v); return i < 0 ? order.length : i; };
+  /**
+   * The values of a year (or decade) facet, newest first. A filter is a list of the choices available, and a reader
+   * scanning a list of years is asking "how recent?", so the list runs the way time does rather than by how many
+   * rows each year holds, which is the same reasoning as PHASE_FILTER_ORDER in src/lib/kinds.ts.
+   */
+  const yearsDesc = (ys: Array<number | string | undefined>) => [...new Set(ys.filter((y) => y !== undefined).map(String))].sort((a, b) => b.localeCompare(a));
 
   /**
    * Companies and institutions by the names trial sponsors use for them: the full name, the name without its
@@ -125,8 +131,10 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
       defaultSort: { key: "order", dir: 1 },
     };
     case "technology": return {
-      rows: g.kind("technology").map((t) => ({ ...base(t), schematic: { id: t.id, sections: t.sections }, facets: { front: t.sections.map((id) => g.must(id).name), cancers: names(t.cancers), targets: names(t.targets), tags: t.tags }, cols: { front: links(t.sections), since: t.since, generation: t.generation, drugs: count(inc(t.id, "drug").length, t, "products", "product", "built on") }, sortKeys: { since: typeof t.since === "number" ? t.since : 0, drugs: inc(t.id, "drug").length } })),
-      facets: [{ key: "front", label: "Front", searchable: false, width: "w-52" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "targets", label: "Target" }, { key: "tags", label: "Tag", searchable: false, width: "w-40" }],
+      rows: g.kind("technology").map((t) => ({ ...base(t), schematic: { id: t.id, sections: t.sections }, facets: { front: t.sections.map((id) => g.must(id).name), cancers: names(t.cancers), targets: names(t.targets), tags: t.tags, era: t.since ? [decadeLabel(t.since)] : [] }, cols: { front: links(t.sections), since: fl("era", t.since ? decadeLabel(t.since) : undefined, t.since ? { label: String(t.since) } : undefined), generation: t.generation, drugs: count(inc(t.id, "drug").length, t, "products", "product", "built on") }, sortKeys: { since: typeof t.since === "number" ? t.since : 0, drugs: inc(t.id, "drug").length } })),
+      // Since prints the exact year and filters by its decade (the same buckets /machines/ uses): 66 distinct years,
+      // twenty of them with one record, make a filter that answers "only this one"; thirteen decades do not.
+      facets: [{ key: "front", label: "Front", searchable: false, width: "w-52" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "targets", label: "Target" }, { key: "tags", label: "Tag", searchable: false, width: "w-40" }, { key: "era", label: "First used", searchable: false, width: "w-32", order: yearsDesc(g.kind("technology").map((t) => (t.since ? decadeLabel(t.since) : undefined))) }],
       columns: [{ key: "front", label: "Front", hide: "hidden md:table-cell" }, { key: "generation", label: "Generation", hide: "hidden lg:table-cell" }, { key: "since", label: "Since", sortable: true, numeric: true, hide: "hidden sm:table-cell" }, { key: "drugs", label: "Products", sortable: true, numeric: true }],
     };
     case "target": return {
@@ -143,9 +151,11 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
         rows: g.kind("drug").map((d) => {
           const first = d.approvals.length ? Math.min(...d.approvals.map((a) => a.year)) : undefined, last = d.approvals.length ? Math.max(...d.approvals.map((a) => a.year)) : undefined;
           const pc = payloadClass(d.payload);
-          return { ...base(d), molecule: d.id, modality: d.modality, sub: [d.brand, d.code].filter(Boolean).join(" · "), facets: { cancers: names(d.cancers), modality: [modalityClass(d.modality)], targets: names(d.targets), companies: names(d.companies), front: frontsOf(d), payload: pc ? [pc] : [], [SUPPORTIVE_FACET]: [isSupportive(d) ? SUPPORTIVE_LABEL : TREATMENT_LABEL] }, cols: { modality: d.technologies.length ? [{ label: modalityClass(d.modality), href: routeFor(g.must(d.technologies[0])), tip: g.must(d.technologies[0]).tldr }] : fl("modality", modalityClass(d.modality)), targets: links(d.targets), cancers: links(d.cancers), companies: links(d.companies), approved: first ? { first, last, regions: [...new Set(d.approvals.map((a) => a.region))] } : undefined }, sortKeys: { approved: first ?? 0 } };
+          return { ...base(d), molecule: d.id, modality: d.modality, sub: [d.brand, d.code].filter(Boolean).join(" · "), facets: { cancers: names(d.cancers), modality: [modalityClass(d.modality)], targets: names(d.targets), companies: names(d.companies), front: frontsOf(d), payload: pc ? [pc] : [], approved: first ? [String(first)] : [], [SUPPORTIVE_FACET]: [isSupportive(d) ? SUPPORTIVE_LABEL : TREATMENT_LABEL] }, cols: { modality: d.technologies.length ? [{ label: modalityClass(d.modality), href: routeFor(g.must(d.technologies[0])), tip: g.must(d.technologies[0]).tldr }] : fl("modality", modalityClass(d.modality)), targets: links(d.targets), cancers: links(d.cancers), companies: links(d.companies), approved: first ? { first, last, regions: [...new Set(d.approvals.map((a) => a.region))], facet: "approved" } : undefined }, sortKeys: { approved: first ?? 0 } };
         }),
-        facets: [{ key: "cancers", label: "Cancer", width: "w-56" }, { key: "modality", label: "Modality", searchable: false }, { key: SUPPORTIVE_FACET, label: "Purpose", searchable: false, width: "w-44", order: [TREATMENT_LABEL, SUPPORTIVE_LABEL] }, { key: "targets", label: "Target", width: "w-44" }, { key: "companies", label: "Company" }, { key: "front", label: "Front", searchable: false, width: "w-44" }, { key: "payload", label: "ADC payload", searchable: false, width: "w-44" }],
+        // The year of the first approval filters; the "to <latest>" half of the range does not, because a span of
+        // years is not a value the facet holds. Products with no dated approval carry no value and no cell.
+        facets: [{ key: "cancers", label: "Cancer", width: "w-56" }, { key: "modality", label: "Modality", searchable: false }, { key: SUPPORTIVE_FACET, label: "Purpose", searchable: false, width: "w-44", order: [TREATMENT_LABEL, SUPPORTIVE_LABEL] }, { key: "targets", label: "Target", width: "w-44" }, { key: "companies", label: "Company" }, { key: "front", label: "Front", searchable: false, width: "w-44" }, { key: "payload", label: "ADC payload", searchable: false, width: "w-44" }, { key: "approved", label: "First approval", searchable: false, width: "w-36", order: yearsDesc(g.kind("drug").map((d) => (d.approvals.length ? Math.min(...d.approvals.map((a) => a.year)) : undefined))) }],
         // Targets, cancers and companies show two linked names and a "+N more" pill (the table read six lines deep and pushed Approved off the page at 1440 px, 23 Sept 2026).
         columns: [{ key: "modality", label: "Modality", sortable: true, hide: "hidden sm:table-cell" }, { key: "targets", label: "Targets", hide: "hidden md:table-cell", cap: 2 }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell", cap: 2 }, { key: "companies", label: "Companies", hide: "hidden lg:table-cell", cap: 2 }, { key: "approved", label: "Approved", sortable: true, numeric: true, tip: "Year of the first approval on record, then the latest where they differ; the flags are the regions that have approved it." }],
       };
@@ -196,8 +206,10 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
       defaultSort: { key: "category", dir: 1 },
     };
     case "trial": return {
-      rows: g.kind("trial").map((t) => ({ ...base(t), ...borrowed(t), sub: t.nct, facets: { phase: [phaseLabel(t.phase)], cancers: cancerFacet(t.cancers), sponsor: sponsorParts(t.sponsor), drugs: names(t.drugs) }, cols: { phase: fl("phase", phaseLabel(t.phase)), cancers: links(t.cancers), drugs: links(t.drugs), sponsor: sponsorCell(t.sponsor), year: t.yearReported }, sortKeys: { year: t.yearReported ?? 0 }, tie: t.yearReported ?? 0 })),
-      facets: [{ key: "cancers", label: "Cancer", width: "w-56", normalise: "cancer" }, { key: "phase", label: "Phase", searchable: false, width: "w-40", order: PHASE_FILTER_ORDER.map(phaseLabel), normalise: "phase" }, { key: "drugs", label: "Product", width: "w-48" }, { key: "sponsor", label: "Sponsor", width: "w-48" }],
+      rows: g.kind("trial").map((t) => ({ ...base(t), ...borrowed(t), sub: t.nct, facets: { phase: [phaseLabel(t.phase)], cancers: cancerFacet(t.cancers), sponsor: sponsorParts(t.sponsor), drugs: names(t.drugs), year: t.yearReported ? [String(t.yearReported)] : [] }, cols: { phase: fl("phase", phaseLabel(t.phase)), cancers: links(t.cancers), drugs: links(t.drugs), sponsor: sponsorCell(t.sponsor), year: fl("year", t.yearReported) }, sortKeys: { year: t.yearReported ?? 0 }, tie: t.yearReported ?? 0 })),
+      // The year a trial reported is the one number in the row a reader narrows by ("what read out in 2025?"), so it
+      // is a facet as well as a column, exactly as a paper's year is; trials with no readout year carry no value.
+      facets: [{ key: "cancers", label: "Cancer", width: "w-56", normalise: "cancer" }, { key: "phase", label: "Phase", searchable: false, width: "w-40", order: PHASE_FILTER_ORDER.map(phaseLabel), normalise: "phase" }, { key: "drugs", label: "Product", width: "w-48" }, { key: "sponsor", label: "Sponsor", width: "w-48" }, { key: "year", label: "Reported", searchable: false, width: "w-32", order: yearsDesc(g.kind("trial").map((t) => t.yearReported)) }],
       columns: [{ key: "phase", label: "Phase", sortable: true, hide: "hidden sm:table-cell" }, { key: "drugs", label: "Products", hide: "hidden md:table-cell" }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }, { key: "sponsor", label: "Sponsor", hide: "hidden lg:table-cell" }, { key: "year", label: "Reported", sortable: true, numeric: true }],
       // What works first: positive and approved results at the top, negative and withdrawn last; newest first within a status.
       defaultSort: { key: "status", dir: 1 },
@@ -258,7 +270,7 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
     case "paper": return {
       hideStatus: true,
       rows: g.kind("paper").map((p) => ({ ...base(p), logo: journalLogo(g, p.journal), sub: `${p.authors} · ${p.journal} ${p.year}`, facets: { type: [cap(p.paperType.replace(/-/g, " "))], year: [String(p.year)], journal: [p.journal], cancers: names(p.cancers), changed: [p.changedPractice ? "Changed practice" : "Did not (yet)"] }, cols: { changed: fl("changed", p.changedPractice ? "Changed practice" : "Did not (yet)"), type: fl("type", cap(p.paperType.replace(/-/g, " "))), year: fl("year", p.year), journal: journalCell(p.journal), cancers: links(p.cancers), drugs: links(p.drugs.slice(0, 3)) }, sortKeys: { year: p.year, changed: p.changedPractice ? 0 : 1 }, tie: p.year })),
-      facets: [{ key: "type", label: "Type", searchable: false, width: "w-44" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "journal", label: "Journal", width: "w-52" }, { key: "year", label: "Year", searchable: false, width: "w-32" }, { key: "changed", label: "Practice", searchable: false, width: "w-44", order: ["Changed practice", "Did not (yet)"] }],
+      facets: [{ key: "type", label: "Type", searchable: false, width: "w-44" }, { key: "cancers", label: "Cancer", width: "w-52" }, { key: "journal", label: "Journal", width: "w-52" }, { key: "year", label: "Year", searchable: false, width: "w-32", order: yearsDesc(g.kind("paper").map((p) => p.year)) }, { key: "changed", label: "Practice", searchable: false, width: "w-44", order: ["Changed practice", "Did not (yet)"] }],
       columns: [{ key: "changed", label: "Practice", sortable: true, tip: "Whether the paper changed what clinicians do: guidelines, approvals, or the standard of care." }, { key: "type", label: "Type", sortable: true, chip: true }, { key: "journal", label: "Journal", sortable: true, hide: "hidden md:table-cell" }, { key: "year", label: "Year", sortable: true, numeric: true }, { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" }, { key: "drugs", label: "Products", hide: "hidden xl:table-cell" }],
       // What works first: papers that changed practice at the top, newest first within each group.
       defaultSort: { key: "changed", dir: 1 },

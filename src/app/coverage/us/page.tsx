@@ -46,8 +46,9 @@ export default function CoverageUsPage() {
       sub: [d.brand, d.dosing?.route].filter(Boolean).join(" · "),
       facets: { medicare: [part], commercial: [c.commercial.typical], modality: [d.modality] },
       cols: {
-        medicare: part,
-        commercial: c.commercial.typical,
+        // Both are values the table facets on, so both filter it: "show me everything Part B pays for".
+        medicare: { facet: "medicare", value: part },
+        commercial: { facet: "commercial", value: c.commercial.typical },
         price: c.listPriceUsd ? `${usd(c.listPriceUsd.value)} / ${c.listPriceUsd.per.split(",")[0]} (${c.listPriceUsd.year})` : undefined,
         assistance: assist ? `${assist} programme${assist === 1 ? "" : "s"}` : undefined,
         ncd: c.medicare.ncd ? `NCD ${c.medicare.ncd}` : undefined,

@@ -37,11 +37,12 @@ export default function ModelsPage() {
         params: m.parametersM ? (m.parametersM >= 1000 ? `${(m.parametersM / 1000).toLocaleString("en-GB", { maximumFractionDigits: 1 })} B` : `${m.parametersM.toLocaleString("en-GB")} M`) : undefined,
         training: m.trainingData,
         weights: { facet: "weights", value: WEIGHTS_LABEL[m.weights] },
-        licence: m.licence,
+        // The licence prints in full (Apache-2.0, CC BY-NC 4.0) and filters by the family the facet holds; the year filters exactly.
+        licence: { facet: "licence", value: licenceFamily(m.licence), label: m.licence },
         benchmark: m.benchmark,
         paper: paper ? [paper, ...(m.weightsUrl ? [{ label: "weights", href: m.weightsUrl }] : [])] : m.weightsUrl ? [{ label: "weights or model card", href: m.weightsUrl }] : undefined,
         datasets: ds,
-        year: m.year,
+        year: { facet: "year", value: String(m.year) },
       },
       sortKeys: { params: m.parametersM ?? 0, year: m.year },
     });
@@ -52,7 +53,7 @@ export default function ModelsPage() {
     rows.push({
       id: t.id, name: t.name, tldr: t.tldr, route: routeFor(t), status: t.status, logo: makerLogo(t), avatar: "org",
       facets: { type: ["Mathematical model"], modality: ["Mechanistic model"], weights: ["Published equations"], licence: ["Open literature"], year: t.since ? [String(t.since)] : [] },
-      cols: { params: undefined, training: t.principle, weights: { facet: "weights", value: "Published equations" }, licence: undefined, benchmark: t.strengths[0], paper: primary ? [{ label: primary.label.length > 24 ? "source" : primary.label, href: primary.url }] : undefined, datasets: [], year: typeof t.since === "number" ? t.since : undefined },
+      cols: { params: undefined, training: t.principle, weights: { facet: "weights", value: "Published equations" }, licence: undefined, benchmark: t.strengths[0], paper: primary ? [{ label: primary.label.length > 24 ? "source" : primary.label, href: primary.url }] : undefined, datasets: [], year: t.since ? { facet: "year", value: String(t.since) } : undefined },
       sortKeys: { params: 0, year: typeof t.since === "number" ? t.since : 0 },
     });
   }
@@ -62,7 +63,7 @@ export default function ModelsPage() {
     rows.push({
       id: d.id, name: e.name, tldr: e.tldr, route: routeFor(e), logo: makerLogo(e), avatar: "org",
       facets: { type: ["Dataset"], modality: [MODALITY_LABEL[d.modality]], weights: [ACCESS_LABEL[d.access]], licence: [e.kind === "collection" && e.license ? licenceFamily(e.license) : "Not verified"], year: d.year ? [String(d.year)] : [] },
-      cols: { params: undefined, training: d.size, weights: { facet: "weights", value: ACCESS_LABEL[d.access] }, licence: e.kind === "collection" ? e.license : undefined, benchmark: d.consent, paper: e.kind === "collection" ? [{ label: "portal", href: e.url }] : undefined, datasets: used, year: d.year },
+      cols: { params: undefined, training: d.size, weights: { facet: "weights", value: ACCESS_LABEL[d.access] }, licence: e.kind === "collection" && e.license ? { facet: "licence", value: licenceFamily(e.license), label: e.license } : undefined, benchmark: d.consent, paper: e.kind === "collection" ? [{ label: "portal", href: e.url }] : undefined, datasets: used, year: d.year ? { facet: "year", value: String(d.year) } : undefined },
       sortKeys: { params: 0, year: d.year ?? 0 },
     });
   }
@@ -71,7 +72,7 @@ export default function ModelsPage() {
     { key: "modality", label: "Modality", searchable: false, width: "w-44" },
     { key: "weights", label: "Weights / access", searchable: false, width: "w-48", order: ["Open weights", "Gated download", "By request", "API only", "Proprietary", "Open", "Registered access", "Controlled access", "Commercial"] },
     { key: "licence", label: "Licence", searchable: false, width: "w-56" },
-    { key: "year", label: "Year", searchable: false, width: "w-28" },
+    { key: "year", label: "Year", searchable: false, width: "w-28", order: [...new Set(rows.flatMap((r) => r.facets.year))].sort((a, b) => b.localeCompare(a)) },
   ];
   const columns: ColDef[] = [
     { key: "params", label: "Parameters", sortable: true, numeric: true, tip: "Parameter count as reported by the developers; blank when not public." },

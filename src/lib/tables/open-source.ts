@@ -56,7 +56,8 @@ export function openSourceBrowser(): { rows: BrowserRow[]; facets: FacetDef[]; c
         stars: p.stars === undefined ? undefined : fmtStars(p.stars),
         active: fl("active", year, { label: p.lastCommit ?? "page", tip: p.lastCommit ? `Last push to the repository: ${p.lastCommit}.` : "Not a repository: a project page, package index or model card was fetched instead." }),
         technologies: p.technologies.map(link).filter((x): x is LinkItem => !!x),
-        maintainer: maintainer ? [{ label: short(maintainer.name), href: routeFor(maintainer), tip: maintainer.tldr }] : p.maintainer,
+        // In the corpus the maintainer is a page link; outside it the name filters the table, as a trial's sponsor does.
+        maintainer: maintainer ? [{ label: short(maintainer.name), href: routeFor(maintainer), tip: maintainer.tldr }] : p.maintainer ? fl("maintainer", p.maintainer) : undefined,
         links,
       },
       sortKeys: { stars: p.stars ?? -1, active: p.lastCommit ? Number(p.lastCommit.replace(/-/g, "")) : 0, since: p.since ?? 0 },

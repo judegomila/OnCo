@@ -95,8 +95,11 @@ export type RichText = { text: string; marks: Array<{ s: number; e: number; labe
  * A span of years such as a product's approvals: `first` prints in the foreground weight, "to `last`" muted after it
  * when the two differ, and `regions` (the row's own region strings, "US", "EU", "China") become small flags with a
  * tooltip. Sorting uses the row's `sortKeys` (the first year), never the text.
+ *
+ * `facet` makes the first year filter the table: only the first year, because only it is an exact value the facet
+ * holds. The range as a whole ("2007 to 2017") is not a facet value, so the muted "to 2017" stays plain text.
  */
-export type YearRange = { first: number; last?: number; regions?: string[] };
+export type YearRange = { first: number; last?: number; regions?: string[]; facet?: string };
 /** Anything a table cell can hold. Lists may mix entity links and facet chips (e.g. a trial's sponsors). */
 export type CellValue = string | number | undefined | RichText | FacetLink | YearRange | Array<LinkItem | FacetLink>;
 
@@ -148,18 +151,27 @@ function CappedList({ items, cap, render, allChips, muted }: { items: Array<Link
  * A year range cell: the first year in the foreground weight, a muted "to <latest>" only when the two differ, a
  * tooltip "First approval 2007, latest 2017", and one small flag per region the row records (unknown regions are
  * named in the tooltip instead).
+ *
+ * With `filter`, the first year is also a button that filters the table to that year, the way a facet chip does;
+ * it keeps the year's own weight rather than becoming a chip, so the column reads as a column of years still.
  */
-function YearRangeCell({ value, tipTitle }: { value: YearRange; tipTitle: string }) {
+function YearRangeCell({ value, tipTitle, filter }: { value: YearRange; tipTitle: string; filter?: { on: boolean; facet: string; onClick: () => void } }) {
   const { t } = useT();
   const last = value.last && value.last !== value.first ? value.last : undefined;
   const regions = [...new Set((value.regions ?? []).map((r) => r.trim()).filter(Boolean))];
   const flagged = regions.map((r) => ({ r, flag: flagFor(r) })).filter((x) => x.flag);
-  const tip = `${t("table.firstApproval", { first: value.first, last: last ?? value.first })}${regions.length ? `. ${regions.length === 1 ? regions[0] : `${regions.length} regions: ${regions.join(", ")}`}` : ""}.`;
+  const action = filter ? ` ${filter.on ? t("table.filteringBy", { facet: filter.facet, value: String(value.first) }) : t("table.filterBy", { facet: filter.facet, value: String(value.first) })}` : "";
+  const tip = `${t("table.firstApproval", { first: value.first, last: last ?? value.first })}${regions.length ? `. ${regions.length === 1 ? regions[0] : `${regions.length} regions: ${regions.join(", ")}`}` : ""}.${action}`;
+  const year = <span className="text-foreground" data-year-first>{value.first}</span>;
   return (
     <Tip title={tipTitle} text={tip}>
       {/* The years are one unbreakable unit; the flags may drop to a second line, so the column is never wider than "2007 to 2017". */}
       <span className="inline-flex flex-wrap items-baseline gap-x-1.5 gap-y-0.5 tabular-nums cursor-help" data-year-range>
-        <span className="whitespace-nowrap"><span className="text-foreground" data-year-first>{value.first}</span>{last && <> <span className="text-muted text-xs" data-year-last>to {last}</span></>}</span>
+        <span className="whitespace-nowrap">{filter
+          ? <button type="button" onClick={filter.onClick} aria-pressed={filter.on} data-year-filter
+              aria-label={t("table.filterBy", { facet: filter.facet, value: String(value.first) })}
+              className={`cursor-pointer rounded-sm underline decoration-dotted decoration-foreground/40 underline-offset-[3px] hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 ${filter.on ? "ring-2 ring-accent/50" : ""}`}>{year}</button>
+          : year}{last && <> <span className="text-muted text-xs" data-year-last>to {last}</span></>}</span>
         {flagged.length > 0 && <span className="inline-flex gap-0.5 text-[11px] leading-none" aria-label={`${flagged.length} ${flagged.length === 1 ? "region" : "regions"}`}>{flagged.map((x) => <span key={x.r} aria-hidden>{x.flag}</span>)}</span>}
       </span>
     </Tip>
@@ -387,13 +399,15 @@ export function EntityBrowser({ rows: first, more, counts, facets, columns, noun
     const label = itemLabel(f);
     const fl = facetLabel(f.facet);
     const on = (sel[f.facet] ?? []).includes(f.value);
-    const action = on ? t("table.filteringBy", { facet: fl, value: label }) : t("table.filterBy", { facet: fl, value: label });
+    // What the chip says it will do names the value it sets, which is not always what it prints: "2020" filters the
+    // 2020s, "Apache-2.0" filters permissive licences. The printed label stays as the record has it.
+    const action = on ? t("table.filteringBy", { facet: fl, value: f.value }) : t("table.filterBy", { facet: fl, value: f.value });
     const tip = [f.tip, extraTip, action].filter(Boolean).join(" ");
     const tone = valueTone(f.facet, label);
     const look = className ? `${className} ${on ? "ring-2 ring-accent/50" : ""}` : tone ? `${tone} ${on ? "ring-2 ring-accent/50" : "hover:ring-2 hover:ring-accent/30"}` : on ? "bg-accent-soft text-accent border-accent" : "bg-foreground/5 hover:bg-accent-soft hover:text-accent";
     return (
       <Tip title={label} text={tip}>
-        <button type="button" onClick={() => clickFacet(f)} aria-label={t("table.filterBy", { facet: fl, value: label })} aria-pressed={on}
+        <button type="button" onClick={() => clickFacet(f)} aria-label={t("table.filterBy", { facet: fl, value: f.value })} aria-pressed={on}
           className={`chip max-w-44 cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 inline-flex items-center gap-1 ${look}`}>
           <ValueIcon facet={f.facet} value={label} />{label}
         </button>
@@ -435,7 +449,14 @@ export function EntityBrowser({ rows: first, more, counts, facets, columns, noun
           return <span className="text-muted">{parts}</span>;
         }
         if (isFacetLink(v)) return facetChip(v, c.valueTips?.[itemLabel(v)]);
-        if (isYearRange(v)) return <YearRangeCell value={v} tipTitle={tl(c.label)} />;
+        if (isYearRange(v)) {
+          // The first year filters the table when the row's facets hold it; the rest of the range stays plain text.
+          const key = v.facet;
+          const filter = key && allFacets.some((f) => f.key === key)
+            ? { on: (sel[key] ?? []).includes(String(v.first)), facet: facetLabel(key), onClick: () => clickFacet({ facet: key, value: String(v.first) }) }
+            : undefined;
+          return <YearRangeCell value={v} tipTitle={tl(c.label)} filter={filter} />;
+        }
         if (Array.isArray(v)) {
           const allChips = v.every((i) => !("href" in i));
           return <CappedList items={v} cap={c.cap ?? LIST_CAP} allChips={allChips} muted={`text-muted ${c.numeric ? "tabular-nums" : ""}`}

@@ -62,6 +62,12 @@ const KB = 1024;
  */
 const MARGIN = 0.85;
 const ROADMAP_BUDGET = 300 * KB, DOSSIER_BUDGET = 450 * KB;
+/**
+ * What one row of a kind browser may cost in markup, the per-row half of the 640 KB total below. The heaviest row
+ * today is an idea at 5,169 bytes; the budget leaves room for about one more chip a row before it fails, which is
+ * the point at which the furniture, not the corpus, is what grew. Raise it only with a measured reason.
+ */
+const ROW_BUDGET = 6500;
 const bodyRows = (html: string) => (html.match(/<tbody[^>]*>[\s\S]*?<\/tbody>/g) ?? []).map((t) => (t.match(/<tr[\s>]/g) ?? []).length);
 
 describe("heavy pages page their sections", () => {
@@ -388,6 +394,16 @@ describe("kind browsers carry one page of rows", () => {
       // Budget raised from 600 to 640 KB on 24 Sept 2026 when wave 4 (docs/CANCER-PAGES.md) took the cancer browser to 435
       // records and its markup to 600.6 KB with the first page of rows unchanged at 60.
       expect(Buffer.byteLength(html, "utf8"), `${KIND_META[k].route} markup`).toBeLessThan(640 * KB);
+      // What the total cannot tell apart: a browser that grows because the corpus did (more records, a longer count
+      // line, more facet values in the pickers) and one that grows because every row got heavier. A page shows
+      // KIND_PAGE rows whatever the corpus holds, so the cost of a row is the thing to hold down. Measured on
+      // 25 Sept 2026, with the cells that hold a facet value turned into filters: ideas 5,169 B a row (six columns,
+      // four of them chips), drugs 4,379 (4,053 before), trials 4,254 (3,980 before), targets 4,206, key papers
+      // 3,866, cancers 3,361, people 3,341, companies 3,110, technologies 2,806 (2,584 before), institutions 2,774,
+      // terms 2,016. A chip costs about 260 bytes of markup, so a column turned into a filter shows up here at once.
+      const body = (html.match(/<tbody[^>]*>[\s\S]*?<\/tbody>/) ?? [""])[0];
+      const perRow = Buffer.byteLength(body, "utf8") / Math.max(1, (body.match(/<tr[\s>]/g) ?? []).length);
+      expect(perRow / ROW_BUDGET, `a ${KIND_META[k].route} row costs ${perRow.toFixed(0)} bytes of markup, ${((perRow / ROW_BUDGET) * 100).toFixed(1)} percent of the ${ROW_BUDGET} byte budget`).toBeLessThan(MARGIN);
     });
   }
 

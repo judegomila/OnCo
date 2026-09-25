@@ -33,13 +33,14 @@ export default function CoverageUkPage() {
     const others = [...new Set((c.nice.note ?? "").match(/TA\d{3,4}/g) ?? [])].filter((t) => t !== c.nice.ta);
     return {
       id: d.id, name: d.name, sub: d.brand, tldr: d.tldr, route: routeFor(d), molecule: d.id, modality: d.modality,
-      facets: { nice: [label], smc: [c.smc?.status ?? "Not recorded"], modality: [d.modality] },
+      facets: { nice: [label], smc: [c.smc?.status ?? "Not recorded"], modality: [d.modality], year: c.nice.year ? [String(c.nice.year)] : [] },
       cols: {
-        nice: label,
+        // Outcome, SMC verdict and the year of the appraisal are all values the table facets on, so each one filters it.
+        nice: { facet: "nice", value: label },
         ta: c.nice.ta && c.nice.url ? [{ label: c.nice.ta, href: c.nice.url, tip: c.nice.indication ?? label }] : c.nice.url ? [{ label: "Search NICE", href: c.nice.url, tip: NICE_STATUS_TIP[c.nice.status] }] : undefined,
-        year: c.nice.year,
+        year: c.nice.year ? { facet: "year", value: String(c.nice.year) } : undefined,
         indication: c.nice.indication ?? c.nice.note,
-        smc: c.smc?.status,
+        smc: c.smc ? { facet: "smc", value: c.smc.status } : undefined,
         more: others.length ? [{ label: `${others.length} more`, href: routeFor(d), tip: `Other NICE appraisals named on the product page: ${others.join(", ")}` }] : undefined,
       },
       sortKeys: { nice: NICE_STATUS_ORDER.indexOf(c.nice.status), year: c.nice.year ?? 9999, more: others.length },
@@ -50,6 +51,8 @@ export default function CoverageUkPage() {
     { key: "nice", label: "NICE outcome", searchable: false, width: "w-56", order: NICE_STATUS_ORDER.map((s) => NICE_STATUS_LABEL[s]) },
     { key: "smc", label: "SMC (Scotland)", searchable: false, width: "w-48", order: ["accepted", "accepted (restricted)", "not recommended", "Not recorded"] },
     { key: "modality", label: "Modality", width: "w-48" },
+    // Newest first: a list of years reads as a timeline, not as a league table of how many appraisals each year held.
+    { key: "year", label: "Appraisal year", searchable: false, width: "w-36", order: [...new Set(rows.flatMap((r) => r.facets.year))].sort((a, b) => b.localeCompare(a)) },
   ];
   const valueTips = Object.fromEntries(NICE_STATUS_ORDER.map((s) => [NICE_STATUS_LABEL[s], NICE_STATUS_TIP[s]]));
   const columns: ColDef[] = [

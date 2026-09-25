@@ -28,6 +28,7 @@ export type Spike = { cancerId: string; entities: EntityInput[]; patch: CancerPa
 import nsclc from "./nsclc";
 import prostate from "./prostate";
 import pancreatic from "./pancreatic";
+import pancreaticCore from "./pancreatic-core";
 import glioblastoma from "./glioblastoma";
 import breastHr from "./breast-hr-positive";
 import breastHer2 from "./breast-her2-positive";
@@ -71,7 +72,7 @@ import tnbcMolecular from "./tnbc-molecular";
 import tnbcTreatment from "./tnbc-treatment";
 import pancreaticLiving from "./pancreatic-living";
 import pancreaticEvidence from "./pancreatic-evidence";
-const spikes: Spike[] = [nsclc, prostate, pancreatic, pancreaticUk, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, tnbcCore, tnbcEvidence, tnbcUk, tnbcLiving, tnbcMolecular, tnbcTreatment, pancreaticLiving, pancreaticEvidence, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderTreatment, gallbladderGeography, gallbladderEvidence];
+const spikes: Spike[] = [nsclc, prostate, pancreatic, pancreaticCore, pancreaticUk, glioblastoma, breastHr, breastHer2, hcc, cholangiocarcinoma, neuroendocrine, melanoma, headAndNeck, thyroid, colorectal, gastric, esophageal, sclc, mesothelioma, urothelial, rcc, ovarian, endometrial, cervical, aml, allLeukemia, cll, dlbcl, multipleMyeloma, hodgkin, sarcoma, neuroblastoma, tnbcCore, tnbcEvidence, tnbcUk, tnbcLiving, tnbcMolecular, tnbcTreatment, pancreaticLiving, pancreaticEvidence, gallbladderCore, gallbladderLiving, gallbladderMolecular, gallbladderUk, gallbladderTreatment, gallbladderGeography, gallbladderEvidence];
 
 /**
  * Spikes may overlap (two cancers adding the same drug). Duplicates are merged: the first full record's

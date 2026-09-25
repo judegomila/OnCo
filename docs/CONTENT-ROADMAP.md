@@ -195,7 +195,8 @@ mistake a gap in our reading for a gap in the country. Each spike must therefore
 sources and registries, and record what we did not previously hold.
 
 Order of work: **wave 1** United States, Japan, Germany, United Kingdom, Israel, Russia (the owner's two are in
-the first wave regardless of rank). **Wave 2** France, Canada, Italy, Netherlands, South Korea, Australia, Spain,
+the first wave regardless of rank). **Done so far: the United States and Germany** (25 September 2026); Japan,
+the United Kingdom, Israel and Russia are being written. **Wave 2** France, Canada, Italy, Netherlands, South Korea, Australia, Spain,
 Brazil, Sweden, Switzerland.
 
 Each spike follows `/countries/in/`: what is different about cancer here, who pays and how, the regulator and how

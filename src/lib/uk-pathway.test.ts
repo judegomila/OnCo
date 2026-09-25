@@ -6,9 +6,10 @@ import { UK_PATHWAYS, ukPathwayCancerIds, ukPathwayFor, ukPathwayJson, ukPathway
 import gallbladderSpike from "@/data/spikes/gallbladder-uk";
 import tnbcSpike from "@/data/spikes/tnbc-uk";
 import pancreaticSpike from "@/data/spikes/pancreatic-uk";
+import colorectalSpike from "@/data/spikes/colorectal-uk";
 import UkPage, { generateStaticParams } from "@/app/cancers/[id]/uk/page";
 
-const SPIKES = [gallbladderSpike, tnbcSpike, pancreaticSpike];
+const SPIKES = [gallbladderSpike, tnbcSpike, pancreaticSpike, colorectalSpike];
 
 /**
  * The UK and NHS layer quotes public UK sources only. Every URL must be https and sit on one of these domains
@@ -26,6 +27,8 @@ const ALLOWED_DOMAINS = [
   "breastcancernow.org", "tnbcfoundation.org", "cam.ac.uk", "southampton.ac.uk",
   // Pancreatic cancer pass: the Glasgow staff page, NHS Grampian's site (not under nhs.scot), the early-diagnosis charity and an ORCID profile.
   "gla.ac.uk", "nhsgrampian.org", "pancreaticcanceraction.org", "orcid.org",
+  // Colorectal cancer pass: the two bowel charities, the four universities whose staff pages are cited, and Public Health Northern Ireland.
+  "bowelcanceruk.org.uk", "bowelresearchuk.org", "leeds.ac.uk", "birmingham.ac.uk", "ncl.ac.uk", "ox.ac.uk", "publichealth.hscni.net",
 ];
 
 const hostOk = (url: string) => {
@@ -70,6 +73,24 @@ describe("UK pathway data", () => {
     for (const ta of ["TA476", "TA440", "TA750", "TA1052", "TA630", "TA914"]) expect(refs).toContain(ta);
     // The 23 English hubs of the national audit are all present, by institution or by name.
     expect(p!.centres.filter((c) => c.nation === "England").length).toBeGreaterThanOrEqual(23);
+  });
+
+  it("registers the colorectal cancer pathway under colorectal and its site and molecular subtype aliases", () => {
+    const p = ukPathwayFor("colorectal");
+    expect(p?.cancerId).toBe("colorectal");
+    for (const alias of ["rectal-cancer", "msi-high-colorectal", "braf-v600e-colorectal", "early-onset-colorectal"]) expect(ukPathwayFor(alias)?.cancerId, alias).toBe("colorectal");
+    const g = graph();
+    for (const id of ["colorectal", "rectal-cancer", "msi-high-colorectal"]) expect(g.get(id)?.kind, id).toBe("cancer");
+    // The nine UK legacy trial records and the eight researchers the spike adds resolve in the graph.
+    for (const id of ["quasar", "scot", "cr07", "coin", "foxtrot", "mercury", "star-trec", "nottingham-fob", "ukfss"]) expect(g.get(id)?.kind, id).toBe("trial");
+    for (const id of ["david-sebag-montefiore", "matt-seymour", "dion-morton", "john-burn", "rachel-kerr", "tim-maughan", "naureen-starling", "ian-chau"]) expect(g.get(id)?.kind, id).toBe("person");
+    for (const id of ["bowel-cancer-uk", "bowel-research-uk"]) expect(g.get(id)?.kind, id).toBe("institution");
+    // Every NICE decision quoted carries its appraisal number, including the 2026 bevacizumab reversal and the two refusals.
+    const refs = p!.funding.filter((f) => f.england.body === "NICE").map((f) => f.england.ref);
+    for (const ta of ["TA1136", "TA1065", "TA1008", "TA716", "TA668", "TA630", "TA439", "TA307", "TA242", "TA100", "TA61"]) expect(refs).toContain(ta);
+    // The faecal immunochemical test threshold that now governs referral is on the page, and so is Scotland's different one.
+    expect(JSON.stringify(p)).toContain("10 micrograms of haemoglobin per gram");
+    expect(JSON.stringify(p)).toContain("20 micrograms per gram");
   });
 
   it("cites only https URLs on allowed UK public domains", () => {
@@ -203,6 +224,25 @@ describe("/cancers/[id]/uk/ page", () => {
     // A resectability subtype alias renders the same pathway.
     const alias = await UkPage({ params: Promise.resolve({ id: "metastatic-pdac" }) });
     expect(renderToStaticMarkup(createElement(() => alias))).toContain("TA476");
+  });
+
+  it("renders the colorectal page with the screening ages, the referral threshold, the audit's stoma finding, the NICE reversal and the UK trials", async () => {
+    const el = await UkPage({ params: Promise.resolve({ id: "colorectal" }) });
+    const html = renderToStaticMarkup(createElement(() => el));
+    for (const id of ["pathway", "centres", "funding", "tests", "trials", "data", "support", "nations", "gaps"]) expect(html).toContain(`id="${id}"`);
+    expect(html).toContain("faecal immunochemical test");
+    expect(html).toContain("TA1136");
+    expect(html).toContain("TA307");
+    expect(html).toContain("SMC2820");
+    expect(html).toContain("Lynch syndrome");
+    expect(html).toContain("diverting ileostomy");
+    expect(html).toContain("ISRCTN83842641");
+    expect(html).toContain("Velindre");
+    expect(html).toContain("/api/v1/cancers/colorectal/uk.json");
+    expect(html).not.toMatch(/<a[^>]*>[^<]*<a/);
+    // A site subtype alias renders the same pathway.
+    const alias = await UkPage({ params: Promise.resolve({ id: "rectal-cancer" }) });
+    expect(renderToStaticMarkup(createElement(() => alias))).toContain("TA1136");
   });
 
   it("returns not-found for a cancer without a pathway", async () => {

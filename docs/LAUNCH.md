@@ -77,7 +77,9 @@ change.
 - [x] Perceived speed: route progress bar, skeletons, edge caching with stale-while-revalidate, lazy images, hover prefetch, time-to-interactive ceilings: chain 125
 - [x] Ask OnCo recall repaired at the ranking, 0.329 to 0.416, floors table that may only go up: chain 125; wave 4 pushed it to 0.403 and a subtype rule is in progress
 - [ ] Wave 4 (99 entity pages) and roadmap paging: merged, ship with chain 126 once recall is green
-- [ ] One home for cooperative groups (IMPROVEMENTS row 251); translations of the new records need the model key
+- [x] One home for cooperative groups: 35 trial groups are cooperative-group companies with redirects (chain 128); IMPROVEMENTS row 251 done
+- [x] Pancreatic cancer deep spike, third after gallbladder and TNBC: six facets and a review pass (chains 129 to 133), docs/PANCREATIC-QA.md
+- [ ] Translations of the new records need the model key (stale Chinese and Spanish summaries were removed from tnbc, gallbladder and pancreatic; regenerate with scripts/translate-summaries.ts)
 
 ## Owner asks not yet started
 - [ ] Health data: see docs/HEALTH-DATA-COMPLIANCE.md; decisions listed there (HIPAA does not apply today; stay browser-only, fix explicit consent for cancer type and gate analytics, plan encrypted sync next)

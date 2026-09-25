@@ -5,6 +5,15 @@ import { AppRouterContext, type AppRouterInstance } from "next/dist/shared/lib/a
 import RootLayout from "./layout";
 
 /**
+ * Wall-clock allowance for the whole-page renders below. 120 seconds is right on an idle machine and is a real
+ * guard: a page that takes longer than that has usually started rendering something it should page instead. But
+ * it measures contention, not code, when a dozen agents are building in other worktrees, and three ship chains
+ * have now failed on these four files at 149 seconds and passed on a re-run. The chain exports SLOW_TEST_MS so
+ * the allowance follows the machine it is on; the default is unchanged, and no assertion is relaxed either way.
+ */
+const SLOW_MS = Number(process.env.SLOW_TEST_MS ?? 120_000);
+
+/**
  * Anchors nested inside anchors, on every page of the site. The HTML parser refuses to nest <a>: it closes the
  * outer one early and lifts the inner one out as a sibling, so the DOM the browser builds differs from the tree
  * React expects and hydration fails with React error 418 (first seen on /dependencies/, roadmap row 139). The
@@ -156,7 +165,7 @@ describe("no page renders markup the HTML parser would rebuild", () => {
       expect(nestedAnchors(html), `${file} ${JSON.stringify(p)}`).toEqual([]);
       expect(structureIssues(html), `${file} ${JSON.stringify(p)}`).toEqual([]);
     }
-  }, FULL ? 1_800_000 : 120_000);
+  }, FULL ? 1_800_000 : SLOW_MS);
 
   it("the scanner catches the pattern it guards against", () => {
     expect(nestedAnchors('<a href="/x"><span>Only vendor: <a href="/y">Y</a></span></a>')).toHaveLength(1);

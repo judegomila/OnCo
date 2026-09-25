@@ -8,6 +8,15 @@ import { publicTags, tagSlug } from "@/lib/tags";
 import { planFor } from "@/lib/record-sections";
 
 /**
+ * Wall-clock allowance for the whole-page renders below. 120 seconds is right on an idle machine and is a real
+ * guard: a page that takes longer than that has usually started rendering something it should page instead. But
+ * it measures contention, not code, when a dozen agents are building in other worktrees, and three ship chains
+ * have now failed on these four files at 149 seconds and passed on a re-run. The chain exports SLOW_TEST_MS so
+ * the allowance follows the machine it is on; the default is unchanged, and no assertion is relaxed either way.
+ */
+const SLOW_MS = Number(process.env.SLOW_TEST_MS ?? 120_000);
+
+/**
  * The record page layout (owner, 23 Sept 2026): the section tabs were cut off at /cancers/male-breast-cancer/#care
  * because the tab bar shared a grid row with the 300 px right column. The bar now spans the full content width and
  * the two columns start beneath it, and every tag chip in the right column is a link to its /tagged/ page.
@@ -53,7 +62,7 @@ describe("record page layout", () => {
       expect(wrap).toBeLessThan(grid);
       expect(html.slice(grid, aside)).toContain('id="sec-overview"');
       expect(nestedAnchors(html)).toBe(0);
-    }, 120_000); // The first render loads the whole graph; under a loaded machine that alone passes the default budget.
+    }, SLOW_MS); // The first render loads the whole graph; under a loaded machine that alone passes the default budget.
   }
 
   it("the #care block exists on the male breast cancer page inside Treating it, so a hash link has a section to open", () => {

@@ -2,7 +2,7 @@
 
 > A public, cited knowledge graph of oncology: cancers, fronts, technologies, targets, treatments and tests, companies, institutions, people, pathways, trials, pairings, roadmaps, key papers, journals, bottlenecks and ideas, one page per object, each with a plain-English TL;DR, a technical summary, dated facts and links to primary sources. Not medical advice.
 
-18,908 records in 19 kinds: 455 cancers, 19 fronts, 591 technologies, 1,674 targets, 1,088 drugs, 1,243 companies, 707 institutions, 108 pathways, 1,145 terms, 5,935 trials, 86 pairings, 36 roadmaps, 1,193 ideas, 135 collections, 1,581 people, 45 bottlenecks, 2,514 key papers, 261 journals, 92 biomarkers. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Facts may be incomplete or out of date: cite the OnCo page and check the primary source it links before relying on anything that matters.
+18,914 records in 19 kinds: 455 cancers, 19 fronts, 591 technologies, 1,674 targets, 1,088 drugs, 1,243 companies, 713 institutions, 108 pathways, 1,145 terms, 5,935 trials, 86 pairings, 36 roadmaps, 1,193 ideas, 135 collections, 1,581 people, 45 bottlenecks, 2,514 key papers, 261 journals, 92 biomarkers. Every fact is dated and linked to a primary source; where a number is not sourced it is omitted. Facts may be incomplete or out of date: cite the OnCo page and check the primary source it links before relying on anything that matters.
 
 ## Licence and attribution
 
@@ -185,8 +185,10 @@
 - [Trial sponsors](https://onco.cc/sponsors/): Who runs the most phase 2 and 3 trials, by cancer, from the registry and the corpus.
 - [Manufacturing map](https://onco.cc/manufacturing/): Where ADCs are conjugated, cell therapies made and isotopes produced.
 - [Countries](https://onco.cc/countries/): Who is doing the most cancer research: output, growth, trials, burden, funders.
+- [United States deep dive](https://onco.cc/countries/us/): What the United States is up to: who pays and what it costs a person, the FDA, why coverage is not approval, the NCI trial network, and the disparities.
 - [India deep dive](https://onco.cc/countries/in/): What India is up to: cancer profile, paying for care, CDSCO, institutions, companies, trials and people.
 - [China deep dive](https://onco.cc/countries/cn/): What China is up to: cancer profile, the NMPA, national insurance listing, institutions, companies, trials and people.
+- [Germany deep dive](https://onco.cc/countries/de/): What Germany does differently: reimbursement from day one and the benefit assessment that follows, certified cancer centres, mandatory clinical cancer registration, institutions, companies, trials and people.
 - [Cases by country](https://onco.cc/cases/): New cancer cases per country and per cancer, with the data gaps made explicit.
 - [Funding flows](https://onco.cc/funding/): Where the money comes from.
 

@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
-- A blood-clot warning for a myeloma drug was reaching every fluoropyrimidine page, because the pattern matched inside the word pyrimidine
+- Two country deep dives: the United States, where the question is who pays, and Germany, where a drug is paid for on the day it is approved and assessed afterwards
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -19,6 +19,11 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- The first two country deep dives: the United States and Germany
+- In America the pill has a ceiling and the drip does not, and 239 accelerated approvals show what happens when nobody checks
+- A red-card pattern can no longer match inside an unrelated word
+- Germany pays for a new cancer drug on the day it goes on sale and asks what it is worth afterwards
+- A blood-clot warning for a myeloma drug was reaching every fluoropyrimidine page, because the pattern matched inside the word pyrimidine
 - The skin review: a page about a cream warned a reader about a blood clot, and an appraisal that refused a drug was recorded as one that funds it
 - A second front page at /v2 for review, and table filters that find what you asked for: family cancers, phases in time order, search ranked by what you typed
 - Country deep dives on the roadmap, ranked by what the corpus holds and by what that ranking gets wrong

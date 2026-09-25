@@ -4,12 +4,13 @@
  * corpus's breast pages were built by receptor status (HR-positive, HER2-positive, triple-negative) and setting; this
  * file adds the special histological types under `breast-cancer`: invasive lobular carcinoma, invasive carcinoma of no
  * special type (invasive ductal carcinoma), tubular, mucinous, papillary, secretory, cribriform, metaplastic, apocrine,
- * micropapillary, adenoid cystic and neuroendocrine carcinomas, carcinoma with medullary pattern, and lobular carcinoma
- * in situ (the precursor the WHO names beside ductal carcinoma in situ, which already had a page).
+ * micropapillary, adenoid cystic and neuroendocrine carcinomas, and lobular carcinoma in situ (the precursor the WHO
+ * names beside ductal carcinoma in situ, which already had a page).
  *
  * Rule cases: "medullary carcinoma" from the public list was folded by the 2019 WHO classification into invasive
- * carcinoma of no special type with medullary pattern, so its page is written under that name with the old name as an
- * alias; "invasive ductal carcinoma" is the same tumour as no special type and is one page. Luminal A and B, HER2-low,
+ * carcinoma of no special type with medullary pattern; this file wrote it, src/data/spikes/tnbc-core.ts wrote it too,
+ * and the September 2026 family round folded the two into the tnbc-core record (see the comment where it stood);
+ * "invasive ductal carcinoma" is the same tumour as no special type and is one page. Luminal A and B, HER2-low,
  * ESR1- and PIK3CA-mutant disease are molecular or treatment subgroups of the HR-positive page and stay strings.
  *
  * Shares: invasive lobular carcinoma about 15 percent and the most and second most common types from Cancer Research
@@ -87,7 +88,7 @@ export const cancersWave4Breast: CancerInput[] = linkSiblings([
       { setting: "All stages", approach: "Treated as the parent's receptor pages describe.", refs: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "oncotype-dx"] },
     ],
     drugs: ["oncotype-dx"],
-    related: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "invasive-lobular-carcinoma", "breast-carcinoma-medullary-pattern", "ductal-carcinoma-in-situ"],
+    related: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "invasive-lobular-carcinoma", "medullary-pattern-breast-carcinoma", "ductal-carcinoma-in-situ"],
     links: [SRC.crukTypes, SRC.pdq, SRC.who2019, SRC.ciriello] }),
 
   sub({ id: "tubular-carcinoma-breast", name: "Tubular carcinoma of the breast", wikipedia: W("Tubular_carcinoma"),
@@ -149,19 +150,13 @@ export const cancersWave4Breast: CancerInput[] = linkSiblings([
     related: ["breast-cancer", "breast-hr-positive", "tubular-carcinoma-breast", "adenoid-cystic-carcinoma-breast", "ductal-carcinoma-in-situ"],
     links: [SRC.who2019, SRC.pageCribriform, SRC.venableCribriform] }),
 
-  sub({ id: "breast-carcinoma-medullary-pattern", name: "Invasive breast carcinoma with medullary pattern (medullary carcinoma)", wikipedia: W("Medullary_breast_carcinoma"),
-    aka: ["Medullary carcinoma", "Medullary breast carcinoma", "Medullary carcinoma of the breast", "Atypical medullary carcinoma", "Carcinoma with medullary features", "Medullary-like carcinoma"],
-    burden: "179 of 3,246 patients (5.5 percent) in a 22-year Iranian breast centre series (Iranian J Med Sci 2018); medullary-like features were present in 17 percent of 165 basal-like triple-negative carcinomas (Modern Pathology 2010). Population figures are lower and depend on the definition used.",
-    tldr: "Medullary carcinoma is a form of breast cancer with high-grade cells growing in sheets and a dense crowd of immune cells around them. It looks alarming under the microscope and is usually triple-negative, yet it has a better outlook than other triple-negative cancers. Since 2019 it is classed as invasive breast cancer with a medullary pattern and treated as triple-negative disease.",
-    summary: "The 2019 WHO classification abandoned medullary carcinoma and atypical medullary carcinoma as separate types because of poor reproducibility, and instead recognises a medullary pattern within invasive breast carcinoma of no special type, treated as one end of the spectrum of tumour-infiltrating lymphocyte-rich triple-negative cancers (Tan 2020). Its histological features are syncytial sheets of high-grade cells, a prominent lymphoplasmacytic infiltrate, a pushing margin and absent gland formation. In 165 triple-negative basal-like carcinomas, prominent inflammation and anastomosing sheets in at least 30 percent of the tumour were each associated with better prognosis, their combination (a simplified medullary-like definition) was present in 17 percent and was an independent prognostic factor with good inter-observer agreement (Modern Pathology 2010). In a Shiraz series of 179 medullary against 3,067 ductal carcinomas, the medullary group had higher grade yet a more favourable clinical outcome (Iranian J Med Sci 2018). Medullary features are over-represented in BRCA1 carriers.\n\nHow it differs from its parent: it is the triple-negative pattern in which the immune infiltrate predicts a good outcome, and its pathology overlaps with the immunomodulatory subtype on the triple-negative page.\n\nHow common: 5.5 percent of one centre's series (Iranian J Med Sci 2018), but with the 2019 definition it is no longer counted separately.\n\nTreatment: as triple-negative breast cancer, following the parent's early and metastatic triple-negative pages (chemotherapy with pembrolizumab in early disease, and the checkpoint and antibody-drug conjugate pathways when advanced); there is no trial in the medullary pattern itself.",
-    subtypes: ["Invasive carcinoma of no special type with medullary pattern, triple-negative (basal-like) with high lymphocyte infiltrate", "Medullary pattern in BRCA1-associated breast cancer", "Former atypical medullary carcinoma (partial features)"],
-    biomarkers: ["Triple-negative receptor status with basal markers (CK5/6, CK14, CK17, EGFR)", "Tumour-infiltrating lymphocytes (prominent)", "BRCA1 germline testing", "PD-L1 for metastatic disease"],
-    standardOfCare: [
-      { setting: "All stages", approach: "Treated as triple-negative breast cancer on the parent's early and metastatic pages.", refs: ["tnbc", "tnbc-early", "tnbc-metastatic", "pembrolizumab"] },
-    ],
-    drugs: ["pembrolizumab"],
-    related: ["breast-cancer", "tnbc", "tnbc-early", "invasive-breast-carcinoma-no-special-type", "metaplastic-breast-carcinoma"],
-    links: [SRC.who2019, SRC.medullaryBasal, SRC.medullaryShiraz] }),
+  // medullary-pattern-breast-carcinoma is defined in src/data/spikes/tnbc-core.ts (parent tnbc). This file held a
+  // second full page for the same concept, breast-carcinoma-medullary-pattern, written on the same day by a
+  // different layer; both validated on their own branches and only collided in the corpus. The September 2026
+  // family round (src/data/spikes/breast-core.ts) folded them into the tnbc-core record, whose cohort is much
+  // larger (12,409 patients in 13 IBCSG trials, Huober 2012) and which the inbound links already pointed at,
+  // and moved the two series this file carried and that record did not (Iranian J Med Sci 2018 and Modern
+  // Pathology 2010), and this record's aliases, onto it as a supplement.
 
   // metaplastic-breast-carcinoma is defined in src/data/spikes/tnbc-core.ts (parent tnbc: these entities are almost always triple-negative).
 

@@ -12,27 +12,50 @@ const tags = ["parent-page"];
 export const cancerParentsWave2: CancerInput[] = [
   { id: "breast-cancer", kind: "cancer", name: "Breast cancer (all types)", group: "breast", asOf, tags, wikipedia: W("Breast_cancer"),
     aka: ["TCGA-BRCA", "breast invasive carcinoma (TCGA BRCA cohort)", "Breast carcinoma", "Carcinoma of the breast"],
-    burden: "The commonest cancer worldwide, with about 2.3 million new cases and 670,000 deaths a year; in high-income countries about nine in ten women diagnosed are alive five years later.",
-    tldr: "Breast cancer is not one disease. Which of three receptor patterns the tumour carries decides its treatment: hormone receptor-positive (about 70 percent), HER2-positive (about 15 percent) or triple-negative (about 15 percent). The pages for each type hold the detail; this page holds what they share.",
+    // The burden is written with its cohorts and sources by the September 2026 family round
+    // (src/data/spikes/breast-core.ts). The pair that stood here, "about 2.3 million new cases and 670,000 deaths"
+    // and "in high-income countries about nine in ten women diagnosed are alive five years later", carried no source,
+    // contradicted the sourced GLOBOCAN 2024 figures already in src/data/spikes/tnbc-core.ts, and was not true of the
+    // UK on this corpus's own survival figures. The tldr below is corrected in place, because the schema requires it
+    // on every cancer record: its 70 / 15 / 15 split presented three overlapping categories as a partition, and
+    // hormone receptor-positive HER2-positive disease belongs to two of them at once.
+    tldr: "Breast cancer is not one disease, and the result that decides which page you need is the receptor result: whether the cancer carries oestrogen and progesterone receptors, and whether it carries too much HER2. Those two answers give four boxes, not three, with a page for each. Grade and stage do not change which page you read; they change what happens on it.",
     summary: "Breast cancer arises from the milk ducts or lobules and is classified by the receptors on its cells: oestrogen and progesterone receptors, and HER2. Hormone receptor-positive, HER2-negative disease is treated with endocrine therapy and CDK4/6 inhibitors; HER2-positive disease with HER2 antibodies and antibody-drug conjugates; triple-negative disease with chemotherapy, immunotherapy and, for BRCA carriers, PARP inhibitors. Ductal carcinoma in situ is a precursor confined to the duct, and about one percent of cases occur in men. Screening mammography from around age 50, breast-conserving surgery with radiotherapy, sentinel node biopsy and genomic tests that spare chemotherapy are common to all types. Most patients present early and are cured; metastatic disease is treatable for years but rarely curable.",
-    subtypes: ["HR-positive / HER2-negative breast cancer", "HER2-positive breast cancer", "Triple-negative breast cancer (TNBC)", "Ductal carcinoma in situ (DCIS)", "Male breast cancer", "Invasive lobular carcinoma", "Inflammatory breast cancer"],
+    // The seven page names that stood here are all in the family strip above the section, and they are now said with
+    // their shares and their axis by src/data/spikes/breast-core.ts, which groups the 37 children by what a report
+    // actually tells a reader: receptor result, histological type, in situ or invasive, clinical entity.
+    subtypes: [],
     biomarkers: ["Oestrogen and progesterone receptors", "HER2 (including HER2-low)", "Ki-67 and grade", "Genomic recurrence scores (Oncotype DX, MammaPrint)", "BRCA1/2 and other germline variants", "PD-L1 (triple-negative)", "ESR1 and PIK3CA mutations (advanced hormone receptor-positive)"],
     standardOfCare: [
-      { setting: "Screening", approach: "Mammography every one to three years from around age 40 to 50 depending on country; MRI for high-risk women.", refs: ["mammography"] },
+      // The "Screening" one-liner that stood here ("mammography every one to three years from around age 40 to 50
+      // depending on country; MRI for high-risk women") was a strictly weaker duplicate of the screening rows and
+      // the four-nation screening ages in src/data/spikes/tnbc-core.ts and tnbc-uk.ts, and of the NHS screening
+      // programme layer of the September 2026 family round. The diagnosis, staging and recurrence rows that replace
+      // it are in src/data/spikes/breast-core.ts; `mammography` is still reachable from them.
       { setting: "Early disease, all types", approach: "Breast-conserving surgery with radiotherapy or mastectomy, sentinel node biopsy, then treatment by receptor type on the subtype pages.", refs: ["breast-hr-positive", "breast-her2-positive", "tnbc", "hypofractionated-radiotherapy"] },
       { setting: "Ductal carcinoma in situ", approach: "Surgery with or without radiotherapy and endocrine therapy; active surveillance under study.", refs: ["ductal-carcinoma-in-situ"] },
     ],
     stateOfArt: ["Five-year survival above 90 percent in early disease across high-income countries, driven by screening, endocrine therapy and HER2-targeted drugs.", "Antibody-drug conjugates such as trastuzumab deruxtecan have redrawn the HER2 boundary and moved into HER2-low disease.", "Genomic tests spare most node-negative hormone receptor-positive patients chemotherapy.", "Omission of radiotherapy in older low-risk women and one-week hypofractionation are reducing treatment burden."],
+    // Four entries were written twice. Tamoxifen 1977, CDK4/6 2015 and DESTINY-Breast04 2022 are on
+    // src/data/spikes/breast-hr-positive.ts with their trials and refs; trastuzumab 1998 is on
+    // breast-her2-positive.ts and again on src/data/breast-subtypes.ts; 2022 is on breast-subtypes.ts too. They are
+    // removed here rather than left in both places (the lung review rule), and the classification timeline that
+    // belongs to a family page, grading, staging editions and the WHO editions, is added by
+    // src/data/spikes/breast-core.ts. `tamoxifen`, `trastuzumab`, `palbociclib` and `trastuzumab-deruxtecan` are all
+    // still reachable from this record's pipeline and from the receptor pages.
     history: [
       { year: 1894, title: "Halsted radical mastectomy", note: "The standard operation for seventy years." },
-      { year: 1977, title: "Tamoxifen approved", note: "The first targeted hormonal therapy for breast cancer.", refs: ["tamoxifen"] },
       { year: 1985, title: "NSABP B-06: lumpectomy plus radiotherapy equals mastectomy" },
-      { year: 1998, title: "Trastuzumab approved", note: "The first HER2-targeted antibody.", refs: ["trastuzumab"] },
-      { year: 2000, title: "Molecular subtypes described", note: "Perou and Sorlie's expression profiling defines luminal, HER2-enriched and basal-like breast cancers." },
-      { year: 2015, title: "CDK4/6 inhibitors approved", refs: ["palbociclib"] },
-      { year: 2022, title: "Trastuzumab deruxtecan in HER2-low disease", refs: ["trastuzumab-deruxtecan"] },
+      { year: 2000, title: "Molecular subtypes described", note: "Perou and Sorlie's expression profiling defines luminal, HER2-enriched and basal-like breast cancers.", refs: ["basal-like", "pam50"] },
     ],
-    pipeline: ["trastuzumab-deruxtecan","datopotamab-deruxtecan","oral-serds"], related: ["her2-low-metastatic-breast-cancer", "inflammatory-breast-cancer", "paget-disease-of-the-nipple", "phyllodes-tumour", "male-breast-cancer", "ductal-carcinoma-in-situ"], openProblems: ["Metastatic disease remains incurable for almost everyone.", "Triple-negative and inflammatory breast cancer still have the worst outlook.", "Overdiagnosis from screening and overtreatment of low-risk DCIS.", "Survival gaps between countries and between Black and white women in the same country."],
+    pipeline: ["trastuzumab-deruxtecan","datopotamab-deruxtecan","oral-serds"],
+    related: ["her2-low-metastatic-breast-cancer", "inflammatory-breast-cancer", "paget-disease-of-the-nipple", "phyllodes-tumour", "male-breast-cancer", "ductal-carcinoma-in-situ"],
+    // The four one-line problems that stood here are each written with their figures on a child page or in a term:
+    // incurable metastatic disease and the triple-negative outlook on src/data/spikes/tnbc-core.ts, screening
+    // overdiagnosis and low-risk DCIS on the DCIS record in src/data/spikes/nci-rare-other.ts, and the survival gaps
+    // in the `health-disparities` term. The five that replace them, in src/data/spikes/breast-core.ts, are the
+    // family's own and carry their sources.
+    openProblems: [],
     links: [{ label: "Wikipedia", url: W("Breast_cancer") }, { label: "NCI PDQ", url: "https://www.cancer.gov/types/breast" }] },
   { id: "lung-cancer", kind: "cancer", name: "Lung cancer (all types)", group: "thoracic", asOf, tags, wikipedia: W("Lung_cancer"),
     aka: ["Bronchogenic carcinoma", "Lung carcinoma"],

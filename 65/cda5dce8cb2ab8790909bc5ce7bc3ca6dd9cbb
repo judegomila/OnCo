@@ -1,0 +1,52 @@
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_8085f7d4181a21 83
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_404e3d44ce4df1 64,71
+src/data/lung-molecular.test.ts
+  s_0beac9cb5d78fd::t_82e0c72ca5d966 1-13,15-52,54-89
+  s_0beac9cb5d78fd::t_f397954095b532 14
+  s_0beac9cb5d78fd::t_a8fe6323391406 53
+src/data/spikes/lung-molecular.ts
+  s_0beac9cb5d78fd::t_31ca24fe9cd3af 401-491,493-562
+  s_0beac9cb5d78fd::t_02c41c927a4757 933-977,979-1004
+  s_0beac9cb5d78fd::t_6e4df8837e2b2d 2-154
+  s_0beac9cb5d78fd::t_9e6120d3f61c0e 719-734,736-744,746-752,754-760,762-768,770-776,778-800,802-816,818-824,826-832,834-840,842-848,850-856,858-872,874-880,882-912,914-920,922-928,930-932
+  s_0beac9cb5d78fd::t_ad34faf110bfff 341-352,354-389,391-400
+  s_0beac9cb5d78fd::t_fd0f411f66ebb5 978
+  s_0beac9cb5d78fd::t_75ae176bc033da 390
+  s_0beac9cb5d78fd::t_dd6c45e3fc42e6 1154-1165
+  s_0beac9cb5d78fd::t_28179ea7479134 1198-1199
+  s_0beac9cb5d78fd::t_66de9b510223e5 191,735
+  s_0beac9cb5d78fd::t_16ed46a395808f 1
+  s_0beac9cb5d78fd::t_5c0e34c8780581 275-340
+  s_0beac9cb5d78fd::t_557d220131216e 1137
+  s_0beac9cb5d78fd::t_2f47ca907e2d22 605,629,693,701,709,717,753,761,769,777,841,873,913
+  s_0beac9cb5d78fd::t_74c648c470bdfb 573,589,597,653,661,669,677,745,801,817,825,833,849,857,881,921,929
+  s_0beac9cb5d78fd::t_09df789ac0b028 563-572,574-588,590-596,598-604,606-628,630-652,654-660,662-668,670-676,678-692,694-700,702-708,710-716,718
+  s_0beac9cb5d78fd::t_b91e3fb8a6901e 1172
+  s_0beac9cb5d78fd::t_87742187403ef7 155-190,192-222,224-230,232-274
+  s_0beac9cb5d78fd::t_9cee915fdccf58 231,353
+  s_0beac9cb5d78fd::t_9f36cb674da906 492
+  s_0beac9cb5d78fd::t_82e1d13a36f13e 1005-1136,1138-1151
+  s_0beac9cb5d78fd::t_371e14bb156b1a 1152-1153,1166-1171,1190-1197,1200-1227
+  s_0beac9cb5d78fd::t_38b43d8fd7b8c0 1173-1189
+  s_0beac9cb5d78fd::t_eb932181ddb39c 223
+src/lib/ask.test.ts
+  s_0beac9cb5d78fd::t_a724c85c47dbec 405-412
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "65cda5dce8cb2ab8790909bc5ce7bc3ca6dd9cbb",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

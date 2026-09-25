@@ -64,6 +64,15 @@ const PCUK_STENT_BILE = { label: "Pancreatic Cancer UK: stent for a blocked bile
 const PCUK_STENT_DUODENUM = { label: "Pancreatic Cancer UK: stents for a blocked duodenum", url: "https://www.pancreaticcancer.org.uk/information/treatments-for-pancreatic-cancer/stents-for-a-blocked-duodenum/" };
 const PCUK_CLOTS = { label: "Pancreatic Cancer UK: blood clots in a vein and pancreatic cancer", url: "https://www.pancreaticcancer.org.uk/information/managing-symptoms-and-side-effects/blood-clots-in-a-vein-dvt-and-pancreatic-cancer/" };
 
+const NHS_BOWEL_SYMPTOMS = { label: "NHS: bowel cancer, symptoms", url: "https://www.nhs.uk/conditions/bowel-cancer/symptoms/" };
+const NHS_COLOSTOMY_COMPLICATIONS = { label: "NHS: complications of a colostomy", url: "https://www.nhs.uk/tests-and-treatments/colostomy/complications-of-a-colostomy/" };
+const NG151 = { label: "NICE NG151: colorectal cancer, recommendations", url: "https://www.nice.org.uk/guidance/ng151/chapter/Recommendations" };
+const MAC_IRINOTECAN = { label: "Macmillan: irinotecan", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/irinotecan" };
+const MAC_OXALIPLATIN = { label: "Macmillan: oxaliplatin", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/oxaliplatin" };
+const MAC_CETUXIMAB = { label: "Macmillan: cetuximab (Erbitux)", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/cetuximab" };
+const MAC_FOLFOX = { label: "Macmillan: FOLFOX", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/folfox" };
+const BCUK_STOMA = { label: "Bowel Cancer UK: stomas", url: "https://www.bowelcanceruk.org.uk/about-bowel-cancer/treatment/surgery/stomas/" };
+
 export const GENERAL_RED_FLAGS: RedFlagSet = {
   id: "general",
   label: "Anyone on cancer treatment",
@@ -427,6 +436,83 @@ export const redFlagSets: RedFlagSet[] = [
     flags: [
       { symptom: "Swollen or painful leg or arm with breathlessness or chest pain", threshold: "The NHS says call 999 or go to A&E if you have symptoms of DVT, such as pain and swelling, and feel short of breath or have chest pain; a clot that travels to the lungs (pulmonary embolism) is life-threatening. Do not drive yourself.", action: "emergency", source: NHS_DVT },
       { symptom: "Pain, swelling, warmth or colour change in one leg or arm; sudden or gradual breathlessness; coughing up blood", threshold: "Pancreatic Cancer UK says tell your doctor or medical team straight away, or go to A&E or call 999; on chemotherapy call the 24-hour emergency number, and if you cannot get through go to A&E or call 999. Most clots are treated with blood-thinning tablets or injections without stopping cancer treatment.", action: "call-now", source: PCUK_CLOTS },
+    ],
+  },
+  {
+    id: "colorectal-bowel-obstruction",
+    label: "Bowel cancer: a blocked bowel or a blocked stoma",
+    cancerIds: ["colorectal"],
+    concernIds: ["stoma", "colectomy"],
+    window: "A tumour, scar tissue or food can block the bowel at any point, before or after surgery; NICE NG151 treats acute left-sided large bowel obstruction as an emergency to be relieved by stenting or surgery.",
+    flags: [
+      { symptom: "Nothing coming out of the stoma, with cramps, sickness or swelling around it", threshold: "The NHS says if less poo is coming out of your stoma than usual, or your stoma stops producing poo, you may have a bowel blockage; a blockage is serious because your bowel could burst, and you may need further surgery, so speak to your stoma nurse urgently if you have cramps, are feeling sick or notice swelling around the stoma.", action: "call-now", source: NHS_COLOSTOMY_COMPLICATIONS },
+      { symptom: "Severe tummy pain, being sick, or vomit that may be green, with a stoma", threshold: "The NHS says to ask for an urgent GP appointment or get help from NHS 111 if you have had a colostomy and have severe tummy pain, or are feeling sick or being sick and the vomit may be green, because these could be signs of an infection or a bowel obstruction.", action: "call-now", source: NHS_COLOSTOMY_COMPLICATIONS },
+      { symptom: "No bowel movement for days with a swollen, painful tummy and vomiting", threshold: "A bowel that has stopped working is an emergency whether or not you have a stoma; NICE NG151 says to offer either stenting or emergency surgery for people presenting with acute left-sided large bowel obstruction where potentially curative treatment is suitable, and to consider stenting where treatment is with palliative intent.", action: "emergency", source: NG151 },
+      { symptom: "Constipation for more than two days on chemotherapy, with sickness", threshold: "Macmillan says that if you have not been able to pass stools for over 2 days and are being sick, contact the 24-hour number straight away.", action: "call-now", source: MAC_IRINOTECAN },
+    ],
+  },
+  {
+    id: "colorectal-perforation-peritonitis",
+    label: "Bowel cancer: a perforation or a leak at the join",
+    cancerIds: ["colorectal"],
+    concernIds: ["colectomy", "total-mesorectal-excision"],
+    window: "An anastomotic leak usually shows in the first week or two after bowel surgery; a perforation can also happen with an untreated obstruction or during treatment with a VEGF antibody such as bevacizumab.",
+    flags: [
+      { symptom: "Sudden severe tummy pain with a rigid, tender abdomen after bowel surgery", threshold: "NICE NG151 lists anastomotic leak (leaking of bowel contents into the abdomen) and pelvic abscess among the complications of total mesorectal excision; sudden severe pain with fever or feeling very unwell after bowel surgery is an emergency, so call 999 or go to A&E and say you have had a bowel operation.", action: "emergency", source: NG151 },
+      { symptom: "Fever, shivering or feeling very unwell in the days after bowel surgery", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number for a temperature outside the range your team gave you, for shivering, or for feeling unwell even with a normal temperature; after an operation these can be the first sign of a leak or an abscess rather than a chest or wound infection.", action: "call-now", source: MAC_FOLFOX },
+      { symptom: "Severe tummy pain on bevacizumab", threshold: "Perforation of the bowel is a labelled risk of the VEGF antibodies; any severe new abdominal pain on bevacizumab is an emergency assessment rather than a wait-and-see, so call 999 or go to A&E and take your alert card.", action: "emergency", source: AVASTIN },
+    ],
+  },
+  {
+    id: "colorectal-neutropenic-sepsis",
+    label: "Bowel cancer chemotherapy: neutropenic sepsis",
+    cancerIds: ["colorectal"],
+    concernIds: ["neutropenia", "febrile-neutropenia"],
+    window: "The risk is highest about 7 to 14 days after each dose of FOLFOX, CAPOX, FOLFIRI or irinotecan, when the white cell count is at its lowest, but a fever at any point counts.",
+    flags: [
+      { symptom: "Fever, shivering, or feeling unwell with a normal temperature", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number for a temperature outside the range your team gave you, for shivering, or for feeling unwell even with a normal temperature; NICE CG151 defines neutropenic sepsis as a temperature higher than 38 C or any symptoms and signs of sepsis in a person having anticancer treatment.", action: "call-now", source: NICE_CG151 },
+      { symptom: "Signs of sepsis", threshold: "The NHS says to call 999 or go to A&E for breathing very fast, confusion or slurred speech or not making sense, blue, pale or blotchy skin, lips or tongue, a very high or very low temperature, feeling hot or cold to the touch or shivery, or a rash that does not fade when pressed.", action: "emergency", source: NHS_SEPSIS },
+      { symptom: "Diarrhoea that the anti-diarrhoea drugs have not settled", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number if diarrhoea starts less than 24 hours after irinotecan, because more atropine may be needed, and if your anti-diarrhoea drugs have not worked within 24 hours; dehydration with a low white cell count is how a manageable side effect becomes sepsis.", action: "call-now", source: MAC_IRINOTECAN },
+      { symptom: "Mouth ulcers or a sore mouth that stops you eating or drinking", threshold: "Macmillan says to ring if a sore mouth or throat affects how much you can drink or eat, or if your mouth, tongue, throat or lips have any blisters, ulcers or white patches.", action: "call-today", source: MAC_FOLFOX },
+    ],
+  },
+  {
+    id: "colorectal-bleeding",
+    label: "Bowel cancer: bleeding from the bowel or the stoma",
+    cancerIds: ["colorectal"],
+    concernIds: ["colectomy", "stoma"],
+    flags: [
+      { symptom: "Bleeding that will not stop, or large clots when you poo", threshold: "The NHS says to call 999 or go to A&E if you are bleeding non-stop from your bottom, or there is a lot of blood or you see large blood clots when you poo.", action: "emergency", source: NHS_BOWEL_SYMPTOMS },
+      { symptom: "Black or dark red poo, or bloody diarrhoea", threshold: "The NHS says to ask for an urgent GP appointment or get help from NHS 111 if your poo is black or dark red, or you have bloody diarrhoea.", action: "call-now", source: NHS_BOWEL_SYMPTOMS },
+      { symptom: "A lot of blood coming from the stoma or into the bag", threshold: "The NHS says to ask for an urgent GP appointment or get help from NHS 111 if you have had a colostomy and there is lots of blood coming from your stoma or in your stoma bag.", action: "call-now", source: NHS_COLOSTOMY_COMPLICATIONS },
+      { symptom: "Unexplained bruising or bleeding on chemotherapy", threshold: "Macmillan says that if you have any unexplained bruising or bleeding, contact the hospital straight away on the 24-hour number, because you may need a platelet transfusion.", action: "call-now", source: MAC_IRINOTECAN },
+    ],
+  },
+  {
+    id: "colorectal-stoma-emergencies",
+    label: "Bowel cancer: stoma emergencies and dehydration",
+    cancerIds: ["colorectal"],
+    concernIds: ["stoma"],
+    window: "The first weeks after a new ileostomy are when output is highest and dehydration is most likely; Bowel Cancer UK says the stoma care specialist nurse supports you through learning to manage it.",
+    flags: [
+      { symptom: "A very high temperature, or feeling hot, cold or shivery, with a stoma", threshold: "The NHS says to ask for an urgent GP appointment or get help from NHS 111 if you have had a colostomy and your temperature is very high, or you feel hot, cold or shivery, because this could be a sign of an infection.", action: "call-now", source: NHS_COLOSTOMY_COMPLICATIONS },
+      { symptom: "Signs of dehydration with a high-output stoma", threshold: "The NHS says having a colostomy makes it harder to stay hydrated and to get advice from your stoma nurse or another healthcare professional for fatigue, a dry mouth or lots of poo coming out of your stoma; Cancer Research UK says you lose more fluid through an ileostomy, so your urine should stay a pale straw colour through the day and you should speak to the team straight away if you think you are dehydrated.", action: "call-now", source: NHS_COLOSTOMY_COMPLICATIONS },
+      { symptom: "The stoma changes colour, sinks in, sticks out further or the skin around it breaks down", threshold: "The NHS lists swelling around the stoma (a hernia), the stoma going back into the tummy (retraction), the stoma coming out too far (prolapse) and skin damage around the stoma as problems to contact the stoma nurse or GP about, because different bags, accessories or surgery may be needed.", action: "call-today", source: NHS_COLOSTOMY_COMPLICATIONS },
+      { symptom: "Medicines appearing whole in the bag", threshold: "The NHS says many medicines are designed to dissolve slowly and may not work with a colostomy because they can come straight out into the bag, and to speak to your doctor about liquid or powder forms rather than stopping any prescribed medicine.", action: "call-today", source: NHS_COLOSTOMY_COMPLICATIONS },
+      { symptom: "Not being able to manage the stoma at home", threshold: "Bowel Cancer UK says the stoma care specialist nurse shows you the equipment before the operation and supports you afterwards while you learn to look after the stoma; ringing them early is what the service is for.", action: "call-today", source: BCUK_STOMA },
+    ],
+  },
+  {
+    id: "colorectal-oxaliplatin-egfr",
+    label: "Bowel cancer: oxaliplatin and the EGFR antibodies",
+    cancerIds: ["colorectal"],
+    concernIds: ["peripheral-neuropathy", "rash-skin-toxicity"],
+    window: "Oxaliplatin's cold sensitivity is worst in the days after each dose; the acne-like rash from cetuximab or panitumumab is most likely in the first 2 or 3 weeks.",
+    flags: [
+      { symptom: "Difficulty swallowing or breathing in the cold after oxaliplatin", threshold: "Macmillan says that rarely oxaliplatin can cause a spasm in the throat area around the voicebox, causing difficulties with swallowing and breathing, during treatment or in the first few days after it, and that this may be worse in cold temperatures; difficulty breathing is a 999 call, and the team should be told either way because later doses may be given over 4 to 6 hours.", action: "emergency", source: MAC_OXALIPLATIN },
+      { symptom: "Numbness or tingling that is getting worse or lasting between cycles", threshold: "NICE NG151 says to emphasise the importance of monitoring and managing side effects during non-surgical treatment to try to prevent permanent damage, giving monitoring of prolonged sensory symptoms after platinum-based chemotherapy as the example, which can be a sign that the dose needs to be reduced to minimise future permanent peripheral neuropathy.", action: "call-today", source: NG151 },
+      { symptom: "A rash, or sore and swollen skin around the nails, on cetuximab or panitumumab", threshold: "Macmillan says skin changes are often mild but can be more severe, and that if you notice any skin changes you should contact the hospital as soon as possible on the 24-hour number, because you may need creams, steroids or antibiotics and treatment may be paused; sore, swollen skin around the nails may be a sign of infection.", action: "call-today", source: MAC_CETUXIMAB },
+      { symptom: "Blistering skin, or sores in the mouth, eyes or genitals", threshold: "Macmillan says that rarely cetuximab can cause a serious skin reaction that needs to be treated immediately in hospital, and to contact the hospital straight away on the 24-hour number.", action: "emergency", source: MAC_CETUXIMAB },
     ],
   },
 ];

@@ -7,6 +7,8 @@ import MiniSearch from "minisearch";
 import { graph } from "./graph";
 import { routeFor } from "./kinds";
 import { searchDocs, type SearchDoc } from "./search-index";
+import { SEARCH_INDEX_OPTIONS } from "./search-rank";
+import { askLexical } from "./search-client";
 import { buildSemanticIndex, semanticSearch } from "./semantic";
 import { semanticDocs } from "./semantic-docs";
 import { buildAskIndex } from "./ask-index-build";
@@ -31,7 +33,8 @@ let cached: AskHarness | null = null;
 export function askHarness(): AskHarness {
   if (cached) return cached;
   const g = graph();
-  const ms = new MiniSearch<SearchDoc>({ fields: ["name", "aka", "tldr", "tags", "id"], storeFields: ["id"], searchOptions: { boost: { name: 4, aka: 3, id: 2 }, prefix: true, fuzzy: 0.2 } });
+  // The browser's own index build (search-rank.ts), so the harness ranks exactly as /ask/ does.
+  const ms = new MiniSearch<SearchDoc>(SEARCH_INDEX_OPTIONS);
   ms.addAll(searchDocs());
   const sem = buildSemanticIndex(semanticDocs());
   const index = buildAskIndex();
@@ -42,7 +45,7 @@ export function askHarness(): AskHarness {
     for (const [k, list] of g.neighbours(id)) neighbours[k] = list.map((x) => ({ id: x.id, kind: x.kind, name: x.name, route: routeFor(x) }));
     return { entity: e as unknown as AskEntity, route: routeFor(e), neighbours };
   };
-  const lexical = (q: string, k: number) => ms.search(q).slice(0, k).map((h) => String(h.id));
+  const lexical = (q: string, k: number) => askLexical(ms, q, k);
   const concept = (q: string, k: number) => semanticSearch(sem, q, k).map((h) => h.id);
   const deps: AskDeps = { index, lexical, concept, load: async (id) => load(id) };
   cached = { index, deps, load, lexical, concept, ask: (question, region, opts) => answerQuestion(question, { ...deps, region, ...opts }) };

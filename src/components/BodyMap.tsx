@@ -4,11 +4,18 @@ import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { FIGURE, type BodyRegion } from "@/data/body-regions";
 import { useAnimationBudget, useMotionSnapshot } from "@/lib/use-animation-budget";
+import { KindIcon } from "./KindIcon";
 
 export type BodyCancer = { id: string; name: string; tldr: string; route: string; products: number };
 export type BodyTech = { id: string; name: string; tldr: string; route: string; status?: string };
+/** What OnCo holds for the cancers of one region, and the lead cancer whose Explore view the pills open (src/lib/body-entry.ts). */
+export type BodyFamily = { cancers: number; trials: number; drugs: number; ideas: number; lead: string };
 
-type Props = { regions: BodyRegion[]; cancers: Record<string, BodyCancer>; technologies: Record<string, BodyTech> };
+type Props = {
+  regions: BodyRegion[]; cancers: Record<string, BodyCancer>; technologies: Record<string, BodyTech>;
+  /** Entry mode (the home page on phones): cancers only, and the detail panel opens with the family's counts as links. */
+  families?: Record<string, BodyFamily>;
+};
 type Mode = "cancers" | "technologies";
 type Sex = "female" | "male";
 
@@ -28,13 +35,30 @@ const CSS = `
 @media (prefers-reduced-motion: reduce) { .bm-lungs, .bm-heart { animation: none; } .bm-organ { transition: none; } }
 `;
 
+/** The family's counts as pills: the cancers here, and the trials, products and ideas across them, each opening the list. */
+function FamilyPills({ f }: { f: BodyFamily }) {
+  const n = (x: number) => x.toLocaleString("en-GB");
+  const pill = "chip border border-border bg-card text-foreground/85 hover:bg-foreground/5 text-xs";
+  const explore = (kind?: string) => `/explore/?cancer=${f.lead}${kind ? `&kind=${kind}` : ""}`;
+  const bold = (v: number) => <b className="font-semibold text-foreground tabular-nums">{n(v)}</b>;
+  return (
+    <div className="mt-3 flex flex-wrap gap-1.5" data-body-family>
+      <Link href="/cancers/" className={pill} title="Every cancer, one page each"><KindIcon kind="cancer" className="h-3 w-3" /><span>{bold(f.cancers)} {f.cancers === 1 ? "cancer" : "cancers"}</span></Link>
+      <Link href={explore("trial")} className={pill} title="Trials for the cancers here, ranked in Explore"><KindIcon kind="trial" className="h-3 w-3" /><span>{bold(f.trials)} trials</span></Link>
+      <Link href={explore()} className={pill} title="Drugs, tests and devices for the cancers here, ranked in Explore"><KindIcon kind="drug" className="h-3 w-3" /><span>{bold(f.drugs)} products</span></Link>
+      <Link href={explore("idea")} className={pill} title="Ideas for the cancers here, ranked in Explore"><KindIcon kind="idea" className="h-3 w-3" /><span>{bold(f.ideas)} ideas</span></Link>
+    </div>
+  );
+}
+
 /**
  * Anatomical front-view body map drawn to the eight-head canon in the site's line-art style.
  * Organs are the clickable regions (fill or wide stroke for tubes and bones). Mode "cancers"
  * shows where cancers arise; "technologies" where local technologies (imaging, ablation,
  * radiation, surgery) apply. Labels sit in the margins with leader lines so nothing overlaps.
  */
-export function BodyMap({ regions, cancers, technologies }: Props) {
+export function BodyMap({ regions, cancers, technologies, families }: Props) {
+  const entry = !!families;
   const [mode, setMode] = useState<Mode>("cancers");
   const [sex, setSex] = useState<Sex>("female");
   const [active, setActive] = useState<string | null>(null);
@@ -58,8 +82,10 @@ export function BodyMap({ regions, cancers, technologies }: Props) {
       <style>{CSS}</style>
       <div ref={figure} data-motion-paused={motion.active ? undefined : ""} className="card p-3">
         <div className="flex flex-wrap items-center gap-1 mb-2 text-sm">
-          <button type="button" onClick={() => setMode("cancers")} aria-pressed={mode === "cancers"} className={`chip border ${mode === "cancers" ? "bg-foreground text-background border-foreground" : "bg-card border-border hover:bg-foreground/5"}`}>Where cancers arise</button>
-          <button type="button" onClick={() => setMode("technologies")} aria-pressed={mode === "technologies"} className={`chip border ${mode === "technologies" ? "bg-foreground text-background border-foreground" : "bg-card border-border hover:bg-foreground/5"}`}>Where technologies apply</button>
+          {entry ? <span className="text-xs text-muted">Tap where the cancer is</span> : <>
+            <button type="button" onClick={() => setMode("cancers")} aria-pressed={mode === "cancers"} className={`chip border ${mode === "cancers" ? "bg-foreground text-background border-foreground" : "bg-card border-border hover:bg-foreground/5"}`}>Where cancers arise</button>
+            <button type="button" onClick={() => setMode("technologies")} aria-pressed={mode === "technologies"} className={`chip border ${mode === "technologies" ? "bg-foreground text-background border-foreground" : "bg-card border-border hover:bg-foreground/5"}`}>Where technologies apply</button>
+          </>}
           <span className="ml-auto inline-flex rounded-md border border-border overflow-hidden text-xs">
             <button type="button" onClick={() => setSex("female")} aria-pressed={sex === "female"} className={`px-2 py-1 ${sex === "female" ? "bg-foreground text-background" : "bg-card"}`}>Female</button>
             <button type="button" onClick={() => setSex("male")} aria-pressed={sex === "male"} className={`px-2 py-1 ${sex === "male" ? "bg-foreground text-background" : "bg-card"}`}>Male</button>
@@ -145,9 +171,9 @@ export function BodyMap({ regions, cancers, technologies }: Props) {
         className="self-start lg:sticky lg:top-28 max-lg:order-first max-lg:sticky max-lg:top-14 max-lg:z-20 max-lg:max-h-[40vh] max-lg:overflow-y-auto max-lg:rounded-xl max-lg:bg-background">
         {!region && (
           <div className="card p-3 lg:p-6 text-sm text-muted">
-            <p className="lg:hidden">Tap an organ to see what arises or applies there. The viewer&apos;s left is the patient&apos;s right.</p>
+            <p className="lg:hidden">{entry ? "Tap an organ to see the cancers arising there and how much OnCo holds on them: trials, products, ideas." : "Tap an organ to see what arises or applies there."} The viewer&apos;s left is the patient&apos;s right.</p>
             <p className="hidden lg:block">Hover or tap an organ. The figure is drawn to the eight-head canon with organs in their anatomical positions; the viewer&apos;s left is the patient&apos;s right, so the liver sits on the left of the drawing.</p>
-            <p className="hidden lg:block mt-2">Switch to <button type="button" className="underline" onClick={() => setMode(mode === "cancers" ? "technologies" : "cancers")}>{mode === "cancers" ? "where technologies apply" : "where cancers arise"}</button>, or pick female or male to change the pelvis.</p>
+            {!entry && <p className="hidden lg:block mt-2">Switch to <button type="button" className="underline" onClick={() => setMode(mode === "cancers" ? "technologies" : "cancers")}>{mode === "cancers" ? "where technologies apply" : "where cancers arise"}</button>, or pick female or male to change the pelvis.</p>}
           </div>
         )}
         {region && (
@@ -159,12 +185,13 @@ export function BodyMap({ regions, cancers, technologies }: Props) {
               </div>
               {pinned === region.id && <button type="button" className="text-xs underline text-muted" onClick={() => setPinned(null)}>Unpin</button>}
             </div>
+            {families?.[region.id] && <FamilyPills f={families[region.id]} />}
             <div className="mt-3 lg:mt-4 grid gap-2 lg:gap-3 sm:grid-cols-2">
               {mode === "cancers"
                 ? region.cancers.map((id) => { const c = cancers[id]; if (!c) return null; return (
                   <Link key={id} href={c.route} className="card p-3 hover:shadow-md transition">
                     <div className="font-medium">{c.name}</div>
-                    <p className="text-xs text-muted mt-0.5 line-clamp-3">{c.tldr}</p>
+                    {c.tldr && <p className="text-xs text-muted mt-0.5 line-clamp-3">{c.tldr}</p>}
                     <div className="text-xs text-muted mt-1"><span className="font-semibold text-foreground tabular-nums">{c.products}</span> products in OnCo</div>
                   </Link>); })
                 : region.technologies.map((id) => { const t = technologies[id]; if (!t) return null; return (
@@ -173,7 +200,7 @@ export function BodyMap({ regions, cancers, technologies }: Props) {
                     <p className="text-xs text-muted mt-0.5 line-clamp-3">{t.tldr}</p>
                   </Link>); })}
             </div>
-            {mode === "cancers" && region.technologies.length > 0 && (
+            {!entry && mode === "cancers" && region.technologies.length > 0 && (
               <p className="mt-4 text-xs text-muted">Local technologies here: {region.technologies.map((id) => technologies[id]?.name).filter(Boolean).join(", ")}. <button type="button" className="underline" onClick={() => setMode("technologies")}>Show</button></p>
             )}
             {mode === "technologies" && region.cancers.length > 0 && (

@@ -119,7 +119,8 @@ class Graph {
   }
 }
 
-function outgoing(e: Entity): Array<[string, Backlink["via"]]> {
+/** Every id `e` links to, with the field or structure it links through; duplicates and self-links are left to the caller. */
+export function outgoing(e: Entity): Array<[string, Backlink["via"]]> {
   const out: Array<[string, Backlink["via"]]> = [];
   for (const f of REL_FIELDS) for (const to of e[f]) out.push([to, f]);
   if (e.kind === "pairing") {

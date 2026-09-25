@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { loadSearch } from "@/lib/search-client";
+import { askLexical, loadSearch } from "@/lib/search-client";
 import { loadSemantic } from "@/lib/semantic-client";
 import { semanticSearch } from "@/lib/semantic";
 import { loadAskIndex } from "@/lib/ask-index";
@@ -48,7 +48,7 @@ export function AskOnco({ examples }: { examples: AskExample[] }) {
       if (!index) { setState({ status: "error", message: "Ask is not available in this build. Search works: try the same words in the search box." }); return; }
       const result = await answerQuestion(value, {
         index,
-        lexical: (text, k) => ms.search(text).slice(0, k).map((h) => String(h.id)),
+        lexical: (text, k) => askLexical(ms, text, k),
         concept: (text, k) => (semantic ? semanticSearch(semantic, text, k).map((h) => h.id) : []),
         load: loadEntityRecord,
         region: regionRef.current ?? undefined,

@@ -2,6 +2,7 @@ import type MiniSearch from "minisearch";
 import type { SearchResult } from "minisearch";
 import type { SearchDoc } from "@/lib/search-index";
 import { rankHits, SEARCH_INDEX_OPTIONS } from "@/lib/search-rank";
+import { contentWords } from "@/lib/semantic";
 
 /**
  * The browser-side search index: the exported /api/v1/search.json (every entity and page, one document each) inside a
@@ -39,4 +40,16 @@ export type RankedHit = SearchResult & SearchDoc;
 export function searchRanked(ms: MiniSearch<SearchDoc>, query: string, limit?: number): RankedHit[] {
   const ranked = rankHits(ms.search(query) as RankedHit[], query);
   return limit === undefined ? ranked : ranked.slice(0, limit);
+}
+
+/**
+ * The word search as Ask OnCo reads it, shared by the browser (/ask/, the search page), the server harness and the
+ * extractive floor test: the question's function words dropped first (src/lib/semantic.ts contentWords), the hits
+ * re-weighted by kind tier and name match like every other list on the site, pages dropped since Ask reads entity
+ * records, ids only.
+ */
+export function askLexical(ms: MiniSearch<SearchDoc>, question: string, k: number): string[] {
+  const query = contentWords(question);
+  if (!query) return [];
+  return searchRanked(ms, query).filter((h) => h.kind !== "page").slice(0, k).map((h) => String(h.id));
 }

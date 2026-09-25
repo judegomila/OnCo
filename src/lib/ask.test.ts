@@ -6,6 +6,8 @@ import { askEval, askEvalNew, scoreAskEval } from "@/data/ask-eval";
 import { graph } from "./graph";
 import { routeFor } from "./kinds";
 import { searchDocs, type SearchDoc } from "./search-index";
+import { SEARCH_INDEX_OPTIONS } from "./search-rank";
+import { askLexical } from "./search-client";
 import { buildSemanticIndex, semanticSearch } from "./semantic";
 import { semanticDocs } from "./semantic-docs";
 import { askHarness } from "./ask-harness";
@@ -365,30 +367,63 @@ describe("Ask OnCo end to end", () => {
     expect(recall / askEvalNew.length).toBeGreaterThanOrEqual(0.9);
   });
 
-  it("keeps the extractive path at or above its previous floors", { timeout: 120_000 }, () => {
+  /**
+   * Extractive floor history: recall of the retrieval-only path (word search plus concept search, fused, top six) on the
+   * open benchmark, as measured on each date. The floor is the last measured value minus 0.005. Before 24 Sept 2026 the
+   * floor was lowered four times in four days as the corpus grew (0.3645, 0.355, 0.35, 0.33); this table exists so a
+   * future drop is visible as a row, and EXTRACTIVE_FLOORS below may only go up, so a corpus change that dilutes
+   * retrieval is fixed in the ranking, not by lowering the bar.
+   */
+  const EXTRACTIVE_RECALL_MEASURED: ReadonlyArray<{ date: string; recall: number; note: string }> = [
+    { date: "2026-09-10", recall: 0.3645, note: "baseline of the retrieval-only path" },
+    { date: "2026-09-17", recall: 0.3595, note: "blood-cancer subtype pages: io-40 lost checkpoint-inhibitor to bosutinib by 0.001 of concept score" },
+    { date: "2026-09-23", recall: 0.3526, note: "1,447 cancer gene pages: gene symbols in aliases share the lexical hits on gene-named questions" },
+    { date: "2026-09-24", recall: 0.3493, note: "gallbladder deep dive: about 160 biliary trial records repeat the landmark drug names" },
+    { date: "2026-09-24", recall: 0.3343, note: "TNBC core layer: twelve subtypes and nineteen terms carry 'triple-negative breast cancer' in their names" },
+    { date: "2026-09-24", recall: 0.3376, note: "TNBC deep dive: 229 registry trial records repeat pembrolizumab, sacituzumab and carboplatin" },
+    { date: "2026-09-24", recall: 0.329, note: "TNBC molecular and treatment layers plus the CanSim terms, measured before the ranking fix below" },
+    // Ranking fix, 24 Sept 2026: Ask's word search drops the question's function words before MiniSearch sees them
+    // (semantic.ts contentWords; with prefix and fuzzy matching "what", "which", "the" and "for" out-scored record names
+    // on long questions, so 177 of 220 missed records sat past lexical rank 100) and re-weights the hits by kind tier and
+    // name match like every other list on the site (search-client.ts askLexical, shared by /ask/, the search page, the
+    // harness and this test). Per-kind concept weights for papers, journals and the CanSim terms were measured at the
+    // same time and moved recall by at most 0.002 while lowering the rubric score, so they were not added.
+    { date: "2026-09-24", recall: 0.416, note: "after the ranking fix: function words dropped, kind tier and name match applied to Ask's word search" },
+  ];
+  /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
+  const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [
+    { date: "2026-09-24", recall: 0.41, rubric: 0.62, change: "function words dropped from Ask's word search; kind tier and name match applied (measured 0.416, rubric 0.676)" },
+  ];
+
+  it("only ever raises the extractive floor", () => {
+    for (let i = 1; i < EXTRACTIVE_FLOORS.length; i++) {
+      expect(EXTRACTIVE_FLOORS[i].recall).toBeGreaterThanOrEqual(EXTRACTIVE_FLOORS[i - 1].recall);
+      expect(EXTRACTIVE_FLOORS[i].rubric).toBeGreaterThanOrEqual(EXTRACTIVE_FLOORS[i - 1].rubric);
+    }
+    const last = EXTRACTIVE_RECALL_MEASURED[EXTRACTIVE_RECALL_MEASURED.length - 1];
+    const floor = EXTRACTIVE_FLOORS[EXTRACTIVE_FLOORS.length - 1];
+    // The floor sits 0.005 under the last measurement, never above it.
+    expect(floor.recall).toBeLessThanOrEqual(last.recall);
+    expect(floor.recall).toBeGreaterThanOrEqual(last.recall - 0.0101);
+  });
+
+  it("keeps the extractive path at or above its floor", { timeout: 120_000 }, () => {
     const g = graph();
-    const ms = new MiniSearch<SearchDoc>({ fields: ["name", "aka", "tldr", "tags", "id"], storeFields: ["id"], searchOptions: { boost: { name: 4, aka: 3, id: 2 }, prefix: true, fuzzy: 0.2 } });
+    // The browser's index build and Ask's word search (search-client.ts askLexical), so this measures what /ask/ runs.
+    const ms = new MiniSearch<SearchDoc>(SEARCH_INDEX_OPTIONS);
     ms.addAll(searchDocs());
     const sem = buildSemanticIndex(semanticDocs());
     let score = 0, recall = 0;
     for (const q of benchmark) {
-      const ids = retrieveIds(ms.search(q.question).slice(0, 12).map((h) => ({ id: String(h.id) })), semanticSearch(sem, q.question, 12), 6);
+      const ids = retrieveIds(askLexical(ms, q.question, 12).map((id) => ({ id })), semanticSearch(sem, q.question, 12), 6);
       const records = ids.map((id) => { const e = g.must(id); return recordFromEntity(e, routeFor(e)); });
       score += scoreAnswer(q, answerText(composeAnswer(q.question, records))).score;
       recall += q.entities.length ? q.entities.filter((id) => ids.includes(id)).length / q.entities.length : 1;
     }
-    // Measured 0.3645 before and 0.3595 after the blood-cancer subtype pages (17 Sept 2026): io-40 lost "checkpoint-inhibitor"
-    // when bosutinib (semantic score 0.209) edged past irae (0.209) on term-frequency drift from the nineteen new records.
-    // Measured 0.3526 after the 1,447 cancer gene pages (23 Sept 2026): gene records with matching symbols in their aliases
-    // now share the top twelve lexical hits on gene-named questions.
-    // Measured 0.3493 after the gallbladder deep dive (24 Sept 2026): about 160 new biliary trial records whose names and
-    // TL;DRs repeat the drug names of the landmark trials now share lexical hits on biliary and immunotherapy questions.
-    // Measured 0.3343 after the triple-negative breast cancer core layer (24 Sept 2026): twelve subtype pages and nineteen
-    // glossary terms whose names carry "triple-negative breast cancer" now share the lexical hits with the parent record
-    // on the tnbc-02, tnbc-05 and tnbc-10 questions (the live path answers from the compiled index, not this fallback).
-    // Measured 0.3376 after the TNBC deep dive (24 Sept 2026): 229 registry trial records and the UK, evidence and living
-    // files repeat pembrolizumab, sacituzumab and carboplatin in their names and TL;DRs and share lexical hits on breast questions.
-    expect(recall / benchmark.length).toBeGreaterThanOrEqual(0.33);
-    expect(score / benchmark.length).toBeGreaterThanOrEqual(0.62);
+    const floor = EXTRACTIVE_FLOORS[EXTRACTIVE_FLOORS.length - 1];
+    // When this fails after a corpus change, run `npx tsx scripts/ask-retrieval-diag.ts` from scripts/ to see which
+    // records outrank the expected ones and fix the ranking; then append the new measurement above. Do not lower the floor.
+    expect(recall / benchmark.length).toBeGreaterThanOrEqual(floor.recall);
+    expect(score / benchmark.length).toBeGreaterThanOrEqual(floor.rubric);
   });
 });

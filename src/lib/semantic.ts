@@ -50,6 +50,16 @@ const PHRASES: Array<[RegExp, string]> = [
   [/first[- ]line/g, "first-line frontline"], [/\bspread\b/g, "metastatic"],
 ];
 
+/**
+ * A question with its function words dropped, for the word index: "Which TROP2 ADCs are approved for first-line..."
+ * becomes "TROP2 ADCs approved first-line...". Spellings and punctuation are kept so MiniSearch's own tokeniser sees
+ * the words it indexed. With prefix and fuzzy matching on, "what", "which", "the" and "for" otherwise out-score the
+ * record names on a long question (measured 24 Sept 2026: extractive recall 0.329 with them, 0.415 without).
+ */
+export function contentWords(text: string): string {
+  return text.split(/\s+/).filter((w) => { const x = w.toLowerCase().replace(/[^a-z0-9]/g, ""); return x.length > 0 && !STOP.has(x); }).join(" ");
+}
+
 function stem(t: string): string {
   if (t.length <= 4) return t;
   if (t.endsWith("ies")) return t.slice(0, -3) + "y";

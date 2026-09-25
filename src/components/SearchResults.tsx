@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import type { SearchResult } from "minisearch";
-import { loadSearch, searchRanked } from "@/lib/search-client";
+import { askLexical, loadSearch, searchRanked } from "@/lib/search-client";
 import { MoleculeSlot } from "./MoleculeSlot";
 import { KindIcon } from "./KindIcon";
 import { NavIcon, NavItemIcon } from "./NavIcon";
@@ -189,7 +189,7 @@ export function SearchResults() {
       if (!index) { setAsk({ q: query, result: "unavailable" }); return; }
       const result = await answerQuestion(query, {
         index,
-        lexical: (text, k) => ms.search(text).slice(0, k).map((h) => String(h.id)),
+        lexical: (text, k) => askLexical(ms, text, k),
         concept: (text, k) => (semantic ? semanticSearch(semantic, text, k).map((h) => h.id) : []),
         load: loadEntityRecord,
       }).catch(() => null);

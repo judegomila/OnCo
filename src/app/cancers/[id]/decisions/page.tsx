@@ -18,6 +18,7 @@ import { Tip } from "@/components/Tip";
 import { toolsFor, toolRoute } from "@/lib/decision-tools";
 import { compareRoute, compareSetFor } from "@/lib/cancer-compare";
 import { ToolGlyph } from "@/components/ToolGlyph";
+import { SectionStrip } from "@/components/SectionStrip";
 
 export function generateStaticParams() {
   return decisionCancerIds().map((id) => ({ id }));
@@ -187,6 +188,7 @@ export default async function DecisionsPage({ params }: { params: Promise<{ id: 
         logo={<span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><CancerIcon cancerId={d.cancer.id} className="h-8 w-8" /></span>}
         right={<div className="flex flex-col items-end gap-2 text-xs text-muted"><PrintButton /><Link href={`${d.cancer.route}#care`} className="underline">Cancer page →</Link><Link href="/second-opinion/" className="underline">Second-opinion finder →</Link></div>} />
       <Container className="pb-16">
+        <SectionStrip cancerId={id} current="living-with-it" />
         <nav aria-label="Decision points" className="card p-4 mb-8">
           <Kicker icon="list">Decision points</Kicker>
           <ol className="flex flex-wrap gap-2">

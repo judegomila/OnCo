@@ -28,6 +28,7 @@ export function MachineLinks({ e }: { e: Entity }) {
         <li><a href={twins.json.url} type={twins.json.type} {...stamp(e, "json")}>JSON record with neighbours</a></li>
         <li><a href={twins.markdown.url} type={twins.markdown.type} {...stamp(e, "markdown")}>Markdown context for language models</a></li>
         <li><a href={twins.turtle.url} type={twins.turtle.type} {...stamp(e, "turtle")}>RDF Turtle for this record</a> (its triples, relations and owl:sameAs; the IRI of this record is {absoluteUrl(route)})</li>
+        {e.kind === "cancer" && <li><a href={`/api/v1/cancers/${e.id}/sections.json`} type="application/json" {...stamp(e, "sections")}>Section plan: the ten sections of this record with routes, anchors and counts</a></li>}
         <li><a href={encodeURI(`/api/v1/${plural}.json`)} type="application/json" {...stamp(e, "kind-json")}>All {plural} as JSON</a></li>
         <li><a href={MACHINE.triples} type="application/n-triples" {...stamp(e, "rdf")}>RDF N-Triples for the whole corpus</a></li>
         <li><a href={MACHINE.search} type="application/json" {...stamp(e, "search")}>Search index: id, kind, name, TL;DR and route for every record</a></li>

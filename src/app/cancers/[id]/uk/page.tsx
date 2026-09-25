@@ -13,6 +13,7 @@ import { CancerIcon } from "@/components/CancerIcon";
 import { PrintButton } from "@/components/PrintButton";
 import { RowAvatar } from "@/components/RowAvatar";
 import { SurvivalDisclosure } from "@/components/SurvivalDisclosure";
+import { SectionStrip } from "@/components/SectionStrip";
 
 export function generateStaticParams() {
   return ukPathwayCancerIds().map((id) => ({ id }));
@@ -149,6 +150,7 @@ function Page({ p, id }: { p: UkPathway; id: string }) {
         logo={<span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent">{cancer ? <CancerIcon cancerId={cancer.id} className="h-8 w-8" /> : <Ico name="flag" className="h-7 w-7" />}</span>}
         right={<div className="flex flex-col items-end gap-2 text-xs text-muted"><PrintButton /><Link href={cancerRoute} className="underline">Cancer page →</Link><a href={`/api/v1/cancers/${p.cancerId}/uk.json`} className="underline">JSON →</a><span>Checked {p.asOf}</span></div>} />
       <Container className="pb-16">
+        <SectionStrip cancerId={id} current="where-you-are" />
         <nav aria-label="Sections" className="card p-4 mb-8">
           <Kicker icon="list">On this page</Kicker>
           <ol className="flex flex-wrap gap-2">

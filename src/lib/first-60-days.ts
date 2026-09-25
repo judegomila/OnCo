@@ -109,7 +109,7 @@ export const firstSentence = (s: string) => { const m = /^(.+?[.!?])(\s|$)/.exec
 function socRow(c: Cancer, row: Cancer["standardOfCare"][number], g: Graph): GuideSocRow {
   const refs = row.refs.map((id) => g.get(id)).filter((e): e is Entity => !!e).map(link);
   const gl = [row.guideline?.nccn ? `NCCN category ${row.guideline.nccn}` : "", row.guideline?.esmoMcbs ? `ESMO-MCBS ${row.guideline.esmoMcbs}` : "", row.guideline?.version ?? ""].filter(Boolean).join(", ");
-  return { setting: row.setting, approach: row.approach, refs, guideline: gl || undefined, guidelineUrl: row.guideline?.url, href: `${routeFor(c)}#sec-care` };
+  return { setting: row.setting, approach: row.approach, refs, guideline: gl || undefined, guidelineUrl: row.guideline?.url, href: `${routeFor(c)}#care` };
 }
 
 /** Specialties named by the standard of care: read off the sections of the linked technologies and drugs, and the approach wording. */
@@ -138,7 +138,7 @@ export function teamRoles(c: Cancer, g: Graph): GuideRole[] {
   const order = ["Pathologist", "Radiologist", "Surgeon", systemic, "Clinical oncologist (radiotherapy)", "Transplant and cell therapy team", "Palliative and supportive care team"];
   return order.filter((r) => hits.has(r)).map((role) => {
     const settings = [...hits.get(role)!];
-    return { role, because: `Named in the standard of care for: ${settings.slice(0, 4).join(", ")}${settings.length > 4 ? ` and ${settings.length - 4} more` : ""}.`, href: `${routeFor(c)}#sec-care` };
+    return { role, because: `Named in the standard of care for: ${settings.slice(0, 4).join(", ")}${settings.length > 4 ? ` and ${settings.length - 4} more` : ""}.`, href: `${routeFor(c)}#care` };
   });
 }
 

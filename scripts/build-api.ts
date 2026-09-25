@@ -33,6 +33,7 @@ import { allTags, relatedTags } from "../src/lib/tags";
 import { spotlightFile } from "../src/lib/spotlight";
 import { UK_PATHWAYS, ukPathwayJson } from "../src/lib/uk-pathway";
 import { CANCER_GEOGRAPHIES, geographyJson } from "../src/lib/cancer-geography";
+import { sectionsJson } from "../src/lib/record-sections";
 
 const out = join(process.cwd(), "public", "api", "v1");
 // Clear the previous build, keeping rdf/: scripts/build-triples.ts rewrites only the Turtle files whose content changed
@@ -74,6 +75,8 @@ for (const c of g.kind("cancer")) write(`for-me/${c.id}.related.json`, forMeRela
 for (const p of UK_PATHWAYS) { mkdirSync(join(out, "cancers", p.cancerId), { recursive: true }); write(`cancers/${p.cancerId}/uk.json`, ukPathwayJson(p)); }
 // Geography layer: one file per cancer with a hand-written geography (src/lib/cancer-geography.ts) and its GLOBOCAN country table by sex, the companion of /cancers/<id>/#geography.
 for (const geo of CANCER_GEOGRAPHIES) { mkdirSync(join(out, "cancers", geo.cancerId), { recursive: true }); write(`cancers/${geo.cancerId}/geography.json`, geographyJson(geo)); }
+// Section plan: one file per cancer listing its ten sections with placement (inline on the hub or own page), routes, anchors and counts (src/lib/record-sections.ts).
+for (const c of g.kind("cancer")) { mkdirSync(join(out, "cancers", c.id), { recursive: true }); write(`cancers/${c.id}/sections.json`, sectionsJson(c, g)); }
 // Explore: every row of one kind per file; the page carries only the first rows of each kind (src/lib/explore-kinds.ts).
 const explore = writeExploreFiles(out);
 // Idea rankings: every row of one view per file; the page carries only the first rows of each view (src/lib/idea-rankings-views.ts).

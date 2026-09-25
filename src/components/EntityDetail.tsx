@@ -2,11 +2,19 @@ import Link from "next/link";
 import { enrolmentLabel } from "@/lib/enrolment";
 import { publicTags, tagRoute } from "@/lib/tags";
 import { Fragment, type ReactNode } from "react";
-import { EVIDENCE_TIER_LABEL, TARGET_ROLE_LABEL, type Cancer, type Entity, type Roadmap, type Term } from "@/lib/schema";
-import { KIND_META, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
+import { EVIDENCE_TIER_LABEL, TARGET_ROLE_LABEL, type Entity, type Roadmap, type Term } from "@/lib/schema";
+import { KIND_META, phaseLabel, routeFor } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
-import { paragraphs, KIND_COLOR, statusClass } from "@/lib/text";
 import { Bullets, ChipList, Container, KindChip, PageHeader, StatusChip } from "./ui";
+import { Block, Field, KeyPapers, keyPapersFor, LatestLiterature, Refs, Summary, ToolsStrip } from "./record-blocks";
+import { PrevalenceTable } from "./PrevalenceTable";
+import { WhatIsBeingDone } from "./WhatIsBeingDone";
+import { regimensFor, regimenRoute, cycleSummary } from "@/lib/regimens";
+import { interventionQuery } from "@/lib/ctgov";
+import { CitationChip } from "./CitationChip";
+import { OrganSchematic } from "./OrganSchematic";
+import { cancerTabs } from "./CancerRecord";
+import { NEIGHBOUR_CAP, forwardedAnchors } from "@/lib/record-sections";
 import { Neighbours } from "./Neighbours";
 import { PathwayDiagram } from "./PathwayDiagram";
 import { rankInstitutions } from "@/lib/ranking";
@@ -18,14 +26,6 @@ import { MachineLinks } from "./MachineLinks";
 import { CheckpointPills } from "./CheckpointPills";
 import { PrintButton } from "./PrintButton";
 import { TrialFinderGeo as TrialFinder } from "./TrialFinderGeo";
-import { Questions } from "./Questions";
-import { ExpertCentres } from "./ExpertCentres";
-import { decisionsFor, decisionsRoute } from "@/lib/decisions";
-import { ukPathwayFor, ukPathwayRoute } from "@/lib/uk-pathway";
-import { toolsFor, toolRoute } from "@/lib/decision-tools";
-import { compareRoute, compareSetFor } from "@/lib/cancer-compare";
-import { ToolGlyph } from "./ToolGlyph";
-import { conditionQuery, interventionQuery } from "@/lib/ctgov";
 import { TrialCounts } from "./TrialCounts";
 import { ReviewBadge } from "./ReviewBadge";
 import { TechSchematic } from "./TechSchematic";
@@ -39,8 +39,6 @@ import { TrialOutcomes } from "./Pictogram";
 import { TrialExplainer } from "./TrialExplainer";
 import { EvidenceBar } from "./EvidenceBar";
 import { EvidenceGradeChip } from "./EvidenceGradeChip";
-import { GuidelineChip } from "./GuidelineChip";
-import { PrevalenceTable, CancerPrevalence } from "./PrevalenceTable";
 import { SuggestEdit } from "./SuggestEdit";
 import { sourceLocation } from "@/lib/source-location";
 import { ProvenanceLine } from "./ProvenanceLine";
@@ -50,63 +48,38 @@ import { DosingCard } from "./DosingCard";
 import { ToxicityTable } from "./ToxicityTable";
 import { AccessTable } from "./AccessTable";
 import { RegulatoryTimeline } from "./RegulatoryTimeline";
-import { MechanismCard } from "./MechanismCard";
 import { SeeItInAction } from "./SeeItInAction";
 import { modalityGroup } from "@/lib/modality-group";
 import { TldrText } from "./TldrText";
-import { SummaryText } from "./SummaryText";
-import { summaryTranslationsFor } from "@/lib/summary-translations";
 import { FrontSchematic } from "./FrontSchematic";
 import { TermSchematic } from "./TermSchematic";
-import { CancerPipeline } from "./CancerPipeline";
 import { termVisual } from "@/lib/term-visual";
 import { DrugGrid } from "./DrugCard";
 import type { Drug, Paper } from "@/lib/schema";
-import { LayerAware } from "./LayerAware";
 import { TargetSpecificityPills } from "./TargetSpecificityPills";
 import { TargetWhereFound, hpaFor } from "./TargetWhereFound";
 import { KindName, TL } from "./T";
+import { KIND_COLOR, statusClass } from "@/lib/text";
 import { withTermHovers } from "@/lib/term-hover";
 import { paperQuery } from "@/lib/europepmc";
-import { CitationChip } from "@/components/CitationChip";
-import { LatestPapers } from "./LatestPapers";
-import { PaperTrend } from "./PapersPulse";
 import { roadmapStorySteps } from "@/lib/roadmap-story";
 import structureIndex from "../../public/structures/index.json";
 import { RegionStrip } from "./RegionMatrix";
 import { RegistryCheck } from "./RegistryCheck";
 import { regionalApprovals } from "@/data/regional-approvals";
-import { CountryCasesMini } from "./CountryCasesMini";
-import { CancerGeographySection } from "./CancerGeographySection";
-import { geographyFor } from "@/lib/cancer-geography";
 import { CancerIcon } from "./CancerIcon";
-import { RouteIcon } from "./RouteIcon";
 import { ResearchOutput } from "./ResearchOutput";
 import { confidence } from "@/data/confidence";
 import { FrontIcon } from "./FrontIcon";
 import { ApprovalChip } from "./ApprovalChip";
 import { MechanicsPills } from "./MechanicsPills";
-import { RedCardsStrip } from "./RedCardsStrip";
-import { ChangesPreview, FollowLine } from "./CancerChanges";
-import { changesForCancer, splitUpcoming } from "@/lib/cancer-changes";
 import { TargetSchematic } from "./TargetSchematic";
-import { Tip } from "./Tip";
 import { TargetExplainer } from "./TargetExplainer";
 import { CoverageUsCard } from "./CoverageUs";
 import { CoverageUkCard } from "./CoverageUk";
 import { coverageUs } from "@/data/coverage-us";
 import { coverageUk } from "@/data/coverage-uk";
-import { SurvivalDisclosure } from "./SurvivalDisclosure";
 import { similarLinks } from "@/lib/similar";
-import { OrganSchematic } from "./OrganSchematic";
-import { SpreadMap } from "./SpreadMap";
-import { spreadFor, SPREAD_LABELS } from "@/data/spread";
-import { GentleSection } from "./GentleSection";
-import { WhatIsBeingDone, WhatIsBeingDoneFor } from "./WhatIsBeingDone";
-import { journeysForCancer } from "@/data/journeys";
-import { organFor } from "@/data/organ-schematics";
-import { regimensFor, regimenRoute, cycleSummary } from "@/lib/regimens";
-import { guidelineCancerIds } from "@/lib/guidelines";
 import { agentById } from "@/lib/interactions";
 import { IdentifierRow, XrefStrip } from "./XrefStrip";
 import { EN_TEXT, nameAttrs } from "@/lib/translate";
@@ -138,11 +111,6 @@ function structuresForTarget(targetId: string): StructureEntry[] {
   return out.slice(0, 6);
 }
 
-function Refs({ ids }: { ids: string[] }) {
-  const g = graph();
-  const items = ids.map((id) => g.get(id)).filter((x): x is Entity => !!x);
-  return <ChipList items={items} />;
-}
 
 /** Labels and block titles are English source strings, translated on the client through the chrome dictionary (`TL`). */
 /** A Wayback Machine snapshot recorded as the website is shown as an archived copy of the original address. */
@@ -152,38 +120,6 @@ function websiteView(url: string): { label: string; text: string } {
   if (/^https?:\/\/(www\.)?ycombinator\.com\/companies\//.test(url)) return { label: "Y Combinator profile", text: url.replace(/^https?:\/\//, "") };
   return { label: "Website", text: url.replace(/^https?:\/\//, "") };
 }
-
-function Field({ label, children }: { label: string; children: ReactNode }) {
-  if (children === undefined || children === null || children === "" || (Array.isArray(children) && children.length === 0)) return null;
-  return (
-    <div className="min-w-0">
-      <div className="kicker mb-1"><TL text={label} /></div>
-      <div {...EN_TEXT} className="text-[15px] leading-relaxed">{children}</div>
-    </div>
-  );
-}
-
-function Block({ title, children, aside }: { title?: string; children: ReactNode; aside?: ReactNode }) {
-  return (
-    <section className="mt-8 first:mt-0">
-      {title && <div className="flex items-baseline justify-between gap-4 mb-3"><h2 className="text-lg font-semibold tracking-tight"><TL text={title} /></h2>{aside}</div>}
-      {children}
-    </section>
-  );
-}
-
-/**
- * The long summary. The server renders the English with lang="en"; when the reader's language has a cached machine
- * translation whose hash matches this English (public/i18n/summaries), SummaryText swaps it in client-side, marked as
- * machine translated with a report link and a toggle back to the English.
- */
-const Summary = ({ e }: { e: Entity }) => (
-  <LayerAware>
-    <SummaryText e={{ kind: e.kind, id: e.id, name: e.name }} translations={summaryTranslationsFor(e)}>
-      <div {...EN_TEXT} className="prose-onco text-[15px] leading-relaxed max-w-3xl">{paragraphs(e.summary).map((p, i) => <p key={i}>{withTermHovers(p, { skipId: e.id })}</p>)}</div>
-    </SummaryText>
-  </LayerAware>
-);
 
 /** Fetcher notes on a person's papers, rendered once under the table in plain English rather than under every row. */
 const PAPER_PROVENANCE: Record<string, string> = {
@@ -205,9 +141,12 @@ export function EntityDetail({ e }: { e: Entity }) {
   // page); a fragment keyed on the tab id crosses intact, so the section has one child.
   const tabs: Tab[] = keyedContent([
     ...kindTabs(e),
-    ...(e.notes.length ? [{ id: "notes", label: "Notes", content: <Bullets items={e.notes} linked={(t) => withTermHovers(t, { skipId: e.id })} /> }] : []),
-    ...keyPapersTab(e),
-    ...papersTab(e),
+    // Cancer records carry notes, key papers and the literature inside their Evidence and Data sections (CancerRecord.tsx).
+    ...(e.kind === "cancer" ? [] : [
+      ...(e.notes.length ? [{ id: "notes", label: "Notes", content: <Bullets items={e.notes} linked={(t) => withTermHovers(t, { skipId: e.id })} /> }] : []),
+      ...keyPapersTab(e),
+      ...papersTab(e),
+    ]),
     // Cancer pages carry "Related pages" (every direct link plus the products' targets, companies and technologies, with
     // the Similar strip) instead: the generic Connected tab repeated the same lists and doubled the markup of the page.
     ...(e.kind === "cancer" ? [] : [{ id: "connected", label: "Connected", count: nCon, content: <Neighbours groups={neighbours} similar={similarLinks(e.id)} max={NEIGHBOUR_CAP} /> }]),
@@ -234,7 +173,7 @@ export function EntityDetail({ e }: { e: Entity }) {
         {(e.kind === "target" || e.kind === "pathway" || e.kind === "term" || e.kind === "technology") && <CheckpointPills id={e.id} className="mb-6" />}
         {/* The tab bar takes the full content width and both columns start beneath it (Tabs owns the grid), so the right column never cuts the tabs short. Pages with one section keep the plain grid. */}
         {tabs.length > 1
-          ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={afterTabs} aside={aside} />
+          ? <Tabs tabs={tabs} ariaLabel={`${e.name} sections`} after={afterTabs} aside={aside} anchors={e.kind === "cancer" ? forwardedAnchors(e) : undefined} />
           : <div className="grid *:min-w-0 gap-10 lg:grid-cols-[1fr_300px]"><div className="min-w-0"><div className="space-y-10">{tabs.map((t) => <Block key={t.id} title={t.id === "overview" ? undefined : t.label}>{t.content}</Block>)}</div>{afterTabs}</div>{aside}</div>}
       </Container>
       <MachineLinks e={e} />
@@ -248,7 +187,7 @@ function keyedContent(tabs: Tab[]): Tab[] {
 }
 
 /** The right-hand column of a record page: evidence, review and provenance, links and tags, data, suggest an edit, quick links. */
-function RecordAside({ e }: { e: Entity }) {
+export function RecordAside({ e }: { e: Entity }) {
   return (
           <StickyAside>
             {e.kind === "person" && <PortraitCredit id={e.id} />}
@@ -273,7 +212,7 @@ function RecordAside({ e }: { e: Entity }) {
               </div>
             </div>
             <SuggestEdit id={e.id} kind={e.kind} name={e.name} fields={Object.keys(e)} source={sourceLocation(e.id, e.kind)} route={routeFor(e)} asOf={e.asOf} />
-            <QuickLinks e={e} />
+            {e.kind !== "cancer" && <QuickLinks e={e} />}
           </StickyAside>
   );
 }
@@ -295,6 +234,19 @@ function QuickLinks({ e }: { e: Entity }) {
       ))}
     </div>
   );
+}
+
+/** Key papers in the corpus that cite this object, with what they mean in plain English (record-blocks.tsx renders the cards). */
+function keyPapersTab(e: Entity): Tab[] {
+  const all = keyPapersFor(e);
+  if (!all.length) return [];
+  return [{ id: "key-papers", label: "Key papers", count: all.length, content: <KeyPapers e={e} all={all} /> }];
+}
+
+/** Live literature from Europe PMC plus the weekly trend, for the kinds a query can be built for. */
+function papersTab(e: Entity): Tab[] {
+  if (!["drug", "target", "technology"].includes(e.kind) || !paperQuery(e)) return [];
+  return [{ id: "papers", label: "Latest papers", content: <LatestLiterature e={e} /> }];
 }
 
 /** Per-kind tabs. The first tab is always "Overview" and contains the summary. */
@@ -583,64 +535,9 @@ function kindTabs(e: Entity): Tab[] {
   }
 }
 
-/**
- * Long relation lists show this many records and an "and N more" link to the filtered table (ChipList, Neighbours,
- * the key-paper cards): a cancer with 150 trials otherwise ships every one three or four times over in its markup.
- */
-const NEIGHBOUR_CAP = 48;
-/** Deep link to a kind's table filtered to one cancer, where that table has a cancer facet; else the kind's index. */
-function cancerTableHref(k: Kind, cancerName: string): string {
-  const facet = k === "trial" || k === "paper" ? "cancers" : undefined;
-  return facet ? `/${KIND_META[k].route}/?${facet}=${encodeURIComponent(cancerName)}` : `/${KIND_META[k].route}/`;
-}
 
-/** Key papers in the corpus that cite this object, with what they mean in plain English. */
-function keyPapersTab(e: Entity): Tab[] {
-  const g = graph();
-  const all = [...new Map([...(g.incoming(e.id).get("paper") ?? []), ...e.keyPapers.map((id) => g.get(id)).filter((x): x is Entity => !!x)].map((p) => [p.id, p])).values()].filter((p): p is Paper => p.kind === "paper").sort((a, b) => b.year - a.year);
-  if (!all.length) return [];
-  const papers = all.length > NEIGHBOUR_CAP ? all.slice(0, NEIGHBOUR_CAP) : all;
-  return [{ id: "key-papers", label: "Key papers", count: all.length, content: (
-    <div className="grid *:min-w-0 gap-3 md:grid-cols-2">{papers.length < all.length && <p className="md:col-span-2 text-sm text-muted">The {papers.length} most recent of {all.length} papers; <Link href={e.kind === "cancer" ? cancerTableHref("paper", e.name) : "/papers/"} className="underline" data-more>see them all →</Link></p>}{papers.map((p) => (
-      <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition">
-        <div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.journal} {p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} /></div>
-        <div className="font-medium leading-snug">{p.name}</div>
-        <p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p>
-      </Link>))}</div>) }];
-}
 
-/** Live literature: what the world is publishing about this object, from Europe PMC, plus the weekly-refreshed trend. */
-function papersTab(e: Entity): Tab[] {
-  if (!["drug", "target", "cancer", "technology"].includes(e.kind)) return [];
-  const q = paperQuery(e);
-  if (!q) return [];
-  return [{ id: "papers", label: "Latest papers", content: (<div className="space-y-4"><PaperTrend id={e.id} /><LatestPapers query={q} title={e.name} kind={e.kind} /></div>) }];
-}
 
-/**
- * Bullet list where any object we have a page for becomes a link: the leading name (before a colon, dash or
- * bracket) is matched against target, term, technology, drug and cancer names and aliases; the rest of the
- * sentence gets glossary hovers.
- */
-function LinkedBullets({ items, skipId }: { items: string[]; skipId?: string }) {
-  const g = graph();
-  const index = new Map<string, Entity>();
-  for (const k of ["target", "term", "technology", "drug", "cancer", "pathway"] as const) for (const x of g.kind(k)) { index.set(x.name.toLowerCase(), x); for (const a of x.aka) index.set(a.toLowerCase(), x); const bare = x.name.replace(/\s*\(.*?\)\s*$/, "").toLowerCase(); if (!index.has(bare)) index.set(bare, x); }
-  const find = (label: string): Entity | undefined => {
-    const l = label.trim().toLowerCase();
-    return index.get(l) ?? index.get(l.replace(/-positive$|-negative$|\+$|-$/g, "").trim()) ?? [...index.entries()].find(([k]) => k.length > 3 && (l === k || l.startsWith(k + " ") || l.endsWith(" " + k)))?.[1];
-  };
-  return (
-    <ul className="list-disc ps-5 space-y-1.5 text-[15px] leading-relaxed">
-      {items.map((it, i) => {
-        const m = it.match(/^([^:–—(]+?)\s*([:–—(].*)?$/);
-        const head = m?.[1] ?? it, rest = m?.[2] ?? "";
-        const e = find(head);
-        return <li key={i}>{e && e.id !== skipId ? <Tip title={e.name} text={e.tldr} href={routeFor(e)}><Link href={routeFor(e)} className="font-medium underline decoration-dotted decoration-foreground/30 underline-offset-[3px] hover:decoration-foreground">{head}</Link></Tip> : <span className="font-medium">{withTermHovers(head, { skipId })}</span>}{rest && <span className="text-foreground/85"> {withTermHovers(rest.replace(/^\s*/, ""), { skipId })}</span>}</li>;
-      })}
-    </ul>
-  );
-}
 
 function peopleTab(items: Entity[]): Tab[] {
   const people = [...new Map(items.filter((x) => x.kind === "person").map((x) => [x.id, x])).values()];
@@ -711,202 +608,12 @@ function RoadmapSteps({ r }: { r: Roadmap }) {
   </>);
 }
 
-/** The decisions a patient faces, one per standard-of-care setting, linking into the cancer's decision page (roadmap item 107). */
-function DecisionsStrip({ c }: { c: Cancer }) {
-  const d = decisionsFor(c.id);
-  if (!d) return null;
-  return (
-    <div className="card p-4 mb-4">
-      <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
-        <div className="kicker inline-flex items-center gap-1.5"><svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M6 3v6c0 3 3 4 6 4s6-1 6-4V3" /><path d="M12 13v8" /><circle cx="6" cy="3" r="1.5" /><circle cx="18" cy="3" r="1.5" /><circle cx="12" cy="21" r="1.5" /></svg><TL text="Decisions you may face" /></div>
-        <Link href={decisionsRoute(c.id)} className="text-sm text-accent hover:underline">{d.forks} with more than one option · full decision page →</Link>
-      </div>
-      <p className="text-sm text-muted mb-2">One section per setting: the options named, what each is for, the trials behind them, the recorded trade-offs and the questions to ask.</p>
-      <div className="flex flex-wrap gap-1.5">
-        {d.sections.map((s) => <Link key={s.id} href={decisionsRoute(c.id, s.id)} className={`chip border text-sm hover:bg-foreground/5 ${s.singlePath ? "bg-card border-border" : "bg-accent-soft border-accent/40 text-accent"}`} title={s.singlePath ? "One path named" : `${s.options.length} options`}>{s.setting}{!s.singlePath && <span className="ms-1 text-[10px] tabular-nums">{s.options.length}</span>}</Link>)}
-      </div>
-    </div>
-  );
-}
 
-/** Decision aids and side-by-side comparisons keyed to this record (src/lib/decision-tools.ts, src/lib/cancer-compare.ts): one pill each, with a glyph. */
-function ToolsStrip({ e }: { e: Entity }) {
-  const tools = toolsFor(e.id);
-  const compare = compareSetFor(e.id);
-  if (!tools.length && !compare) return null;
-  return (
-    <div className="card p-4 mb-4">
-      <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
-        <div className="kicker inline-flex items-center gap-1.5"><ToolGlyph name="compass" className="h-3.5 w-3.5" /><TL text="Decision aids" /></div>
-        <Link href="/tools/" className="text-sm text-accent hover:underline">All decision aids →</Link>
-      </div>
-      <p className="text-sm text-muted mb-2">Answer a few questions from a report and read the guideline statement that applies, quoted word for word with its source. Educational aids to prepare for an appointment, not advice.</p>
-      <div className="flex flex-wrap gap-1.5">
-        {tools.map((t) => <Link key={t.id} href={toolRoute(t.id)} className="chip border bg-accent-soft border-accent/40 text-accent text-sm hover:bg-foreground/5 inline-flex items-center gap-1.5" title={t.title}><ToolGlyph name={t.icon} className="h-3.5 w-3.5" />{t.short}</Link>)}
-        {compare && <Link href={compareRoute(compare.anchorId)} className="chip border border-border bg-card text-sm hover:bg-foreground/5 inline-flex items-center gap-1.5" title={compare.title}><ToolGlyph name="layers" className="h-3.5 w-3.5" />Compared with {compare.ids.length - 1} neighbouring cancers</Link>}
-      </div>
-    </div>
-  );
-}
 
-/** The UK and NHS layer: pathway standards, HPB centres, NICE and SMC decisions, Test Directory codes, UK trials; one pill row linking into /cancers/<id>/uk/. */
-function UkPathwayStrip({ c }: { c: Cancer }) {
-  const p = ukPathwayFor(c.id);
-  if (!p) return null;
-  const sections: Array<[string, string]> = [["pathway", "Your NHS pathway"], ["centres", `${p.centres.length} specialist centres`], ["funding", `${p.funding.length} lines of treatment`], ["tests", `${p.tests.length} tests to ask for`], ["trials", `${p.trials.length} UK trials`], ["nations", "Four nations"]];
-  return (
-    <div className="card p-4 mb-4">
-      <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
-        <div className="kicker inline-flex items-center gap-1.5"><svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden><rect x="3" y="3" width="18" height="18" rx="3" /><path d="M12 7v10M7 12h10" /></svg><TL text="UK and NHS" /></div>
-        <Link href={ukPathwayRoute(c.id)} className="text-sm text-accent hover:underline">Checked {p.asOf} · full UK and NHS page →</Link>
-      </div>
-      <p className="text-sm text-muted mb-2">Waiting-time standards, the specialist HPB centres, what NICE and the SMC fund by line of treatment, the National Genomic Test Directory codes, the trials open in the UK and the differences across the four nations.</p>
-      <div className="flex flex-wrap gap-1.5">
-        {sections.map(([id, label]) => <Link key={id} href={ukPathwayRoute(c.id, id)} className="chip border border-border bg-card text-sm hover:bg-foreground/5">{label}</Link>)}
-      </div>
-    </div>
-  );
-}
 
-/** Subtypes with pages of their own, and the broader type this one belongs to, shown before anything else on a cancer page. */
-function CancerFamily({ c }: { c: Cancer }) {
-  const g = graph();
-  const children = g.kind("cancer").filter((x) => x.parent === c.id);
-  const parent = c.parent ? g.get(c.parent) : undefined;
-  const map = <Link href="/cancers/map/" title="Every cancer type on one layered map: organ system, cancer, subtype" className="inline-flex items-center gap-1.5 rounded-full border border-dashed border-border px-2.5 py-1 text-sm text-muted hover:border-accent hover:text-accent"><RouteIcon href="/cancers/map/" className="h-3.5 w-3.5 shrink-0" /><span>See the whole map</span></Link>;
-  if (!children.length && !parent) return <div className="mb-6 flex flex-wrap items-center gap-2 text-sm" aria-label="Related cancer types">{map}</div>;
-  return (
-    <div className="mb-6 flex flex-wrap items-center gap-2 text-sm" aria-label="Related cancer types">
-      {parent && <><span className="text-muted">Part of</span><Link href={routeFor(parent)} className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-2.5 py-1 text-sm hover:border-accent hover:bg-accent-soft"><CancerIcon cancerId={parent.id} className="h-4 w-4 shrink-0" /><span>{parent.name}</span></Link></>}
-      {children.length > 0 && <><span className="text-muted">{parent ? "Types" : `Types of ${c.name.replace(/\s*\(.*$/, "")}`}</span>{children.map((x) => <Link key={x.id} href={routeFor(x)} className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-2.5 py-1 text-sm hover:border-accent hover:bg-accent-soft"><CancerIcon cancerId={x.id} className="h-4 w-4 shrink-0" /><span>{x.name}</span></Link>)}</>}
-      {map}
-    </div>
-  );
-}
 
-/**
- * Symptoms, diagnosis and staging, shown before any treatment so a lay reader is not dropped straight into regimens
- * (issue 36). Each line goes through LinkedBullets, so glossary terms and abbreviations get their hover explanations.
- */
-function CancerBasics({ c }: { c: Cancer }) {
-  const b = c.basics;
-  if (!b || (!b.symptoms.length && !b.diagnosis.length && !b.staging.length)) return null;
-  const sources = b.sources.length > 0 && (
-    <span className="text-xs text-muted">Sources: {b.sources.map((s, i) => <span key={s.url}>{i > 0 && ", "}<a href={s.url} className="underline" rel="noopener noreferrer">{s.label}</a></span>)}</span>
-  );
-  return (
-    <Block title="Symptoms, diagnosis and staging" aside={sources}>
-      <div className="grid *:min-w-0 gap-6 sm:grid-cols-3">
-        {b.symptoms.length > 0 && <Field label="How it shows"><LinkedBullets items={b.symptoms} skipId={c.id} /></Field>}
-        {b.diagnosis.length > 0 && <Field label="How it is confirmed"><LinkedBullets items={b.diagnosis} skipId={c.id} /></Field>}
-        {b.staging.length > 0 && <Field label="How it is staged"><LinkedBullets items={b.staging} skipId={c.id} /></Field>}
-      </div>
-    </Block>
-  );
-}
 
-/**
- * The outlook paragraph. Sentences quoting survival fold behind the same disclosure as the state-of-the-art figures;
- * what stays visible is the context (stage, subtype, treatment) and the link to the stage-by-stage table.
- */
-/** Held back on 21 Sept 2026 at the owner's request until the wording has been reviewed; flip SHOW_OUTLOOK to publish. */
-const SHOW_OUTLOOK = false;
-function CancerOutlook({ c }: { c: Cancer }) {
-  const p = c.prognosis;
-  if (!p) return null;
-  if (!SHOW_OUTLOOK) return null;
-  const sources = p.sources.length > 0 && (
-    <span className="text-xs text-muted">Sources: {p.sources.map((s, i) => <span key={s.url}>{i > 0 && ", "}<a href={s.url} className="underline" rel="noopener noreferrer">{s.label}</a></span>)}</span>
-  );
-  return (
-    <Block title="Outlook" aside={sources}>
-      <div className="text-[15px] leading-relaxed"><SurvivalDisclosure text={p.text} skipId={c.id} /></div>
-      <p className="text-xs text-muted mt-2"><Link href="/survival/" className="underline">Five-year survival by stage for every cancer →</Link></p>
-    </Block>
-  );
-}
 
-function cancerTabs(c: Cancer): Tab[] {
-  const g = graph();
-  const forMe = g.forCancer(c.id);
-  const nRel = [...forMe.values()].reduce((a, l) => a + l.length, 0);
-  const changes = splitUpcoming(changesForCancer(g, c), new Date().toISOString().slice(0, 10)).past;
-  return [
-    { id: "overview", label: "Overview", content: <>
-      <CancerFamily c={c} />
-      <Summary e={c} />
-      <CancerBasics c={c} />
-      <Block title="State of the art"><SurvivalDisclosure items={c.stateOfArt} skipId={c.id} /></Block>
-      <CancerOutlook c={c} />
-      <RedCardsStrip cancer={c} />
-      {journeysForCancer(c.id).length > 0 && <div className="card p-4 mt-6"><div className="kicker mb-1"><TL text="Treatment journeys" /></div><p className="text-sm text-muted mb-2">What the next twelve months look like, phase by phase, with the decision points.</p><div className="flex flex-wrap gap-1.5">{journeysForCancer(c.id).map((j) => <Link key={j.id} href={`/journeys/${j.id}/`} className="chip border bg-card border-border hover:bg-foreground/5">{j.stage}</Link>)}</div></div>}
-      {organFor(c.id) && <Block title="Anatomy and lymph node drainage"><OrganSchematic cancerId={c.id} /></Block>}
-      {modelsFor(c.id) && <Block title="Preclinical models"><p className="text-sm text-muted">{modelsFor(c.id)!.cellLines.length} cell lines, {modelsFor(c.id)!.gemms.length} mouse models and {modelsFor(c.id)!.pdx.length + modelsFor(c.id)!.organoids.length} repositories are listed for this cancer. <Link className="underline" href={`/preclinical-models/?subject=${encodeURIComponent(c.name.split(" (")[0])}`}>See them →</Link></p></Block>}
-      <div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">
-        <Field label="Who gets it and what has changed"><SurvivalDisclosure text={c.burden} skipId={c.id} /></Field>
-        <Field label="Group"><Tip title={`${c.group[0].toUpperCase()}${c.group.slice(1)} cancers`} text={`All ${c.group} cancers in OnCo, filtered in the cancers table.`} href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}><Link className="capitalize underline decoration-dotted decoration-foreground/30 underline-offset-[3px]" href={`/cancers/?group=${encodeURIComponent(c.group[0].toUpperCase() + c.group.slice(1))}`}>{c.group}</Link></Tip></Field>
-      </div>
-      <div className="mt-6"><WhatIsBeingDone topic="late-diagnosis" cancerId={c.id} compact /></div>
-      {geographyFor(c.id) ? <CancerGeographySection c={c} /> : <Block title="Cases by country"><CountryCasesMini cancerId={c.id} limit={10} /></Block>}
-      {spreadFor(c.id) && (
-        <GentleSection className="mt-8" title={SPREAD_LABELS.fold} why={SPREAD_LABELS.why} reassurance={SPREAD_LABELS.reassurance} kicker={<TL text="Advanced disease" />}>
-          <div className="grid *:min-w-0 gap-6 lg:grid-cols-[300px_1fr]">
-            <div className="card p-3"><SpreadMap spread={spreadFor(c.id)!} cancerName={c.name} /></div>
-            <div className="space-y-4">
-              <WhatIsBeingDone topic="spread" cancerId={c.id} compact />
-              <ol className="space-y-2 text-sm">{spreadFor(c.id)!.sites.map((s) => <li key={s.region} className="card p-3"><div className="flex items-baseline justify-between gap-2"><span className="font-medium">{s.site}</span><span className="chip bg-foreground/5">{s.tier}</span></div>{(s.pct || s.note) && <p className="text-muted mt-1">{[s.pct, s.note].filter(Boolean).join(". ")}.</p>}</li>)}</ol>
-            </div>
-          </div>
-          <p className="text-xs text-muted mt-2"><Link href={`/atlas/spread/#${c.id}`} className="underline">All cancers side by side</Link></p>
-        </GentleSection>
-      )}
-    </> },
-    { id: "care", label: "Standard of care", count: c.standardOfCare.length, content: (
-      <div className="space-y-3">
-        <div className="flex flex-wrap gap-3 text-sm mb-2">
-          <Link href={`/sequencing/${c.id}/`} className="underline">Lines of therapy by subgroup →</Link>
-          {regimensFor(c.id).length > 0 && <Link href={`/regimens/?cancer=${encodeURIComponent(c.name)}`} className="underline">{regimensFor(c.id).length} regimens →</Link>}
-          {guidelineCancerIds().includes(c.id) && <Link href={`/guidelines/${c.id}/`} className="underline">Guideline history and concordance →</Link>}
-          <Link href={`/staging/#${c.id}`} className="underline">Staging and risk scores →</Link>
-        </div>
-        <DecisionsStrip c={c} />
-        <ToolsStrip e={c} />
-        <UkPathwayStrip c={c} />
-        {c.standardOfCare.map((s, i) => (
-          <div key={i} className="card p-4">
-            <div className="font-medium">{s.setting}</div>
-            <p className="text-[15px] text-foreground/85 mt-1">{s.approach}</p>
-            {s.guideline && <div className="mt-2"><GuidelineChip g={s.guideline} /></div>}
-            {s.refs.length > 0 && <div className="mt-2"><Refs ids={s.refs} /></div>}
-          </div>
-        ))}
-      </div>) },
-    { id: "biology", label: "Subtypes & biomarkers", content: (<>
-      <div className="grid *:min-w-0 gap-6 sm:grid-cols-2">
-        <Field label="Subtypes"><LinkedBullets items={c.subtypes} skipId={c.id} /></Field>
-        <Field label="Biomarkers clinicians test"><LinkedBullets items={c.biomarkers} skipId={c.id} /></Field>
-      </div>
-      <Block title="How often this target appears"><CancerPrevalence cancerId={c.id} /></Block>
-    </>) },
-    { id: "history", label: "History", count: c.history.length, content: (
-      <ol className="relative border-s-2 border-border ms-3 space-y-5">
-        {c.history.map((h, i) => (
-          <li key={i} className="ml-6">
-            <span className="absolute -left-[7px] mt-1.5 h-3 w-3 rounded-full bg-accent ring-4 ring-background" />
-            <div className="flex flex-wrap items-baseline gap-2"><span className="font-mono text-sm text-muted">{h.year}</span><span className="font-medium">{h.title}</span></div>
-            {h.note && <p className="text-sm text-muted mt-0.5">{h.note}</p>}
-            {h.refs.length > 0 && <div className="mt-1.5"><Refs ids={h.refs} /></div>}
-          </li>
-        ))}
-      </ol>) },
-    { id: "changes", label: "What changed", count: changes.length, content: <><ChangesPreview items={changes.slice(0, 6)} total={changes.length} href={`${routeFor(c)}changes/`} cancerId={c.id} /><div className="mt-4"><FollowLine cancer={{ id: c.id, name: c.name, route: routeFor(c), asOf: c.asOf }} /></div></> },
-    { id: "pipeline", label: "In development", count: c.pipeline.length, content: <><CancerPipeline c={c} /><Block title="Open problems and what is being done"><ul className="space-y-4">{c.openProblems.map((p, i) => <li key={i}><p className="text-[15px] leading-relaxed">{withTermHovers(p, { skipId: c.id })}</p><div className="mt-2"><WhatIsBeingDoneFor text={p} cancerId={c.id} /></div></li>)}</ul></Block></> },
-    { id: "trials", label: "Trials", content: <><Block title="Trials recruiting now"><TrialFinder condition={conditionQuery(c.name)} title={c.name} /></Block>{(forMe.get("trial") ?? []).length > 0 && <Block title="Landmark trials"><ChipList items={forMe.get("trial") ?? []} max={NEIGHBOUR_CAP} moreHref={cancerTableHref("trial", c.name)} /></Block>}</> },
-    { id: "centres", label: "Expert centres", content: <ExpertCentres cancerId={c.id} /> },
-    { id: "questions", label: "Questions to ask", content: <Questions cancer={c} /> },
-    { id: "relevant", label: "Related pages", count: nRel, content: <><p className="text-xs text-muted mb-3">Direct links plus the targets, companies, and technologies of this cancer&apos;s products.</p><Neighbours groups={forMe} exclude={["cancer"]} similar={similarLinks(c.id)} max={NEIGHBOUR_CAP} moreHref={(k) => cancerTableHref(k, c.name)} /></> },
-  ];
-}
 
 /** "Depends on" and "Needed by" strips from the technology dependency DAG (`dependsOn`), linking to the map with this technology as root. */
 function TechDependencies({ e }: { e: Extract<Entity, { kind: "technology" }> }) {

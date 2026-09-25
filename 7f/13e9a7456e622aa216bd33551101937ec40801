@@ -1,0 +1,35 @@
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_06bd17f439243c 183-224,353-355
+src/data/decision-tools/bcc-low-risk-treatment.ts
+  s_0beac9cb5d78fd::t_1a7b698f0f20dc 1-351
+src/data/spikes/skin-living.ts
+  s_0beac9cb5d78fd::t_a3cb42086d0858 1-296,298-301,303-311,313-316,318-392
+  s_0beac9cb5d78fd::t_900bdb81c3c4cd 297,302,312,317
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_d0ca1e606063b4 100-101
+src/data/questions.ts
+  s_0beac9cb5d78fd::t_8900045b456262 15,26-28
+src/lib/decision-tools.ts
+  s_0beac9cb5d78fd::t_377a4127b1b82c 9,82
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_89de48fe70ac3d 88
+  s_0beac9cb5d78fd::t_7adbf2e20ca948 73
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_93fe1062168252 96-106,766-818
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "7f13e9a7456e622aa216bd33551101937ec40801",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

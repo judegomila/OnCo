@@ -178,3 +178,66 @@ of `src/data/spikes/prostate-core.ts`.
    states there is no pathological stage I) and introduces imaging suffixes, cT2b(mr) and N1(PET), because prostate is
    "probably the malignancy most affected by stage migration"; and **NICE NG131 names no TNM edition at all**, using
    bare T1 to T4 categories that are identical in both editions, so the guideline is not stranded by the change.
+
+## The skin family (decided 25 September 2026, during the skin round)
+
+Skin is the family where the taxonomy question is not "what is a subtype" but "what counts as cancer at all", because the
+commonest lesions people arrive with sit on the boundary, and because the reference classification moved that boundary
+between its last two editions. The detail is in the header of `src/data/spikes/skin-core.ts`.
+
+1. **`skin-cancer` is the organ family page and its tree mirrors the English registry's.** Its four children,
+   `melanoma`, `basal-cell-carcinoma`, `cutaneous-scc` and `merkel-cell-carcinoma`, already carried
+   `parent: "skin-cancer"` through `src/data/cancer-subtypes.ts`. That shape matches the NDRS "Get Data Out" skin
+   classification, which splits skin cancer into keratinocyte cancer, melanoma and rare cancers, and keratinocyte
+   cancer into basal cell and squamous cell carcinoma (van Bodegraven 2023). Kaposi sarcoma, dermatofibrosarcoma
+   protuberans and the cutaneous lymphomas arise in the skin but not from keratinocytes or melanocytes; they keep their
+   existing parents and are reached through `related`, as mesothelioma is from the lung family. The family page gains a
+   GLOBOCAN mapping summing sites 16 and 17, with the counting caveat attached.
+2. **Growth patterns and grades generate no records.** WHO names ten basal cell carcinoma subtypes in its fourth
+   edition and nine in its fifth, but the UK reporting dataset states that "there is no clinical value, with regard to
+   management or treatment, in distinguishing between high-risk infiltrating, sclerosing and micronodular variants",
+   that they co-exist in one tumour, and that the risk is read from the highest-risk pattern present whatever its
+   percentage (RCPath G123). ICD-O cannot even code them apart: micronodular shares 8097/3 with nodular and
+   sclerosing shares 8092/3 with infiltrating. The squamous subtypes (acantholytic, desmoplastic, spindle cell,
+   adenosquamous) and the three grades are the same kind of thing. All become glossary terms and strings.
+3. **The pre-cancers split three ways, and the line is the behaviour code, not the WHO chapter.** The fifth edition of
+   the skin Blue Book (2025) moved squamous cell carcinoma in situ out of the carcinomas section and in beside actinic
+   keratosis under "carcinoma precursors and benign simulants", and pulled keratoacanthoma back out of squamous cell
+   carcinoma where the fourth edition (2018) had put it. A taxonomy following chapter headings would have moved these
+   pages twice in seven years. What did not move is the behaviour code and the registration status, so that is the
+   line: a record needs a settled behaviour of `/2` or `/3` and a place in the neoplasm chapter that registries
+   register.
+   - **`bowens-disease` is created** (parent `cutaneous-scc`): ICD-O 8081/2, ICD-10 D04, and the ONS states that all
+     in-situ neoplasms D00 to D09 are registered. It is pTis in the UICC system UK reports use, it has a national
+     guideline of its own (BAD, Sharma 2022), and it is the whole of a person's diagnosis. This matches the corpus's
+     existing in-situ pages (`ductal-carcinoma-in-situ`, `lobular-carcinoma-in-situ`, `anal-hsil-precursor`,
+     `germ-cell-neoplasia-in-situ`, `gallbladder-carcinoma-in-situ-and-dysplasia`). The WHO move is recorded on the
+     page as a tension rather than hidden.
+   - **Actinic keratosis is a term**: ICD-O 8070/0 (benign, and deliberately not 8070/2, which exists), ICD-10 L57.0
+     in the chapter of diseases of the skin rather than the neoplasm chapter, registered as cancer by no UK registry,
+     and filed under precursors by both WHO editions.
+   - **Keratoacanthoma stays a term**, as wave 4 decided, and the fifth edition does not overturn it: its behaviour is
+     the one thing nobody agrees on (ICD-O 8071/3 malignant against RCPath SNOMED M7286/0 benign), the RCPath states
+     that "no one single criterion can make a reliable distinction between squamous cell carcinoma and
+     keratoacanthoma", and the fifth edition offers "squamoproliferative tumour of uncertain malignant potential" for
+     when it cannot be told apart.
+4. **Staging is two different problems and the British answer is not the American one.** AJCC 8's cutaneous carcinoma
+   chapter is head and neck only and "has no staging system for cSCC on the remainder of the body"; UICC has both a
+   head-and-neck chapter and a carcinoma-of-the-skin chapter for trunk and limbs, and both include basal cell
+   carcinoma. The RCPath assessed both and chose UICC "based on the staging of NMSC", and both BAD guidelines endorse
+   the same choice. So basal cell carcinoma is formally stageable in Britain and almost never staged, while America
+   has no system for it outside the head and neck. For squamous cell carcinoma the corpus presents UICC TNM 9, AJCC 8
+   and the Brigham and Women's Hospital system side by side with their numbers and does not name a winner, including
+   the RCPath's published objection to the risk bands derived from BWH. No record is created for a stage; two staging
+   tables (`skin-carcinoma-tnm9`, `cscc-bwh`) and three terms carry it.
+5. **The counting rule is part of the taxonomy.** The 1999 UKIACR rule registered only the first basal cell and first
+   squamous cell carcinoma per person per lifetime; England now publishes per person per year, which finds 67 percent
+   more basal cell and 42 percent more squamous cell carcinomas (Mistry 2026) and still undercounts; Scotland collects
+   only the first basal cell carcinoma but registers every squamous cell carcinoma; and ONS excludes C44 from all-cancer
+   totals because the group is "greatly under-registered". One term, `keratinocyte-cancer-counting`, carries this and
+   every incidence figure on the three pages links to it.
+6. **Mechanics.** The UK reporting standard is RCPath G123 and G124, both version 4 of February 2019, both overdue for
+   revision and listed as on hold, with their UICC TNM 9 appendices published November 2025 and SNOMED appendices
+   updated February 2026. Where they and the newer BAD guidelines differ, both are given. `bowens-disease` was added
+   to the skin organ drawing in `src/data/organ-schematics.ts`; `PARENT_PHRASES` already had an entry for
+   `cutaneous-scc`.

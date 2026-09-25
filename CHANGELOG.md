@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
-- Family cancer pages now reach what their subtypes hold: 3,683 trials, 1,079 medicines and 3,534 centres that no family page could reach before
+- What a person with a basal cell or squamous cell skin cancer actually faces, and a rule that lets a row cite the leaflet that carries its sentence
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -19,6 +19,12 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- Three review lessons from the skin layer: a citation that does not contain the claim passes every gate
+- The rows about living with a skin cancer now cite the leaflet that actually contains the sentence, and the photodynamic therapy figures move to the cream the trials used
+- A patient leaflet may be the source for a row about living with a disease, if the row names who wrote it
+- What a person with a basal cell or squamous cell skin cancer actually faces: the choice between surgery and its alternatives with the trial figures, the operation on the face, Mohs as a day, and the ones that are not cured
+- The family roll-up does not assume who is reading, and stops printing the cancer's name twice in one sentence
+- Family cancer pages now reach what their subtypes hold: 3,683 trials, 1,079 medicines and 3,534 centres that no family page could reach before
 - A family page now shows the trials, medicines and centres its subtypes hold, grouped by the subtype each came from
 - The breast family page given its surgery, its NHS pathway and its shared decisions, and 83 duplicate records retired onto the ones that carry the reading
 - The prostate review found an appraisal that refused a drug recorded as merely restricting it, and the breast family page given the routing a reader needs

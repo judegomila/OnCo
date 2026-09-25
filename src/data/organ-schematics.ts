@@ -250,7 +250,7 @@ export const ORGAN_SCHEMATICS: OrganSchematic[] = [
       add(m, ellipsoid(0.4, 0.7, 0.3, 3, 8, "soft"), { at: [-1.3, 2.2, -0.2] }); add(m, ellipsoid(0.4, 0.7, 0.3, 3, 8, "soft"), { at: [1.5, 2.3, -0.2] }); // kidneys
       return m;
     } },
-  { id: "skin", name: "Skin (cross-section)", cancers: ["melanoma", "basal-cell-carcinoma", "cutaneous-scc", "merkel-cell-carcinoma", "kaposi-sarcoma", "skin-cancer", "braf-v600-melanoma", "stage-iii-melanoma", "stage-ii-melanoma", "advanced-melanoma", "mucosal-melanoma", "acral-melanoma", "advanced-cutaneous-scc", "locally-advanced-bcc", "dermatofibrosarcoma-protuberans"],
+  { id: "skin", name: "Skin (cross-section)", cancers: ["melanoma", "basal-cell-carcinoma", "cutaneous-scc", "merkel-cell-carcinoma", "kaposi-sarcoma", "skin-cancer", "braf-v600-melanoma", "stage-iii-melanoma", "stage-ii-melanoma", "advanced-melanoma", "mucosal-melanoma", "acral-melanoma", "advanced-cutaneous-scc", "locally-advanced-bcc", "bowens-disease", "dermatofibrosarcoma-protuberans"],
     caption: "Each skin cancer comes from a different cell layer: melanocytes and basal cells at the base of the epidermis, keratinocytes above them, Merkel cells and blood vessels in the dermis; depth of invasion decides the risk.",
     subsites: [
       { id: "insitu", label: "Epidermis (in situ)", at: [-1.25, 1.12, 1.05], match: ["in situ", "lentigo", "superficial spreading", "stage 0"] },

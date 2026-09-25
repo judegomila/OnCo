@@ -50,6 +50,7 @@ export const GLOBOCAN_MAP: Record<string, GlobocanMapping> = {
   vaginal: { codes: [22], label: "Vagina" },
   penile: { codes: [26], label: "Penis" },
   testicular: { codes: [28], label: "Testis" },
+  "skin-cancer": { codes: [16, 17], label: "Melanoma of skin and non-melanoma skin cancer", note: "The family total sums the two GLOBOCAN skin sites, C43 and C44, which are mutually exclusive. The non-melanoma component is severely under-counted almost everywhere: UK registries long recorded only the first basal cell and first squamous cell carcinoma in a person's lifetime, and the Office for National Statistics excludes C44 from its all-cancer totals because it is greatly under-registered. Read the total as a floor (see the term keratinocyte-cancer-counting)." },
   "basal-cell-carcinoma": { codes: [17], label: "Non-melanoma skin cancer", shared: true, note: "GLOBOCAN counts all non-melanoma skin cancers together and many registries under-record them; basal cell and cutaneous squamous cell carcinoma share this total." },
   "cutaneous-scc": { codes: [17], label: "Non-melanoma skin cancer", shared: true, note: "GLOBOCAN counts all non-melanoma skin cancers together and many registries under-record them; basal cell and cutaneous squamous cell carcinoma share this total." },
 };

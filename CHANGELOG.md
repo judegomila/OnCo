@@ -7,7 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 25 September 2026
-- An agent that has only the origin can now find the corpus: MCP and llms descriptors under .well-known, licence and provenance on every API response
+- Prostate cancer: five orthogonal classifications settled, the Cambridge Prognostic Groups added, and the decisions written with the trial figures rather than the word side effects
 - Pancreatic reviewed against its sources: duplicates folded, figures settled, 1,006 links checked, mobile overflow fixed
 - Pancreatic cancer deep spike, round four: the molecular landscape with allele-level KRAS shares, subtype classes, precursor sequence and 82 papers
 - Pancreatic cancer deep spike, round three: 30 trials with outcomes, 284 registry trials, verified NICE and label rows, fifteen standard-of-care rows; Ask ranking weights curated records
@@ -19,6 +19,10 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Cancer hubs with section sub-pages, TNBC deep spike complete (core, treatments and 235 trials, molecular landscape), Ask recall repaired, route progress bar and edge caching, Methods and models glossary with 129 terms
 - Modality hubs for twelve formats, TNBC deep spike round one (UK and NHS pathway, evidence and roadmap, decisions, first 60 days, red cards, after-chemotherapy aid), supportive care flag on 55 drugs, 22 cooperative-group records
 - Front navigation: the kinds drawn as a linked graph, the body map as the entry point on phones; ship chain builds on Vercel only
+- Register the twelve prostate glossary drafts and link them from the decisions that use them
+- Prostate cancer, living with it: the ProtecT trade-off in numbers, hormone therapy for the long run, and cord compression named as the emergency
+- An agent that has only the origin can now find the corpus: MCP and llms descriptors under .well-known, licence and provenance on every API response
+- Prostate cancer has five classifications at once, and only one of them makes pages
 - How to read the UK bodies that answer a script with a wall
 - Lung cancer on the NHS: the screening programme from its own protocol, 34 centres, 21 appraisals and 8 refusals, the deprivation gradient from four national sources
 - The UK lung pathway hangs off the family, not one branch of it

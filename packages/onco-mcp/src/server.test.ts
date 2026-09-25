@@ -78,7 +78,7 @@ describe("onco-mcp", () => {
 
   it("serves the kinds resource and the brief prompt", async () => {
     const kinds = await mcp.readResource({ uri: "onco://kinds" });
-    expect(JSON.parse(resourceText(kinds)).kinds.length).toBe(19);
+    expect(JSON.parse(resourceText(kinds)).kinds.length).toBe(20);
     const drugs = await mcp.readResource({ uri: "onco://kinds/drug" });
     expect(JSON.parse(resourceText(drugs)).total).toBe(2);
     const prompt = await mcp.getPrompt({ name: "onco-brief", arguments: { id: "tnbc", audience: "clinician" } });

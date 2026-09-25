@@ -48,6 +48,7 @@ import { papersIdeasWave6 } from "./papers-ideas-wave6";
 import { ideaLinksWave6 } from "./idea-links-wave6";
 import { companyDrugsWave6, trialCompaniesWave6 } from "./company-drugs-wave6";
 import { SUPPORTIVE_DRUGS } from "./supportive-drugs";
+import { yearRecords } from "./years";
 import { entityTrialLinksWave5, entityTrialsWave5, trialsEntitiesWave5 } from "./trials-entities-wave5";
 import { issuesWaveAPapers, issuesWaveATrials } from "./issues-2026-09-wave-a";
 import { nutrition } from "./nutrition";
@@ -311,7 +312,7 @@ const RAW_INPUTS_DEDUPED: EntityInput[] = (() => {
   return out;
 })();
 
-export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
+const RECORDS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   // Spike supplements (src/data/spikes/index.ts): partial records a cancer deep dive attaches to targets, readouts,
   // drugs and papers other files own; arrays append, scalars fill gaps. Applied before everything else.
   // Cancer deep-dive patches (mergeSpikeInto) reach every cancer record, whichever file holds it: cancers.ts, the NCI rare
@@ -397,3 +398,9 @@ export const ALL_INPUTS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   if (orphanedMerges.length) throw new Error(`Merge supplements name records that do not exist: ${orphanedMerges.join(", ")}`);
 }
 
+/**
+ * One record per year, generated from everything above it (./years.ts). Last, because it reads every other record;
+ * the years themselves carry no relation arrays beyond the previous and next year, so they add nothing to anyone
+ * else's backlinks.
+ */
+export const ALL_INPUTS: EntityInput[] = [...RECORDS, ...yearRecords(RECORDS)];

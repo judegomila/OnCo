@@ -28,7 +28,7 @@ describe("universe denominators", () => {
     for (const d of UNIVERSE) {
       if (d.total === null) {
         expect(d.method, d.id).toMatch(/OnCo-defined/);
-        expect(["technology", "section", "pairing", "roadmap", "idea", "bottleneck", "collection", "biomarker"]).toContain(d.kind);
+        expect(["technology", "section", "pairing", "roadmap", "idea", "bottleneck", "collection", "biomarker", "year"]).toContain(d.kind);
       } else {
         expect(Number.isInteger(d.total), d.id).toBe(true);
         expect(d.total, d.id).toBeGreaterThan(0);

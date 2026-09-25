@@ -231,6 +231,7 @@ export const ar: UiDict = {
   "kind.paper.label": "ورقة رئيسية", "kind.paper.plural": "أوراق رئيسية",
   "kind.bottleneck.label": "عائق", "kind.bottleneck.plural": "عوائق", "kind.bottleneck.title": "عوائق الحرب على السرطان",
   "kind.biomarker.label": "واسم حيوي", "kind.biomarker.plural": "الواسمات الحيوية", "kind.biomarker.title": "الواسمات الحيوية والقراءات",
+  "kind.year.label": "سنة", "kind.year.plural": "السنوات", "kind.year.title": "السنوات والخط الزمني",
 
   "l.Summary": "الملخص",
   "l.Overview": "نظرة عامة",

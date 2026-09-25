@@ -95,7 +95,7 @@ export const KG_POS: Record<Kind, { x: number; y: number }> = {
   cancer: { x: 90, y: 250 },
   target: { x: 262, y: 118 }, biomarker: { x: 262, y: 268 }, pathway: { x: 262, y: 408 },
   section: { x: 440, y: 52 }, drug: { x: 440, y: 160 }, technology: { x: 440, y: 306 }, pairing: { x: 440, y: 442 },
-  trial: { x: 620, y: 140 }, paper: { x: 620, y: 306 }, journal: { x: 620, y: 442 },
+  year: { x: 620, y: 46 }, trial: { x: 620, y: 156 }, paper: { x: 620, y: 310 }, journal: { x: 620, y: 444 },
   company: { x: 800, y: 118 }, institution: { x: 800, y: 274 }, person: { x: 800, y: 424 },
   idea: { x: 968, y: 76 }, bottleneck: { x: 968, y: 186 }, roadmap: { x: 968, y: 276 }, term: { x: 968, y: 372 }, collection: { x: 968, y: 470 },
 };

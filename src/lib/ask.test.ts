@@ -442,6 +442,15 @@ describe("Ask OnCo end to end", () => {
     // rubric fell slightly and is well above its floor. Neither floor is moved: the measurement is 0.0071 above
     // the recall floor, inside the 0.0101 the ratchet allows.
     { date: "2026-09-25", recall: 0.4346, note: "skin round review: base one-liners folded into the skin spikes, six duplicate link URLs removed, one duplicate glossary term merged; extractive rubric 0.6875" },
+    // 25 Sept 2026, the year records (src/data/years.ts): 174 generated records, one per year, each listing every
+    // dated fact the corpus holds for it. At full weight they measured 0.4246, below the floor, because a year's
+    // text is the names of the groups it holds ("approvals", "papers", "trials reported", "landmarks"), which is
+    // the vocabulary of the questions, and 174 records carrying it flattened the concept index's inverse document
+    // frequency for those words. Fixed in the ranking, not the bar: a year record now carries a provenance weight
+    // of 0.5 in both retrieval stages (search-rank.ts recordWeight), because it is a view of records that are
+    // themselves in the index and must never be retrieved instead of one of them. Recall and rubric are back to
+    // the figures immediately before the change, so neither floor moves.
+    { date: "2026-09-25", recall: 0.4346, note: "year records at a provenance weight of 0.5; extractive rubric 0.6875, both unchanged from before they were added" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

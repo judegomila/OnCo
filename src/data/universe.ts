@@ -187,6 +187,10 @@ export const UNIVERSE: Denominator[] = [
   { id: "bottlenecks", kind: "bottleneck", scope: "Bottlenecks", total: null, approx: false, source: { label: "OnCo", url: "https://github.com/judegomila/OnCo/blob/main/src/data/bottlenecks.ts" }, method: ONCO_DEFINED, checked: "2026-09-10", ours: "All bottlenecks." },
   { id: "biomarkers", kind: "biomarker", scope: "Biomarker readouts", total: null, approx: false, source: { label: "OnCo", url: "https://github.com/judegomila/OnCo/blob/main/src/data/biomarker-readouts.ts" }, method: ONCO_DEFINED, checked: "2026-09-23", ours: "Every readout with a label threshold, an FDA companion diagnostic entry, or a defining guideline or trial." },
   { id: "collections", kind: "collection", scope: "Collections", total: null, approx: false, source: { label: "OnCo", url: "https://github.com/judegomila/OnCo/blob/main/src/data/collections.ts" }, method: ONCO_DEFINED, checked: "2026-09-10", ours: "All collections (open databases and registries OnCo links to)." },
+  // A year has no external denominator either. The population is the calendar years OnCo dates something to, plus
+  // every year from 1900 to the last of them, so that a gap in the reading is visible rather than omitted; the
+  // records are generated from every dated field in the corpus (src/data/years.ts).
+  { id: "years", kind: "year", scope: "Years in oncology", total: null, approx: false, source: { label: "OnCo", url: "https://github.com/judegomila/OnCo/blob/main/src/data/years.ts" }, method: ONCO_DEFINED, checked: "2026-09-25", ours: "Every year the corpus dates a fact to, and every year from 1900 to the latest of them." },
 ];
 
 export function denominator(id: string): Denominator | undefined {

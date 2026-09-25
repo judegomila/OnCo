@@ -386,6 +386,8 @@ describe("Ask OnCo end to end", () => {
     // Measured 0.3343 after the triple-negative breast cancer core layer (24 Sept 2026): twelve subtype pages and nineteen
     // glossary terms whose names carry "triple-negative breast cancer" now share the lexical hits with the parent record
     // on the tnbc-02, tnbc-05 and tnbc-10 questions (the live path answers from the compiled index, not this fallback).
+    // Measured 0.3376 after the TNBC deep dive (24 Sept 2026): 229 registry trial records and the UK, evidence and living
+    // files repeat pembrolizumab, sacituzumab and carboplatin in their names and TL;DRs and share lexical hits on breast questions.
     expect(recall / benchmark.length).toBeGreaterThanOrEqual(0.33);
     expect(score / benchmark.length).toBeGreaterThanOrEqual(0.62);
   });

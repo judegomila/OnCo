@@ -98,7 +98,8 @@ describe("loader", () => {
     expect(tnbc.links[0].label).toBe("Wikipedia");
     const sg = g.must("sacituzumab-govitecan");
     if (sg.kind !== "drug") throw new Error("sacituzumab-govitecan should be a drug");
-    expect(sg.approvals).toHaveLength(4);
+    // 4 rows when the review was written; the TNBC treatment deep dive added the EU (2021, 2026) and UK NICE TA819 (2022) rows.
+    expect(sg.approvals).toHaveLength(7);
     expect(sg.approvals.filter((a) => a.region === "US")).toHaveLength(3);
     expect(sg.targets).toEqual(["trop2"]);
     expect(sg.cancers).toContain("urothelial");

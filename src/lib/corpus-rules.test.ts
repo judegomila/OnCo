@@ -131,6 +131,31 @@ describe("corpus rules", () => {
     for (const t of g.kind("trial")) if (t.nct) expect(t.nct, t.id).toMatch(/^(NCT\d{8}|ISRCTN\d{8}|ACTRN\d{14}|ANZCTR\d{14}|NTR\d+)$/);
   });
 
+  /**
+   * Two trial records may share a registry id only for a stated reason: a basket cohort or a protocol version that
+   * runs under one registration. The other two pairs are a hand-written record and a registry-ingested one for the
+   * same study, found by the lung review of 25 September 2026 (docs/LUNG-QA.md); retiring the ingested id needs the
+   * redirect policy that the TNBC and colorectal reviews also asked for, so they are listed rather than merged.
+   * Nothing new belongs here: a new pair means a curated record and an ingest record were written for one study.
+   */
+  it("no two trial records share a registry id except the four recorded pairs", () => {
+    const ALLOWED = new Map<string, string>([
+      ["roar|roar-atc", "two cohorts of the ROAR basket trial, biliary tract and anaplastic thyroid"],
+      ["i-spy-2|i-spy-2-2", "I-SPY 2.2 runs under the I-SPY 2 registration"],
+      ["keynote-158|nct02628067", "curated record and registry ingest of KEYNOTE-158, not yet merged"],
+      ["impactmf|nct04576156", "curated record and registry ingest of IMpactMF, not yet merged"],
+    ]);
+    const byNct = new Map<string, string[]>();
+    for (const t of g.kind("trial")) {
+      if (!t.nct) continue;
+      const list = byNct.get(t.nct) ?? [];
+      list.push(t.id);
+      byNct.set(t.nct, list);
+    }
+    const pairs = [...byNct.values()].filter((ids) => ids.length > 1).map((ids) => [...ids].sort().join("|"));
+    expect(pairs.filter((p) => !ALLOWED.has(p))).toEqual([]);
+  });
+
   it("a trial whose enrolment counts a paper population says so and states the registry figure", () => {
     // `enrolledBasis` other than "registry" tells scripts/roadmap-watch.ts the gap is expected; the note is what a reader sees.
     const failures: string[] = [];

@@ -105,7 +105,10 @@ const spike: Spike = {
     ],
     pipeline: [...lungIdeas.map((i) => i.id)],
     openProblems: [
-      "Screening eligibility is written in pack-years, which excludes high-risk groups systematically (31 percent of white smokers eligible against 17 percent of Black smokers in one United States cohort) and excludes never-smokers, now about one lung cancer in five, entirely.",
+      // The never-smoker half of this problem is the core layer's own open problem, with its cohorts (15 percent of UK
+      // cases, 15 to 25 percent worldwide); it is not restated here, and the unsourced "one in five" it used to carry
+      // disagreed with those figures.
+      "Screening eligibility is written in pack-years, which excludes high-risk groups systematically: 31 percent of white smokers qualified against 17 percent of Black smokers in one United States cohort (Aldrich 2019), so a rule built to find the highest risk misses hardest where the risk is highest.",
       "Resistance arrives within one to three years for every targeted drug and is a heterogeneous set of diagnoses, including transformation into small-cell lung cancer in about one in seven, yet most patients move to the next line without a re-biopsy or a plasma profile to say what the tumour became.",
       "Four perioperative immunotherapy schedules (before surgery, after surgery, on both sides, and with chemotherapy) are all standard somewhere and none has been compared with another, so nobody knows which one to choose or whether the adjuvant half adds anything.",
       "Brain metastases are the dominant failure pattern in driver-positive disease and the newest inhibitors appear to prevent them, but prevention is measured as a secondary endpoint on inconsistent imaging schedules, so the size of the effect is unknown.",

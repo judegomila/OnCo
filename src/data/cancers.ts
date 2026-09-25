@@ -122,24 +122,19 @@ export const cancers: CancerInput[] = [
     summary: "Biomarker testing (EGFR, ALK, ROS1, BRAF, MET, RET, NTRK, KRAS G12C, HER2, PD-L1) is mandatory at diagnosis. Oncogene-addicted disease gets targeted therapy first (osimertinib, amivantamab-lazertinib, lorlatinib, selpercatinib, zongertinib, sotorasib/adagrasib); the rest get PD-(L)1 blockade ± chemotherapy. Perioperative immunotherapy (CheckMate 816, KEYNOTE-671) and adjuvant targeted therapy (ADAURA, ALINA) are standard. ADCs (Dato-DXd, T-DXd, telisotuzumab vedotin, iza-bren, HER3-DXd) and bispecifics (ivonescimab PD-1×VEGF) are the next layer. Low-dose CT screening cuts mortality by 20-24%.",
     subtypes: ["Adenocarcinoma", "Squamous", "EGFR-mutant", "ALK-rearranged", "KRAS-mutant", "PD-L1-high"],
     biomarkers: ["EGFR", "ALK", "ROS1", "BRAF V600E", "MET ex14 / amplification / c-MET IHC", "RET", "NTRK", "KRAS G12C", "HER2 mutation", "PD-L1 TPS", "ctDNA"],
-    standardOfCare: [
-      { setting: "Screening", approach: "Annual low-dose CT for high-risk smokers (NLST, NELSON); AI nodule scoring emerging.", refs: ["ct", "radiology-ai-screening"], guideline: { version: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1450" } },
-      { setting: "Early stage", approach: "Surgery or SBRT; perioperative chemo-immunotherapy; adjuvant osimertinib (EGFR) or alectinib (ALK).", refs: ["sbrt", "adaura", "osimertinib"], guideline: { version: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1450" } },
-      { setting: "Stage III unresectable", approach: "Chemoradiation → durvalumab (PACIFIC) or osimertinib (LAURA, EGFR).", refs: ["durvalumab", "imrt-igrt"], guideline: { version: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1450" } },
-      { setting: "Metastatic, driver-positive", approach: "Matched TKI or bispecific; ADCs after progression.", refs: ["osimertinib", "amivantamab", "lorlatinib", "selpercatinib", "zongertinib", "sotorasib", "datopotamab-deruxtecan"], guideline: { esmoMcbs: "3 (DESTINY-Lung02, HER2-mutant, second line)", version: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11163648/" } },
-      { setting: "Metastatic, driver-negative", approach: "PD-(L)1 ± chemotherapy; docetaxel or ADC/TTFields second line.", refs: ["pembrolizumab", "nivolumab", "optune"], guideline: { version: "NCCN Guidelines: Non-Small Cell Lung Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1450" } },
-    ],
+    // The five one-line settings that stood here (Screening, Early stage, Stage III unresectable, Metastatic
+    // driver-positive and driver-negative) said what the sixteen sourced rows in src/data/spikes/nsclc.ts say, and
+    // "Stage III unresectable" rendered twice. Every record they referenced is still reachable from the rows that
+    // replaced them; the NCCN guideline they alone cited is now a link on the record (spikes/lung-core.ts).
+    standardOfCare: [],
     stateOfArt: ["5-year PFS 60% with lorlatinib in ALK+ disease.", "Adjuvant osimertinib after surgery for EGFR-mutant disease roughly halves the risk of the cancer returning or of dying from it (ADAURA).", "First regimen to beat osimertinib (MARIPOSA) and first to beat pembrolizumab (ivonescimab, China)."],
-    history: [
-      { year: 2004, title: "EGFR mutations explain gefitinib responses" },
-      { year: 2007, title: "EML4-ALK fusion discovered" },
-      { year: 2011, title: "NLST: CT screening reduces mortality 20%", refs: ["ct"] },
-      { year: 2015, title: "Nivolumab beats docetaxel; immunotherapy era", refs: ["nivolumab"] },
-      { year: 2021, title: "First KRAS inhibitor (sotorasib)", refs: ["sotorasib"] },
-      { year: 2025, title: "First MET ADC and first-line amivantamab OS benefit", refs: ["telisotuzumab-vedotin", "mariposa"] },
-    ],
+    // History and open problems are written in full by src/data/spikes/nsclc.ts and the September 2026 lung deep dive
+    // (lung-molecular.ts). All six entries that stood here were written twice on the merged record; every record they
+    // referenced (ct, nivolumab, sotorasib, telisotuzumab-vedotin, mariposa) is still reachable from the entries that
+    // replaced them.
+    history: [],
     pipeline: ["ivonescimab", "izalontamab-brengitecan", "sacituzumab-tirumotecan", "tilatamig-samrotecan", "daraxonrasib", "patritumab-deruxtecan", "intismeran-autogene", "zidesamtinib", "pf-08634404", "shr-8068", "yl201", "shr-a2102", "tqb2102", "pm8002", "in10018", "telisotuzumab-adizutecan", "domvanalimab", "si-b001", "oleclumab", "cetrelimab", "hs-20093", "zg006", "calderasib", "ak117", "qlc5508", "budigalimab", "ceralasertib", "rc148", "yl202", "livmoniplimab", "jdq443", "saruparib", "ql1706", "monalizumab", "navlimetostat", "al8326", "hlx43", "sys6010", "kl-a167", "quemliclustat", "eik1001", "gfh375", "zipalertinib", "aglatimagene-besadenovec", "ql2107", "gotistobart", "tqb2450", "zl-1310", "shr-a2009", "pf-07248144", "abbv-706", "ty-9591", "tgrx-326", "uliledlimab", "sitneprotafib", "jmt101", "acasunlimab", "bnt324", "cobolimab", "olvimulogene-nanivacirepvec", "setidegrasib", "sctb41", "tak-928", "atigotatug", "sctb14", "ose2101", "pf-08046054", "hs-20117", "ibi363", "vs-7375", "t3011", "tng462", "mcla-129", "tqb6411", "anvumetostat", "xnw27011", "hmbd-001", "ssgj-706", "ep0031", "absk061", "rilvegostomig", "mavrostobart", "hb0036", "jk08", "tri-611", "silevertinib", "palacaparib", "peluntamig", "tng456", "jyp0015", "hlx26", "ba3071", "env-501", "azd7789", "vrn110755", "dji136", "js111", "tng260", "au-007", "or502", "jmt203", "befotertinib", "lp-184", "upifitamab-rilsodotin", "vibostolimab", "boserolimab"],
-    openProblems: ["Resistance to every TKI.", "Squamous histology has few targets.", "Screening uptake below 20% in the US."],
+    openProblems: [],
     targets: ["egfr", "alk", "kras", "met", "ret", "braf", "ntrk", "her2", "her3", "trop2", "pd1", "pdl1", "vegf"],
     technologies: ["kinase-inhibitors", "checkpoint-inhibitor", "adc", "bispecific-antibody", "sbrt", "ct", "liquid-biopsy", "cgp", "omega3-epa-cachexia", "shark-cartilage", "hydrazine-sulfate", "nhs-targeted-lung-health-check"],
     pathways: ["ras-mapk", "pi3k-akt-mtor", "pd1-checkpoint", "nsclc-signalling"],
@@ -151,20 +146,18 @@ export const cancers: CancerInput[] = [
     tldr: "A fast-growing lung cancer that responds to chemotherapy then relapses quickly. After 30 years without progress, T-cell engagers and ADCs are finally moving the needle.",
     summary: "Platinum-etoposide plus PD-L1 (atezolizumab or durvalumab) first line; durvalumab consolidation after chemoradiation in limited stage (ADRIATIC). Tarlatamab (DLL3×CD3) improved OS second line (DeLLphi-304) and is moving to first-line maintenance. B7-H3 ADC ifinatamab deruxtecan shows ~55% ORR. Molecular subtypes (ASCL1, NEUROD1, POU2F3, inflamed) may guide therapy. Lurbinectedin approved second line and in first-line maintenance with atezolizumab (IMforte, 2025).",
     biomarkers: ["DLL3 (not required for tarlatamab)", "B7-H3", "SCLC-A/N/P/I subtypes (research)"],
-    standardOfCare: [
-      { setting: "Limited stage", approach: "Chemoradiation → durvalumab; prophylactic cranial irradiation or MRI surveillance.", refs: ["durvalumab", "imrt-igrt"], guideline: { version: "NCCN Guidelines: Small Cell Lung Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1462" } },
-      { setting: "Extensive stage", approach: "Platinum-etoposide + atezolizumab/durvalumab; lurbinectedin + atezolizumab maintenance.", refs: ["atezolizumab", "durvalumab"], guideline: { version: "NCCN Guidelines: Small Cell Lung Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1462" } },
-      { setting: "Relapsed", approach: "Tarlatamab (preferred), lurbinectedin, topotecan; I-DXd in trials.", refs: ["tarlatamab", "dellphi-304", "ifinatamab-deruxtecan"], guideline: { version: "NCCN Guidelines: Small Cell Lung Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1462" } },
-    ],
+    // The three one-line settings that stood here said what the nine sourced rows in src/data/spikes/sclc.ts say.
+    // Every record they referenced is still reachable from those rows; the NCCN guideline they alone cited is now a
+    // link on the record (spikes/lung-core.ts).
+    standardOfCare: [],
     stateOfArt: ["Tarlatamab: first OS improvement in relapsed SCLC in decades.", "Immunotherapy consolidation in limited stage."],
-    history: [
-      { year: 1980, title: "Platinum-etoposide becomes standard" },
-      { year: 2018, title: "IMpower133: first immunotherapy OS benefit", refs: ["atezolizumab"] },
-      { year: 2019, title: "Rovalpituzumab tesirine (first DLL3 ADC) fails" },
-      { year: 2024, title: "Tarlatamab approved", refs: ["tarlatamab"] },
-    ],
+    // History and open problems are written in full by src/data/spikes/sclc.ts and the September 2026 lung deep dive.
+    // The four entries that stood here were each written twice on the merged record, and the platinum-etoposide entry
+    // was dated 1980 here and 1985 there; the spike's dates and wording win. Every record they referenced
+    // (atezolizumab, tarlatamab) is still reachable from the entries that replaced them.
+    history: [],
     pipeline: ["ifinatamab-deruxtecan", "ryz101", "tarlatamab", "pf-08634404", "yl201", "pm8002", "in10018", "ak117", "al8326", "tng260", "au-007", "or502"],
-    openProblems: ["Rapid chemoresistance.", "Brain metastases.", "No screening beyond CT for smokers."],
+    openProblems: [],
     targets: ["dll3", "b7h3", "pdl1", "sstr2", "tp53"], technologies: ["t-cell-engager", "adc", "checkpoint-inhibitor", "targeted-alpha-therapy", "nhs-targeted-lung-health-check"], pathways: ["p53-cell-cycle", "sclc-signalling"],
     tags: ["lung"], terms: ["limited-extensive-stage", "crs", "os", "pfs", "pci-term"], journals: ["clinical-lung-cancer", "lung-cancer-journal", "thoracic-cancer", "chinese-journal-of-lung-cancer"],
   }),

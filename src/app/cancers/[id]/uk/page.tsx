@@ -275,10 +275,12 @@ function Page({ p, id }: { p: UkPathway; id: string }) {
         <section className="mb-10">
           <SectionHead id="data" title="UK data" icon="chart" lede="Each figure with its nation, period and the page it was read from. Survival figures are population averages and sit behind the usual disclosure." />
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {/* Keyed by label, nation and period: the same figure is recorded for more than one nation and more than
+                one period, so the label alone is not unique (lung has five such labels; docs/LUNG-QA.md). */}
             {p.figures.map((f) => {
               const survival = /survival/i.test(f.label);
               return (
-                <div key={f.label} className="card p-4">
+                <div key={`${f.label}|${f.nation}|${f.period}`} className="card p-4">
                   <div className="text-xs text-muted">{f.label}</div>
                   {survival ? <SurvivalDisclosure items={[`${f.value} ${f.label.toLowerCase()} (${f.nation}, ${f.period}).`, ...(f.note ? [f.note] : [])]} /> : <div className="text-2xl font-semibold tabular-nums mt-1">{f.value}</div>}
                   <div className="text-xs text-muted mt-1">{f.nation} · {f.period}</div>

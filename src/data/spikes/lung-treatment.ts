@@ -17,9 +17,10 @@ import { lungTrialSponsorCompanies } from "./lung-trial-sponsors";
  * amivantamab after platinum chemotherapy, TA403 does not recommend ramucirumab and TA1091 does not recommend
  * tarlatamab, so five regimens that are standard elsewhere are not routinely funded in England.
  *
- * The cancer record patched here is `lung-cancer`, the parent of `nsclc` and `sclc`. Agent A owns the taxonomy, the
- * cancer records and the glossary; `lungStandardOfCare` is exported in full so those records can spread the rows they
- * want, and the same rows are merged into `lung-cancer` by the patch (mergeSpikeInto de-duplicates identical rows).
+ * The cancer record patched here is `lung-cancer`, the parent of `nsclc` and `sclc`. ./lung-core.ts owns the
+ * taxonomy, the cancer records and the glossary; `lungStandardOfCare` is exported in full so those records can spread
+ * the rows they want, and the same rows are merged into `lung-cancer` by the patch (mergeSpikeInto de-duplicates
+ * identical rows).
  *
  * Existing records are extended, never duplicated. The supplements below attach England access, approvals and, for
  * the landmark trials that entered the corpus under a bare registry id, their published result.
@@ -322,8 +323,8 @@ const lungTrialSupplements: SpikeSupplement[] = [
 
 // ======================= STANDARD OF CARE =======================
 /**
- * Exported in full so agent A's cancer records can spread the rows that belong on each page; the same rows are merged
- * into `lung-cancer` by the patch below. `refs` are corpus ids.
+ * Exported in full so the cancer records in ./lung-core.ts can spread the rows that belong on each page; the same
+ * rows are merged into `lung-cancer` by the patch below. `refs` are corpus ids.
  */
 export const lungStandardOfCare: NonNullable<CancerInput["standardOfCare"]> = [
   { setting: "Screening for lung cancer in people who have smoked", approach: "Annual low-dose CT of the chest in current and former smokers of the eligible age and pack-year range, with volume-based nodule management. NLST (53,454 participants) showed a 20 percent relative reduction in lung cancer mortality against chest radiography, and NELSON (15,789) a 24 percent reduction in men at ten years with a lower false-positive rate. In England the Targeted Lung Health Check programme invites people aged 55 to 74 with a smoking history. Screening is the single intervention with the largest effect on lung cancer mortality, and uptake, not evidence, is the limiting factor.", refs: ["nlst-nelson", "low-dose-ct-screening", "ct", "nhs-galleri"], guideline: { version: "NICE NG122; USPSTF; NHS Targeted Lung Health Check", url: SRC.ng122 } },

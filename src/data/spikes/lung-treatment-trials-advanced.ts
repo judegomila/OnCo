@@ -210,5 +210,5 @@ export const lungTrialsLaterLines: TrialInput[] = [
     result: "Stopped at the second interim analysis for a large progression-free survival advantage of alectinib over crizotinib.",
     replication: "ALEX reproduced the result globally at 600 mg twice daily, and ALESIA reproduced it in Chinese, Korean and Thai patients at the same 600 mg dose.",
     drugs: ["alectinib", "crizotinib"], cancers: ["alk-positive-nsclc"], targets: ["alk"], technologies: ["kinase-inhibitors"], terms: ["tki-term", "brain-metastases"], companies: ["chugai"], trials: ["alex", "alesia", "profile-1014"],
-    links: [doi("J-ALEX (Lancet 2017)", "10.1016/S0140-6736(17)30565-2"), { label: "Japan Pharmaceutical Information Center JapicCTI-132316", url: "https://www.clinicaltrials.jp/cti-user/trial/ShowDirect.jsp?japicId=JapicCTI-132316" }] }),
+    links: [doi("J-ALEX (Lancet 2017)", "10.1016/S0140-6736(17)30565-2"), { label: "Japan Pharmaceutical Information Center (the registry that held JapicCTI-132316; its record address now redirects to the registry home page)", url: "https://www.clinicaltrials.jp/" }] }),
 ];

@@ -330,7 +330,8 @@ function preview(c: Cancer, id: SectionId): Entity[] {
     case "science": return take("target", 6);
     case "where-you-are": return take("institution", 4);
     case "coming": return take("drug", 4);
-    case "treating-it": return c.standardOfCare.flatMap((s) => s.refs).map((r) => g.get(r)).filter((x): x is Entity => !!x).slice(0, 4);
+    // De-duplicated by id: two settings often cite the same record, and ChipList keys by id (duplicate React keys otherwise).
+    case "treating-it": return [...new Map(c.standardOfCare.flatMap((s) => s.refs).map((r) => g.get(r)).filter((x): x is Entity => !!x).map((e) => [e.id, e] as const)).values()].slice(0, 4);
     default: return [];
   }
 }

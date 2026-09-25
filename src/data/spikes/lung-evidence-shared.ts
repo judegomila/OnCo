@@ -14,33 +14,36 @@ export const pubmed = (pmid: string) => ({ label: "PubMed", url: `https://pubmed
 export const epmc = (pmid: string, label: string) => ({ label, url: `https://europepmc.org/article/MED/${pmid}` });
 
 /**
- * Trial ids the trials file of the deep dive owns and that did not exist in the corpus when this file was written.
- * They are named in text and linked to their paper record, not placed in `trials` arrays, so the build does not
- * dangle; the merge wires them once the trial records land. NLST and NELSON exist today as the single record
- * `nlst-nelson`, which is referenced by that id until the two are split, and KEYNOTE-024 and KEYNOTE-189 as the
- * single record `keynote-024-189`. Trial records that already exist and are used by id are not listed here:
- * adaura, adriatic, alex, alina, caspian, checkmate-227, checkmate-816, codebreak-100, codebreak-200, crown,
- * dellphi-304, destiny-lung01, destiny-lung02, flaura, flaura2, geometry-mono-1, keynote-042, keynote-189,
- * keynote-407, keynote-671, laura, libretto-431, lung-map, mariposa, nlst-nelson, pacific.
+ * Trial ids named in the evidence text that still have no record of their own, after the review of 25 September 2026
+ * re-checked the list against the corpus. They are named in text and linked to their paper record, not placed in
+ * `trials` arrays, so the build does not dangle. NLST and NELSON exist as the single record `nlst-nelson` and
+ * KEYNOTE-024 and KEYNOTE-189 as the single record `keynote-024-189`; both are referenced by those ids until the
+ * pairs are split, which is why `nlst`, `nelson` and `keynote-024` appear here rather than as missing records.
+ *
+ * Written since this list was first drafted, and now referenced by id: profile-1014, impower110, checkmate-017,
+ * checkmate-057 and keynote-010 (lung-treatment-trials-advanced.ts), lace-pooled-analysis (lung-treatment.ts) and
+ * tracerx (lung-uk.ts). Trial records that already existed and are used by id: adaura, adriatic, alex, alina,
+ * caspian, checkmate-227, checkmate-816, codebreak-100, codebreak-200, crown, dellphi-304, destiny-lung01,
+ * destiny-lung02, flaura, flaura2, geometry-mono-1, keynote-042, keynote-189, keynote-407, keynote-671, laura,
+ * libretto-431, lung-map, mariposa, nlst-nelson, pacific.
  */
 export const PENDING_TRIALS = [
-  "ipass", "eurtac", "profile-1014", "profile-1001", "impower010", "impower110", "aegean", "checkmate-77t",
-  "checkmate-017", "checkmate-057", "keynote-001", "keynote-010", "keynote-024", "dellphi-301", "tracerx",
-  "ecog-1594", "ecog-4599", "lace-pooled-analysis", "plco-lung", "intergroup-0096", "pci-overview", "caret",
+  "ipass", "eurtac", "profile-1001", "impower010", "aegean", "checkmate-77t", "keynote-001", "keynote-024",
+  "dellphi-301", "ecog-1594", "ecog-4599", "plco-lung", "intergroup-0096", "pci-overview", "caret",
   "british-doctors-study", "nlst", "nelson", "nadim-ii",
 ] as const;
 
 /**
- * Glossary terms the terms file of the deep dive owns and that did not exist when this file was written. They are
- * written out in text; existing terms (brain-metastases, chemoradiation, clonal-evolution, ctdna, driver-mutation,
+ * Glossary terms named in the evidence text that still have no record of their own, re-checked on 25 September 2026.
+ * Written since this list was first drafted, and now linked by id: pack-year, low-dose-ct-screening,
+ * met-exon-14-skipping, alk-fusion, chromosomal-instability, consolidation-therapy and smoking-cessation. Terms that
+ * already existed and are linked by id: brain-metastases, chemoradiation, clonal-evolution, ctdna, driver-mutation,
  * histology, mrd, neoadjuvant-adjuvant, oligometastatic, oncogene-addiction, overdiagnosis, pdl1, performance-status,
- * prophylactic-cranial-irradiation, resistance, tmb, tps) are linked by id.
+ * prophylactic-cranial-irradiation, resistance, tmb, tps.
  */
 export const PENDING_TERMS = [
-  "pack-year", "low-dose-ct-screening", "never-smoker", "screening-eligibility", "lead-time-bias",
-  "t790m", "acquired-resistance", "histological-transformation", "exon-19-deletion", "l858r",
-  "met-exon-14-skipping", "alk-fusion", "event-free-survival", "pathological-complete-response",
-  "disease-free-survival", "intratumour-heterogeneity", "chromosomal-instability", "limited-stage",
-  "extensive-stage", "consolidation-therapy", "smoking-cessation", "tobacco-control", "deprivation-gradient",
-  "sclc-transcription-factor-subtypes",
+  "never-smoker", "screening-eligibility", "lead-time-bias", "t790m", "acquired-resistance",
+  "histological-transformation", "exon-19-deletion", "l858r", "event-free-survival",
+  "pathological-complete-response", "disease-free-survival", "intratumour-heterogeneity", "limited-stage",
+  "extensive-stage", "tobacco-control", "deprivation-gradient", "sclc-transcription-factor-subtypes",
 ] as const;

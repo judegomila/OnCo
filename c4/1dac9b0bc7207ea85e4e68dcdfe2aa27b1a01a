@@ -1,0 +1,36 @@
+src/data/spikes/skin-treatment.ts
+  s_0beac9cb5d78fd::t_5c812c0016e4e0 79
+  s_0beac9cb5d78fd::t_144af7cd53766d 1-78,80-297
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_b4767e148f72b2 100-101
+src/data/spikes/skin-treatment-shared.ts
+  s_0beac9cb5d78fd::t_bcce92614456d8 1-99
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_b4767e148f72b2 81,88,99-101
+src/lib/corpus-rules.test.ts
+  s_0beac9cb5d78fd::t_b4767e148f72b2 85-89
+src/data/spikes/skin-treatment-trials-advanced.ts
+  s_0beac9cb5d78fd::t_5c812c0016e4e0 162
+  s_0beac9cb5d78fd::t_f327596ab22a85 68,88,107,126,144,179
+  s_0beac9cb5d78fd::t_9346ea57c64e61 1-67,69-87,89-106,108-125,127-143,145-161,163-178,180-197
+src/data/spikes/skin-treatment-trials-local.ts
+  s_0beac9cb5d78fd::t_33b2ec4a7fb87f 35,37,44
+  s_0beac9cb5d78fd::t_2fe989d7799da8 2
+  s_0beac9cb5d78fd::t_28b75526e1ba7e 1,3-34,36,38-43,45-162
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c41dac9b0bc7207ea85e4e68dcdfe2aa27b1a01a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

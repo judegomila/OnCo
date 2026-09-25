@@ -1,0 +1,42 @@
+src/data/spikes/prostate-molecular.ts
+  s_0beac9cb5d78fd::t_029f9f05cce9c3 603-644,646-652,654-660,662
+  s_0beac9cb5d78fd::t_842ce4363fd77a 797,805
+  s_0beac9cb5d78fd::t_ac6c9f96b5f7e1 645,653,661
+  s_0beac9cb5d78fd::t_dd05eb3258b40d 1005-1091,1093-1095
+  s_0beac9cb5d78fd::t_42ab070a17486f 339-406
+  s_0beac9cb5d78fd::t_a9fcfbafcfc725 554-602
+  s_0beac9cb5d78fd::t_da7500ea6d79cb 475-553
+  s_0beac9cb5d78fd::t_d51266a780e903 255,257
+  s_0beac9cb5d78fd::t_34e36ddbc7c2f2 1172-1242,1244-1249
+  s_0beac9cb5d78fd::t_8268db2c5a92f4 162-206
+  s_0beac9cb5d78fd::t_92f951b00af2b6 407-474
+  s_0beac9cb5d78fd::t_4bcd41270fb60f 763-796,798-804,806-828,830-870
+  s_0beac9cb5d78fd::t_fd038dc9917ed8 871-1000,1002-1004
+  s_0beac9cb5d78fd::t_527ea7b7980beb 1001,1092
+  s_0beac9cb5d78fd::t_6e29f26136d756 1-118,122-161
+  s_0beac9cb5d78fd::t_2a3ca52818f800 119-121
+  s_0beac9cb5d78fd::t_169cd5b60f7ee5 1096-1165,1167-1171
+  s_0beac9cb5d78fd::t_5a662d8052dbf8 829,1166,1243
+  s_0beac9cb5d78fd::t_470224d80e862d 663-762
+  s_0beac9cb5d78fd::t_ca251b1199c456 207-254,256,258-338
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_65a7a743c9398e 69,77
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_88c59d2e6520a4 68,90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5b1f19a17ae4b21de2fd48d16e8fdaea96db79bc",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

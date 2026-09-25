@@ -148,6 +148,7 @@ export const navFr: NavDict = {
   "https://github.com/judegomila/OnCo": ["GitHub", "Code et données. Proposez des changements via les formulaires de tickets."],
   "/coverage/rankings/": ["Classement des couvertures", "Assureurs et types de contrats américains classés selon une métrique publiée à la fois, la prise en charge du NHS face à l'assurance privée au Royaume-Uni, et comment neuf pays paient les médicaments anticancéreux."],
   "/costs/": ["Réduire le coût des soins", "Chaque facteur de coût associé à ce qui est fait et aux idées qui pourraient faire plus : biosimilaires, négociation, optimisation des doses, cures plus courtes, parité, autorisation préalable."],
+  "/countries/us/": ["Les États-Unis en détail", "Ce que font les États-Unis : qui paie et ce que cela coûte à une personne, la FDA, pourquoi la prise en charge ne découle pas de l'autorisation, le réseau d'essais du NCI, et les inégalités."],
   "/countries/in/": ["L'Inde en détail", "Ce que fait l'Inde : profil du cancer, financement des soins, la CDSCO, institutions, entreprises, essais et personnes."],
   "/countries/cn/": ["La Chine en détail", "Ce que fait la Chine : profil du cancer, la NMPA, la liste de l'assurance nationale, institutions, entreprises, essais et personnes."],
   "/live/complementary/": ["Approches complémentaires et de soutien", "Acupuncture, méditation, yoga, plantes, régimes, cannabis, casques réfrigérants et plus : ce que montrent les essais, évalué honnêtement, et ce qu'il faut éviter ou ne jamais utiliser à la place du traitement."],

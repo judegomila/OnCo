@@ -148,6 +148,7 @@ export const navDe: NavDict = {
   "https://github.com/judegomila/OnCo": ["GitHub", "Code und Daten. Änderungen über die Issue-Formulare vorschlagen."],
   "/coverage/rankings/": ["Rangliste der Kostenübernahme", "US-Versicherer und Tariftypen, jeweils nach einer veröffentlichten Kennzahl geordnet, NHS-Leistungen gegenüber privater Versicherung im Vereinigten Königreich und wie neun Länder Krebsmedikamente bezahlen."],
   "/costs/": ["Kosten der Krebsbehandlung senken", "Jeder Kostentreiber neben dem, was bereits geschieht, und den Ideen, die mehr bewirken könnten: Biosimilars, Preisverhandlung, Dosisoptimierung, kürzere Therapien, Gleichstellung, Vorabgenehmigung."],
+  "/countries/us/": ["Die USA im Detail", "Was die USA tun: wer zahlt und was es eine Person kostet, die FDA, warum Kostenübernahme nicht Zulassung bedeutet, das Studiennetz des NCI und die Ungleichheiten."],
   "/countries/in/": ["Indien im Detail", "Was Indien tut: Krebsprofil, Finanzierung der Versorgung, die CDSCO, Institutionen, Unternehmen, Studien und Menschen."],
   "/countries/cn/": ["China im Detail", "Was China tut: Krebsprofil, die NMPA, die nationale Erstattungsliste, Institutionen, Unternehmen, Studien und Menschen."],
   "/live/complementary/": ["Komplementäre und unterstützende Ansätze", "Akupunktur, Achtsamkeit, Yoga, Kräuter, Diäten, Cannabis, Kühlkappen und mehr: was die Studien zeigen, ehrlich bewertet, und was zu meiden oder niemals statt der Behandlung zu nutzen ist."],

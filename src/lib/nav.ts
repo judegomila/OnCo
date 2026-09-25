@@ -131,6 +131,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/sponsors/", label: "Trial sponsors", blurb: "Who runs the most phase 2 and 3 trials, by cancer, from the registry and the corpus." },
       { href: "/manufacturing/", label: "Manufacturing map", blurb: "Where ADCs are conjugated, cell therapies made and isotopes produced." },
       { href: "/countries/", label: "Countries", blurb: "Who is doing the most cancer research: output, growth, trials, burden, funders." },
+      { href: "/countries/us/", label: "United States deep dive", blurb: "What the United States is up to: who pays and what it costs a person, the FDA, why coverage is not approval, the NCI trial network, and the disparities." },
       { href: "/countries/in/", label: "India deep dive", blurb: "What India is up to: cancer profile, paying for care, CDSCO, institutions, companies, trials and people." },
       { href: "/countries/cn/", label: "China deep dive", blurb: "What China is up to: cancer profile, the NMPA, national insurance listing, institutions, companies, trials and people." },
       { href: "/cases/", label: "Cases by country", blurb: "New cancer cases per country and per cancer, with the data gaps made explicit." },

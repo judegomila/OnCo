@@ -7,7 +7,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "Triple-negative-like, aggressive breast subtype with basal gene program",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on term:pam50"
  },
  {
   "slug": "blca-bladder-urothelial-carcinoma",
@@ -17,7 +18,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "TCGA bladder cancer cohort used in within-type survival",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:urothelial"
  },
  {
   "slug": "cesc-cervical-squamous-adenocarcinoma",
@@ -27,7 +29,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "TCGA cervical cancer cohort; full transcriptome gained +0.054",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:cervical"
  },
  {
   "slug": "coad-colorectal-adenocarcinoma",
@@ -37,7 +40,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "Colon cancer; TCGA, CPTAC and Visium colorectal section",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:colorectal"
  },
  {
   "slug": "coadread",
@@ -45,7 +49,8 @@
   "aliases": [],
   "bucket": "Cancer types & subtypes",
   "gloss": "Combined TCGA colon + rectal adenocarcinoma cohort",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:colorectal"
  },
  {
   "slug": "esca-esophageal-carcinoma",
@@ -55,7 +60,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "TCGA esophageal cohort; full transcriptome did not help",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:esophageal"
  },
  {
   "slug": "her2-enriched-pam50-her2",
@@ -65,7 +71,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "Breast subtype driven by ERBB2 amplification/overexpression",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on term:pam50"
  },
  {
   "slug": "hnsc-hnscc-head-neck-squamous-cell-carcinoma",
@@ -76,7 +83,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "Head-and-neck cancer; TCGA survival and CPTAC concordance",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:head-and-neck"
  },
  {
   "slug": "kirc-kidney-renal-clear-cell-carcinoma",
@@ -86,7 +94,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "TCGA clear-cell kidney cancer cohort",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:clear-cell-rcc"
  },
  {
   "slug": "kirp-kidney-renal-papillary-carcinoma",
@@ -96,7 +105,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "TCGA papillary kidney cancer; high within-type C-index",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:papillary-rcc"
  },
  {
   "slug": "lihc-liver-hepatocellular-carcinoma",
@@ -106,7 +116,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "TCGA primary liver cancer cohort",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:hcc"
  },
  {
   "slug": "lscc-lusc-lung-squamous-cell-carcinoma",
@@ -117,7 +128,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "Squamous lung cancer; TCGA (LUSC) and CPTAC (LSCC)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:nsclc"
  },
  {
   "slug": "luad-lung-adenocarcinoma",
@@ -127,7 +139,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "Most common lung cancer; TCGA and CPTAC cohorts",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:nsclc"
  },
  {
   "slug": "normal-like-pam50-normal",
@@ -137,7 +150,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "Breast subtype resembling normal breast tissue expression",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on term:pam50"
  },
  {
   "slug": "ov-ovarian-serous-cystadenocarcinoma",
@@ -147,7 +161,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "Ovarian cancer; TCGA, CPTAC, Visium ovarian section",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:ovarian"
  },
  {
   "slug": "pam50-molecular-subtypes",
@@ -155,7 +170,8 @@
   "aliases": [],
   "bucket": "Cancer types & subtypes",
   "gloss": "50-gene breast cancer classification into five intrinsic subtypes",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on term:pam50"
  },
  {
   "slug": "read-rectum-adenocarcinoma",
@@ -165,7 +181,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "TCGA rectal cancer cohort",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:rectal-cancer"
  },
  {
   "slug": "stad-stomach-adenocarcinoma",
@@ -175,7 +192,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "TCGA gastric cancer cohort",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:gastric"
  },
  {
   "slug": "stroma-rich-desmoplastic-tumours",
@@ -185,7 +203,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "Tumours with dense non-tumour stroma that depresses assay concordance",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:desmoplastic-stroma-rich"
  },
  {
   "slug": "ucec-uterine-corpus-endometrial-carcinoma",
@@ -195,7 +214,8 @@
   ],
   "bucket": "Cancer types & subtypes",
   "gloss": "CPTAC endometrial cohort with high concordance",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on cancer:endometrial"
  },
  {
   "slug": "bulk-rna-seq",
@@ -203,7 +223,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Sequencing-based average gene expression across a whole tumour sample",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:bulk-rna-seq"
  },
  {
   "slug": "cell-line-omics",
@@ -211,7 +232,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Molecular profiles of cancer cell lines paired with drug screens",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:cell-lines-as-proxy; data source ccle"
  },
  {
   "slug": "clinical-variables",
@@ -219,7 +241,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Age, nodal status, stage, treatment flags used as features",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:clinical-covariates"
  },
  {
   "slug": "deep-mass-spectrometry-proteome",
@@ -227,7 +250,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Genome-scale protein quantification by MS (CPTAC)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:mass-spec-proteome"
  },
  {
   "slug": "drug-response-readouts-auc-ic50",
@@ -237,7 +261,8 @@
   ],
   "bucket": "Data modalities & assays",
   "gloss": "Dose-response summary metrics of cell-line drug sensitivity",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-sensitivity"
  },
  {
   "slug": "ehr-text-pathology-reports",
@@ -247,7 +272,8 @@
   ],
   "bucket": "Data modalities & assays",
   "gloss": "Free-text clinical records; TITAN aligns WSIs to reports",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:ehr-text-pathology-reports"
  },
  {
   "slug": "full-transcriptome-20k-genes",
@@ -257,7 +283,8 @@
   ],
   "bucket": "Data modalities & assays",
   "gloss": "Genome-wide expression rather than a curated gene subset",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:bulk-rna-seq"
  },
  {
   "slug": "genomic-dna-sequence",
@@ -265,7 +292,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Raw nucleotide sequence modelled by Evo 2 / Nucleotide Transformer",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:genomic-and-protein-language-models; technology:wes-wgs exists"
  },
  {
   "slug": "log2-tpm",
@@ -273,7 +301,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Log-transformed transcripts-per-million expression unit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:tpm-fpkm-counts"
  },
  {
   "slug": "methylation-dna-methylation-arrays",
@@ -283,7 +312,8 @@
   ],
   "bucket": "Data modalities & assays",
   "gloss": "CpG methylation profiles; added as sixth modality",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:methylation-arrays"
  },
  {
   "slug": "microarray-expression",
@@ -291,7 +321,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Hybridisation-based expression platform used by METABRIC",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:microarray-expression"
  },
  {
   "slug": "os-pfs-outcomes-time-event",
@@ -302,7 +333,8 @@
   ],
   "bucket": "Data modalities & assays",
   "gloss": "Overall/progression-free survival times with censoring indicators",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:os-pfs-time-event"
  },
  {
   "slug": "pseudobulk",
@@ -310,7 +342,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Aggregated expression over spots/cells mimicking a bulk sample",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:single-cell-rna-seq"
  },
  {
   "slug": "radiology-imaging",
@@ -318,7 +351,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "CT/MRI imaging (TCIA); a future SP5 modality",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:radiology-imaging-modality"
  },
  {
   "slug": "rppa-reverse-phase-protein-array",
@@ -327,8 +361,9 @@
    "reverse-phase protein array"
   ],
   "bucket": "Data modalities & assays",
-  "gloss": "Antibody assay of ~149\u2013200 proteins and phospho-proteins",
-  "status": "sourced"
+  "gloss": "Antibody assay of ~149–200 proteins and phospho-proteins",
+  "status": "sourced",
+  "done": "term:rppa"
  },
  {
   "slug": "phospho-proteomics",
@@ -336,7 +371,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Measurement of phosphorylated proteins indicating pathway activation",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:pathway-activation-state"
  },
  {
   "slug": "single-cell-expression",
@@ -344,7 +380,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Per-cell transcriptomes (CELLxGENE/HCA) for foundation models",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:single-cell-rna-seq"
  },
  {
   "slug": "somatic-mutations-wxs-wgs",
@@ -354,7 +391,8 @@
   ],
   "bucket": "Data modalities & assays",
   "gloss": "Tumour-acquired DNA variants from exome/genome sequencing",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:somatic-mutations-wxs-wgs"
  },
  {
   "slug": "targeted-panel-sequencing",
@@ -362,7 +400,8 @@
   "aliases": [],
   "bucket": "Data modalities & assays",
   "gloss": "Clinical gene panels (GENIE) covering hundreds of genes",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:targeted-panel-sequencing"
  },
  {
   "slug": "wsi-histopathology-svs-gigapixel-slides",
@@ -372,7 +411,8 @@
   ],
   "bucket": "Data modalities & assays",
   "gloss": "Digitised H&E whole-slide images tiled for deep learning",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:digital-pathology-wsi"
  },
  {
   "slug": "10x-genomics-visium-human-breast-cancer-block-a-sections-1-2",
@@ -382,7 +422,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "Public CC BY 4.0 breast Visium sections, ~3,798 spots",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source tenx-public-datasets"
  },
  {
   "slug": "archs4-human-gene-v2-hdf5",
@@ -392,7 +433,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "~1.2M uniformly processed public human RNA-seq samples",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source archs4"
  },
  {
   "slug": "bulkformer-tcga-survival-h5ad",
@@ -400,7 +442,8 @@
   "aliases": [],
   "bucket": "Public datasets & sources",
   "gloss": "BulkFormer's published TCGA matrix in a 20,010-gene space",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: one project file; BulkFormer itself in term:single-cell-foundation-models"
  },
  {
   "slug": "ccle-cancer-cell-line-encyclopedia",
@@ -410,7 +453,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "Molecular profiles of ~1,000 cancer cell lines",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source ccle"
  },
  {
   "slug": "cellxgene",
@@ -418,7 +462,8 @@
   "aliases": [],
   "bucket": "Public datasets & sources",
   "gloss": "CZI single-cell data census",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing opensource:cellxgene; alias on collection:cellxgene-hca"
  },
  {
   "slug": "chembl",
@@ -426,7 +471,8 @@
   "aliases": [],
   "bucket": "Public datasets & sources",
   "gloss": "Bioactive-molecule database used as a drug identifier",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing data source chembl and collection:drugbank-chembl"
  },
  {
   "slug": "cptac-pipelines-umich-washu-broad-bcm",
@@ -436,7 +482,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "Centre-specific processing sources for proteome/mRNA",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on collection:cptac; term:mass-spec-proteome"
  },
  {
   "slug": "ctrp",
@@ -444,7 +491,8 @@
   "aliases": [],
   "bucket": "Public datasets & sources",
   "gloss": "Cancer Therapeutics Response Portal cell-line drug screen",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source ctrp"
  },
  {
   "slug": "dbsnp",
@@ -452,7 +500,8 @@
   "aliases": [],
   "bucket": "Public datasets & sources",
   "gloss": "NCBI database of short genetic variants",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source dbsnp"
  },
  {
   "slug": "gdc-genomic-data-commons",
@@ -462,7 +511,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "NCI repository serving TCGA data and slides via API",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing data source gdc; alias on collection:tcga-gdc"
  },
  {
   "slug": "gdsc-genomics-of-drug-sensitivity-in-cancer",
@@ -472,7 +522,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "Cell-line drug screen; 256 drugs used here",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source gdsc"
  },
  {
   "slug": "geo-gene-expression-omnibus",
@@ -482,7 +533,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "NCBI public expression repository (no accessions named)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source geo"
  },
  {
   "slug": "gtex",
@@ -490,7 +542,8 @@
   "aliases": [],
   "bucket": "Public datasets & sources",
   "gloss": "Normal-tissue expression reference atlas",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing data source gtex"
  },
  {
   "slug": "hca-human-cell-atlas",
@@ -500,7 +553,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "Single-cell reference atlas of human tissues",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on collection:cellxgene-hca"
  },
  {
   "slug": "htan-human-tumor-atlas-network",
@@ -510,7 +564,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "NCI multi-modal tumour atlas incl. spatial/single-cell",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source htan"
  },
  {
   "slug": "metabric",
@@ -518,7 +573,8 @@
   "aliases": [],
   "bucket": "Public datasets & sources",
   "gloss": "~2,000-patient breast cohort, microarray, long follow-up",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source metabric"
  },
  {
   "slug": "msigdb",
@@ -526,7 +582,8 @@
   "aliases": [],
   "bucket": "Public datasets & sources",
   "gloss": "Molecular Signatures Database of gene sets",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source msigdb"
  },
  {
   "slug": "reactome",
@@ -534,7 +591,8 @@
   "aliases": [],
   "bucket": "Public datasets & sources",
   "gloss": "Curated pathway knowledge base",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing data source reactome"
  },
  {
   "slug": "recount3",
@@ -542,7 +600,8 @@
   "aliases": [],
   "bucket": "Public datasets & sources",
   "gloss": "Uniformly reprocessed public RNA-seq resource",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source recount3"
  },
  {
   "slug": "tcga-the-cancer-genome-atlas",
@@ -552,7 +611,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "~11k patients, 33 cancer types, multi-omic, the paired backbone",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on collection:tcga-gdc"
  },
  {
   "slug": "tcga-pancanatlas-2018-tcga-pan-can-atlas-2018",
@@ -562,7 +622,8 @@
   ],
   "bucket": "Public datasets & sources",
   "gloss": "Harmonised pan-cancer TCGA studies on cBioPortal (32 used)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "data source pancanatlas; alias on collection:tcga-gdc"
  },
  {
   "slug": "ajcc-stage",
@@ -570,7 +631,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "TNM-based cancer staging system used as clinical covariate",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:ajcc-stage"
  },
  {
   "slug": "anndata-h5ad",
@@ -580,7 +642,8 @@
   ],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Python annotated-matrix format for expression data",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing opensource:anndata; term:anndata-h5ad"
  },
  {
   "slug": "cc-by-4-0-mit-licence",
@@ -590,7 +653,8 @@
   ],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Open data/model licences (Visium data, BulkFormer weights/code)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:open-licences"
  },
  {
   "slug": "cell-ontology-cl",
@@ -600,7 +664,8 @@
   ],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Standard vocabulary for cell types",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:uberon"
  },
  {
   "slug": "content-addressed-storage-sha256-manifest",
@@ -610,7 +675,8 @@
   ],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Raw files keyed by checksum for reproducibility",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:provenance-fields"
  },
  {
   "slug": "duckdb-postgres-catalog",
@@ -620,7 +686,8 @@
   ],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Queryable metadata spine joining patients, specimens, assays",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:duckdb-catalog"
  },
  {
   "slug": "ensembl-gene-id",
@@ -628,7 +695,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Stable gene identifier alongside the HGNC symbol",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:ensembl-gene-id"
  },
  {
   "slug": "grch38-vs-hg19",
@@ -636,7 +704,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Human genome builds; mixing them is the classic TCGA legacy trap",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:genome-builds"
  },
  {
   "slug": "hdf5",
@@ -644,7 +713,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Hierarchical binary format (ARCHS4 distribution)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:hdf5-zarr-parquet"
  },
  {
   "slug": "hgnc-symbol",
@@ -652,7 +722,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Official human gene nomenclature",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:hgnc-symbol"
  },
  {
   "slug": "hgvs",
@@ -660,7 +731,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Standard notation for describing sequence variants",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:hgvs"
  },
  {
   "slug": "hpo-human-phenotype-ontology",
@@ -670,7 +742,8 @@
   ],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Standard vocabulary for phenotypes",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:hpo"
  },
  {
   "slug": "icd-o-3",
@@ -678,7 +751,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Oncology morphology/topography coding system",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:icd-o-3"
  },
  {
   "slug": "mondo",
@@ -686,7 +760,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Unified disease ontology",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:mondo"
  },
  {
   "slug": "ncit-nci-thesaurus",
@@ -696,7 +771,8 @@
   ],
   "bucket": "Ontologies, standards & formats",
   "gloss": "NCI terminology for diseases and drugs",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:ncit"
  },
  {
   "slug": "ome-zarr",
@@ -704,7 +780,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Chunked bio-imaging format for WSI tiles",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:hdf5-zarr-parquet"
  },
  {
   "slug": "oncotree",
@@ -712,7 +789,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Cancer-type classification tree (MSK)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing opensource:oncotree; term:oncotree-term"
  },
  {
   "slug": "parquet",
@@ -720,7 +798,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Columnar tabular storage format",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:hdf5-zarr-parquet"
  },
  {
   "slug": "provenance-fields",
@@ -728,7 +807,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "source_dataset, accession, pipeline_version, genome_build, timestamp, checksum",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:provenance-fields"
  },
  {
   "slug": "rxnorm",
@@ -736,7 +816,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "NLM standard drug nomenclature",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:rxnorm"
  },
  {
   "slug": "tcga-barcode",
@@ -744,7 +825,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Patient-sample-vial-portion-analyte identifier, used as the join key",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:tcga-barcode"
  },
  {
   "slug": "uberon",
@@ -752,7 +834,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Cross-species anatomy ontology",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:uberon"
  },
  {
   "slug": "uo-units-ontology",
@@ -762,7 +845,8 @@
   ],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Standard units of measurement",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:units-ontology"
  },
  {
   "slug": "zarr",
@@ -770,7 +854,8 @@
   "aliases": [],
   "bucket": "Ontologies, standards & formats",
   "gloss": "Chunked array storage format",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:hdf5-zarr-parquet"
  },
  {
   "slug": "abmil-attention-based-multiple-instance-learning",
@@ -780,7 +865,8 @@
   ],
   "bucket": "Models & foundation models referenced",
   "gloss": "Attention pooling of tile embeddings into a slide representation",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:abmil"
  },
  {
   "slug": "bulkformer",
@@ -788,7 +874,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "147M-param bulk-RNA-seq FM, ~500k profiles; frozen, tested, rejected",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:single-cell-foundation-models"
  },
  {
   "slug": "clam",
@@ -796,7 +883,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "Mahmood-lab weakly supervised WSI MIL framework",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing opensource:clam; term:abmil"
  },
  {
   "slug": "claude-sonnet-5",
@@ -804,7 +892,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "LLM narrating cohort-level findings in the briefing",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: general-purpose LLM, no oncology meaning"
  },
  {
   "slug": "conch",
@@ -812,7 +901,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "Mahmood-lab pathology vision-language tile encoder",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing opensource:conch; term:pathology-foundation-models"
  },
  {
   "slug": "enformer",
@@ -820,7 +910,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "DeepMind sequence-to-expression regulatory model",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:genomic-and-protein-language-models"
  },
  {
   "slug": "esm2",
@@ -828,7 +919,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "Meta protein language model; UCE uses it for gene tokens",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:genomic-and-protein-language-models"
  },
  {
   "slug": "evo-2-stripedhyena-2",
@@ -838,7 +930,8 @@
   ],
   "bucket": "Models & foundation models referenced",
   "gloss": "40B-param genomic FM, 1M-bp context; zero-shot claim refuted",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing technology:evo2 and opensource:evo2; term:genomic-and-protein-language-models"
  },
  {
   "slug": "genecompass",
@@ -846,7 +939,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "126M-cell single-cell foundation model",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:single-cell-foundation-models"
  },
  {
   "slug": "mcat-motcat",
@@ -856,7 +950,8 @@
   ],
   "bucket": "Models & foundation models referenced",
   "gloss": "Mahmood-lab multimodal pathology-genomics survival models",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: two conference models without a verifiable page fetched; PORPOISE from the same lab is cited in term:multimodal-fusion"
  },
  {
   "slug": "perceiver",
@@ -864,7 +959,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "Latent-bottleneck transformer architecture used for fusion",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:transformer-architecture"
  },
  {
   "slug": "porpoise",
@@ -872,7 +968,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "Mahmood-lab pan-cancer pathology-omics prognosis model",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Cited in term:multimodal-fusion"
  },
  {
   "slug": "spagcn",
@@ -880,7 +977,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "Graph-convolutional spatially aware clustering method",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:spagcn"
  },
  {
   "slug": "uce-universal-cell-embeddings",
@@ -890,7 +988,8 @@
   ],
   "bucket": "Models & foundation models referenced",
   "gloss": "650M-param cell FM tokenising genes by ESM2",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing opensource:uce; term:single-cell-foundation-models"
  },
  {
   "slug": "uni",
@@ -898,7 +997,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "Mahmood-lab general pathology tile encoder",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing opensource:uni; term:pathology-foundation-models"
  },
  {
   "slug": "cansim-maskedexpressionautoencoder",
@@ -906,7 +1006,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "MLP autoencoder SSL-pretrained by masking 50% of genes",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "cansim-genetokentransformer",
@@ -914,7 +1015,8 @@
   "aliases": [],
   "bucket": "Models & foundation models referenced",
   "gloss": "Gene-token transformer SSL encoder; data-hungry at small scale",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "cansim-wsiencoder-cnaencoder",
@@ -924,7 +1026,8 @@
   ],
   "bucket": "Models & foundation models referenced",
   "gloss": "Per-modality encoders producing fusion tokens",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "cansim-survivalpredictor-drugresponsepredictor-insilicoperturbation-fulltranscriptomepca",
@@ -936,7 +1039,8 @@
   ],
   "bucket": "Models & foundation models referenced",
   "gloss": "Persisted capability classes in the `cansim` package",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "5-fold-stratified-cross-validation-seed-42",
@@ -946,7 +1050,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Class-balanced k-fold held-out evaluation",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:cross-validation"
  },
  {
   "slug": "ablation-study",
@@ -954,7 +1059,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Removing modalities/components to measure their contribution",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:ablation-study"
  },
  {
   "slug": "accuracy-macro-f1",
@@ -964,7 +1070,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Classification metrics; macro-F1 weights classes equally",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:accuracy-f1"
  },
  {
   "slug": "attention-masking-over-present-modalities",
@@ -972,7 +1079,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Fusion ignores missing modalities via masks",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:multimodal-fusion"
  },
  {
   "slug": "autoregressive-modelling",
@@ -980,7 +1088,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Next-token generative training (Evo 2)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:autoregressive-modelling"
  },
  {
   "slug": "bootstrap-resampling-bootstrap-calibrated-reliability",
@@ -989,8 +1098,9 @@
    "bootstrap-calibrated reliability"
   ],
   "bucket": "ML methods & concepts",
-  "gloss": "Refit on resamples; P10\u2013P90 spread vs in-domain cutoff",
-  "status": "sourced"
+  "gloss": "Refit on resamples; P10–P90 spread vs in-domain cutoff",
+  "status": "sourced",
+  "done": "term:bootstrap"
  },
  {
   "slug": "breslow-approximation-ties",
@@ -1000,7 +1110,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Cox partial-likelihood handling of tied event times",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:time-dependent-auc"
  },
  {
   "slug": "c-index-concordance-index",
@@ -1010,7 +1121,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Survival ranking accuracy; 0.5 = random",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:concordance-index"
  },
  {
   "slug": "closed-form-linear-attribution",
@@ -1018,7 +1130,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Exact gene effect = coef @ components / std",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "cluster-purity-zero-shot-embedding-quality",
@@ -1028,7 +1141,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Checks embeddings group by tissue/subtype",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:zero-shot"
  },
  {
   "slug": "combat-quantile-rank-harmonisation",
@@ -1039,7 +1153,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Batch/platform correction methods noted as alternatives",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:batch-effects and term:quantile-normalisation"
  },
  {
   "slug": "contrastive-alignment-infonce",
@@ -1049,7 +1164,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Pull a patient's modality tokens together, push others apart",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:contrastive-learning"
  },
  {
   "slug": "cross-entropy-mse-losses",
@@ -1059,7 +1175,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Classification and reconstruction objectives",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:cross-entropy-mse"
  },
  {
   "slug": "cross-modal-masked-reconstruction",
@@ -1067,7 +1184,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Predict a held-out modality's token from the others",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:masked-modelling"
  },
  {
   "slug": "cross-platform-harmonisation-per-gene-z-score",
@@ -1077,7 +1195,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Aligning RNA-seq and microarray distributions",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:quantile-normalisation"
  },
  {
   "slug": "data-leakage-prevention-fit-on-train-fold-only",
@@ -1087,7 +1206,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Scalers/PCA fitted without test data",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:data-leakage"
  },
  {
   "slug": "domain-distribution-shift",
@@ -1097,7 +1217,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Train-test mismatch (platform, tissue, cell line vs tumour)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:domain-adaptation"
  },
  {
   "slug": "fine-tuning-vs-frozen-embeddings",
@@ -1105,7 +1226,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Updating FM weights vs using fixed features",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:fine-tuning-vs-frozen"
  },
  {
   "slug": "fusion-transformer-patient-cls-token-modality-type-embeddings",
@@ -1115,7 +1237,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Transformer combining modality tokens into a patient vector",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:transformer-architecture"
  },
  {
   "slug": "gene-tokenisation-rank-based-top-n-value-binning",
@@ -1125,7 +1248,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Converting expression profiles into transformer tokens",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:tokenisation"
  },
  {
   "slug": "held-out-test-split-80-20",
@@ -1135,7 +1259,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Evaluating on unseen samples",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:train-test-discipline"
  },
  {
   "slug": "kmeans-clustering-k-10",
@@ -1145,7 +1270,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Partitioning Visium spots into expression domains",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:spagcn"
  },
  {
   "slug": "knn-neighbourhood-smoothing-knn-6",
@@ -1155,7 +1281,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Averaging neighbouring spots to reduce sparsity",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:spagcn"
  },
  {
   "slug": "logistic-regression",
@@ -1163,7 +1290,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Linear classifier used for subtype head-to-heads",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:logistic-regression-term"
  },
  {
   "slug": "low-label-regime-transfer-learning",
@@ -1172,8 +1300,9 @@
    "transfer learning"
   ],
   "bucket": "ML methods & concepts",
-  "gloss": "Fine-tuning on few labels (50\u2013500) after pretraining",
-  "status": "sourced"
+  "gloss": "Fine-tuning on few labels (50–500) after pretraining",
+  "status": "sourced",
+  "done": "term:transfer-learning"
  },
  {
   "slug": "mahalanobis-distance-ood-guard",
@@ -1181,15 +1310,17 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Distance in PCA space flags off-manifold inputs",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:ood-detection"
  },
  {
   "slug": "mann-whitney-u-test",
-  "title": "Mann\u2013Whitney U test",
+  "title": "Mann–Whitney U test",
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Non-parametric two-group rank test",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:permutation-test"
  },
  {
   "slug": "masked-gene-modelling-ssl",
@@ -1199,7 +1330,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Mask genes and reconstruct them to learn co-expression",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:masked-modelling"
  },
  {
   "slug": "mean-pooling-of-gene-embeddings",
@@ -1207,7 +1339,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Averaging token embeddings into a sample embedding",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:embedding"
  },
  {
   "slug": "mean-per-drug-spearman",
@@ -1215,7 +1348,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Average rank correlation of predicted vs true response per drug",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:spearman-correlation"
  },
  {
   "slug": "mixed-precision-gpu-training-a100-l4-cuda-mps",
@@ -1226,7 +1360,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Hardware and numerics for scale-up pretraining",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:mixed-precision-gpu"
  },
  {
   "slug": "mlp-multilayer-perceptron",
@@ -1236,7 +1371,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Simple feedforward network baseline/encoder",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:ridge-regression"
  },
  {
   "slug": "modality-dropout",
@@ -1244,7 +1380,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Randomly dropping modalities in training for robustness",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:multimodal-fusion"
  },
  {
   "slug": "morans-i-with-permutation-test",
@@ -1254,7 +1391,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Spatial autocorrelation statistic; +0.880, p=0.001",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:spatial-autocorrelation"
  },
  {
   "slug": "multimodal-fusion",
@@ -1262,7 +1400,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Combining several data types into one model",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:multimodal-fusion"
  },
  {
   "slug": "nearest-centroid-classifier-rank-based-pam50",
@@ -1272,7 +1411,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Spearman correlation to subtype centroids; platform-robust",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:logistic-regression-term"
  },
  {
   "slug": "one-hot-baselines-tissue-only-cancer-type-only-floor",
@@ -1282,7 +1422,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Organ-of-origin-only predictor as the floor",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:organ-of-origin-signal"
  },
  {
   "slug": "out-of-distribution-ood-detection-manifoldguard",
@@ -1293,7 +1434,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Refusing predictions for inputs off the training manifold",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:ood-detection"
  },
  {
   "slug": "permutation-test",
@@ -1301,7 +1443,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Null distribution by shuffling labels/locations",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:permutation-test"
  },
  {
   "slug": "pooled-vs-stratified-within-type-c-index",
@@ -1311,7 +1454,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Survival metric with or without the tissue-of-origin confound",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:concordance-index"
  },
  {
   "slug": "quantile-normalisation-qn",
@@ -1321,7 +1465,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Rank-based single-sample distribution alignment",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:quantile-normalisation"
  },
  {
   "slug": "ridge-regression",
@@ -1329,7 +1474,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "L2-regularised linear regression for per-drug heads",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:ridge-regression"
  },
  {
   "slug": "self-supervised-learning-ssl",
@@ -1339,7 +1485,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Label-free pretraining on unpaired data",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:self-supervised-pretraining"
  },
  {
   "slug": "semantic-token-grounding-universal-tokenisation",
@@ -1349,7 +1496,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Embedding entities by sequence/protein, not arbitrary IDs",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:tokenisation"
  },
  {
   "slug": "separate-block-pca-concatenation",
@@ -1357,7 +1505,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Reduce each modality separately so small blocks aren't swamped",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:pca"
  },
  {
   "slug": "spearman-correlation",
@@ -1365,7 +1514,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Rank correlation used for concordance and drug response",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:spearman-correlation"
  },
  {
   "slug": "spatially-aware-domains-neighbour-smoothed-pca",
@@ -1375,7 +1525,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Clustering constrained to contiguous tissue regions",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:spagcn"
  },
  {
   "slug": "specialised-task-heads",
@@ -1383,7 +1534,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Per-task output modules on a shared backbone",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:ablation-study"
  },
  {
   "slug": "stage-1-stage-2-two-stage-training-recipe",
@@ -1394,7 +1546,8 @@
   ],
   "bucket": "ML methods & concepts",
   "gloss": "Unpaired per-modality SSL, then cross-modal alignment",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "time-dependent-auc",
@@ -1402,7 +1555,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Survival discrimination at specific time horizons",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:roc-auc"
  },
  {
   "slug": "univariate-cox-score-z",
@@ -1410,7 +1564,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Per-gene marginal prognostic strength statistic",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:time-dependent-auc"
  },
  {
   "slug": "zero-shot-prediction",
@@ -1418,7 +1573,8 @@
   "aliases": [],
   "bucket": "ML methods & concepts",
   "gloss": "Applying a model without task-specific training",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:zero-shot"
  },
  {
   "slug": "actionable-genomic-biomarkers",
@@ -1426,7 +1582,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Alterations that map directly to targeted therapy",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:cancer-drivers-vs-actionable"
  },
  {
   "slug": "cancer-drivers",
@@ -1434,7 +1591,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Genes whose alteration promotes tumour growth",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing term:driver-mutation"
  },
  {
   "slug": "cell-composition-confound-tumour-vs-stroma-immune",
@@ -1444,7 +1602,8 @@
   ],
   "bucket": "Clinical & biological concepts",
   "gloss": "Region risk differences partly reflect cell mix",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:cell-composition-confound"
  },
  {
   "slug": "cell-lines-as-a-patient-proxy",
@@ -1452,7 +1611,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "In-vitro response imperfectly reflects patient response",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:cell-lines-as-proxy"
  },
  {
   "slug": "censoring-events",
@@ -1462,7 +1622,8 @@
   ],
   "bucket": "Clinical & biological concepts",
   "gloss": "Patients without observed outcome; event count drives power",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:censoring-and-events"
  },
  {
   "slug": "co-amplification",
@@ -1470,7 +1631,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Neighbouring genes amplified together with a driver",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:co-amplification"
  },
  {
   "slug": "drug-response-drug-sensitivity",
@@ -1480,7 +1642,8 @@
   ],
   "bucket": "Clinical & biological concepts",
   "gloss": "How strongly a tumour or cell line responds to a compound",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-sensitivity"
  },
  {
   "slug": "endocrine-hormone-therapy-resistance",
@@ -1490,7 +1653,8 @@
   ],
   "bucket": "Clinical & biological concepts",
   "gloss": "Anti-estrogen treatment; ESR1 mutation confers resistance",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:endocrine-therapy-resistance"
  },
  {
   "slug": "gene-co-expression-structure",
@@ -1498,7 +1662,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Correlated expression patterns learned by SSL",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:gene-co-expression"
  },
  {
   "slug": "immunotherapy-response",
@@ -1506,7 +1671,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Benefit from immune checkpoint treatment (MUSK task)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:immunotherapy-response"
  },
  {
   "slug": "intra-tumour-heterogeneity",
@@ -1514,7 +1680,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Different subtypes/risk within one tumour",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:intra-tumour-heterogeneity"
  },
  {
   "slug": "lymph-node-status-nodal-burden",
@@ -1524,7 +1691,8 @@
   ],
   "bucket": "Clinical & biological concepts",
   "gloss": "Number of positive nodes as prognostic factor",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on term:lymph-node-status"
  },
  {
   "slug": "mrna-protein-concordance",
@@ -1532,7 +1700,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "How well transcript levels track protein levels",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:mrna-protein-concordance"
  },
  {
   "slug": "oncogene-amplicon-17q12-her2-amplicon",
@@ -1542,7 +1711,8 @@
   ],
   "bucket": "Clinical & biological concepts",
   "gloss": "Amplified region carrying ERBB2 and neighbours",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:co-amplification"
  },
  {
   "slug": "organ-of-origin-tissue-of-origin-signal",
@@ -1552,7 +1722,8 @@
   ],
   "bucket": "Clinical & biological concepts",
   "gloss": "Expression strongly encodes tumour tissue, confounding tasks",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:organ-of-origin-signal"
  },
  {
   "slug": "pathway-activation-state",
@@ -1560,7 +1731,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Signalling activity (often phosphorylation) beyond mRNA",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:pathway-activation-state"
  },
  {
   "slug": "pharmacogenomics",
@@ -1568,7 +1740,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Genetic/molecular determinants of drug response",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:pharmacogenomics-term"
  },
  {
   "slug": "post-transcriptional-post-translational-regulation",
@@ -1578,7 +1751,8 @@
   ],
   "bucket": "Clinical & biological concepts",
   "gloss": "Control decoupling protein from mRNA levels",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:post-transcriptional-regulation-term"
  },
  {
   "slug": "prognosis-risk-percentile",
@@ -1588,7 +1762,8 @@
   ],
   "bucket": "Clinical & biological concepts",
   "gloss": "Predicted outcome ranked against a reference cohort",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:prognosis-risk-percentile"
  },
  {
   "slug": "radiotherapy-chemotherapy-flags",
@@ -1598,7 +1773,8 @@
   ],
   "bucket": "Clinical & biological concepts",
   "gloss": "Treatment covariates in clinical models",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:clinical-covariates"
  },
  {
   "slug": "spatial-autocorrelation",
@@ -1606,7 +1782,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Nearby tissue locations having similar values",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:spatial-autocorrelation"
  },
  {
   "slug": "tumour-evolution",
@@ -1614,7 +1791,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Clonal change of tumours over time (north-star mechanism)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:tumour-evolution"
  },
  {
   "slug": "variant-effect-prediction",
@@ -1622,7 +1800,8 @@
   "aliases": [],
   "bucket": "Clinical & biological concepts",
   "gloss": "Predicting the clinical impact of DNA variants",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:variant-effect-prediction"
  },
  {
   "slug": "daporinad-fk866",
@@ -1631,8 +1810,9 @@
    "FK866"
   ],
   "bucket": "Drugs & compounds",
-  "gloss": "NAMPT inhibitor; highly predictable (\u03c1 0.657)",
-  "status": "sourced"
+  "gloss": "NAMPT inhibitor; highly predictable (ρ 0.657)",
+  "status": "sourced",
+  "done": "Skipped: tool compound named only as a CanSim predictability result; no OnCo drug record warranted"
  },
  {
   "slug": "gw-2580",
@@ -1640,7 +1820,8 @@
   "aliases": [],
   "bucket": "Drugs & compounds",
   "gloss": "CSF1R kinase inhibitor; unpredictable",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: tool compound, CanSim result only"
  },
  {
   "slug": "her2-targeted-therapy-class",
@@ -1650,31 +1831,35 @@
   ],
   "bucket": "Drugs & compounds",
   "gloss": "Anti-ERBB2 drugs for HER2-amplified tumours",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing technology and target:her2"
  },
  {
   "slug": "pd0325901",
   "title": "PD0325901",
   "aliases": [],
   "bucket": "Drugs & compounds",
-  "gloss": "Experimental MEK inhibitor (\u03c1 0.692)",
-  "status": "sourced"
+  "gloss": "Experimental MEK inhibitor (ρ 0.692)",
+  "status": "sourced",
+  "done": "Alias on drug:mirdametinib"
  },
  {
   "slug": "refametinib",
   "title": "Refametinib",
   "aliases": [],
   "bucket": "Drugs & compounds",
-  "gloss": "MEK inhibitor; most predictable drug (\u03c1 0.760)",
-  "status": "sourced"
+  "gloss": "MEK inhibitor; most predictable drug (ρ 0.760)",
+  "status": "sourced",
+  "done": "Skipped: discontinued MEK inhibitor named only as a CanSim result"
  },
  {
   "slug": "sabutoclax",
   "title": "Sabutoclax",
   "aliases": [],
   "bucket": "Drugs & compounds",
-  "gloss": "Pan-BCL2-family inhibitor (\u03c1 0.579)",
-  "status": "sourced"
+  "gloss": "Pan-BCL2-family inhibitor (ρ 0.579)",
+  "status": "sourced",
+  "done": "Skipped: tool compound, CanSim result only"
  },
  {
   "slug": "sl0101",
@@ -1682,7 +1867,8 @@
   "aliases": [],
   "bucket": "Drugs & compounds",
   "gloss": "RSK kinase inhibitor; unpredictable",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: tool compound, CanSim result only"
  },
  {
   "slug": "tanespimycin-17-aag",
@@ -1691,16 +1877,18 @@
    "17-AAG"
   ],
   "bucket": "Drugs & compounds",
-  "gloss": "HSP90 inhibitor (\u03c1 0.591)",
-  "status": "sourced"
+  "gloss": "HSP90 inhibitor (ρ 0.591)",
+  "status": "sourced",
+  "done": "Skipped: discontinued HSP90 inhibitor named only as a CanSim result"
  },
  {
   "slug": "telomerase-inhibitor-ix",
   "title": "Telomerase Inhibitor IX",
   "aliases": [],
   "bucket": "Drugs & compounds",
-  "gloss": "Telomerase-targeting tool compound (\u03c1 0.584)",
-  "status": "sourced"
+  "gloss": "Telomerase-targeting tool compound (ρ 0.584)",
+  "status": "sourced",
+  "done": "Skipped: tool compound, CanSim result only"
  },
  {
   "slug": "vnlg-124",
@@ -1708,15 +1896,17 @@
   "aliases": [],
   "bucket": "Drugs & compounds",
   "gloss": "Retinamide HDAC-related tool compound; unpredictable",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: tool compound, CanSim result only"
  },
  {
   "slug": "xmd8-92",
   "title": "XMD8-92",
   "aliases": [],
   "bucket": "Drugs & compounds",
-  "gloss": "ERK5/BRD4 inhibitor; hardest to predict (\u03c1 \u22120.240)",
-  "status": "sourced"
+  "gloss": "ERK5/BRD4 inhibitor; hardest to predict (ρ −0.240)",
+  "status": "sourced",
+  "done": "Skipped: tool compound, CanSim result only"
  },
  {
   "slug": "pi3k-mtor-inhibitors-pi-103-zstk474",
@@ -1726,7 +1916,8 @@
   ],
   "bucket": "Drugs & compounds",
   "gloss": "Class surfaced for Basal-like tumours in the panel-restricted model",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: tool compounds; pathway:pi3k-akt-mtor exists"
  },
  {
   "slug": "hdac-inhibitors-belinostat-ar-42-cudc-101",
@@ -1736,7 +1927,8 @@
   ],
   "bucket": "Drugs & compounds",
   "gloss": "Class surfaced for Basal-like tumours in the panel-restricted model",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing drug:belinostat; AR-42 and CUDC-101 skipped as tool compounds"
  },
  {
   "slug": "17q12-her2-amplicon",
@@ -1744,15 +1936,17 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Chromosome region co-amplifying ERBB2, GRB7, STARD3, PGAP3, MIEN1, PNMT",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:co-amplification"
  },
  {
   "slug": "abat",
   "title": "ABAT",
   "aliases": [],
   "bucket": "Genes & pathways",
-  "gloss": "GABA transaminase; top mRNA-protein concordant (\u03c1 0.92)",
-  "status": "sourced"
+  "gloss": "GABA transaminase; top mRNA-protein concordant (ρ 0.92)",
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "agr3",
@@ -1760,7 +1954,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Anterior gradient protein 3; highly concordant",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "apoc4",
@@ -1768,15 +1963,17 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Apolipoprotein C4; decoupled mRNA/protein",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "c1orf116",
   "title": "C1orf116",
   "aliases": [],
   "bucket": "Genes & pathways",
-  "gloss": "Androgen-regulated gene; highly concordant (\u03c1 0.93)",
-  "status": "sourced"
+  "gloss": "Androgen-regulated gene; highly concordant (ρ 0.93)",
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "c5orf47",
@@ -1784,7 +1981,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Uncharacterised gene; top MEK-inhibitor sensitiser hit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "ccdc150",
@@ -1792,7 +1990,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Coiled-coil protein; decoupled",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "cenpp",
@@ -1800,7 +1999,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Centromere protein P; decoupled",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "clca1",
@@ -1808,15 +2008,17 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Chloride channel regulator; top MEK sensitiser hit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "col6a5",
   "title": "COL6A5",
   "aliases": [],
   "bucket": "Genes & pathways",
-  "gloss": "Collagen VI \u03b15; most decoupled (\u03c1 \u22120.62)",
-  "status": "sourced"
+  "gloss": "Collagen VI α5; most decoupled (ρ −0.62)",
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "cygb",
@@ -1824,7 +2026,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Cytoglobin; Selumetinib sensitiser hit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "dclk1",
@@ -1832,7 +2035,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Doublecortin-like kinase 1; highly concordant",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:dclk1"
  },
  {
   "slug": "ddn",
@@ -1840,7 +2044,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Dendrin; decoupled",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "dnajc12",
@@ -1848,7 +2053,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "HSP40 co-chaperone, luminal marker; highly concordant",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:dnajc12"
  },
  {
   "slug": "e2f7",
@@ -1856,7 +2062,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Atypical E2F transcriptional repressor; decoupled",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:e2f7"
  },
  {
   "slug": "erap2",
@@ -1864,7 +2071,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "ER aminopeptidase 2; highly concordant",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "gpd1l",
@@ -1872,7 +2080,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Glycerol-3-phosphate dehydrogenase 1-like; highly concordant",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "grb7",
@@ -1880,7 +2089,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Adaptor protein co-amplified with ERBB2",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:grb7"
  },
  {
   "slug": "gtf2h2c",
@@ -1888,7 +2098,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "TFIIH subunit paralog; decoupled",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "hsd3b2",
@@ -1896,7 +2107,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Steroidogenic enzyme; PD0325901 sensitiser hit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "lcn10",
@@ -1904,7 +2116,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Lipocalin 10; decoupled",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "maoa",
@@ -1912,7 +2125,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Monoamine oxidase A; highly concordant",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "mapk-ras-mapk-pathway",
@@ -1922,7 +2136,8 @@
   ],
   "bucket": "Genes & pathways",
   "gloss": "Growth signalling cascade; MEK-inhibitor dependency",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing pathway:ras-mapk"
  },
  {
   "slug": "mff",
@@ -1930,7 +2145,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Mitochondrial fission factor; decoupled",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "mien1",
@@ -1938,7 +2154,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "17q12 amplicon gene co-amplified with ERBB2",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:mien1"
  },
  {
   "slug": "nanogp8",
@@ -1946,7 +2163,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "NANOG pseudogene; MEK sensitiser hit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "nostrin",
@@ -1954,7 +2172,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Nitric-oxide synthase trafficker; highly concordant",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "nphp3",
@@ -1962,7 +2181,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Nephrocystin-3 ciliary gene; decoupled",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "padi2",
@@ -1970,7 +2190,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Peptidyl arginine deiminase 2; highly concordant",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "pam50-gene-set",
@@ -1978,7 +2199,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "50 genes defining breast intrinsic subtypes",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Alias on term:pam50"
  },
  {
   "slug": "pgap3",
@@ -1986,7 +2208,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "17q12 amplicon gene co-amplified with ERBB2",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:pgap3"
  },
  {
   "slug": "phlda-family",
@@ -1996,7 +2219,8 @@
   ],
   "bucket": "Genes & pathways",
   "gloss": "MAPK-responsive pleckstrin-homology genes",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:phlda1"
  },
  {
   "slug": "phlpp2",
@@ -2004,7 +2228,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "AKT phosphatase; decoupled",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:phlpp2"
  },
  {
   "slug": "pi3k-akt-pathway",
@@ -2012,7 +2237,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Growth/survival signalling hit by PIK3CA/PTEN alterations",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Existing pathway:pi3k-akt-mtor"
  },
  {
   "slug": "pnmt",
@@ -2020,7 +2246,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "17q12 amplicon gene (adrenaline synthesis)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:pnmt"
  },
  {
   "slug": "prr9",
@@ -2028,7 +2255,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Proline-rich protein 9; MEK sensitiser hit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "rabep1",
@@ -2036,7 +2264,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Rab GTPase effector; highly concordant",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "rpp21",
@@ -2044,7 +2273,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "RNase P subunit; decoupled",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "spry2-spry4",
@@ -2054,7 +2284,8 @@
   ],
   "bucket": "Genes & pathways",
   "gloss": "Sprouty MAPK feedback inhibitors; MAPK-output genes",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:spry4 (target:spry2 exists)"
  },
  {
   "slug": "st6galnac3",
@@ -2062,7 +2293,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Sialyltransferase; PD0325901 sensitiser hit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "stard3",
@@ -2070,7 +2302,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "17q12 amplicon cholesterol-transport gene",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "target:stard3"
  },
  {
   "slug": "sun5",
@@ -2078,7 +2311,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Nuclear envelope protein; MEK sensitiser hit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "taar5",
@@ -2086,7 +2320,8 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Trace amine receptor 5; Selumetinib sensitiser hit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "vip",
@@ -2094,15 +2329,17 @@
   "aliases": [],
   "bucket": "Genes & pathways",
   "gloss": "Vasoactive intestinal peptide; MEK sensitiser hit",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "vwa5a",
   "title": "VWA5A",
   "aliases": [],
   "bucket": "Genes & pathways",
-  "gloss": "von Willebrand A-domain gene; most concordant (\u03c1 0.94)",
-  "status": "sourced"
+  "gloss": "von Willebrand A-domain gene; most concordant (ρ 0.94)",
+  "status": "sourced",
+  "done": "Skipped: gene named only for a CanSim concordance or MEK-sensitiser result, no general oncology meaning"
  },
  {
   "slug": "150-gene-panel-mutation-frequency-derived",
@@ -2112,7 +2349,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Early SP1/SP4 feature set chosen by mutation frequency",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "260-gene-panel-bottleneck",
@@ -2120,7 +2358,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "PAM50-heavy panel ties the tissue-only floor on drug response",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "800-gene-panel-negative",
@@ -2128,15 +2367,17 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Bigger panel washed out the low-label SSL win",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "archs4-1m-sample-ssl-scale-negative",
   "title": "ARCHS4 1M-sample SSL scale negative",
   "aliases": [],
   "bucket": "Project-specific concepts & results",
-  "gloss": "100\u00d7 more SSL data still did not beat from-scratch",
-  "status": "sourced"
+  "gloss": "100× more SSL data still did not beat from-scratch",
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning (the corpus itself is the ARCHS4 data-source row)"
  },
  {
   "slug": "bulkformer-fine-tune-harness-gpu-laid-up",
@@ -2146,7 +2387,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Written and smoke-tested, awaiting a GPU",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "clinical-molecular-additivity",
@@ -2154,7 +2396,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Molecular risk adds to clinical variables (0.674; 0.770 in-domain)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Covered by term:clinical-covariates"
  },
  {
   "slug": "cohort-briefing-cohort-level-llm-reasoning-layer",
@@ -2164,7 +2407,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Egress-guarded LLM summary of public cohort findings",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:local-llm-reasoning-layer"
  },
  {
   "slug": "confidence-gates-high-low-refused",
@@ -2174,7 +2418,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "`Prediction` shape: in-distribution, reliable, signal-strength gates",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:uncertainty-quantification"
  },
  {
   "slug": "console-single-source-roadmap",
@@ -2182,7 +2427,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Password-gated Vercel site; roadmap rendered from JSON",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "correctness-backbone",
@@ -2190,15 +2436,17 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "QN + OOD guard + reliability tested on new platforms",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:quantile-normalisation and term:ood-detection"
  },
  {
   "slug": "cptacxtcga-bridge",
-  "title": "CPTAC\u00d7TCGA bridge",
+  "title": "CPTAC×TCGA bridge",
   "aliases": [],
   "bucket": "Project-specific concepts & results",
-  "gloss": "Prognostic strength independent of mRNA-protein concordance (\u03c1 +0.022)",
-  "status": "sourced"
+  "gloss": "Prognostic strength independent of mRNA-protein concordance (ρ +0.022)",
+  "status": "sourced",
+  "done": "Covered by term:mrna-protein-concordance"
  },
  {
   "slug": "cross-platform-single-patient-reliability",
@@ -2206,17 +2454,19 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Bootstrap spread on a single cross-platform sample can exceed the in-domain cutoff; flagged unreliable (concept only, no case detail on the public site)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:bootstrap"
  },
  {
   "slug": "data-layer-hierarchy-patient-specimen-assay",
-  "title": "Data layer hierarchy (Patient \u2192 Specimen \u2192 Assay)",
+  "title": "Data layer hierarchy (Patient → Specimen → Assay)",
   "aliases": [
-   "Patient \u2192 Specimen \u2192 Assay"
+   "Patient → Specimen → Assay"
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Core entity model with provenance fixed at ingest",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:duckdb-catalog"
  },
  {
   "slug": "drug-response-capability-persisted",
@@ -2225,8 +2475,9 @@
    "persisted"
   ],
   "bucket": "Project-specific concepts & results",
-  "gloss": "Full-transcriptome \u2192 PCA \u2192 Ridge over 256 GDSC drugs, \u03c1 0.339",
-  "status": "sourced"
+  "gloss": "Full-transcriptome → PCA → Ridge over 256 GDSC drugs, ρ 0.339",
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "egress-guards-assert-public-assert-local-llm-assert-gitignored-out",
@@ -2236,7 +2487,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Code-level firewalls between private data and any network or repo",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:local-llm-reasoning-layer"
  },
  {
   "slug": "four-north-star-capabilities",
@@ -2244,7 +2496,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Mechanism, drug response, diagnosis/prognosis, generative",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "frozen-fm-negative-result",
@@ -2252,7 +2505,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Frozen BulkFormer never beats or adds to a genome-wide baseline",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Covered by term:fine-tuning-vs-frozen and term:reproducibility"
  },
  {
   "slug": "full-transcriptome-default",
@@ -2260,7 +2514,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Replacing the panel with full-transcriptome PCA as standard",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:bulk-rna-seq"
  },
  {
   "slug": "generative-virtual-cell-seed-sp4",
@@ -2269,8 +2524,9 @@
    "SP4"
   ],
   "bucket": "Project-specific concepts & results",
-  "gloss": "Predict expression from genotype + clinical data (\u03c1 0.450)",
-  "status": "sourced"
+  "gloss": "Predict expression from genotype + clinical data (ρ 0.450)",
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "honest-negatives-reporting-principle",
@@ -2278,15 +2534,17 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Report misses, not only flattering task selections",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:reproducibility"
  },
  {
   "slug": "in-silico-perturbation-screen",
   "title": "In-silico perturbation screen",
   "aliases": [],
   "bucket": "Project-specific concepts & results",
-  "gloss": "Exact gene\u2192drug driver ranking recovering MAPK/HER2/BCL2",
-  "status": "sourced"
+  "gloss": "Exact gene→drug driver ranking recovering MAPK/HER2/BCL2",
+  "status": "sourced",
+  "done": "Folded into term:virtual-cell-models"
  },
  {
   "slug": "correctly-silent-negatives",
@@ -2294,7 +2552,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Mutation-driven drugs yield no expression drivers, by design",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:virtual-cell-models"
  },
  {
   "slug": "local-only-patient-reasoning-layer-mlx-on-device",
@@ -2304,7 +2563,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Open LLM runs on-device over derived outputs with no network",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:local-llm-reasoning-layer"
  },
  {
   "slug": "methylation-sixth-modality",
@@ -2312,15 +2572,17 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Adding methylation improved cancer-type accuracy",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Covered by term:methylation-arrays"
  },
  {
   "slug": "ood-guard-on-visium",
   "title": "OOD guard on Visium",
   "aliases": [],
   "bucket": "Project-specific concepts & results",
-  "gloss": "Mahalanobis guard accepts 7\u201310 of 10 domains per section",
-  "status": "sourced"
+  "gloss": "Mahalanobis guard accepts 7–10 of 10 domains per section",
+  "status": "sourced",
+  "done": "Covered by term:ood-detection"
  },
  {
   "slug": "privacy-rule-local-only-case-runner",
@@ -2330,7 +2592,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Real patient data never leaves the machine",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:local-llm-reasoning-layer"
  },
  {
   "slug": "provenance-ontology-discipline",
@@ -2338,7 +2601,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Identifiers standardised at ingest; data outlives models",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:provenance-fields"
  },
  {
   "slug": "rppa-walk-back",
@@ -2346,7 +2610,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Early proteomics \"win\" was only over the weak panel",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "sp1-ceiling-artifact",
@@ -2354,7 +2619,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Cancer-type task saturated by expression, leaving fusion no headroom",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:accuracy-f1"
  },
  {
   "slug": "sp-roadmap-sp1-sp2-sp2-1-sp3-sp3a-sp3b-sp4-sp5-sp-brca",
@@ -2364,7 +2630,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Sub-project decomposition of the programme",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "sp3b-wsi-interface-complete-ingestion-deferred",
@@ -2372,7 +2639,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "ABMIL pathology encoder built; real slides await GPU",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "signal-problem-vs-encoding-problem",
@@ -2380,7 +2648,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Weak modalities lack complementary signal, not better encoders",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:multimodal-fusion"
  },
  {
   "slug": "spatial-luminal-heterogeneity-7-lumb-3-luma-domains",
@@ -2390,15 +2659,17 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Reproducible, spatially organised mixed subtypes in one tumour",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Covered by term:intra-tumour-heterogeneity"
  },
  {
   "slug": "spatial-99-point-risk-spread",
   "title": "Spatial 99-point risk spread",
   "aliases": [],
   "bucket": "Project-specific concepts & results",
-  "gloss": "Regional risk percentiles 0\u201399 inside one section",
-  "status": "sourced"
+  "gloss": "Regional risk percentiles 0–99 inside one section",
+  "status": "sourced",
+  "done": "Covered by term:prognosis-risk-percentile"
  },
  {
   "slug": "survival-capability-persisted-guarded",
@@ -2408,7 +2679,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "TCGA-BRCA C-index 0.711 in-domain, 0.518 on METABRIC",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "transcriptome-is-a-near-complete-summary-for-survival",
@@ -2416,7 +2688,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Mutation/CNA/RPPA/FM add nothing over full expression",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Covered by term:multimodal-fusion and term:ablation-study"
  },
  {
   "slug": "type-only-tissue-only-floor",
@@ -2426,7 +2699,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Baseline any molecular encoder must beat",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:organ-of-origin-signal"
  },
  {
   "slug": "two-phase-stage-2-joint-but-plain-fusion",
@@ -2436,7 +2710,8 @@
   ],
   "bucket": "Project-specific concepts & results",
   "gloss": "Recipe ordering result at ~2k-patient scale",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: CanSim result name with no general meaning"
  },
  {
   "slug": "passing-the-guard-is-necessary-not-sufficient",
@@ -2444,7 +2719,8 @@
   "aliases": [],
   "bucket": "Project-specific concepts & results",
   "gloss": "Guard-passing predictions can still be numerically unstable",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:ood-detection"
  },
  {
   "slug": "leave-cell-line-out-lco-split",
@@ -2454,7 +2730,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Held-out cell lines; the personalised-medicine protocol",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-splits"
  },
  {
   "slug": "leave-drug-out-ldo-split",
@@ -2464,7 +2741,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Held-out drugs; the drug-design protocol",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-splits"
  },
  {
   "slug": "leave-tissue-out-lto-split",
@@ -2474,7 +2752,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Held-out tissues; the repurposing protocol",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-splits"
  },
  {
   "slug": "leave-pair-out-random-split",
@@ -2484,7 +2763,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Valid only for imputation, not generalisation claims",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-splits"
  },
  {
   "slug": "cross-study-validation",
@@ -2492,7 +2772,8 @@
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Train on one screen, test on another; the real bar",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-splits"
  },
  {
   "slug": "naive-mean-drug-mean-cell-line-baseline",
@@ -2502,7 +2783,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "The floor deep DRP models barely beat",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-baselines"
  },
  {
   "slug": "dreval",
@@ -2510,7 +2792,8 @@
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Nature Communications 2026 drug-response evaluation framework",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-baselines"
  },
  {
   "slug": "improve-uno-graphdrp",
@@ -2520,7 +2803,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "ANL/NCI cross-model DRP benchmark and its models",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-baselines"
  },
  {
   "slug": "lightgbm-tuned-tree-ensembles",
@@ -2530,7 +2814,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Ties or beats deep models under honest splits",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-baselines"
  },
  {
   "slug": "deepccds-deeptta",
@@ -2540,7 +2825,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Deep DRP models whose headline gains shrink under hard splits",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:drug-response-baselines (DeepCCDS not separately sourced)"
  },
  {
   "slug": "assay-endpoint-mismatch-celltiter-glo-vs-syto60-ic50-vs-gi50-aac",
@@ -2550,15 +2836,17 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Confounder in cross-dataset drops",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:drug-response-sensitivity"
  },
  {
   "slug": "domain-adaptation-for-cell-line-patient-transfer",
-  "title": "Domain adaptation for cell-line \u2192 patient transfer",
+  "title": "Domain adaptation for cell-line → patient transfer",
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Aligning cell-line and tumour distributions",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:domain-adaptation"
  },
  {
   "slug": "tugda",
@@ -2566,7 +2854,8 @@
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Multi-task uncertainty-weighted unsupervised domain adaptation",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:domain-adaptation"
  },
  {
   "slug": "velodrome-precise-transact",
@@ -2576,8 +2865,9 @@
    "TRANSACT"
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
-  "gloss": "Other public cell-line \u2192 patient transfer methods",
-  "status": "sourced"
+  "gloss": "Other public cell-line → patient transfer methods",
+  "status": "sourced",
+  "done": "term:domain-adaptation"
  },
  {
   "slug": "mechanism-of-action-moa-recovery",
@@ -2587,7 +2877,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Orthogonal proof a model learned biology",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:mechanism-of-action-recovery"
  },
  {
   "slug": "pre-registered-experiment",
@@ -2595,7 +2886,8 @@
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Success criterion committed before the run",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:pre-registered-experiment"
  },
  {
   "slug": "bulkrnabert",
@@ -2603,7 +2895,8 @@
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Bulk-native RNA FM, research-only licence (CC-BY-NC-SA)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:single-cell-foundation-models"
  },
  {
   "slug": "bulk-native-vs-single-cell-fms",
@@ -2611,15 +2904,17 @@
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Single-cell FMs are out-of-distribution for bulk TCGA",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:foundation-model"
  },
  {
   "slug": "frozen-embedding-pca-256-linear-head",
-  "title": "Frozen embedding \u2192 PCA-256 \u2192 linear head",
+  "title": "Frozen embedding → PCA-256 → linear head",
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "The validated FM extraction recipe",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:linear-probe and term:pca"
  },
  {
   "slug": "esm-2-esm-3",
@@ -2629,7 +2924,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Protein language models (unverified category)",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:genomic-and-protein-language-models"
  },
  {
   "slug": "noetik-octo-virtualcell-octo-vc",
@@ -2639,7 +2935,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Masked-token spatial single-cell transformer, 40M proprietary cells",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:virtual-cell-models (company:noetik exists)"
  },
  {
   "slug": "celleporter",
@@ -2647,7 +2944,8 @@
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Noetik's interactive model previewer; the \"playground\" pattern",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: product feature of one company, no general meaning"
  },
  {
   "slug": "virtual-cell-in-silico-knockout-screen",
@@ -2657,15 +2955,17 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Counterfactual perturbation for target discovery",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:virtual-cell-models"
  },
  {
   "slug": "h-e-expression-prediction",
-  "title": "H&E \u2192 expression prediction",
+  "title": "H&E → expression prediction",
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Cross-modal task validated by Noetik and MUSK-adjacent work",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Covered by term:digital-pathology-wsi and technology:musk"
  },
  {
   "slug": "tertiary-lymphoid-structures-tls",
@@ -2675,7 +2975,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Organised immune aggregates in tumours; a known-biology probe",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:tertiary-lymphoid-structures"
  },
  {
   "slug": "responder-vs-non-responder-biomarker-discovery",
@@ -2683,7 +2984,8 @@
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "The killer application framing for drug response",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Folded into term:mechanism-of-action-recovery and term:immunotherapy-response"
  },
  {
   "slug": "recovers-known-biology-probes",
@@ -2691,7 +2993,8 @@
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Evaluation by recovery of known markers/pathways",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "term:mechanism-of-action-recovery"
  },
  {
   "slug": "data-moat",
@@ -2699,7 +3002,8 @@
   "aliases": [],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "Proprietary data volume as competitive edge; not ours",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: business jargon, no oncology or methods meaning"
  },
  {
   "slug": "tinker-thinking-machines",
@@ -2709,7 +3013,8 @@
   ],
   "bucket": "From the research notes (drug-response frontier, FM scan, Noetik)",
   "gloss": "LLM fine-tuning service reserved for the reasoning layer",
-  "status": "sourced"
+  "status": "sourced",
+  "done": "Skipped: commercial LLM service with no oncology meaning"
  },
  {
   "slug": "tumour-board",
@@ -2717,7 +3022,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:tumour-board"
  },
  {
   "slug": "grade-vs-stage",
@@ -2725,15 +3031,17 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:grade-vs-stage"
  },
  {
   "slug": "hr-her2",
-  "title": "HR+/HER2\u2212",
+  "title": "HR+/HER2−",
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Alias on term:hormone-receptor-status"
  },
  {
   "slug": "adjuvant-vs-neoadjuvant-therapy",
@@ -2741,7 +3049,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Alias on term:neoadjuvant-adjuvant"
  },
  {
   "slug": "tumour-purity",
@@ -2749,7 +3058,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:tumour-purity"
  },
  {
   "slug": "tpm-fpkm-counts",
@@ -2760,7 +3070,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:tpm-fpkm-counts"
  },
  {
   "slug": "star-salmon",
@@ -2770,7 +3081,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:star-salmon"
  },
  {
   "slug": "gistic",
@@ -2778,7 +3090,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:gistic"
  },
  {
   "slug": "mutsig",
@@ -2786,7 +3099,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:mutsig"
  },
  {
   "slug": "variant-calling",
@@ -2794,7 +3108,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:variant-calling"
  },
  {
   "slug": "batch-effects",
@@ -2802,7 +3117,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:batch-effects"
  },
  {
   "slug": "gsea-ssgsea",
@@ -2812,7 +3128,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:gsea"
  },
  {
   "slug": "gene-set-enrichment",
@@ -2820,7 +3137,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:gsea"
  },
  {
   "slug": "single-cell-rna-seq-10x-chromium",
@@ -2830,7 +3148,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:single-cell-rna-seq"
  },
  {
   "slug": "visium-hd",
@@ -2838,7 +3157,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:spatial-transcriptomics-platforms"
  },
  {
   "slug": "xenium",
@@ -2846,7 +3166,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:spatial-transcriptomics-platforms"
  },
  {
   "slug": "merfish",
@@ -2854,7 +3175,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:spatial-transcriptomics-platforms"
  },
  {
   "slug": "cosmx",
@@ -2862,7 +3184,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:spatial-transcriptomics-platforms"
  },
  {
   "slug": "codex",
@@ -2870,7 +3193,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:spatial-transcriptomics-platforms"
  },
  {
   "slug": "h-e-staining",
@@ -2878,7 +3202,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:h-and-e-staining"
  },
  {
   "slug": "digital-pathology",
@@ -2886,7 +3211,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:digital-pathology-wsi"
  },
  {
   "slug": "tile-patch-encoding",
@@ -2896,17 +3222,19 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:tile-patch-encoding"
  },
  {
   "slug": "magnification-20x-40x",
-  "title": "magnification (20\u00d7, 40\u00d7)",
+  "title": "magnification (20×, 40×)",
   "aliases": [
-   "20\u00d7, 40\u00d7"
+   "20×, 40×"
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:magnification"
  },
  {
   "slug": "openslide",
@@ -2914,7 +3242,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Existing opensource:openslide; cited in term:digital-pathology-wsi"
  },
  {
   "slug": "uni2",
@@ -2922,7 +3251,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:pathology-foundation-models"
  },
  {
   "slug": "virchow2",
@@ -2930,7 +3260,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:pathology-foundation-models"
  },
  {
   "slug": "ctranspath",
@@ -2938,7 +3269,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:pathology-foundation-models"
  },
  {
   "slug": "methylation-beta-values-450k-epic",
@@ -2948,7 +3280,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:methylation-arrays"
  },
  {
   "slug": "foundation-model",
@@ -2956,7 +3289,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:foundation-model"
  },
  {
   "slug": "self-supervised-pretraining",
@@ -2964,7 +3298,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:self-supervised-pretraining"
  },
  {
   "slug": "masked-autoencoder",
@@ -2972,7 +3307,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:masked-modelling"
  },
  {
   "slug": "contrastive-learning",
@@ -2980,7 +3316,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:contrastive-learning"
  },
  {
   "slug": "transformer",
@@ -2988,7 +3325,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:transformer-architecture"
  },
  {
   "slug": "attention",
@@ -2996,7 +3334,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:transformer-architecture"
  },
  {
   "slug": "tokenisation",
@@ -3004,7 +3343,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:tokenisation"
  },
  {
   "slug": "embedding",
@@ -3012,7 +3352,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:embedding"
  },
  {
   "slug": "lora-parameter-efficient-fine-tuning",
@@ -3022,7 +3363,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:fine-tuning-vs-frozen"
  },
  {
   "slug": "linear-probe",
@@ -3030,7 +3372,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:linear-probe"
  },
  {
   "slug": "calibration-reliability-diagram-brier-score",
@@ -3040,7 +3383,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:calibration"
  },
  {
   "slug": "roc-auc-pr-auc",
@@ -3050,7 +3394,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:roc-auc"
  },
  {
   "slug": "harrells-vs-unos-c-index",
@@ -3058,7 +3403,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:concordance-index"
  },
  {
   "slug": "integrated-brier-score",
@@ -3066,7 +3412,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Folded into term:calibration"
  },
  {
   "slug": "cross-validation-leakage",
@@ -3074,7 +3421,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:data-leakage"
  },
  {
   "slug": "train-validation-test-discipline",
@@ -3082,7 +3430,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:train-test-discipline"
  },
  {
   "slug": "external-validation",
@@ -3090,7 +3439,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:external-validation"
  },
  {
   "slug": "ood-detection",
@@ -3098,7 +3448,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:ood-detection"
  },
  {
   "slug": "conformal-prediction",
@@ -3106,7 +3457,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:conformal-prediction"
  },
  {
   "slug": "uncertainty-quantification",
@@ -3114,7 +3466,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:uncertainty-quantification"
  },
  {
   "slug": "model-card",
@@ -3122,7 +3475,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:model-card"
  },
  {
   "slug": "datasheet-for-datasets",
@@ -3130,7 +3484,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Folded into term:model-card"
  },
  {
   "slug": "leaderboard",
@@ -3138,7 +3493,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:leaderboard-benchmark"
  },
  {
   "slug": "benchmark-contamination",
@@ -3146,7 +3502,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Folded into term:data-leakage and term:leaderboard-benchmark"
  },
  {
   "slug": "reproducibility",
@@ -3154,7 +3511,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:reproducibility"
  },
  {
   "slug": "negative-results",
@@ -3162,7 +3520,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Folded into term:reproducibility"
  },
  {
   "slug": "open-weights",
@@ -3170,7 +3529,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:open-weights"
  },
  {
   "slug": "apache-2-0-vs-mit",
@@ -3178,7 +3538,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:open-licences"
  },
  {
   "slug": "cc-by-4-0",
@@ -3186,7 +3547,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:open-licences"
  },
  {
   "slug": "hugging-face-hub",
@@ -3194,7 +3556,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:hugging-face-hub"
  },
  {
   "slug": "zenodo-doi",
@@ -3202,7 +3565,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:zenodo-doi"
  },
  {
   "slug": "citation-cff",
@@ -3210,7 +3574,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:citation-cff"
  },
  {
   "slug": "controlled-access-data-dbgap-ega",
@@ -3220,7 +3585,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:controlled-access-data"
  },
  {
   "slug": "data-use-agreements",
@@ -3228,7 +3594,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:data-use-agreements"
  },
  {
   "slug": "tcga-open-vs-controlled-tiers",
@@ -3236,7 +3603,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:tcga-tiers"
  },
  {
   "slug": "consent-for-research-use",
@@ -3244,7 +3612,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Folded into term:data-use-agreements (term:informed-consent exists)"
  },
  {
   "slug": "fda-software-as-a-medical-device-samd",
@@ -3254,7 +3623,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:samd"
  },
  {
   "slug": "research-use-only",
@@ -3262,7 +3632,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:research-use-only"
  },
  {
   "slug": "clinical-validation-vs-analytical-validation",
@@ -3270,7 +3641,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "term:analytical-vs-clinical-validation"
  },
  {
   "slug": "arc-institute-virtual-cell-challenge",
@@ -3278,7 +3650,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Folded into term:virtual-cell-models"
  },
  {
   "slug": "czi-virtual-cells",
@@ -3286,7 +3659,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Folded into term:virtual-cell-models"
  },
  {
   "slug": "broad-depmap-portal",
@@ -3294,7 +3668,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Alias on collection:depmap"
  },
  {
   "slug": "gdc-data-portal",
@@ -3302,7 +3677,8 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Alias on collection:tcga-gdc"
  },
  {
   "slug": "mahmood-lab-clam-uni-conch-titan",
@@ -3312,7 +3688,8 @@
   ],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Covered by term:pathology-foundation-models (opensource:clam, uni, conch and technology:titan exist)"
  },
  {
   "slug": "guardant",
@@ -3320,6 +3697,7 @@
   "aliases": [],
   "bucket": "Field terms not yet in the repo (candidate pages for a complete knowledge site)",
   "gloss": "",
-  "status": "candidate"
+  "status": "candidate",
+  "done": "Alias on company:guardant-health"
  }
 ]

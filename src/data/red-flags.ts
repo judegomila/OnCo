@@ -7,6 +7,16 @@
  * for CRS and ICANS, and NICE CG151 for the fever rule. Nothing here is a number without a source.
  *
  * `general` applies to everyone on systemic anticancer treatment and is always shown first.
+ *
+ * Verifying a source URL before you cite it. A status code is not proof either way. A CMS that has
+ * lost a file answers a `.pdf` request with an HTML "page not found" page, sometimes with a 200 and
+ * sometimes with a 404 (the retired UKONS triage URL, `ukons.org/site/assets/files/1134/...`, serves
+ * a 43 KB HTML page with a 404). So check the content type and the size, not the status:
+ *     curl -sL -o /dev/null -w '%{http_code} %{content_type} %{size_download}\n' <url>
+ * A PDF citation must report `application/pdf` and a plausible size; anything answering `text/html`
+ * is a soft 404 however healthy the status looks. `scripts/check-links.ts` applies the same rule to
+ * every URL here (exported as `redFlagSourceUrls`): a `.pdf` URL that answers with HTML is recorded
+ * as broken, so the weekly link check catches the next move on its own.
  */
 export type RedFlagAction = "call-today" | "call-now" | "emergency";
 
@@ -42,12 +52,14 @@ export const ACTION_LABEL: Record<RedFlagAction, string> = {
 
 const label = (query: string) => ({ label: `US prescribing information (DailyMed: ${query})`, url: `https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=${encodeURIComponent(query)}` });
 const NICE_CG151 = { label: "NICE CG151: neutropenic sepsis", url: "https://www.nice.org.uk/guidance/cg151" };
-const UKONS = { label: "UKONS 24-hour triage tool", url: "https://www.ukons.org/site/assets/files/1134/oncology_haematology_24_hour_triage.pdf" };
+// Verified 25 September 2026: application/pdf, 652,152 bytes. Linked from
+// https://ukons.org/resources/publicly-available-resources; the old /site/assets/files/1134/ path 404s.
+const UKONS = { label: "UKONS Oncology/Haemato-oncology 24-hour triage toolkit (version 3)", url: "https://tempus-fujit.files.svdcdn.com/production/images/ukons_triage_toolkit_v3_final.pdf" };
 const ASCO_IRAE = { label: "ASCO guideline on immune-related adverse events (2021)", url: "https://ascopubs.org/doi/10.1200/JCO.21.01440" };
 const ASTCT = { label: "ASTCT consensus grading for CRS and ICANS (2019)", url: "https://doi.org/10.1016/j.bbmt.2018.12.758" };
 const AVASTIN = { label: "Avastin (bevacizumab) US prescribing information", url: "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125085s340lbl.pdf" };
 const NHS_SEPSIS = { label: "NHS: sepsis", url: "https://www.nhs.uk/conditions/sepsis/" };
-const NHS_VOMITING_BLOOD = { label: "NHS: vomiting blood", url: "https://www.nhs.uk/conditions/vomiting-blood/" };
+const NHS_VOMITING_BLOOD = { label: "NHS: vomiting blood", url: "https://www.nhs.uk/symptoms/vomiting-blood/" };
 const NHS_JAUNDICE = { label: "NHS: jaundice", url: "https://www.nhs.uk/conditions/jaundice/" };
 const NHS_GB_SYMPTOMS = { label: "NHS: gallbladder cancer, symptoms", url: "https://www.nhs.uk/conditions/gallbladder-cancer/symptoms/" };
 const CRUK_STENTS = { label: "Cancer Research UK: biliary stents", url: "https://www.cancerresearchuk.org/about-cancer/bile-duct-cancer/treatment/stents" };
@@ -57,12 +69,12 @@ const MAC_PEMBRO = { label: "Macmillan: pembrolizumab", url: "https://www.macmil
 const BCN_PEMBRO = { label: "Breast Cancer Now: pembrolizumab (Keytruda)", url: "https://breastcancernow.org/about-breast-cancer/treatment/targeted-therapy/pembrolizumab-keytruda" };
 const POWELL_ILD = { label: "Powell et al., pooled analysis of interstitial lung disease in nine trastuzumab deruxtecan studies (ESMO Open 2022)", url: "https://doi.org/10.1016/j.esmoop.2022.100554" };
 const NHS_PC_SYMPTOMS = { label: "NHS: pancreatic cancer, symptoms", url: "https://www.nhs.uk/conditions/pancreatic-cancer/symptoms/" };
-const NHS_DV = { label: "NHS: diarrhoea and vomiting", url: "https://www.nhs.uk/conditions/diarrhoea-and-vomiting/" };
-const NHS_DVT = { label: "NHS: DVT (deep vein thrombosis)", url: "https://www.nhs.uk/conditions/blood-clots/" };
+const NHS_DV = { label: "NHS: diarrhoea and vomiting", url: "https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/" };
+const NHS_DVT = { label: "NHS: DVT (deep vein thrombosis)", url: "https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/" };
 const MAC_FOLFIRINOX = { label: "Macmillan: FOLFIRINOX", url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/folfirinox" };
-const PCUK_STENT_BILE = { label: "Pancreatic Cancer UK: stent for a blocked bile duct", url: "https://www.pancreaticcancer.org.uk/information/treatments-for-pancreatic-cancer/stent-for-a-blocked-bile-duct/" };
-const PCUK_STENT_DUODENUM = { label: "Pancreatic Cancer UK: stents for a blocked duodenum", url: "https://www.pancreaticcancer.org.uk/information/treatments-for-pancreatic-cancer/stents-for-a-blocked-duodenum/" };
-const PCUK_CLOTS = { label: "Pancreatic Cancer UK: blood clots in a vein and pancreatic cancer", url: "https://www.pancreaticcancer.org.uk/information/managing-symptoms-and-side-effects/blood-clots-in-a-vein-dvt-and-pancreatic-cancer/" };
+const PCUK_STENT_BILE = { label: "Pancreatic Cancer UK: stent for a blocked bile duct", url: "https://www.pancreaticcancer.org.uk/information-and-support/treatments-for-pancreatic-cancer/stent-for-a-blocked-bile-duct/" };
+const PCUK_STENT_DUODENUM = { label: "Pancreatic Cancer UK: stents for a blocked duodenum", url: "https://www.pancreaticcancer.org.uk/information-and-support/treatments-for-pancreatic-cancer/stents-for-a-blocked-duodenum/" };
+const PCUK_CLOTS = { label: "Pancreatic Cancer UK: blood clots in a vein and pancreatic cancer", url: "https://www.pancreaticcancer.org.uk/information-and-support/managing-symptoms-and-side-effects/blood-clots-in-a-vein-dvt-and-pancreatic-cancer/" };
 
 const NHS_BOWEL_SYMPTOMS = { label: "NHS: bowel cancer, symptoms", url: "https://www.nhs.uk/conditions/bowel-cancer/symptoms/" };
 const NHS_COLOSTOMY_COMPLICATIONS = { label: "NHS: complications of a colostomy", url: "https://www.nhs.uk/tests-and-treatments/colostomy/complications-of-a-colostomy/" };
@@ -78,12 +90,12 @@ export const GENERAL_RED_FLAGS: RedFlagSet = {
   label: "Anyone on cancer treatment",
   flags: [
     { symptom: "Fever or feeling unwell", threshold: "Temperature of 38 C or higher, or shivering, or feeling unwell with signs of infection, at any time during treatment that can lower white cells.", action: "call-now", source: NICE_CG151 },
-    { symptom: "Signs of sepsis", threshold: "Fever with fast breathing, confusion, cold or mottled skin, very low urine output, or a rash that does not fade under pressure.", action: "emergency", source: UKONS },
-    { symptom: "Breathlessness", threshold: "New breathlessness at rest, blue lips, or chest pain.", action: "emergency", source: UKONS },
-    { symptom: "Uncontrolled vomiting or diarrhoea", threshold: "Unable to keep fluids down for 24 hours, or seven or more stools a day above your usual.", action: "call-now", source: UKONS },
-    { symptom: "Bleeding", threshold: "Bleeding that will not stop after 15 minutes of pressure, blood in vomit, urine or stool, or a sudden severe headache.", action: "emergency", source: UKONS },
-    { symptom: "Confusion or drowsiness", threshold: "New confusion, difficulty speaking, a seizure, or unusual drowsiness.", action: "emergency", source: UKONS },
-    { symptom: "Rash that blisters", threshold: "Blisters, peeling skin, or sores in the mouth, eyes or genitals, especially with fever.", action: "emergency", source: UKONS },
+    { symptom: "Signs of sepsis", threshold: "Breathing very fast, confusion or slurred speech, blue, pale or blotchy skin, a very high or very low temperature or shivering, or a rash that does not fade when you press it.", action: "emergency", source: NHS_SEPSIS },
+    { symptom: "Breathlessness", threshold: "Shortness of breath at rest, or any chest pain or tightness: the triage tool sends both straight to 999.", action: "emergency", source: UKONS },
+    { symptom: "Uncontrolled vomiting or diarrhoea", threshold: "Six or more episodes of vomiting in 24 hours, or an increase of seven or more bowel movements a day over your pre-treatment normal.", action: "call-now", source: UKONS },
+    { symptom: "Bleeding", threshold: "Bleeding that does not stop by itself, bleeding that is spraying or pouring or enough to make a puddle, or bruising in several places or one large area.", action: "emergency", source: UKONS },
+    { symptom: "Confusion or drowsiness", threshold: "Severe confusion, an altered level of consciousness, or being difficult to rouse.", action: "emergency", source: UKONS },
+    { symptom: "Rash that blisters", threshold: "A rash over more than 30 percent of the body, or blistering, ulceration, weeping skin, spontaneous bleeding or severe pain in the skin.", action: "emergency", source: UKONS },
   ],
 };
 
@@ -165,10 +177,10 @@ export const redFlagSets: RedFlagSet[] = [
     window: "White cells are usually lowest 7 to 14 days after each dose.",
     flags: [
       { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher, or other signs consistent with sepsis, while on chemotherapy: NICE says to refer immediately for assessment as suspected neutropenic sepsis.", action: "call-now", source: NICE_CG151 },
-      { symptom: "Uncontrolled vomiting", threshold: "Vomiting despite anti-sickness medicines, or unable to keep fluids down for 24 hours.", action: "call-now", source: UKONS },
+      { symptom: "Uncontrolled vomiting", threshold: "Six or more episodes of vomiting in 24 hours, or no significant food or fluid intake, despite taking your anti-sickness medicines as prescribed.", action: "call-now", source: UKONS },
       { symptom: "Severe diarrhoea", threshold: "Seven or more stools a day above your usual, or diarrhoea with fever or dizziness. With fluorouracil or capecitabine, severe early diarrhoea and mouth ulcers in the first cycle can indicate DPD deficiency.", action: "call-now", source: label("fluorouracil injection") },
-      { symptom: "Mouth ulcers", threshold: "Ulcers or pain that stop you eating or drinking.", action: "call-today", source: UKONS },
-      { symptom: "Bleeding or bruising", threshold: "Bleeding that will not stop, black or bloody stools, or unexplained bruising when platelets are expected to be low.", action: "emergency", source: UKONS },
+      { symptom: "Mouth ulcers", threshold: "Painful ulcers or redness that make eating and drinking difficult.", action: "call-today", source: UKONS },
+      { symptom: "Bleeding or bruising", threshold: "Bleeding that does not stop by itself, bleeding from more than one site, or new bruising in several places or one large area.", action: "emergency", source: UKONS },
       { symptom: "Chest pain (fluoropyrimidines)", threshold: "Chest pain or tightness during or after fluorouracil or capecitabine; the label warns of cardiotoxicity including angina and myocardial infarction.", action: "emergency", source: label("fluorouracil injection") },
       { symptom: "Heart failure (anthracyclines)", threshold: "New breathlessness, swollen ankles or a racing heart during or years after doxorubicin; the boxed warning covers cardiomyopathy, including late onset.", action: "call-today", source: label("doxorubicin") },
       { symptom: "Blood in urine (cyclophosphamide, ifosfamide)", threshold: "Visible blood in the urine or pain on passing urine; haemorrhagic cystitis is a labelled warning and mesna and hydration are used to prevent it.", action: "call-now", source: label("cyclophosphamide") },
@@ -527,3 +539,18 @@ export function redFlagsFor(drugId: string, modality?: string): RedFlagSet[] {
   const m = (modality ?? "").toLowerCase();
   return redFlagSets.filter((s) => s.drugIds?.includes(drugId) || (s.modalityRe && m && new RegExp(s.modalityRe, "i").test(m)));
 }
+
+/**
+ * Every distinct source cited by a red-flag row, for the weekly link check (`scripts/check-links.ts`).
+ * Red-flag rows are not corpus entities, so they are invisible to the entity-walking collector; without
+ * this export a dead urgent-advice citation is never noticed. See the note at the top of this file on
+ * verifying a PDF source properly.
+ */
+export function redFlagSources(): { label: string; url: string }[] {
+  const byUrl = new Map<string, { label: string; url: string }>();
+  for (const s of [GENERAL_RED_FLAGS, ...redFlagSets]) for (const f of s.flags) if (!byUrl.has(f.source.url)) byUrl.set(f.source.url, f.source);
+  return [...byUrl.values()].sort((a, b) => a.url.localeCompare(b.url));
+}
+
+/** The URLs of `redFlagSources()`, in the same order. */
+export const redFlagSourceUrls = (): string[] => redFlagSources().map((s) => s.url);

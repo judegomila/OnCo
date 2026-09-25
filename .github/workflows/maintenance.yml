@@ -36,9 +36,11 @@ jobs:
       - run: npx tsx scripts/subtype-trial-links.ts --apply
       - run: npx tsx scripts/orphan-links.ts --apply
       - run: npx tsx scripts/orphans.ts --write
-      - run: npm run validate
-      - run: npm run typecheck
-      - run: npx vitest run
+      # The merge below is unattended, so the tree the pull request carries must pass what a person's branch passes.
+      # The gates never fail the job: when one does the pull request is still opened, the merge step is skipped and
+      # the last step labels it for review, so a red run waits for a person instead of landing on main.
+      - id: gates
+        uses: ./.github/actions/gates
       - uses: peter-evans/create-pull-request@v7
         id: cpr
         with:
@@ -50,11 +52,19 @@ jobs:
             newly ingested trials, orphan back-links, and the orphan floor. Validated and tested in this run.
           labels: automated, pipeline
           delete-branch: true
-      - name: Merge the maintenance (this run already validated and tested it)
-        if: steps.cpr.outputs.pull-request-number != ''
+      - name: Merge the maintenance (only when this run's gates passed)
+        if: steps.cpr.outputs.pull-request-number != '' && steps.gates.outputs.passed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh pr merge --squash --delete-branch "${{ steps.cpr.outputs.pull-request-number }}" || echo "merge deferred, the pull request stays open for review"
+      - name: Leave it for review (a gate failed in this run)
+        if: steps.cpr.outputs.pull-request-number != '' && steps.gates.outputs.passed != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create needs-review --color D93F0B --description "A person must check this before it lands" --force || true
+          gh pr edit "${{ steps.cpr.outputs.pull-request-number }}" --add-label needs-review
+          gh pr comment "${{ steps.cpr.outputs.pull-request-number }}" --body "Not merged: ${{ steps.gates.outputs.failed }} failed in [this run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}). The changes are on this branch for a person to read."
       - name: Tell search engines which pages changed this week
         run: npm run provenance && npm run indexnow -- --since=$(date -u -d '8 days ago' +%F)
 
@@ -72,9 +82,11 @@ jobs:
       - run: npx tsx scripts/enrich-target-ids.ts --budget=400
       - run: npx tsx scripts/enrich-institution-ids.ts --budget=600
       - run: npx tsx scripts/enrich-company-ids.ts --budget=600
-      - run: npm run validate
-      - run: npm run typecheck
-      - run: npx vitest run
+      # The merge below is unattended, so the tree the pull request carries must pass what a person's branch passes.
+      # The gates never fail the job: when one does the pull request is still opened, the merge step is skipped and
+      # the last step labels it for review, so a red run waits for a person instead of landing on main.
+      - id: gates
+        uses: ./.github/actions/gates
       - uses: peter-evans/create-pull-request@v7
         id: cpr
         with:
@@ -86,8 +98,16 @@ jobs:
             and companies, with the strict matching rules in the scripts. Validated and tested in this run.
           labels: automated, pipeline
           delete-branch: true
-      - name: Merge the identifiers (this run already validated and tested it)
-        if: steps.cpr.outputs.pull-request-number != ''
+      - name: Merge the identifiers (only when this run's gates passed)
+        if: steps.cpr.outputs.pull-request-number != '' && steps.gates.outputs.passed == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh pr merge --squash --delete-branch "${{ steps.cpr.outputs.pull-request-number }}" || echo "merge deferred, the pull request stays open for review"
+      - name: Leave it for review (a gate failed in this run)
+        if: steps.cpr.outputs.pull-request-number != '' && steps.gates.outputs.passed != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create needs-review --color D93F0B --description "A person must check this before it lands" --force || true
+          gh pr edit "${{ steps.cpr.outputs.pull-request-number }}" --add-label needs-review
+          gh pr comment "${{ steps.cpr.outputs.pull-request-number }}" --body "Not merged: ${{ steps.gates.outputs.failed }} failed in [this run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}). The changes are on this branch for a person to read."

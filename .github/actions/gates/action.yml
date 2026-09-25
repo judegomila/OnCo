@@ -1,0 +1,35 @@
+name: Gates
+description: >
+  Run the same gates as CI (validate, typecheck, lint, tests) over the working tree and report whether they passed,
+  without failing the job. The refresh workflows fetch a snapshot, open a pull request and merge it unattended, so
+  the tree they merge has to pass what a person's branch passes: `npm run validate` alone does not render a page, so
+  a snapshot that grows a page past its markup budget (src/app/heavy-pages.test.ts) used to be merged red, or leave a
+  failing pull request open every week. Never failing means the pull request is still opened when a gate fails, so the
+  fetched data is not lost; the caller skips its merge step and labels the pull request for review instead.
+outputs:
+  passed:
+    description: "true when every gate passed"
+    value: ${{ steps.run.outputs.passed }}
+  failed:
+    description: Names of the gates that failed, empty when they all passed.
+    value: ${{ steps.run.outputs.failed }}
+runs:
+  using: composite
+  steps:
+    - id: run
+      shell: bash
+      run: |
+        failed=""
+        for gate in "npm run validate" "npm run typecheck" "npm run lint" "npx vitest run"; do
+          echo "::group::$gate"
+          if ! $gate; then failed="$failed$gate; "; fi
+          echo "::endgroup::"
+        done
+        if [ -n "$failed" ]; then
+          echo "passed=false" >> "$GITHUB_OUTPUT"
+          echo "failed=${failed%; }" >> "$GITHUB_OUTPUT"
+          echo "::warning title=Gates failed::${failed%; } — the pull request will be left for review, not merged"
+        else
+          echo "passed=true" >> "$GITHUB_OUTPUT"
+          echo "failed=" >> "$GITHUB_OUTPUT"
+        fi

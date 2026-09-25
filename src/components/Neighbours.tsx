@@ -5,7 +5,7 @@ import type { Entity } from "@/lib/schema";
 import { KIND_META, KINDS } from "@/lib/kinds";
 import { KindName } from "./T";
 import type { SimilarLink } from "@/lib/similar";
-import { KIND_COLOR } from "@/lib/text";
+import { kindTone } from "@/lib/text";
 import { ChipList } from "./ui";
 import { DrugGrid } from "./DrugCard";
 import type { Drug } from "@/lib/schema";
@@ -55,7 +55,7 @@ export function SimilarStrip({ items }: { items: SimilarLink[] }) {
         {items.map((s) => (
           <li key={s.id} className="min-w-0 rounded-lg border border-border p-2.5 text-sm">
             <div className="flex items-center gap-1.5 mb-1">
-              <span className={`chip border ${KIND_COLOR[s.kind]}`}><KindName kind={s.kind} form="label" fallback={KIND_META[s.kind].label} /></span>
+              <span className={`chip border ${kindTone(s.kind)}`}><KindName kind={s.kind} form="label" fallback={KIND_META[s.kind].label} /></span>
             </div>
             <IntentLink href={s.route} className="font-medium leading-snug hover:underline">{s.name}</IntentLink>
             <p className="text-xs text-muted mt-1 leading-snug">

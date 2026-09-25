@@ -35,6 +35,8 @@ import { KIND_PAGE, SECTION_PAGE, TABLE_PAGE } from "@/lib/static-tables";
 import { PAGED_KINDS } from "@/lib/tables/kinds";
 import { KIND_META, KINDS } from "@/lib/kinds";
 import { EXPLAINED_PAGE, explainedGroups } from "@/lib/explained-data";
+import { PAPER_CARDS } from "@/components/record-blocks";
+import { dossierFile } from "@/components/Dossier";
 import { graph } from "@/lib/graph";
 
 /**
@@ -52,6 +54,14 @@ vi.mock("next/font/google", () => ({ Geist: () => ({ variable: "font-geist-sans"
 const router: AppRouterInstance = { push: vi.fn(), replace: vi.fn(), prefetch: vi.fn(), back: vi.fn(), forward: vi.fn(), refresh: vi.fn(), bfcacheId: "static" };
 const render = (el: ReactElement) => renderToStaticMarkup(createElement(AppRouterContext.Provider, { value: router }, createElement(RootLayout, null, el)));
 const KB = 1024;
+/**
+ * How close to its budget a page may come before the test fails. A budget met exactly is a cliff edge: the next link
+ * added to a roadmap, or the next wave of registry trials under a target, breaks the build with no room to think, and
+ * the page gets hand-trimmed to fit rather than made robust. Failing at 85 percent of the budget catches the growth
+ * while the cause can still be found and fixed. Raise it only with a measured reason, never to make a test pass.
+ */
+const MARGIN = 0.85;
+const ROADMAP_BUDGET = 300 * KB, DOSSIER_BUDGET = 450 * KB;
 const bodyRows = (html: string) => (html.match(/<tbody[^>]*>[\s\S]*?<\/tbody>/g) ?? []).map((t) => (t.match(/<tr[\s>]/g) ?? []).length);
 
 describe("heavy pages page their sections", () => {
@@ -299,14 +309,35 @@ describe("paged tables carry one page of rows", () => {
     expect(Buffer.byteLength(html, "utf8"), "genome hub markup").toBeLessThan(600 * KB);
   });
 
-  it("the PD-1 dossier renders the first 30 of its hundreds of trials", async () => {
+  it("the PD-1 dossier renders the first 30 of its hundreds of trials and links its export rather than carrying it", async () => {
     const html = render(await DossierPage({ params: Promise.resolve({ id: "pd1" }) }));
     expect(html).toContain('id="trials"');
     const trials = bodyRows(html);
     for (const n of trials) expect(n).toBeLessThanOrEqual(TABLE_PAGE);
     expect(html).toContain("data-more");
-    // 377 KB when written (the products matrix and resistance routes are most of it), against 2.1 MB of HTML before.
-    expect(Buffer.byteLength(html, "utf8"), "pd1 dossier markup").toBeLessThan(450 * KB);
+    // The dossier JSON is a built file (scripts/build-api.ts), not a data: URI: the inline copy held every product,
+    // trial, paper, hotspot, question and assay percent-encoded, 295 KB of 469 KB, and grew with the corpus.
+    expect(html).toContain(`href="${dossierFile("pd1")}"`);
+    expect(html).not.toContain("data:application/json");
+    // 377 KB when written (the products matrix and resistance routes are most of it), against 2.1 MB of HTML before;
+    // 170 KB once the export moved to its own file.
+    expect(Buffer.byteLength(html, "utf8"), "pd1 dossier markup").toBeLessThan(DOSSIER_BUDGET);
+  });
+
+  /**
+   * Every dossier, not just the largest of the day: the page grows with the corpus around its target (PD-1 passed the
+   * budget when 661 colorectal registry trials landed), so the guard has to hold for whichever target grows next, and
+   * with the same 15 percent margin as the roadmaps, while there is still room to fix the cause.
+   */
+  it("every target dossier stays 15 percent clear of its budget", async () => {
+    const worst: Array<[string, number]> = [];
+    for (const t of graph().kind("target")) {
+      const html = render(await DossierPage({ params: Promise.resolve({ id: t.id }) }));
+      worst.push([t.id, Buffer.byteLength(html, "utf8")]);
+    }
+    worst.sort((a, b) => b[1] - a[1]);
+    const [id, bytes] = worst[0];
+    expect(bytes / DOSSIER_BUDGET, `the heaviest dossier is /dossiers/${id}/ at ${(bytes / KB).toFixed(1)} KB, ${((bytes / DOSSIER_BUDGET) * 100).toFixed(1)} percent of its ${DOSSIER_BUDGET / KB} KB budget`).toBeLessThan(MARGIN);
   });
 });
 
@@ -359,6 +390,18 @@ describe("kind browsers carry one page of rows", () => {
  * current era open by default, the story's summaries and cards come from the same file and the watch table pages past
  * WATCH_PAGE: 296 KB and 215 KB of markup after. What remains is the record chrome every page carries (the Connected
  * tab and the key papers are most of it), which grows with the roadmap's links rather than with its eras.
+ *
+ * That chrome used to grow with the weekly citation refresh as well: every key paper was a card with its journal,
+ * year, what-it-means and a "cited N times" pill whose 380-byte glyph was drawn per card, and the pill appears only
+ * once Europe PMC has a count for that paper, so filling in the missing counts (scripts/fetch-citations.ts, run by
+ * .github/workflows/refresh-pulse.yml) pushed /roadmaps/pancreatic-roadmap/ to 317 KB and /roadmaps/tnbc-roadmap/ to
+ * 315 KB on 25 September 2026. A reference now costs the same however much is known about it: the pills carry the
+ * kind's colours as one short class (`refChipClass`, src/lib/text.ts), a record shows the newest PAPER_CARDS key
+ * papers as cards and the rest as pills, and the citation glyph comes from a sprite. 298 KB before and 234 KB after
+ * on the pancreatic roadmap, with every count in the snapshot filled in.
+ *
+ * MARGIN is the second half of the guard: a page within 15 percent of the budget fails here, while there is still
+ * room to fix the cause, rather than at the cliff edge where the next link added breaks the build.
  */
 describe("roadmap pages collapse their eras", () => {
   const escape = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#x27;");
@@ -369,7 +412,7 @@ describe("roadmap pages collapse their eras", () => {
     expect(roadmaps.some((r) => r.watch.length > 0)).toBe(true);
   });
   for (const r of roadmaps) {
-    it(`/roadmaps/${r.id}/ keeps every era's heading and summary, opens the first and current eras, pages the watch table and stays under 300 KB`, async () => {
+    it(`/roadmaps/${r.id}/ keeps every era's heading and summary, opens the first and current eras, pages the watch table and stays 15 percent clear of 300 KB`, async () => {
       const html = render(await EntityPage({ params: Promise.resolve({ kind: "roadmaps", id: r.id }) }));
       // The timeline reads whole without JavaScript: every era's date range, title and summary are in the HTML.
       for (const s of r.steps) {
@@ -394,7 +437,13 @@ describe("roadmap pages collapse their eras", () => {
       // The watch table carries its first WATCH_PAGE rows and the Show more foot when there are more.
       expect((html.match(/data-watch-row/g) ?? []).length).toBe(Math.min(WATCH_PAGE, r.watch.length));
       if (r.watch.length > WATCH_PAGE) { expect(html).toContain("data-more"); expect(html).toContain(`Show ${Math.min(WATCH_PAGE, r.watch.length - WATCH_PAGE)} more`); }
-      expect(Buffer.byteLength(html, "utf8"), `${r.id} markup`).toBeLessThan(300 * KB);
+      // A reference costs the same whatever is known about the record it points at: the key papers beyond the cards
+      // are pills, and at most PAPER_CARDS citation pills are on the page however many counts the snapshot holds.
+      expect((html.match(/aria-label="Cited /g) ?? []).length, `${r.id} citation pills`).toBeLessThanOrEqual(PAPER_CARDS);
+      const bytes = Buffer.byteLength(html, "utf8");
+      expect(bytes, `${r.id} markup`).toBeLessThan(ROADMAP_BUDGET);
+      // The margin: fail while there is still room to fix the cause. Say how close the page is, so the report names it.
+      expect(bytes / ROADMAP_BUDGET, `${r.id} markup is ${(bytes / KB).toFixed(1)} KB, ${((bytes / ROADMAP_BUDGET) * 100).toFixed(1)} percent of the 300 KB budget`).toBeLessThan(MARGIN);
     });
   }
 });

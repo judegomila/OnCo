@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { KIND_COLOR } from "@/lib/text";
+import { kindTone, refChipClass } from "@/lib/text";
 import { nameAttrs } from "@/lib/translate";
 import { WATCH_PAGE, type EraBody, type EraCounts, type EraRef, type RoadmapEraFile, type WatchRow } from "@/lib/roadmap-eras";
 import { DrugChip } from "./DrugChip";
@@ -38,8 +38,8 @@ export function RefPills({ refs }: { refs: EraRef[] }) {
   return (
     <div className="flex flex-wrap gap-1.5">
       {refs.map((r) => r.kind === "drug"
-        ? <DrugChip key={r.id} id={r.id} name={r.name} route={r.route} tldr={r.tldr} className={KIND_COLOR[r.kind]} />
-        : <IntentLink key={r.id} href={r.route} title={r.tldr} {...nameAttrs(r.kind, `chip border transition-[filter] hover:brightness-95 dark:hover:brightness-125 ${KIND_COLOR[r.kind]}`)}>{r.name}</IntentLink>)}
+        ? <DrugChip key={r.id} id={r.id} name={r.name} route={r.route} tldr={r.tldr} className={kindTone(r.kind)} />
+        : <IntentLink key={r.id} href={r.route} title={r.tldr} {...nameAttrs(r.kind, refChipClass(r.kind))}>{r.name}</IntentLink>)}
     </div>
   );
 }

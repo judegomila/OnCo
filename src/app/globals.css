@@ -244,6 +244,35 @@
   .tone-no { @apply bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200; }
   .tone-flat { @apply bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300; }
 
+  /* Reference pills (src/lib/text.ts refChipClass): one kind's colours in one short class rather than the eight
+     Tailwind utilities of KIND_COLOR repeated on every pill. The pills are how a record page lists what it links to,
+     so a page carries as many as the record has links: a roadmap's Connected tab renders 186 of them and the class
+     attribute alone was 215 of the 440 bytes each cost. `.k-*` must stay in step with KIND_COLOR; src/lib/text.test.ts
+     compares the two so a colour cannot be changed in one place only.
+     The citation count on a key-paper card (.cite) is the same idea: its glyph comes from the sprite
+     (CitationChipDefs) so the page's markup does not grow with the Europe PMC snapshot's coverage. */
+  .chip-ref { @apply border transition-[filter] hover:brightness-95 dark:hover:brightness-125; }
+  .cite { @apply bg-foreground/5 tabular-nums cursor-help; }
+  .k-cancer { @apply bg-rose-50 text-rose-700 border-rose-200 dark:bg-rose-950/40 dark:text-rose-200 dark:border-rose-900; }
+  .k-section { @apply bg-slate-50 text-slate-700 border-slate-200 dark:bg-slate-900 dark:text-slate-200 dark:border-slate-700; }
+  .k-technology { @apply bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-950/40 dark:text-sky-200 dark:border-sky-900; }
+  .k-target { @apply bg-violet-50 text-violet-700 border-violet-200 dark:bg-violet-950/40 dark:text-violet-200 dark:border-violet-900; }
+  .k-drug { @apply bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-950/40 dark:text-emerald-200 dark:border-emerald-900; }
+  .k-company { @apply bg-amber-50 text-amber-800 border-amber-200 dark:bg-amber-950/40 dark:text-amber-200 dark:border-amber-900; }
+  .k-institution { @apply bg-teal-50 text-teal-700 border-teal-200 dark:bg-teal-950/40 dark:text-teal-200 dark:border-teal-900; }
+  .k-pathway { @apply bg-fuchsia-50 text-fuchsia-700 border-fuchsia-200 dark:bg-fuchsia-950/40 dark:text-fuchsia-200 dark:border-fuchsia-900; }
+  .k-term { @apply bg-zinc-50 text-zinc-700 border-zinc-200 dark:bg-zinc-900 dark:text-zinc-200 dark:border-zinc-700; }
+  .k-trial { @apply bg-indigo-50 text-indigo-700 border-indigo-200 dark:bg-indigo-950/40 dark:text-indigo-200 dark:border-indigo-900; }
+  .k-pairing { @apply bg-orange-50 text-orange-700 border-orange-200 dark:bg-orange-950/40 dark:text-orange-200 dark:border-orange-900; }
+  .k-roadmap { @apply bg-cyan-50 text-cyan-700 border-cyan-200 dark:bg-cyan-950/40 dark:text-cyan-200 dark:border-cyan-900; }
+  .k-idea { @apply bg-lime-50 text-lime-800 border-lime-200 dark:bg-lime-950/40 dark:text-lime-200 dark:border-lime-900; }
+  .k-collection { @apply bg-stone-50 text-stone-700 border-stone-200 dark:bg-stone-900 dark:text-stone-200 dark:border-stone-700; }
+  .k-person { @apply bg-pink-50 text-pink-700 border-pink-200 dark:bg-pink-950/40 dark:text-pink-200 dark:border-pink-900; }
+  .k-journal { @apply bg-slate-50 text-slate-700 border-slate-200 dark:bg-slate-900 dark:text-slate-200 dark:border-slate-700; }
+  .k-paper { @apply bg-sky-50 text-sky-800 border-sky-200 dark:bg-sky-950/40 dark:text-sky-200 dark:border-sky-900; }
+  .k-bottleneck { @apply bg-red-50 text-red-800 border-red-200 dark:bg-red-950/40 dark:text-red-200 dark:border-red-900; }
+  .k-biomarker { @apply bg-violet-50 text-violet-800 border-violet-200 dark:bg-violet-950/40 dark:text-violet-200 dark:border-violet-900; }
+
   /* Trials in plain words (src/app/explained/page.tsx, src/components/ExplainedSection.tsx). Six hundred rows, 256
      section headings and 750 cross-reference pills share one page, so every byte of their markup is paid hundreds of
      times and the page's HTML has a budget (src/app/heavy-pages.test.ts). A row is

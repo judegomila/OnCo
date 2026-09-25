@@ -36,6 +36,7 @@ import { UK_PATHWAYS, ukPathwayJson } from "../src/lib/uk-pathway";
 import { CANCER_GEOGRAPHIES, geographyJson } from "../src/lib/cancer-geography";
 import { sectionsJson } from "../src/lib/record-sections";
 import { roadmapEraFile } from "../src/lib/roadmap-eras";
+import { dossierJson } from "../src/components/Dossier";
 
 const out = join(process.cwd(), "public", "api", "v1");
 // Clear the previous build, keeping rdf/: scripts/build-triples.ts rewrites only the Turtle files whose content changed
@@ -104,6 +105,10 @@ for (const grp of explainedGroups(g)) write(`explained/${grp.key}.json`, explain
 // keeps the era headings and summaries and fetches the bodies (and the story cards, and watch rows past the first page) from here.
 mkdirSync(join(out, "roadmaps"), { recursive: true });
 for (const r of g.kind("roadmap")) write(`roadmaps/${r.id}.json`, roadmapEraFile(g, r));
+// Target dossiers: everything /dossiers/<id>/ gathers, as one record. The page linked to a `data:` URI with the same
+// JSON percent-encoded into its HTML, which grew with the corpus (295 KB of the PD-1 dossier's markup).
+mkdirSync(join(out, "dossiers"), { recursive: true });
+for (const t of g.kind("target")) write(`dossiers/${t.id}.json`, dossierJson(t));
 // Navigator: the "already tried" chooser list once, and one file per cancer with its rows, standard of care, caregiver details and questions.
 mkdirSync(join(out, "navigator"), { recursive: true });
 const navRows = matchRows();

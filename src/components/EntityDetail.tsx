@@ -11,7 +11,7 @@ import { PrevalenceTable } from "./PrevalenceTable";
 import { WhatIsBeingDone } from "./WhatIsBeingDone";
 import { regimensFor, regimenRoute, cycleSummary } from "@/lib/regimens";
 import { interventionQuery } from "@/lib/ctgov";
-import { CitationChip } from "./CitationChip";
+import { CitationChip, CitationChipDefs } from "./CitationChip";
 import { OrganSchematic } from "./OrganSchematic";
 import { cancerTabs } from "./CancerRecord";
 import { NEIGHBOUR_CAP, forwardedAnchors } from "@/lib/record-sections";
@@ -224,6 +224,13 @@ export function RecordAside({ e }: { e: Entity }) {
   );
 }
 
+/**
+ * Quick links a group shows in the sidebar before it says "and N more". The Connected section below lists every one
+ * of them with its kind and hover, so a long array here is the same names a second time in the markup: a roadmap
+ * with fourteen eras carried 19 KB of duplicate sidebar links.
+ */
+const QUICK_LINKS = 8;
+
 function QuickLinks({ e }: { e: Entity }) {
   const g = graph();
   const rows: Array<[string, string[]]> = [
@@ -236,7 +243,8 @@ function QuickLinks({ e }: { e: Entity }) {
       {nonEmpty.map(([label, ids]) => (
         <div key={label}>
           <div className="kicker mb-1"><TL text={label} /></div>
-          <ul className="space-y-0.5">{ids.map((id) => { const x = g.get(id); return x ? <li key={id}><IntentLink className="hover:underline" href={routeFor(x)}>{x.name}</IntentLink></li> : null; })}</ul>
+          <ul className="space-y-0.5">{ids.slice(0, QUICK_LINKS).map((id) => { const x = g.get(id); return x ? <li key={id}><IntentLink className="hover:underline" href={routeFor(x)}>{x.name}</IntentLink></li> : null; })}</ul>
+          {ids.length > QUICK_LINKS && <Link href="#connected" className="text-xs text-muted hover:text-foreground hover:underline" data-more>and {ids.length - QUICK_LINKS} more →</Link>}
         </div>
       ))}
     </div>
@@ -486,7 +494,7 @@ function kindTabs(e: Entity): Tab[] {
           </div>
         </div>),
         ...(papers.length ? [{ id: "key-papers", label: "Key papers", count: papers.length, content: (
-          <div className="grid *:min-w-0 gap-3 md:grid-cols-2">{papers.map((p) => <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition"><div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} /></div><div className="font-medium leading-snug">{p.name}</div><p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p></Link>)}</div>) }] : []),
+          <div className="grid *:min-w-0 gap-3 md:grid-cols-2"><CitationChipDefs />{papers.map((p) => <Link key={p.id} href={routeFor(p)} className="card p-4 hover:shadow-md transition"><div className="flex flex-wrap items-center gap-2 text-xs text-muted mb-1"><span className="chip bg-foreground/5">{p.paperType.replace(/-/g, " ")}</span><span>{p.year}</span>{p.changedPractice && <span className={`chip ${statusClass("approved")}`}>changed practice</span>}<CitationChip id={p.id} sprite /></div><div className="font-medium leading-snug">{p.name}</div><p className="text-sm text-muted mt-1 line-clamp-3">{p.whatItMeans}</p></Link>)}</div>) }] : []),
         ...peopleTab(people),
       ];
     }

@@ -236,7 +236,7 @@ describe("UK pathway data", () => {
     const g = graph();
     for (const id of ["skin-cancer", "basal-cell-carcinoma", "cutaneous-scc", "merkel-cell-carcinoma", "melanoma"]) expect(g.get(id)?.kind, id).toBe("cancer");
     // The six trial records, two researchers and three institutions the spike adds resolve in the graph.
-    for (const id of ["sins", "molemate", "mcc-rational-treatment", "impact-bcc", "spot-it", "scc-after"]) expect(g.get(id)?.kind, id).toBe("trial");
+    for (const id of ["sins-trial", "molemate", "mcc-rational-treatment", "impact-bcc", "spot-it", "scc-after"]) expect(g.get(id)?.kind, id).toBe("trial");
     for (const id of ["hywel-williams", "nick-levell"]) expect(g.get(id)?.kind, id).toBe("person");
     for (const id of ["melanoma-focus", "skcin", "british-association-of-dermatologists"]) expect(g.get(id)?.kind, id).toBe("institution");
     // The two exclusions that govern every figure on the page are stated in the page's own words.

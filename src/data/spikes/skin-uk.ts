@@ -215,7 +215,7 @@ const people: PersonInput[] = [
     tldr: "The Nottingham epidemiologist who founded British evidence-based dermatology and ran the trial that answered whether a cream can replace surgery for the commonest cancer there is.",
     summary: "Hywel Williams trained in medicine at Charing Cross Hospital and in dermatology in London, took an MSc in clinical epidemiology at the London School of Hygiene and Tropical Medicine on a Wellcome Trust fellowship, and was appointed to Nottingham in 1994, becoming Foundation Professor of Dermato-Epidemiology in 1998. He founded the Centre of Evidence Based Dermatology there and still co-directs it with Kim Thomas.\n\nFor skin cancer his central contribution is SINS, the multicentre non-inferiority randomised trial of excisional surgery against imiquimod 5% cream for nodular and superficial basal cell carcinoma at low-risk sites, which recruited 501 people at twelve UK centres between 2003 and 2007 and reported three-year results in the Lancet Oncology in 2014 and five-year results in the Journal of Investigative Dermatology in 2017. He directed the NIHR Health Technology Assessment Programme from 2015 to 2020, was awarded the British Association of Dermatologists' Sir Archibald Gray medal in 2017 and an OBE in 2021, and his university page records that he has published over 640 peer-reviewed articles.",
     profiles: [{ label: "University of Nottingham profile", url: S.hywelWilliams.url }, { label: "Centre of Evidence Based Dermatology", url: S.cebd.url }],
-    cancers: ["basal-cell-carcinoma", "skin-cancer"], trials: ["sins"], tags: ["uk", "trialist", "skin", "dermatology"] }),
+    cancers: ["basal-cell-carcinoma", "skin-cancer"], trials: ["sins-trial"], tags: ["uk", "trialist", "skin", "dermatology"] }),
   person({ id: "nick-levell", name: "Nick Levell", role: "Consultant dermatologist, Norfolk and Norwich University Hospitals NHS Foundation Trust; Getting It Right First Time national clinical lead for dermatology",
     specialisms: ["Skin cancer epidemiology", "Dermatology service design", "Health economics"],
     tldr: "The Norwich dermatologist who wrote the national audit of British dermatology, and whose report is the reason anyone can say how many Mohs surgeons England has.",
@@ -229,13 +229,7 @@ type T = Omit<TrialInput, "kind" | "asOf">;
 const trial = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });
 
 const trials: TrialInput[] = [
-  trial({ id: "sins", name: "SINS", aka: ["Surgery versus Imiquimod for Nodular and Superficial basal cell carcinoma", "ISRCTN48755084"], nct: "ISRCTN48755084", phase: "3", status: "negative", yearReported: 2014, sponsor: "University of Nottingham, funded by Cancer Research UK", enrolled: 501,
-    setting: "Twelve UK centres: adults of any age with histologically confirmed primary nodular or superficial basal cell carcinoma at low-risk sites, excluding morphoeic or recurrent disease and Gorlin syndrome, randomised 1:1 to imiquimod 5% cream once daily for six weeks (superficial) or twelve weeks (nodular), or excisional surgery with a 4 mm margin; recruitment 19 June 2003 to 22 February 2007, three-year follow-up to 26 May 2010",
-    tldr: "The British trial that asked whether a cream could replace the knife for the commonest cancer in the world, and gave an answer that is honest in both directions: surgery is clearly better, and imiquimod still works for four people in five.",
-    summary: "SINS is the largest randomised comparison of surgery with a topical treatment for basal cell carcinoma ever run, and it was run in the NHS. 501 people were randomised, 254 to imiquimod and 247 to surgery, and 401 contributed to the modified intention-to-treat analysis at three years. Clinical success, defined as no initial treatment failure and no sign of recurrence, was 84 percent (178 of 213) with imiquimod against 98 percent (185 of 188) with surgery, a relative risk of 0.84 against a prespecified non-inferiority margin of 0.87: imiquimod failed the non-inferiority test.\n\nThe five-year results, published in 2017 with 383 of the 401 followed up, were 82.5 percent (170 of 206) against 97.7 percent (173 of 177), a relative risk of 0.84 with a 95 percent confidence interval of 0.77 to 0.91. Most imiquimod failures happened in the first year, which is the clinically useful finding: a lesion that responds early to imiquimod tends to stay away. Read beside the Scottish Medicines Consortium's 2005 advice, which accepts imiquimod for small superficial basal cell carcinoma only where surgery or cryotherapy is contraindicated, the trial explains why the cream is a second choice rather than an equal one.",
-    result: "Three-year clinical success 84 percent with imiquimod against 98 percent with surgery, relative risk 0.84 against a non-inferiority margin of 0.87; five-year success 82.5 percent against 97.7 percent (Lancet Oncology 2014, Journal of Investigative Dermatology 2017).",
-    drugs: ["imiquimod"], cancers: ["basal-cell-carcinoma", "skin-cancer"], people: ["hywel-williams"], tags: ["uk", "skin", "basal-cell-carcinoma"],
-    links: [{ label: "Lancet Oncology 2014 (DOI)", url: S.sinsPaper.url }, { label: "Five-year results, Journal of Investigative Dermatology 2017 (DOI)", url: S.sins5y.url }, { label: "ISRCTN48755084", url: S.sinsReg.url }] }),
+  // sins merged into sins-trial on 2026-09-25: see src/data/merged-records.ts.
   trial({ id: "molemate", name: "MoleMate UK Trial", aka: ["ISRCTN79932379", "SIAscopy with primary care scoring algorithm"], nct: "ISRCTN79932379", phase: "3", status: "negative", yearReported: 2012, sponsor: "University of Cambridge and Cambridgeshire NHS Primary Care Trust, funded by the NIHR", enrolled: 1297, enrolledBasis: "analysed", enrolledNote: "The ISRCTN record gives a target of 1,800; 1,297 adults with 1,580 pigmented lesions were randomised and analysed.",
     setting: "Fifteen general practices in eastern England: adults with a pigmented skin lesion not immediately diagnosed as benign, assessed by trained primary care clinicians using best practice (history, naked-eye examination and the weighted 7-point checklist) either alone or with the MoleMate system added",
     tldr: "The trial that tested whether giving GPs a diagnostic gadget would make their skin cancer referrals better, found that it made them more numerous instead, and is the reason the NHS asks for training and dermoscopy rather than devices in primary care.",
@@ -463,7 +457,7 @@ export const skinUkPathway: UkPathway = {
   },
 
   legacy: [
-    { title: "SINS: the trial that asked whether a cream could replace the knife", trialIds: ["sins"],
+    { title: "SINS: the trial that asked whether a cream could replace the knife", trialIds: ["sins-trial"],
       story: "Basal cell carcinoma is the commonest cancer in the world and until a British trial did it, nobody had run a large randomised comparison of surgery with a topical alternative. SINS, led from the Centre of Evidence Based Dermatology at Nottingham by Hywel Williams and Fiona Bath-Hextall and funded by Cancer Research UK, randomised 501 people at twelve UK centres between 2003 and 2007 to imiquimod 5% cream or excision with a 4 mm margin.\n\nThe answer was clear and it was not the hoped-for one. Three-year clinical success was 84 percent with imiquimod against 98 percent with surgery, a relative risk of 0.84 against a prespecified non-inferiority margin of 0.87; at five years it was 82.5 percent against 97.7 percent. Imiquimod failed the test. But the trial also produced the finding that makes the cream useful: almost all the failures happened in the first year, so a lesion that clears early tends to stay clear. That is why imiquimod sits where it does in British practice and in the Scottish Medicines Consortium's advice, as the option for a small superficial lesion in someone for whom surgery or cryotherapy is contraindicated, rather than as an alternative anybody should be offered instead of an operation.",
       sources: [S.sinsPaper, S.sins5y, S.sinsReg, S.smcImiquimod] },
     { title: "MoleMate: the trial that stopped the NHS buying a gadget for every GP", trialIds: ["molemate"],
@@ -617,12 +611,12 @@ const spike: Spike = {
     { id: "addenbrookes-cambridge", cancers: ["skin-cancer"], trials: ["molemate"] },
     { id: "birmingham-cancer-centre", cancers: ["skin-cancer", "merkel-cell-carcinoma"], trials: ["mcc-rational-treatment"] },
     { id: "velindre-cardiff", cancers: ["skin-cancer", "cutaneous-scc"], trials: ["spot-it", "scc-after"] },
-    { id: "nottingham-cancer-centre", cancers: ["basal-cell-carcinoma"], people: ["hywel-williams"], trials: ["sins"] },
+    { id: "nottingham-cancer-centre", cancers: ["basal-cell-carcinoma"], people: ["hywel-williams"], trials: ["sins-trial"] },
   ],
   patch: {
     institutions: ["melanoma-focus", "skcin", "british-association-of-dermatologists", "guys-st-thomas", "leeds-cancer-centre", "newcastle-cancer-centre", "addenbrookes-cambridge", "birmingham-cancer-centre", "velindre-cardiff"],
     people: ["hywel-williams", "nick-levell"],
-    trials: ["sins", "molemate", "mcc-rational-treatment", "impact-bcc", "spot-it", "scc-after"],
+    trials: ["sins-trial", "molemate", "mcc-rational-treatment", "impact-bcc", "spot-it", "scc-after"],
     links: [
       { label: "NICE NG12: suspected cancer, skin cancers (recommendations 1.7.1 to 1.7.7)", url: S.ng12.url },
       { label: "NHS England: implementing a timed skin cancer diagnostic pathway", url: S.skinPathway.url },

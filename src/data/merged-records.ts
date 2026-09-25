@@ -155,6 +155,7 @@ export const MERGED_RECORDS: readonly MergedRecord[] = [
   { retired: "nct02628067", survivor: "keynote-158", kind: "trial", merged: "2026-09-25", reason: "The same study: registry id NCT02628067. nct02628067 is the ClinicalTrials.gov ingest (tagged ctgov-ingest); keynote-158 is the curated record, and the lung review of 25 September 2026 recorded the pair rather than merging it." },
   { retired: "nct04576156", survivor: "impactmf", kind: "trial", merged: "2026-09-25", reason: "The same study: registry id NCT04576156. nct04576156 is the ClinicalTrials.gov ingest (tagged ctgov-ingest); impactmf is the curated record, and the lung review of 25 September 2026 recorded the pair rather than merging it." },
   { retired: "androgen-deprivation-therapy", survivor: "adt", kind: "term", merged: "2026-09-25", reason: "The same glossary term under two ids, found by the survey's name pass: both records are called \"Androgen deprivation therapy (ADT)\". adt (src/data/terms-jargon.ts) is the fuller record and carries 39 backlinks against 3; the prostate deep dive's draft is retired into it and its aliases move across, so the same words still link, to one page instead of two." },
+  { retired: "sins", survivor: "sins-trial", kind: "trial", merged: "2026-09-25", reason: "Both layers of the skin round wrote the SINS trial under ISRCTN48755084; the treatment layer's record carries the five-year figures and the non-inferiority reading" },
 ];
 
 /* merge:supplements */
@@ -168,7 +169,6 @@ export const MERGE_SUPPLEMENTS: readonly MergeSupplement[] = [
   { id: "paper-anchor-anal-hsil-treatment-nejm-2022", kind: "paper", cancers: ["anal"], trials: ["anchor"] },
   { id: "paper-antonarakis-ar-v7-resistance-nejm-2014", kind: "paper", pathways: ["ar-signaling","rna-splicing","resistance-routes-map","intravasation-ctc-survival"], terms: ["ar-v7","liquid-biopsy","resistance","psa50"], links: [{"label":"Antonarakis et al., N Engl J Med 2014: AR-V7 in circulating tumour cells and resistance to enzalutamide and abiraterone (62 patients)","url":"https://doi.org/10.1056/NEJMoa1315815"}] },
   { id: "paper-kopetz-beacon-encorafenib-braf-colorectal-nejm-2019", kind: "paper", related: ["braf-v600e"], terms: ["sidedness"] },
-  { id: "paper-bullock-botensilimab-balstilimab-mss-colorectal-nat-med-2024", kind: "paper" },
   { id: "paper-capp2-aspirin-lynch-lancet-2020", kind: "paper", related: ["paper-tcga-colorectal-comprehensive-characterization-nature-2012"], cancers: ["colon-cancer"], drugs: ["aspirin"], terms: ["mmr"], links: [{"label":"PubMed","url":"https://pubmed.ncbi.nlm.nih.gov/32534647/"},{"label":"Europe PMC full text (PMC7294238)","url":"https://europepmc.org/article/MED/32534647"}] },
   { id: "paper-capp2-aspirin-lynch-lancet-2020", kind: "paper", cancers: ["msi-high-colorectal"], drugs: ["aspirin"], trials: ["capp2"], links: [{"label":"PubMed","url":"https://pubmed.ncbi.nlm.nih.gov/32534647/"}] },
   { id: "paper-cercek-dostarlimab-rectal-nejm-2022", kind: "paper", related: ["colorectal-roadmap","paper-cercek-nonoperative-management-mismatch-repair-deficient-tumours-nejm-2025"], technologies: ["mri"], terms: ["neoadjuvant-adjuvant","breakthrough-designation"], bottlenecks: ["b-immunotherapy-response"] },
@@ -232,4 +232,5 @@ export const MERGE_SUPPLEMENTS: readonly MergeSupplement[] = [
   { id: "keynote-158", kind: "trial", cancers: ["metastatic-cancer","endometrial","cervical","vulvar"], aka: ["KEYNOTE 158"] },
   { id: "impactmf", kind: "trial", technologies: ["antisense-sirna"] },
   { id: "adt", kind: "term", terms: ["other-cause-mortality"], aka: ["hormone therapy for prostate cancer"], links: [{"label":"NICE NG131: prostate cancer, diagnosis and management","url":"https://www.nice.org.uk/guidance/ng131/chapter/Recommendations"},{"label":"Prostate Cancer UK: how hormone therapy affects you","url":"https://prostatecanceruk.org/prostate-information-and-support/living-with-prostate-cancer/how-hormone-therapy-affects-you"},{"label":"Cancer Research UK: hormone therapy for prostate cancer","url":"https://www.cancerresearchuk.org/about-cancer/prostate-cancer/treatment/hormone-therapy"}] },
+  { id: "sins-trial", kind: "trial", people: ["hywel-williams"], aka: ["ISRCTN48755084"] },
 ];

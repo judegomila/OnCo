@@ -1,0 +1,40 @@
+src/lib/uk-pathway.ts
+  s_0beac9cb5d78fd::t_cd5e09ec3cb00f 15,133
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_fcb50afe625e62 65,78
+src/lib/uk-pathway.test.ts
+  s_0beac9cb5d78fd::t_55a484df68b6ac 9,12
+  s_0beac9cb5d78fd::t_eed5baafc77c80 229-247
+  s_0beac9cb5d78fd::t_a5958cfcd86182 30-31
+  s_0beac9cb5d78fd::t_aa0c95daa52722 78-95
+src/data/spikes/colorectal-uk.ts
+  s_0beac9cb5d78fd::t_b11329d0467300 275-284,286-337
+  s_0beac9cb5d78fd::t_5c40728c70fe71 338-361,363-388,390-402,404-406
+  s_0beac9cb5d78fd::t_686fbe1efb4342 285,362,389,403
+  s_0beac9cb5d78fd::t_d3ccf51969588a 568-655,657-691
+  s_0beac9cb5d78fd::t_aae2d31ab78ec5 407-468,656
+  s_0beac9cb5d78fd::t_7db52e04e84f9c 1-8,24,33-38,40-42,44-45,47-50,254-255
+  s_0beac9cb5d78fd::t_530a93fee56765 469-567
+  s_0beac9cb5d78fd::t_8b6bfaa5428b8a 256-274
+  s_0beac9cb5d78fd::t_4a2caad12133b5 9-23,25-32,39,43,46,51-253
+src/data/coverage-uk.ts
+  s_0beac9cb5d78fd::t_e6a45bdcb0e964 234
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_1a6dc4806e8f44 51,62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c40e18e70f095b53c2430cfba9b37016fb9dc191",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

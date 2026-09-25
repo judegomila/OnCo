@@ -203,3 +203,19 @@ Each spike follows `/countries/in/`: what is different about cancer here, who pa
 fast it moves, what the country does that others do not, the institutions, companies, drugs, trials, papers and
 people, and the gaps. Every figure carries its source and the national registry is read directly rather than
 through a summary of it.
+
+## 7. Owner asks, 25 September 2026 (evening)
+
+1. **Every unlinked datum in a table should be a filter.** Clicking the year in a trial's "reported" column should
+   filter the table to that year, and the same should hold wherever a cell prints a value the table already knows
+   how to facet on. Audit every table for cells that render as plain text where a filter link would work: years,
+   phases, statuses, countries, sponsors, modalities, regulators, grades. The column-header filter already exists;
+   this is about the cell itself being the way in.
+2. **A record for every year, and one timeline over all of them.** Make the year an entity, list everything the
+   corpus dates to it (approvals, trial readouts, guideline changes, papers, founding and closing of things), at
+   the best precision each fact allows, and roll the lot into one oncology timeline. The point is not the list: it
+   is what the shape of it shows. Where the corpus can support a claim about the rate of change, make it; where a
+   gap is an artefact of our reading rather than of history, say so.
+3. **A page for oncolytic virotherapy**, and the technologies and people it depends on, prompted by the account of
+   Beata Halassy, the Croatian virologist who treated her own recurrent breast cancer with intratumoural measles
+   virus and then vesicular stomatitis virus, and published it.

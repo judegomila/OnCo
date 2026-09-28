@@ -1,0 +1,84 @@
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 234
+  s_0beac9cb5d78fd::t_b76d9a36a9d88f 419,422,424,426,428,430
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 27
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_428b21c51719a3 27
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 234
+  s_0beac9cb5d78fd::t_b76d9a36a9d88f 419,422,424,426,428,430
+src/app/cancers/[id]/changes/page.tsx
+  s_0beac9cb5d78fd::t_63dca290c639ac 15
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 27
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 27
+src/lib/kinds.ts
+  s_0beac9cb5d78fd::t_19c4f74a14cb12 133-135
+  s_0beac9cb5d78fd::t_b15eadaf5089dc 136
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 234
+  s_0beac9cb5d78fd::t_b76d9a36a9d88f 419,422,424,426,428,430
+docs/CONTENT-ROADMAP.md
+  s_0beac9cb5d78fd::t_9ef998437ecd04 272-297,309-324
+docs/CANCER-FAMILIES.md
+  s_0beac9cb5d78fd::t_e2d8359322c658 76-77
+  s_0beac9cb5d78fd::t_c6aaac189002cb 75
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 234
+  s_0beac9cb5d78fd::t_b76d9a36a9d88f 419,422,424,426,428,430
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 27
+src/components/Tabs.tsx
+  s_0beac9cb5d78fd::t_63dca290c639ac 34
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 234
+  s_0beac9cb5d78fd::t_b76d9a36a9d88f 419,422,424,426,428,430
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_63dca290c639ac 109
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_b76d9a36a9d88f 419,422,424,426,428,430
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 234
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 27
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 234
+  s_0beac9cb5d78fd::t_b76d9a36a9d88f 419,422,424,426,428,430
+docs/INFORMATION-ARCHITECTURE.md
+  s_0beac9cb5d78fd::t_c6aaac189002cb 43
+  s_0beac9cb5d78fd::t_e2d8359322c658 5,14-21,24,32,57-58,69-73
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 27
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 234
+  s_0beac9cb5d78fd::t_b76d9a36a9d88f 419,422,424,426,428,430
+src/lib/record-sections.ts
+  s_0beac9cb5d78fd::t_63dca290c639ac 279
+  s_0beac9cb5d78fd::t_2bcf1c6404df02 95-107,120,130-131,140,160,170,180,190
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_b76d9a36a9d88f 451,454,456,458,460,462
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 265
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 27
+src/components/EntityDetail.test.ts
+  s_0beac9cb5d78fd::t_918dd0b3491dd2 24,68,73
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_2b329acf5a62ab 27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "182e683c22a16524ea001958a7bcbe8e781488c6",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,5 +1,14 @@
 [
   {
+    "branch": "product/v2-shows-the-work",
+    "why": "The second front page shows the work: eight molecules large, two fronts drawn as processes, 28 KB more on a page a sixth the size of the live one.",
+    "pr": "https://github.com/judegomila/OnCo/pull/108",
+    "preview": "",
+    "files": 12,
+    "proposed": "2026-09-28",
+    "state": "waiting"
+  },
+  {
     "branch": "product/section-names-and-record-page",
     "why": "Every cancer-page section named for what is in it, plus the years index title. No URLs move.",
     "pr": "https://github.com/judegomila/OnCo/pull/104",

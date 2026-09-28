@@ -1,0 +1,183 @@
+src/app/modalities/[format]/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 255
+  s_0beac9cb5d78fd::t_5383250508f663 89
+  s_0beac9cb5d78fd::t_175e040fd9a682 257
+src/app/review/page.tsx
+  s_0beac9cb5d78fd::t_7e6546f559abd8 99
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_510cf2ef785bb2 11,14,21,23-24,28,45,52,71-73,78-79,83,92,96-97,103-104,106,145,161
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_510cf2ef785bb2 11,14,21,23-24,28,45,52,71-73,78-79,83,92,96-97,103-104,106,145,161
+src/app/intel/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 4
+src/app/compare/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 9,99
+src/app/freshness/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 8,59
+  s_0beac9cb5d78fd::t_7e6546f559abd8 80
+src/app/checkpoints/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 13
+  s_0beac9cb5d78fd::t_44554b2a9da3be 83
+src/app/completeness/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 11,85
+src/app/explore/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 11,21,23
+src/app/modalities/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 13,16,24,26
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_510cf2ef785bb2 11,14,21,23-24,28,45,52,71-73,78-79,83,92,96-97,103-104,106,145,161
+src/app/forest/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 11,34
+src/app/cancers/[id]/uk/page.tsx
+  s_0beac9cb5d78fd::t_44554b2a9da3be 222
+src/app/pivot/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 9,55
+src/app/countries/de/page.tsx
+  s_0beac9cb5d78fd::t_44554b2a9da3be 145
+src/app/atlas/organs/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 18
+src/app/resistance/gaps/page.tsx
+  s_0beac9cb5d78fd::t_44554b2a9da3be 48
+src/app/map/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 8
+src/app/page.tsx
+  s_0beac9cb5d78fd::t_44554b2a9da3be 44
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_510cf2ef785bb2 11,14,21,23-24,28,45,52,71-73,78-79,83,92,96-97,103-104,106,145,161
+src/app/api/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 50
+src/lib/side-effects.ts
+  s_0beac9cb5d78fd::t_175e040fd9a682 133
+src/app/machines/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 13,93
+src/app/eval/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 12,64
+src/app/hta/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 11,50
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 77
+src/app/coverage/rankings/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 114
+src/app/digests/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 27
+src/app/newsletter/page.tsx
+  s_0beac9cb5d78fd::t_175e040fd9a682 90,117
+src/app/data-sources/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 109
+src/components/WhatIsBeingDone.tsx
+  s_0beac9cb5d78fd::t_44554b2a9da3be 56,64,81
+src/app/coverage/page.tsx
+  s_0beac9cb5d78fd::t_44554b2a9da3be 16
+src/app/path/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 8,27
+src/app/catalysts/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 8,18
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_510cf2ef785bb2 11,14,21,23-24,28,45,52,71-73,78-79,83,92,96-97,103-104,106,145,161
+src/app/status/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 10,86
+src/app/atlas/spread/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 29
+  s_0beac9cb5d78fd::t_0e547403823204 12
+src/app/resistance/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 10,52
+src/lib/ask-compose.ts
+  s_0beac9cb5d78fd::t_44554b2a9da3be 463,475,517
+src/app/market/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 9,16
+src/app/build/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 89
+src/app/toxicity/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 8,17
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_510cf2ef785bb2 11,14,21,23-24,28,45,52,71-73,78-79,83,92,96-97,103-104,106,145,161
+src/components/CommandPalette.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 61
+  s_0beac9cb5d78fd::t_44554b2a9da3be 32-33,41
+src/app/evidence/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 11,20
+src/app/query/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 8,19
+src/app/live/hair/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 176
+docs/CONTENT-ROADMAP.md
+  s_0beac9cb5d78fd::t_b2ac85c228c313 339-345
+src/app/pipeline/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 31
+src/app/trial-designs/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 249
+src/app/law/page.tsx
+  s_0beac9cb5d78fd::t_44554b2a9da3be 91,196
+src/components/Dossier.tsx
+  s_0beac9cb5d78fd::t_175e040fd9a682 210
+src/app/dossiers/page.tsx
+  s_0beac9cb5d78fd::t_175e040fd9a682 38
+src/app/preprints/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 86
+src/app/irae/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 10,33
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 50
+src/app/regulatory/regions/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 10
+src/app/mechanics/[stage]/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 306
+  s_0beac9cb5d78fd::t_175e040fd9a682 426
+src/app/side-effects/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 24
+src/app/universities/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 12,26
+docs/PAGE-TITLES.md
+  s_0beac9cb5d78fd::t_d5af6b5a8da8d4 1-26,28-153,163-202
+  s_0beac9cb5d78fd::t_69e566073a5699 27
+  s_0beac9cb5d78fd::t_a7b13003e4fe74 154-162
+src/app/regulatory/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 31
+src/app/mechanics/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 81
+src/app/pulse/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 14,40
+src/lib/search-index.ts
+  s_0beac9cb5d78fd::t_b11d74b96ebfbb 33,36-37
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_510cf2ef785bb2 11,14,21,23-24,28,45,52,71-73,78-79,83,92,96-97,103-104,106,145,161
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 368
+src/app/find/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 4
+src/app/roadmap/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 272
+src/app/interactions/page.tsx
+  s_0beac9cb5d78fd::t_44554b2a9da3be 33
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_87a07d0f887747 3-8
+  s_0beac9cb5d78fd::t_2ce3cf291b9705 16,19,26,28-29,33,56,63,86-88,93-94,98,109,113-114,118-119,121,183,191
+src/app/atlas/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 11,18
+src/app/tagged/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 30
+src/app/audit/page.tsx
+  s_0beac9cb5d78fd::t_5383250508f663 9,26
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_510cf2ef785bb2 11,14,21,23-24,28,45,52,71-73,78-79,83,92,96-97,103-104,106,145,161
+src/components/InvestorPanels.tsx
+  s_0beac9cb5d78fd::t_44554b2a9da3be 107
+src/lib/modalities.ts
+  s_0beac9cb5d78fd::t_175e040fd9a682 29
+src/app/rankings/page.tsx
+  s_0beac9cb5d78fd::t_5b24dc582e8bae 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2f04c54057427a94225b0df82c715ee4ffd706e3",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -5,30 +5,75 @@ import { routeFor } from "@/lib/schema";
 import { Container } from "@/components/ui";
 import { SearchBox } from "@/components/SearchBox";
 import { GardenBackdrop } from "@/components/Garden";
+import { MoleculeThumb } from "@/components/MoleculeThumb";
+import { FrontSchematicLazy } from "@/components/FrontSchematicLazy";
+import { FrontIcon } from "@/components/FrontIcon";
 import { pageMeta } from "@/lib/seo";
-import { DECISION_TOOLS } from "@/lib/decision-tools";
+import { STRUCTURES } from "@/lib/structures";
 import { FIRST_60_DAYS_CHECKLISTS } from "@/data/first-60-days-checklists";
 import { redFlagsForCancerId } from "@/data/red-flags";
+import { nameAttrs } from "@/lib/translate";
 import { KIND_META, KINDS } from "@/lib/kinds";
 
 /**
  * A second front page, for review, at /v2/.
  *
- * The page at / is organised by what the site contains: a graph of the kinds, or the same counts as a list.
- * Both answer "what is in here?". Nobody arrives with that question. A person arrives having been told
- * something an hour ago, or looking after someone who has, and their question is "where do I start?".
+ * The page at / links to 140 distinct sections and shows almost none of them. That is the fault, not the
+ * achievement: it names the whole site and renders none of it. `/molecules/` draws 611 products from their real
+ * atomic coordinates, `/fronts/` animates nineteen schematics of how each line of attack works, and on the front
+ * page each of those is a word in a list. So this version of /v2/ tests the other thesis: show two of the best
+ * things at the size they deserve and let a reader fall into them, rather than offering a directory of
+ * destinations.
  *
- * So this page is organised by what a reader is trying to do, and every block leads to a page that does
- * something for them rather than describing something: the checklist for the first sixty days, the symptoms
- * worth a phone call tonight, the decision aids, the questions to take to an appointment. The inventory is
- * still here, at the bottom, where it belongs: it is evidence of scale, not navigation.
+ * Two are shown, and they are the two the owner named. The molecules, because nothing else on the open web draws
+ * oncology chemistry like this and because the thing being drawn is the thing a reader has been handed a letter
+ * about. The fronts, because nineteen wireframes are the only map of how cancer is attacked that is neither a
+ * table nor a stock photograph. `/drugs/` is not a third section: its drawings are these same molecules at 28
+ * pixels inside a table, so showing them large is `/drugs/` done properly, and every card links into it.
  *
- * Nothing here is new content. Every destination already exists; this is an argument about order.
+ * What is kept from the previous /v2/: the search box framed as the words you were given, the block for someone
+ * told this week, the cancers a reader is likeliest to need, and the inventory at the bottom where it belongs.
+ * What is cut: the two blocks that were lists of links to other lists.
+ *
+ * The weight rule, which is the whole craft here. The live front page is 939 KB with three quarters of it
+ * hydration payload, and `/molecules/` is 1.2 MB. Showing real chemistry must not cost that, so:
+ *   - the molecule cards pass a drug id and nothing else, and each canvas fetches its own structure file only
+ *     once it has been scrolled into view (src/components/Molecule3D.tsx);
+ *   - the front schematics are built in the browser rather than serialised as meshes, which is 9.6 to 34.6 KB a
+ *     front saved (src/components/FrontSchematicLazy.tsx);
+ *   - eight molecules and two fronts are shown, not 611 and nineteen. The links carry the rest.
+ * Measured with `npm run audit:weight` before and after.
  */
 
-const V2_DESCRIPTION = "Start from what you were told. The first sixty days, what is worth a phone call, the decisions you are being asked to make, and the evidence under each one.";
+const V2_DESCRIPTION = "The medicines drawn from their real atomic coordinates, the nineteen fronts of cancer research drawn as the processes they are, and the page for the cancer you were told about.";
 
 export const metadata: Metadata = pageMeta({ title: "Start here", description: V2_DESCRIPTION, path: "/v2/" });
+
+/**
+ * Eight products, chosen for what a reader would get from seeing them rather than for prettiness: two protein
+ * backbones from the PDB beside six small molecules from PubChem, so the difference between an antibody and a
+ * pill is visible and not just asserted; an ADC payload, because the payload is the part that does the killing;
+ * the 1957 chemotherapy that is still a backbone today; and the pill that started the targeted era in 2001.
+ * Every one is approved and every one is a name a reader may have been given this week.
+ */
+const SHOWN_MOLECULES = [
+  "pembrolizumab",
+  "trastuzumab",
+  "trastuzumab-deruxtecan",
+  "osimertinib",
+  "olaparib",
+  "imatinib",
+  "paclitaxel",
+  "fluorouracil",
+];
+
+/**
+ * Two fronts drawn in full: the oldest way of treating cancer and the newest, and the two a person is likeliest
+ * to have had explained badly. Two rather than three because the schematic draws its step captions inside the
+ * canvas and truncates them: at three across on a 1440 px screen the sentence is cut off, which is the same fault
+ * as the front page it replaces, only smaller. The other seventeen are named with their icons underneath.
+ */
+const SHOWN_FRONTS = ["chemotherapy", "immunotherapy"];
 
 /** Cancers deep enough to lead with, in the order a reader is likeliest to need them. */
 const LEAD = ["breast-cancer", "prostate", "lung-cancer", "colorectal", "skin-cancer", "pancreatic"];
@@ -40,7 +85,7 @@ function Heading({ title, sub, href, label }: { title: string; sub?: string; hre
     <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-1 mb-5">
       <div>
         <h2 className="text-2xl font-semibold tracking-tight">{title}</h2>
-        {sub && <p className="text-sm text-muted mt-1 max-w-2xl leading-relaxed">{sub}</p>}
+        {sub && <p className="text-sm text-muted mt-1 max-w-3xl leading-relaxed">{sub}</p>}
       </div>
       {href && label && (
         <Link href={href} className="text-sm font-medium text-foreground/80 hover:text-foreground underline decoration-foreground/25 underline-offset-[3px]">{label}</Link>
@@ -54,6 +99,17 @@ export default function V2() {
   const cancers = g.kind("cancer");
   const byId = new Map(cancers.map((c) => [c.id, c]));
 
+  const drugs = new Map(g.kind("drug").map((d) => [d.id, d]));
+  const molecules = SHOWN_MOLECULES
+    .map((id) => ({ d: drugs.get(id), entry: STRUCTURES[id]?.[0] }))
+    .filter((x): x is { d: NonNullable<ReturnType<typeof drugs.get>>; entry: NonNullable<typeof x.entry> } => !!x.d && !!x.entry);
+  const drawable = g.kind("drug").filter((d) => STRUCTURES[d.id]?.length).length;
+
+  const allFronts = g.kind("section").slice().sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
+  const frontById = new Map(allFronts.map((f) => [f.id, f]));
+  const fronts = SHOWN_FRONTS.map((id) => frontById.get(id)).filter((f): f is NonNullable<typeof f> => !!f);
+  const otherFronts = allFronts.filter((f) => !SHOWN_FRONTS.includes(f.id));
+
   const lead = LEAD.map((id) => byId.get(id)).filter((c): c is NonNullable<typeof c> => !!c).map((c) => {
     const children = cancers.filter((x) => x.parent === c.id).length;
     const hook = c.notes.find((n) => ROUTING.test(n))?.match(ROUTING)?.[0];
@@ -64,8 +120,6 @@ export default function V2() {
     .map((id) => byId.get(id))
     .filter((c): c is NonNullable<typeof c> => !!c && !c.parent)
     .sort((a, b) => a.name.localeCompare(b.name));
-
-  const tools = [...DECISION_TOOLS].sort((a, b) => a.title.localeCompare(b.title));
 
   const counts = KINDS.map((k) => ({ k, n: g.kind(k).length })).filter((x) => x.n > 0).sort((a, b) => b.n - a.n);
   const total = counts.reduce((n, x) => n + x.n, 0);
@@ -92,7 +146,34 @@ export default function V2() {
         </Container>
       </section>
 
-      {/* 1. The person told this week. */}
+      {/* 1. The chemistry, at the size it deserves. */}
+      <Container className="pt-14">
+        <Heading
+          title="The medicine they named, drawn from its real coordinates"
+          sub={`Eight of the ${drawable.toLocaleString("en-GB")} products OnCo can draw. Nothing here is an illustration: every atom sits where a public measurement put it, small molecules from PubChem's 3D conformers and antibodies from the Protein Data Bank. Each one turns on its own and opens the product page: what it is, who it is for, what it costs you to take it.`}
+          href="/molecules/"
+          label="The whole gallery"
+        />
+        <ul className="grid gap-4 grid-cols-2 md:grid-cols-4">
+          {molecules.map(({ d, entry }) => (
+            <li key={d.id}>
+              <Link href={routeFor(d)} className="card block overflow-hidden hover:shadow-md transition group h-full">
+                <div className="bg-gradient-to-b from-foreground/[0.03] to-transparent">
+                  <MoleculeThumb drugId={d.id} className="h-40 sm:h-48" />
+                </div>
+                <div className="p-3 border-t border-border">
+                  <div {...nameAttrs(d.kind, "font-semibold leading-snug group-hover:underline decoration-foreground/25 underline-offset-[3px]")}>{d.name}</div>
+                  {d.brand && <div {...nameAttrs(d.kind, "text-xs text-muted mt-0.5")}>{d.brand}</div>}
+                  <div className="text-xs text-muted mt-1.5 leading-snug">{d.modality}</div>
+                  <div className="text-[11px] text-muted mt-1 leading-snug">{entry.source === "pdb" ? "Protein Data Bank" : "PubChem"} · {entry.label}</div>
+                </div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Container>
+
+      {/* 2. The person told this week. */}
       <Container className="pt-14">
         <Heading
           title="Told this week"
@@ -130,7 +211,7 @@ export default function V2() {
         </div>
       </Container>
 
-      {/* 2. Which page is mine. */}
+      {/* 3. Which page is mine. */}
       <Container className="pt-14">
         <Heading
           title="Which page is mine?"
@@ -156,60 +237,37 @@ export default function V2() {
         </div>
       </Container>
 
-      {/* 3. The decisions. */}
+      {/* 4. How the treatment works, drawn as the process it is. */}
       <Container className="pt-14">
         <Heading
-          title="Decisions you are being asked to make"
-          sub="Each one takes what you already know and gives back what the guideline says, with the trial figures for what each choice costs. No score, no prediction."
-          href="/tools/"
-          label="All decision aids"
+          title="What the treatment actually does"
+          sub={`Two of the ${allFronts.length} fronts, drawn as the processes they are: the oldest way of treating cancer and the newest. The drawing turns, plays the steps in order and names each one as it happens. Two rather than a row of three, because the step captions are drawn inside the canvas and a third column cuts them off.`}
+          href="/fronts/"
+          label={`All ${allFronts.length} fronts`}
         />
-        <ul className="grid gap-3 sm:grid-cols-2">
-          {tools.map((t) => {
-            const c = byId.get(t.cancerId);
-            return (
-              <li key={t.id} className="card p-4">
-                <Link href={`/tools/${t.id}/`} className="font-medium hover:underline decoration-foreground/25 underline-offset-[3px]">{t.title}</Link>
-                <p className="text-sm text-muted mt-1 leading-relaxed">{t.lede}</p>
-                <p className="mt-2 text-xs text-muted">
-                  {c ? <Link href={routeFor(c)} className="hover:underline">{c.name}</Link> : t.cancerId} · follows {t.guideline.label}
-                </p>
-              </li>
-            );
-          })}
-        </ul>
-      </Container>
-
-      {/* 4. Everyone else. */}
-      <Container className="pt-14">
-        <Heading title="Looking for something else" sub="The same corpus, entered from a different question." />
-        <div className="grid gap-4 md:grid-cols-3">
-          <section className="card p-5">
-            <h3 className="text-lg font-semibold tracking-tight">Caring for someone</h3>
-            <ul className="mt-2 space-y-1.5 text-sm">
-              <li><Link href="/for-me/" className="hover:underline">Follow one cancer and see what changed</Link></li>
-              <li><Link href="/assistance/" className="hover:underline">Money, work and practical help</Link></li>
-              <li><Link href="/institutions/" className="hover:underline">Where it is treated</Link></li>
-            </ul>
-          </section>
-          <section className="card p-5">
-            <h3 className="text-lg font-semibold tracking-tight">Clinician or researcher</h3>
-            <ul className="mt-2 space-y-1.5 text-sm">
-              <li><Link href="/explore/" className="hover:underline">Explore by cancer, switch kind, sort</Link></li>
-              <li><Link href="/guidelines/" className="hover:underline">Guidelines and what they say</Link></li>
-              <li><Link href="/trials/" className="hover:underline">Trials, with what each one found</Link></li>
-              <li><Link href="/api/" className="hover:underline">The whole corpus as an API</Link></li>
-            </ul>
-          </section>
-          <section className="card p-5">
-            <h3 className="text-lg font-semibold tracking-tight">Builder or investor</h3>
-            <ul className="mt-2 space-y-1.5 text-sm">
-              <li><Link href="/bottlenecks/" className="hover:underline">What the field is stuck on</Link></li>
-              <li><Link href="/ideas/" className="hover:underline">What should be tried and is not</Link></li>
-              <li><Link href="/companies/" className="hover:underline">Who is working on it</Link></li>
-            </ul>
-          </section>
+        <div className="grid gap-4 md:grid-cols-2">
+          {fronts.map((f) => (
+            <article key={f.id} className="card overflow-hidden flex flex-col">
+              <div className="px-4 pt-4 pb-3">
+                <h3 className="text-lg font-semibold tracking-tight">
+                  <Link href={routeFor(f)} className="hover:underline decoration-foreground/25 underline-offset-[3px]">{f.name}</Link>
+                </h3>
+                <p className="text-sm text-muted mt-1 leading-relaxed">{f.tldr}</p>
+              </div>
+              <FrontSchematicLazy sectionId={f.id} caption="The steps in order, animated. Schematic, not to scale." height="h-72 sm:h-80" />
+            </article>
+          ))}
         </div>
+        <ul className="mt-5 flex flex-wrap gap-1.5">
+          {otherFronts.map((f) => (
+            <li key={f.id}>
+              <Link href={routeFor(f)} className="chip border bg-card border-border hover:bg-foreground/5 text-sm inline-flex items-center gap-1.5">
+                <FrontIcon id={f.id} className="h-4 w-4 text-accent" />
+                {f.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </Container>
 
       {/* 5. The inventory, last. */}

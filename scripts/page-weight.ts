@@ -18,15 +18,20 @@ const BASE_DEFAULT = "https://onco.cc";
 
 /** Pages worth watching: the heaviest of each shape, not a sample. */
 const PAGES = [
-  "/", "/timeline/", "/years/2020/", "/for-me/", "/explore/", "/trials/", "/drugs/", "/navigator/",
+  "/", "/v2/", "/timeline/", "/years/2020/", "/for-me/", "/explore/", "/trials/", "/drugs/", "/navigator/",
   "/cancers/breast-cancer/", "/cancers/prostate/uk/", "/countries/us/", "/virotherapy/", "/explained/",
+  // The drawing-heavy shapes, measured 28 September 2026: /dossiers/ 1,482 KB (84 per cent payload, and no
+  // drawing at all), /molecules/ 1,230 KB, /fronts/ 614 KB (80 per cent payload, nineteen meshes serialised).
+  "/dossiers/", "/molecules/", "/fronts/",
 ];
 
 const KB = 1024;
 const args = process.argv.slice(2);
 const baseAt = args.indexOf("--base");
 const base = baseAt >= 0 ? args[baseAt + 1] : BASE_DEFAULT;
-const pages = args.filter((a, i) => a.startsWith("/") && i !== baseAt + 1);
+// Without --base, `baseAt` is -1 and `baseAt + 1` is 0, which used to drop the first path argument: asking for
+// "/ /v2/" silently weighed only /v2/. Only skip the argument that is the base URL's value, and only if there is one.
+const pages = args.filter((a, i) => a.startsWith("/") && !(baseAt >= 0 && i === baseAt + 1));
 
 async function weigh(path: string) {
   const res = await fetch(new URL(path, base), { headers: { "user-agent": "OnCo page-weight (repo script)" } });

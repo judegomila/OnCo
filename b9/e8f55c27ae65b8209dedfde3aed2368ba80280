@@ -1,0 +1,103 @@
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 27
+src/app/admin/page.tsx
+  s_0beac9cb5d78fd::t_16445b288c72ec 1-88
+src/lib/record-sections.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 95-107,120,130-131,140,150,160,170,180,190,279
+docs/CANCER-FAMILIES.md
+  s_0beac9cb5d78fd::t_16445b288c72ec 75-77
+scripts/change-class.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 36-37,40-55,57
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 234,418,421,423,425,427,429
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 27
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 234,418,421,423,425,427,429
+scripts/sync-product-queue.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 1-31
+src/components/Tabs.tsx
+  s_0beac9cb5d78fd::t_16445b288c72ec 34
+public/newsletter/2026-09-28/index.html
+  s_0beac9cb5d78fd::t_16445b288c72ec 2,9-10
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 27
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 27
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 234,418,421,423,425,427,429
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 234,418,421,423,425,427,429
+docs/INFORMATION-ARCHITECTURE.md
+  s_0beac9cb5d78fd::t_16445b288c72ec 5,14-21,24,32,43,57-58,69-73
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 234,418,421,423,425,427,429
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 234,418,421,423,425,427,429
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 109
+docs/CONTENT-ROADMAP.md
+  s_0beac9cb5d78fd::t_16445b288c72ec 272-297,326-391
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 27
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 27
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 234,418,421,423,425,427,429
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 27
+package.json
+  s_0beac9cb5d78fd::t_16445b288c72ec 106-107
+public/freshness.json
+  s_0beac9cb5d78fd::t_16445b288c72ec 1
+scripts/change-class.test.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 42-50
+src/components/CancerRecord.tsx
+  s_0beac9cb5d78fd::t_16445b288c72ec 207,226,289,297,311
+public/newsletter/feed.xml
+  s_0beac9cb5d78fd::t_16445b288c72ec 14-16
+public/newsletter/2026-09-28.json
+  s_0beac9cb5d78fd::t_16445b288c72ec 1
+public/.well-known/llms.txt
+  s_0beac9cb5d78fd::t_16445b288c72ec 68,88
+scripts/ship.sh
+  s_0beac9cb5d78fd::t_16445b288c72ec 51
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 27
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 234,418,421,423,425,427,429
+src/app/cancers/[id]/changes/page.tsx
+  s_0beac9cb5d78fd::t_16445b288c72ec 15
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 27
+src/components/EntityDetail.test.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 24,68,73
+public/llms.txt
+  s_0beac9cb5d78fd::t_16445b288c72ec 68,88
+public/product-queue.json
+  ai_agent 3-10,13,16-25,30-32,34
+CHANGELOG.md
+  s_0beac9cb5d78fd::t_16445b288c72ec 10-16,20-26
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 265,450,453,455,457,459,461
+public/newsletter/index.json
+  s_0beac9cb5d78fd::t_16445b288c72ec 1
+src/lib/kinds.ts
+  s_0beac9cb5d78fd::t_16445b288c72ec 133-136
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b9e8f55c27ae65b8209dedfde3aed2368ba80280",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

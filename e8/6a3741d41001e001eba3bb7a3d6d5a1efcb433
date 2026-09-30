@@ -1,0 +1,44 @@
+src/lib/i18n/ui/ar.ts
+  s_0beac9cb5d78fd::t_0b833e2c2fbef6 239-241
+src/lib/i18n/ui/pt.ts
+  s_0beac9cb5d78fd::t_0b833e2c2fbef6 239-241
+src/lib/i18n/ui/hi.ts
+  s_0beac9cb5d78fd::t_0b833e2c2fbef6 239-241
+src/app/record-top.test.ts
+  s_0beac9cb5d78fd::t_24c36459492b9f 10,196-244
+src/lib/i18n/ui.ts
+  s_0beac9cb5d78fd::t_0b833e2c2fbef6 271-273
+src/lib/i18n/ui/fr.ts
+  s_0beac9cb5d78fd::t_0b833e2c2fbef6 239,241
+  s_0beac9cb5d78fd::t_dabaf2a8a08c27 240
+src/lib/i18n/ui/zh.ts
+  s_0beac9cb5d78fd::t_0b833e2c2fbef6 239-241
+src/components/SourceList.tsx
+  s_0beac9cb5d78fd::t_11c838982d1b34 1-3,6-106
+  s_0beac9cb5d78fd::t_c70aaa2c890976 4-5
+src/lib/i18n/ui/de.ts
+  s_0beac9cb5d78fd::t_0b833e2c2fbef6 239-241
+src/lib/i18n/ui/ja.ts
+  s_0beac9cb5d78fd::t_0b833e2c2fbef6 239-241
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_bc05d86125a3ff 44,191,235-237
+  s_0beac9cb5d78fd::t_be396370e89bf3 211-218
+src/lib/i18n/ui/es.ts
+  s_0beac9cb5d78fd::t_0b833e2c2fbef6 239-241
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e86a3741d41001e001eba3bb7a3d6d5a1efcb433",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

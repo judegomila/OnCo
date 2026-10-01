@@ -1,0 +1,33 @@
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_02d4e40e616021 85,96
+src/data/questions.ts
+  s_0beac9cb5d78fd::t_f4c9ca2e312d67 16,30-34
+src/data/spikes/lymphoma-living.ts
+  s_0beac9cb5d78fd::t_301d331a3851ca 1-226,228-245,247-637,639-664,666-726
+  s_0beac9cb5d78fd::t_0295e2417d8599 638,665
+  s_0beac9cb5d78fd::t_2305ff2bfe2fa0 227,246
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_b888d026dbb4b8 103,109
+src/data/red-flags.ts
+  s_0beac9cb5d78fd::t_82928d230421d3 123-136,883-959
+src/data/first-60-days-checklists.ts
+  s_0beac9cb5d78fd::t_f87069f2107ca6 204-305,472-479
+src/lib/red-flags.test.ts
+  s_0beac9cb5d78fd::t_79bb72ac5179d2 52-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "753da24dc862c81105faa726d5f18865d699105a",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

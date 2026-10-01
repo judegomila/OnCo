@@ -1,0 +1,51 @@
+src/data/spikes/lymphoma-evidence-trials-recruiting.ts
+  s_0beac9cb5d78fd::t_10c0055640d3bf 58,93
+  s_0beac9cb5d78fd::t_0d89c6ed313e03 42
+  s_0beac9cb5d78fd::t_d26f1b6ffcd00f 1-41,43-57,59-92,94-106
+src/data/spikes/lymphoma-evidence.ts
+  s_0beac9cb5d78fd::t_d07034762162ab 1-254
+src/data/spikes/dlbcl.ts
+  s_0beac9cb5d78fd::t_29ee0940f33589 150-152,154-155
+src/data/spikes/index.ts
+  s_0beac9cb5d78fd::t_87128909e3576b 103,109
+src/data/spikes/lymphoma-evidence-papers-trials.ts
+  s_0beac9cb5d78fd::t_c0c6c60fd7045e 745-747
+  s_0beac9cb5d78fd::t_c35531085a9540 1-119,121-253,255-278,280-304,306-338,340-578,580-607,609-635,637-662,664-737,739-744,748-757
+  s_0beac9cb5d78fd::t_10c0055640d3bf 120,254,279,305,579,608,636,663
+  s_0beac9cb5d78fd::t_0d89c6ed313e03 738
+  s_0beac9cb5d78fd::t_0607b2b0aad4da 339
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_3be8e679a13de4 50
+src/data/spikes/lymphoma-evidence-roadmap.ts
+  s_0beac9cb5d78fd::t_0d89c6ed313e03 101,228
+  s_0beac9cb5d78fd::t_65655b8bea5e4d 1-44,46-100,102-227,229-255
+  s_0beac9cb5d78fd::t_10c0055640d3bf 45
+src/data/spikes/lymphoma-evidence-trials.ts
+  s_0beac9cb5d78fd::t_0d89c6ed313e03 412,431
+  s_0beac9cb5d78fd::t_10c0055640d3bf 91,167,183,319,338,359,379
+  s_0beac9cb5d78fd::t_e36903430de8ab 1-90,92-166,168-182,184-259,261-318,320-337,339-358,360-378,380-411,413-430,432-438,440-448
+  s_0beac9cb5d78fd::t_7fd2e63713e7ca 260,439
+src/data/spikes/lymphoma-evidence-shared.ts
+  s_0beac9cb5d78fd::t_fc8d53845ec820 1-97
+src/data/spikes/lymphoma-evidence-papers-foundations.ts
+  s_0beac9cb5d78fd::t_592a950d71dd86 45,73,159,430
+  s_0beac9cb5d78fd::t_cce02785851b6f 1-44,46-72,74-158,160-429,431-439
+src/lib/ask-pipeline.ts
+  s_0beac9cb5d78fd::t_3b674a38842a58 161-167
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "08390015ad20458a94c9ec70d7b60542b58f8666",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

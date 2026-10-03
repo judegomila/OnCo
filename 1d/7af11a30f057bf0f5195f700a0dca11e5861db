@@ -1,0 +1,76 @@
+src/lib/i18n/nav/pt.ts
+  s_0beac9cb5d78fd::t_6706ed59250cb9 162
+src/data/recovery.ts
+  s_0beac9cb5d78fd::t_80fb520ab0da32 58
+  s_0beac9cb5d78fd::t_93ff6126dfc10d 60-61
+  s_0beac9cb5d78fd::t_c6b43ada0a4e38 79
+  s_0beac9cb5d78fd::t_20f251df62ed93 1-57,59,62-78,80-109
+src/components/RecoveryPanel.tsx
+  s_0beac9cb5d78fd::t_34e422942ec5d8 1-39
+src/data/recovery-matrix.test.ts
+  s_0beac9cb5d78fd::t_5252df91098979 1-194
+src/data/recovery-matrix.ts
+  s_0beac9cb5d78fd::t_3709b74f88b8bf 8,57,124-135,137-138,143,146-147,149-151,153-157,159-165
+  s_0beac9cb5d78fd::t_abf2a881015718 100,105,116,139-140,142,145
+  s_0beac9cb5d78fd::t_2bbdf91aad2b70 355
+  s_0beac9cb5d78fd::t_f521026bf7c31d 1484-1492,1495-1496,1500-1504,1507
+  s_0beac9cb5d78fd::t_d454f1735707c4 1448
+  s_0beac9cb5d78fd::t_ee18bbd1e28c56 141
+  s_0beac9cb5d78fd::t_fad9d6b37a2fc1 1-7,9-56,58-99,101-104,106-115,117-123,136,144,148,152,158,166-170,1260-1263,1427,1493-1494,1497-1499,1505-1506,1508-1523
+  s_0beac9cb5d78fd::t_886c46dd1df6ab 1449-1481
+  s_0beac9cb5d78fd::t_11c6c917360202 1428-1447,1482-1483
+  s_0beac9cb5d78fd::t_0fe2a2a84acae7 171-354,356-1259,1264-1426
+src/lib/i18n/nav/fr.ts
+  s_0beac9cb5d78fd::t_6706ed59250cb9 162
+src/components/RouteIcon.tsx
+  s_0beac9cb5d78fd::t_380833f1f1d978 121
+scripts/recovery-fill.ts
+  s_0beac9cb5d78fd::t_bc5a233f2675c5 1-10
+scripts/recovery-ids.ts
+  s_0beac9cb5d78fd::t_8e7e2446415096 1-11
+src/app/live/recovery/page.tsx
+  s_0beac9cb5d78fd::t_23fc1933e801bc 47
+  s_0beac9cb5d78fd::t_3adf1b48a6d198 1-46,48-145
+src/lib/i18n/nav/hi.ts
+  s_0beac9cb5d78fd::t_6706ed59250cb9 162
+src/data/index.ts
+  s_0beac9cb5d78fd::t_5432f33470cf79 84,256
+src/lib/i18n/nav/es.ts
+  s_0beac9cb5d78fd::t_6706ed59250cb9 162
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_5432f33470cf79 568,584
+src/lib/i18n/nav/ar.ts
+  s_0beac9cb5d78fd::t_6706ed59250cb9 162
+src/lib/i18n/nav/de.ts
+  s_0beac9cb5d78fd::t_6706ed59250cb9 162
+src/components/RecoveryMatrix.tsx
+  s_0beac9cb5d78fd::t_4d0365de1b3e0f 107
+  s_0beac9cb5d78fd::t_3d483f041433f3 102-104
+  s_0beac9cb5d78fd::t_04ef53d7cb1242 135-137,139,142,144
+  s_0beac9cb5d78fd::t_d389c49a1cba5d 99-100
+  s_0beac9cb5d78fd::t_7a747d556c9c63 1-98,101,105-106,108-134,138,140-141,143,145-161
+src/lib/i18n/nav/ja.ts
+  s_0beac9cb5d78fd::t_6706ed59250cb9 162
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_471406aeb1ce36 51-52,384,386
+src/lib/i18n/nav/zh.ts
+  s_0beac9cb5d78fd::t_6706ed59250cb9 162
+src/lib/nav.ts
+  s_0beac9cb5d78fd::t_4daf2d9e7152bb 169
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "1d7af11a30f057bf0f5195f700a0dca11e5861db",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

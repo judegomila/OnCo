@@ -1,0 +1,46 @@
+src/data/spikes/rejuvenation-rehab.ts
+  s_0beac9cb5d78fd::t_432eb77dc43203 91
+  s_0beac9cb5d78fd::t_f9285b38a0bdec 78,101
+  s_0beac9cb5d78fd::t_3cde05a8ef8eb0 114,141,150,159,182,191,200,218,227,241,255
+  s_0beac9cb5d78fd::t_66d5922214550f 58,90,99,113,122,131,149,158
+  s_0beac9cb5d78fd::t_952db5d0eb7b1f 164,173,187,223
+  s_0beac9cb5d78fd::t_756aeba15ce8d0 100
+  s_0beac9cb5d78fd::t_0b84bb3fa9f22a 1-57,59-77,79-89,92-98,102-112,115-121,123-130,132-140,142-148,151-157,160-163,165-172,174-181,183-186,188-190,192-199,201-217,219-222,224-226,228-240,242-254,256-297
+src/data/animated-rejuv-rehab.ts
+  s_0beac9cb5d78fd::t_978c0ea28beb65 10-11
+  s_0beac9cb5d78fd::t_4ade9974e7153b 1-9,12-209
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_6a7f770161699f 127
+src/data/gap-fill.ts
+  s_0beac9cb5d78fd::t_42bcc3bb717750 1021
+  s_0beac9cb5d78fd::t_5dd6f741f2dfcb 1005
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_432eb77dc43203 83-85
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_6a7f770161699f 568,584
+src/data/animated.ts
+  s_0beac9cb5d78fd::t_6a7f770161699f 13
+  s_0beac9cb5d78fd::t_cca5be3befa599 553
+src/data/spikes/sarcoma.ts
+  s_0beac9cb5d78fd::t_52d0f8afd2f772 46
+src/data/nutrition.ts
+  s_0beac9cb5d78fd::t_52d0f8afd2f772 351
+src/data/index.ts
+  s_0beac9cb5d78fd::t_6a7f770161699f 84,256
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e2d1f588f10f30d15cffd709fac019e4495a4f0d",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

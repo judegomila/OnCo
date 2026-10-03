@@ -1,0 +1,34 @@
+src/data/index.ts
+  s_0beac9cb5d78fd::t_21bd8eeb648e9f 84,256
+src/data/paediatric-fronts.ts
+  s_0beac9cb5d78fd::t_1d0a4b4e1015e8 176-177
+src/data/schematics.ts
+  s_0beac9cb5d78fd::t_21bd8eeb648e9f 568,584
+src/data/spikes/rejuvenation-paediatric.ts
+  s_0beac9cb5d78fd::t_767676caf09c71 162,209,241,258,275,322,338
+  s_0beac9cb5d78fd::t_3f299493795fc5 138
+  s_0beac9cb5d78fd::t_7ef054c61d452c 191
+  s_0beac9cb5d78fd::t_d19193daef6512 132
+  s_0beac9cb5d78fd::t_5f14b3b3f70bfe 1-131,133-137,139-161,163-181,183-190,192-208,210-240,242-257,259-274,276-321,323-337,339-493
+  s_0beac9cb5d78fd::t_cde40aa9554be2 182
+scripts/spike-sources.ts
+  s_0beac9cb5d78fd::t_21bd8eeb648e9f 127
+src/lib/tags.ts
+  s_0beac9cb5d78fd::t_60beb8660526e8 76-78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6875508e754b8c5d11f10afde4075e5a69bd3a31",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

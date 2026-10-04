@@ -1,0 +1,19 @@
+public/newsletter/2026-10-04.json
+  ai_agent 1
+public/newsletter/2026-10-04/index.html
+  ai_agent 1-13
+public/newsletter/index.json
+  ai_agent 1
+public/freshness.json
+  ai_agent 1
+public/newsletter/feed.xml
+  ai_agent 7,9-20
+src/lib/github-stars.json
+  ai_agent 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "91b889040a0f793e5dfa05e0025c01b4c6dd1c5d",
+  "prompts": {}
+}

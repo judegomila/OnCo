@@ -1,0 +1,15 @@
+src/data/pipeline-trials-wave6.ts
+  ai_agent 8227-8228,8230-8238
+src/data/trop2-dual-payload.ts
+  ai_agent 1-47
+CORRECTIONS.md
+  ai_agent 12
+src/data/index.ts
+  ai_agent 127,297
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "13e5d9f3f2c3467af5b2316839abfe39e3bcd5b0",
+  "prompts": {}
+}

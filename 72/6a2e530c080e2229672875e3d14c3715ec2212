@@ -1,0 +1,21 @@
+src/data/drugs-pipeline-wave1.ts
+  s_0beac9cb5d78fd::t_8b6617e7e21201 1666-1669,1671
+CORRECTIONS.md
+  ai_agent 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "726a2e530c080e2229672875e3d14c3715ec2212",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

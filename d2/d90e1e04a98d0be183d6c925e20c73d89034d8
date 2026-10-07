@@ -1,0 +1,25 @@
+src/data/trop2-emerging-modalities.ts
+  s_0beac9cb5d78fd::t_49ef865c95cc84 1-482
+src/data/technologies.ts
+  s_0beac9cb5d78fd::t_49ef865c95cc84 673,682-684,897,905-906
+src/data/drugs-pipeline-wave1.ts
+  ai_agent 298-305,487-496,581-592,811-820,1592,1594-1595,1597-1599
+src/data/index.ts
+  ai_agent 2,202
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "d2d90e1e04a98d0be183d6c925e20c73d89034d8",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

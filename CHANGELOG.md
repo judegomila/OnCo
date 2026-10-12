@@ -8,7 +8,12 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 
 ### 12 October 2026
 - Fifty-eight UCSF breast studies we were missing, and the PARP breast gaps closed
+- chore: render this week's issue to public/newsletter/ (#254)
+- chore: weekly fact check, audit, and provenance refresh (#253)
+- chore: refresh public/votes.json from Discussions reactions (#252)
+- chore: refresh trial counts from ClinicalTrials.gov (#251)
 - chore: draft change proposals that need review
+- chore: EU regional rows read from the EMA register pages (#250)
 
 ### 11 October 2026
 - chore: EU regional rows read from the EMA register pages (#249)

@@ -6,7 +6,21 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 12 October 2026
+- Fifty-eight UCSF breast studies we were missing, and the PARP breast gaps closed
+- chore: draft change proposals that need review
+
+### 11 October 2026
+- chore: EU regional rows read from the EMA register pages (#249)
+
+### 10 October 2026
+- Complete UCSF adult female breast-study coverage with 58 registry records
+- Connect PARP evidence records and preserve supportive approval scope
+- Fill PARP breast trial and evidence gaps with scoped eligibility
+- chore: EU regional rows read from the EMA register pages (#243)
+
 ### 9 October 2026
+- Correct the prevalence figures in the cBioPortal roadmap note
 - Seven contributor changes: table filters stop colliding, dossiers say where you are and fold, prevalence opens as a list
 - The bot's proposal list, and cBioPortal ingestion scoped on the roadmap
 - chore: draft change proposals that need review

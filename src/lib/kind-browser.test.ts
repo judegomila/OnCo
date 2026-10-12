@@ -89,6 +89,6 @@ describe("filtering a table by a cancer family", () => {
 
   it("orders the phase filter the way a drug meets the phases", () => {
     const phase = trials.facets.find((f) => f.key === "phase");
-    expect(phase?.order).toEqual(["Phase 1", "Phase 1/2", "Phase 2", "Phase 2/3", "Phase 3", "Phase 4", "Platform trial", "Observational study"]);
+    expect(phase?.order).toEqual(["Phase 1", "Phase 1/2", "Phase 2", "Phase 2/3", "Phase 3", "Phase 4", "Platform trial", "Observational study", "Phase not applicable"]);
   });
 });

@@ -391,7 +391,7 @@ export type TrialAlternateParticipation = z.infer<typeof TrialAlternateParticipa
 export const TrialSchema = Base.extend({
   kind: z.literal("trial"),
   nct: z.string().optional(),
-  phase: z.enum(["1", "1/2", "2", "2/3", "3", "4", "observational", "platform"]),
+  phase: z.enum(["1", "1/2", "2", "2/3", "3", "4", "observational", "platform", "not-applicable"]),
   setting: z.string(),
   sponsor: z.string().optional(),
   /** What the registry says about joining: status, sponsor, who it is open to, how many sites and where. */

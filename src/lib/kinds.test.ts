@@ -8,7 +8,7 @@ import { normalisePhaseLabel, PHASE_ORDER, phaseLabel } from "./kinds";
  * phaseLabel is the single source of the human label; normalisePhaseLabel keeps old shared filter links working.
  */
 describe("phaseLabel", () => {
-  it("labels numeric phases and names the two non-numeric designs", () => {
+  it("labels numeric phases and names non-numeric designs and no-phase records", () => {
     expect(phaseLabel("3")).toBe("Phase 3");
     expect(phaseLabel("2/3")).toBe("Phase 2/3");
     expect(phaseLabel("1/2")).toBe("Phase 1/2");
@@ -17,6 +17,7 @@ describe("phaseLabel", () => {
     expect(phaseLabel("4")).toBe("Phase 4");
     expect(phaseLabel("platform")).toBe("Platform trial");
     expect(phaseLabel("observational")).toBe("Observational study");
+    expect(phaseLabel("not-applicable")).toBe("Phase not applicable");
   });
 
   it("falls back to the raw value for anything outside the enum", () => {
@@ -24,7 +25,7 @@ describe("phaseLabel", () => {
   });
 
   it("orders every phase value once", () => {
-    expect([...PHASE_ORDER].sort()).toEqual(["1", "1/2", "2", "2/3", "3", "4", "observational", "platform"]);
+    expect([...PHASE_ORDER].sort()).toEqual(["1", "1/2", "2", "2/3", "3", "4", "not-applicable", "observational", "platform"]);
   });
 });
 
@@ -35,6 +36,7 @@ describe("normalisePhaseLabel", () => {
     expect(normalisePhaseLabel("Phase observational")).toBe("Observational study");
     expect(normalisePhaseLabel("Phase platform")).toBe("Platform trial");
     expect(normalisePhaseLabel("Phase 3")).toBe("Phase 3");
+    expect(normalisePhaseLabel("not-applicable")).toBe("Phase not applicable");
     expect(normalisePhaseLabel(" Phase 2/3 ")).toBe("Phase 2/3");
   });
 

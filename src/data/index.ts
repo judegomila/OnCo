@@ -1,3 +1,4 @@
+import { ucsfBreastTrials } from "./ucsf-breast-trials";
 import { trop2PreclinicalWatch } from "./trop2-preclinical-watch";
 import { trop2EmergingModalities } from "./trop2-emerging-modalities";
 import { trop2TrialLandscape } from "./trop2-trial-landscape";
@@ -203,6 +204,7 @@ import { cansimTargets } from "./targets-cansim";
 import { issuesWaveB } from "./issues-2026-09-wave-b";
 
 const RAW_INPUTS: EntityInput[] = [
+  ...ucsfBreastTrials,
   ...trop2PreclinicalWatch,
   ...trop2EmergingModalities,
   ...trop2TrialLandscape,

@@ -2,6 +2,12 @@
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
+## 2026-10-10
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-10-10 | [UCSF](/institutions/ucsf/) and 58 breast-study records | 58 of the 120 studies in UCSF's female/adult breast list had no OnCo trial record; the institution's direct trial list did not contain the complete set. | Compared the filtered UCSF card inventory with the assembled graph by NCT, searched aliases and links, and resolved all 120 exact identifiers in ClinicalTrials.gov. | Added 58 sourced records and linked all 120 canonical records to UCSF. Preserved local versus overall availability, observational versus interventional design, and expanded access. [Complete dated audit](docs/audits/ucsf-breast-2026-10-10.md); [triage issue #247](https://github.com/judegomila/OnCo/issues/247). |
+
 ## 2026-10-07
 
 | Date | Entity | What was wrong | How found | Fix |

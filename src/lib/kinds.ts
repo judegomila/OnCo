@@ -158,7 +158,7 @@ export const facetLabel = (name: string) => name.replace(/ \(.*\)$/, "");
 export const decadeLabel = (year: number | string) => `${String(year).slice(0, 3)}0s`;
 
 /** Trial phase values (the `phase` enum in schema.ts) in display order: late-stage first, then platform and observational designs. */
-export const PHASE_ORDER = ["3", "2/3", "platform", "2", "1/2", "1", "4", "observational"] as const;
+export const PHASE_ORDER = ["3", "2/3", "platform", "2", "1/2", "1", "4", "observational", "not-applicable"] as const;
 
 /**
  * The same values in the order a drug meets them, earliest first. A filter is a list of the choices available,
@@ -167,9 +167,9 @@ export const PHASE_ORDER = ["3", "2/3", "platform", "2", "1/2", "1", "4", "obser
  * Phase 4 is after approval, so it follows phase 3; platform and observational designs sit outside the sequence
  * and go last.
  */
-export const PHASE_FILTER_ORDER = ["1", "1/2", "2", "2/3", "3", "4", "platform", "observational"] as const;
+export const PHASE_FILTER_ORDER = ["1", "1/2", "2", "2/3", "3", "4", "platform", "observational", "not-applicable"] as const;
 
-const PHASE_LABEL: Record<string, string> = { "3": "Phase 3", "2/3": "Phase 2/3", "2": "Phase 2", "1/2": "Phase 1/2", "1": "Phase 1", "4": "Phase 4", platform: "Platform trial", observational: "Observational study" };
+const PHASE_LABEL: Record<string, string> = { "3": "Phase 3", "2/3": "Phase 2/3", "2": "Phase 2", "1/2": "Phase 1/2", "1": "Phase 1", "4": "Phase 4", platform: "Platform trial", observational: "Observational study", "not-applicable": "Phase not applicable" };
 
 /** Human label for a trial phase value: "Phase 3", "Platform trial", "Observational study"; unknown values come back unchanged. */
 export function phaseLabel(phase: string): string {

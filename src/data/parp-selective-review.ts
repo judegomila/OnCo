@@ -1050,7 +1050,7 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "Olaparib In Metastatic Breast Cancer",
     "nct": "NCT03344965",
     "phase": "2",
-    "asOf": "2026-10-06",
+    "asOf": "2026-10-10",
     "setting": "A Phase 2 Study of Olaparib Monotherapy in Metastatic Breast Cancer Patients With Germline or Somatic Mutations in DNA Repair Genes (Olaparib Expanded)",
     "sponsor": "Beth Israel Deaconess Medical Center",
     "tldr": "Olaparib showed activity in metastatic breast cancer with germline PALB2 or somatic BRCA alterations, but the somatic cohort missed its prespecified response target.",
@@ -1104,6 +1104,9 @@ export const parpSelectiveReview: EntityInput[] = [
     ],
     "cancers": [
       "breast-cancer"
+    ],
+    "keyPapers": [
+      "paper-tung-tbcrc048-expansion-jco-2026"
     ]
   },
   {
@@ -1192,11 +1195,11 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "Evaluation of Talazoparib, a PARP Inhibitor, in Patients With Somatic BRCA Mutant Metastatic Breast Cancer: Genotyping Based Clinical Trial",
     "nct": "NCT03990896",
     "phase": "2",
-    "asOf": "2026-10-06",
-    "setting": "Evaluation of Talazoparib, a PARP Inhibitor, in Patients With Somatic BRCA Mutant Metastatic Breast Cancer: Genotyping Based Clinical Trial",
+    "asOf": "2026-10-10",
+    "setting": "Metastatic HER2-negative breast cancer with deleterious somatic BRCA1/2; germline BRCA carriers excluded",
     "sponsor": "Massachusetts General Hospital",
-    "tldr": "This study tests a PARP inhibitor; the registry reports that it is recruiting.",
-    "summary": "The registry lists NCT03990896 as recruiting, last updated 2026-05-06. Enrolment is 30 planned participants, an estimate. Interventions: Talazoparib. Primary measures include Median Progression Free Survival. No results are posted in the registry; this does not exclude separate publications.",
+    "tldr": "This trial tests talazoparib in metastatic breast cancer with a tumour-only BRCA mutation. It is recruiting, but is not an after-surgery recurrence-prevention study.",
+    "summary": "The registry lists NCT03990896 as recruiting, last updated 2026-05-06, with 30 planned participants. The live inclusion criteria require a deleterious somatic BRCA1/2 mutation detectable in circulating DNA by a CLIA-certified clinical assay, subject to investigator discretion. TNBC requires progression on at least one chemotherapy regimen in the metastatic setting; hormone-receptor-positive disease requires prior endocrine progression or unsuitability. Evaluable or measurable disease, no prior PARP inhibitor and no concurrent anticancer therapy are required. Prior platinum is permitted only without progression on platinum or within six months after neoadjuvant/adjuvant platinum. UCSF and six other US sites are listed recruiting; this does not confirm a site slot. Older trial-in-progress material mentions tissue-or-cfDNA genotyping, so tissue-only eligibility needs investigator confirmation rather than assuming the current registry gate is broader. No registry results are posted; that does not exclude separate publications.",
     "targets": [
       "parp"
     ],
@@ -1207,6 +1210,10 @@ export const parpSelectiveReview: EntityInput[] = [
       {
         "label": "ClinicalTrials.gov NCT03990896",
         "url": "https://clinicaltrials.gov/study/NCT03990896"
+      },
+      {
+        "label": "UCSF trial listing and eligibility",
+        "url": "https://clinicaltrials.ucsf.edu/trial/NCT03990896"
       }
     ],
     "status": "recruiting",
@@ -1214,7 +1221,8 @@ export const parpSelectiveReview: EntityInput[] = [
     "startedType": "actual",
     "cancers": [
       "breast-cancer"
-    ]
+    ],
+    "enrolled": 30
   },
   {
     "id": "nct05332561",
@@ -1222,11 +1230,11 @@ export const parpSelectiveReview: EntityInput[] = [
     "name": "Genomics Guided Targeted Post-neoadjuvant Therapy in Patients With Early Breast Cancer (COGNITION-GUIDE)",
     "nct": "NCT05332561",
     "phase": "2",
-    "asOf": "2026-10-06",
+    "asOf": "2026-10-10",
     "setting": "Genomics Guided Targeted Post-neoadjuvant Therapy in Patients With Early Breast Cancer - a Multicenter, Open-label, Umbrella Phase-II Study - COGNITION-GUIDE",
     "sponsor": "German Cancer Research Center",
-    "tldr": "This study tests a PARP inhibitor; the registry reports that it is recruiting.",
-    "summary": "The registry lists NCT05332561 as recruiting, last updated 2025-03-20. Enrolment is 240 planned participants, an estimate. Interventions: Atezolizumab 1200 mg in 20 ML Injection, Inavolisib, Ipatasertib, Olaparib, Sacituzumab govitecan, Trastuzumab/pertuzumab. Primary measures include Invasive Disease-free Survival (IDFS) as defined by Hudis et al in the entire study population four years after surgery. No results are posted in the registry; this does not exclude separate publications.",
+    "tldr": "This German study assigns additional treatment after surgery according to tumour profiling. Its olaparib arm can accept qualifying tumour-only BRCA alterations.",
+    "summary": "The registry lists NCT05332561 as recruiting, last updated 2025-03-20. Enrolment is 240 planned participants, an estimate. Interventions: Atezolizumab 1200 mg in 20 ML Injection, Inavolisib, Ipatasertib, Olaparib, Sacituzumab govitecan, Trastuzumab/pertuzumab. Primary measures include Invasive Disease-free Survival (IDFS) as defined by Hudis et al in the entire study population four years after surgery. No results are posted in the registry; this does not exclude separate publications. The current registry lists German sites and no US site. Arm 4 accepts inactivating somatic or germline BRCA1/2, including homozygous deletions, or inactivating germline PALB2, with assignment exclusively determined by the molecular tumour board. Separate arms target separate pathways; the platform is not a combined PARP regimen or proof of adjuvant benefit for somatic-only BRCA.",
     "targets": [
       "parp"
     ],
@@ -1244,6 +1252,476 @@ export const parpSelectiveReview: EntityInput[] = [
     "startedType": "actual",
     "cancers": [
       "breast-cancer"
+    ]
+  },
+  {
+    "id": "nct03945721",
+    "kind": "trial",
+    "name": "Niraparib with postoperative radiotherapy in residual TNBC",
+    "nct": "NCT03945721",
+    "phase": "1",
+    "asOf": "2026-10-10",
+    "setting": "Residual non-metastatic TNBC after definitive surgery, with planned postoperative radiation",
+    "sponsor": "Massachusetts General Hospital",
+    "tldr": "Niraparib is studied with radiation after breast surgery. The study is active but is not accepting new participants.",
+    "summary": "Registry status active not recruiting, last updated 2026-06-17. Enrollment is 21 actual. Residual non-metastatic TNBC after definitive surgery, with planned postoperative radiation. The registry requires residual invasive disease after neoadjuvant chemotherapy, or at least 1 cm for surgery-first patients, performance status and organ-function gates, and discontinuation of cytotoxic, immune and biologic treatment before RT. This phase 1 safety strategy does not establish recurrence prevention or current access.",
+    "status": "active",
+    "started": "2019-07-11",
+    "startedType": "actual",
+    "enrolled": 21,
+    "targets": [
+      "parp"
+    ],
+    "drugs": [
+      "niraparib"
+    ],
+    "cancers": [
+      "tnbc"
+    ],
+    "links": [
+      {
+        "label": "ClinicalTrials.gov NCT03945721",
+        "url": "https://clinicaltrials.gov/study/NCT03945721"
+      }
+    ]
+  },
+  {
+    "id": "nct03542175",
+    "kind": "trial",
+    "name": "Rucaparib with radiation after incomplete response to chemotherapy",
+    "nct": "NCT03542175",
+    "phase": "1",
+    "asOf": "2026-10-10",
+    "setting": "Residual non-metastatic TNBC or selected high-risk hormone-receptor-positive/HER2-negative disease after neoadjuvant chemotherapy and definitive surgery",
+    "sponsor": "Memorial Sloan Kettering Cancer Center",
+    "tldr": "This completed study tested a DNA-repair drug with radiation after breast surgery. It does not offer new enrollment.",
+    "summary": "Registry status completed, last updated 2025-12-08. Enrollment is 31 actual. Residual non-metastatic TNBC or selected high-risk hormone-receptor-positive/HER2-negative disease after neoadjuvant chemotherapy and definitive surgery. Dose escalation studied rucaparib concurrently with radiotherapy and additional maintenance. The registry design is phase 1; completion is not evidence of adjuvant efficacy.",
+    "status": "completed",
+    "started": "2018-05-23",
+    "startedType": "actual",
+    "enrolled": 31,
+    "targets": [
+      "parp"
+    ],
+    "drugs": [
+      "rucaparib"
+    ],
+    "cancers": [
+      "tnbc",
+      "breast-hr-positive"
+    ],
+    "links": [
+      {
+        "label": "ClinicalTrials.gov NCT03542175",
+        "url": "https://clinicaltrials.gov/study/NCT03542175"
+      }
+    ]
+  },
+  {
+    "id": "nct04849364",
+    "kind": "trial",
+    "name": "PERSEVERE: genomically directed post-neoadjuvant residual TNBC",
+    "nct": "NCT04849364",
+    "phase": "2",
+    "asOf": "2026-10-10",
+    "setting": "Residual early TNBC after neoadjuvant therapy and definitive resection",
+    "sponsor": "Bryan Schneider, MD",
+    "tldr": "This study assigned extra treatment after surgery using blood and tumour tests. It stopped and is no longer an access route.",
+    "summary": "Registry status terminated, last updated 2025-05-31. Enrollment is 52 actual. Residual early TNBC after neoadjuvant therapy and definitive resection. The ctDNA-enriched, genomically directed platform included talazoparib/capecitabine and inavolisib/capecitabine strategies, with pembrolizumab rules differing by assigned arm. The registry states termination for a funder decision; that administrative reason is not an efficacy result.",
+    "status": "withdrawn",
+    "started": "2021-08-24",
+    "startedType": "actual",
+    "enrolled": 52,
+    "targets": [
+      "parp"
+    ],
+    "drugs": [
+      "talazoparib",
+      "capecitabine",
+      "inavolisib",
+      "pembrolizumab"
+    ],
+    "cancers": [
+      "tnbc"
+    ],
+    "links": [
+      {
+        "label": "ClinicalTrials.gov NCT04849364",
+        "url": "https://clinicaltrials.gov/study/NCT04849364"
+      }
+    ]
+  },
+  {
+    "id": "nct03598257",
+    "kind": "trial",
+    "name": "Olaparib with or without radiation in inflammatory breast cancer",
+    "nct": "NCT03598257",
+    "phase": "2",
+    "asOf": "2026-10-10",
+    "setting": "Non-metastatic inflammatory breast cancer of any receptor subtype after neoadjuvant chemotherapy and modified radical mastectomy with negative margins and axillary evaluation",
+    "sponsor": "National Cancer Institute (NCI)",
+    "tldr": "This study tests whether adding olaparib improves radiation treatment for inflammatory breast cancer. It is not accepting new participants.",
+    "summary": "Registry status active not recruiting, last updated 2026-09-29. Enrollment is 300 estimated. Non-metastatic inflammatory breast cancer of any receptor subtype after neoadjuvant chemotherapy and modified radical mastectomy with negative margins and axillary evaluation. Randomized radiation with or without olaparib; positive microscopic margins or gross residual tumour after mastectomy are excluded. This disease-specific protocol must not be presented as general postoperative TNBC enrollment.",
+    "status": "active",
+    "started": "2019-01-18",
+    "startedType": "actual",
+    "enrolled": 300,
+    "targets": [
+      "parp"
+    ],
+    "drugs": [
+      "olaparib"
+    ],
+    "cancers": [
+      "breast-cancer"
+    ],
+    "links": [
+      {
+        "label": "ClinicalTrials.gov NCT03598257",
+        "url": "https://clinicaltrials.gov/study/NCT03598257"
+      }
+    ]
+  },
+  {
+    "id": "nct06488378",
+    "kind": "trial",
+    "name": "Axatilimab and olaparib in BRCA/PALB2-associated metastatic breast cancer",
+    "nct": "NCT06488378",
+    "phase": "1",
+    "asOf": "2026-10-10",
+    "setting": "Metastatic or unresectable HER2-negative breast cancer with a deleterious or suspected deleterious germline/somatic BRCA1/2 mutation or germline PALB2 mutation, documented by a CLIA-certified laboratory",
+    "sponsor": "Dana-Farber Cancer Institute",
+    "tldr": "This early study combines a DNA-repair drug with a treatment targeting macrophages in advanced breast cancer. It is recruiting, with strict lung-history requirements.",
+    "summary": "Registry status recruiting, last updated 2026-09-02. Enrollment is 20 estimated. Metastatic or unresectable HER2-negative breast cancer with a deleterious or suspected deleterious germline/somatic BRCA1/2 mutation or germline PALB2 mutation, documented by a CLIA-certified laboratory. Axatilimab targets CSF1R and is combined with olaparib in phase 1b. The registry excludes a history of pneumonitis or ILD, or baseline evidence of either. Dana-Farber and Mayo are listed recruiting; cohort/site slots need confirmation. This human two-drug study is distinct from preclinical three-drug PARP/CSF1R/SREBP1 experiments and does not establish adjuvant efficacy.",
+    "status": "recruiting",
+    "started": "2024-08-13",
+    "startedType": "actual",
+    "enrolled": 20,
+    "targets": [
+      "parp"
+    ],
+    "drugs": [
+      "olaparib",
+      "axatilimab"
+    ],
+    "cancers": [
+      "breast-cancer",
+      "tnbc"
+    ],
+    "links": [
+      {
+        "label": "ClinicalTrials.gov NCT06488378",
+        "url": "https://clinicaltrials.gov/study/NCT06488378"
+      }
+    ]
+  },
+  {
+    "id": "paper-tung-tbcrc048-expansion-jco-2026",
+    "kind": "paper",
+    "name": "TBCRC 048 expansion: olaparib in metastatic breast cancer with germline PALB2 or somatic BRCA",
+    "asOf": "2026-10-10",
+    "journal": "Journal of Clinical Oncology",
+    "year": 2026,
+    "authors": "Tung NM, Robson ME, Li T, et al.",
+    "paperType": "translational",
+    "doi": "10.1200/JCO-25-02075",
+    "pmid": "41604601",
+    "participants": 54,
+    "tldr": "Olaparib shrank some metastatic breast cancers with tumour-only BRCA mutations. This does not establish benefit in preventing recurrence after surgery.",
+    "summary": "Phase 2 expansion with 24 germline PALB2 and 30 somatic BRCA1/2 participants. The overall population comprised 42 ER-positive/HER2-negative, seven TNBC and five HER2-positive cancers. Participants received single-agent olaparib until progression. Somatic-BRCA activity was clinically meaningful but missed the prespecified response target.",
+    "findings": [
+      "Somatic BRCA1/2: 11/30 responses, ORR 36.7% (80% CI 24.7 to 50.0), median PFS 5.5 months (90% CI 2.8 to 8.3), median response duration 11.2 months (90% CI 4.4 to not reached).",
+      "Germline PALB2: ORR 75% (80% CI 60.2 to 86.3), median PFS 9.4 months (90% CI 8.3 to 13.1)."
+    ],
+    "whatItMeans": "Metastatic single-arm evidence does not supply a somatic-only adjuvant indication or a personal response probability.",
+    "caveats": [
+      "Metastatic single-arm evidence does not supply a somatic-only adjuvant indication or a personal response probability.",
+      "Only seven participants overall had TNBC; somatic cohort mixed BRCA1 and BRCA2, 15 each."
+    ],
+    "targets": [
+      "parp"
+    ],
+    "drugs": [
+      "olaparib"
+    ],
+    "trials": [
+      "nct03344965"
+    ],
+    "cancers": [
+      "breast-cancer",
+      "tnbc"
+    ],
+    "links": [
+      {
+        "label": "Primary publication",
+        "url": "https://doi.org/10.1200/JCO-25-02075"
+      },
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41604601/"
+      }
+    ]
+  },
+  {
+    "id": "paper-piha-paul-talazoparib-ddr-npj-2024",
+    "kind": "paper",
+    "name": "Talazoparib in advanced cancers with BRCA1/2, DNA repair and PTEN alterations",
+    "asOf": "2026-10-10",
+    "journal": "npj Precision Oncology",
+    "year": 2024,
+    "authors": "Piha-Paul SA, Tseng C, Leung CH, et al.",
+    "paperType": "translational",
+    "doi": "10.1038/s41698-024-00634-6",
+    "pmid": "39085400",
+    "participants": 79,
+    "tldr": "Talazoparib helped some people with advanced cancers carrying tumour-only BRCA mutations. The study was small and included several cancer types.",
+    "summary": "Phase 2 molecular basket, median four prior lines of therapy. Cohorts included somatic BRCA1/2, other homologous-recombination repair genes, PTEN and germline BRCA1/2 in cancers outside breast/ovarian indications. Clinical benefit included response or stable disease lasting at least 24 weeks.",
+    "findings": [
+      "Somatic BRCA1/2 cohort: four objective responses among 18 patients, ORR 22.2% (95% CI 6.4 to 47.6); six clinical-benefit events.",
+      "Posterior mean clinical-benefit rate 32.5% (90% credible interval 16.7 to 50.3) is a separate endpoint from objective response.",
+      "Breast examples included a somatic BRCA1 partial response and prolonged stable disease."
+    ],
+    "whatItMeans": "Mixed, heavily pretreated cancers and no control arm; cannot compare its ORR directly with olaparib trials or establish postoperative benefit.",
+    "caveats": [
+      "Mixed, heavily pretreated cancers and no control arm; cannot compare its ORR directly with olaparib trials or establish postoperative benefit."
+    ],
+    "targets": [
+      "parp"
+    ],
+    "drugs": [
+      "talazoparib"
+    ],
+    "trials": [
+      "nct02286687"
+    ],
+    "cancers": [
+      "breast-cancer",
+      "tnbc"
+    ],
+    "links": [
+      {
+        "label": "Primary publication",
+        "url": "https://doi.org/10.1038/s41698-024-00634-6"
+      },
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39085400/"
+      }
+    ]
+  },
+  {
+    "id": "paper-kalra-bre09-146-rucaparib-npj-2021",
+    "kind": "paper",
+    "name": "BRE09-146: cisplatin with or without rucaparib after preoperative breast chemotherapy",
+    "asOf": "2026-10-10",
+    "journal": "npj Breast Cancer",
+    "year": 2021,
+    "authors": "Kalra M, Tong Y, Jones DR, et al.",
+    "paperType": "rct",
+    "doi": "10.1038/s41523-021-00240-w",
+    "pmid": "33753748",
+    "participants": 128,
+    "tldr": "Adding low-dose rucaparib to cisplatin did not significantly improve the main outcome after surgery. Limited drug exposure makes this an incomplete test of other PARP strategies.",
+    "summary": "Randomized postoperative TNBC or BRCA-mutated breast trial with residual invasive tumour greater than 2 cm or persistent nodal involvement after neoadjuvant therapy. Patients received cisplatin alone or with low-dose rucaparib; accrual occurred in 2010 to 2013.",
+    "findings": [
+      "Two-year DFS: 54.2% with cisplatin versus 64.1% with cisplatin/rucaparib; p=0.29.",
+      "Rucaparib exposure was limited; the authors concluded the tested regimen did not improve two-year DFS."
+    ],
+    "whatItMeans": "Negative result for the tested low-exposure combination; not proof that every rucaparib or PARP strategy fails.",
+    "caveats": [
+      "Negative result for the tested low-exposure combination; not proof that every rucaparib or PARP strategy fails.",
+      "Predates modern neoadjuvant chemoimmunotherapy and did not establish somatic-BRCA selection."
+    ],
+    "targets": [
+      "parp"
+    ],
+    "drugs": [
+      "rucaparib",
+      "cisplatin"
+    ],
+    "trials": [
+      "nct01074970"
+    ],
+    "cancers": [
+      "breast-cancer",
+      "tnbc"
+    ],
+    "links": [
+      {
+        "label": "Primary publication",
+        "url": "https://doi.org/10.1038/s41523-021-00240-w"
+      },
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33753748/"
+      }
+    ]
+  },
+  {
+    "id": "paper-andrade-neo-real-adjuvant-safety-2026",
+    "kind": "paper",
+    "name": "Neo-Real: adjuvant treatment patterns and safety after TNBC chemoimmunotherapy",
+    "asOf": "2026-10-10",
+    "journal": "Breast Cancer Research and Treatment",
+    "year": 2026,
+    "authors": "Andrade MO, Bonadio RC, Ipi\u00f1a A, et al.",
+    "paperType": "real-world",
+    "doi": "10.1007/s10549-026-07938-0",
+    "pmid": "41848921",
+    "participants": 726,
+    "tldr": "After chemoimmunotherapy, combinations of additional drugs were common when cancer remained at surgery. This study describes safety, not whether the combinations improve survival.",
+    "summary": "Brazilian/Argentinian real-world TNBC cohort: 726 included, 692 underwent surgery and safety information was available for 359. Among residual-disease participants without germline BRCA1/2 mutations, most received pembrolizumab/capecitabine; among the small BRCA-mutated residual group, pembrolizumab/olaparib was common. No survival outcomes are reported.",
+    "findings": [
+      "Pembrolizumab alone had 6.7% grade \u22653 adverse events and lower incidence than combination regimens (p=0.002).",
+      "Drug discontinuation: pembrolizumab 5.7%, pembrolizumab/capecitabine 11.2%, pembrolizumab/olaparib 7.7% (p=0.126)."
+    ],
+    "whatItMeans": "Observational prescribing/safety data do not establish efficacy, comparative benefit or safety after prior pneumonitis.",
+    "caveats": [
+      "Observational prescribing/safety data do not establish efficacy, comparative benefit or safety after prior pneumonitis.",
+      "Small olaparib-treated subgroup and incomplete safety capture; not evidence for somatic-only adjuvant PARP benefit."
+    ],
+    "targets": [
+      "parp"
+    ],
+    "drugs": [
+      "olaparib",
+      "pembrolizumab",
+      "capecitabine"
+    ],
+    "trials": [],
+    "cancers": [
+      "breast-cancer",
+      "tnbc"
+    ],
+    "links": [
+      {
+        "label": "Primary publication",
+        "url": "https://doi.org/10.1007/s10549-026-07938-0"
+      },
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41848921/"
+      }
+    ]
+  },
+  {
+    "id": "nct02286687",
+    "kind": "trial",
+    "name": "Talazoparib molecular basket in advanced cancers",
+    "nct": "NCT02286687",
+    "asOf": "2026-10-10",
+    "phase": "2",
+    "status": "active",
+    "setting": "Advanced cancers with BRCA1/2, selected other DNA-repair or PTEN alterations",
+    "sponsor": "M.D. Anderson Cancer Center",
+    "tldr": "This closed study tested talazoparib in advanced cancers with selected DNA-repair or PTEN alterations. Its published somatic-BRCA results come from a small mixed-cancer cohort.",
+    "summary": "Registry active not recruiting, last updated 2026-06-12. Advanced cancers with BRCA1/2, selected other DNA-repair or PTEN alterations. The registry enrollment is estimated at 150; the 2024 publication reports 79 treated participants and 18 in the somatic BRCA1/2 cohort. These are different populations, not conflicting efficacy denominators. No current enrollment route.",
+    "started": "2014-12-22",
+    "startedType": "actual",
+    "enrolled": 150,
+    "drugs": [
+      "talazoparib"
+    ],
+    "targets": [
+      "parp"
+    ],
+    "cancers": [
+      "breast-cancer",
+      "tnbc"
+    ],
+    "keyPapers": [
+      "paper-piha-paul-talazoparib-ddr-npj-2024"
+    ],
+    "links": [
+      {
+        "label": "ClinicalTrials.gov NCT02286687",
+        "url": "https://clinicaltrials.gov/study/NCT02286687"
+      }
+    ]
+  },
+  {
+    "id": "nct01074970",
+    "kind": "trial",
+    "name": "BRE09-146: postoperative cisplatin with or without rucaparib",
+    "nct": "NCT01074970",
+    "asOf": "2026-10-10",
+    "phase": "2",
+    "status": "completed",
+    "setting": "Postoperative TNBC or BRCA-mutated breast cancer with residual tumour greater than 2 cm or persistent nodal involvement after neoadjuvant therapy",
+    "sponsor": "Hoosier Cancer Research Network",
+    "tldr": "This completed study tested extra treatment for breast cancer remaining after chemotherapy and surgery. Adding the tested low-dose rucaparib regimen did not significantly improve two-year disease-free survival.",
+    "summary": "Registry completed, last updated 2024-09-19. Postoperative TNBC or BRCA-mutated breast cancer with residual tumour greater than 2 cm or persistent nodal involvement after neoadjuvant therapy. The registry records 135 enrolled; the paper reports 128 randomized. Low rucaparib exposure and the historical regimen limit extrapolation to other PARP strategies.",
+    "started": "2010-02",
+    "enrolled": 135,
+    "drugs": [
+      "rucaparib",
+      "cisplatin"
+    ],
+    "targets": [
+      "parp"
+    ],
+    "cancers": [
+      "breast-cancer",
+      "tnbc"
+    ],
+    "keyPapers": [
+      "paper-kalra-bre09-146-rucaparib-npj-2021"
+    ],
+    "links": [
+      {
+        "label": "ClinicalTrials.gov NCT01074970",
+        "url": "https://clinicaltrials.gov/study/NCT01074970"
+      }
+    ]
+  },
+  {
+    "id": "axatilimab",
+    "kind": "drug",
+    "name": "Axatilimab",
+    "brand": "Niktimvo",
+    "aka": [
+      "axatilimab-csfr"
+    ],
+    "asOf": "2026-10-10",
+    "status": "approved",
+    "modality": "Monoclonal antibody",
+    "mechanism": "Blocks colony-stimulating factor 1 receptor (CSF1R), affecting CSF1-dependent monocytes and macrophages. Its breast-cancer use with olaparib is investigational.",
+    "tldr": "Axatilimab targets an immune-cell signal used by macrophages. It is approved for chronic graft-versus-host disease and is being tested with olaparib in advanced breast cancer.",
+    "summary": "FDA approval on 2024-08-14 is for chronic graft-versus-host disease after failure of at least two prior systemic treatments in adults and children weighing at least 40 kg. This is not a breast-cancer approval. The June 2026 label describes CSF1R blockade and monitoring for infusion reactions and laboratory abnormalities. The recruiting phase 1b olaparib combination, NCT06488378, studies metastatic or unresectable HER2-negative breast cancer with qualifying BRCA1/2 or germline PALB2 alterations; a history of pneumonitis or ILD, or baseline evidence of either, is excluded. No comparative or postoperative efficacy is established.",
+    "approvals": [
+      {
+        "region": "US",
+        "year": 2024,
+        "indication": "Chronic graft-versus-host disease after failure of at least two prior systemic lines in adults and pediatric patients weighing at least 40 kg",
+        "note": "FDA approval is for chronic GVHD, not breast cancer."
+      }
+    ],
+    "targets": [
+      "csf1r"
+    ],
+    "companies": [
+      "syndax",
+      "incyte"
+    ],
+    "trials": [
+      "nct06488378"
+    ],
+    "cancers": [
+      "breast-cancer"
+    ],
+    "links": [
+      {
+        "label": "FDA approval and indication",
+        "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-axatilimab-csfr-chronic-graft-versus-host-disease"
+      },
+      {
+        "label": "Current Niktimvo label (DailyMed)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bb6dba23-e7a6-4765-a1e6-b9e277ce0381"
+      },
+      {
+        "label": "Investigational breast combination NCT06488378",
+        "url": "https://clinicaltrials.gov/study/NCT06488378"
+      }
     ]
   }
 ];

@@ -7,10 +7,17 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 14 October 2026
+- Concept search recovers after a blip, a stale feed stops claiming it is fresh, and the chain keeps what landed while it worked
 - Concept search recovers after a blip, and a stale feed stops claiming it is fresh
+- chore: refresh preprint tracker from Europe PMC (#261)
+- chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE) (#260)
+- chore: check regional approvals against the EMA register (#259)
+- chore: EU regional rows read from the EMA register pages (#258)
 
 ### 13 October 2026
+- chore: weekly maintenance (logos, structures, trial links, acronyms, orphan links) (#257)
 - chore: draft change proposals that need review
+- chore: EU regional rows read from the EMA register pages (#255)
 
 ### 12 October 2026
 - Fifty-eight UCSF breast studies we were missing, and the PARP breast gaps closed

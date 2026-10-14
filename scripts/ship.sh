@@ -63,6 +63,16 @@ for i in {1..${#CHECKS[@]}}; do
 done
 git add -A
 git commit -q -m "$S" -m "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>" || echo "nothing new to commit"
+# The gates take ten minutes or more, and the weekly bots push during them. Three chains were lost to that in a
+# week (197, 199 and 202, to EMA rows, trial counts and the Tuesday universe refresh), each costing a full re-run
+# of gates that had already passed. So take whatever landed while we worked, by merge rather than rebase: these
+# are merge commits of contributors' pull requests and rebasing them rewrites history GitHub has already seen.
+# A genuine conflict still stops the ship, which is right: nobody should resolve one unattended.
+git fetch -q origin main
+if ! git merge --no-edit -m "Merge remote-tracking branch 'origin/main'" origin/main; then
+  git merge --abort 2>/dev/null
+  echo "PUSH-CONFLICT: origin/main moved and the merge conflicts; resolve by hand and ship again"; exit 1
+fi
 git push origin HEAD || { echo PUSH-FAILED; exit 1; }
 echo UPLOADED
 vercel deploy --prod --yes --archive=tgz > /tmp/vercel-tick$N.log 2>&1

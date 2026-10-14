@@ -1,16 +1,16 @@
 {
- "checked": "2026-10-07",
+ "checked": "2026-10-14",
  "source": {
   "label": "ClinicalTrials.gov: interventional studies, condition 'cancer'",
   "url": "https://clinicaltrials.gov/search?cond=cancer&aggFilters=studyType:int"
  },
  "method": "ClinicalTrials.gov API v2 with query.cond=cancer and countTotal=true: interventional studies; of those, phase 3; of those, recruiting. Sponsors: distinct lead sponsor names (class INDUSTRY) across all phase 3 interventional cancer studies, so subsidiaries and name variants count separately.",
- "total": 97551,
- "phase3": 11028,
- "recruiting": 14307,
+ "total": 97649,
+ "phase3": 11037,
+ "recruiting": 14329,
  "industryPhase3": {
-  "studies": 4258,
-  "sponsors": 941
+  "studies": 4259,
+  "sponsors": 942
  },
  "items": [
   {
@@ -23,7 +23,7 @@
   },
   {
    "name": "AstraZeneca",
-   "studies": 205
+   "studies": 204
   },
   {
    "name": "Novartis Pharmaceuticals",
@@ -111,7 +111,7 @@
   },
   {
    "name": "Shanghai Henlius Biotech",
-   "studies": 23
+   "studies": 24
   },
   {
    "name": "Akeso",
@@ -850,10 +850,6 @@
    "studies": 3
   },
   {
-   "name": "Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator, IRB Chair",
-   "studies": 3
-  },
-  {
    "name": "Heidelberg Pharma AG",
    "studies": 3
   },
@@ -1306,6 +1302,10 @@
    "studies": 2
   },
   {
+   "name": "Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator, IRB Chair",
+   "studies": 2
+  },
+  {
    "name": "Harbour BioMed (Guangzhou) Co. Ltd.",
    "studies": 2
   },
@@ -1647,6 +1647,10 @@
   },
   {
    "name": "SynCore Biotechnology Co., Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "SystImmune Inc.",
    "studies": 2
   },
   {
@@ -2463,6 +2467,10 @@
   },
   {
    "name": "Hamlet Pharma AB",
+   "studies": 1
+  },
+  {
+   "name": "Han Xu, M.D., Ph.D., FAPCR, Medical Director, IRB Chair",
    "studies": 1
   },
   {
@@ -3555,10 +3563,6 @@
   },
   {
    "name": "SynOx Therapeutics Limited",
-   "studies": 1
-  },
-  {
-   "name": "SystImmune Inc.",
    "studies": 1
   },
   {

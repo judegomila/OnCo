@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-07",
+ "checked": "2026-10-14",
  "source": {
   "label": "OECI: Member Profiles",
   "url": "https://www.oeci.eu/MemberList.aspx"
@@ -14,12 +14,14 @@
  "items": [
   {
    "id": "227A",
-   "name": "Qendra Spitalore Universitare \"Nënë Tereza\"",
-   "altName": "University Hospital Center \"Mother Teresa\"",
+   "name": "Qendra Spitalore Universitare \"Nënë Tereza\" QSUNT",
+   "altName": "University Hospital Centre \"Mother Teresa\"",
    "country": "Albania",
    "website": "https://www.qsut.gov.al/",
    "membership": "Associate Member",
-   "leaders": []
+   "leaders": [
+    "Rudina Degjoni"
+   ]
   },
   {
    "id": "175A",
@@ -645,8 +647,8 @@
    "leaders": [
     "Nicolas Penel",
     "Céline Etchetto",
-    "Frederique Boyer",
-    "Pierre Soubeyran"
+    "Pierre Soubeyran",
+    "Frederique Boyer"
    ]
   },
   {
@@ -803,8 +805,12 @@
    "name": "Institut du Cancer Paris Seine-Saint Denis (ICaPSS)",
    "altName": "Paris Seine-Saint-Denis Cancer Institute",
    "country": "France",
+   "website": "https://icapss.aphp.fr",
    "membership": "Full Member",
-   "leaders": []
+   "leaders": [
+    "Arnaud Giraudet",
+    "Nathalie Ganne"
+   ]
   },
   {
    "id": "213",
@@ -836,7 +842,10 @@
    "country": "France",
    "website": "https://www.seintinelles.com/english-version/",
    "membership": "Associate Member",
-   "leaders": []
+   "leaders": [
+    "Guillemette Jacob",
+    "Marie Preau"
+   ]
   },
   {
    "id": "7",
@@ -1395,12 +1404,16 @@
   },
   {
    "id": "225A",
-   "name": "Alleanza Contro il Cancro",
+   "name": "Alleanza Contro il Cancro - ACC",
    "altName": "Alliance Against Cancer",
    "country": "Italy",
    "website": "https://alleanzacontroilcancro.it/en/",
    "membership": "Associate Member",
-   "leaders": []
+   "leaders": [
+    "Ruggero De Maria",
+    "Paolo De Paoli",
+    "Lisa Licitra"
+   ]
   },
   {
    "id": "230A",
@@ -2365,7 +2378,9 @@
    "website": "https://www.umcutrecht.nl",
    "membership": "Full Member",
    "leaders": [
-    "Miriam Koopman"
+    "Miriam Koopman",
+    "Wouter de Laat",
+    "Wim de Geus"
    ]
   },
   {

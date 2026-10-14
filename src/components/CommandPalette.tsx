@@ -102,6 +102,10 @@ export function CommandPalette() {
   const [active, setActive] = useState(0);
   const [ready, setReady] = useState(false);
   const [indexed, setIndexed] = useState(0);
+  /** The index could not be loaded. Typing again retries, because loadSearch drops a failed promise (#188). */
+  const [failed, setFailed] = useState(false);
+  /** Monotonic id of the newest query, so a slower earlier one cannot paint over it (#159). */
+  const request = useRef(0);
   const { kind: kindName, status: statusName } = useT();
   const input = useRef<HTMLInputElement>(null);
   const list = useRef<HTMLUListElement>(null);
@@ -166,23 +170,34 @@ export function CommandPalette() {
   useEffect(() => {
     if (!open) return;
     const t = setTimeout(() => input.current?.focus(), 0);
-    loadSearch().then(({ docs }) => { setIndexed(docs.length); setReady(true); });
+    loadSearch()
+      .then(({ docs }) => { setIndexed(docs.length); setReady(true); setFailed(false); })
+      .catch(() => setFailed(true));
     document.body.style.overflow = "hidden";
     return () => { clearTimeout(t); document.body.style.overflow = ""; };
   }, [open]);
 
+  /**
+   * Every keystroke, including the one that empties the box, claims the next request id. A load that resolves
+   * after its query stopped being the current one is discarded rather than painted: typing "pembro" and clearing
+   * the box used to leave that query's results under an empty input, and Enter then opened a record the reader
+   * had not asked for (#159, reported in #161).
+   */
   const run = useCallback((value: string) => {
+    const id = ++request.current;
     setActive(0);
     const needle = value.trim().toLowerCase();
     if (!needle) { setGroups(PAGE_GROUPS); return; }
     const pages = PAGES.filter((p) => `${p.name} ${p.tldr}`.toLowerCase().includes(needle)).slice(0, PAGE_MATCHES);
     loadSearch().then(({ ms }) => {
+      if (request.current !== id) return;
+      setFailed(false);
       // The whole ranked list comes back so the grouping can take the top rows of each kind; a page the tool list
       // already matched is not repeated from the index.
       const seen = new Set(pages.map((p) => p.route));
       const hits: Item[] = searchRanked(ms, value).filter((h) => !seen.has(h.route)).map((h) => ({ id: h.id, kind: h.kind, name: h.name, tldr: h.tldr, route: h.route, status: h.status }));
       setGroups(groupByKind([...pages, ...hits], VISIBLE));
-    });
+    }).catch(() => { if (request.current === id) { setFailed(true); setGroups(groupByKind(pages, VISIBLE)); } });
   }, []);
 
   const go = (item: Item) => { setOpen(false); setQ(""); setGroups(PAGE_GROUPS); router.push(item.route); };
@@ -231,8 +246,11 @@ export function CommandPalette() {
           <kbd className="hidden sm:inline text-[10px] text-muted border border-border rounded px-1.5 py-0.5">esc</kbd>
         </div>
         <ul id="palette-list" ref={list} className="max-h-[60vh] overflow-auto py-1" role="listbox" aria-label="Results">
-          {!ready && q && <li className="px-4 py-3 text-sm text-muted" role="presentation">Loading index…</li>}
-          {items.length === 0 && ready && <li className="px-4 py-3 text-sm text-muted" role="presentation">No matches.</li>}
+          {/* "Loading index…" stayed on screen for the rest of the visit when the load failed, because `ready`
+              never became true. It says what is true instead, and typing again retries (#188). */}
+          {failed && q && <li className="px-4 py-3 text-sm text-muted" role="presentation">Search is unavailable. Type again to retry.</li>}
+          {!ready && !failed && q && <li className="px-4 py-3 text-sm text-muted" role="presentation">Loading index…</li>}
+          {items.length === 0 && ready && !failed && <li className="px-4 py-3 text-sm text-muted" role="presentation">No matches.</li>}
           {rows.map((g) => [
             <KindGroupHeader key={`h-${g.kind}`} kind={g.kind} label={g.kind === "page" ? undefined : kindName(g.kind, "title")} />,
             ...g.rows.map(({ it, i }) => (

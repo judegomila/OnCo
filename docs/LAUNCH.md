@@ -134,6 +134,18 @@ any source can find; each needs a Wikidata QID by hand.
   TROP2); and per-study redistribution terms must be read rather than assumed, since the software is AGPL and each
   study carries its own, then recorded in docs/DATA-SOURCES.md like every other fetcher.
 
+- [ ] **Reader actions on a page (owner asked 14 October 2026).** The ask: let a reader act, not just read.
+  Contact a hospital, reach a named specialist, find out how to get hold of a medicine, order a test. First
+  deliverable named by the owner: find every self-service test a reader could order themselves.
+  First measurement, 14 October 2026: 46 technology records look like tests; 11 of them mention at-home,
+  self-sampling, saliva, stool or mail, including HPV self-sampling, FIT and multitarget stool RNA (ColoSense),
+  germline testing and the consumer biological-age tests. That is a starting set, not an inventory: the corpus
+  has no field saying who can order a test, so the scope job is to decide what the field records (ordered by a
+  clinician / orderable by the reader / available direct-to-consumer, and in which countries) before writing it.
+  Note the hard part is not the data: an action a reader can take is a claim about availability, which varies by
+  country and payer and goes out of date faster than anything else on the site. Institutions already carry a
+  website and a city; people carry a role and an institution. Those are the honest starting points.
+
 ## Standing rules (see memory)
 Plain English first, UK spelling, no em-dashes in copy, no "as of", no invented numbers, corrections via issue form only,
 light theme default, pink accent, no red buttons, never "spike", survival figures behind a click, solution and mechanism first,

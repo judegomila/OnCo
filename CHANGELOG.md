@@ -6,6 +6,12 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 14 October 2026
+- Concept search recovers after a blip, and a stale feed stops claiming it is fresh
+
+### 13 October 2026
+- chore: draft change proposals that need review
+
 ### 12 October 2026
 - Fifty-eight UCSF breast studies we were missing, and the PARP breast gaps closed
 - chore: render this week's issue to public/newsletter/ (#254)
@@ -93,6 +99,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Scope recovery assertions to lexical search errors
 - Preserve paper snapshots after malformed search responses
 - Restore command palette opener focus on dismissal
+- Retry concept search after temporary index failures
 - Require verified rows before advancing the EMA check stamp
 - fix: retry browser Ask index after temporary failures
 - Recover search results and inline answers after index failures

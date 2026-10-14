@@ -6,6 +6,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { registryDateRange } from "./registry-dates";
+import { literatureDates, snapshotDates } from "./literature-dates";
 
 export type FeedDef = {
   id: string;
@@ -18,7 +19,7 @@ export type FeedDef = {
   cadenceDays: number;
   source: string;
   /** Pull the oldest fetched date, optional latest date and a headline count from the snapshot. */
-  describe: (json: Record<string, unknown>) => { fetched?: string; fetchedThrough?: string; count?: number; note?: string };
+  describe: (json: Record<string, unknown>, root?: string) => { fetched?: string; fetchedThrough?: string; count?: number; note?: string };
 };
 
 export type FeedStatus = {
@@ -46,11 +47,15 @@ export const FEEDS: FeedDef[] = [
   { id: "trial-changes", label: "Trial status changes", path: "trials/changes.json", script: "scripts/fetch-trials.ts", workflow: "refresh-trials.yml", cadenceDays: 7, source: "ClinicalTrials.gov API v2 (diff against previous snapshot)",
     describe: (j) => ({ fetched: str(j.fetched), count: len(j.changes), note: "changes detected in the last 90 days" }) },
   { id: "papers", label: "Literature snapshot", path: "papers/index.json", script: "scripts/fetch-papers.ts", workflow: "refresh-papers.yml", cadenceDays: 7, source: "Europe PMC REST API",
-    describe: (j) => ({ fetched: str(j.fetched), count: keys(j.entities), note: "objects with paper counts" }) },
+    describe: (j, root) => { const d = literatureDates("papers", j.entities, root);
+      return { fetched: d.unknown ? undefined : d.oldest, fetchedThrough: d.newest, count: keys(j.entities),
+        note: d.unknown ? `objects with paper counts; ${d.unknown} of ${d.total} topic dates unknown` : "objects with paper counts; age is the oldest topic" }; } },
   { id: "openalex-institutions", label: "Institution research output", path: "openalex/institutions.json", script: "scripts/fetch-openalex.ts", cadenceDays: 90, source: "OpenAlex (CC0)",
     describe: (j) => ({ fetched: str(j.fetched), count: keys(j.institutions), note: str(j.note) }) },
   { id: "openalex-research", label: "Institution research output, five years", path: "openalex/research-index.json", script: "scripts/fetch-institution-research.ts", workflow: "refresh-research.yml", cadenceDays: 7, source: "OpenAlex works by institution lineage (CC0)",
-    describe: (j) => ({ fetched: str(j.fetched), count: keys(j.institutions), note: `${keys(j.unresolved) ?? 0} institutions unresolved` }) },
+    describe: (j, root) => { const d = snapshotDates("openalex/research", j.institutions, root);
+      return { fetched: d.unknown ? undefined : d.oldest, fetchedThrough: d.newest, count: keys(j.institutions),
+        note: `${keys(j.unresolved) ?? 0} institutions unresolved; age is the oldest institution snapshot${d.unknown ? `, ${d.unknown} of ${d.total} undated` : ""}` }; } },
   { id: "citations", label: "Key paper citation counts", path: "citations/index.json", script: "scripts/fetch-citations.ts", workflow: "refresh-pulse.yml", cadenceDays: 7, source: "Europe PMC REST API (citedByCount by DOI or PMID)",
     describe: (j) => ({ fetched: str(j.fetched), count: keys(j.papers), note: "key papers with a citation count" }) },
   { id: "openalex-papers", label: "Key paper citations by year", path: "openalex/papers.json", script: "scripts/fetch-openalex-papers.ts", workflow: "refresh-pulse.yml", cadenceDays: 7, source: "OpenAlex works by DOI (CC0)",
@@ -70,7 +75,9 @@ export const FEEDS: FeedDef[] = [
   { id: "survival", label: "Survival statistics", path: "survival/index.json", script: "scripts/fetch-survival.ts", workflow: "refresh-hta.yml", cadenceDays: 90, source: "SEER Cancer Stat Facts (NCI)",
     describe: (j) => ({ fetched: str(j.fetched), count: keys(j.sites), note: "SEER sites with survival tables" }) },
   { id: "preprints", label: "Preprints", path: "preprints/index.json", script: "scripts/fetch-preprints.ts", workflow: "refresh-preprints.yml", cadenceDays: 7, source: "Europe PMC preprint records",
-    describe: (j) => ({ fetched: str(j.fetched), count: keys(j.entities) ?? len(j.items) }) },
+    describe: (j, root) => { const d = literatureDates("preprints", j.entities, root);
+      return { fetched: d.unknown ? undefined : d.oldest, fetchedThrough: d.newest, count: keys(j.entities) ?? len(j.items),
+        note: d.unknown ? `${d.unknown} of ${d.total} topic dates unknown` : "age is the oldest topic" }; } },
   { id: "factcheck", label: "Registry fact check", path: "factcheck.json", script: "scripts/factcheck.ts", workflow: "factcheck.yml", cadenceDays: 7, source: "openFDA labels, ClinicalTrials.gov",
     describe: (j) => ({ fetched: str(j.generated)?.slice(0, 10), count: len(j.mismatches), note: "mismatches" }) },
   { id: "audit", label: "Corpus audit", path: "audit.json", script: "scripts/audit.ts", workflow: "factcheck.yml", cadenceDays: 7, source: "corpus rules",
@@ -99,7 +106,7 @@ export function feedStatus(def: FeedDef, now = new Date(), root = process.cwd())
   const base = { id: def.id, label: def.label, path: def.path, script: def.script, workflow: def.workflow, source: def.source, cadenceDays: def.cadenceDays };
   if (!json) return { ...base, present: false, stale: true };
   let d: { fetched?: string; fetchedThrough?: string; count?: number; note?: string } = {};
-  try { d = def.describe(json); } catch { d = {}; }
+  try { d = def.describe(json, root); } catch { d = {}; }
   const ageDays = ageInDays(d.fetched, now);
   return { ...base, present: true, fetched: d.fetched, fetchedThrough: d.fetchedThrough, ageDays, count: d.count, note: d.note, stale: ageDays === undefined || ageDays > def.cadenceDays * 2 };
 }

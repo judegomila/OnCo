@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08",
+ "generatedAt": "2026-10-15",
  "offline": false,
  "requests": 344,
  "roadmaps": [
@@ -3038,7 +3038,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2027-12-15",
       "completion": "2027-12-15",
-      "lastUpdate": "2026-09-16"
+      "lastUpdate": "2026-10-09"
      },
      "contradictions": [],
      "explained": [
@@ -4703,7 +4703,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2030-05-29",
       "completion": "2030-05-29",
-      "lastUpdate": "2026-09-18"
+      "lastUpdate": "2026-10-09"
      },
      "contradictions": [],
      "explained": [],
@@ -5052,7 +5052,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2022-10-03",
       "completion": "2027-06-30",
-      "lastUpdate": "2026-09-29"
+      "lastUpdate": "2026-10-14"
      },
      "contradictions": [],
      "explained": [
@@ -5352,7 +5352,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-06-26",
       "completion": "2031-11-19",
-      "lastUpdate": "2026-07-15"
+      "lastUpdate": "2026-10-14"
      },
      "contradictions": [],
      "explained": [],
@@ -6357,7 +6357,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2032-03-31",
       "completion": "2032-03-31",
-      "lastUpdate": "2026-10-07"
+      "lastUpdate": "2026-10-14"
      },
      "contradictions": [],
      "explained": [],
@@ -7784,7 +7784,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2028-09-15",
       "completion": "2029-03-19",
-      "lastUpdate": "2026-09-22"
+      "lastUpdate": "2026-10-08"
      },
      "contradictions": [],
      "explained": [],
@@ -8547,7 +8547,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2026-02-18",
       "completion": "2027-08-28",
-      "lastUpdate": "2026-09-04"
+      "lastUpdate": "2026-10-13"
      },
      "contradictions": [],
      "explained": [],
@@ -10284,7 +10284,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-06-26",
       "completion": "2031-11-19",
-      "lastUpdate": "2026-07-15"
+      "lastUpdate": "2026-10-14"
      },
      "contradictions": [],
      "explained": [],
@@ -11899,7 +11899,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2027-06",
       "completion": "2031-08",
-      "lastUpdate": "2026-09-09"
+      "lastUpdate": "2026-10-13"
      },
      "contradictions": [],
      "explained": [],
@@ -12465,9 +12465,9 @@
       "studyType": "INTERVENTIONAL",
       "enrolment": 1174,
       "enrolmentType": "ACTUAL",
-      "primaryCompletion": "2027-09-20",
-      "completion": "2030-01-30",
-      "lastUpdate": "2026-06-15"
+      "primaryCompletion": "2027-09-01",
+      "completion": "2030-02-28",
+      "lastUpdate": "2026-10-14"
      },
      "contradictions": [],
      "explained": [],

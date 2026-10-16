@@ -6,6 +6,9 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 16 October 2026
+- Nineteen immune markers get a page, and the microenvironment records link to the agents aimed at them
+
 ### 14 October 2026
 - The command palette stops showing results for a query you have cleared
 - Concept search recovers after a blip, a stale feed stops claiming it is fresh, and the chain keeps what landed while it worked

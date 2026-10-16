@@ -14,7 +14,29 @@ export type TargetXref = { genes: GeneXref[] };
 export const TARGET_XREFS_GENERATED = "2026-09-23";
 
 // Gene records written by scripts/fetch-cancer-genes.ts carry their own HGNC-derived cross-references; a hand-fetched entry below wins.
-export const targetXrefs: Record<string, TargetXref> = { ...targetXrefsGenes, ...targetXrefsCansim,
+export const targetXrefs: Record<string, TargetXref> = {
+  // Immune cell-surface markers added with src/data/targets-immune-markers.ts on 2026-10-16, fetched from the
+  // same HGNC endpoint scripts/fetch-xrefs.ts uses. A full run of that script regenerates them with the rest.
+  cd4: { genes: [{ symbol: "CD4", name: "CD4 molecule", hgnc: "HGNC:1678", ensembl: "ENSG00000010610", uniprot: "P01730", entrez: "920", omim: "186940", locus: "12p13.31" }] },
+  cd8: { genes: [{ symbol: "CD8A", name: "CD8 subunit alpha", hgnc: "HGNC:1706", ensembl: "ENSG00000153563", uniprot: "P01732", entrez: "925", omim: "186910", locus: "2p11.2" }] },
+  cd14: { genes: [{ symbol: "CD14", name: "CD14 molecule", hgnc: "HGNC:1628", ensembl: "ENSG00000170458", uniprot: "P08571", entrez: "929", omim: "158120", locus: "5q31.3" }] },
+  cd163: { genes: [{ symbol: "CD163", name: "CD163 molecule", hgnc: "HGNC:1631", ensembl: "ENSG00000177575", uniprot: "Q86VB7", entrez: "9332", omim: "605545", locus: "12p13.31" }] },
+  cd56: { genes: [{ symbol: "NCAM1", name: "neural cell adhesion molecule 1", hgnc: "HGNC:7656", ensembl: "ENSG00000149294", uniprot: "P13591", entrez: "4684", omim: "116930", locus: "11q23.2" }] },
+  cd11b: { genes: [{ symbol: "ITGAM", name: "integrin subunit alpha M", hgnc: "HGNC:6149", ensembl: "ENSG00000169896", uniprot: "P11215", entrez: "3684", omim: "120980", locus: "16p11.2" }] },
+  cd66b: { genes: [{ symbol: "CEACAM8", name: "CEA cell adhesion molecule 8", hgnc: "HGNC:1820", ensembl: "ENSG00000124469", uniprot: "P31997", entrez: "1088", omim: "615747", locus: "19q13.2" }] },
+  cd11c: { genes: [{ symbol: "ITGAX", name: "integrin subunit alpha X", hgnc: "HGNC:6152", ensembl: "ENSG00000140678", uniprot: "P20702", entrez: "3687", omim: "151510", locus: "16p11.2" }] },
+  cd1c: { genes: [{ symbol: "CD1C", name: "CD1c molecule", hgnc: "HGNC:1636", ensembl: "ENSG00000158481", uniprot: "P29017", entrez: "911", omim: "188340", locus: "1q23.1" }] },
+  cd141: { genes: [{ symbol: "THBD", name: "thrombomodulin", hgnc: "HGNC:11784", ensembl: "ENSG00000178726", uniprot: "P07204", entrez: "7056", omim: "188040", locus: "20p11.21" }] },
+  "hla-dr": { genes: [{ symbol: "HLA-DRA", name: "major histocompatibility complex, class II, DR alpha", hgnc: "HGNC:4947", ensembl: "ENSG00000204287", uniprot: "P01903", entrez: "3122", omim: "142860", locus: "6p21.32" }] },
+  cd57: { genes: [{ symbol: "B3GAT1", name: "beta-1,3-glucuronyltransferase 1", hgnc: "HGNC:921", ensembl: "ENSG00000109956", uniprot: "Q9P2W7", entrez: "27087", omim: "151290", locus: "11q25" }] },
+  cd62l: { genes: [{ symbol: "SELL", name: "selectin L", hgnc: "HGNC:10720", ensembl: "ENSG00000188404", uniprot: "P14151", entrez: "6402", omim: "153240", locus: "1q24.2" }] },
+  cd69: { genes: [{ symbol: "CD69", name: "CD69 molecule", hgnc: "HGNC:1694", ensembl: "ENSG00000110848", uniprot: "Q07108", entrez: "969", omim: "107273", locus: "12p13.31" }] },
+  cxcr3: { genes: [{ symbol: "CXCR3", name: "C-X-C motif chemokine receptor 3", hgnc: "HGNC:4540", ensembl: "ENSG00000186810", uniprot: "P49682", entrez: "2833", omim: "300574", locus: "Xq13.1" }] },
+  cxcr5: { genes: [{ symbol: "CXCR5", name: "C-X-C motif chemokine receptor 5", hgnc: "HGNC:1060", ensembl: "ENSG00000160683", uniprot: "P32302", entrez: "643", omim: "601613", locus: "11q23.3" }] },
+  ccr6: { genes: [{ symbol: "CCR6", name: "C-C motif chemokine receptor 6", hgnc: "HGNC:1607", ensembl: "ENSG00000112486", uniprot: "P51684", entrez: "1235", omim: "601835", locus: "6q27" }] },
+  cd34: { genes: [{ symbol: "CD34", name: "CD34 molecule", hgnc: "HGNC:1662", ensembl: "ENSG00000174059", uniprot: "P28906", entrez: "947", omim: "142230", locus: "1q32.2" }] },
+  cd235a: { genes: [{ symbol: "GYPA", name: "glycophorin A (MNS blood group)", hgnc: "HGNC:4702", ensembl: "ENSG00000170180", uniprot: "P02724", entrez: "2993", omim: "617922", locus: "4q31.21" }] },
+ ...targetXrefsGenes, ...targetXrefsCansim,
   // PTK7 fetched with the existing HGNC/ChEMBL generator, restricted to this target, 2026-10-06.
   "ptk7": {
     genes: [

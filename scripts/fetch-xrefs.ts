@@ -8,7 +8,10 @@
  * AlphaFold DB links are derived from these ids at render time (see src/components/XrefStrip.tsx), so nothing is
  * typed by hand. Symbols come from `target.symbol`; a few targets name several genes ("BRCA1, BRCA2", "AKT1/2/3").
  *
- * Run: npx tsx scripts/fetch-xrefs.ts   (network; ~200 requests)
+ * Run: npx tsx scripts/fetch-xrefs.ts   (network; every target in the corpus, several hours at HGNC's pace)
+ *
+ * Known limits, found 16 October 2026 and not yet fixed: there is no way to refresh a few targets without
+ * refetching all 1,694, which is why new target records are added without identifiers and wait for a full run.
  */
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -74,15 +77,29 @@ async function hgnc(symbol: string): Promise<HgncDoc | null> {
   return null;
 }
 
+/**
+ * The ChEMBL id is optional in GeneXref, so a ChEMBL outage must not cost the whole run. It did: a single
+ * unreachable call aborted the script after it had already resolved hundreds of genes from HGNC, and nothing was
+ * written. An unavailable ChEMBL now leaves the field empty and the run continues; the HGNC ids are the ones the
+ * records are checked against.
+ */
 async function chembl(uniprot: string): Promise<string | undefined> {
-  const j = await getJson<{ targets: Array<{ target_chembl_id: string; target_type: string; organism: string }> }>(`https://www.ebi.ac.uk/chembl/api/data/target.json?target_components__accession=${uniprot}&organism=Homo%20sapiens&limit=20`);
-  const single = j.targets.find((t) => t.target_type === "SINGLE PROTEIN");
-  return (single ?? j.targets[0])?.target_chembl_id;
+  try {
+    const j = await getJson<{ targets: Array<{ target_chembl_id: string; target_type: string; organism: string }> }>(`https://www.ebi.ac.uk/chembl/api/data/target.json?target_components__accession=${uniprot}&organism=Homo%20sapiens&limit=20`);
+    const single = j.targets.find((t) => t.target_type === "SINGLE PROTEIN");
+    return (single ?? j.targets[0])?.target_chembl_id;
+  } catch (e) {
+    console.warn(`  ChEMBL unavailable for ${uniprot}: ${(e as Error).message}`);
+    return undefined;
+  }
 }
 
 async function main() {
   const g = graph();
   const targets = g.kind("target");
+  // The file is `{ ...targetXrefsGenes, <literal> }`, and the literal wins. Deriving the literal from the merged
+  // export cannot work: an id in both would be dropped, which silently replaced the hand-fetched mycn and pten
+  // entries with the thinner generated ones. So the literal block is read back from the file as written.
   const out: Record<string, { genes: Array<Record<string, string | undefined>> }> = {};
   let n = 0;
   for (const t of targets) {
@@ -109,6 +126,7 @@ async function main() {
  * Do not edit by hand; re-run the script. Link builders live in src/components/XrefStrip.tsx.
  */
 import { targetXrefsGenes } from "./target-xrefs-genes";
+import { targetXrefsCansim } from "./target-xrefs-cansim";
 
 export type GeneXref = {
   symbol: string; name: string; hgnc: string; ensembl?: string; uniprot?: string; entrez?: string; chembl?: string; cosmic?: string; omim?: string; locus?: string;
@@ -118,7 +136,7 @@ export type TargetXref = { genes: GeneXref[] };
 export const TARGET_XREFS_GENERATED = "${today}";
 
 // Gene records written by scripts/fetch-cancer-genes.ts carry their own HGNC-derived cross-references; a hand-fetched entry below wins.
-export const targetXrefs: Record<string, TargetXref> = { ...targetXrefsGenes,${JSON.stringify(out, null, 2).replace(/"([a-zA-Z_]+)":/g, "$1:").slice(1)};
+export const targetXrefs: Record<string, TargetXref> = { ...targetXrefsGenes, ...targetXrefsCansim,${JSON.stringify(out, null, 2).replace(/"([a-zA-Z_]+)":/g, "$1:").slice(1)};
 `;
   writeFileSync(join(process.cwd(), "src", "data", "target-xrefs.ts"), body);
   console.log(`xrefs: ${Object.keys(out).length} targets, ${n} genes → src/data/target-xrefs.ts`);

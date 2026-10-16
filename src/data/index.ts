@@ -125,6 +125,7 @@ import { companiesSponsorsWave3 } from "./companies-sponsors-wave3";
 import { companiesMakersWave4 } from "./companies-makers-wave4";
 import { targetsWaveSoc } from "./targets-wave-soc";
 import { targetsGenesWave } from "./targets-genes-wave";
+import { targetsImmuneMarkers } from "./targets-immune-markers";
 import { targetSpecificity } from "./target-specificity";
 import { targetsReaderEdits } from "./targets-reader-edits";
 import { drugsEmaWave } from "./drugs-ema-wave";
@@ -306,7 +307,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...companiesSponsors,
   ...companiesSponsorsWave3, ...companiesCooperativeGroups, ...companiesCooperativeGroupsMigrated,
   ...companiesMakersWave4,
-  ...targetsWaveSoc, ...targetsReaderEdits, ...targetsGenesWave, ...drugsEmaWave, ...companiesSponsorsWave,
+  ...targetsWaveSoc, ...targetsReaderEdits, ...targetsGenesWave, ...targetsImmuneMarkers, ...drugsEmaWave, ...companiesSponsorsWave,
   ...drugsPipelineWave1,
   ...trop2DualPayload,
   ...pipelineTrialsWave2,

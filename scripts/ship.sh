@@ -79,5 +79,8 @@ vercel deploy --prod --yes --archive=tgz > /tmp/vercel-tick$N.log 2>&1
 rmdir "$LOCK" 2>/dev/null; trap - EXIT INT TERM
 grep -i "aliased\|error" /tmp/vercel-tick$N.log | head -3
 # Verify: the alias must serve every check page with 200 within 30 minutes (the CLI can drop while the remote build continues).
-for i in $(seq 1 60); do ok=1; for p in "${CHECKS[@]}"; do c=$(curl -s -o /dev/null -w "%{http_code}" "https://onco.cc/$p"); [ "$c" = "200" ] || { ok=0; break; }; done; [ $ok = 1 ] && { echo "VERIFIED ${#CHECKS[@]} pages"; echo CHAIN-DONE; exit 0; }; sleep 30; done
+# A check page given as "/" or "/status/" would be curled as "https://onco.cc//status/", which answers 308 and
+# never 200, so the loop span the full thirty minutes and reported a timeout for a deploy that was already live
+# (chain 204). The leading slash is stripped rather than being something to remember.
+for i in $(seq 1 60); do ok=1; for p in "${CHECKS[@]}"; do c=$(curl -s -o /dev/null -w "%{http_code}" "https://onco.cc/${p#/}"); [ "$c" = "200" ] || { ok=0; break; }; done; [ $ok = 1 ] && { echo "VERIFIED ${#CHECKS[@]} pages"; echo CHAIN-DONE; exit 0; }; sleep 30; done
 echo "VERIFY-TIMEOUT: a check page is not live after 30 minutes"; exit 1

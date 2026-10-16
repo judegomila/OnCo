@@ -146,6 +146,34 @@ any source can find; each needs a Wikidata QID by hand.
   country and payer and goes out of date faster than anything else on the site. Institutions already carry a
   website and a city; people carry a role and an institution. Those are the honest starting points.
 
+- [ ] **Depth pass on immuno-oncology and the tumour microenvironment (owner asked 15 October 2026).**
+  Measured that day: the vocabulary is complete. All eighteen canonical concepts have records, including the ones
+  that look missing under their obvious name (extracellular matrix is `desmoplasia`). The gap is that they are
+  glossary entries rather than hubs: drugs and trials attached are almost all zero.
+
+  | record | drugs | trials | papers |
+  |---|---:|---:|---:|
+  | myeloid-derived-suppressor-cells | 0 | 0 | 0 |
+  | t-cell-exhaustion-term | 0 | 0 | 0 |
+  | tertiary-lymphoid-structures | 0 | 0 | 0 |
+  | cancer-associated-fibroblasts | 0 | 0 | 3 |
+  | tumor-associated-macrophages | 1 | 0 | 2 |
+  | cd73-adenosine | 2 | 0 | 1 |
+  | tumor-microenvironment (hub) | 0 | 0 | 17 |
+  | cold-vs-hot | 1 | 9 | 21 |
+
+  `cold-vs-hot` is what a developed one looks like and is the target shape. The others name mechanisms that are
+  actively drugged and have no agents attached: CSF1R and TAMs (axatilimab is now in the corpus and is not linked
+  here), FAP and CAFs, LAG-3/TIM-3/TIGIT and exhaustion, CD73/A2AR and adenosine. This is the TROP2 method
+  applied to mechanisms instead of targets: connect each concept to the agents and trials that act on it, and the
+  measure of success is the same, trials and products recorded per concept rather than new glossary text.
+
+- [ ] **A tools area for validated calculators, kept small (owner, 15 October 2026).** MSKCC nomograms, the NCI
+  colorectal survival calculator and PREDICT Breast, linked from the cancers they apply to, with the paper that
+  validated each and without quoting any of their outputs. The owner's steer with it: "i want to really focus our
+  work on solutions and possible solutions", so this is a link-out, not a programme of work, and prognosis
+  presentation (issue 43) stays parked behind it.
+
 ## Standing rules (see memory)
 Plain English first, UK spelling, no em-dashes in copy, no "as of", no invented numbers, corrections via issue form only,
 light theme default, pink accent, no red buttons, never "spike", survival figures behind a click, solution and mechanism first,

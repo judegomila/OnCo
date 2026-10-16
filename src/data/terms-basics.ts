@@ -565,7 +565,7 @@ export const termsBasics: TermInput[] = [
     related: ["antibody", "t-cell", "immune-system", "lymphoma-type", "leukaemia-type", "monoclonal"], targets: ["cd19", "cd20", "bcma", "cd38"], cancers: ["dlbcl", "cll", "multiple-myeloma", "all-leukemia"], technologies: ["car-t", "t-cell-engager"],
   }),
   t({
-    id: "nk-cell", name: "NK cell", category: BIO,
+    id: "nk-cell", name: "NK cell", category: BIO, targets: ["cd56", "fcgr3a", "cd57"],
     aka: ["NK cells", "natural killer cell", "natural killer cells", "natural killer", "NK-cell", "CAR-NK"],
     tldr: "Natural killer cells: fast-acting immune cells that destroy abnormal cells without needing to be trained on a specific target. They specialise in killing cells that have hidden themselves from T cells.",
     summary: "NK cells look for the absence of normal 'self' markers (HLA class I) and the presence of stress markers, so a tumour that escapes T cells by dropping HLA becomes an NK target; they also execute antibody-dependent killing (ADCC) by recognising antibodies coating a cell, which is part of how trastuzumab and rituximab work. Their killing does not require matching between donor and patient, so NK cells from healthy donors or cell lines can be engineered (CAR-NK) into off-the-shelf therapies with less risk of the graft attacking the patient. Tumours suppress them with TGF-beta and by shedding decoy ligands, and NK-directed drugs and engagers are an active area of development.",

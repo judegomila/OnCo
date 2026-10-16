@@ -9,10 +9,14 @@ permissions:
   contents: write
   pull-requests: write
 
+# The fetch and the gates are separate jobs because they were not: the fetch grew to about 89 minutes against a
+# 90-minute job budget, so the gates were cancelled and no pull request was ever opened. The snapshot sat at
+# 22 September for three weeks while the work was done and thrown away every Tuesday. The fetch now has its own
+# budget and hands the snapshot on as an artefact, so a slow fetch can delay the gates but can no longer eat them.
 jobs:
-  refresh:
+  fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -20,7 +24,30 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run fetch:papers -- --force
+      # No --force: settled years are reused from the snapshot already in the tree, which takes a topic from
+      # eleven requests to five. A stored zero is still refetched, so the recorded zeros heal as this runs.
+      - run: npm run fetch:papers
+      - uses: actions/upload-artifact@v4
+        with:
+          name: papers-snapshot
+          path: public/papers/
+          retention-days: 2
+
+  refresh:
+    needs: fetch
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: papers-snapshot
+          path: public/papers/
       # The merge below is unattended, so the tree the pull request carries must pass what a person's branch passes.
       # The gates never fail the job: when one does the pull request is still opened, the merge step is skipped and
       # the next step labels it for review, so a red snapshot waits for a person instead of landing on main.

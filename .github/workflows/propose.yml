@@ -109,6 +109,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh label create needs-review --color D93F0B --description "A person must check each row before it is applied" --force || true
       - uses: peter-evans/create-pull-request@v7
+        id: review_pr
         with:
           branch: bot/proposals
           title: "Bot proposals: rows that need a person"
@@ -120,6 +121,24 @@ jobs:
 
             Apply the ones that check out by editing the data files (or push commits to this branch), then merge; close the rest. `CORRECTIONS.md` carries one line for this run under "Proposed by the update bot"; move confirmed corrections into the dated tables above it.
 
-            This pull request is never merged automatically.
+            Merged automatically when it carries nothing but the regenerated report; held for a person as soon as it touches anything else.
           labels: bot-proposal, needs-review, automated
           delete-branch: true
+      # The rows inside this report need a person. The report does not, and it was arriving four times a month
+      # labelled as a decision: #126, #244, #256 and #266 each changed nothing but the date in the two generated
+      # files. So it merges itself when that is all it changed, and the moment it carries a corpus row, a product
+      # file or anything else, the condition fails and it waits, which is the part worth keeping.
+      - name: Merge it when it is only the regenerated report
+        if: steps.review_pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ steps.review_pr.outputs.pull-request-number }}
+        run: |
+          changed=$(gh pr view "$PR" --json files --jq '[.files[].path] | sort | join(",")')
+          echo "changed: $changed"
+          if [ "$changed" = "docs/proposals/latest.md,public/proposals/latest.json" ]; then
+            gh pr edit "$PR" --remove-label needs-review || true
+            gh pr merge --squash --delete-branch "$PR" || echo "merge deferred, the pull request stays open for a person"
+          else
+            echo "carries more than the report, leaving it for a person"
+          fi

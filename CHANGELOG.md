@@ -7,7 +7,15 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 16 October 2026
+- The weekly literature refresh stops discarding its own work, and stops recording throttled replies as zero papers
 - Nineteen immune markers get a page, and the microenvironment records link to the agents aimed at them
+- chore: EU regional rows read from the EMA register pages (#265)
+
+### 15 October 2026
+- chore: refresh pulse, abstract and citation snapshots (#264)
+- chore: weekly roadmap registry check (public/roadmap-watch.json)
+- chore: refresh institution research output from OpenAlex (#263)
+- chore: EU regional rows read from the EMA register pages (#262)
 
 ### 14 October 2026
 - The command palette stops showing results for a query you have cleared

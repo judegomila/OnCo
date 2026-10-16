@@ -1,0 +1,47 @@
+src/data/target-xrefs.ts
+  s_0beac9cb5d78fd::t_22e45ee03edaff 17-29,31-39
+  s_0beac9cb5d78fd::t_c442dd7a2d137f 30
+src/data/terms-basics.ts
+  s_0beac9cb5d78fd::t_ae3f094c56364f 568
+src/data/spikes/multiple-myeloma.ts
+  s_0beac9cb5d78fd::t_921b7754056129 22
+docs/LAUNCH.md
+  s_0beac9cb5d78fd::t_34aefc899bfd73 149-176
+src/data/index.ts
+  s_0beac9cb5d78fd::t_7fcbb893737f39 128
+  s_0beac9cb5d78fd::t_a2afb80478119d 310
+src/data/mechanisms.ts
+  s_0beac9cb5d78fd::t_ae3f094c56364f 612
+  s_0beac9cb5d78fd::t_22860142696ba9 614
+src/data/terms-jargon.ts
+  s_0beac9cb5d78fd::t_ae3f094c56364f 237
+  s_0beac9cb5d78fd::t_062a1c4fbd115f 180
+src/data/targets-immune-markers.ts
+  s_0beac9cb5d78fd::t_39744e0368c828 11-14,16-18,28,36,45,53,61,69,77,85,93,101,109,117,125,133,141,149,157,165,173
+  s_0beac9cb5d78fd::t_031f5560961312 1-10,15,19-27,29-35,38-44,47-52,54-60,63-68,70-76,78-84,86-92,94-100,102-108,110-116,118-124,127-132,134-140,142-148,150-156,158-164,167-172,175-180
+  s_0beac9cb5d78fd::t_c64383a8c2ed89 37,46,62,126,166,174
+scripts/ship.sh
+  s_0beac9cb5d78fd::t_b2f828bc0a309d 82-85
+scripts/fetch-xrefs.ts
+  s_0beac9cb5d78fd::t_ce0f8d28ede405 100-102
+  s_0beac9cb5d78fd::t_830a4b60d693e6 12
+  s_0beac9cb5d78fd::t_49d5a2e4cdaa28 129,139
+  s_0beac9cb5d78fd::t_2ca528a27faa88 80-85,87-94
+  s_0beac9cb5d78fd::t_d19a19871ce134 11,13-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "79c8fc0ddafcb54cc6d4839bb1a07e71929e5413",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# Change proposals 2026-10-16
+# Change proposals 2026-10-17
 
 Drafted by scripts/propose-updates.ts from: factcheck 2026-10-12, trialChanges 2026-10-12, fda 2026-10-07, regional 2026-10-14.
 
@@ -880,8 +880,8 @@ Review each line against its source. Apply by editing the file named; nothing in
 - [ ] **Yartemlea** · new-product · `new drug record`
   - current: (not in corpus)
   - proposed: add product Narsoplimab (Yartemlea) with the EU status the register page shows
-  - evidence: EMA register: Yartemlea (Narsoplimab) Opinion under re-examination. Register page: "Opinion under re-examination: EMA is re-examining this opinion on request of the applicant", opinion Negative 2026-06-25. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/yartemlea))
-  - why a person: no corpus product is named exactly Narsoplimab / narsoplimab / Yartemlea
+  - evidence: EMA register: Yartemlea (Narsoplimab) Opinion under re-examination. Register page: "Opinion: EMA has issued an opinion on this medicine", opinion Negative 2026-10-15. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/yartemlea))
+  - why a person: no corpus product is named exactly Narsoplimab / Yartemlea
 - [ ] **Zefylti** · new-product · `new drug record`
   - current: (not in corpus)
   - proposed: add product filgrastim (Zefylti) with the EU status the register page shows

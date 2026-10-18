@@ -15,6 +15,7 @@
  */
 import { readFile } from "node:fs/promises";
 import { isAbsolute, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import MiniSearch from "minisearch";
 import { KINDS, KIND_META, routeFor, type Kind } from "../../../src/lib/schema";
 import type { SearchDoc } from "../../../src/lib/search-index";
@@ -51,7 +52,7 @@ export type Env = Record<string, string | undefined>;
 export function resolveApi(flag?: string, env: Env = process.env): ApiSource {
   const raw = (flag ?? env.ONCO_API ?? DEFAULT_API).trim().replace(/\/+$/, "");
   if (/^https?:\/\//i.test(raw)) return { base: raw, local: false };
-  const path = raw.startsWith("file://") ? new URL(raw).pathname : raw;
+  const path = raw.startsWith("file://") ? fileURLToPath(raw) : raw;
   return { base: isAbsolute(path) ? path : resolve(process.cwd(), path), local: true };
 }
 

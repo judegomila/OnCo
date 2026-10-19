@@ -392,6 +392,14 @@ export const TrialSchema = Base.extend({
   kind: z.literal("trial"),
   nct: z.string().optional(),
   phase: z.enum(["1", "1/2", "2", "2/3", "3", "4", "observational", "platform", "not-applicable"]),
+  /**
+   * What the trial set out to show, when that is not simply "better". A de-escalation or non-inferiority trial
+   * succeeds by showing that less treatment is not worse, so its hazard ratio sits at or above 1 and the record
+   * still reads `positive`. Without this the two are indistinguishable from a record that contradicts itself:
+   * NSABP B-32 is `positive` with a hazard ratio of 1.20 because omitting axillary clearance cost nothing, and
+   * its text never uses the word "de-escalation", so no amount of reading the prose could tell.
+   */
+  design: z.enum(["superiority", "non-inferiority", "de-escalation", "equivalence"]).optional(),
   setting: z.string(),
   sponsor: z.string().optional(),
   /** What the registry says about joining: status, sponsor, who it is open to, how many sites and where. */

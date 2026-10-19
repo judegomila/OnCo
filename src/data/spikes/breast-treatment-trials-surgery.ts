@@ -87,7 +87,7 @@ export const breastTrialsConservation: TrialInput[] = [
  * (Z1071, targeted axillary dissection, ATNEC).
  */
 export const breastTrialsAxilla: TrialInput[] = [
-  t({ id: "nsabp-b32", name: "NSABP B-32", aka: ["National Surgical Adjuvant Breast and Bowel Project B-32", "NSABP B32"], nct: "NCT00003830",
+  t({ id: "nsabp-b32", design: "de-escalation", name: "NSABP B-32", aka: ["National Surgical Adjuvant Breast and Bowel Project B-32", "NSABP B32"], nct: "NCT00003830",
     phase: "3", status: "positive", yearReported: 2010, sponsor: "National Surgical Adjuvant Breast and Bowel Project", companies: ["nsabp-foundation", "nrg-oncology"], enrolled: 5611,
     setting: "Invasive breast cancer with clinically negative nodes: sentinel node resection followed by axillary clearance in every patient, against sentinel node resection with clearance only if the sentinel node was positive, with overall survival as the primary endpoint",
     tldr: "The trial that made it safe to take one or two lymph nodes instead of twenty. Where the first node the cancer drains to is clear, clearing the rest of the armpit adds nothing to survival and adds a lifetime of arm swelling risk.",

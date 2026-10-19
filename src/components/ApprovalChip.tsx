@@ -15,7 +15,15 @@ const MAX_FLAGS = 4;
  * selected region plus flags for every other region where they are approved; earlier-stage products show their
  * global phase. Falls back gracefully when a region has not been researched.
  */
-export function ApprovalChip({ drugId, status, compact = false }: { drugId: string; status?: string; compact?: boolean }) {
+export function ApprovalChip({ drugId, status, approvedYear, compact = false }: { drugId: string; status?: string;
+  /**
+   * The earliest US or EU approval year on the drug record itself, where there is one. Approval is held in two
+   * places: the per-region rows in regionalApprovals, which carry a regulator source, and the `approvals` array
+   * on the record, which does not. This chip read only the first, so 23 approved products said nothing about
+   * being approved: /drugs/altretamine/ showed "Established" and never mentioned its 1990 FDA approval, which
+   * the corpus has held all along. A withdrawn or historic status still wins, because that is the later fact.
+   */
+  approvedYear?: number; compact?: boolean }) {
   const { region } = useRegion();
   const row = regionalApprovals[drugId];
   const approvedIn = row ? (Object.keys(row) as Region[]).filter((r) => row[r]?.status === "approved" || row[r]?.status === "conditional") : [];
@@ -29,11 +37,13 @@ export function ApprovalChip({ drugId, status, compact = false }: { drugId: stri
   };
 
   // Not an approved product anywhere we know of: plain global status.
-  const globallyApproved = status === "approved" || status === "standard-of-care" || approvedIn.length > 0;
+  const supersededByLaterFact = status === "withdrawn" || status === "historic" || status === "negative";
+  const globallyApproved = status === "approved" || status === "standard-of-care" || approvedIn.length > 0
+    || (approvedYear !== undefined && !supersededByLaterFact);
   if (!globallyApproved) return status ? <span className={`chip whitespace-nowrap ${statusClass(status)}`}>{STATUS_LABEL[status] ?? status}</span> : null;
 
   if (!region) {
-    const first = approvedIn.length ? Math.min(...approvedIn.map((r) => row?.[r]?.year ?? 9999)) : undefined;
+    const first = approvedIn.length ? Math.min(...approvedIn.map((r) => row?.[r]?.year ?? 9999)) : approvedYear;
     const tip = approvedIn.length ? `Approved in ${approvedIn.map((r) => REGION_META[r].label).join(", ")}. Choose your country in the top bar to see the verdict that applies to you.` : "Recorded as approved; choose your country in the top bar to see which regulators have cleared it.";
     return (
       <Tip title="🌐 Global view" text={tip} href="/regulatory/regions/" linkLabel="Compare all regions →">

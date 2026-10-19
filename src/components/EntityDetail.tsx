@@ -83,6 +83,7 @@ import { ResearchOutput } from "./ResearchOutput";
 import { confidence } from "@/data/confidence";
 import { FrontIcon } from "./FrontIcon";
 import { ApprovalChip } from "./ApprovalChip";
+import { approvedYearOf } from "@/lib/approved-year";
 import { MechanicsPills } from "./MechanicsPills";
 import { TargetSchematic } from "./TargetSchematic";
 import { IntentLink } from "./IntentLink";
@@ -182,7 +183,7 @@ export function EntityDetail({ e }: { e: Entity }) {
         ledeNode={<TldrText id={e.id} tldr={e.tldr} simple={e.simple} />}
         logo={e.kind === "cancer" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><CancerIcon cancerId={e.id} className="h-10 w-10" /></span> : e.kind === "section" ? <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-accent/30 bg-accent-soft text-accent"><FrontIcon id={e.id} className="h-9 w-9" /></span> : "website" in e ? <Logo id={e.id} website={e.website} name={e.name} size={64} /> : "url" in e && (e.kind === "collection" || e.kind === "journal") ? <Logo id={e.id} website={e.url} name={e.name} size={64} /> : undefined}
         under={<div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
-          {e.kind === "drug" ? <ApprovalChip drugId={e.id} status={e.status} /> : <StatusChip status={e.status} />}
+          {e.kind === "drug" ? <ApprovalChip drugId={e.id} status={e.status} approvedYear={approvedYearOf(e)} /> : <StatusChip status={e.status} />}
           <AkaLine e={e} />
         </div>}
       />

@@ -246,8 +246,15 @@ export function auditEntities(entities: Entity[], opts: AuditOptions = {}): Find
       }
       if (e.status === "positive" && !e.result && e.outcomes.length === 0) add("positive-no-result", "medium", e, "status positive but neither result text nor structured outcomes");
       if (e.yearReported && e.yearReported > year) add("future-year", "high", e, `yearReported ${e.yearReported} is in the future`);
-      const primaryHr = e.outcomes.filter((o) => o.primary && o.hr !== undefined && o.hr >= 1);
-      if (e.status === "positive" && primaryHr.length && !/non-inferior|noninferior|de-escalat|omit|skip|spar(e|ing)|shorter|equivalen/i.test(textOf(e)))
+      // A hazard ratio at or above 1 on a positive trial is a contradiction only when nothing explains it.
+      // Three things do, and the check reads all three rather than hunting the prose for a magic word:
+      // the trial's `design` (a de-escalation trial succeeds by not being worse), an endpoint that names its
+      // own comparison direction ("radiotherapy alone against radiotherapy with androgen suppression", where
+      // the published ratio is control-against-experimental), and the text, as before. Written 19 October 2026
+      // after this rule flagged five trials of which only one was actually wrong.
+      const explained = e.design === "non-inferiority" || e.design === "de-escalation" || e.design === "equivalence";
+      const primaryHr = e.outcomes.filter((o) => o.primary && o.hr !== undefined && o.hr >= 1 && !/ against /i.test(o.endpoint));
+      if (e.status === "positive" && primaryHr.length && !explained && !/non-inferior|noninferior|de-escalat|omit|skip|spar(e|ing)|shorter|equivalen/i.test(textOf(e)))
         add("positive-hr-ge-1", "medium", e, `status positive but primary endpoint hazard ratio ${primaryHr.map((o) => `${o.hr} (${o.endpoint})`).join(", ")}; not described as a non-inferiority or de-escalation trial`);
     }
 

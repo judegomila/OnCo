@@ -3,7 +3,8 @@ import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { EntitySchema, type Entity, type EntityInput } from "../src/lib/schema";
 import type { Spike } from "../src/data/spikes";
-import { auditEntities, eventDate, levenshteinWithin, nearDuplicateCandidates, regionOf, spikeDivergences } from "./audit";
+import { auditEntities, eventDate, levenshteinWithin, nearDuplicateCandidates, regionOf, runAudit, spikeDivergences } from "./audit";
+import { graph } from "../src/lib/graph";
 import { extractNumbers, numberFindings } from "./numbers";
 import { NON_SPIKE_FILES, SPIKE_FILES } from "./spike-sources";
 
@@ -162,5 +163,39 @@ describe("spike sources", () => {
     const onDisk = readdirSync(join(process.cwd(), "src", "data", "spikes")).filter((f) => f.endsWith(".ts")).map((f) => f.replace(/\.ts$/, "")).filter((f) => !NON_SPIKE_FILES.includes(f)).sort();
     expect(Object.keys(SPIKE_FILES).sort()).toEqual(onDisk);
     for (const [file, spike] of Object.entries(SPIKE_FILES)) expect(spike.cancerId, file).toBeTruthy();
+  });
+});
+
+describe("a positive trial whose hazard ratio is above 1", () => {
+  /**
+   * The rule flagged five trials in October 2026 and only one was wrong. Two had the primary flag on the wrong
+   * endpoint (EORTC 22881 on overall survival rather than the recurrence the boost was tested on; SEQUOIA on an
+   * overall survival that was never primary), two published the ratio control-against-experimental, and one,
+   * NSABP B-32, was a genuine de-escalation trial whose text never used the word. These hold each resolution.
+   */
+  const g = graph();
+
+  it("accepts a de-escalation trial, because not being worse is the result", () => {
+    const b32 = g.must("nsabp-b32") as { design?: string; status?: string };
+    expect(b32.design, "NSABP B-32 omitted axillary clearance and cost nothing").toBe("de-escalation");
+    expect(b32.status).toBe("positive");
+  });
+
+  it("puts the primary flag on the endpoint each trial was designed around", () => {
+    const primaries = (id: string) => ((g.must(id) as { outcomes: Array<{ endpoint: string; primary?: boolean }> }).outcomes ?? []).filter((o) => o.primary).map((o) => o.endpoint);
+    expect(primaries("eortc-22881-boost").join(" ")).toMatch(/ipsilateral breast tumour recurrence/);
+    expect(primaries("eortc-22881-boost").join(" "), "overall survival was not what the boost was tested on").not.toMatch(/Overall survival/);
+    expect(primaries("sequoia")).toEqual(["Progression-free survival (cohort 1)"]);
+  });
+
+  it("keeps a published ratio as published and names its direction instead", () => {
+    const rtog = (g.must("rtog-9408") as { outcomes: Array<{ endpoint: string; hr?: number }> }).outcomes;
+    const os = rtog.find((o) => o.endpoint.startsWith("Overall survival"))!;
+    expect(os.hr, "the figure in NEJM, untouched").toBe(1.17);
+    expect(os.endpoint, "and the direction it is measured in").toContain("radiotherapy alone against radiotherapy with androgen suppression");
+  });
+
+  it("reports nothing now that each record says what it means", () => {
+    expect(runAudit().findings.filter((f) => f.check === "positive-hr-ge-1")).toEqual([]);
   });
 });

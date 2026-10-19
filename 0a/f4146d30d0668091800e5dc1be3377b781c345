@@ -1,0 +1,27 @@
+src/data/audit-floor.test.ts
+  s_0beac9cb5d78fd::t_42918231516f15 1-34
+scripts/audit.ts
+  s_0beac9cb5d78fd::t_4142c7e47b330f 18,393-408,411-420
+src/data/audit-floor.json
+  s_0beac9cb5d78fd::t_4142c7e47b330f 1-5,7-14,16-18
+  s_0beac9cb5d78fd::t_38e88257d5925e 6
+  s_0beac9cb5d78fd::t_34c5e5adbd5d90 15,19
+public/audit.json
+  s_0beac9cb5d78fd::t_38e88257d5925e 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "0af4146d30d0668091800e5dc1be3377b781c345",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -54,3 +54,18 @@ describe("product or data", () => {
     expect(classify("src/lib/i18n/ui.ts")).toBe("product");
   });
 });
+
+describe("a fetcher's output under src/lib is data, not product", () => {
+  // scripts/github-stars.ts refreshes this weekly and the catch-all for src/lib claimed it as product, which
+  // stopped an unrelated ship on 19 October. The rule is named, not globbed: a configuration file added to
+  // src/lib must still wait for the owner.
+  it("classifies the generated star count as data", () => {
+    expect(classify("src/lib/github-stars.json")).toBe("data");
+  });
+
+  it("still treats other src/lib files as product", () => {
+    for (const p of ["src/lib/kinds.ts", "src/lib/search-rank.ts", "src/lib/nav.ts", "src/lib/some-new-config.json"]) {
+      expect(classify(p), p).toBe("product");
+    }
+  });
+});

@@ -8,8 +8,16 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 
 ### 19 October 2026
 - An offline API copy in a folder with a space in its name is read correctly by the CLI and the MCP server
+- chore: weekly fact check, audit, and provenance refresh (#277)
+- chore: render this week's issue to public/newsletter/ (#276)
+- chore: refresh public/votes.json from Discussions reactions (#275)
+- chore: refresh trial counts from ClinicalTrials.gov (#274)
+- chore: draft change proposals that need review (#273)
+- chore: EU regional rows read from the EMA register pages (#272)
 
 ### 18 October 2026
+- chore: draft change proposals that need review (#271)
+- chore: EU regional rows read from the EMA register pages (#270)
 - Fix offline API file URL decoding
 
 ### 17 October 2026

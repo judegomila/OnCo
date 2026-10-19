@@ -29,6 +29,11 @@ const RULES: Array<[RegExp, ChangeClass]> = [
   [/^src\/lib\/record-sections\.ts$/, "product"],
   [/^src\/lib\/(kinds|nav|seo|search-rank|kind-browser|tables|edge|timeline)/, "product"],
   [/^src\/(components|app)\//, "product"],
+  // The only generated snapshot under src/lib: scripts/github-stars.ts writes the star count a bot refreshes
+  // weekly. By this file's own definition that is "a fetcher's output", so it is data, and it was stopping an
+  // unrelated ship on 19 October because the catch-all below claimed it. Named rather than globbed, so a real
+  // configuration file added here still waits for the owner.
+  [/^src\/lib\/github-stars\.json$/, "data"],
   [/^src\/lib\//, "product"],                 // the rest of lib decides what renders
   [/^src\/data\//, "data"],
   [/^public\//, "data"],

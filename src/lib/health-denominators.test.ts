@@ -45,7 +45,10 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // excluding them, would have been the gauge flattering itself.
   { id: "schematics", total: 710, label: "Technologies with a specific schematic" },
   { id: "target-prevalence", total: 1674, label: "Targets with sourced prevalence, or with no medicine aimed at them" },
-  { id: "trial-outcomes", total: 1003, label: "Trials with structured outcomes, or with no results in public" },
+  // 1,003 to 1,223 on 19 October 2026: the registry status pass that day moved trials the registry calls completed,
+  // terminated or withdrawn out of "recruiting" and "active", and the registry ingests since 25 September added
+  // finished trials. A finished trial is exactly what this gauge asks about, so the denominator grows.
+  { id: "trial-outcomes", total: 1223, label: "Trials with structured outcomes, or with no results in public" },
   { id: "institution-people", total: 700, label: "Institutions with people" },
   { id: "people-papers", total: 1567, label: "People with papers, or in a role that produces none" },
   { id: "bottleneck-ideas", total: 45, label: "Bottlenecks with ten or more ideas" },

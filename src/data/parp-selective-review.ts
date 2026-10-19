@@ -395,7 +395,7 @@ export const parpSelectiveReview: EntityInput[] = [
     "asOf": "2026-10-06",
     "setting": "A Randomized, Double-Blind, Placebo-Controlled, 2-Cohort, Phase III Study of Saruparib Combined With Physician's Choice of Androgen Receptor Pathway Inhibitor in Patients With Metastatic Hormone-Sensitive Prostate Cancer, Previously Treated With Docetaxel or PSMA-directed 177Lutetium-Containing Therapy Without Disease Progression, and With Prostate-Specific Antigen \u2265 0.2 ng/mL: EvoPAR-Prostate05",
     "sponsor": "AstraZeneca",
-    "tldr": "This study tests a PARP inhibitor; the registry reports that it is not yet recruiting.",
+    "tldr": "This study tests a PARP inhibitor; on 15 October 2026 the registry reported that it is recruiting.",
     "summary": "The registry lists NCT07711002 as not yet recruiting, last updated 2026-07-17. Enrolment is 1330 planned participants, an estimate. Interventions: Saruparib, Placebo, Enzalutamide, Darolutamide, Abiraterone. Primary measures include Radiographic progression-free survival (rPFS). No results are posted in the registry; this does not exclude separate publications.",
     "targets": [
       "parp"

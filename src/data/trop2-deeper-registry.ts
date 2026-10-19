@@ -343,7 +343,7 @@ export const trop2DeeperRegistry: EntityInput[] = [
     "asOf": "2026-10-06",
     "setting": "Phase 1/2 Window Of Opportunity Study Of TROP2 CAR/IL-15 TGFBR2 KO NK Cells Delivered Intraperitoneally For The Management Of Gastric Cancer Metastatic To The Peritoneum",
     "sponsor": "M.D. Anderson Cancer Center",
-    "tldr": "This study tests TROP-2-directed treatment; the registry reports that it is not yet recruiting.",
+    "tldr": "This study tests TROP-2-directed treatment; on 8 October 2026 the registry reported that it is recruiting.",
     "summary": "The registry lists NCT07509008 as not yet recruiting, last updated 2026-07-29. Enrolment is 10 planned participants, an estimate. Interventions: TGFBR2 KO CAR27/IL-15 NK cells, Rimiducid (AP1903), Fludarabine, Cyclophosphamide. Primary measures include Safety and Adverse Events (AEs). No results are posted in the registry; this does not exclude separate publications.",
     "targets": [
       "trop2"

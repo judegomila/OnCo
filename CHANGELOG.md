@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 19 October 2026
+- Trials that have closed stop saying they are recruiting, in English, plain language and Chinese
 - The audit contradictions it took a day to clear can no longer come back unnoticed
 - Ten cancer pages now say what the failed trials they cite actually found
 - A de-escalation trial reads as one, and a product approved in 1990 stops hiding it

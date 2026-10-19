@@ -196,7 +196,7 @@ export const simpleD: Record<string, string> = {
   "leap-012": "This trial tested adding a targeted pill and an immune drug to artery blocking treatment in liver cancer; it delayed the cancer but did not lengthen life.",
   "libretto-531": "This trial tested a pill built for the RET gene change against older pills in medullary thyroid cancer; it found the cancer stayed controlled longer with fewer side effects.",
   lidera: "This trial tested a new hormone pill against today's hormone pills after breast cancer surgery; it found fewer relapses.",
-  "liger-hn1": "This trial is testing a two-armed antibody added to an immune drug as first treatment for head and neck cancer; it is still recruiting.",
+  "liger-hn1": "This trial is testing a two-armed antibody added to an immune drug as first treatment for head and neck cancer, and it is running but no longer recruiting.",
   "linker-mm1": "This trial tested a two-headed antibody in heavily treated myeloma; it found most responded, with many complete responses.",
   "litespark-005": "This trial tested a new pill against the old standard in kidney cancer after other treatments failed; it found the cancer stayed controlled longer and more tumours shrank.",
   "litespark-012": "This trial tested adding a new pill to a standard two-drug first treatment for kidney cancer; it did not meet its goal.",

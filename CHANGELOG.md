@@ -6,6 +6,16 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 19 October 2026
+- An offline API copy in a folder with a space in its name is read correctly by the CLI and the MCP server
+
+### 18 October 2026
+- Fix offline API file URL decoding
+
+### 17 October 2026
+- chore: draft change proposals that need review (#266)
+- chore: EU regional rows read from the EMA register pages (#267)
+
 ### 16 October 2026
 - The weekly literature refresh stops discarding its own work, and stops recording throttled replies as zero papers
 - Nineteen immune markers get a page, and the microenvironment records link to the agents aimed at them

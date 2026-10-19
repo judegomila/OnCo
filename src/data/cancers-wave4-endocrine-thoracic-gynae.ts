@@ -102,7 +102,7 @@ export const cancersWave4EndocrineThoracicGynae: CancerInput[] = linkSiblings([
     biomarkers: ["Late-night salivary cortisol, urinary free cortisol, dexamethasone suppression, plasma ACTH", "TPIT lineage and ACTH immunostaining; Crooke hyaline change", "Inferior petrosal sinus sampling when MRI is negative", "Ki-67 and USP8 mutation (functioning microadenomas)"],
     standardOfCare: [
       { setting: "Cushing disease, first line", approach: "Transsphenoidal selective adenomectomy.", refs: ["pituitary-tumours"] },
-      { setting: "Persistent or recurrent", approach: "Repeat surgery, radiotherapy, osilodrostat or other cortisol-directed drugs, pasireotide or cabergoline, or bilateral adrenalectomy; temozolomide for aggressive tumours.", refs: ["osilodrostat", "pasireotide", "cabergoline", "radiosurgery-srs", "temozolomide", "mifepristone"] },
+      { setting: "Persistent or recurrent", approach: "Repeat surgery, radiotherapy, osilodrostat or another cortisol-directed drug (mifepristone blocks the glucocorticoid receptor and is used for the cortisol excess rather than the tumour), pasireotide or cabergoline, or bilateral adrenalectomy; temozolomide for aggressive tumours.", refs: ["osilodrostat", "pasireotide", "cabergoline", "radiosurgery-srs", "temozolomide", "mifepristone"] },
     ],
     drugs: ["osilodrostat", "pasireotide", "cabergoline", "mifepristone", "temozolomide"], technologies: ["radiosurgery-srs"],
     related: ["pituitary-tumours", "lactotroph-pitnet", "somatotroph-pitnet", "gonadotroph-pitnet", "adrenocortical"],

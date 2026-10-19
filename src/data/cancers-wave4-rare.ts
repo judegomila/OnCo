@@ -102,7 +102,7 @@ export const cancersWave4Rare: CancerInput[] = linkSiblings([
     subtypes: ["Poorly differentiated chordoma of the skull base and clivus (about half)", "Poorly differentiated chordoma of the cervical spine", "Poorly differentiated chordoma of the sacrum or coccyx", "Conventional and chondroid chordoma (the parent page; SMARCB1 retained)"],
     biomarkers: ["Brachyury (TBXT) positive with SMARCB1 (INI1) loss", "SMARCB1 deletion on copy-number analysis", "Cytokeratin positive; epithelioid morphology", "Age under 30"],
     standardOfCare: [
-      { setting: "All cases", approach: "Maximal safe resection and proton radiotherapy as on the chordoma page; EZH2 inhibition under study for SMARCB1-deficient tumours.", refs: ["chordoma", "proton-therapy", "tazemetostat"] },
+      { setting: "All cases", approach: "Maximal safe resection and proton radiotherapy as on the chordoma page; EZH2 inhibition is under study for SMARCB1-deficient tumours, but the first EZH2 inhibitor, tazemetostat, was withdrawn worldwide in 2026 after secondary blood cancers, so the class is being re-examined rather than used.", refs: ["chordoma", "proton-therapy", "tazemetostat"] },
     ],
     drugs: ["tazemetostat"], targets: ["smarcb1", "tbxt"], technologies: ["proton-therapy"],
     related: ["chordoma", "dedifferentiated-chordoma", "atrt", "childhood-cancers"],

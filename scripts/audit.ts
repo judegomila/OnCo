@@ -124,7 +124,18 @@ export function mentions(text: string, e: Entity): boolean {
   const base = e.name.replace(/\(.*?\)/g, " ");
   // A name that lists several things ("Extended pleurectomy/decortication & radical mesothelioma surgery") counts when any one part is named.
   const names = [base, ...base.split(/\s*(?:&|;|,|\band\b)\s*/).filter((p) => p.length >= 8), ...e.aka];
-  if (e.kind === "trial") names.push(e.name.split(/[\s(/&]/)[0]);
+  if (e.kind === "trial") {
+    const first = e.name.split(/[\s(/&]/)[0];
+    names.push(first);
+    // A trial named for two collaborating groups is written in prose as either one: the colorectal page says
+    // "(PROPHYLOCHIP)" for PROPHYLOCHIP-PRODIGE 15 and the audit read that as an unexplained citation. Only a
+    // compound of two names is split, so KEYNOTE-189 does not become KEYNOTE and match every other KEYNOTE.
+    const compound = /^([A-Za-z][\w]{3,})-([A-Za-z])/.exec(first);
+    if (compound) names.push(compound[1]);
+    // Prose names a cooperative-group trial by its identifier alone: the colorectal page writes "N0147" for
+    // Alliance N0147 and "22922" for EORTC 22922. Any token carrying a digit is one of those identifiers.
+    for (const token of e.name.split(/[\s(/&,]+/)) if (/\d/.test(token) && token.replace(/[^a-z0-9]/gi, "").length >= 4) names.push(token);
+  }
   if (e.kind === "drug") names.push(e.name.split(/[\s(/&,]/)[0]);
   return names.map(flat).filter((n) => n.length >= 4).some((n) => hay.includes(n));
 }
@@ -269,9 +280,14 @@ export function auditEntities(entities: Entity[], opts: AuditOptions = {}): Find
     if (e.kind === "cancer") {
       // A negative trial or withdrawn product cited as the evidence against a practice ("not recommended after MARS 2")
       // is a legitimate reference when the row's text names it; an unexplained citation is the contradiction.
+      // A row that exists to record what did not work cites negative trials by design: "The failed and stopped
+      // programmes", "Combinations and strategies that were tested and abandoned". Four of the eighteen findings
+      // this rule produced on 19 October 2026 were rows of exactly that kind, where the citation is the point.
+      const aboutFailure = (setting: string) => /\b(fail(ed|ure)?|stopped|abandon(ed)?|withdrawn|did not work|negative)\b/i.test(setting);
       for (const row of e.standardOfCare) for (const id of row.refs) {
         const r = get(id);
         if (!r || !(DEAD.has(r.status ?? "") || r.tags.includes("failure"))) continue;
+        if (aboutFailure(row.setting)) continue;
         if (mentions(row.approach, r)) continue;
         add("soc-cites-dead", "high", e, `standard-of-care row "${row.setting}" cites ${r.name} (status ${r.status ?? "unset"}) without saying so in the text; explain the negative result or drop the reference`);
       }

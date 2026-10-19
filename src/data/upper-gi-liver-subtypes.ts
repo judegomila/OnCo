@@ -337,7 +337,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     standardOfCare: [
       { setting: "Localised, resectable", approach: "Surgical resection; no adjuvant imatinib because the mutation is resistant to it.", refs: ["robotic-surgery", "pdgfra"] },
       { setting: "Advanced, first line", approach: "Avapritinib 300 mg daily (NAVIGATOR), with monitoring for cognitive effects and bleeding.", refs: ["avapritinib", "pdgfra", "kit"] },
-      { setting: "Progression on avapritinib", approach: "No established therapy; clinical trials, surgery or embolisation for isolated progression; regorafenib and other kinase inhibitors have low activity.", refs: ["regorafenib", "voyager", "liquid-biopsy"] },
+      { setting: "Progression on avapritinib", approach: "No established therapy; clinical trials, surgery or embolisation for isolated progression; regorafenib and other kinase inhibitors have low activity, and VOYAGER, which tested avapritinib against regorafenib in later-line disease, was negative (progression-free survival hazard ratio 1.25), so neither is established after avapritinib fails.", refs: ["regorafenib", "voyager", "liquid-biopsy"] },
     ],
     stateOfArt: ["Avapritinib is the first effective drug for a mutation that had defeated every earlier kinase inhibitor.", "The failure of VOYAGER in unselected patients alongside NAVIGATOR's success is the clearest example of genotype-driven treatment in sarcoma.", "Mutation testing before any imatinib is now mandatory in GIST guidelines, largely because of this subtype."],
     history: [

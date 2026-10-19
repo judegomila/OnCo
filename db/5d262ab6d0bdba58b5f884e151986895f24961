@@ -1,0 +1,42 @@
+src/data/spikes/pancreatic-treatment-trials-advanced.ts
+  s_0beac9cb5d78fd::t_256a3580fe2529 123
+src/data/spikes/breast-treatment-trials-surgery.ts
+  s_0beac9cb5d78fd::t_f90c4286a598e8 90
+src/data/spikes/prostate-treatment-trials-localised.ts
+  s_0beac9cb5d78fd::t_7f8c2842100ddc 149-150
+src/lib/schema.ts
+  s_0beac9cb5d78fd::t_4abe173ab2bf14 395-402
+scripts/audit.ts
+  s_0beac9cb5d78fd::t_5df59d3885a5a8 249-257
+src/components/EntityDetail.tsx
+  s_0beac9cb5d78fd::t_a447072532c1a8 86,186
+src/components/ApprovalChip.tsx
+  s_0beac9cb5d78fd::t_39765f5130470e 18-26,40-42,46
+src/components/DrugCard.tsx
+  s_0beac9cb5d78fd::t_a447072532c1a8 6,19
+src/components/approval-chip.test.ts
+  s_0beac9cb5d78fd::t_18ddd5b19e2c42 1-39
+src/lib/approved-year.ts
+  s_0beac9cb5d78fd::t_a447072532c1a8 1-5
+scripts/audit.test.ts
+  s_0beac9cb5d78fd::t_6dd615db3e8778 168-201
+  s_0beac9cb5d78fd::t_91a8e9e163be25 6-7
+src/data/spikes/breast-treatment-trials-radiotherapy.ts
+  s_0beac9cb5d78fd::t_256a3580fe2529 56-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "db5d262ab6d0bdba58b5f884e151986895f24961",
+  "prompts": {},
+  "sessions": {
+    "s_0beac9cb5d78fd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e0158fa8-4dd7-4736-8453-ff43c71c87b2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "updated": "2026-10-19",
+  "note": "Lower with `npx tsx scripts/audit.ts --write-floor`; see src/data/audit-floor.test.ts for why these checks and not the others.",
+  "checks": {
+    "positive-hr-ge-1": 0,
+    "soc-cites-dead": 0,
+    "future-year": 1,
+    "spike-scalar-divergence": 6,
+    "asof-before-regulatory-event": 7,
+    "pipeline-cites-dead": 10,
+    "text-vs-structured": 13,
+    "status-vs-approvals": 25,
+    "near-duplicate-levenshtein": 27,
+    "text-says-approved": 29,
+    "unsourced-numbers": 36,
+    "outcome-no-source": 62,
+    "approvals-vs-regional": 126
+  }
+}

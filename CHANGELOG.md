@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 19 October 2026
+- The audit contradictions it took a day to clear can no longer come back unnoticed
 - Ten cancer pages now say what the failed trials they cite actually found
 - A de-escalation trial reads as one, and a product approved in 1990 stops hiding it
 - An offline API copy in a folder with a space in its name is read correctly by the CLI and the MCP server

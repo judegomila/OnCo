@@ -15,7 +15,7 @@
  *
  * Run: npm run audit
  */
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "../src/lib/graph";
 import { REL_FIELDS, routeFor, type Entity } from "../src/lib/schema";
@@ -390,8 +390,34 @@ export function runAudit(now = new Date()): Audit {
   return { generated: now.toISOString(), today, total: g.entities.length, findings, staleness, summary };
 }
 
+/**
+ * The checks held to a floor, and why these and not the others. A floor is only worth having where a rise means
+ * a regression. `future-year-in-text` is 3,316 findings of which 3,214 are low severity and mostly papers that
+ * legitimately mention 2045; `unsourced` is 364 dominated by /years/ pages that correctly carry no external
+ * link; `orphan` has its own ratchet in src/data/orphans-floor.json; `duplicate-name` and
+ * `name-collision-across-kinds` are findability work rather than contradictions. Holding those would make the
+ * gate cry wolf until somebody switched it off, which is worse than not holding them at all.
+ */
+export const RATCHETED_CHECKS = ["soc-cites-dead", "positive-hr-ge-1", "future-year", "spike-scalar-divergence",
+  "asof-before-regulatory-event", "pipeline-cites-dead", "text-vs-structured", "status-vs-approvals",
+  "near-duplicate-levenshtein", "text-says-approved", "unsourced-numbers", "outcome-no-source", "approvals-vs-regional"] as const;
+
+export function auditCounts(findings: Array<{ check: string }>): Record<string, number> {
+  return Object.fromEntries(RATCHETED_CHECKS.map((k) => [k, findings.filter((f) => f.check === k).length]));
+}
+
 if (process.argv[1]?.endsWith("audit.ts")) {
   const audit = runAudit();
+  if (process.argv.includes("--write-floor")) {
+    const path = join(process.cwd(), "src", "data", "audit-floor.json");
+    const floor = JSON.parse(readFileSync(path, "utf8")) as { checks: Record<string, number>; note: string };
+    const now = auditCounts(audit.findings);
+    const lowered = Object.entries(now).filter(([k, n]) => n < (floor.checks[k] ?? Infinity));
+    // A floor only ever falls. A rise is the thing the test exists to catch, not something to record.
+    for (const [k, n] of lowered) floor.checks[k] = n;
+    writeFileSync(path, JSON.stringify({ updated: new Date().toISOString().slice(0, 10), note: floor.note, checks: Object.fromEntries(Object.entries(floor.checks).sort((a, b) => a[1] - b[1] || a[0].localeCompare(b[0]))) }, null, 2) + "\n");
+    console.log(lowered.length ? `audit floor lowered: ${lowered.map(([k, n]) => `${k} to ${n}`).join(", ")}` : "audit floor unchanged");
+  }
   const out = join(process.cwd(), "public");
   mkdirSync(out, { recursive: true });
   writeFileSync(join(out, "audit.json"), JSON.stringify(audit, null, 0));

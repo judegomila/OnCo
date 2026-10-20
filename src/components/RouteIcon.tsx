@@ -119,6 +119,8 @@ const P: Record<string, string> = {
   "/live/complementary/": "M12 21c-5 0-8-3-8-8 0-6 8-10 8-10s8 4 8 10c0 5-3 8-8 8Zm0-13v13",
   "/live/hair/": "M12 3c-4 0-7 3-7 7v4c0 4 3 7 7 7s7-3 7-7v-4c0-4-3-7-7-7Zm-4 6c1 1 2 1 4 1s3 0 4-1M9 14h6",
   "/live/recovery/": "M4 12a8 8 0 0 1 13.7-5.7M20 12a8 8 0 0 1-13.7 5.7M17 3v4h-4M7 21v-4h4",
+  // Crosshair: how precise a test, beam, margin or dose is
+  "/live/precision/": "M12 2v5m0 10v5M2 12h5m10 0h5M12 6a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z",
   // Learn
   "/paths/": "M4 19c3 0 3-4 6-4s3 4 6 4 3-4 4-4M6 5a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm12 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM8 7h8",
   "/about/": "M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm0 5v.5m0 3v5",

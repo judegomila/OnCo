@@ -13,7 +13,7 @@ import type { PrecisionRow } from "./types";
  */
 export const rows: PrecisionRow[] = [
   {
-    id: "dosing-body-surface-area",
+    id: "dosing-body-surface-area", grade: "no-benefit",
     domain: "dosing",
     label: "Dosing chemotherapy by body surface area",
     technologyIds: ["body-surface-area-dosing", "cytotoxic-chemotherapy"],
@@ -160,7 +160,7 @@ export const rows: PrecisionRow[] = [
     relatedIds: ["b-dose-optimisation", "pkpd-modelling"],
   },
   {
-    id: "dosing-project-optimus",
+    id: "dosing-project-optimus", grade: "moderate",
     domain: "dosing",
     label: "Choosing the dose a drug is approved at",
     technologyIds: ["project-optimus", "sotorasib"],

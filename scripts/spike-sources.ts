@@ -124,6 +124,8 @@ export const NON_SPIKE_FILES = ["index", "gap-cancers",
   "lymphoma-evidence-papers-foundations", "lymphoma-evidence-papers-trials", "lymphoma-evidence-roadmap",
   // The Recovery & Rejuvenation front: entity modules, not cancer deep dives. They export entity arrays that
   // src/data/index.ts adds to RAW_INPUTS directly, so they have no cancerId and no patch.
-  "rejuvenation-body", "rejuvenation-paediatric", "rejuvenation-second-cancers", "rejuvenation-mind", "rejuvenation-rehab", "rejuvenation-agenda", "rejuvenation-measurement"];
+  "rejuvenation-body", "rejuvenation-paediatric", "rejuvenation-second-cancers", "rejuvenation-mind", "rejuvenation-rehab", "rejuvenation-agenda", "rejuvenation-measurement",
+  // The Precision and protocol-upgrades run (20 October 2026): entity modules, same shape as the rejuvenation ones.
+  "precision-molecular", "precision-radiation", "precision-surgery", "precision-dosing", "precision-roadmap", "protocol-upgrades-rt-surgery", "protocol-upgrades-care"];
 
 export const spikeSources: Spike[] = Object.values(SPIKE_FILES);

@@ -96,6 +96,13 @@ import { rejuvenationTransplant } from "./spikes/rejuvenation-transplant";
 import { rejuvenationRehab } from "./spikes/rejuvenation-rehab";
 import { recoveryEntities } from "./recovery";
 import { rejuvenationAgenda } from "./spikes/rejuvenation-agenda";
+import { precisionMolecular } from "./spikes/precision-molecular";
+import { precisionRadiation } from "./spikes/precision-radiation";
+import { precisionSurgery } from "./spikes/precision-surgery";
+import { precisionDosing } from "./spikes/precision-dosing";
+import { precisionRoadmap } from "./spikes/precision-roadmap";
+import { protocolUpgradesRtSurgery } from "./spikes/protocol-upgrades-rt-surgery";
+import { protocolUpgradesCare } from "./spikes/protocol-upgrades-care";
 import { rejuvenationMeasurement } from "./spikes/rejuvenation-measurement";
 import { tests } from "./tests";
 import { nciCoverage } from "./nci-coverage";
@@ -283,6 +290,13 @@ const RAW_INPUTS: EntityInput[] = [
   ...rejuvenationRehab,
   ...recoveryEntities,
   ...rejuvenationAgenda,
+  ...precisionMolecular,
+  ...precisionRadiation,
+  ...precisionSurgery,
+  ...precisionDosing,
+  ...precisionRoadmap,
+  ...protocolUpgradesRtSurgery,
+  ...protocolUpgradesCare,
   ...rejuvenationMeasurement,
   ...tests,
   ...nciCoverage,

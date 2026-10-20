@@ -1,0 +1,39 @@
+src/data/technologies.ts
+  s_1e233a6be244f1::t_dc5a94ad0e2ccf 411,439,480
+  s_1e233a6be244f1::t_50476ef8479bf5 421,430,463
+src/data/supporting.ts
+  s_1e233a6be244f1::t_50476ef8479bf5 143
+src/data/key-papers/radiation.ts
+  s_1e233a6be244f1::t_20de64f7628040 14,37
+  s_1e233a6be244f1::t_e6761757616e2a 33-36
+src/data/precision-matrix/radiation.ts
+  s_1e233a6be244f1::t_7a9a32f4c00552 137,141,180,204,262
+  s_1e233a6be244f1::t_c2e28e1f7dcb28 1,3-94,96-136,138-140,142-179,181-203,205-250,252-261,263-297,299-374
+  s_1e233a6be244f1::t_008e67e9c77707 95,251,298
+src/data/spikes/precision-radiation.ts
+  s_1e233a6be244f1::t_3db56ae20e379c 1,3-45,47-55,57-73,75-91,93-107,109-124,126-128,130-151,153-174,176-184,186-191
+  s_1e233a6be244f1::t_4b7449003bc81a 46,56,74,92,108,125,129,152,175,185
+src/data/machines-wave2.ts
+  s_1e233a6be244f1::t_50476ef8479bf5 39,68,77
+src/data/radiation-wave1.ts
+  s_1e233a6be244f1::t_dc5a94ad0e2ccf 23,35,71,131,178
+  s_1e233a6be244f1::t_50476ef8479bf5 29,41,170,182
+src/data/terms-jargon.ts
+  s_1e233a6be244f1::t_50476ef8479bf5 55,68-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "34dd8a9cec73ba7e9fa3077505ba1b828a428f01",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

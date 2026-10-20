@@ -239,7 +239,7 @@ export const biomarkerReadouts4: BiomarkerInput[] = [
     cancers: ["urothelial", "colorectal", "tnbc", "nsclc", "breast-cancer"], drugs: ["atezolizumab", "signatera", "guardant-reveal", "radar-mrd", "oncodetect", "clonoseq"], tests: ["signatera", "guardant-reveal", "radar-mrd", "next-personal"], assays: ["signatera-mrd"],
     companionDiagnostics: [cdx("Signatera CDx", "Natera", "Muscle Invasive Bladder Cancer (MIBC) - Plasma", ["atezolizumab"], "P260004 (05/15/2026)", "natera")],
     forPatient: "A positive ctDNA test after surgery means traces of the cancer's DNA are still in your blood and relapse is likely without more treatment. In muscle-invasive bladder cancer a positive Signatera result now selects a year of atezolizumab; in bowel cancer it is used in trials and by some teams to decide on chemotherapy. A negative result is reassuring but not a guarantee, and testing is usually repeated over time.",
-    terms: ["ctdna", "mrd", "tumour-informed-assay", "cfdna"], related: ["tmb-high", "esr1-mutation-ctdna"], links: [{ label: FDA_CDX_LABEL, url: FDA_CDX_URL }, { label: "TECENTRIQ prescribing information (DailyMed)", url: LABEL.tecentriq }], tags: ["biomarker", "genome-wide", "ctdna"] }),
+    terms: ["ctdna", "mrd", "tumour-informed-assay", "cfdna"], related: ["tmb-high", "esr1-mutation-ctdna"], links: [{ label: FDA_CDX_LABEL, url: FDA_CDX_URL }, { label: "TECENTRIQ prescribing information (DailyMed)", url: LABEL.tecentriq }], tags: ["biomarker", "genome-wide", "ctdna", "precision"] }),
 
   b({ id: "hla-a-02-01", name: "HLA-A*02:01 (HLA typing for TCR therapies)", aka: ["HLA-A*02:01", "HLA-A2", "HLA-A*02:01-positive", "HLA-A0201", "HLA typing", "HLA-A*02"],
     target: "hla-a", measurement: "hla-typing",

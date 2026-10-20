@@ -1014,7 +1014,7 @@ const readouts: BiomarkerInput[] = [
     forPatient: "A blood test for cancer genes is easier than a bone biopsy and often gives the same answer. If it comes back with nothing found, that is not the same as nothing being there: it can mean the cancer was not shedding enough DNA into the blood that day, and a tissue sample may still be needed.",
     cancers: [PC, MCRPC], targets: ["brca", "androgen-receptor", "atm"], related: ["hrr-gene-mutation", "ar-amplification", "ctdna-mrd-positive"], pathways: ["clonal-evolution", "homologous-recombination-repair", "clonal-haematopoiesis"], terms: ["ctdna", "cfdna", "germline-vs-somatic", "vus", "biopsy"], technologies: ["liquid-biopsy", "cgp"],
     keyPapers: [SRC.wyatt2017.paper, SRC.tukachinsky2021.paper, SRC.jensen2021.paper, SRC.annala2018.paper],
-    links: [link(SRC.wyatt2017), link(SRC.tukachinsky2021), link(SRC.jensen2021)], tags: ["biomarker", "prostate"] },
+    links: [link(SRC.wyatt2017), link(SRC.tukachinsky2021), link(SRC.jensen2021)], tags: ["biomarker", "prostate", "precision"] },
 ];
 
 // ======================= SUPPLEMENTS =======================

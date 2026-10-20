@@ -369,7 +369,7 @@ export const biomarkerReadouts: BiomarkerInput[] = [
     cancers: ["metastatic-cancer", "nsclc", "melanoma", "urothelial"], drugs: ["pembrolizumab", "foundationone-cdx"], tests: ["foundationone-cdx", "foundationone-liquid-cdx", "caris-mi-cancer-seek", "tempus-xt", "trusight-oncology-500", "stratangs", "omniseq-insight", "altera", "oncoextra", "bostongene-tumor-portrait", "tempus-xe"], assays: ["tmb-panel", "foundationone-cdx-panel"],
     companionDiagnostics: [cdx("FoundationOne CDx", "Foundation Medicine", "Solid Tumors - Tissue", ["pembrolizumab"], "P170019/S016 (06/16/2020)", "foundation-medicine")],
     forPatient: "If a FoundationOne CDx report gives a TMB of 10 or more mutations per megabase, pembrolizumab is on label for your cancer once other treatments have been tried, whatever the organ it started in. A TMB from a different test may use a different scale; ask whether the number was measured on an FDA-authorised assay before treating it as the same threshold.",
-    terms: ["tmb", "ngs", "tumour-agnostic", "neoantigen"], related: ["msi-high", "dmmr-ihc"], links: [{ label: "KEYTRUDA prescribing information (DailyMed)", url: LABEL.keytruda }], tags: ["biomarker", "genome-wide"] }),
+    terms: ["tmb", "ngs", "tumour-agnostic", "neoantigen"], related: ["msi-high", "dmmr-ihc"], links: [{ label: "KEYTRUDA prescribing information (DailyMed)", url: LABEL.keytruda }], tags: ["biomarker", "genome-wide", "precision"] }),
 
   // ---- BRCA and HRD ----
   b({ id: "brca-germline", name: "Germline BRCA1/2 pathogenic variant (gBRCAm)", aka: ["gBRCA", "gBRCAm", "germline BRCA", "germline BRCA1", "germline BRCA2", "BRCA carrier", "inherited BRCA mutation", "deleterious germline BRCA mutation"],

@@ -11,9 +11,8 @@ export const papersRadiation: PaperInput[] = [
     name: "Paganetti 2014: proton RBE is not a fixed 1.1",
     tldr: "The number used to convert proton gray into X-ray gray (1.1) is a convention. The true relative effect is higher where the beam stops, and it depends on the tissue and the size of each dose.",
     summary: "Paganetti reviewed laboratory and clinical estimates of proton relative biological effectiveness and showed systematic variation with linear energy transfer, dose per fraction, and biological endpoint. The distal edge is the region of concern. The paper is why variable-RBE planning exists and why constant 1.1 remains a reporting rule rather than a measurement.",
-    journal: "International Journal of Radiation Oncology, Biology, Physics",
+    journal: "Physics in Medicine and Biology",
     year: 2014,
-    doi: "10.1016/j.ijrobp.2014.07.001",
     authors: "Paganetti H",
     paperType: "review",
     findings: [
@@ -31,6 +30,10 @@ export const papersRadiation: PaperInput[] = [
     sections: ["radiation"],
     technologies: ["proton-therapy", "intensity-modulated-proton-therapy"],
     terms: ["relative-biological-effectiveness", "linear-energy-transfer", "alpha-beta-ratio", "bragg-peak"],
-    links: [{ label: "DOI", url: "https://doi.org/10.1016/j.ijrobp.2014.07.001" }],
+    // The DOI this record carried, 10.1016/j.ijrobp.2014.07.001, resolves to an unrelated IJROBP editorial on radiation
+    // dermatitis. The review is 10.1088/0031-9155/59/22/R419, already held as paper-paganetti-phys-med-biol; the two
+    // records await a merge (docs/DUPLICATE-RECORDS.md), so the DOI is kept on that record only.
+    related: ["paper-paganetti-phys-med-biol"],
+    links: [{ label: "DOI", url: "https://doi.org/10.1088/0031-9155/59/22/R419" }],
   }),
 ];

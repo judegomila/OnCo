@@ -140,7 +140,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["imrt-igrt", "sbrt", "proton-therapy", "mr-linac", "auto-contouring-ai"], companies: ["varian", "elekta", "raysearch", "sun-nuclear", "brainlab"],
   }),
   t({
-    id: "auto-contouring-ai", dependsOn: ["ai-compute-platforms"], links: [{ label: "Cardenas et al., Advances in auto-segmentation (Seminars in Radiation Oncology 2019)", url: "https://doi.org/10.1016/j.semradonc.2019.02.001" }], name: "AI auto-contouring and adaptive planning", sections: ["radiation", "ai-computation"], status: "established",
+    id: "auto-contouring-ai", tags: ["precision"], dependsOn: ["ai-compute-platforms"], links: [{ label: "Cardenas et al., Advances in auto-segmentation (Seminars in Radiation Oncology 2019)", url: "https://doi.org/10.1016/j.semradonc.2019.02.001" }], name: "AI auto-contouring and adaptive planning", sections: ["radiation", "ai-computation"], status: "established",
     tldr: "Software that draws organs and tumours on scans automatically, saving hours per patient and making daily plan adaptation practical.",
     summary: "Deep-learning segmentation of organs at risk and targets (Limbus AI, MIM Software, TheraPanacea, Siemens AI-Rad Companion Organs RT, Varian Ethos and Elekta's ADMIRE, MVision, Carina) is now routine in radiotherapy departments and FDA-cleared for dozens of structures. Target-volume contouring remains physician-reviewed. Online adaptive radiotherapy (Ethos, Unity) depends on it to re-plan in minutes.",
     principle: "Convolutional and transformer networks trained on expert contours segment CT/MR; outputs are edited and approved by clinicians.",

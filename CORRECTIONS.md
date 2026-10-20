@@ -2,6 +2,12 @@
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
+## 2026-10-20
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-10-20 | [Weekly electronic symptom reporting](/ideas/idea-acc-electronic-pro-monitoring-standard/) and [weekly symptom check-ins](/ideas/idea-moon-pro-monitoring-standard/) | Both ideas said that trials showed weekly symptom reporting makes people live longer, and one said the PRO-TECT trial improved overall survival. PRO-TECT, the largest trial and the one designed to test survival, found no difference (hazard ratio 0.99); two smaller trials had reported longer survival. | Re-read against the [PRO-TECT final report](https://europepmc.org/article/MED/41915775) and the [JAMA 2022 secondary outcomes](https://doi.org/10.1001/jama.2022.9265) during the protocol-upgrades round, and against the corpus record `rejuv-measure-epro-as-treatment`, which already said so. | Rewrote both TL;DRs and summaries to separate the confirmed quality-of-life, function and emergency-visit benefits from the unsettled survival question, corrected the plain-language line, and removed the eight machine translations that repeated the survival claim until they are retranslated. |
+
 ## 2026-10-10
 
 | Date | Entity | What was wrong | How found | Fix |

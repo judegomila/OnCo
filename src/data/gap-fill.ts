@@ -1083,6 +1083,7 @@ export const gapTechnologies: TechnologyInput[] = [
     strengths: ["Validated risk score and two positive prophylaxis RCTs", "Oral DOACs simplify treatment", "Guidelines aligned across ASCO, ESMO, ITAC"],
     limitations: ["Bleeding in GI and GU tumours and with thrombocytopenia", "Prophylaxis uptake remains low", "Arterial thrombosis less studied"],
     sections: ["supportive-care"], technologies: ["cytotoxic-chemotherapy", "antiangiogenic"], cancers: ["pancreatic", "gastric", "glioblastoma", "multiple-myeloma", "nsclc"],
+    related: ["idea-upgrade-clot-risk-score-and-preventive-anticoagulation"],
     links: [{ label: "ASCO VTE guideline update 2023", url: "https://doi.org/10.1200/JCO.23.00294" }, { label: "Khorana score (Blood 2008)", url: "https://doi.org/10.1182/blood-2007-10-116327" }], tags: ["gap-fill", "supportive"] }),
   tech({ id: "epro-symptom-monitoring", name: "Electronic patient-reported outcome (ePRO) symptom monitoring", status: "established", since: 2016, wikipedia: W("Patient-reported_outcome"),
     tldr: "Patients report symptoms weekly through an app or web form, and nurses respond to alerts. Randomised trials showed this simple system improved quality of life, cut emergency visits and, in one trial, extended survival by five months.",

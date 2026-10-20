@@ -565,7 +565,7 @@ export const ideasPrevention: IdeaInput[] = [
     hypothesis: "Opt-out embedded cessation increases 12-month biochemically verified quit rates among screened smokers from about 10% to at least 20%.",
     rationale: "Cessation delivers more life-years than the scan itself in modelling, and the population is captive.",
     test: "Programme-level comparison plus an RCT of opt-out versus opt-in delivery.",
-    sections: ["prevention", "early-detection"], cancers: ["nsclc"], technologies: ["ct"], links: [{ label: "Bottleneck evidence (Prevention we already have is not deployed): Islami et al., Proportion of cancer attributable to modifiable risk factors (CA 2018)", url: "https://doi.org/10.3322/caac.21440" }] }),
+    sections: ["prevention", "early-detection"], cancers: ["nsclc"], technologies: ["ct"], related: ["idea-upgrade-stop-smoking-treatment-at-diagnosis"], links: [{ label: "Bottleneck evidence (Prevention we already have is not deployed): Islami et al., Proportion of cancer attributable to modifiable risk factors (CA 2018)", url: "https://doi.org/10.3322/caac.21440" }] }),
   i({ id: "idea-prev-cytisine-essential-medicine", name: "Put cytisine, a cheap plant-based quit-smoking pill, on every essential medicines list", maturity: "being-tested-at-scale", actor: "policy", cost: "small", horizonYears: 3,
     bottlenecks: ["b-prevention-adoption", "b-global-access"],
     tldr: "Cytisine costs a few dollars per course and works about as well as varenicline, but is unavailable in most countries. Global approval and procurement would make quitting affordable.",

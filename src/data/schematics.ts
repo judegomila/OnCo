@@ -596,6 +596,7 @@ export const SCHEMATIC_ALIAS: Record<string, string> = {
   "imaging-mass-cytometry": "spatial-biology-instruments",
   "multiplex-immunofluorescence": "histopathology-ihc",
   "ai-pathology-scoring": "digital-pathology-ai",
+  "intraoperative-margin-assessment-breast": "fluorescence-guided-surgery",
   radiomics: "radiology-ai-screening",
   "ctc-capture": "liquid-biopsy",
   "cfdna-methylation-testing": "methylation-profiling",

@@ -79,7 +79,7 @@ export const technologies: TechnologyInput[] = [
     terms: ["suv"], drugs: ["fludeoxyglucose-f18"], related: ["pet-adapted-her2-deescalation", "idea-metabolic-vulnerability-mapping"], links: [{ label: "Wikipedia", url: W("Fludeoxyglucose_(18F)") }],
   },
   {
-    id: "psma-pet", trials: ["pop-rt"], drugs: ["choline-c11"], dependsOn: ["pet-ct", "radiopharmacy-network"], kind: "technology", name: "PSMA PET", sections: ["imaging", "radiopharma"], status: "standard-of-care", asOf, since: 2020,
+    id: "psma-pet", tags: ["precision"], trials: ["pop-rt"], drugs: ["choline-c11"], dependsOn: ["pet-ct", "radiopharmacy-network"], kind: "technology", name: "PSMA PET", sections: ["imaging", "radiopharma"], status: "standard-of-care", asOf, since: 2020,
     tldr: "A prostate-cancer-specific PET scan that finds spread far earlier than CT or bone scan, and tells you whether a matched radioactive drug will work.",
     summary: "PSMA PET uses small-molecule urea-based ligands that bind the active site of prostate-specific membrane antigen and are internalised, labelled with 68Ga or 18F. Approved agents are 68Ga-PSMA-11 (Illuccix, Locametz), 18F-DCFPyL (Pylarify, with Pylarify TruVu approved in March 2026) and 18F-rhPSMA-7.3 (Posluma). In clinical use since 2020, it is standard for initial staging of high-risk disease and for biochemical recurrence, where it detects disease at PSA below 0.5 ng/mL, far earlier than CT or bone scan. It is also the theranostic gatekeeper: a PSMA-positive scan is required to select patients for 177Lu-PSMA-617, as in VISION and PSMAfore. Around 10% of patients have PSMA-negative disease, and uptake in ganglia and salivary glands can be mistaken for tumour. It finds spread early and predicts whether the matched radioactive drug will work.",
     principle: "Small-molecule urea-based ligands bind PSMA's active site and are internalised.",
@@ -351,7 +351,7 @@ export const technologies: TechnologyInput[] = [
 
   // ======================= SURGERY =======================
   {
-    id: "robotic-surgery", related: ["surgical-robot-platforms"], kind: "technology", name: "Robotic & minimally invasive surgery", sections: ["surgery"], status: "standard-of-care", asOf, wikipedia: W("Robot-assisted_surgery"),
+    id: "robotic-surgery", tags: ["precision"], related: ["surgical-robot-platforms"], kind: "technology", name: "Robotic & minimally invasive surgery", sections: ["surgery"], status: "standard-of-care", asOf, wikipedia: W("Robot-assisted_surgery"),
     tldr: "Surgeons operate through small incisions using robotic arms with tremor-free precision and 3D vision.",
     summary: "Robotic prostatectomy, hysterectomy, colectomy, and increasingly lung and pancreatic resections. Oncologic equivalence to open surgery is established in most sites (with the notable exception of early cervical cancer, LACC trial). Faster recovery; cost is the trade-off. Intuitive dominates; Medtronic Hugo, CMR Versius, and single-port systems compete.",
     principle: "Tele-manipulated instruments move with wristed motion through laparoscopic ports.",
@@ -360,7 +360,7 @@ export const technologies: TechnologyInput[] = [
     companies: ["intuitive-surgical", "monteris-medical", "quantum-surgical", "xact-robotics", "medtronic", "cmr-surgical"], terms: ["colectomy"], links: [{ label: "Wikipedia", url: W("Robot-assisted_surgery") }],
   },
   {
-    id: "fluorescence-guided-surgery", kind: "technology", name: "Fluorescence-guided surgery", sections: ["surgery", "imaging"], status: "established", asOf, wikipedia: W("Fluorescence_image-guided_surgery"),
+    id: "fluorescence-guided-surgery", tags: ["precision"], kind: "technology", name: "Fluorescence-guided surgery", sections: ["surgery", "imaging"], status: "established", asOf, wikipedia: W("Fluorescence_image-guided_surgery"),
     tldr: "Injecting a dye that makes tumour glow so the surgeon can see exactly where to cut.",
     summary: "In fluorescence-guided surgery a tumour-selective fluorophore accumulates in the tumour and is imaged with near-infrared camera systems, so the surgeon can see disease that is invisible under white light. 5-ALA in glioma increases complete resection rates; pafolacianine (Cytalux) finds occult ovarian and lung lesions; pegulicianine (Lumisight, 2024) detects residual breast cancer in the lumpectomy cavity. The clinical payoff is fewer positive margins and re-operations. Targeted probes against EGFR, PSMA, and CEA are in phase 2-3 and would extend the approach to more tumour types. The limitation is millimetre depth penetration, so the dye shows surface disease and cannot see deep into tissue. The simple version is that a dye makes the tumour glow so the surgeon knows exactly where to cut.",
     principle: "A tumour-selective fluorophore accumulates in the tumour and is imaged with near-infrared camera systems.",
@@ -369,7 +369,7 @@ export const technologies: TechnologyInput[] = [
     technologies: ["optical-imaging"], links: [{ label: "Wikipedia", url: W("Fluorescence_image-guided_surgery") }], companies: ["vergent-bioscience", "photonamic", "blaze-bioscience"],
   },
   {
-    id: "sentinel-node", drugs: ["technetium-sulfur-colloid"], kind: "technology", name: "Sentinel lymph node biopsy", sections: ["surgery"], status: "standard-of-care", asOf, wikipedia: W("Sentinel_lymph_node"),
+    id: "sentinel-node", tags: ["precision"], drugs: ["technetium-sulfur-colloid"], kind: "technology", name: "Sentinel lymph node biopsy", sections: ["surgery"], status: "standard-of-care", asOf, wikipedia: W("Sentinel_lymph_node"),
     tldr: "Removing just the first lymph node a tumour drains to, instead of all of them, to check for spread.",
     summary: "Sentinel lymph node biopsy injects a tracer (radiocolloid, blue dye, ICG, or magnetic particles) at the tumour to identify the first draining node, which is removed and examined instead of clearing the whole nodal basin. It is standard in breast cancer and melanoma and replaced full node dissection for most patients after Z0011 and AMAROS showed that omitting completion dissection did not compromise outcomes. The main benefit is avoiding lymphoedema from full dissection. It is now being omitted entirely in low-risk breast cancer (SOUND, INSEMA trials), an example of surgical de-escalation driven by better systemic therapy and imaging. False negatives occur in roughly 5-10% of cases, which is the accepted trade-off. The simple version is that surgeons check the one node most likely to harbour spread rather than removing them all.",
     principle: "Tracer (radiocolloid, blue dye, ICG, magnetic) injected at tumour identifies draining node.",
@@ -1126,7 +1126,7 @@ export const technologies: TechnologyInput[] = [
     links: [{ label: "Wikipedia", url: W("Immunofluorescence") }],
   },
   {
-    id: "ai-pathology-scoring", companies: ["vicinity-bio"], dependsOn: ["digital-pathology-ai"], kind: "technology", name: "AI scoring of biomarkers and grade on pathology slides", sections: ["diagnostics","ai-computation"], status: "approved", asOf, since: 2021, wikipedia: W("Digital_pathology"),
+    id: "ai-pathology-scoring", tags: ["precision"], companies: ["vicinity-bio"], dependsOn: ["digital-pathology-ai"], kind: "technology", name: "AI scoring of biomarkers and grade on pathology slides", sections: ["diagnostics","ai-computation"], status: "approved", asOf, since: 2021, wikipedia: W("Digital_pathology"),
     tldr: "Software that reads digitised biopsy slides to detect cancer, grade it, and score biomarkers such as HER2, PD-L1 and Ki-67 more consistently than the eye alone.",
     summary: "Deep-learning models trained on whole-slide images now detect prostate cancer in biopsies (Paige Prostate, the first FDA-authorised AI pathology tool, 2021), assist Gleason grading, count mitoses, and quantify immunohistochemistry such as HER2, PD-L1 and Ki-67, where pathologist agreement is known to be poor at the decision thresholds. Newer models infer molecular states, such as microsatellite instability, directly from routine H&E slides.",
     principle: "Convolutional or transformer networks trained on annotated whole-slide images produce per-region probabilities that are aggregated into detections, grades or scores presented to the pathologist.",

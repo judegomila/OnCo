@@ -352,7 +352,7 @@ const imagingAgents: DrugInput[] = [
 // AI-enabled software as a medical device
 // =====================================================================================
 const aiSoftware: DrugInput[] = [
-  d({ id: "paige-prostate", name: "Paige Prostate Detect", brand: "Paige Prostate", modality: "AI digital pathology detection software (prostate biopsy)", status: "approved",
+  d({ id: "paige-prostate", tags: ["test", "precision"], name: "Paige Prostate Detect", brand: "Paige Prostate", modality: "AI digital pathology detection software (prostate biopsy)", status: "approved",
     mechanism: "Deep-learning model trained on tens of thousands of whole-slide images flags biopsy slides and regions suspicious for cancer for pathologist review.",
     tldr: "The first AI for reading biopsy slides authorised by the FDA, which points pathologists to prostate cancer they might otherwise miss.",
     summary: "Paige Prostate received FDA De Novo authorisation on 21 September 2021 (DEN200080), the first artificial-intelligence software for pathology. In the FDA reader study, pathologists using the software improved cancer detection on prostate biopsy slides, with the agency reporting a 7.3% improvement in detection and a reduction in false negatives. It runs on scanned whole-slide images and highlights areas of concern rather than making the diagnosis. Paige, a Memorial Sloan Kettering spin-out, went on to build the Virchow foundation models with Microsoft, and the software is CE-marked in Europe.",

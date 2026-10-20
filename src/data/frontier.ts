@@ -28,7 +28,7 @@ const frontierBase: EntityInput[] = [
     strengths: ["Low cost per sample", "Complements methylation and mutation signals", "Sensitive to chromatin state of the cell of origin"],
     limitations: ["Lower specificity than deep methylation panels alone", "Tissue-of-origin resolution weaker than methylation", "Clinical utility (mortality benefit) unproven"],
     technologies: ["liquid-biopsy", "mced", "mrd-testing"], terms: ["ctdna"], cancers: ["nsclc"],
-    tags: ["frontier"],
+    tags: ["frontier", "precision"],
     links: [{ label: "DELFI FIRSTLUNG at ATS 2026", url: "https://www.biospace.com/press-releases/delfi-diagnostics-to-present-first-clinical-utility-data-for-blood-based-lung-cancer-screening-at-ats-2026-international-conference" }],
   },
   {

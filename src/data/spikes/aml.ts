@@ -91,7 +91,7 @@ const technologies: TechnologyInput[] = [
     strengths: ["Broadly applicable, fast (same day)", "Works without a molecular marker"],
     limitations: ["Operator and lab dependent", "Sensitivity below molecular methods; immunophenotype shift after therapy"],
     cancers: ["aml", "all-leukemia", "cll", "multiple-myeloma"], technologies: ["mrd-testing"], terms: ["mrd", "mrd-negative-cr"], links: [{ label: "Wikipedia", url: W("Flow_cytometry") }] }),
-  tech({ id: "ngs-mrd-clonoseq", related: ["mrd-kinetics-models"], name: "NGS-based MRD (clonoSEQ and molecular MRD)", sections: ["diagnostics"], status: "standard-of-care", wikipedia: W("Minimal_residual_disease"),
+  tech({ id: "ngs-mrd-clonoseq", tags: ["precision"], related: ["mrd-kinetics-models"], name: "NGS-based MRD (clonoSEQ and molecular MRD)", sections: ["diagnostics"], status: "standard-of-care", wikipedia: W("Minimal_residual_disease"),
     tldr: "Sequencing the unique genetic barcode of a patient's leukaemia to find one cancer cell in a million.",
     summary: "clonoSEQ (Adaptive Biotechnologies) tracks clonal IGH/TCR rearrangements at 10^-6 and is FDA-cleared for ALL, myeloma, and CLL. In AML, quantitative PCR of NPM1 or core-binding-factor fusion transcripts and error-corrected NGS of persistent mutations (excluding DNMT3A/TET2/ASXL1) define molecular MRD per ELN 2021. MRD status now drives transplant decisions in AML, blinatumomab use in ALL, and fixed-duration versus continuous therapy debates in CLL.",
     principle: "The assay deep-sequences a patient-specific clonotype or mutation with error correction.",

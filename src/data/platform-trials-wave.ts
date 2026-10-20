@@ -95,7 +95,7 @@ export const platformTrials: TrialInput[] = [
     enrolled: 5954,
     drugs: ["dabrafenib", "trametinib", "nivolumab", "trastuzumab-emtansine", "capivasertib", "copanlisib", "palbociclib", "sunitinib", "binimetinib", "afatinib", "osimertinib", "crizotinib", "larotrectinib", "adavosertib"], cancers: ["rare-cancers"],
     technologies: ["cgp", "ngs-bioinformatics-software", "variant-knowledgebases", "checkpoint-inhibitor", "kinase-inhibitors"], terms: ["master-protocol", "basket-umbrella-platform", "tumour-agnostic"],
-    institutions: ["nci", "frederick-national-lab", "md-anderson", "mgh", "yale-cancer-center"], companies: ["ecog-acrin"], people: ["keith-flaherty", "peter-odwyer"], trials: ["combomatch", "myelomatch", "pediatric-match"], bottlenecks: ["b-rare-cancers", "b-trial-design"], tags: ["precision-medicine"],
+    institutions: ["nci", "frederick-national-lab", "md-anderson", "mgh", "yale-cancer-center"], companies: ["ecog-acrin"], people: ["keith-flaherty", "peter-odwyer"], trials: ["combomatch", "myelomatch", "pediatric-match"], bottlenecks: ["b-rare-cancers", "b-trial-design"], tags: ["precision-medicine", "precision"],
     outcomes: [{ endpoint: "Assigned to a treatment arm", primary: false, unit: "%", arms: [{ name: "Enrolled patients", n: 5954, value: 17.8 }], source: "https://doi.org/10.1200/JCO.19.03010" },
       { endpoint: "Objective response, dabrafenib plus trametinib in BRAF V600 tumours (arm H)", unit: "%", arms: [{ name: "Treated patients", value: 38 }], source: "https://doi.org/10.1200/JCO.20.00762" },
       { endpoint: "Objective response, nivolumab in dMMR non-colorectal tumours (arm Z1D)", unit: "%", arms: [{ name: "Treated patients", value: 36 }], source: "https://doi.org/10.1200/JCO.19.00818" }],

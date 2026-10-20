@@ -168,6 +168,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/live/complementary/", label: "Complementary and supportive approaches", blurb: "Acupuncture, mindfulness, yoga, herbs, diets, cannabis, cold caps and more: what the trials show, graded honestly, and what to avoid or never use instead of treatment." },
       { href: "/live/hair/", label: "Hair loss and regrowth", blurb: "Scalp cooling and the regimens it suits, minoxidil for lasting thinning, eyebrows and lashes, wigs on the NHS and by prescription in the US, which drugs cause it and when hair returns." },
       { href: "/live/recovery/", label: "What comes back after treatment", blurb: "Treatment by treatment and effect by effect: whether recovery is usual, partial or unlikely, how long it takes, in what proportion, and the source for each answer." },
+      { href: "/live/precision/", label: "How precise cancer care is", blurb: "Test by test, beam by beam, margin by margin and dose by dose: how precise each is today, in the source's own words, what limits it, the next step and what that step would buy a patient." },
       { href: "/heroes/", label: "Heroes and heroines", blurb: "The patients, families, advocates and pioneers whose lives and cases changed cancer." },
     ],
   },

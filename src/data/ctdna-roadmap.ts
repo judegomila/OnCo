@@ -36,7 +36,7 @@ export const ctdnaRoadmaps: RoadmapInput[] = [
     people: ["nitzan-rosenfeld", "dawson-sarah-jane", "nickolas-papadopoulos", "alberto-bardelli", "jeanne-tie", "thomas-powles", "deb-schrag", "peter-sasieni", "klaus-pantel"],
     bottlenecks: ["b-dormancy-mrd"],
     keyPapers: ["paper-dynamic-nejm-2022", "paper-galaxy-signatera-nat-med-2023", "paper-imvigor011-nejm-2025", "paper-pathfinder-lancet-2023", "paper-nhs-galleri-design-cancers-2022", "paper-nhs-galleri-performance-nat-med-2026"],
-    related: ["diagnostics-roadmap", "early-detection-roadmap", "cure-paths", "ctdna-mrd-to-adjuvant", "idea-ctdna-guided-adjuvant-crc", "idea-tr2-ctdna-mrd-qualification", "idea-bio2-mrd-coverage-with-evidence", "idea-prev-mced-positive-resolution-pathway"],
+    related: ["diagnostics-roadmap", "early-detection-roadmap", "cure-paths", "ctdna-mrd-to-adjuvant", "idea-ctdna-guided-adjuvant-crc", "idea-tr2-ctdna-mrd-qualification", "idea-bio2-mrd-coverage-with-evidence", "idea-prev-mced-positive-resolution-pathway", "precision-roadmap"],
     links: [
       epmc("18875018", "Mandel and Metais: nucleic acids in human blood plasma (C R Seances Soc Biol Fil 1948)"),
       epmc("837366", "Leon et al.: free DNA in the serum of cancer patients and the effect of therapy (Cancer Research 1977)"),
@@ -134,7 +134,7 @@ export const ctdnaRoadmaps: RoadmapInput[] = [
       "How this stays current: run `npm run ctdna:watch`. The script reads this roadmap, lists every trial it references with its corpus status, checks each NCT id against the ClinicalTrials.gov v2 API for overall status and completion dates, and searches Europe PMC for papers on the trial acronyms published since the roadmap's asOf date. Anything it prints that this page does not say is an edit to make; then move asOf forward.",
       "Dates in 'What to watch' are quoted from registries and releases and are not predictions. Registry completion dates move, and a company release is used only for a meeting date or a readout date, never for a result the paper has not yet reported.",
     ],
-    tags: ["ctdna", "liquid-biopsy", "mrd", "mced"],
+    tags: ["ctdna", "liquid-biopsy", "mrd", "mced", "precision"],
   }),
 ];
 

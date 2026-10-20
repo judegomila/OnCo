@@ -3,7 +3,7 @@ import { enrolmentLabel } from "@/lib/enrolment";
 import { publicTags, tagRoute } from "@/lib/tags";
 import { Fragment, type ReactNode } from "react";
 import { EVIDENCE_TIER_LABEL, TARGET_ROLE_LABEL, type Entity, type Roadmap, type Term } from "@/lib/schema";
-import { phaseLabel, routeFor, type Kind } from "@/lib/kinds";
+import { KIND_META, KINDS, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
 import { graph } from "@/lib/graph";
 import { Bullets, ChipList, Container, PageHeader, StatusChip } from "./ui";
 import { Block, Field, KeyPapers, keyPapersFor, LatestLiterature, Refs, Summary, ToolsStrip } from "./record-blocks";
@@ -66,7 +66,7 @@ import { TargetSpecificityPills } from "./TargetSpecificityPills";
 import { SupportivePill } from "./SupportivePill";
 import { CompanyTypePill } from "./CompanyTypePill";
 import { TargetWhereFound, hpaFor } from "./TargetWhereFound";
-import { TL } from "./T";
+import { KindName, TL } from "./T";
 import { KIND_COLOR, statusClass } from "@/lib/text";
 import { withTermHovers } from "@/lib/term-hover";
 import { paperQuery } from "@/lib/europepmc";
@@ -86,7 +86,6 @@ import { ApprovalChip } from "./ApprovalChip";
 import { approvedYearOf } from "@/lib/approved-year";
 import { MechanicsPills } from "./MechanicsPills";
 import { TargetSchematic } from "./TargetSchematic";
-import { IntentLink } from "./IntentLink";
 import { TargetExplainer } from "./TargetExplainer";
 import { CoverageUsCard } from "./CoverageUs";
 import { CoverageUkCard } from "./CoverageUk";
@@ -264,29 +263,23 @@ export function RecordAside({ e }: { e: Entity }) {
 }
 
 /**
- * Quick links a group shows in the sidebar before it says "and N more". The Connected section below lists every one
- * of them with its kind and hover, so a long array here is the same names a second time in the markup: a roadmap
- * with fourteen eras carried 19 KB of duplicate sidebar links.
+ * The sidebar's way into the Connected section: each kind it holds, with how many, as one link to it. Until
+ * 19 October 2026 this card reprinted up to eight names per kind, and on the record page measured ten of ten of
+ * them were already in Connected under a second vocabulary ("Products" for drugs); a roadmap with fourteen eras
+ * carried 19 KB of duplicate links. Counts and kind names keep the navigation without saying anything twice, and
+ * the names come from the same KindName labels Connected uses (docs/INFORMATION-ARCHITECTURE.md, items 1 and 2).
  */
-const QUICK_LINKS = 8;
-
 function QuickLinks({ e }: { e: Entity }) {
-  const g = graph();
-  const rows: Array<[string, string[]]> = [
-    ["Cancers", e.cancers], ["People", e.people], ["Fronts", e.sections], ["Technologies", e.technologies], ["Targets", e.targets], ["Products", e.drugs], ["Companies", e.companies], ["Institutions", e.institutions], ["Pathways", e.pathways], ["Terms", e.terms], ["Trials", e.trials], ["Related", e.related],
-  ];
-  const nonEmpty = rows.filter(([, ids]) => ids.length);
-  if (!nonEmpty.length) return null;
+  const groups = graph().neighbours(e.id);
+  const order = KINDS.filter((k) => (groups.get(k)?.length ?? 0) > 0);
+  if (!order.length) return null;
   return (
-    <div className="card p-4 text-sm space-y-3" data-quick-links>
-      {nonEmpty.map(([label, ids]) => (
-        <div key={label}>
-          <div className="kicker mb-1"><TL text={label} /></div>
-          <ul className="space-y-0.5">{ids.slice(0, QUICK_LINKS).map((id) => { const x = g.get(id); return x ? <li key={id}><IntentLink className="hover:underline" href={routeFor(x)}>{x.name}</IntentLink></li> : null; })}</ul>
-          {ids.length > QUICK_LINKS && <Link href="#connected" className="text-xs text-muted hover:text-foreground hover:underline" data-more>and {ids.length - QUICK_LINKS} more →</Link>}
-        </div>
-      ))}
-    </div>
+    <nav className="card p-4 text-sm" aria-label="Connected records" data-quick-links>
+      <div className="kicker mb-1.5"><TL text="Connected" /></div>
+      <ul className="space-y-0.5">{order.map((k) => (
+        <li key={k}><Link className="flex justify-between gap-3 hover:underline" href="#connected"><span className="first-letter:uppercase"><KindName kind={k} form="plural" fallback={KIND_META[k].plural} /></span><span className="tabular-nums text-muted">{groups.get(k)!.length.toLocaleString("en-GB")}</span></Link></li>
+      ))}</ul>
+    </nav>
   );
 }
 

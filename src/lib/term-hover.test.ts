@@ -69,4 +69,17 @@ describe("corpus auto-linking", () => {
     expect(hrefs).toContain("/terms/first-line/");
     expect(hrefs).toContain("/terms/ctdna/");
   });
+
+  it("does not turn a fragment of a glossary title into a link for an ordinary word", () => {
+    // "British and American lymphoma practice: where they differ, and why" once made every "Why" on the site a
+    // link to it, and "Biliary stent problems: blockage and infection" did the same for "infection".
+    const byPattern = new Map(entityPatterns().map((p) => [p.pattern.toLowerCase(), p.ref]));
+    for (const word of ["why", "infection", "management", "observation", "equity", "british", "array"]) {
+      expect(byPattern.get(word)?.kind === "term" ? byPattern.get(word)?.name : undefined, word).toBeUndefined();
+    }
+    expect(termMarks("Why stopped, in the sponsor's words: business reasons.", 6).map((mk) => mk.label)).not.toContain("British and American lymphoma practice: where they differ, and why");
+    // A real pair still links from each half.
+    expect(byPattern.get("her2-ultralow")?.route).toBe("/terms/her2-low/");
+    expect(byPattern.get("eqd2")?.kind).toBe("term");
+  });
 });

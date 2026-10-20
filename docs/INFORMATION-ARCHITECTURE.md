@@ -28,11 +28,12 @@ is capped at eight per kind and then says "and N more →", which links to the f
 every record page. A code comment already records the symptom from a different angle: "a roadmap with fourteen
 eras carried 19 KB of duplicate sidebar links". The honest options are to drop the sidebar list, or to make it a
 jump list of kind names with counts that scrolls to Connected rather than reprinting the names. The second keeps
-the navigation value and removes the repetition. *Proposed; needs the owner.*
+the navigation value and removes the repetition. *Done 19 October 2026, approved by the owner as quality idea 7: the card is
+now kind names with counts, each a link to Connected.*
 
 **2. Kind labels are written twice in two registers.** Whichever list survives should use one vocabulary. The
 corpus calls the kind `drug` and the route `/drugs/`; the sidebar calling it "Products" is a third name for the
-same thing. *Proposed.*
+same thing. *Done 19 October 2026: the sidebar now takes its kind names from the labels Connected uses.*
 
 **3. A section label that counts to one.** The Sources block prints "isrctn.com · 1" and "Papers and guidelines,
 by DOI · 1". A count beside a list of one is noise; below three it tells the reader nothing the list does not.

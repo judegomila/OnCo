@@ -6,6 +6,9 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 20 October 2026
+- The sidebar stops reprinting the Connected section, and ordinary words like why and infection stop linking to unrelated glossary pages
+
 ### 19 October 2026
 - Trials that have closed stop saying they are recruiting, in English, plain language and Chinese
 - The audit contradictions it took a day to clear can no longer come back unnoticed

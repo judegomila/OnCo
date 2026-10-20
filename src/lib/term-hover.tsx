@@ -33,7 +33,14 @@ export function entityPatterns(): Array<{ pattern: string; ref: TermRef }> {
     if (k === "term" && abbr && (/^[a-z ]+$/.test(abbr) || owned.has(abbr.toLowerCase()))) abbr = undefined;
     const min = k === "term" ? 3 : 4;
     // Glossary entries that name two things ("HER2-low and HER2-ultralow", "TILs / tumour-infiltrating lymphocytes") link from each.
-    const halves = k === "term" ? base.split(/\s+(?:and|or|\/|&)\s+/).filter((h) => h.length >= min && h !== base) : [];
+    // Only a name that is a pair splits. A title with a colon or a comma ("British and American lymphoma practice:
+    // where they differ, and why") gave "why", and "Biliary stent problems: blockage and infection" gave
+    // "infection", so every "Why" and every "infection" on the site linked to the wrong page. A one-word half has
+    // to look like a term of art (a digit, an inner capital or a hyphen: "BrECADD", "EQD2", "Child-Pugh"); a plain
+    // word such as "management" or "observation" is not one, and the record still links from its full name.
+    const pairOnly = !/[:,]/.test(base);
+    const technical = (h: string) => /\s/.test(h) || /\d|-|.[A-Z]/.test(h);
+    const halves = k === "term" && pairOnly ? base.split(/\s+(?:and|or|\/|&)\s+/).filter((h) => h.length >= min && h !== base && technical(h)) : [];
     for (const s of [base, abbr, ...halves, ...t.aka]) {
       if (!s || (s.length < min && !(k === "term" && SHORT_OK.has(s.toLowerCase()))) || /^\d+$/.test(s) || STOP.has(s.toLowerCase())) continue;
       // Short all-lower-case words from non-glossary kinds are usually ordinary words; skip them.

@@ -23,6 +23,7 @@ import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "../src/lib/graph";
 import { companyKey, companyKeys, drugKeys } from "../src/lib/completeness";
+import { isNotAProductKey } from "./drug-key-guard";
 import { resolveSponsor } from "../src/data/sponsor-aliases";
 import type { Company, Drug, Trial } from "../src/lib/schema";
 import { companyDrugsWave6, trialCompaniesWave6, COMPANY_DRUG_SKIP } from "../src/data/company-drugs-wave6";
@@ -117,7 +118,7 @@ async function main(): Promise<void> {
         newSkips[c.id] = reason; outcomes.push({ company: c.id, note: `${did}: skipped, ${reason}` }); continue;
       }
       const dk = drugKeys(d);
-      const named = (study.protocolSection?.armsInterventionsModule?.interventions ?? []).some((iv) => [...drugKeys({ name: iv.name ?? "", aka: iv.otherNames ?? [] })].some((k) => k.length >= 4 && dk.has(k)));
+      const named = (study.protocolSection?.armsInterventionsModule?.interventions ?? []).some((iv) => [...drugKeys({ name: iv.name ?? "", aka: iv.otherNames ?? [] })].some((k) => k.length >= 4 && !isNotAProductKey(k) && dk.has(k)));
       if (!named) {
         tally.interventionMismatch++;
         const reason = `no intervention of ${t.nct} names ${d.name} on ClinicalTrials.gov`;

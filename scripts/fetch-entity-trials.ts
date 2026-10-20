@@ -40,6 +40,7 @@ import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "../src/lib/graph";
 import { companyKey, companyKeys, drugKeys, nameParts, norm } from "../src/lib/completeness";
+import { isNotAProductKey } from "./drug-key-guard";
 import type { Cancer, Company, Drug, Technology, Trial, TrialInput } from "../src/lib/schema";
 import { ENTITY_TRIAL_SKIP, entityTrialLinksWave5, entityTrialsWave5, trialsEntitiesWave5 } from "../src/data/trials-entities-wave5";
 import { today } from "./feed-utils";
@@ -99,7 +100,7 @@ for (const t of trialsEntitiesWave5) if (t.nct) trialByNct.set(t.nct.toUpperCase
 
 /** Corpus drugs by every key drugKeys() gives them; a key shared by two drugs is dropped as ambiguous. */
 const drugByKey = new Map<string, Drug | null>();
-for (const d of drugs) for (const k of drugKeys(d)) { if (k.length < 4 || CLASS_WORD.test(k)) continue; drugByKey.set(k, drugByKey.has(k) && drugByKey.get(k)?.id !== d.id ? null : d); }
+for (const d of drugs) for (const k of drugKeys(d)) { if (k.length < 4 || CLASS_WORD.test(k) || isNotAProductKey(k)) continue; drugByKey.set(k, drugByKey.has(k) && drugByKey.get(k)?.id !== d.id ? null : d); }
 /** Corpus drugs a registry intervention names (name or other names), by whole normalised key. */
 function drugsNamedBy(intervention: { name?: string; otherNames?: string[] }): Drug[] {
   const out = new Map<string, Drug>();

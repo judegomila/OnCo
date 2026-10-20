@@ -11,6 +11,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { graph } from "../src/lib/graph";
 import { companyKey, companyKeys, drugKeys, norm } from "../src/lib/completeness";
+import { isNotAProductKey } from "./drug-key-guard";
 import { resolveSponsor } from "../src/data/sponsor-aliases";
 
 const OUT = process.argv.find((a) => a.startsWith("--out="))?.slice(6) ?? join(process.cwd(), ".claude", "ctgov-cache");
@@ -135,7 +136,7 @@ async function main() {
     return false;
   };
   const drugKeySet = new Set<string>();
-  for (const d of g.kind("drug")) for (const k of drugKeys(d)) drugKeySet.add(k);
+  for (const d of g.kind("drug")) for (const k of drugKeys(d)) if (!isNotAProductKey(k)) drugKeySet.add(k);
   const drugMatches = (name: string) => {
     const n = norm(name);
     if (drugKeySet.has(n)) return true;

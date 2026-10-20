@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "note": "Lower with `npx tsx scripts/audit.ts --write-floor`; see src/data/audit-floor.test.ts for why these checks and not the others.",
   "checks": {
     "positive-hr-ge-1": 0,

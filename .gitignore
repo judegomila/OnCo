@@ -61,3 +61,4 @@ next-env.d.ts
 
 # fetch caches: the complete registry captures the fetchers resume from, never committed
 /.cache/
+/public/build-id.txt

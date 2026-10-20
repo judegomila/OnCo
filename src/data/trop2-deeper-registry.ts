@@ -276,10 +276,7 @@ export const trop2DeeperRegistry: EntityInput[] = [
     "status": "planned",
     "started": "2024-08-01",
     "startedType": "estimated",
-    "cancers": [
-      "nsclc",
-      "sclc"
-    ]
+    "cancers": ["nsclc"]
   },
   {
     "id": "nct07101432",

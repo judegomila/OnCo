@@ -236,7 +236,7 @@ export const rows: PrecisionRow[] = [
   },
 
   {
-    id: "rt-mr-guided-adaptive-prostate",
+    id: "rt-mr-guided-adaptive-prostate", grade: "moderate",
     domain: "radiation",
     label: "MRI-guided adaptive stereotactic radiotherapy for prostate cancer",
     technologyIds: ["mr-linac", "adaptive-radiotherapy"],
@@ -289,7 +289,7 @@ export const rows: PrecisionRow[] = [
   },
 
   {
-    id: "rt-proton-range",
+    id: "rt-proton-range", grade: "moderate",
     domain: "radiation",
     label: "Where a proton beam stops: range uncertainty",
     technologyIds: ["proton-therapy", "intensity-modulated-proton-therapy", "proton-range-uncertainty"],

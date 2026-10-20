@@ -198,7 +198,7 @@ export const rows: PrecisionRow[] = [
     relatedIds: ["dynamic", "colorectal", "paper-dynamic-nejm-2022", "paper-dynamic-nat-med-2025-update"],
   },
   {
-    id: "ctdna-positive-triggered-treatment",
+    id: "ctdna-positive-triggered-treatment", grade: "moderate",
     domain: "molecular",
     label: "Starting treatment because a ctDNA test turned positive",
     technologyIds: ["ctdna-mrd-positive", "mrd-testing", "signatera"],
@@ -337,7 +337,7 @@ export const rows: PrecisionRow[] = [
     relatedIds: ["nci-match", "cancer-drivers-vs-actionable", "paper-flaherty-j-clin-oncol", "paper-rothwell-nat-med", "paper-marquart-genome-driven-oncology-benefit-jama-oncol-2018"],
   },
   {
-    id: "matched-therapy-benefit",
+    id: "matched-therapy-benefit", grade: "insufficient",
     domain: "molecular",
     label: "What matching a drug to a tumour's mutation has been shown to buy",
     technologyIds: ["cgp", "tumour-agnostic"],
@@ -366,7 +366,7 @@ export const rows: PrecisionRow[] = [
     relatedIds: ["paper-shiva-off-label-targeted-therapy-lancet-oncol-2015", "christophe-le-tourneau", "paper-o-dwyer-nat-med", "paper-pishvaian-lancet-oncol", "pancreatic"],
   },
   {
-    id: "tmb-threshold",
+    id: "tmb-threshold", grade: "moderate",
     domain: "molecular",
     label: "Tumour mutational burden: one cut-off across every cancer",
     technologyIds: ["tmb-testing", "tmb-high", "tumour-agnostic"],

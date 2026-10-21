@@ -81,6 +81,13 @@ echo UPLOADED
 SHA=$(git rev-parse HEAD)
 echo "$SHA" > public/build-id.txt
 vercel deploy --prod --yes --archive=tgz > /tmp/vercel-tick$N.log 2>&1
+# Chains 214 and 216 were refused outright ("deploy_failed", "Not authorized") with no deployment created, and a
+# manual retry a few minutes later deployed cleanly both times. A refusal that created a deployment is different:
+# the remote build may still be running, so only retry when the log names no deployment URL at all.
+if grep -q '"deploy_failed"' /tmp/vercel-tick$N.log && ! grep -q 'vercel\.app' /tmp/vercel-tick$N.log; then
+  echo "DEPLOY-REFUSED: retrying once in 30 seconds"; sleep 30
+  vercel deploy --prod --yes --archive=tgz > /tmp/vercel-tick$N.log 2>&1
+fi
 rmdir "$LOCK" 2>/dev/null; trap - EXIT INT TERM
 grep -i "aliased\|error" /tmp/vercel-tick$N.log | head -3
 # Verify: the alias must serve every check page with 200 within 30 minutes (the CLI can drop while the remote build continues).

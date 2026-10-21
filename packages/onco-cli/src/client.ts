@@ -173,12 +173,15 @@ export class OncoClient {
     const q = query.trim();
     if (!q) throw new OncoError("A query is required", "usage");
     const [{ ms, byId }, sem] = await Promise.all([this.lexicalIndex(), this.semanticIndex()]);
-    // Apply the kind restriction before each retrieval window. A fixed over-fetch cannot guarantee
-    // recall: a common topic can have hundreds of trials ranked before its first matching drug.
+    // Exclude navigation pages and apply the kind restriction before each retrieval window. A fixed
+    // over-fetch cannot guarantee recall when pages or other kinds rank before matching records.
     const want = opts.kind ? Math.max(limit * 6, 60) : Math.max(limit, 12);
-    const eligible = (id: string) => !opts.kind || byId.get(id)?.kind === opts.kind;
+    const eligible = (id: string) => {
+      const doc = byId.get(id);
+      return !!doc && doc.kind !== "page" && (!opts.kind || doc.kind === opts.kind);
+    };
     const lexical = ms.search(q).filter((h) => eligible(String(h.id))).slice(0, want).map((h) => ({ id: String(h.id) }));
-    const concept = sem ? semanticSearch(sem, q, want, { filter: opts.kind ? eligible : undefined }) : [];
+    const concept = sem ? semanticSearch(sem, q, want, { filter: eligible }) : [];
     const conceptById = new Map(concept.map((h) => [h.id, h.matched.slice(0, 4)]));
     const lexIds = new Set(lexical.map((h) => h.id));
     const hits: SearchHit[] = [];

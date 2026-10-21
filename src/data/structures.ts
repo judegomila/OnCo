@@ -711,4 +711,7 @@ export const structures: Record<string, StructureDef[]> = {
   "gs-0201": [pc("GS-0201", "cid:77059035")],
   "nms-03305293": [pc("NMS-03305293", "cid:73774960")],
 
+  // Small molecules and peptides resolved by PubChem name lookup on 18 Sept 2026 (scripts/fill-structures.ts), pinned by compound id.
+
+
 };

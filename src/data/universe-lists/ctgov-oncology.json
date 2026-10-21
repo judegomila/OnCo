@@ -1,15 +1,15 @@
 {
- "checked": "2026-10-14",
+ "checked": "2026-10-21",
  "source": {
   "label": "ClinicalTrials.gov: interventional studies, condition 'cancer'",
   "url": "https://clinicaltrials.gov/search?cond=cancer&aggFilters=studyType:int"
  },
  "method": "ClinicalTrials.gov API v2 with query.cond=cancer and countTotal=true: interventional studies; of those, phase 3; of those, recruiting. Sponsors: distinct lead sponsor names (class INDUSTRY) across all phase 3 interventional cancer studies, so subsidiaries and name variants count separately.",
- "total": 97649,
- "phase3": 11037,
- "recruiting": 14329,
+ "total": 97774,
+ "phase3": 11050,
+ "recruiting": 14358,
  "industryPhase3": {
-  "studies": 4259,
+  "studies": 4264,
   "sponsors": 942
  },
  "items": [
@@ -23,7 +23,7 @@
   },
   {
    "name": "AstraZeneca",
-   "studies": 204
+   "studies": 205
   },
   {
    "name": "Novartis Pharmaceuticals",
@@ -39,7 +39,7 @@
   },
   {
    "name": "GlaxoSmithKline",
-   "studies": 102
+   "studies": 103
   },
   {
    "name": "Amgen",
@@ -234,12 +234,12 @@
    "studies": 13
   },
   {
-   "name": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
+   "name": "CSPC Megalith Biopharmaceutical Co.,Ltd.",
    "studies": 12
   },
   {
-   "name": "CSPC Megalith Biopharmaceutical Co.,Ltd.",
-   "studies": 11
+   "name": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
+   "studies": 12
   },
   {
    "name": "EMD Serono Research & Development Institute, Inc.",
@@ -306,6 +306,10 @@
    "studies": 8
   },
   {
+   "name": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+   "studies": 8
+  },
+  {
    "name": "Ono Pharmaceutical Co., Ltd.",
    "studies": 8
   },
@@ -351,10 +355,6 @@
   },
   {
    "name": "Cubist Pharmaceuticals LLC, a subsidiary of Merck & Co., Inc. (Rahway, New Jersey USA)",
-   "studies": 7
-  },
-  {
-   "name": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
    "studies": 7
   },
   {
@@ -1307,6 +1307,10 @@
   },
   {
    "name": "Harbour BioMed (Guangzhou) Co. Ltd.",
+   "studies": 2
+  },
+  {
+   "name": "Hinova Pharmaceuticals Inc.",
    "studies": 2
   },
   {
@@ -2503,10 +2507,6 @@
   },
   {
    "name": "HiberCell, Inc.",
-   "studies": 1
-  },
-  {
-   "name": "Hinova Pharmaceuticals Inc.",
    "studies": 1
   },
   {

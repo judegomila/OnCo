@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-14",
+ "checked": "2026-10-21",
  "source": {
   "label": "OECI: Member Profiles",
   "url": "https://www.oeci.eu/MemberList.aspx"
@@ -808,7 +808,10 @@
    "website": "https://icapss.aphp.fr",
    "membership": "Full Member",
    "leaders": [
+    "Laurent Zelek",
     "Arnaud Giraudet",
+    "Anne Kleiss",
+    "Arnaud Février",
     "Nathalie Ganne"
    ]
   },

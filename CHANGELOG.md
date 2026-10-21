@@ -6,11 +6,24 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 21 October 2026
+- How precise cancer care is: a sourced page test by test, beam by beam and dose by dose, and 37 protocol upgrades that could improve care now
+
 ### 20 October 2026
-- 252 lung cancer trials stop being filed under small-cell, and six radioligand trials stop being called FAP-2286
-- The sidebar stops reprinting the Connected section, and ordinary words like why and infection stop linking to unrelated glossary pages
+- Twenty-two cheap, evidence-backed changes to everyday cancer care are graded by how proven and how widely used they are, and two pages stop saying symptom tracking makes people live longer
+- Two dosing rows marked as oversold carry their evidence grade
+- Five precision rows marked as oversold now carry the evidence grade that says how far
+- How precise a cancer drug dose is today: ten matrix rows and four records on blood levels, genes and kidney function
+- Pegulicianine says what its trial showed, and the PD-L1 calibration idea cites the assay comparison it names
+- Fifteen ways to deliver radiotherapy and surgery better, from letting patients see their own breath-hold to four weeks of clot prevention after bowel surgery
+- Fifteen precision rows for blood tests and genomic matching say how precise each test is today and what acting on it has been shown to buy
+- Radiotherapy precision rows: margins, contouring, image and surface guidance, breath-hold, motion, MRI-guided adaptation, radiosurgery, proton range, FLASH and dose painting
+- A page for how precise cancer care is, test by test and dose by dose, with a roadmap and a check that every row is sourced
+- Precision matrix for surgery, imaging and pathology: thirteen sourced rows on margins, sentinel nodes, robots, PSMA PET, lung screening and slide scoring, and a record for checking breast margins during the operation
+- Skeleton for the precision and protocol-upgrades run: matrix types, one file per facet, registrations and tags
 
 ### 19 October 2026
+- 252 lung cancer trials stop being filed under small-cell, and six radioligand trials stop being called FAP-2286
 - The sidebar stops reprinting the Connected section, and ordinary words like why and infection stop linking to unrelated glossary pages
 - Trials that have closed stop saying they are recruiting, in English, plain language and Chinese
 - The audit contradictions it took a day to clear can no longer come back unnoticed

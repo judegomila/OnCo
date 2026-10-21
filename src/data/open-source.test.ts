@@ -95,7 +95,13 @@ describe("open-source projects", () => {
     const onco = openSourceProjects.find((p) => p.id === "onco");
     expect(onco?.repo).toBe("https://github.com/judegomila/OnCo");
     expect(onco?.opennessNote).toMatch(/CC BY-NC 4\.0/);
-    expect(openSourceProjects.find((p) => p.id === "open-medical-registry")?.repo).toBe("https://github.com/judegomila/openmedical");
+    const registry = openSourceProjects.find((p) => p.id === "open-medical-registry");
+    if (registry) {
+      expect(registry.repo).toBe("https://github.com/judegomila/openmedical");
+    } else {
+      // The curated repository currently returns 404; the fetch records that gap instead of claiming a verified entry.
+      expect(OPEN_SOURCE_SKIPPED.some((s) => s.name === "Open Medical Registry" && /GitHub API returned 404/.test(s.reason))).toBe(true);
+    }
   });
 
   it("every curated entry is either generated or explained in the skipped list", () => {

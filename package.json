@@ -62,6 +62,7 @@
     "numbers": "tsx scripts/numbers.ts",
     "history": "tsx scripts/history.ts",
     "check:links": "tsx scripts/check-links.ts",
+    "perf": "tsx scripts/perf-lighthouse.ts",
     "perf:tti": "tsx scripts/perf-tti.ts",
     "factcheck:apply": "tsx scripts/apply-factcheck.ts",
     "affected": "tsx scripts/affected-pages.ts",

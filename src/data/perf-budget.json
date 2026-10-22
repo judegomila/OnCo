@@ -1,0 +1,55 @@
+{
+  "note": "Lighthouse mobile, devtools throttling, median of 3, with 15 per cent headroom. Written by scripts/perf-lighthouse.ts --record, which only lowers a ceiling; raising one is a hand edit with a reason in the commit.",
+  "measured": "2026-10-22",
+  "pages": {
+    "/": {
+      "fcp": 3665,
+      "lcp": 3665,
+      "tbt": 2676,
+      "si": 3894,
+      "bytes": 1809166
+    },
+    "/cancers/tnbc/": {
+      "fcp": 3857,
+      "lcp": 4368,
+      "tbt": 953,
+      "si": 4070,
+      "bytes": 1374440
+    },
+    "/drugs/pembrolizumab/": {
+      "fcp": 4043,
+      "lcp": 4665,
+      "tbt": 3475,
+      "si": 4372,
+      "bytes": 1406759
+    },
+    "/trials/keynote-522/": {
+      "fcp": 3968,
+      "lcp": 4416,
+      "tbt": 59,
+      "si": 4130,
+      "bytes": 735389
+    },
+    "/terms/ctdna/": {
+      "fcp": 3906,
+      "lcp": 3906,
+      "tbt": 786,
+      "si": 3946,
+      "bytes": 831724
+    },
+    "/live/precision/": {
+      "fcp": 3141,
+      "lcp": 3601,
+      "tbt": 132,
+      "si": 3345,
+      "bytes": 623778
+    },
+    "/technologies/": {
+      "fcp": 3499,
+      "lcp": 3499,
+      "tbt": 473,
+      "si": 3668,
+      "bytes": 1070058
+    }
+  }
+}

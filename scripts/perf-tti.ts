@@ -1,4 +1,8 @@
 /**
+ * Superseded by scripts/perf-lighthouse.ts (`npm run perf`), 22 October 2026: Chrome 154 ignores the
+ * Network.emulateNetworkConditions call below, so the timings this prints are unthrottled (60 ms first paints for
+ * 800 KB pages). Kept for its interactive-handler probe until that is ported.
+ *
  * Load timings on a slow line, per page, with ceilings.
  *
  * Drives headless Chrome over the DevTools protocol at 1.6 Mbps down, 750 kbps up and 40 ms latency, with the HTTP

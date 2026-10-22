@@ -109,6 +109,14 @@ lowered (see commit "Take the backlink fill back out"). `logos` sits at 80% beca
 any source can find; each needs a Wikidata QID by hand.
 
 ## Owner asks not yet started
+- [ ] **GitHub icon in the mobile header, without the star count (owner, 22 October 2026).** Today `GitHubStars` is
+  `hidden sm:inline-flex` in `src/components/SiteChrome.tsx`, so phones get no GitHub link in the top bar. The bar
+  already holds search, language, text size, theme and sign-in, so an icon only fits if something else moves. Options,
+  in order of preference: (1) fold language, text size and theme into one settings button on small screens, which frees
+  two slots and leaves room for an icon-only GitHub link (`GitHubStars` with a `compact` prop that drops the count);
+  (2) make sign-in icon-only below `sm` and put GitHub beside it; (3) keep the bar as is and put GitHub as the first
+  item of the mobile menu. Measure at 360 px wide, the narrowest common phone, and check the tap targets stay 44 px.
+  This is a product change: show the owner side-by-side screenshots before shipping.
 - [ ] Health data: see docs/HEALTH-DATA-COMPLIANCE.md; decisions listed there (HIPAA does not apply today; stay browser-only, fix explicit consent for cancer type and gate analytics, plan encrypted sync next)
 - [x] Weekly maintenance and monthly identifiers now run in .github/workflows/maintenance.yml (owner approved 22 Sept 2026); bot pushes deploy on their own through the ignoreCommand test in vercel.json.
 - [ ] Google Search Console verification (needs the owner's TXT token; IndexNow key is live but the host verification was still pending on 10 Sept, retry `api.indexnow.org` each tick)

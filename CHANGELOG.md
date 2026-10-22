@@ -6,8 +6,18 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 22 October 2026
+- Pages load faster: first visits stop loading twice, the cancer map stops downloading the whole corpus, and drawings wait until the page has settled
+
 ### 21 October 2026
+- The ship chain retries once when Vercel refuses a deploy without creating one
 - How precise cancer care is: a sourced page test by test, beam by beam and dose by dose, and 37 protocol upgrades that could improve care now
+- chore: refresh preprint tracker from Europe PMC (#289)
+- chore: check regional approvals against the EMA register (#288)
+- chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE) (#287)
+- chore: refresh FDA approvals feed (OCE notifications, openFDA drugsfda) (#286)
+- chore: draft change proposals that need review (#285)
+- chore: EU regional rows read from the EMA register pages (#284)
 
 ### 20 October 2026
 - Twenty-two cheap, evidence-backed changes to everyday cancer care are graded by how proven and how widely used they are, and two pages stop saying symptom tracking makes people live longer
@@ -21,6 +31,11 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - A page for how precise cancer care is, test by test and dose by dose, with a roadmap and a check that every row is sourced
 - Precision matrix for surgery, imaging and pathology: thirteen sourced rows on margins, sentinel nodes, robots, PSMA PET, lung screening and slide scoring, and a record for checking breast margins during the operation
 - Skeleton for the precision and protocol-upgrades run: matrix types, one file per facet, registrations and tags
+- chore: weekly maintenance (logos, structures, trial links, acronyms, orphan links) (#283)
+- chore: refresh literature snapshot from Europe PMC (#282)
+- chore: draft change proposals that need review (#281)
+- chore: EU regional rows read from the EMA register pages (#280)
+- Exclude navigation pages before CLI and MCP search limits
 
 ### 19 October 2026
 - 252 lung cancer trials stop being filed under small-cell, and six radioligand trials stop being called FAP-2286

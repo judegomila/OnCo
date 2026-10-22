@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { allocateSlots, deriveActive, isLowBudget, motionFlags } from "./use-animation-budget";
 
-const base = { reduced: false, low: false, hidden: false, visible: true, hovered: false, tapped: false, slot: true };
+const base = { reduced: false, low: false, hidden: false, settled: true, visible: true, hovered: false, tapped: false, slot: true };
 
 describe("isLowBudget", () => {
   it("is low with Save-Data or four or fewer cores", () => {
@@ -36,6 +36,13 @@ describe("deriveActive", () => {
     expect(deriveActive({ ...base, low: true })).toBe(false);
     expect(deriveActive({ ...base, low: true, tapped: true })).toBe(true);
     expect(deriveActive({ ...base, low: true, hovered: true })).toBe(true);
+  });
+
+  it("waits for the page to settle unless the reader points at it or taps it", () => {
+    expect(deriveActive({ ...base, settled: false })).toBe(false);
+    expect(deriveActive({ ...base, settled: false, hovered: true })).toBe(true);
+    expect(deriveActive({ ...base, settled: false, tapped: true })).toBe(true);
+    expect(deriveActive({ ...base, settled: false, reduced: true, hovered: true })).toBe(false);
   });
   it("waits for a pool slot unless hovered", () => {
     expect(deriveActive({ ...base, slot: false })).toBe(false);

@@ -2,7 +2,7 @@
 
 import { useEffect, useState, type ReactNode } from "react";
 import { KindIcon } from "./KindIcon";
-import { METRICS, type Metric } from "@/lib/cancer-dag";
+import { METRICS, type Metric } from "@/lib/cancer-metrics";
 
 /**
  * The badge switch for the cancer map. The SVG is rendered on the server with all four badges on every node; this

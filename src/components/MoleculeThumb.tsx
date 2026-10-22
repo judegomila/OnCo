@@ -1,13 +1,13 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { STRUCTURES } from "@/lib/structures";
-export { hasMolecule } from "@/lib/structures";
+import { hasStructure } from "@/lib/structure-ids";
+export { hasStructure as hasMolecule } from "@/lib/structure-ids";
 
 // The canvas drawing code (Molecule3D, molecule-draw, molecule-render, Wireframe3D) loads with the first thumbnail
 // that actually has a structure, not with every page that mentions a drug. The server still prerenders the canvas
 // (ssr stays on), so the markup and the slot's size are unchanged while the chunk arrives.
-const Molecule3D = dynamic(() => import("./Molecule3D").then((m) => m.Molecule3D), {
+const MoleculeDrawing = dynamic(() => import("./MoleculeDrawing"), {
   loading: () => <span className="block h-full w-full" aria-hidden />,
 });
 
@@ -18,7 +18,6 @@ const Molecule3D = dynamic(() => import("./Molecule3D").then((m) => m.Molecule3D
  * Used wherever a drug is mentioned.
  */
 export function MoleculeThumb({ drugId, className = "h-24" }: { drugId: string; className?: string }) {
-  const entry = STRUCTURES[drugId]?.[0];
-  if (!entry) return null;
-  return <Molecule3D entry={entry} compact className={className} />;
+  if (!hasStructure(drugId)) return null;
+  return <MoleculeDrawing drugId={drugId} className={className} />;
 }

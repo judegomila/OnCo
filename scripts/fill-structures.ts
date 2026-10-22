@@ -139,6 +139,8 @@ async function main() {
     index[o.id] = [{ label: def.label, file: r.file, note: undefined, dim: r.dim, source: "pubchem", ref: `https://pubchem.ncbi.nlm.nih.gov/compound/${r.cid}` }];
   }
   writeFileSync(indexPath, JSON.stringify(index, null, 0));
+  // The ids alone, for client components that only ask whether a product has a structure (src/lib/structure-ids.ts).
+  writeFileSync(join(process.cwd(), "src", "data", "structure-ids.json"), JSON.stringify(Object.keys(index).sort()) + "\n");
   console.log(`wrote ${filled.length} entries to structures.ts and index.json`);
   if (failures.length) console.log(`SDF unresolved (remove these from structures.ts):\n  ${failures.join("\n  ")}`);
 }

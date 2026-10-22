@@ -234,27 +234,7 @@ export const manufacturingCompanies: CompanyInput[] = [
     technologies: ["research-reactor-isotope-production", "therapy-isotope-supply-chain", "pet-tracer-manufacturing"], links: [{ label: "Official website", url: "https://www.isotopia.co.il" }] }),
 ];
 
-/** Aliases for the schematic table: each manufacturing record borrows the drawing of the product or process it serves. */
-export const manufacturingSchematicAliases: Record<string, string> = {
-  "small-molecule-api-synthesis": "cytotoxic-chemotherapy",
-  "oral-solid-dose-manufacturing": "kinase-inhibitors",
-  "sterile-injectable-generics-manufacturing": "cytotoxic-chemotherapy",
-  "bcg-vaccine-manufacturing": "engineered-bacteria-therapy",
-  "downstream-purification-chromatography": "monoclonal-antibody-manufacturing",
-  "single-use-bioprocessing": "monoclonal-antibody-manufacturing",
-  "biosimilar-manufacturing": "monoclonal-antibody",
-  "pharmaceutical-gmp-inspections": "monoclonal-antibody-manufacturing",
-  "adc-supply-chain": "adc-cdmo-manufacturing",
-  "car-t-manufacturing-process": "car-t",
-  "allogeneic-cell-banks": "allogeneic-cell-therapy",
-  "mrna-lnp-manufacturing": "neoantigen-mrna-vaccine",
-  "research-reactor-isotope-production": "medical-cyclotrons-synthesis-modules",
-  "cyclotron-isotope-production": "medical-cyclotrons-synthesis-modules",
-  "actinium-225-supply": "targeted-alpha-therapy",
-  "radiopharmaceutical-gmp-release": "radioligand-therapy",
-  "radiotherapy-equipment-manufacturing": "imrt-igrt",
-  "medical-imaging-scanner-manufacturing": "pet-ct",
-};
+export { manufacturingSchematicAliases } from "./schematic-aliases/manufacturing-wave";
 
 /** One card per supply chain on /manufacturing/: the technologies in order from raw material to product, the makers, and the products at the end. */
 export type SupplyChain = { id: string; name: string; sectionId: string; summary: string; technologies: string[]; companies: string[]; products: string[] };

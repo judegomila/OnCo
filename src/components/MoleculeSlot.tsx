@@ -1,7 +1,7 @@
 "use client";
 
 import { MoleculeThumb } from "./MoleculeThumb";
-import { STRUCTURES } from "@/lib/structures";
+import { hasStructure } from "@/lib/structure-ids";
 import { Tip } from "./Tip";
 
 /** What kind of product this is when there is no small molecule to draw, inferred from the modality text. */
@@ -40,7 +40,7 @@ function Glyph({ id }: { id: string }) {
  * explained placeholder glyph when it does not, so tables and cards line up whichever it is.
  */
 export function MoleculeSlot({ drugId, modality, className = "h-10 w-10", name }: { drugId: string; modality?: string; className?: string; name?: string }) {
-  if (STRUCTURES[drugId]) return <span className={`inline-flex shrink-0 items-center justify-center rounded-md border border-border bg-card overflow-hidden ${className}`}><MoleculeThumb drugId={drugId} className="h-full w-full" /></span>;
+  if (hasStructure(drugId)) return <span className={`inline-flex shrink-0 items-center justify-center rounded-md border border-border bg-card overflow-hidden ${className}`}><MoleculeThumb drugId={drugId} className="h-full w-full" /></span>;
   const p = placeholderKind(modality);
   return (
     <Tip title={p.label} text={p.why}>

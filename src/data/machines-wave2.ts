@@ -393,18 +393,7 @@ export const machineCompanies2: CompanyInput[] = [
     technologies: ["scalp-cooling", "cytotoxic-chemotherapy"], cancers: ["breast-cancer"], links: [{ label: "Official website", url: "https://www.dignicap.com/" }, { label: "FDA allows marketing of cooling cap to reduce hair loss during chemotherapy (2015)", url: "https://www.fda.gov/news-events/press-announcements/fda-allows-marketing-cooling-cap-reduce-hair-loss-during-chemotherapy" }] }),
 ];
 
-/** Every new technology reuses an existing base drawing of the same mechanism (values are base ids, never aliases). */
-export const machineSchematicAliases2: Record<string, string> = {
-  "bnct-accelerator-systems": "bnct", "flash-research-accelerators": "flash-rt", "electron-beam-therapy-systems": "imrt-igrt",
-  "oncology-information-systems": "imrt-igrt", "patient-positioning-surface-guidance-systems": "imrt-igrt", "respiratory-gating-tumour-tracking-systems": "sbrt",
-  "in-room-imaging-systems": "imrt-igrt", "radiotherapy-qa-phantoms-dosimeters": "imrt-igrt",
-  "hyperthermia-systems": "hyperthermia", "photodynamic-therapy-lasers": "photoimmunotherapy", "litt-systems": "litt",
-  "transcranial-focused-ultrasound-systems": "bbb-focused-ultrasound", "electrochemotherapy-devices": "irreversible-electroporation", "hipec-pipac-devices": "hipec",
-  "intraoperative-fluorescence-imaging-systems": "fluorescence-guided-surgery", "gamma-probes-dose-calibrators": "sentinel-node",
-  "endoscopic-ultrasound-systems": "ultrasound", "capsule-endoscopy-systems": "optical-imaging", "colposcopes-digital-cervical-screening": "optical-imaging",
-  "confocal-oct-skin-imaging": "optical-imaging", "contrast-enhanced-mammography": "mammography", "breast-mri-coils-abbreviated-mri": "mri",
-  "closed-system-transfer-devices": "cytotoxic-chemotherapy",
-};
+export { machineSchematicAliases2 } from "./schematic-aliases/machines-wave2";
 
 /** Chinese TL;DRs for the new records, for the i18n owner to merge into src/data/i18n/zh.ts. */
 export const tldrZh: Record<string, string> = {

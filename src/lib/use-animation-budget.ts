@@ -31,6 +31,12 @@ export type MotionEnv = {
   low: boolean;
   /** The tab is hidden. */
   hidden: boolean;
+  /**
+   * The page has loaded and the browser has been idle once. Until then nothing animates unless the reader points at it
+   * or taps it: on a mid-range phone six schematics starting during hydration cost 1.9 to 2.5 seconds of blocked main
+   * thread on the home and drug pages (Lighthouse, 21 October 2026). The first frame is still drawn at once.
+   */
+  settled: boolean;
 };
 
 export type MotionState = MotionEnv & {
@@ -71,7 +77,7 @@ export const DEFAULT_POOL_MAX = 6;
 /** Cores at or below which a device counts as a low budget. */
 export const LOW_CORES = 4;
 
-const SERVER_STATE: MotionState = { reduced: false, low: false, hidden: false, visible: false, hovered: false, tapped: false, slot: true, active: false };
+const SERVER_STATE: MotionState = { reduced: false, low: false, hidden: false, settled: false, visible: false, hovered: false, tapped: false, slot: true, active: false };
 
 /* ------------------------------------------------------------------------------------------------------------------
    Pure rules (unit-tested in use-animation-budget.test.ts).
@@ -93,6 +99,7 @@ export function isLowBudget(nav: NavigatorLike | undefined, reducedData = false,
 export function deriveActive(s: Omit<MotionState, "active">): boolean {
   if (!s.visible || s.hidden || s.reduced) return false;
   if (s.hovered) return true;
+  if (!s.settled) return s.tapped;
   if (!s.slot) return false;
   return !s.low || s.tapped;
 }
@@ -110,7 +117,7 @@ export function allocateSlots(members: Array<{ visible: boolean; slot: boolean }
 }
 
 /** Tokens for <html data-motion>: which signals are on, space separated, in a fixed order. */
-export function motionFlags(env: MotionEnv): string {
+export function motionFlags(env: Pick<MotionEnv, "low" | "reduced" | "hidden">): string {
   return [env.low && "low", env.reduced && "reduced", env.hidden && "hidden"].filter(Boolean).join(" ");
 }
 
@@ -135,7 +142,7 @@ function writeFlags(e: MotionEnv) {
 /** The shared device and tab signals, created on first use; also mirrors them to <html data-motion>. */
 export function ensureMotionEnv(): Env {
   if (env) return env;
-  if (typeof window === "undefined") return { reduced: false, low: false, hidden: false, subs: new Set() };
+  if (typeof window === "undefined") return { reduced: false, low: false, hidden: false, settled: false, subs: new Set() };
   const nav = navigator as Navigator & NavigatorLike & { connection?: (EventTarget & { saveData?: boolean }) | null };
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const reducedData = window.matchMedia("(prefers-reduced-data: reduce)");
@@ -143,9 +150,13 @@ export function ensureMotionEnv(): Env {
     reduced: reducedMotion.matches,
     low: isLowBudget(nav, reducedData.matches, readOverride()),
     hidden: document.visibilityState === "hidden",
+    settled: false,
     subs: new Set(),
   };
   const emit = () => { writeFlags(e); for (const cb of e.subs) cb(); };
+  const settle = () => { if (!e.settled) { e.settled = true; emit(); } };
+  const whenIdle = () => { if (typeof requestIdleCallback === "function") requestIdleCallback(settle, { timeout: 4000 }); else window.setTimeout(settle, 1500); };
+  if (document.readyState === "complete") whenIdle(); else window.addEventListener("load", whenIdle, { once: true });
   reducedMotion.addEventListener("change", () => { e.reduced = reducedMotion.matches; emit(); });
   const relow = () => { e.low = isLowBudget(nav, reducedData.matches, readOverride()); emit(); };
   reducedData.addEventListener("change", relow);
@@ -201,7 +212,7 @@ class GateImpl implements MotionGate {
 /** Wire a gate to the page: device signals, the element's visibility, hover and tap, and its pool. Returns the teardown. */
 function attach(gate: GateImpl, el: Element | null, opts: BudgetOptions): () => void {
   const e = ensureMotionEnv();
-  const onEnv = () => gate.set({ reduced: e.reduced, low: e.low, hidden: e.hidden });
+  const onEnv = () => gate.set({ reduced: e.reduced, low: e.low, hidden: e.hidden, settled: e.settled });
   e.subs.add(onEnv);
   const cleanups: Array<() => void> = [() => { e.subs.delete(onEnv); }];
 
@@ -235,7 +246,7 @@ function attach(gate: GateImpl, el: Element | null, opts: BudgetOptions): () => 
     cleanups.push(() => el.removeEventListener("click", tap));
   }
 
-  gate.set({ reduced: e.reduced, low: e.low, hidden: e.hidden });
+  gate.set({ reduced: e.reduced, low: e.low, hidden: e.hidden, settled: e.settled });
   return () => {
     for (const c of cleanups) c();
     if (pool && member) { pool.members.delete(member); gate.set({ visible: false, hovered: false }); rebalance(pool); }

@@ -22,8 +22,8 @@ import type { Cancer } from "./schema";
  * are the distinct trials, products, approved products and ideas linked to the node or anything beneath it.
  */
 
-export const METRICS = ["trials", "drugs", "approvals", "ideas"] as const;
-export type Metric = (typeof METRICS)[number];
+import { METRICS, type Metric } from "./cancer-metrics";
+export { METRICS, type Metric };
 export type Counts = Record<Metric, number>;
 
 export type CancerDagLayer = "system" | "histology" | "cancer" | "subtype";

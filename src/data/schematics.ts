@@ -557,21 +557,21 @@ export function termSchematicFor(category: string): Mesh {
  * Technologies that share another technology's animated schematic because the drawing depicts the same mechanism
  * (a checkpoint antibody, a radioligand, an epigenetic drug). Each key is a technology id; each value an id with its own scene.
  */
-import { radiationSchematicAliases } from "./radiation-wave1";
-import { modelSchematicAliases } from "./models-wave";
-import { machineSchematicAliases } from "./machines-wave";
-import { machineSchematicAliases2 } from "./machines-wave2";
-import { manufacturingSchematicAliases } from "./manufacturing-wave";
-import { diagnosticsSchematicAliases2 } from "./diagnostics-wave2";
-import { rejuvenationSchematicAliases as rejuvenationBodyAliases } from "./spikes/rejuvenation-body";
-import { rejuvenationSchematicAliases as rejuvenationFrontierAliases } from "./spikes/rejuvenation-frontier";
-import { rejuvenationPaediatricSchematicAliases } from "./spikes/rejuvenation-paediatric";
-import { rejuvenationSchematicAliases as rejuvenationMindAliases } from "./spikes/rejuvenation-mind";
-import { rejuvenationSchematicAliases as rejuvenationTransplantAliases } from "./spikes/rejuvenation-transplant";
-import { rejuvenationRehabSchematicAliases } from "./spikes/rejuvenation-rehab";
-import { recoverySchematicAliases } from "./recovery";
-import { rejuvenationMeasurementSchematicAliases } from "./spikes/rejuvenation-measurement";
-import { precisionDosingSchematicAliases } from "./spikes/precision-dosing";
+import { radiationSchematicAliases } from "./schematic-aliases/radiation-wave1";
+import { modelSchematicAliases } from "./schematic-aliases/models-wave";
+import { machineSchematicAliases } from "./schematic-aliases/machines-wave";
+import { machineSchematicAliases2 } from "./schematic-aliases/machines-wave2";
+import { manufacturingSchematicAliases } from "./schematic-aliases/manufacturing-wave";
+import { diagnosticsSchematicAliases2 } from "./schematic-aliases/diagnostics-wave2";
+import { rejuvenationSchematicAliases as rejuvenationBodyAliases } from "./schematic-aliases/rejuvenation-body";
+import { rejuvenationSchematicAliases as rejuvenationFrontierAliases } from "./schematic-aliases/rejuvenation-frontier";
+import { rejuvenationPaediatricSchematicAliases } from "./schematic-aliases/rejuvenation-paediatric";
+import { rejuvenationSchematicAliases as rejuvenationMindAliases } from "./schematic-aliases/rejuvenation-mind";
+import { rejuvenationSchematicAliases as rejuvenationTransplantAliases } from "./schematic-aliases/rejuvenation-transplant";
+import { rejuvenationRehabSchematicAliases } from "./schematic-aliases/rejuvenation-rehab";
+import { recoverySchematicAliases } from "./schematic-aliases/recovery";
+import { rejuvenationMeasurementSchematicAliases } from "./schematic-aliases/rejuvenation-measurement";
+import { precisionDosingSchematicAliases } from "./schematic-aliases/precision-dosing";
 
 export const SCHEMATIC_ALIAS: Record<string, string> = {
   "stride-dna-break-detection": "wes-wgs",

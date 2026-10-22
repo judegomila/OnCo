@@ -185,6 +185,8 @@ async function main() {
     if (entries.length) index[drugId] = entries;
   }
   writeFileSync(join(out, "index.json"), JSON.stringify(index, null, 0));
+  // The ids alone, for client components that only ask whether a product has a structure (src/lib/structure-ids.ts).
+  writeFileSync(join(process.cwd(), "src", "data", "structure-ids.json"), JSON.stringify(Object.keys(index).sort()) + "\n");
   console.log(`structures: ${Object.keys(index).length} products, ${cache.size} unique structures`);
   if (failures.length) console.log(`unresolved:\n  ${failures.join("\n  ")}`);
 }

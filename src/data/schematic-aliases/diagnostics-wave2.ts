@@ -1,0 +1,28 @@
+/** Schematic aliases for the records in src/data/diagnostics-wave2.ts, kept apart so a client component can read them without bundling the records (TechThumb imports src/data/schematics.ts). */
+/** Every new technology borrows an existing base drawing; keys are technology ids, values ids with their own scene. */
+export const diagnosticsSchematicAliases2: Record<string, string> = {
+  "rad51-foci-assay": "hrd-testing",
+  "hrd-genomic-scar-scores": "hrd-testing",
+  "cellsearch-ctc-count": "liquid-biopsy",
+  "parsortix-ctc-harvest": "liquid-biopsy",
+  "functional-precision-medicine-haematology": "functional-drug-testing",
+  "sarcoma-methylation-classifier": "methylation-profiling",
+  "urine-bladder-cancer-tests": "cystoscopy-turbt",
+  "bladder-epicheck": "methylation-profiling",
+  "multitarget-stool-rna-test": "colorectal-screening",
+  "fes-pet": "pet",
+  "quantitative-imaging-biomarkers": "pet",
+  "ct-body-composition-sarcopenia": "ct",
+  "dpyd-genotyping": "germline-testing",
+  "ugt1a1-genotyping": "germline-testing",
+  "tpmt-nudt15-genotyping": "germline-testing",
+  "cardiac-biomarker-monitoring": "cardio-oncology",
+  "strain-echocardiography-gls": "cardio-oncology",
+  "g8-geriatric-screening": "geriatric-assessment",
+  "via-cervical-screening": "hpv-testing",
+  "hand-held-ultrasound": "ultrasound",
+  "serum-tumour-markers": "liquid-biopsy",
+  "germ-cell-tumour-markers": "liquid-biopsy",
+  "thyroid-cancer-markers": "liquid-biopsy",
+  "cea-surveillance-colorectal": "liquid-biopsy",
+};

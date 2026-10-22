@@ -18,20 +18,31 @@ export function RegisterSW() {
     window.addEventListener("online", on);
     window.addEventListener("offline", off);
 
+    // Reload when a new worker takes over, but only if one was already in control when the page loaded: that is a
+    // site update the reader asked for with the Reload button. On a first visit the page starts uncontrolled, the new
+    // worker claims it (sw.js calls clients.claim), and the same event fires. Reloading then made every first visit
+    // load the page twice: Lighthouse measured 3.3 to 5.2 seconds of it on a mid-range phone, 21 October 2026.
+    const hadController = "serviceWorker" in navigator && !!navigator.serviceWorker.controller;
     let reloading = false;
-    const onController = () => { if (!reloading) { reloading = true; window.location.reload(); } };
+    const onController = () => { if (hadController && !reloading) { reloading = true; window.location.reload(); } };
+    let idle = 0;
     if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js", { scope: "/" }).then((reg) => {
+      // Registered once the page has loaded and the browser is idle, so installing the worker (which caches the home
+      // page and the offline page) does not compete with the page the reader came for.
+      const register = () => navigator.serviceWorker.register("/sw.js", { scope: "/" }).then((reg) => {
         if (reg.waiting && navigator.serviceWorker.controller) setWaiting(reg.waiting);
         reg.addEventListener("updatefound", () => {
           const w = reg.installing;
           w?.addEventListener("statechange", () => { if (w.state === "installed" && navigator.serviceWorker.controller) setWaiting(w); });
         });
       }).catch(() => { /* unsupported or blocked: the site works without it */ });
+      const whenIdle = () => { idle = typeof requestIdleCallback === "function" ? requestIdleCallback(() => void register(), { timeout: 5000 }) : window.setTimeout(() => void register(), 2000); };
+      if (document.readyState === "complete") whenIdle(); else window.addEventListener("load", whenIdle, { once: true });
       navigator.serviceWorker.addEventListener("controllerchange", onController);
     }
     return () => {
       cancelAnimationFrame(raf);
+      if (idle) { if (typeof cancelIdleCallback === "function") cancelIdleCallback(idle); else window.clearTimeout(idle); }
       window.removeEventListener("online", on);
       window.removeEventListener("offline", off);
       if ("serviceWorker" in navigator) navigator.serviceWorker.removeEventListener("controllerchange", onController);

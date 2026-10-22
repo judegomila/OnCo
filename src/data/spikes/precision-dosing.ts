@@ -43,17 +43,7 @@ const GROENLAND_2022 = doi("Therapeutic drug monitoring-based precision dosing o
 const ASCO_OBESITY_2012 = doi("Appropriate chemotherapy dosing for obese adult patients with cancer: American Society of Clinical Oncology clinical practice guideline (J Clin Oncol 2012)", "10.1200/JCO.2011.39.9436");
 const ASCO_OBESITY_2021 = doi("Appropriate Systemic Therapy Dosing for Obese Adult Patients With Cancer: ASCO Guideline Update (J Clin Oncol 2021)", "10.1200/JCO.21.00471");
 
-/**
- * Drawings for the four records this file adds. None needs a drawing of its own: dosing a cytotoxic drug reads as the
- * chemotherapy scene, and monitoring the blood level of an oral targeted drug reads as the kinase inhibitor one.
- * Spread into SCHEMATIC_ALIAS in src/data/schematics.ts; src/data/animated-wave8.test.ts is what catches a miss.
- */
-export const precisionDosingSchematicAliases: Record<string, string> = {
-  "fluorouracil-pharmacokinetic-dosing": "cytotoxic-chemotherapy",
-  "carboplatin-calvert-dosing": "cytotoxic-chemotherapy",
-  "chemotherapy-dosing-in-obesity": "cytotoxic-chemotherapy",
-  "oral-targeted-therapy-drug-monitoring": "kinase-inhibitors",
-};
+export { precisionDosingSchematicAliases } from "../schematic-aliases/precision-dosing";
 
 export const precisionDosing: EntityInput[] = [
   tech({ id: "fluorouracil-pharmacokinetic-dosing", name: "Fluorouracil dosing by measured blood level", status: "emerging", sections: ["chemotherapy", "supportive-care"], tags: T("moderate"),

@@ -1,11 +1,41 @@
-# Change proposals 2026-10-21
+# Change proposals 2026-10-22
 
-Drafted by scripts/propose-updates.ts from: factcheck 2026-10-19, trialChanges 2026-10-19, fda 2026-10-07, regional 2026-10-14.
+Drafted by scripts/propose-updates.ts from: factcheck 2026-10-19, trialChanges 2026-10-19, fda 2026-10-21, regional 2026-10-21.
 
 Review each line against its source. Apply by editing the file named; nothing in this list is applied automatically. EMA rows carry the reason a person is needed; the rows that passed every check were written on the auto branch by scripts/apply-proposals.ts and are listed at the end.
 
-## High confidence (9)
+## High confidence (15)
 
+- [ ] **Dostarlimab** ([page](https://onco.cc/drugs/dostarlimab/)) · regulatory-event · `regulatoryEvents`
+  - current: 6 events; none dated 2026-10-19
+  - proposed: { date: "2026-10-19", type: "approval", region: "US", note: "grants accelerated approval to dostarlimab for locally advanced rectal cancer (accelerated)", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dostarlimab-locally-advanced-rectal-cancer" }
+  - evidence: On October 19, 2026, the Food and Drug Administration granted accelerated approval to dostarlimab (Jemperli, GSK) for adults with Stage II/III locally advanced rectal cancer (LARC) that is microsatellite instability high (MSI-H) or mismatch repair deficient (dMMR), as determined by an FDA-authorized ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dostarlimab-locally-advanced-rectal-cancer))
+  - file: `src/data/checkpoint-map.ts:158`
+- [ ] **Nogapendekin alfa inbakicept** ([page](https://onco.cc/drugs/nogapendekin-alfa/)) · regulatory-event · `regulatoryEvents`
+  - current: 0 events; none dated 2026-10-14
+  - proposed: { date: "2026-10-14", type: "approval", region: "US", note: "approves an expanded indication for nogapendekin alfa inbakicept-pmln for BCG-unresponsive non-muscle invasive bladder cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-expanded-indication-nogapendekin-alfa-inbakicept-pmln-bcg-unresponsive-non-muscle" }
+  - evidence: On October 14, 2026, the Food and Drug Administration (FDA) approved nogapendekin alfa inbakicept-pmln (Anktiva, Altor BioScience, LLC, an indirect wholly-owned subsidiary of ImmunityBio, Inc.) with Bacillus Calmette-Guérin (BCG) for adults with BCG-unresponsive non-muscle invasive bladder cancer (N ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-expanded-indication-nogapendekin-alfa-inbakicept-pmln-bcg-unresponsive-non-muscle))
+  - file: `src/data/spikes/urothelial.ts:138`
+- [ ] **Atezolizumab** ([page](https://onco.cc/drugs/atezolizumab/)) · regulatory-event · `regulatoryEvents`
+  - current: 15 events; none dated 2026-10-08
+  - proposed: { date: "2026-10-08", type: "approval", region: "US", note: "approves atezolizumab in combination with chemotherapy for Stage III mismatch repair deficient colon cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-combination-chemotherapy-stage-iii-mismatch-repair-deficient-colon-cancer" }
+  - evidence: On October 8, 2026, the Food and Drug Administration approved atezolizumab (Tecentriq, Genentech, Inc.) in combination with a fluoropyrimidine and oxaliplatin for the adjuvant treatment of adult and pediatric patients two years of age and older with Stage III mismatch repair deficient (dMMR) colon c ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-combination-chemotherapy-stage-iii-mismatch-repair-deficient-colon-cancer))
+  - file: `src/data/checkpoint-map.ts:252`
+- [ ] **Trastuzumab** ([page](https://onco.cc/drugs/trastuzumab/)) · regulatory-event · `regulatoryEvents`
+  - current: 7 events; none dated 2026-10-07
+  - proposed: { date: "2026-10-07", type: "approval", region: "US", note: "approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer" }
+  - evidence: On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following inductio ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer))
+  - file: `src/data/drugs.ts:705`
+- [ ] **Pertuzumab** ([page](https://onco.cc/drugs/pertuzumab/)) · regulatory-event · `regulatoryEvents`
+  - current: 5 events; none dated 2026-10-07
+  - proposed: { date: "2026-10-07", type: "approval", region: "US", note: "approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer" }
+  - evidence: On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following inductio ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer))
+  - file: `src/data/spikes/breast-her2-positive.ts:168`
+- [ ] **Tucatinib** ([page](https://onco.cc/drugs/tucatinib/)) · regulatory-event · `regulatoryEvents`
+  - current: 2 events; none dated 2026-10-07
+  - proposed: { date: "2026-10-07", type: "approval", region: "US", note: "approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer" }
+  - evidence: On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following inductio ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer))
+  - file: `src/data/drugs.ts:713`
 - [ ] **Study Of Palbociclib Combined With Chemotherapy In Pediatric Patients With Recurrent/Refractory Solid Tumors** ([page](https://onco.cc/trials/nct03709680/)) · trial-results · `result / outcomes`
   - current: (none)
   - proposed: add the posted primary outcome with the registry as source
@@ -52,7 +82,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - evidence: ClinicalTrials.gov now has posted results for NCT05471843 (detected 2026-09-28). ([source](https://clinicaltrials.gov/study/NCT05471843?tab=results))
   - file: `src/data/pipeline-trials-wave5.ts:1547`
 
-## Medium confidence (114)
+## Medium confidence (115)
 
 - [ ] **CLOCC** ([page](https://onco.cc/trials/clocc/)) · trial-status · `status`
   - current: positive
@@ -114,6 +144,12 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add { region: "US", year: <from label>, indication: <from label> } and set status to approved
   - evidence: openFDA has a label for "Pancrelipase" ([source](https://open.fda.gov/apis/drug/label/))
   - file: `src/data/spikes/pancreatic-treatment.ts:59`
+- [ ] **Daraxonrasib** ([page](https://onco.cc/drugs/daraxonrasib/)) · regional-row · `EU`
+  - current: (no EU entry)
+  - proposed: EU entry from the register page (Opinion)
+  - evidence: EMA register: Rasonque (Daraxonrasib) Opinion. Register page: "Opinion: EMA has issued an opinion on this medicine", opinion Positive 2026-10-15. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque))
+  - why a person: CHMP opinion (Positive) without a Commission decision yet; the row would change again within weeks
+  - file: `src/data/regional-approvals.ts`
 - [ ] **A Study of Zolbetuximab (IMAB362) in Adults With Pancreatic Cancer** ([page](https://onco.cc/trials/nct03816163/)) · trial-completion · `yearReported / calendar`
   - current: 2026-08-31
   - proposed: 2026-10-31
@@ -725,7 +761,7 @@ Review each line against its source. Apply by editing the file named; nothing in
 - [ ] **Yartemlea** · new-product · `new drug record`
   - current: (not in corpus)
   - proposed: add product Narsoplimab (Yartemlea) with the EU status the register page shows
-  - evidence: EMA register: Yartemlea (Narsoplimab) Opinion under re-examination. Register page: "Opinion: EMA has issued an opinion on this medicine", opinion Negative 2026-10-15. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/yartemlea))
+  - evidence: EMA register: Yartemlea (Narsoplimab) Opinion. Register page: "Opinion: EMA has issued an opinion on this medicine", opinion Negative 2026-10-15. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/yartemlea))
   - why a person: no corpus product is named exactly Narsoplimab / Yartemlea
 - [ ] **Zefylti** · new-product · `new drug record`
   - current: (not in corpus)

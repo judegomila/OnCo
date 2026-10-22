@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-15",
+ "generatedAt": "2026-10-22",
  "offline": false,
- "requests": 344,
+ "requests": 349,
  "roadmaps": [
   {
    "id": "adc-generations",
@@ -250,7 +250,7 @@
     "checked": 5,
     "contradictions": 0,
     "explained": 1,
-    "papers": 0,
+    "papers": 4,
     "watch": 0,
     "watchPassed": 0
    },
@@ -422,7 +422,36 @@
      "explained": [
       "enrolment 84585 in the corpus (analysed), 95000 on the registry (actual; 11 percent apart): ClinicalTrials.gov lists 95,000 participants (actual); the NEJM 2022 analysis covers the 84,585 participants in Poland, Norway and Sweden with follow-up data (28,220 invited, 56,365 usual care)."
      ],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42849474",
+       "doi": "10.1016/s0140-6736(26)01429-7",
+       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
+       "journal": "Lancet",
+       "date": "2026-10-01"
+      },
+      {
+       "pmid": "42849471",
+       "doi": "10.1016/s0140-6736(26)01430-3",
+       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
+       "journal": "Lancet",
+       "date": "2026-10-01"
+      },
+      {
+       "pmid": "42849472",
+       "doi": "10.1016/s0140-6736(26)01428-5",
+       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
+       "journal": "Lancet",
+       "date": "2026-10-01"
+      },
+      {
+       "pmid": "42849473",
+       "doi": "10.1016/s0140-6736(26)01588-6",
+       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial - Authors' reply.",
+       "journal": "Lancet",
+       "date": "2026-10-01"
+      }
+     ]
     },
     {
      "id": "osmanabad-hpv-screening",
@@ -479,7 +508,7 @@
     "checked": 15,
     "contradictions": 0,
     "explained": 2,
-    "papers": 2,
+    "papers": 6,
     "watch": 0,
     "watchPassed": 0
    },
@@ -558,6 +587,27 @@
      "contradictions": [],
      "explained": [],
      "papers": [
+      {
+       "pmid": "42859938",
+       "doi": "10.1007/s10495-026-02440-w",
+       "title": "Necroptosis as a key player in cervical cancer progression and management: a systematic review and transcriptomic cross-study consensus analysis.",
+       "journal": "Apoptosis",
+       "date": "2026-10-11"
+      },
+      {
+       "pmid": "42853913",
+       "doi": "10.1126/sciadv.aef2358",
+       "title": "Standardizing Cell Ontology terms for cross-study integration in the female reproductive tract.",
+       "journal": "Sci Adv",
+       "date": "2026-10-09"
+      },
+      {
+       "pmid": "42857378",
+       "doi": "10.3389/fmicb.2026.1971707",
+       "title": "CRC-TrustBench: benchmarking cross-study and cross-country generalization in gut metagenomic colorectal cancer prediction.",
+       "journal": "Front Microbiol",
+       "date": "2026-09-25"
+      },
       {
        "pmid": "42774476",
        "doi": "10.1002/fsn3.72380",
@@ -958,7 +1008,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42458791",
+       "doi": "10.1093/jnci/djag221",
+       "title": "Recurrence Score gene group components and outcomes in the RxPONDER trial (SWOG S1007).",
+       "journal": "J Natl Cancer Inst",
+       "date": "2026-10-01"
+      }
+     ]
     },
     {
      "id": "scarlet-s2212",
@@ -1041,7 +1099,7 @@
     "checked": 17,
     "contradictions": 4,
     "explained": 2,
-    "papers": 0,
+    "papers": 5,
     "watch": 12,
     "watchPassed": 3
    },
@@ -1199,7 +1257,15 @@
      "registry": null,
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42843562",
+       "doi": "10.1016/j.annonc.2026.09.016",
+       "title": "Postoperative ctDNA dynamics and eligibility for Treat-on-Molecular Result (TOMR) ALTAIR trial in colorectal cancer: insights from CIRCULATE-Japan.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-07"
+      }
+     ]
     },
     {
      "id": "codebreak-300",
@@ -1417,7 +1483,36 @@
      "explained": [
       "enrolment 84585 in the corpus (analysed), 95000 on the registry (actual; 11 percent apart): ClinicalTrials.gov lists 95,000 participants (actual); the NEJM 2022 analysis covers the 84,585 participants in Poland, Norway and Sweden with follow-up data (28,220 invited, 56,365 usual care)."
      ],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42849474",
+       "doi": "10.1016/s0140-6736(26)01429-7",
+       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
+       "journal": "Lancet",
+       "date": "2026-10-01"
+      },
+      {
+       "pmid": "42849471",
+       "doi": "10.1016/s0140-6736(26)01430-3",
+       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
+       "journal": "Lancet",
+       "date": "2026-10-01"
+      },
+      {
+       "pmid": "42849472",
+       "doi": "10.1016/s0140-6736(26)01428-5",
+       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial.",
+       "journal": "Lancet",
+       "date": "2026-10-01"
+      },
+      {
+       "pmid": "42849473",
+       "doi": "10.1016/s0140-6736(26)01588-6",
+       "title": "Colonoscopy screening and colorectal cancer outcomes: the NordICC trial - Authors' reply.",
+       "journal": "Lancet",
+       "date": "2026-10-01"
+      }
+     ]
     },
     {
      "id": "opra",
@@ -1767,7 +1862,7 @@
     "checked": 10,
     "contradictions": 0,
     "explained": 0,
-    "papers": 2,
+    "papers": 4,
     "watch": 11,
     "watchPassed": 4
    },
@@ -1808,7 +1903,15 @@
      "registry": null,
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42843562",
+       "doi": "10.1016/j.annonc.2026.09.016",
+       "title": "Postoperative ctDNA dynamics and eligibility for Treat-on-Molecular Result (TOMR) ALTAIR trial in colorectal cancer: insights from CIRCULATE-Japan.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-07"
+      }
+     ]
     },
     {
      "id": "circulate-us",
@@ -1905,7 +2008,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42844909",
+       "doi": "10.1080/14796694.2026.2746184",
+       "title": "Is IMvigor011 a conventional adjuvant trial or a ctDNA-triggered preemptive treatment strategy?",
+       "journal": "Future Oncol",
+       "date": "2026-10-07"
+      }
+     ]
     },
     {
      "id": "mermaid-1",
@@ -2363,7 +2474,7 @@
     "checked": 6,
     "contradictions": 0,
     "explained": 1,
-    "papers": 0,
+    "papers": 3,
     "watch": 0,
     "watchPassed": 0
    },
@@ -2380,7 +2491,15 @@
      "registry": null,
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42843562",
+       "doi": "10.1016/j.annonc.2026.09.016",
+       "title": "Postoperative ctDNA dynamics and eligibility for Treat-on-Molecular Result (TOMR) ALTAIR trial in colorectal cancer: insights from CIRCULATE-Japan.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-07"
+      }
+     ]
     },
     {
      "id": "dynamic",
@@ -2424,7 +2543,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42844909",
+       "doi": "10.1080/14796694.2026.2746184",
+       "title": "Is IMvigor011 a conventional adjuvant trial or a ctDNA-triggered preemptive treatment strategy?",
+       "journal": "Future Oncol",
+       "date": "2026-10-07"
+      }
+     ]
     },
     {
      "id": "insight-gist",
@@ -2510,7 +2637,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42458791",
+       "doi": "10.1093/jnci/djag221",
+       "title": "Recurrence Score gene group components and outcomes in the RxPONDER trial (SWOG S1007).",
+       "journal": "J Natl Cancer Inst",
+       "date": "2026-10-01"
+      }
+     ]
     },
     {
      "id": "serena-6",
@@ -2816,8 +2951,8 @@
       "enrolment": 25871,
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2018-11-10",
-      "completion": "2026-10",
-      "lastUpdate": "2026-07-30"
+      "completion": "2031-03",
+      "lastUpdate": "2026-10-16"
      },
      "contradictions": [],
      "explained": [],
@@ -2981,7 +3116,7 @@
     "checked": 7,
     "contradictions": 0,
     "explained": 2,
-    "papers": 0,
+    "papers": 1,
     "watch": 0,
     "watchPassed": 0
    },
@@ -3072,7 +3207,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42879142",
+       "doi": "10.1001/jamaoncol.2026.4298",
+       "title": "Additional Analyses to Address Model Used to Adjust for Crossover in the ClarIDHy Trial.",
+       "journal": "JAMA Oncol",
+       "date": "2026-10-15"
+      }
+     ]
     },
     {
      "id": "golseek-1",
@@ -3213,7 +3356,7 @@
     "checked": 15,
     "contradictions": 3,
     "explained": 0,
-    "papers": 0,
+    "papers": 4,
     "watch": 10,
     "watchPassed": 3
    },
@@ -3455,7 +3598,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42898854",
+       "doi": "10.1016/j.eclinm.2026.104213",
+       "title": "Pembrolizumab plus gemcitabine and cisplatin for advanced biliary tract cancer: longer-term follow-up from the randomised, double-blind, placebo-controlled, phase 3 KEYNOTE-966 trial.",
+       "journal": "EClinicalMedicine",
+       "date": "2026-10-12"
+      }
+     ]
     },
     {
      "id": "naliricc",
@@ -3535,11 +3686,19 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2028-07-01",
       "completion": "2029-06-30",
-      "lastUpdate": "2026-09-14"
+      "lastUpdate": "2026-10-19"
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42899477",
+       "doi": "10.1177/29767342261489476",
+       "title": "Impact of Opt-Out Versus Opt-In Recruitment on Engagement of FDNY WTC-Exposed Responders in a Tobacco Cessation Intervention.",
+       "journal": "Subst Use Addctn J",
+       "date": "2026-10-20"
+      }
+     ]
     },
     {
      "id": "polcagb",
@@ -3590,7 +3749,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2029-01-02",
       "completion": "2030-05-03",
-      "lastUpdate": "2026-07-10"
+      "lastUpdate": "2026-10-16"
      },
      "contradictions": [],
      "explained": [],
@@ -3652,7 +3811,22 @@
       "enrolment 685 in the corpus, 810 on the registry (actual; 15 percent apart)"
      ],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42865151",
+       "doi": "10.1002/ijc.70782",
+       "title": "Reply to: Comments on \"Outcomes of Cisplatin, Gemcitabine, and Durvalumab According to TOPAZ-1 Study Eligibility: A Large Global Analysis in a Real-World Setting\".",
+       "journal": "Int J Cancer",
+       "date": "2026-10-13"
+      },
+      {
+       "pmid": "42865098",
+       "doi": "10.1002/ijc.70778",
+       "title": "Comments on: Outcomes of Cisplatin, Gemcitabine, and Durvalumab According to TOPAZ-1 Study Eligibility: A Large Global Analysis in a Real-World Setting.",
+       "journal": "Int J Cancer",
+       "date": "2026-10-12"
+      }
+     ]
     }
    ],
    "watch": [
@@ -4157,7 +4331,7 @@
     "checked": 32,
     "contradictions": 0,
     "explained": 5,
-    "papers": 2,
+    "papers": 8,
     "watch": 0,
     "watchPassed": 0
    },
@@ -4188,7 +4362,22 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42833883",
+       "doi": "10.1111/bju.70474",
+       "title": "Testosterone breakthrough and outcomes during intensified therapy in metastatic hormone-sensitive prostate cancer: the ARASENS and LATITUDE trials.",
+       "journal": "BJU Int",
+       "date": "2026-10-05"
+      },
+      {
+       "pmid": "42892235",
+       "doi": "10.1016/j.ejca.2026.117764",
+       "title": "Analysis of quality-adjusted time without symptoms or toxicity (Q-TWiST) in patients with metastatic hormone-sensitive prostate cancer from the ARASENS trial.",
+       "journal": "Eur J Cancer",
+       "date": "2026-10-02"
+      }
+     ]
     },
     {
      "id": "arches",
@@ -4509,7 +4698,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42833883",
+       "doi": "10.1111/bju.70474",
+       "title": "Testosterone breakthrough and outcomes during intensified therapy in metastatic hormone-sensitive prostate cancer: the ARASENS and LATITUDE trials.",
+       "journal": "BJU Int",
+       "date": "2026-10-05"
+      }
+     ]
     },
     {
      "id": "lidera",
@@ -4533,7 +4730,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-08-08",
       "completion": "2033-09-30",
-      "lastUpdate": "2026-06-17"
+      "lastUpdate": "2026-10-15"
      },
      "contradictions": [],
      "explained": [],
@@ -4878,7 +5075,15 @@
      "explained": [
       "enrolment 796 in the corpus (randomised), 895 on the registry (actual; 11 percent apart): ClinicalTrials.gov lists 895 participants (actual); 1,103 patients were screened and 796 randomised (399 olaparib, 397 placebo) in the primary analysis."
      ],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42833926",
+       "doi": "10.1016/j.euo.2026.08.014",
+       "title": "Efficacy and Safety of Olaparib plus Abiraterone Versus Placebo plus Abiraterone in the Non-BRCA Mutation Subgroup of Patients with Metastatic Castration-resistant Prostate Cancer in the PROpel Trial.",
+       "journal": "Eur Urol Oncol",
+       "date": "2026-10-05"
+      }
+     ]
     },
     {
      "id": "psmafore",
@@ -5027,7 +5232,22 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42838799",
+       "doi": "10.1016/j.eururo.2026.09.001",
+       "title": "Major Adverse Cardiovascular Events in Men with High-risk Localized or Metastatic Prostate Cancer Starting Long-term Hormone Therapy in the STAMPEDE Trial.",
+       "journal": "Eur Urol",
+       "date": "2026-10-06"
+      },
+      {
+       "pmid": "42838582",
+       "doi": "10.1136/bmjopen-2026-116331",
+       "title": "Metastasis-directed radiotherapy (MDRT) for men with de novo, oligometastatic prostate cancer treated with long-term androgen deprivation therapy in the STAMPEDE trial (METANOVA): protocol for a multicentre, phase II randomised controlled trial in the USA.",
+       "journal": "BMJ Open",
+       "date": "2026-10-06"
+      }
+     ]
     },
     {
      "id": "talapro-2",
@@ -5289,7 +5509,7 @@
     "checked": 7,
     "contradictions": 0,
     "explained": 0,
-    "papers": 2,
+    "papers": 3,
     "watch": 10,
     "watchPassed": 0
    },
@@ -5392,7 +5612,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42872552",
+       "doi": "10.1080/14796694.2026.2734063",
+       "title": "A plain language summary of the 7-year results from the CROWN study: lorlatinib compared with crizotinib in people with ALK-positive non-small cell lung cancer.",
+       "journal": "Future Oncol",
+       "date": "2026-10-14"
+      }
+     ]
     },
     {
      "id": "dellphi-304",
@@ -6341,7 +6569,7 @@
      "name": "Mosunetuzumab against rituximab in low tumour burden follicular lymphoma",
      "nct": "NCT06337318",
      "corpus": {
-      "status": "active",
+      "status": "recruiting",
       "phase": "3",
       "enrolled": 600,
       "enrolledBasis": "registry"
@@ -6357,7 +6585,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2032-03-31",
       "completion": "2032-03-31",
-      "lastUpdate": "2026-10-14"
+      "lastUpdate": "2026-10-21"
      },
      "contradictions": [],
      "explained": [],
@@ -7111,7 +7339,7 @@
     "checked": 20,
     "contradictions": 0,
     "explained": 6,
-    "papers": 0,
+    "papers": 2,
     "watch": 0,
     "watchPassed": 0
    },
@@ -7596,7 +7824,22 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42853672",
+       "doi": "10.1093/oncolo/oyag401",
+       "title": "A phase 2 study of tipifarnib in children and young adults with tumors harboring HRAS genomic alterations: NCI-COG Pediatric MATCH trial (APEC1621M).",
+       "journal": "Oncologist",
+       "date": "2026-10-09"
+      },
+      {
+       "pmid": "42867148",
+       "doi": "10.1093/oncolo/oyag382",
+       "title": "Phase II study of selpercatinib in children and young adults with RET-altered tumors: arm N of the NCI-COG Pediatric MATCH trial (APEC1621N).",
+       "journal": "Oncologist",
+       "date": "2026-10-01"
+      }
+     ]
     },
     {
      "id": "hr-nbl1",
@@ -8183,7 +8426,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2029-03",
       "completion": "2030-04",
-      "lastUpdate": "2026-09-08"
+      "lastUpdate": "2026-10-16"
      },
      "contradictions": [],
      "explained": [],
@@ -8365,6 +8608,122 @@
    "explained": []
   },
   {
+   "id": "precision-roadmap",
+   "name": "Precision roadmap: margins measured in millimetres → tests that find a target → doses fitted to the person → precision that changes outcomes",
+   "asOf": "2026-10-20",
+   "since": "2026-10-20",
+   "counts": {
+    "trials": 4,
+    "checked": 2,
+    "contradictions": 1,
+    "explained": 0,
+    "papers": 0,
+    "watch": 0,
+    "watchPassed": 0
+   },
+   "trials": [
+    {
+     "id": "dynamic",
+     "name": "DYNAMIC",
+     "nct": "ACTRN12615000381583",
+     "corpus": {
+      "status": "positive",
+      "phase": "2",
+      "enrolled": 455,
+      "enrolledBasis": "registry",
+      "yearReported": 2022
+     },
+     "registry": null,
+     "contradictions": [],
+     "explained": [],
+     "papers": []
+    },
+    {
+     "id": "imvigor011",
+     "name": "IMvigor011",
+     "nct": "NCT04660344",
+     "corpus": {
+      "status": "positive",
+      "phase": "3",
+      "enrolled": 761,
+      "enrolledBasis": "registry",
+      "yearReported": 2025
+     },
+     "registry": {
+      "nct": "NCT04660344",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+       "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL",
+      "enrolment": 761,
+      "enrolmentType": "ACTUAL",
+      "primaryCompletion": "2025-06-15",
+      "completion": "2026-10-01",
+      "lastUpdate": "2026-09-28"
+     },
+     "contradictions": [],
+     "explained": [],
+     "papers": []
+    },
+    {
+     "id": "nci-match",
+     "name": "NCI-MATCH (EAY131)",
+     "nct": "NCT02465060",
+     "corpus": {
+      "status": "active",
+      "phase": "platform",
+      "enrolled": 5954,
+      "enrolledBasis": "registry",
+      "yearReported": 2020
+     },
+     "registry": {
+      "nct": "NCT02465060",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+       "PHASE2"
+      ],
+      "studyType": "INTERVENTIONAL",
+      "enrolment": 6452,
+      "enrolmentType": "ESTIMATED",
+      "primaryCompletion": "2027-12-31",
+      "completion": "2027-12-31",
+      "lastUpdate": "2026-10-01"
+     },
+     "contradictions": [
+      "enrolment 5954 in the corpus, 6452 on the registry (estimated; 8 percent apart)"
+     ],
+     "explained": [],
+     "papers": []
+    },
+    {
+     "id": "propsma",
+     "name": "proPSMA",
+     "nct": "ANZCTR12617000005358",
+     "corpus": {
+      "status": "positive",
+      "phase": "3",
+      "enrolled": 302,
+      "enrolledBasis": "registry",
+      "yearReported": 2020
+     },
+     "registry": null,
+     "contradictions": [],
+     "explained": [],
+     "papers": []
+    }
+   ],
+   "watch": [],
+   "contradictions": [
+    {
+     "ref": "nci-match",
+     "name": "NCI-MATCH (EAY131)",
+     "text": "enrolment 5954 in the corpus, 6452 on the registry (estimated; 8 percent apart)"
+    }
+   ],
+   "explained": []
+  },
+  {
    "id": "prostate-roadmap",
    "name": "Prostate cancer roadmap: from Huggins and the discovery that a cancer can depend on a hormone, through the PSA epidemic and what it cost, the androgen receptor drugs, the DNA repair subset and PSMA, to a 2032 registry watch",
    "asOf": "2026-09-25",
@@ -8374,7 +8733,7 @@
     "checked": 6,
     "contradictions": 0,
     "explained": 0,
-    "papers": 1,
+    "papers": 3,
     "watch": 8,
     "watchPassed": 0
    },
@@ -8435,7 +8794,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2028-04-25",
       "completion": "2031-10-03",
-      "lastUpdate": "2026-09-22"
+      "lastUpdate": "2026-10-21"
      },
      "contradictions": [],
      "explained": [],
@@ -8524,7 +8883,22 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42838799",
+       "doi": "10.1016/j.eururo.2026.09.001",
+       "title": "Major Adverse Cardiovascular Events in Men with High-risk Localized or Metastatic Prostate Cancer Starting Long-term Hormone Therapy in the STAMPEDE Trial.",
+       "journal": "Eur Urol",
+       "date": "2026-10-06"
+      },
+      {
+       "pmid": "42838582",
+       "doi": "10.1136/bmjopen-2026-116331",
+       "title": "Metastasis-directed radiotherapy (MDRT) for men with de novo, oligometastatic prostate cancer treated with long-term androgen deprivation therapy in the STAMPEDE trial (METANOVA): protocol for a multicentre, phase II randomised controlled trial in the USA.",
+       "journal": "BMJ Open",
+       "date": "2026-10-06"
+      }
+     ]
     },
     {
      "id": "nct04821622",
@@ -8755,7 +9129,7 @@
     "checked": 12,
     "contradictions": 0,
     "explained": 0,
-    "papers": 2,
+    "papers": 5,
     "watch": 0,
     "watchPassed": 0
    },
@@ -8831,6 +9205,27 @@
      "contradictions": [],
      "explained": [],
      "papers": [
+      {
+       "pmid": "42859938",
+       "doi": "10.1007/s10495-026-02440-w",
+       "title": "Necroptosis as a key player in cervical cancer progression and management: a systematic review and transcriptomic cross-study consensus analysis.",
+       "journal": "Apoptosis",
+       "date": "2026-10-11"
+      },
+      {
+       "pmid": "42853913",
+       "doi": "10.1126/sciadv.aef2358",
+       "title": "Standardizing Cell Ontology terms for cross-study integration in the female reproductive tract.",
+       "journal": "Sci Adv",
+       "date": "2026-10-09"
+      },
+      {
+       "pmid": "42857378",
+       "doi": "10.3389/fmicb.2026.1971707",
+       "title": "CRC-TrustBench: benchmarking cross-study and cross-country generalization in gut metagenomic colorectal cancer prediction.",
+       "journal": "Front Microbiol",
+       "date": "2026-09-25"
+      },
       {
        "pmid": "42774476",
        "doi": "10.1002/fsn3.72380",
@@ -9999,7 +10394,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2024-04-29",
       "completion": "2027-11-08",
-      "lastUpdate": "2026-07-17"
+      "lastUpdate": "2026-10-15"
      },
      "contradictions": [],
      "explained": [],
@@ -10221,7 +10616,7 @@
     "checked": 25,
     "contradictions": 0,
     "explained": 1,
-    "papers": 4,
+    "papers": 3,
     "watch": 0,
     "watchPassed": 0
    },
@@ -10256,7 +10651,7 @@
       {
        "pmid": "42732874",
        "doi": "10.1016/j.jtho.2026.104179",
-       "title": "Adjuvant Osimertinib in Resected EGFR-Mutated Stage IB-IIIA Non-Small Cell Lung Cancer: Exploratory 8-year Overall Survival Landmark Update from the ADAURA Trial [161/175].",
+       "title": "Adjuvant Osimertinib in Resected EGFR-Mutated Stage IB-IIIA NSCLC: Exploratory 8-Year Overall Survival Landmark Update from the ADAURA Trial.",
        "journal": "J Thorac Oncol",
        "date": "2026-09-13"
       }
@@ -10640,15 +11035,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42745627",
-       "doi": "10.1080/14796694.2026.2719409",
-       "title": "Plain language summary of the KRYSTAL-12 study results: adagrasib for non-small cell lung cancer with KRAS&lt;sup&gt;G12C&lt;/sup&gt; mutations.",
-       "journal": "Future Oncol",
-       "date": "2026-09-16"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "laura",
@@ -10700,7 +11087,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-05-01",
       "completion": "2030-06",
-      "lastUpdate": "2025-10-21"
+      "lastUpdate": "2026-10-21"
      },
      "contradictions": [],
      "explained": [],
@@ -10727,8 +11114,8 @@
       "enrolment": 755,
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2024-04-15",
-      "completion": "2026-09-17",
-      "lastUpdate": "2026-05-14"
+      "completion": "2026-10-14",
+      "lastUpdate": "2026-10-20"
      },
      "contradictions": [],
      "explained": [],
@@ -10927,7 +11314,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2028-12",
       "completion": "2029-02",
-      "lastUpdate": "2026-10-05"
+      "lastUpdate": "2026-10-19"
      },
      "contradictions": [],
      "explained": [],
@@ -11439,7 +11826,7 @@
     "checked": 10,
     "contradictions": 0,
     "explained": 1,
-    "papers": 1,
+    "papers": 7,
     "watch": 0,
     "watchPassed": 0
    },
@@ -11511,7 +11898,15 @@
      "registry": null,
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42843562",
+       "doi": "10.1016/j.annonc.2026.09.016",
+       "title": "Postoperative ctDNA dynamics and eligibility for Treat-on-Molecular Result (TOMR) ALTAIR trial in colorectal cancer: insights from CIRCULATE-Japan.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-07"
+      }
+     ]
     },
     {
      "id": "dynamic",
@@ -11555,7 +11950,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42844909",
+       "doi": "10.1080/14796694.2026.2746184",
+       "title": "Is IMvigor011 a conventional adjuvant trial or a ctDNA-triggered preemptive treatment strategy?",
+       "journal": "Future Oncol",
+       "date": "2026-10-07"
+      }
+     ]
     },
     {
      "id": "keynote-522",
@@ -11619,7 +12022,22 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42853672",
+       "doi": "10.1093/oncolo/oyag401",
+       "title": "A phase 2 study of tipifarnib in children and young adults with tumors harboring HRAS genomic alterations: NCI-COG Pediatric MATCH trial (APEC1621M).",
+       "journal": "Oncologist",
+       "date": "2026-10-09"
+      },
+      {
+       "pmid": "42867148",
+       "doi": "10.1093/oncolo/oyag382",
+       "title": "Phase II study of selpercatinib in children and young adults with RET-altered tumors: arm N of the NCI-COG Pediatric MATCH trial (APEC1621N).",
+       "journal": "Oncologist",
+       "date": "2026-10-01"
+      }
+     ]
     },
     {
      "id": "niche-2",
@@ -11762,7 +12180,22 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42838799",
+       "doi": "10.1016/j.eururo.2026.09.001",
+       "title": "Major Adverse Cardiovascular Events in Men with High-risk Localized or Metastatic Prostate Cancer Starting Long-term Hormone Therapy in the STAMPEDE Trial.",
+       "journal": "Eur Urol",
+       "date": "2026-10-06"
+      },
+      {
+       "pmid": "42838582",
+       "doi": "10.1136/bmjopen-2026-116331",
+       "title": "Metastasis-directed radiotherapy (MDRT) for men with de novo, oligometastatic prostate cancer treated with long-term androgen deprivation therapy in the STAMPEDE trial (METANOVA): protocol for a multicentre, phase II randomised controlled trial in the USA.",
+       "journal": "BMJ Open",
+       "date": "2026-10-06"
+      }
+     ]
     }
    ],
    "watch": [],

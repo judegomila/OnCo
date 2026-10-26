@@ -1,0 +1,47 @@
+src/components/FrontSchematic.tsx
+  s_1e233a6be244f1::t_7227d3a3dbe52d 4,11-12
+src/components/TermThumb.tsx
+  s_1e233a6be244f1::t_9c01801d2ed3be 4-5,9-13,16-17,19
+src/components/TechSchematic.tsx
+  s_1e233a6be244f1::t_7227d3a3dbe52d 4,8
+src/components/SchematicThumb.tsx
+  s_1e233a6be244f1::t_3e5dea3f804492 1-22
+src/lib/schematics-loader.ts
+  s_1e233a6be244f1::t_ebfdbea690d8e4 1-55
+src/components/KindGraph.tsx
+  s_1e233a6be244f1::t_928517aa44b5d1 79
+  s_1e233a6be244f1::t_107214a534bdfc 10,85
+src/components/TechThumb.tsx
+  s_1e233a6be244f1::t_32cb3bf0add199 4-5,9-13,16-18,20
+src/components/AnalyticsConsent.tsx
+  s_1e233a6be244f1::t_928517aa44b5d1 56
+src/lib/layer.ts
+  s_1e233a6be244f1::t_4640ce1182d0b5 70-101,103
+  s_1e233a6be244f1::t_c7da1163bb7ec8 3
+  s_1e233a6be244f1::t_d4498c7d80e66b 50-54,57-61
+src/components/ChipTitles.tsx
+  s_1e233a6be244f1::t_9247e13aacfc33 16-17,20-22,24,27,30-32
+  s_1e233a6be244f1::t_970ed6dce11fb5 36
+src/components/Wireframe3D.tsx
+  s_1e233a6be244f1::t_d804f02c7caa73 92-94,99-109
+src/components/Breadcrumbs.tsx
+  s_1e233a6be244f1::t_928517aa44b5d1 32
+src/components/TermSchematic.tsx
+  s_1e233a6be244f1::t_7227d3a3dbe52d 3,12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b316d2f5904d683bb0a22552a738725b73816020",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -12,7 +12,7 @@ import type { EntityInput, PaperInput, TermInput } from "@/lib/schema";
  * respiratory-gating-tumour-tracking-systems (machines-wave2.ts); and the terms sbrt-term, imrt-term and
  * stereotactic-radiosurgery (terms-jargon.ts). The trial and review papers that were already in the corpus
  * (MIRAGE as paper-kishan-jama-oncol, FAST-01 as paper-mascia-jama-oncol, AAPM Task Groups 76 and 302 as
- * paper-keall-med-phys and paper-al-hallaq-med-phys, the proton RBE review as paper-paganetti-phys-med-biol) are
+ * paper-keall-med-phys and paper-al-hallaq-med-phys, the proton RBE review as paper-paganetti-proton-rbe-ijrobp-2014) are
  * linked, not repeated.
  *
  * What is new: two terms the matrix rests on and the corpus had no record of (proton range uncertainty, and
@@ -46,7 +46,7 @@ const terms: TermInput[] = [
     summary: "The main physical attraction of protons is that they stop: the dose peaks at the end of the track and falls almost to nothing beyond it. Where exactly the track ends depends on the stopping power of every tissue the beam passes through, which is estimated from the planning CT scan, and on set-up, anatomy on the day, beam delivery and the dose calculation. Each of these carries an error, and together they are called range uncertainty.\n\nPlanners protect the target by extending the beam's range by a margin. Paganetti's 2012 review gives the recipes in use at the time: 3.5 per cent of the range plus 1 millimetre at the Massachusetts General Hospital, 3.5 per cent plus 3 millimetres at MD Anderson, Loma Linda and the University of Pennsylvania, and 2.5 per cent plus 1.5 millimetres at the University of Florida. The MGH recipe goes back to estimates made with early-1980s CT. The review calls the resulting 8 millimetre overshoot for a 20 centimetre field 'quite substantial', and estimates that Monte Carlo dose calculation could reduce range uncertainty by several millimetres in complex geometry.\n\nThe margin matters because it spends part of the advantage protons are chosen for. Tissue just beyond the target receives dose the plan was built to avoid, and the biological effect at the end of the track is itself higher than the standard conversion factor assumes (see relative-biological-effectiveness).",
     technologies: ["proton-therapy", "intensity-modulated-proton-therapy", "proton-arc-therapy", "in-vivo-dosimetry"],
     terms: ["bragg-peak", "relative-biological-effectiveness", "linear-energy-transfer", "planning-target-volume"],
-    keyPapers: ["paper-paganetti-range-uncertainties-pmb-2012", "paper-liao-proton-vs-imrt-nsclc-jco-2018", "paper-paganetti-phys-med-biol"],
+    keyPapers: ["paper-paganetti-range-uncertainties-pmb-2012", "paper-liao-proton-vs-imrt-nsclc-jco-2018", "paper-paganetti-proton-rbe-ijrobp-2014"],
     related: ["idea-bio2-let-rbe-ab-selects-protons", "radiation-roadmap"],
     links: [doi("10.1088/0031-9155/57/11/R99", "Paganetti, Range uncertainties in proton therapy and the role of Monte Carlo simulations (Physics in Medicine and Biology 2012)"), { label: "Full text in PubMed Central", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3374500/" }] }),
 

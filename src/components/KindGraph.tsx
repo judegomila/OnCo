@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { type Kind } from "@/lib/kinds";
 import { HUE } from "@/lib/graph-layout";
@@ -8,6 +7,7 @@ import {
   type KindGraph as KindGraphData,
 } from "@/lib/kind-graph";
 import { KindIcon } from "./KindIcon";
+import { IntentLink } from "./IntentLink";
 import { KindGraphFrame } from "./KindGraphFrame";
 
 /**
@@ -76,13 +76,13 @@ export function CountsList({ kg }: { kg: KindGraphData }) {
     <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-px rounded-xl border border-border bg-card overflow-hidden shadow-card [&>li]:border-border [&>li]:border-b [&>li]:border-r" aria-label="Records by kind">
       {kg.nodes.map((n) => (
         <li key={n.kind} className="bg-card">
-          <Link href={n.route} className="flex h-full items-center gap-3 px-3.5 py-3 hover:bg-surface transition-colors" title={linksSentence(kg, n.kind)}>
+          <IntentLink href={n.route} className="flex h-full items-center gap-3 px-3.5 py-3 hover:bg-surface transition-colors" title={linksSentence(kg, n.kind)}>
             <span aria-hidden className={`inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border ${KIND_COLOR[n.kind]}`}><KindIcon kind={n.kind} className="h-5 w-5" /></span>
             <span className="min-w-0">
               <span className="block text-xl font-semibold tabular-nums leading-none tracking-tight">{num(n.count)}</span>
               <span className="block text-xs text-muted mt-1 truncate">{n.label}</span>
             </span>
-          </Link>
+          </IntentLink>
         </li>
       ))}
     </ul>

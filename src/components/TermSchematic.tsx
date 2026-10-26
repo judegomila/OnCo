@@ -1,5 +1,6 @@
 import { hasTermAnimation, termSchematicFor } from "@/data/schematics";
 import { Wireframe3D } from "./Wireframe3D";
+import { SchematicThumb } from "./SchematicThumb";
 
 /**
  * Animated wireframe schematic for a glossary term category (Endpoints, Biomarkers, Genomics, …).
@@ -8,8 +9,8 @@ import { Wireframe3D } from "./Wireframe3D";
  */
 export function TermSchematic({ category, height, compact = false }: { category: string; height?: string; compact?: boolean }) {
   if (!hasTermAnimation(category)) return null;
+  if (compact) return <SchematicThumb spec={{ kind: "term", category }} height={height ?? "h-32"} speed={0.22} />;
   const mesh = termSchematicFor(category);
-  if (compact) return <Wireframe3D mesh={mesh} height={height ?? "h-32"} speed={0.22} compact />;
   return (
     <div className="card overflow-hidden">
       <Wireframe3D mesh={mesh} height={height ?? "h-64 sm:h-80"} speed={0.18} />

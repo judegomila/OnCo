@@ -1,12 +1,13 @@
 import type { Technology } from "@/lib/schema";
 import { schematicFor } from "@/data/schematics";
 import { Wireframe3D } from "./Wireframe3D";
+import { SchematicThumb } from "./SchematicThumb";
 
 /** Server wrapper: picks a specific or generic wireframe for a technology and renders it with a caption. */
 export function TechSchematic({ tech, compact = false, height }: { tech: Technology; compact?: boolean; height?: string }) {
+  if (compact) return <SchematicThumb spec={{ kind: "tech", id: tech.id, sections: tech.sections }} height={height ?? "h-28"} />;
   const { mesh, specific } = schematicFor(tech.id, tech.sections);
   const labels = (mesh.labels ?? []).map((l) => l.text);
-  if (compact) return <Wireframe3D mesh={mesh} compact height={height ?? "h-28"} />;
   return (
     <div className="card overflow-hidden">
       <Wireframe3D mesh={mesh} />

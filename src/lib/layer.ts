@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 
 /**
  * Reading layer: which text a reader sees.
@@ -47,13 +47,18 @@ export function readLayer(): Layer {
   } catch { return DEFAULT; }
 }
 
-/** Reflect the layer on <html>: data attributes for CSS, `lang` for browser translation, `dir` for RTL. */
+/**
+ * Reflect the layer on <html>: data attributes for CSS, `lang` for browser translation, `dir` for RTL. Only what
+ * differs is written: each write to <html> invalidates the style of the whole document, and LayerScript has already
+ * set all four before first paint, so on an ordinary load this writes nothing.
+ */
 export function applyLayer(l: Layer) {
   const root = document.documentElement;
-  root.dataset.level = l.level;
-  root.dataset.lang = l.lang;
-  root.lang = l.lang;
-  root.dir = l.lang === "ar" ? "rtl" : "ltr";
+  const dir = l.lang === "ar" ? "rtl" : "ltr";
+  if (root.dataset.level !== l.level) root.dataset.level = l.level;
+  if (root.dataset.lang !== l.lang) root.dataset.lang = l.lang;
+  if (root.lang !== l.lang) root.lang = l.lang;
+  if (root.dir !== dir) root.dir = dir;
 }
 
 export function writeLayer(next: Layer) {
@@ -62,16 +67,40 @@ export function writeLayer(next: Layer) {
   window.dispatchEvent(new CustomEvent(EVENT, { detail: next }));
 }
 
-/** Subscribe to the current layer. Starts at the default on the server and first client render, then syncs. */
+/*
+ * One shared store for every reader of the layer. A page has a hundred or more (each KindName, TL, TldrText and
+ * StatusName), and each used to schedule its own animation frame after mount that re-rendered it and rewrote the four
+ * attributes on <html>. On the home page that was about 130 frames, each forcing a style recalculation of the whole
+ * document: two seconds of blocked main thread on a mid-range phone (Lighthouse trace, 26 October 2026). Now the saved
+ * layer is read once, hydration uses the server snapshot (the default), and React re-renders the readers together,
+ * once, only when the reader's saved layer differs from the default.
+ */
+let current: Layer | null = null;
+const listeners = new Set<() => void>();
+function snapshot(): Layer { return (current ??= readLayer()); }
+function refresh() {
+  const next = readLayer();
+  if (current && current.level === next.level && current.lang === next.lang) return;
+  current = next;
+  for (const cb of listeners) cb();
+}
+function subscribe(cb: () => void): () => void {
+  if (listeners.size === 0) {
+    window.addEventListener(EVENT, refresh);
+    window.addEventListener("storage", refresh);
+    applyLayer(snapshot());
+  }
+  listeners.add(cb);
+  return () => {
+    listeners.delete(cb);
+    if (listeners.size === 0) { window.removeEventListener(EVENT, refresh); window.removeEventListener("storage", refresh); }
+  };
+}
+const serverSnapshot = () => DEFAULT;
+
+/** Subscribe to the current layer. The default on the server and during hydration, then the reader's saved layer. */
 export function useLayer(): [Layer, (next: Partial<Layer>) => void] {
-  const [layer, setLayer] = useState<Layer>(DEFAULT);
-  useEffect(() => {
-    const sync = () => setLayer(readLayer());
-    const id = requestAnimationFrame(() => { sync(); applyLayer(readLayer()); });
-    window.addEventListener(EVENT, sync);
-    window.addEventListener("storage", sync);
-    return () => { cancelAnimationFrame(id); window.removeEventListener(EVENT, sync); window.removeEventListener("storage", sync); };
-  }, []);
+  const layer = useSyncExternalStore(subscribe, snapshot, serverSnapshot);
   const update = (next: Partial<Layer>) => writeLayer({ ...readLayer(), ...next });
   return [layer, update];
 }

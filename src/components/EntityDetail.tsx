@@ -273,11 +273,13 @@ function QuickLinks({ e }: { e: Entity }) {
   const groups = graph().neighbours(e.id);
   const order = KINDS.filter((k) => (groups.get(k)?.length ?? 0) > 0);
   if (!order.length) return null;
+  // Plain anchors, as the tabs are: a router link to "#connected" made the router prefetch the page the reader is
+  // already on, 30 to 70 KB on every record page viewed on a wide screen.
   return (
     <nav className="card p-4 text-sm" aria-label="Connected records" data-quick-links>
       <div className="kicker mb-1.5"><TL text="Connected" /></div>
       <ul className="space-y-0.5">{order.map((k) => (
-        <li key={k}><Link className="flex justify-between gap-3 hover:underline" href="#connected"><span className="first-letter:uppercase"><KindName kind={k} form="plural" fallback={KIND_META[k].plural} /></span><span className="tabular-nums text-muted">{groups.get(k)!.length.toLocaleString("en-GB")}</span></Link></li>
+        <li key={k}><a className="flex justify-between gap-3 hover:underline" href="#connected"><span className="first-letter:uppercase"><KindName kind={k} form="plural" fallback={KIND_META[k].plural} /></span><span className="tabular-nums text-muted">{groups.get(k)!.length.toLocaleString("en-GB")}</span></a></li>
       ))}</ul>
     </nav>
   );

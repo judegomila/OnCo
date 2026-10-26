@@ -53,7 +53,7 @@ export function AnalyticsConsentBar() {
       <section role="region" aria-label={t("consent.choice")} data-testid="analytics-consent" className="pointer-events-auto mx-auto max-w-3xl rounded-xl border border-border bg-card shadow-lg px-4 py-3 flex flex-wrap items-center gap-x-4 gap-y-3 text-sm">
         <span className="text-accent shrink-0"><ChartIcon /></span>
         <p className="flex-1 min-w-[14rem] leading-snug text-foreground/85">
-          <T k="consent.text" /> <Link href="/privacy/#analytics" className="underline text-accent hover:text-foreground whitespace-nowrap"><T k="footer.privacy" /></Link>
+          <T k="consent.text" /> <Link href="/privacy/#analytics" prefetch={false} className="underline text-accent hover:text-foreground whitespace-nowrap"><T k="footer.privacy" /></Link>
         </p>
         <div className="ms-auto"><ChoicePills consent={consent} choose={choose} /></div>
       </section>

@@ -89,13 +89,24 @@ export function Wireframe3D({ mesh: given, height = "h-64 sm:h-72", speed = 0.3,
   // builders are fetched on demand and the animated mesh built here. Meanwhile, and for plain meshes, `given` is drawn.
   // Always starts as the still, even when the builders are cached, so hydration matches the server's markup.
   const [animated, setAnimated] = useState<{ key: string; mesh: Mesh } | null>(null);
+  // The builders are fetched once this drawing is on screen after the page has settled, or when the reader points at
+  // it or taps it: fetched at mount, they were 270 KB and a long task on every load of the home and drug pages, for
+  // drawings below the fold. Once they are cached (another drawing fetched them) the swap is immediate.
   useEffect(() => {
     const key = given.anim;
     if (!key) return;
     let live = true;
-    loadBuilders().then((b) => { if (live && b[key]) setAnimated({ key, mesh: b[key]() }); });
-    return () => { live = false; };
-  }, [given.anim]);
+    let asked = false;
+    const ask = () => {
+      const s = gate.state;
+      if (asked || !(builders || (s.visible && s.settled) || s.hovered || s.tapped)) return;
+      asked = true;
+      loadBuilders().then((b) => { if (live && b[key]) setAnimated({ key, mesh: b[key]() }); });
+    };
+    const unsub = gate.subscribe(ask);
+    ask();
+    return () => { live = false; unsub(); };
+  }, [given.anim, gate]);
   const mesh = given.anim && animated?.key === given.anim ? animated.mesh : given;
 
   useEffect(() => {

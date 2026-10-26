@@ -6,8 +6,17 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 26 October 2026
+- Eight Sleep's Hot Flash Mode, graded honestly: one preprint by company staff in menopausal women, nothing yet in cancer
+
 ### 22 October 2026
+- A measured performance budget: Lighthouse on seven page types under real throttling, with a ratchet
 - Pages load faster: first visits stop loading twice, the cancer map stops downloading the whole corpus, and drawings wait until the page has settled
+- chore: weekly roadmap registry check (public/roadmap-watch.json)
+- chore: refresh pulse, abstract and citation snapshots (#294)
+- chore: refresh institution research output from OpenAlex (#293)
+- chore: draft change proposals that need review (#292)
+- chore: EU regional rows read from the EMA register pages (#291)
 
 ### 21 October 2026
 - The ship chain retries once when Vercel refuses a deploy without creating one

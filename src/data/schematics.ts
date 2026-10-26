@@ -643,6 +643,7 @@ export const SCHEMATIC_ALIAS: Record<string, string> = {
   "tumour-on-chip": "organoids",
   // Hair (src/data/hair.ts): scalp care reads as the cold-cap drawing of a scalp, camouflage and restoration as the wig.
   "scalp-care-cancer-treatment": "scalp-cooling",
+  "eight-sleep-pod-hot-flash-cooling": "sleep-circadian-interventions",
   "hair-camouflage-and-restoration": "wigs-cranial-prosthesis",
   "hair-platelet-rich-plasma": "minoxidil-chemotherapy-alopecia",
   "hair-photobiomodulation": "photobiomodulation-mucositis",

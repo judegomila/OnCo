@@ -8,6 +8,24 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 
 ### 26 October 2026
 - Eight Sleep's Hot Flash Mode, graded honestly: one preprint by company staff in menopausal women, nothing yet in cancer
+- chore: weekly fact check, audit, and provenance refresh (#306)
+- chore: render this week's issue to public/newsletter/ (#305)
+- chore: refresh public/votes.json from Discussions reactions (#304)
+- chore: refresh trial counts from ClinicalTrials.gov (#303)
+- chore: draft change proposals that need review (#302)
+- chore: EU regional rows read from the EMA register pages (#301)
+
+### 25 October 2026
+- chore: draft change proposals that need review (#300)
+- chore: EU regional rows read from the EMA register pages (#299)
+
+### 24 October 2026
+- chore: draft change proposals that need review (#298)
+- chore: EU regional rows read from the EMA register pages (#297)
+
+### 23 October 2026
+- chore: draft change proposals that need review (#296)
+- chore: EU regional rows read from the EMA register pages (#295)
 
 ### 22 October 2026
 - A measured performance budget: Lighthouse on seven page types under real throttling, with a ratchet

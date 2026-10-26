@@ -7,7 +7,10 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 26 October 2026
+- Seven duplicate ideas become one each, a proton paper stops being listed twice, and a cohort study is no longer called a randomised trial
 - Eight Sleep's Hot Flash Mode, graded honestly: one preprint by company staff in menopausal women, nothing yet in cancer
+- Record the Ask recall measurement for the 26 October merges
+- One proton RBE review and six care ideas each had two pages; they are merged, and a lung cancer study is no longer called a randomised trial
 - chore: weekly fact check, audit, and provenance refresh (#306)
 - chore: render this week's issue to public/newsletter/ (#305)
 - chore: refresh public/votes.json from Discussions reactions (#304)

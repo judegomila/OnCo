@@ -970,6 +970,46 @@
       "source": "/terms/skin-cancer-in-transplant-recipients/:path*",
       "destination": "/terms/skin-cancer-after-organ-transplant/:path*",
       "permanent": true
+    },
+    {
+      "source": "/key-papers/paper-paganetti-phys-med-biol/:path*",
+      "destination": "/key-papers/paper-paganetti-proton-rbe-ijrobp-2014/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ideas/idea-moon-certified-decision-aids/:path*",
+      "destination": "/ideas/idea-acc-embedded-decision-aids/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ideas/idea-acc-broad-eligibility-as-regulatory-default/:path*",
+      "destination": "/ideas/idea-tr1-justify-every-exclusion/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ideas/idea-moon-fertility-preservation-default/:path*",
+      "destination": "/ideas/idea-acc-default-fertility-preservation-referral/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ideas/idea-moon-financial-toxicity-screening/:path*",
+      "destination": "/ideas/idea-acc-financial-toxicity-screening-at-diagnosis/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ideas/idea-reg-financial-toxicity-vital-sign/:path*",
+      "destination": "/ideas/idea-acc-financial-toxicity-screening-at-diagnosis/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ideas/idea-moon-pro-monitoring-standard/:path*",
+      "destination": "/ideas/idea-acc-electronic-pro-monitoring-standard/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/ideas/idea-acc-prehabilitation-older-surgery/:path*",
+      "destination": "/ideas/idea-bio2-prehabilitation-standard/:path*",
+      "permanent": true
     }
   ],
   "ignoreCommand": "if [ \"$VERCEL_GIT_COMMIT_AUTHOR_LOGIN\" = \"github-actions[bot]\" ]; then exit 1; else exit 0; fi"

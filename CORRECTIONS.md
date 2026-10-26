@@ -2,6 +2,13 @@
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
+## 2026-10-26
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-10-26 | [Smoking cessation in cancer patients](/technologies/smoking-cessation-after-diagnosis/) | The summary called the 2021 Annals of Internal Medicine study "a randomised trial of intensive cessation support in the ELCAP and Moscow cohorts". It is a prospective cohort study of 517 current smokers with early-stage non-small-cell lung cancer at two Moscow hospitals, with no randomisation, no cessation intervention and no ELCAP patients. The sentence also said quitting improves survival "by around a third in cohort studies" without a source. | Resolved [10.7326/M21-0252](https://doi.org/10.7326/M21-0252) through Europe PMC (PubMed 34310171) and read the abstract during the precision follow-ups. | Rewrote the sentence from the abstract: hazard ratio 0.67 for death from any cause and 0.70 for progression, five-year overall survival 60.6 against 48.6 per cent, stated as an observational study with self-reported smoking. Named the authors and design in the link label. |
+| 2026-10-26 | [Paganetti 2014 proton RBE review](/key-papers/paper-paganetti-proton-rbe-ijrobp-2014/) | One review, Physics in Medicine and Biology 2014 (DOI 10.1088/0031-9155/59/22/R419, PubMed 25361443), was held as two paper records, and the curated record's citation count belonged to the unrelated editorial its earlier wrong DOI pointed at (PubMed 25585778). | DOI resolved through Crossref; the 20 October DOI correction left the pair awaiting a merge. | Merged `paper-paganetti-phys-med-biol` into `paper-paganetti-proton-rbe-ijrobp-2014` with the dedupe tooling, which writes a permanent redirect, and replaced the stale citation count with the review's own. |
+
 ## 2026-10-20
 
 | Date | Entity | What was wrong | How found | Fix |

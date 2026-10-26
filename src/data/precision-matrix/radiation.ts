@@ -315,7 +315,7 @@ export const rows: PrecisionRow[] = [
       source: doi(LIAO, "Liao et al., Journal of Clinical Oncology 2018", "No benefit was noted in RP or LF after PSPT."),
     },
     oversold: "The proton's sharp stopping point is often presented as sparing everything beyond the tumour; in practice planners add several millimetres for range uncertainty, and the randomised lung trial found no reduction in lung inflammation.",
-    relatedIds: ["paper-paganetti-range-uncertainties-pmb-2012", "paper-liao-proton-vs-imrt-nsclc-jco-2018", "paper-paganetti-phys-med-biol", "proton-vs-imrt", "bragg-peak", "relative-biological-effectiveness"],
+    relatedIds: ["paper-paganetti-range-uncertainties-pmb-2012", "paper-liao-proton-vs-imrt-nsclc-jco-2018", "paper-paganetti-proton-rbe-ijrobp-2014", "proton-vs-imrt", "bragg-peak", "relative-biological-effectiveness"],
   },
 
   {

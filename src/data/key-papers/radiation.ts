@@ -31,9 +31,9 @@ export const papersRadiation: PaperInput[] = [
     technologies: ["proton-therapy", "intensity-modulated-proton-therapy"],
     terms: ["relative-biological-effectiveness", "linear-energy-transfer", "alpha-beta-ratio", "bragg-peak"],
     // The DOI this record carried, 10.1016/j.ijrobp.2014.07.001, resolves to an unrelated IJROBP editorial on radiation
-    // dermatitis. The review is 10.1088/0031-9155/59/22/R419, already held as paper-paganetti-phys-med-biol; the two
-    // records await a merge (docs/DUPLICATE-RECORDS.md), so the DOI is kept on that record only.
-    related: ["paper-paganetti-phys-med-biol"],
+    // dermatitis. The review is 10.1088/0031-9155/59/22/R419 (PubMed 25361443). The Europe PMC ingest of the same
+    // review, paper-paganetti-phys-med-biol, was merged into this record on 26 October 2026; its DOI, PubMed id and
+    // links arrive through src/data/merged-records.ts.
     links: [{ label: "DOI", url: "https://doi.org/10.1088/0031-9155/59/22/R419" }],
   }),
 ];

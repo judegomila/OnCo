@@ -247,7 +247,7 @@ const systems: TechnologyInput[] = [
     drugs: ["busulfan", "lomustine", "cyclophosphamide", "ifosfamide", "procarbazine"],
     technologies: ["fertility-preservation", "rejuv-paed-pituitary-and-puberty", "ovarian-function-after-chemotherapy", "menopause-after-cancer-treatment", "total-body-irradiation", "allogeneic-transplant", "rejuv-paed-cog-ltfu-guidelines"],
     terms: ["late-effects", "lymphoma-decision-fertility-timing"], bottlenecks: ["b-survivorship", "b-toxicity-qol"],
-    related: ["ighg", "pancaresurfup", "sjlife", "idea-acc-default-fertility-preservation-referral", "idea-moon-fertility-preservation-default"],
+    related: ["ighg", "pancaresurfup", "sjlife", "idea-acc-default-fertility-preservation-referral"],
     links: [doi("Pregnancy after chemotherapy in male and female survivors of childhood cancer treated between 1970 and 1999 (CCSS) (Lancet Oncol 2016)", "10.1016/S1470-2045(16)00086-3"),
       doi("Transplantation of cryopreserved ovarian tissue in a series of 285 women: a review of five leading European centers (Fertil Steril 2021)", "10.1016/j.fertnstert.2021.03.008"),
       doi("Recommendations for premature ovarian insufficiency surveillance for female survivors of childhood, adolescent and young adult cancer (IGHG with PanCareSurFup) (JCO 2016)", "10.1200/JCO.2015.64.3288"),

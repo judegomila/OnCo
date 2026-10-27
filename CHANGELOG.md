@@ -6,7 +6,12 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 27 October 2026
+- Pages stop freezing on phones: the home page's blocking time falls from two seconds to almost nothing, and it downloads a third as much
+
 ### 26 October 2026
+- Record pages on a wide screen stop downloading themselves a second time
+- Home and drug pages stop blocking the phone for two to three seconds, and the home page halves in size
 - Seven duplicate ideas become one each, a proton paper stops being listed twice, and a cohort study is no longer called a randomised trial
 - Eight Sleep's Hot Flash Mode, graded honestly: one preprint by company staff in menopausal women, nothing yet in cancer
 - Record the Ask recall measurement for the 26 October merges

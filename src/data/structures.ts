@@ -714,4 +714,7 @@ export const structures: Record<string, StructureDef[]> = {
   // Small molecules and peptides resolved by PubChem name lookup on 18 Sept 2026 (scripts/fill-structures.ts), pinned by compound id.
 
 
+  // Small molecules and peptides resolved by PubChem name lookup on 18 Sept 2026 (scripts/fill-structures.ts), pinned by compound id.
+
+
 };

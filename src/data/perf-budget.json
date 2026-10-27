@@ -1,55 +1,55 @@
 {
   "note": "Lighthouse mobile, devtools throttling, median of 3, with 15 per cent headroom. Written by scripts/perf-lighthouse.ts --record, which only lowers a ceiling; raising one is a hand edit with a reason in the commit.",
-  "measured": "2026-10-22",
+  "measured": "2026-10-27",
   "pages": {
     "/": {
-      "fcp": 3665,
-      "lcp": 3665,
-      "tbt": 2676,
-      "si": 3894,
-      "bytes": 1809166
+      "fcp": 3559,
+      "lcp": 3559,
+      "tbt": 14,
+      "si": 3667,
+      "bytes": 709343
     },
     "/cancers/tnbc/": {
-      "fcp": 3857,
-      "lcp": 4368,
-      "tbt": 953,
-      "si": 4070,
-      "bytes": 1374440
+      "fcp": 3852,
+      "lcp": 4345,
+      "tbt": 85,
+      "si": 4020,
+      "bytes": 1201649
     },
     "/drugs/pembrolizumab/": {
-      "fcp": 4043,
-      "lcp": 4665,
-      "tbt": 3475,
-      "si": 4372,
-      "bytes": 1406759
+      "fcp": 4030,
+      "lcp": 4650,
+      "tbt": 228,
+      "si": 4263,
+      "bytes": 848830
     },
     "/trials/keynote-522/": {
       "fcp": 3968,
       "lcp": 4416,
-      "tbt": 59,
-      "si": 4130,
-      "bytes": 735389
+      "tbt": 30,
+      "si": 4127,
+      "bytes": 641494
     },
     "/terms/ctdna/": {
       "fcp": 3906,
       "lcp": 3906,
-      "tbt": 786,
-      "si": 3946,
-      "bytes": 831724
+      "tbt": 13,
+      "si": 3890,
+      "bytes": 639992
     },
     "/live/precision/": {
       "fcp": 3141,
-      "lcp": 3601,
-      "tbt": 132,
-      "si": 3345,
-      "bytes": 623778
+      "lcp": 3233,
+      "tbt": 14,
+      "si": 3204,
+      "bytes": 530574
     },
     "/technologies/": {
       "fcp": 3499,
       "lcp": 3499,
-      "tbt": 473,
+      "tbt": 88,
       "si": 3668,
-      "bytes": 1070058
+      "bytes": 978939
     }
   }
 }

@@ -1,22 +1,22 @@
 {
- "checked": "2026-10-21",
+ "checked": "2026-10-28",
  "source": {
   "label": "FDA Oncology Center of Excellence: approval notifications",
   "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
  },
  "method": "Sponsor named in brackets in each FDA OCE oncology approval notification on the current page, grouped after removing corporate suffixes. Covers the notifications the page still lists (see window), so it is a floor for 'companies with a recent FDA oncology approval'.",
  "total": 80,
- "notifications": 202,
+ "notifications": 204,
  "window": {
   "from": "2023-01-19",
-  "to": "2026-10-19"
+  "to": "2026-10-26"
  },
  "items": [
   {
-   "name": "Merck & Co., Inc.",
-   "approvals": 17,
+   "name": "Merck",
+   "approvals": 18,
    "first": "2023-10-16",
-   "last": "2026-09-24"
+   "last": "2026-10-16"
   },
   {
    "name": "Janssen Biotech, Inc.",

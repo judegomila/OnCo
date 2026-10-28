@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-21",
+ "checked": "2026-10-28",
  "source": {
   "label": "OECI: Member Profiles",
   "url": "https://www.oeci.eu/MemberList.aspx"
@@ -165,7 +165,6 @@
    "website": "https://bjcn.bg/",
    "membership": "Associate Member",
    "leaders": [
-    "Assia Konsoulova",
     "Dimitar Kalev",
     "Margarita Guenova",
     "Valeria Kaleva"
@@ -994,7 +993,7 @@
   },
   {
    "id": "101",
-   "name": "Trinity St. James’s Cancer Institute",
+   "name": "Trinity St James’s Cancer Institute",
    "country": "Ireland",
    "website": "http://www.stjames.ie/cancer",
    "membership": "Full Member",
@@ -1220,7 +1219,8 @@
    "leaders": [
     "Gustavo Galmozzi",
     "Maria Teresa Montella",
-    "Maurizia Ficarelli"
+    "Maurizia Ficarelli",
+    "Cesare Candela"
    ]
   },
   {

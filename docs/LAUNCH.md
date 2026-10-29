@@ -109,6 +109,10 @@ lowered (see commit "Take the backlink fill back out"). `logos` sits at 80% beca
 any source can find; each needs a Wikidata QID by hand.
 
 ## Owner asks not yet started
+- [ ] **A profile for Melissa Taylor (owner, 29 October 2026).** Confirm with the owner which Melissa Taylor is meant
+  (and the role or connection to cancer) before writing anything: several public figures share the name, and a person
+  record must be about the right one. Then a person record on the usual sourcing rules, with a portrait only if its
+  licence is clear.
 - [ ] **GitHub icon in the mobile header, without the star count (owner, 22 October 2026).** Today `GitHubStars` is
   `hidden sm:inline-flex` in `src/components/SiteChrome.tsx`, so phones get no GitHub link in the top bar. The bar
   already holds search, language, text size, theme and sign-in, so an icon only fits if something else moves. Options,

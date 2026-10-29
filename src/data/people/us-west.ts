@@ -199,6 +199,17 @@ export const peopleUsWest: PersonInput[] = [
     profiles: [{ label: "UCSF profile", url: "https://profiles.ucsf.edu/search/?searchtype=people&searchfor=Eric%20J.%20Small" }, pubmed("Small EJ[Author]"), scholar("Eric J. Small")],
     papers: [{ title: "Placebo-controlled phase III trial of immunologic therapy with sipuleucel-T (APC8015) in patients with metastatic, asymptomatic hormone refractory prostate cancer", journal: "Journal of Clinical Oncology", year: 2006, doi: "10.1200/JCO.2005.04.5252", url: "https://doi.org/10.1200/JCO.2005.04.5252" }, { title: "Apalutamide and overall survival in non-metastatic castration-resistant prostate cancer", journal: "Annals of Oncology", year: 2019, doi: "10.1093/annonc/mdz397", url: "https://doi.org/10.1093/annonc/mdz397" }], journals: ["annals-of-oncology"], links: [{ label: "UCSF profile", url: "https://profiles.ucsf.edu/search/?searchtype=people&searchfor=Eric%20J.%20Small" }, pubmed("Small EJ[Author]"), scholar("Eric J. Small")],
   },
+  // Added 29 October 2026 at the owner's request, from the UCSF Health provider page only. No papers are listed:
+  // several researchers publish as "Taylor MA" and none of the candidate papers could be tied to her by affiliation.
+  {
+    id: "melissa-taylor", kind: "person", asOf: "2026-10-29", name: "Melissa Taylor", aka: ["Melissa Anne Taylor", "Melissa A. Taylor"], role: "Breast medical oncologist, UCSF", institutionId: "ucsf", institutions: ["ucsf"],
+    specialisms: ["Breast cancer", "Treatment side effects", "Health care disparities", "Access to clinical trials"],
+    tldr: "Breast medical oncologist at UCSF who cares for people with breast cancer at every stage, and researches treatment side effects, health care disparities and access to clinical trials.",
+    summary: "Melissa Anne Taylor, MD, is a medical oncologist at UCSF who cares for patients with breast cancer across all stages of diagnosis and treatment; UCSF Health lists her specialty as medical oncology (breast) and a clinic at the UCSF-John Muir Health Cancer Center in Berkeley. Her research focuses especially on treatment side effects, health care disparities and expanding access to clinical trials. She earned her medical degree and a master's in public health at Emory University, where she also completed residencies in internal medicine and in public health and general preventive medicine, and completed a fellowship in hematology and medical oncology at Yale School of Medicine. She is board certified in internal medicine by the American Board of Internal Medicine.",
+    cancers: ["breast-cancer"], targets: [], drugs: [], technologies: [], trials: [], terms: [],
+    profiles: [{ label: "UCSF Health profile", url: "https://www.ucsfhealth.org/providers/melissa-taylor" }, pubmed("Taylor MA[Author] AND breast")],
+    papers: [], journals: [], links: [{ label: "UCSF Health: Melissa Taylor, MD", url: "https://www.ucsfhealth.org/providers/melissa-taylor" }],
+  },
   {
     id: "rahul-aggarwal", kind: "person", asOf, name: "Rahul Aggarwal", role: "Associate Director for Clinical Sciences, UCSF Helen Diller Family Comprehensive Cancer Center", institutionId: "ucsf", institutions: ["ucsf"],
     specialisms: ["Prostate cancer", "Neuroendocrine prostate cancer", "PSMA theranostics"],

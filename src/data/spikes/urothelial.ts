@@ -183,7 +183,7 @@ const drugs: DrugInput[] = [
 ];
 
 const technologies: TechnologyInput[] = [
-  { id: "bcg-and-intravesical-therapy", kind: "technology", name: "Intravesical therapy (BCG, chemotherapy, devices, gene and viral therapy)", sections: ["immunotherapy", "devices"], status: "standard-of-care", asOf,
+  { id: "bcg-and-intravesical-therapy", trials: ["nct04752722", "nct03945162"], kind: "technology", name: "Intravesical therapy (BCG, chemotherapy, devices, gene and viral therapy)", sections: ["immunotherapy", "devices"], status: "standard-of-care", asOf,
     tldr: "Treating early bladder cancer by putting the drug straight into the bladder through a catheter, so the whole body is spared.",
     summary: "BCG remains the backbone for high-risk NMIBC; intravesical gemcitabine or mitomycin for intermediate risk. The BCG-unresponsive space now has four approved options: pembrolizumab (systemic), nadofaragene firadenovec (2022), N-803 + BCG (2024), and the gemcitabine-eluting TAR-200 device (2025), with cretostimogene filing in 2026. Durvalumab + BCG (2026) is the first systemic immunotherapy added to BCG-naive treatment.",
     principle: "Direct urothelial exposure to immunostimulants, cytotoxics, viruses, or gene vectors; dwell time and device release kinetics determine efficacy.",

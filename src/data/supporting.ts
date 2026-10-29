@@ -422,7 +422,7 @@ const technologies: TechnologyInput[] = [
     principle: "Registries rest on mandatory reporting from pathology labs and hospitals, record linkage to death and census data, and standard coding (ICD-O-3, TNM) with quality indicators.",
     strengths: ["Unbiased population denominator", "Long time series"],
     limitations: ["2-3 year reporting lag", "Little treatment or biomarker detail in many registries", "Coverage gaps globally"],
-    technologies: ["oncology-real-world-data"], related: ["seer"], terms: ["real-world-evidence"], institutions: ["nci"], journals: ["journal-of-registry-management"],
+    technologies: ["oncology-real-world-data"], related: ["seer"], terms: ["real-world-evidence"], institutions: ["nci", "zfkd-rki"], journals: ["journal-of-registry-management"],
   }),
 
   // ---- Discovery infrastructure ----

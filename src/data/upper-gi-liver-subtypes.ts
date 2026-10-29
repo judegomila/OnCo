@@ -148,7 +148,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
   // ---------------------------------------------------------------------------------------------------------------------
   // Hepatocellular carcinoma by BCLC stage
   // ---------------------------------------------------------------------------------------------------------------------
-  { id: "hcc-early", related: ["hcc-advanced", "hcc-intermediate"], kind: "cancer", name: "Early hepatocellular carcinoma (BCLC 0 and A)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Hepatocellular_carcinoma"),
+  { id: "hcc-early", trials: ["nct07324304"], related: ["hcc-advanced", "hcc-intermediate"], kind: "cancer", name: "Early hepatocellular carcinoma (BCLC 0 and A)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Hepatocellular_carcinoma"),
     keyPapers: ["paper-mazzaferro-milan-criteria-nejm-1996", "paper-bclc-2022-reig-j-hepatol-2022", "paper-imbrave050-lancet-2023", "paper-storm-adjuvant-sorafenib-bruix-lancet-oncol-2015"],
     aka: ["Very early HCC (BCLC 0)", "Early-stage HCC (BCLC A)", "Resectable hepatocellular carcinoma", "HCC within Milan criteria"],
     burden: "The stage at which liver cancer can be cured, reached by a minority of patients worldwide but by most of those found by surveillance in cirrhosis; the BCLC system expects five-year survival above 70 percent with resection, ablation or transplantation.",
@@ -177,7 +177,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["Recurrence in the remaining cirrhotic liver after resection or ablation.", "No adjuvant therapy has held up in a phase 3 trial.", "Donor shortage limits transplantation, and access to surveillance is poor in the highest-incidence countries."],
     links: [{ label: "BCLC 2022 update (J Hepatol)", url: "https://pubmed.ncbi.nlm.nih.gov/34801630/" }, { label: "Milan criteria (NEJM 1996)", url: "https://www.nejm.org/doi/full/10.1056/NEJM199603143341104" }, { label: "IMbrave050 (Lancet 2023)", url: "https://pubmed.ncbi.nlm.nih.gov/37871608/" }, { label: "Wikipedia", url: W("Hepatocellular_carcinoma") }] },
 
-  { id: "hcc-intermediate", related: ["hcc-advanced", "hcc-early"], kind: "cancer", name: "Intermediate hepatocellular carcinoma (BCLC B)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Transcatheter_arterial_chemoembolization"),
+  { id: "hcc-intermediate", trials: ["nct06478719"], related: ["hcc-advanced", "hcc-early"], kind: "cancer", name: "Intermediate hepatocellular carcinoma (BCLC B)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Transcatheter_arterial_chemoembolization"),
     keyPapers: ["paper-himalaya-nejm-evidence-2022", "paper-llovet-tace-lancet-2002", "paper-emerald-1-lancet-2025", "paper-leap-012-lancet-2025"],
     aka: ["Intermediate-stage HCC", "Multinodular HCC", "TACE-eligible hepatocellular carcinoma", "BCLC B"],
     burden: "Multiple tumours confined to a liver that still functions, without vein invasion or spread; the most heterogeneous BCLC stage, for which the 2022 update expects a median survival above two and a half years with chemoembolisation and now systemic therapy.",
@@ -203,7 +203,7 @@ export const upperGiLiverSubtypes: CancerInput[] = [
     openProblems: ["No overall survival gain yet shown for TACE combinations.", "Which patients should skip embolisation and go straight to systemic therapy.", "Liver damage from repeated embolisation limits later treatment options."],
     links: [{ label: "EMERALD-1 (Lancet 2025)", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02551-0/abstract" }, { label: "LEAP-012 (Lancet 2025)", url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02575-3/abstract" }, { label: "BCLC 2022 update (J Hepatol)", url: "https://pubmed.ncbi.nlm.nih.gov/34801630/" }, { label: "Wikipedia", url: W("Transcatheter_arterial_chemoembolization") }] },
 
-  { id: "hcc-advanced", related: ["hcc-early", "hcc-intermediate"], kind: "cancer", trials: ["reach-2"], name: "Advanced hepatocellular carcinoma (BCLC C)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Hepatocellular_carcinoma"),
+  { id: "hcc-advanced", related: ["hcc-early", "hcc-intermediate"], kind: "cancer", trials: ["reach-2", "nct07636785", "nct05652920"], name: "Advanced hepatocellular carcinoma (BCLC C)", group: "gastrointestinal", parent: "hcc", asOf, tags, wikipedia: W("Hepatocellular_carcinoma"),
     keyPapers: ["paper-imbrave150-nejm-2020", "paper-himalaya-nejm-evidence-2022", "paper-sharp-sorafenib-nejm-2008", "paper-reflect-lenvatinib-lancet-2018"],
     aka: ["Advanced-stage HCC", "Unresectable hepatocellular carcinoma", "Metastatic hepatocellular carcinoma", "HCC with portal vein invasion", "BCLC C"],
     burden: "Hepatocellular carcinoma that has invaded the portal or hepatic veins, spread outside the liver or caused symptoms, while liver function is still preserved; the stage most patients reach in countries without surveillance, and the one where drug therapy has changed most in the last decade.",

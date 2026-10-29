@@ -228,7 +228,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "MSK spatially fractionated RT (NCT05837767)", url: "https://clinicaltrials.gov/study/NCT05837767" }, { label: "Randomised SFRT vs conventional RT (NCT06980259)", url: "https://clinicaltrials.gov/study/NCT06980259" }], related: ["frontier-2035"],
   },
   {
-    id: "auger-electron-therapy", kind: "technology", name: "Auger-electron therapy", sections: ["radiopharma"], status: "preclinical", asOf: RAD,
+    id: "auger-electron-therapy", trials: ["nct04807257"], kind: "technology", name: "Auger-electron therapy", sections: ["radiopharma"], status: "preclinical", asOf: RAD,
     tldr: "Auger-electron therapy uses radioactive atoms such as iodine-125 or terbium-161 that release cascades of low-energy electrons travelling only nanometres to micrometres, so they kill a cell only if the atom sits on or inside its DNA and spare the neighbours. Terbium-161 can replace lutetium-177 in existing PSMA ligands; true nuclear delivery remains preclinical.",
     summary: "Auger emitters such as iodine-125, indium-111 and terbium-161 release cascades of low-energy electrons with nanometre to micrometre range. Delivered into the nucleus they are exquisitely cytotoxic and, unlike alpha emitters, spare neighbouring cells almost entirely. Terbium-161 is closest to clinical use because it can be substituted for lutetium-177 in existing PSMA and somatostatin ligands, with first-in-human work reported; strategies that require true nuclear delivery remain preclinical.",
     principle: "Electron-capture or internal-conversion decay releases multiple very low-energy electrons; energy deposition is confined to a few nanometres, so proximity to DNA determines lethality.",
@@ -371,7 +371,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: logic-gated CAR T", url: "https://clinicaltrials.gov/search?term=logic%20gated%20CAR%20T" }],
   },
   {
-    id: "in-situ-vaccination", kind: "technology", name: "In situ vaccination", sections: ["immunotherapy"], status: "phase-2", asOf: RAD,
+    id: "in-situ-vaccination", trials: ["nct05688280"], kind: "technology", name: "In situ vaccination", sections: ["immunotherapy"], status: "phase-2", asOf: RAD,
     tldr: "Treating one tumour so aggressively that the immune system learns to attack every other one, using the tumour itself as the vaccine.",
     summary: "Rather than manufacturing a vaccine, an injected adjuvant, virus, cytokine or ablative therapy turns a single lesion into an antigen source. Intratumoural TLR9 agonists with low-dose radiotherapy produced systemic responses in lymphoma, and oncolytic viruses, cryoablation, histotripsy and IL-12 electroporation all pursue the same idea. Systemic responses are real but modest and inconsistent, and the field lacks a way to predict who will respond.",
     principle: "Local immunogenic cell death plus an adjuvant recruits antigen-presenting cells at the tumour, priming T cells against the patient's own full antigen repertoire.",

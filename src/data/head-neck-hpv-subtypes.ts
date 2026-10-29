@@ -63,7 +63,7 @@ export const headNeckHpvTrials: TrialInput[] = [
 ];
 
 export const headNeckHpvSubtypes: CancerInput[] = [
-  { id: "hpv-positive-oropharyngeal-cancer", related: ["oropharyngeal-cancer", "hpv-negative-head-and-neck-cancer", "recurrent-metastatic-hnscc"], kind: "cancer", trials: ["de-escalate", "orator"], name: "HPV-positive oropharyngeal cancer", group: "head and neck", parent: "oropharyngeal-cancer", asOf, tags, wikipedia: W("HPV-positive_oropharyngeal_cancer"),
+  { id: "hpv-positive-oropharyngeal-cancer", related: ["oropharyngeal-cancer", "hpv-negative-head-and-neck-cancer", "recurrent-metastatic-hnscc"], kind: "cancer", trials: ["de-escalate", "orator", "nct06319963", "nct06797986"], name: "HPV-positive oropharyngeal cancer", group: "head and neck", parent: "oropharyngeal-cancer", asOf, tags, wikipedia: W("HPV-positive_oropharyngeal_cancer"),
     keyPapers: ["paper-ang-hpv-oropharyngeal-nejm-2010", "paper-rtog-1016-lancet-2019", "paper-de-escalate-lancet-2019", "paper-e3311-transoral-surgery-ferris-jco-2022"],
     aka: ["p16-positive oropharyngeal cancer", "HPV-associated oropharyngeal squamous cell carcinoma", "HPV-driven throat cancer"],
     burden: "Now the majority of oropharyngeal cancers in North America and Western Europe, typically in men in their fifties and sixties who never smoked heavily; in the RTOG 0129 analysis three-year survival was 82 percent against 57 percent for HPV-negative disease.",

@@ -11,7 +11,7 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const tags = ["subtype-page"];
 
 export const cancerSubtypes: CancerInput[] = [
-  { id: "pleural-mesothelioma", related: ["peritoneal-mesothelioma"], kind: "cancer", name: "Pleural mesothelioma", group: "thoracic", parent: "mesothelioma", asOf, tags, wikipedia: W("Mesothelioma"),
+  { id: "pleural-mesothelioma", trials: ["nct04969315"], related: ["peritoneal-mesothelioma"], kind: "cancer", name: "Pleural mesothelioma", group: "thoracic", parent: "mesothelioma", asOf, tags, wikipedia: W("Mesothelioma"),
     keyPapers: ["paper-checkmate-743-lancet-2021", "paper-vogelzang-pemetrexed-mesothelioma-jco-2003", "paper-mars-2-lancet-respir-med-2024", "paper-keynote-483-lancet-2023"],
     aka: ["Malignant pleural mesothelioma", "MPM"],
     burden: "About four in five mesotheliomas arise in the pleura; roughly 2,500 cases a year in the UK and 3,000 in the US, almost all decades after asbestos exposure, with incidence still rising in countries that banned asbestos late.",

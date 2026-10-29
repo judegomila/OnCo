@@ -6,10 +6,32 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 29 October 2026
+- The immune and microenvironment pages now show the trials acting on them: 88 for T-cell exhaustion, 28 for macrophages, 22 for adenosine
+- Alligator Bioscience's page stops claiming a single-arm trial showed longer survival
+- Connect the immune and microenvironment mechanisms to the agents and trials acting on them
+- To-do: a profile for Melissa Taylor, once the owner confirms which one
+- chore: refresh pulse, abstract and citation snapshots (#318)
+- chore: weekly roadmap registry check (public/roadmap-watch.json)
+- chore: refresh institution research output from OpenAlex (#317)
+- chore: draft change proposals that need review (#316)
+- chore: EU regional rows read from the EMA register pages (#315)
+
+### 28 October 2026
+- chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE) (#314)
+- chore: refresh preprint tracker from Europe PMC (#313)
+- chore: check regional approvals against the EMA register (#312)
+- chore: refresh FDA approvals feed (OCE notifications, openFDA drugsfda) (#311)
+- chore: draft change proposals that need review (#310)
+- chore: EU regional rows read from the EMA register pages (#307)
+
 ### 27 October 2026
-- Pages stop freezing on phones: the home page's blocking time falls from two seconds to almost nothing, and it downloads a third as much
+- chore: weekly maintenance (logos, structures, trial links, acronyms, orphan links) (#309)
+- chore: draft change proposals that need review (#308)
 
 ### 26 October 2026
+- Performance ceilings lowered to what the live site measures after round two
+- Pages stop freezing on phones: the home page's blocking time falls from two seconds to almost nothing, and it downloads a third as much
 - Record pages on a wide screen stop downloading themselves a second time
 - Home and drug pages stop blocking the phone for two to three seconds, and the home page halves in size
 - Seven duplicate ideas become one each, a proton paper stops being listed twice, and a cohort study is no longer called a randomised trial

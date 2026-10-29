@@ -24,7 +24,10 @@ const g = (x: G): TargetInput => ({
   ],
   links: [{ label: `HGNC ${x.hgnc}`, url: `https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/${x.hgnc}` }, { label: `UniProt ${x.uniprot}`, url: `https://www.uniprot.org/uniprotkb/${x.uniprot}/entry` }],
   notes: [`Named in the ${CANSIM_ATTRIBUTION}.`],
-  related: x.related ?? [], pathways: x.pathways ?? [], terms: ["co-amplification", "cancer-ai-vocabulary", ...(x.terms ?? [])], cancers: x.cancers ?? [],
+  related: x.related ?? [], pathways: x.pathways ?? [], // Only genes on the 17q12 amplicon are co-amplified with HER2. This helper used to give the term to every gene in the
+  // file, so SPRY4 (5q31.3), PHLPP2 (16q22.2), PHLDA1 and E2F7 (12q21.2), DCLK1 (13q13.3) and DNAJC12 (10q21.3) were
+  // linked to the HER2 amplicon page; loci checked against HGNC on 29 October 2026.
+  terms: [...(x.locus.startsWith("17q12") ? ["co-amplification"] : []), "cancer-ai-vocabulary", ...(x.terms ?? [])], cancers: x.cancers ?? [],
 });
 
 const AMPLICON = "17q12 HER2 amplicon neighbour: co-amplified and co-expressed with ERBB2 in HER2-positive breast and gastric cancer, so it appears in HER2-enriched expression signatures as a passenger of the amplification rather than a driver of its own.";

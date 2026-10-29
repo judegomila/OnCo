@@ -211,7 +211,7 @@ export const gapCancers: CancerInput[] = [
     tags: ["gap-fill", "haematologic"],
   }),
   c({
-    id: "peripheral-t-cell-lymphoma", related: ["dlbcl", "mantle-cell-lymphoma", "follicular-lymphoma"], trials: ["nct06561048", "nct06776952", "nct06072131", "nct04668690", "alcanza", "echelon-2"], name: "Peripheral T-cell lymphomas (including cutaneous T-cell lymphoma)", group: "haematologic", wikipedia: W("Peripheral_T-cell_lymphoma"),
+    id: "peripheral-t-cell-lymphoma", related: ["dlbcl", "mantle-cell-lymphoma", "follicular-lymphoma"], trials: ["nct06561048", "nct06776952", "nct06072131", "nct04668690", "alcanza", "echelon-2", "nct06534060"], name: "Peripheral T-cell lymphomas (including cutaneous T-cell lymphoma)", group: "haematologic", wikipedia: W("Peripheral_T-cell_lymphoma"),
     aka: ["PTCL", "CTCL", "Mycosis fungoides", "Anaplastic large-cell lymphoma"],
     burden: "Peripheral T-cell lymphomas make up about 10-15% of non-Hodgkin lymphomas in the West, more in Asia; there are over 30 WHO subtypes, most individually rare.",
     tldr: "Peripheral T-cell lymphomas are lymphomas of T cells rather than B cells. They are rarer, more varied and, apart from a few subtypes, harder to treat than B-cell lymphomas; several new drugs help only defined subtypes.",
@@ -413,7 +413,7 @@ export const gapCancers: CancerInput[] = [
     tags: ["gap-fill", "skin", "rare"],
   }),
   c({
-    id: "cutaneous-scc", related: ["basal-cell-carcinoma", "melanoma", "merkel-cell-carcinoma"], trials: ["nct06585410", "empower-cscc-1"], name: "Cutaneous squamous cell carcinoma", group: "skin", wikipedia: W("Squamous-cell_carcinoma_of_the_skin"),
+    id: "cutaneous-scc", related: ["basal-cell-carcinoma", "melanoma", "merkel-cell-carcinoma"], trials: ["nct06585410", "empower-cscc-1", "nct07602842"], name: "Cutaneous squamous cell carcinoma", group: "skin", wikipedia: W("Squamous-cell_carcinoma_of_the_skin"),
     aka: ["cSCC", "Squamous Cell Carcinoma of the Skin"],
     burden: "Second most common skin cancer; over one million cases per year in the US, almost all cured by removal; about 2-5% metastasise, which still amounts to several thousand deaths a year and is where PD-1 immunotherapy now helps.",
     tldr: "Cutaneous squamous cell carcinoma is a sun-related skin cancer with over a million US cases a year, almost all cured by removing them. The 2 to 5% that grow deep or spread respond to PD-1 immunotherapy (cemiplimab, pembrolizumab), which is now also given after surgery in high-risk cases; transplant recipients cannot safely receive it.",
@@ -476,7 +476,7 @@ export const gapCancers: CancerInput[] = [
     tags: ["gap-fill", "skin"], pathways: ["basal-cell-carcinoma-signalling"],
   }),
   c({
-    id: "uveal-melanoma", related: ["mucosal-melanoma", "acral-melanoma", "advanced-melanoma"], trials: ["nct07804186", "nct07015190", "nct06581406", "nct05022901", "nct05987332", "nct06007690"], name: "Uveal melanoma", group: "skin", wikipedia: W("Uveal_melanoma"),
+    id: "uveal-melanoma", related: ["mucosal-melanoma", "acral-melanoma", "advanced-melanoma"], trials: ["nct07804186", "nct07015190", "nct06581406", "nct05022901", "nct05987332", "nct06007690", "nct07136181"], name: "Uveal melanoma", group: "skin", wikipedia: W("Uveal_melanoma"),
     aka: ["Ocular melanoma", "Choroidal melanoma", "Intraocular Melanoma"],
     burden: "About 5-7 per million per year (the most common primary eye cancer in adults); half of patients eventually develop metastases, almost always in the liver.",
     tldr: "A melanoma inside the eye that is biologically unrelated to skin melanoma: different mutations, no response to standard immunotherapy, and a tendency to spread to the liver years later. Tebentafusp is the first drug ever to extend survival in the metastatic disease.",
@@ -609,7 +609,7 @@ export const gapCancers: CancerInput[] = [
     tags: ["gap-fill", "gastrointestinal", "sarcoma"],
   }),
   c({
-    id: "appendiceal", name: "Appendiceal cancer and pseudomyxoma peritonei", group: "gastrointestinal", wikipedia: W("Pseudomyxoma_peritonei"),
+    id: "appendiceal", trials: ["nct06399757"], name: "Appendiceal cancer and pseudomyxoma peritonei", group: "gastrointestinal", wikipedia: W("Pseudomyxoma_peritonei"),
     aka: ["Appendix cancer", "PMP", "Low-grade appendiceal mucinous neoplasm (LAMN)"],
     burden: "About 1-2 per 100,000 per year and rising, especially in adults under 50; most are found incidentally at appendicectomy.",
     tldr: "Rare tumours of the appendix that range from slow mucin-producing growths that fill the abdomen (pseudomyxoma peritonei) to aggressive adenocarcinomas. The slow forms are treated by extensive surgery with heated chemotherapy in the abdomen; the fast ones like colon cancer.",
@@ -762,7 +762,7 @@ export const gapCancers: CancerInput[] = [
     drugs: ["methotrexate", "doxorubicin", "cisplatin", "ifosfamide", "etoposide", "mifamurtide", "regorafenib", "cabozantinib", "docetaxel", "radium-223"],
     pathways: ["p53-cell-cycle", "vegf-angiogenesis"], companies: ["bayer", "exelixis", "takeda", "childrens-oncology-group"], terms: ["fnclcc-grade", "limb-salvage-term", "histological-response-induction"],
     links: [{ label: "NCCN Guidelines: Bone Cancer", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1418" }, { label: "EURAMOS-1 (Lancet Oncol 2016)", url: "https://doi.org/10.1016/S1470-2045(16)30214-5" }, { label: "NCI PDQ: osteosarcoma", url: PDQ("bone/patient/osteosarcoma-treatment-pdq") }],
-    tags: ["gap-fill", "paediatric", "sarcoma", "aya"], people: ["stefan-bielack"], trials: ["euramos-1", "ccss", "nct06935409", "cabone", "regobone", "sarc028"], journals: ["journal-of-adolescent-and-young-adult-oncology"],
+    tags: ["gap-fill", "paediatric", "sarcoma", "aya"], people: ["stefan-bielack"], trials: ["euramos-1", "ccss", "nct06935409", "cabone", "regobone", "sarc028", "nct04974008"], journals: ["journal-of-adolescent-and-young-adult-oncology"],
   }),
   c({
     id: "ewing-sarcoma", related: ["osteosarcoma", "rhabdomyosarcoma", "chondrosarcoma", "synovial-sarcoma"], name: "Ewing sarcoma", group: "paediatric", wikipedia: W("Ewing_sarcoma"),
@@ -870,7 +870,7 @@ export const gapCancers: CancerInput[] = [
       { setting: "Low risk (embryonal, favourable site, complete resection)", approach: "VA ± reduced cyclophosphamide for 22-24 weeks; radiotherapy for microscopic residual disease.", refs: ["vincristine", "dactinomycin", "cyclophosphamide"], guideline: { version: "COG ARST0331 / EpSSG RMS 2005", url: "https://doi.org/10.1016/S1470-2045(19)30617-5" } },
       { setting: "Intermediate risk", approach: "VAC (or VAC/VI) 42 weeks with radiotherapy at week 13 (COG); IVA with maintenance vinorelbine-cyclophosphamide 6 months (EpSSG); temsirolimus-VAC/VI per ARST1431 where adopted.", refs: ["vincristine", "dactinomycin", "cyclophosphamide", "ifosfamide", "irinotecan", "vinorelbine", "temsirolimus", "imrt-igrt"], guideline: { version: "COG ARST1431; EpSSG RMS 2005" } },
       { setting: "High risk (metastatic)", approach: "Intensive multi-agent chemotherapy (VAC/IE, vincristine-irinotecan windows) with radiotherapy to primary and metastases; maintenance; FaR-RMS trial questions.", refs: ["vincristine", "irinotecan", "ifosfamide", "etoposide", "doxorubicin", "imrt-igrt"], guideline: { version: "COG ARST0431; FaR-RMS" } },
-      { setting: "Relapsed", approach: "Vinorelbine-cyclophosphamide, irinotecan-temozolomide, surgery/RT; trials (mTOR, FGFR4, CDK4/6, IGF-1R, B7-H3 CAR-T).", refs: ["vinorelbine", "cyclophosphamide", "irinotecan", "temozolomide", "temsirolimus"] },
+      { setting: "Relapsed", approach: "Vinorelbine-cyclophosphamide, irinotecan-temozolomide, surgery/RT; trials (mTOR, FGFR4, CDK4/6, IGF-1R, B7-H3 CAR-T).", refs: ["vinorelbine", "cyclophosphamide", "irinotecan", "temozolomide", "temsirolimus", "igf1r"] },
     ],
     stateOfArt: ["Fusion status has replaced histology in risk stratification in both COG and European protocols.", "Maintenance chemotherapy (EpSSG RMS 2005) is the first survival gain in decades for high-risk localised disease.", "Temsirolimus is the first targeted agent to improve event-free survival in a randomised RMS trial (ARST1431).", "Metastatic disease remains the unsolved problem; international FaR-RMS trial pools patients across continents."],
     history: [

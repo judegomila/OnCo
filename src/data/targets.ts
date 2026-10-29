@@ -517,7 +517,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Anaplastic_lymphoma_kinase") }], companies: ["imagene-ai", "inivata", "lucence", "triana-biomedicines"],
   },
   {
-    id: "met", trials: ["nct07439094", "nct06669117"], kind: "target", name: "MET", symbol: "MET", hgnc: "HGNC:7029", ensembl: "ENSG00000105976", uniprot: "P08581", entrez: "4233", targetClass: "kinase", asOf, wikipedia: W("C-Met"),
+    id: "met", related: ["ron"], trials: ["nct07439094", "nct06669117"], kind: "target", name: "MET", symbol: "MET", hgnc: "HGNC:7029", ensembl: "ENSG00000105976", uniprot: "P08581", entrez: "4233", targetClass: "kinase", asOf, wikipedia: W("C-Met"),
     tldr: "A receptor that is either mutated in some lung cancers or amplified as an escape route when other lung cancer drugs fail.",
     summary: "MET exon 14 skipping (~3% NSCLC) responds to capmatinib and tepotinib. MET amplification drives resistance to EGFR inhibitors; amivantamab (EGFR×MET) and MET ADCs (telisotuzumab vedotin, Emrelis, approved 2025 in c-Met overexpressing NSCLC) address it. c-MET×EGFR bispecific ADCs (tilatamig samrotecan) lead the bsADC field.",
     biology: "HGF receptor; drives invasion and survival.",
@@ -618,7 +618,7 @@ export const targets: TargetInput[] = [
     ], drugs: ["therascreen-cdx", "tersolisib", "zovegalisib", "serabelisib"], links: [{ label: "Wikipedia", url: W("P110α") }], companies: ["bridgebio-oncology-therapeutics", "cogent-biosciences", "relay-therapeutics", "scorpion-therapeutics"],
   },
   {
-    id: "akt", technologies: ["pi3k-akt-mtor-inhibitors"], drugs: ["ipatasertib"], kind: "target", name: "AKT", symbol: "AKT1/2/3", targetClass: "kinase", asOf, wikipedia: W("Protein_kinase_B"),
+    id: "akt", related: ["phlpp2"], technologies: ["pi3k-akt-mtor-inhibitors"], drugs: ["ipatasertib"], kind: "target", name: "AKT", symbol: "AKT1/2/3", targetClass: "kinase", asOf, wikipedia: W("Protein_kinase_B"),
     tldr: "AKT is a central survival kinase downstream of PI3K, blocked by capivasertib in breast and now prostate cancer.",
     summary: "AKT1, AKT2 and AKT3 are serine/threonine kinases at the centre of the PI3K survival pathway, and the AKT1 E17K hotspot is an activating mutation found in about 3 to 5 percent of hormone-receptor-positive breast cancers. Capivasertib (Truqap), a pan-AKT inhibitor, is approved with fulvestrant in HR-positive breast cancer carrying PIK3CA, AKT1 or PTEN alterations (CAPItello-291), a group that makes up around half of such tumours, and from 2026 with abiraterone in PTEN-deficient metastatic prostate cancer (CAPItello-281). PTEN loss activates the pathway in roughly 15 to 20 percent of prostate cancers and around 40 percent of metastatic castration-resistant disease. Hyperglycaemia, diarrhoea and rash are the class toxicities, and whether unselected patients also benefit is contested. In plain terms, AKT is the survival kinase downstream of PI3K, now blocked in breast and prostate cancer.",
     biology: "Serine/threonine kinase; AKT1 E17K is an activating hotspot.",
@@ -1033,7 +1033,7 @@ export const targets: TargetInput[] = [
     links: [{ label: "UniProt P09619: PDGFRB", url: "https://www.uniprot.org/uniprotkb/P09619/entry" }],
   },
   {
-    id: "src", kind: "target", name: "SRC family kinases", symbol: "SRC", hgnc: "HGNC:11283", ensembl: "ENSG00000197122", uniprot: "P12931", entrez: "6714", targetClass: "kinase", asOf, wikipedia: W("Proto-oncogene_tyrosine-protein_kinase_Src"),
+    id: "src", related: ["hck", "ptk6", "frk"], kind: "target", name: "SRC family kinases", symbol: "SRC", hgnc: "HGNC:11283", ensembl: "ENSG00000197122", uniprot: "P12931", entrez: "6714", targetClass: "kinase", asOf, wikipedia: W("Proto-oncogene_tyrosine-protein_kinase_Src"),
     tldr: "The first cancer gene ever identified, a kinase that relays growth, adhesion and movement signals. Dasatinib and bosutinib were designed as BCR::ABL1 drugs but also hit SRC-family kinases, part of the reason they work when imatinib has failed.",
     summary: "SRC, discovered through the Rous sarcoma virus, heads a family of non-receptor tyrosine kinases (SRC, LYN, LCK, HCK, FYN, YES1) that sit downstream of growth-factor receptors and integrins. Dasatinib and bosutinib inhibit both BCR::ABL1 and SRC-family kinases and are approved for chronic myeloid leukaemia and, for dasatinib, Philadelphia chromosome-positive acute lymphoblastic leukaemia; LYN signalling contributes to imatinib resistance, so the dual activity matters. Selective SRC inhibitors have not succeeded in solid tumours despite frequent SRC activation, a reminder that activation and dependency are not the same thing.",
     biology: "Non-receptor tyrosine kinase family downstream of receptor tyrosine kinases and integrins; dual BCR::ABL1 and SRC-family inhibition by dasatinib and bosutinib.",
@@ -1408,7 +1408,7 @@ export const targets: TargetInput[] = [
     summary: "Thioredoxin reductase 1 is a selenium-containing enzyme that recycles thioredoxin, a small protein that keeps other proteins reduced and protects against oxidative stress. Many cancers over-express it to survive their own high oxidant load. Arsenic trioxide binds the selenocysteine in the enzyme's active site and inhibits it, adding oxidative stress to its direct degradation of the PML-RARA fusion protein in acute promyelocytic leukaemia. Gold compounds such as auranofin inhibit the same enzyme and are in trials for chronic lymphocytic leukaemia and ovarian cancer.",
     biology: "A cytosolic flavoenzyme that uses NADPH to reduce thioredoxin; it supports DNA synthesis through ribonucleotide reductase and buffers reactive oxygen species.",
     whereFound: ["All cells, highest in tumours with high oxidative metabolism","Acute promyelocytic leukaemia treated with arsenic trioxide"],
-    drugs: ["arsenic-trioxide"], cancers: ["aml","cll","ovarian"], related: ["rrm1"],
+    drugs: ["arsenic-trioxide"], cancers: ["aml","cll","ovarian"], related: ["rrm1", "gsr"],
     prevalence: [{"cancerId":"metastatic-cancer","pct":"all","measure":"Housekeeping enzyme present in every dividing cell (antioxidant recycling); not a selection marker, which is why these drugs are given by cancer type rather than by test."}],
     links: [{ label: "UniProt Q16881: TXNRD1", url: "https://www.uniprot.org/uniprotkb/Q16881/entry" }, { label: "HGNC:12437 TXNRD1", url: "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:12437" }, { label: "ChEMBL target CHEMBL1927", url: "https://www.ebi.ac.uk/chembl/explore/target/CHEMBL1927" }],
     tags: ["chembl-gap"],

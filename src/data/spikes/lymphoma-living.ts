@@ -336,7 +336,7 @@ Vaccination. The Green Book says that many live vaccines are contraindicated in 
   }),
 
   term({
-    id: "lymphoma-living-vaccinations",
+    id: "lymphoma-living-vaccinations", trials: ["nct04977024"],
     name: "Vaccinations around lymphoma treatment: the ones to have first, and the ones not to have at all",
     category: "Clinic basics",
     aka: ["Live vaccines and lymphoma", "Vaccination before rituximab", "Revaccination after transplant"],

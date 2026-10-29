@@ -148,7 +148,7 @@ export const bloodSubtypes: CancerInput[] = [
     targets: ["rara"], terms: ["differentiation-syndrome", "mrd"], technologies: ["cytogenetics-fish", "transfusion-support"],
     links: [{ label: "Wikipedia", url: W("Acute_promyelocytic_leukemia") }, { label: "NCCN Guidelines: Acute Myeloid Leukemia", url: AML.url }] },
 
-  { id: "aml-older-unfit", related: ["aml-flt3", "aml-idh", "aml-npm1-kmt2a", "aml-secondary"], kind: "cancer", trials: ["viale-a"], name: "Acute myeloid leukaemia in older or unfit patients", group: "haematologic", parent: "aml", asOf, tags, wikipedia: W("Acute_myeloid_leukemia"),
+  { id: "aml-older-unfit", related: ["aml-flt3", "aml-idh", "aml-npm1-kmt2a", "aml-secondary"], kind: "cancer", trials: ["viale-a", "nct05601726"], name: "Acute myeloid leukaemia in older or unfit patients", group: "haematologic", parent: "aml", asOf, tags, wikipedia: W("Acute_myeloid_leukemia"),
     keyPapers: ["paper-viale-a-venetoclax-azacitidine-nejm-2020", "paper-agile-ivosidenib-azacitidine-nejm-2022", "paper-aza-aml-001-dombret-blood-2015", "paper-eln-2022-aml-dohner-blood-2022"],
     aka: ["Unfit AML", "AML in the elderly", "AML ineligible for intensive chemotherapy", "Low-intensity AML therapy"],
     burden: "The median age at diagnosis of acute myeloid leukaemia is about 68, and roughly half of patients are judged unable to withstand intensive chemotherapy because of age, frailty or other illnesses.",
@@ -333,7 +333,7 @@ export const bloodSubtypes: CancerInput[] = [
     terms: ["anaemia", "staging-systems", "ageing-tissue-field-theory", "ipss-m-ipss-r", "del5q", "sf3b1-mutation"], technologies: ["transfusion-support"], keyPapers: ["paper-commands-luspatercept-mds-lancet-2023", "paper-imerge-imetelstat-mds-lancet-2024"],
     links: [{ label: "Wikipedia", url: W("Myelodysplastic_syndrome") }, { label: "NCCN Guidelines: Myelodysplastic Syndromes", url: MDS.url }] },
 
-  { id: "mds-higher-risk", related: ["mds-lower-risk"], kind: "cancer", trials: ["verona", "aza-001"], name: "Higher-risk myelodysplastic syndromes", group: "haematologic", parent: "mds", asOf, tags, wikipedia: W("Myelodysplastic_syndrome"),
+  { id: "mds-higher-risk", related: ["mds-lower-risk"], kind: "cancer", trials: ["verona", "aza-001", "nct05601726"], name: "Higher-risk myelodysplastic syndromes", group: "haematologic", parent: "mds", asOf, tags, wikipedia: W("Myelodysplastic_syndrome"),
     keyPapers: ["paper-aza-001-fenaux-lancet-oncol-2009", "paper-ipss-m-bernard-nejm-evidence-2022", "paper-who-2022-myeloid-khoury-leukemia-2022", "paper-icc-2022-arber-blood-2022"], drugs: ["pevonedistat"],
     aka: ["High-risk MDS", "IPSS-R high and very high MDS", "MDS with increased blasts", "Higher-risk myelodysplastic neoplasms"],
     burden: "About a third of myelodysplastic syndromes are higher risk; without treatment median survival is around a year and a half or less, and most progress to acute myeloid leukaemia.",

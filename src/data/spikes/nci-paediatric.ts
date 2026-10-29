@@ -421,7 +421,7 @@ export const nciPaediatricCancers: CancerInput[] = [
       "Late effects of anthracyclines and alkylators in survivors treated as children.",
     ],
     targets: ["cd20", "cd19"], pathways: ["myc", "oncogenic-viruses", "bcr-signalling"], drugs: ["rituximab", "cyclophosphamide", "methotrexate", "doxorubicin", "vincristine", "etoposide"],
-    technologies: ["monoclonal-antibody", "cytotoxic-chemotherapy", "car-t", "global-oncology-access", "cytogenetics-fish"], trials: ["inter-b-nhl-ritux-2010"], institutions: ["siop-europe", "uganda-cancer-institute"], companies: ["childrens-oncology-group"],
+    technologies: ["monoclonal-antibody", "cytotoxic-chemotherapy", "car-t", "global-oncology-access", "cytogenetics-fish"], trials: ["inter-b-nhl-ritux-2010", "nct05263583"], institutions: ["siop-europe", "uganda-cancer-institute"], companies: ["childrens-oncology-group"],
     terms: ["tumor-lysis-syndrome", "ebv-term", "lymphoma-type"], bottlenecks: ["b-global-access"], related: ["dlbcl", "hiv-associated-lymphoma", "all-leukemia", "primary-mediastinal-b-cell-lymphoma", "primary-cns-lymphoma"],
     links: [
       { label: "NCI PDQ: childhood non-Hodgkin lymphoma (Burkitt)", url: PDQ("lymphoma/hp/child-nhl-treatment-pdq") },

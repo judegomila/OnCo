@@ -180,6 +180,43 @@ any source can find; each needs a Wikidata QID by hand.
   applied to mechanisms instead of targets: connect each concept to the agents and trials that act on it, and the
   measure of success is the same, trials and products recorded per concept rather than new glossary text.
 
+  **Done 29 October 2026 (owner approved 29 October, quality idea #8).** Links are written on the mechanism
+  records' own `drugs` and `trials` fields. A trial is linked only when its own registry text (name, official
+  title or the interventions list) names an agent acting through the mechanism; five whose corpus text was
+  truncated were confirmed against the live ClinicalTrials.gov interventions list. Measured after, counting both
+  directions (graph neighbours):
+
+  | record | drugs before | drugs after | trials before | trials after |
+  |---|---:|---:|---:|---:|
+  | myeloid-derived-suppressor-cells | 0 | 0 | 0 | 4 |
+  | t-cell-exhaustion-term | 0 | 12 | 0 | 88 |
+  | tertiary-lymphoid-structures | 0 | 0 | 0 | 2 |
+  | cancer-associated-fibroblasts | 0 | 2 | 0 | 4 |
+  | tumor-associated-macrophages | 5 | 9 | 0 | 28 |
+  | cd73-adenosine | 2 | 5 | 0 | 22 |
+  | immune-exclusion | 0 | 2 | 0 | 18 |
+  | tumor-microenvironment (hub) | 0 | 0 | 0 | 0 |
+  | desmoplasia | 1 | 1 | 2 | 2 |
+
+  What each set is: CD47/SIRP-alpha blockers and CD40 agonists, plus the CSF1R antibodies only where they are
+  given in cancer (axatilimab in breast cancer; emactuzumab with atezolizumab) for macrophages; LAG-3, TIM-3 and
+  TIGIT antibodies for exhaustion (PD-1 and PD-L1 drugs left on their own pages, or this list would be every
+  checkpoint trial); FAP-directed therapies for fibroblasts (FAPI imaging trials stay on `fapi-pet`); CD73
+  antibodies and inhibitors and A2A antagonists for adenosine; the PD-L1/TGF-beta and EGFR/TGF-beta traps for
+  immune exclusion. Out on purpose: pexidartinib and vimseltinib (tenosynovial giant cell tumour only), chiauranib
+  and surufatinib (VEGFR-led multikinase drugs), sabatolimab (TIM-3 on leukaemic cells in MDS), eftilagimod
+  alfa (a LAG-3 protein that activates antigen-presenting cells rather than a blocker). No medicine in the corpus
+  acts mainly on MDSCs or builds tertiary lymphoid structures: MDSCs carry the four trials of the CXCR1/2
+  inhibitor SX-682, and TLS the two trials that select on or measure them. The hub stays a hub: it links the
+  mechanism records rather than repeating their lists.
+
+  Found on the way: mitazalimab was recorded as an antibody-drug conjugate (misread from its code ADC-1013); it is
+  a CD40 agonist antibody (OPTIMIZE-1, Lancet Oncology 2024). EB-MF-CAR-NK-01 was recorded as a bispecific
+  antibody; the registry describes CAR-NK cells. Both corrected with their translations. Still open: nine
+  registry-only drug records (domvanalimab, vibostolimab, cobolimab, oleclumab, quemliclustat, uliledlimab,
+  evorpacept, ak117, selicrelumab) say their target is not stated publicly, which is no longer true; each
+  needs its target and a source.
+
 - [ ] **A tools area for validated calculators, kept small (owner, 15 October 2026).** MSKCC nomograms, the NCI
   colorectal survival calculator and PREDICT Breast, linked from the cancers they apply to, with the paper that
   validated each and without quoting any of their outputs. The owner's steer with it: "i want to really focus our

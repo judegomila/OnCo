@@ -1,15 +1,15 @@
 {
- "checked": "2026-10-21",
+ "checked": "2026-10-28",
  "source": {
   "label": "ClinicalTrials.gov: interventional studies, condition 'cancer'",
   "url": "https://clinicaltrials.gov/search?cond=cancer&aggFilters=studyType:int"
  },
  "method": "ClinicalTrials.gov API v2 with query.cond=cancer and countTotal=true: interventional studies; of those, phase 3; of those, recruiting. Sponsors: distinct lead sponsor names (class INDUSTRY) across all phase 3 interventional cancer studies, so subsidiaries and name variants count separately.",
- "total": 97774,
- "phase3": 11050,
- "recruiting": 14358,
+ "total": 97931,
+ "phase3": 11066,
+ "recruiting": 14425,
  "industryPhase3": {
-  "studies": 4264,
+  "studies": 4274,
   "sponsors": 942
  },
  "items": [
@@ -31,7 +31,7 @@
   },
   {
    "name": "Pfizer",
-   "studies": 122
+   "studies": 123
   },
   {
    "name": "Bristol-Myers Squibb",
@@ -59,7 +59,7 @@
   },
   {
    "name": "Jiangsu HengRui Medicine Co., Ltd.",
-   "studies": 68
+   "studies": 69
   },
   {
    "name": "Bayer",
@@ -102,11 +102,11 @@
    "studies": 27
   },
   {
-   "name": "Ferring Pharmaceuticals",
-   "studies": 25
+   "name": "Suzhou Suncadia Biopharmaceuticals Co., Ltd.",
+   "studies": 27
   },
   {
-   "name": "Suzhou Suncadia Biopharmaceuticals Co., Ltd.",
+   "name": "Ferring Pharmaceuticals",
    "studies": 25
   },
   {
@@ -282,6 +282,10 @@
    "studies": 9
   },
   {
+   "name": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+   "studies": 9
+  },
+  {
    "name": "Pharmacyclics LLC.",
    "studies": 9
   },
@@ -299,10 +303,6 @@
   },
   {
    "name": "Helsinn Healthcare SA",
-   "studies": 8
-  },
-  {
-   "name": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
    "studies": 8
   },
   {
@@ -394,6 +394,10 @@
    "studies": 7
   },
   {
+   "name": "Beijing InnoCare Pharma Tech Co., Ltd.",
+   "studies": 6
+  },
+  {
    "name": "BioNTech SE",
    "studies": 6
   },
@@ -474,10 +478,6 @@
    "studies": 5
   },
   {
-   "name": "Beijing InnoCare Pharma Tech Co., Ltd.",
-   "studies": 5
-  },
-  {
    "name": "Bio-Thera Solutions",
    "studies": 5
   },
@@ -507,6 +507,10 @@
   },
   {
    "name": "GTx",
+   "studies": 5
+  },
+  {
+   "name": "Lee's Pharmaceutical Limited",
    "studies": 5
   },
   {
@@ -590,6 +594,10 @@
    "studies": 4
   },
   {
+   "name": "AVEO Pharmaceuticals, Inc.",
+   "studies": 4
+  },
+  {
    "name": "Beijing Biostar Pharmaceuticals Co., Ltd.",
    "studies": 4
   },
@@ -646,7 +654,7 @@
    "studies": 4
   },
   {
-   "name": "Lee's Pharmaceutical Limited",
+   "name": "Kite, A Gilead Company",
    "studies": 4
   },
   {
@@ -747,10 +755,6 @@
   },
   {
    "name": "Ariad Pharmaceuticals",
-   "studies": 3
-  },
-  {
-   "name": "AVEO Pharmaceuticals, Inc.",
    "studies": 3
   },
   {
@@ -882,11 +886,11 @@
    "studies": 3
   },
   {
-   "name": "Juno Therapeutics, Inc., a Bristol-Myers Squibb Company",
+   "name": "Jiangsu Aosaikang Pharmaceutical Co., Ltd.",
    "studies": 3
   },
   {
-   "name": "Kite, A Gilead Company",
+   "name": "Juno Therapeutics, Inc., a Bristol-Myers Squibb Company",
    "studies": 3
   },
   {
@@ -1347,10 +1351,6 @@
   },
   {
    "name": "Janssen Pharmaceutica N.V., Belgium",
-   "studies": 2
-  },
-  {
-   "name": "Jiangsu Aosaikang Pharmaceutical Co., Ltd.",
    "studies": 2
   },
   {

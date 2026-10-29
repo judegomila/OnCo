@@ -6761,7 +6761,7 @@ export const tldr_pt: Record<string, string> = {
   dzd8586: "DZD8586 é um medicamento de molécula pequena experimental da Dizal Pharmaceuticals em ensaios de fase 3 para leucemia linfocítica crônica e linfoma difuso de grandes células B, com seu alvo ainda não divulgado publicamente.",
   "e-edv-d682": "E-EDV-D682 é um conjugado de fármaco com nanocélula EDV (minicélula bacteriana) experimental da Engeneic Pty em ensaios de fase 2 para adenocarcinoma ductal pancreático, direcionado a EGFR.",
   "eb-car30-nk": "EB-CAR30-NK é uma terapia celular CAR-NK experimental da Beijing Biotech em ensaios de fase 2 para timoma e carcinoma tímico, direcionada a CD30.",
-  "eb-mf-car-nk-01": "EB-MF-CAR-NK-01 é um anticorpo biespecífico experimental da Beijing Biotech em ensaios de fase 2 para mesotelioma, direcionado a mesotelina e FAP.",
+  "eb-mf-car-nk-01": "EB-MF-CAR-NK-01 é uma terapia celular CAR-NK experimental da Beijing Biotech em ensaios de fase 2 para mesotelioma, direcionada a mesotelina e FAP.",
   "eb-nk-301": "EB-NK-301 é uma terapia celular CAR-NK experimental da Beijing Biotech em ensaios de fase 2, direcionada a TROP2.",
   eik1001: "EIK1001 é um agente investigacional experimental cuja forma não é indicada no registro, da Eikon Therapeutics, em ensaios de fase 3 para melanoma e câncer de pulmão de células não pequenas, com seu alvo ainda não declarado publicamente.",
   "eikon-therapeutics": "Eikon Therapeutics é uma empresa de biotecnologia sediada nos Estados Unidos que conduz 6 ensaios oncológicos de fase avançada de EIK1001, EIK1004-001 (IMP1707-001) e IMP1734 em melanoma, câncer de pulmão de células não pequenas e câncer gástrico e da junção gastroesofágica.",

@@ -6750,7 +6750,7 @@ export const tldr_ja: Record<string, string> = {
   dzd8586: "DZD8586 は Dizal Pharmaceuticals の実験的な低分子薬で、慢性リンパ性白血病およびびまん性大細胞型 B 細胞リンパ腫を対象とした第 3 相試験の段階にあり、標的はまだ公表されていません。",
   "e-edv-d682": "E-EDV-D682はEngeneic Ptyの実験段階のEDVナノセル（細菌ミニセル）薬物複合体で、膵管腺がんを対象とした第2相試験が行われており、EGFRを標的としています。",
   "eb-car30-nk": "EB-CAR30-NKはBeijing Biotechの実験段階のCAR-NK細胞療法で、胸腺腫および胸腺がんを対象とした第2相試験が行われており、CD30を標的としています。",
-  "eb-mf-car-nk-01": "EB-MF-CAR-NK-01はBeijing Biotechの実験段階の二重特異性抗体で、中皮腫を対象とした第2相試験が行われており、メソテリンおよびFAPを標的としています。",
+  "eb-mf-car-nk-01": "EB-MF-CAR-NK-01はBeijing Biotechの実験段階のCAR-NK細胞療法で、中皮腫を対象とした第2相試験が行われており、メソテリンおよびFAPを標的としています。",
   "eb-nk-301": "EB-NK-301はBeijing Biotechの実験段階のCAR-NK細胞療法で、第2相試験が行われており、TROP2を標的としています。",
   eik1001: "EIK1001はEikon Therapeuticsの実験段階の治験薬で、登録簿に形態が記載されておらず、メラノーマおよび非小細胞肺がんを対象とした第3相試験が行われており、標的はまだ公表されていません。",
   "eikon-therapeutics": "Eikon Therapeuticsは米国に本拠を置くバイオテクノロジー企業で、メラノーマ、非小細胞肺がん、胃がんおよび胃食道接合部がんを対象としたEIK1001、EIK1004-001 (IMP1707-001)およびIMP1734の後期段階のがん臨床試験を6件実施しています。",

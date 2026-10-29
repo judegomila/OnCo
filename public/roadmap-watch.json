@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22",
+ "generatedAt": "2026-10-29",
  "offline": false,
  "requests": 349,
  "roadmaps": [
@@ -1004,7 +1004,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-02-01",
       "completion": "2027-01-08",
-      "lastUpdate": "2026-10-01"
+      "lastUpdate": "2026-10-26"
      },
      "contradictions": [],
      "explained": [],
@@ -1099,7 +1099,7 @@
     "checked": 17,
     "contradictions": 4,
     "explained": 2,
-    "papers": 5,
+    "papers": 8,
     "watch": 12,
     "watchPassed": 3
    },
@@ -1126,7 +1126,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-02-04",
       "completion": "2026-12-18",
-      "lastUpdate": "2026-10-01"
+      "lastUpdate": "2026-10-28"
      },
      "contradictions": [],
      "explained": [],
@@ -1158,7 +1158,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42927858",
+       "doi": "10.1016/j.annonc.2026.10.1280",
+       "title": "Clinical Complete Response with Dostarlimab Monotherapy in dMMR/MSI-H Locally Advanced Rectal Cancer: First Results from the Global AZUR-1 Trial.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-25"
+      }
+     ]
     },
     {
      "id": "beacon-crc",
@@ -1243,7 +1251,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42926106",
+       "doi": "10.1016/j.annonc.2026.09.009",
+       "title": "Final results of nivolumab plus ipilimumab versus nivolumab or chemotherapy in microsatellite instability-high/mismatch repair-deficient metastatic colorectal cancer from CheckMate 8HW.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-24"
+      }
+     ]
     },
     {
      "id": "circulate-japan",
@@ -1452,7 +1468,15 @@
      "explained": [
       "enrolment 115 in the corpus (registered), 353 on the registry (estimated; 67 percent apart): ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis."
      ],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42906564",
+       "doi": "10.1016/s0140-6736(26)01602-8",
+       "title": "Disease-free survival and overall survival after neoadjuvant immunotherapy in mismatch repair-deficient colon cancer in the Netherlands: results of the single-arm, multicentre, phase 2, NICHE-2 trial.",
+       "journal": "Lancet",
+       "date": "2026-10-21"
+      }
+     ]
     },
     {
      "id": "nordicc",
@@ -2474,7 +2498,7 @@
     "checked": 6,
     "contradictions": 0,
     "explained": 1,
-    "papers": 3,
+    "papers": 4,
     "watch": 0,
     "watchPassed": 0
    },
@@ -2633,7 +2657,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-02-01",
       "completion": "2027-01-08",
-      "lastUpdate": "2026-10-01"
+      "lastUpdate": "2026-10-26"
      },
      "contradictions": [],
      "explained": [],
@@ -2673,7 +2697,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42933441",
+       "doi": "10.1016/s1470-2045(26)00440-7",
+       "title": "From biomarker actionability to surveillance utility in SERENA-6.",
+       "journal": "Lancet Oncol",
+       "date": "2026-11-01"
+      }
+     ]
     },
     {
      "id": "tailorx",
@@ -2724,7 +2756,7 @@
     "checked": 8,
     "contradictions": 0,
     "explained": 1,
-    "papers": 0,
+    "papers": 1,
     "watch": 0,
     "watchPassed": 0
    },
@@ -2836,7 +2868,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-09-30",
       "completion": "2024-09-30",
-      "lastUpdate": "2024-10-30"
+      "lastUpdate": "2026-10-27"
      },
      "contradictions": [],
      "explained": [
@@ -2956,7 +2988,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42910049",
+       "doi": "10.1016/j.ctro.2026.101312",
+       "title": "Study protocol for the TROG 21.08 VITaL trial: a randomized controlled trial investigating ventilation imaging to improve the quality of life for patients with lung cancer treated with radiation therapy.",
+       "journal": "Clin Transl Radiat Oncol",
+       "date": "2026-10-08"
+      }
+     ]
     },
     {
      "id": "whel",
@@ -3356,7 +3396,7 @@
     "checked": 15,
     "contradictions": 3,
     "explained": 0,
-    "papers": 4,
+    "papers": 5,
     "watch": 10,
     "watchPassed": 3
    },
@@ -3443,7 +3483,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42926109",
+       "doi": "10.1016/j.annonc.2026.10.1278",
+       "title": "Adjuvant chemotherapy with cisplatin and gemcitabine compared to standard of care after curative intent resection of cholangiocarcinoma and muscle invasive gallbladder carcinoma (ACTICCA-1/AIO-HEP-0112 trial).",
+       "journal": "Ann Oncol",
+       "date": "2026-10-24"
+      }
+     ]
     },
     {
      "id": "bilcap",
@@ -3566,7 +3614,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2028-12-01",
       "completion": "2030-04-01",
-      "lastUpdate": "2026-09-14"
+      "lastUpdate": "2026-10-28"
      },
      "contradictions": [],
      "explained": [],
@@ -4331,7 +4379,7 @@
     "checked": 32,
     "contradictions": 0,
     "explained": 5,
-    "papers": 8,
+    "papers": 13,
     "watch": 0,
     "watchPassed": 0
    },
@@ -4468,7 +4516,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42918424",
+       "doi": "10.1016/j.annonc.2026.10.097",
+       "title": "Capivasertib plus abiraterone in PTEN-deficient de novo metastatic hormone-sensitive prostate cancer: updated survival analysis from CAPItello-281.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-23"
+      }
+     ]
     },
     {
      "id": "capitello-291",
@@ -4550,8 +4606,8 @@
       "enrolment": 1068,
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-01-31",
-      "completion": "2026-09-19",
-      "lastUpdate": "2026-07-09"
+      "completion": "2027-07-30",
+      "lastUpdate": "2026-10-26"
      },
      "contradictions": [],
      "explained": [],
@@ -4670,7 +4726,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42926110",
+       "doi": "10.1016/j.annonc.2026.10.1282",
+       "title": "Atirmociclib and fulvestrant for patients with HR+/HER2- advanced/metastatic breast cancer who progressed on a prior cyclin-dependent kinase 4/6 inhibitor: primary analysis of the randomized FourLight-1 trial.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-24"
+      }
+     ]
     },
     {
      "id": "latitude",
@@ -4904,7 +4968,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42918423",
+       "doi": "10.1016/j.annonc.2026.10.1288",
+       "title": "Overall survival with adjuvant ribociclib plus nonsteroidal aromatase inhibitor in patients with high-risk HR+/HER2- early breast cancer: Six-year follow-up of the NATALEE trial.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-23"
+      }
+     ]
     },
     {
      "id": "pallas-penelope-b",
@@ -5044,7 +5116,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42926108",
+       "doi": "10.1016/j.annonc.2026.10.1283",
+       "title": "Overall survival from the phase III postMONARCH trial of abemaciclib plus fulvestrant versus placebo plus fulvestrant for HR+, HER2- advanced breast cancer following progression on a prior CDK4/6 inhibitor plus endocrine therapy.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-24"
+      }
+     ]
     },
     {
      "id": "propel",
@@ -5139,7 +5219,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42933441",
+       "doi": "10.1016/s1470-2045(26)00440-7",
+       "title": "From biomarker actionability to surveillance utility in SERENA-6.",
+       "journal": "Lancet Oncol",
+       "date": "2026-11-01"
+      }
+     ]
     },
     {
      "id": "soft-text",
@@ -5461,7 +5549,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-10-14",
       "completion": "2025-10-14",
-      "lastUpdate": "2025-10-29"
+      "lastUpdate": "2026-10-22"
      },
      "contradictions": [],
      "explained": [],
@@ -5612,15 +5700,7 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": [
-      {
-       "pmid": "42872552",
-       "doi": "10.1080/14796694.2026.2734063",
-       "title": "A plain language summary of the 7-year results from the CROWN study: lorlatinib compared with crizotinib in people with ALK-positive non-small cell lung cancer.",
-       "journal": "Future Oncol",
-       "date": "2026-10-14"
-      }
-     ]
+     "papers": []
     },
     {
      "id": "dellphi-304",
@@ -5648,7 +5728,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42933636",
+       "doi": "10.1016/j.annonc.2026.10.095",
+       "title": "Extended follow-up of tarlatamab in patients with small-cell lung cancer after platinum-based chemotherapy in the randomized phase 3 DeLLphi-304 study.",
+       "journal": "Ann Oncol",
+       "date": "2026-12-31"
+      }
+     ]
     },
     {
      "id": "flaura2",
@@ -5859,7 +5947,7 @@
     "checked": 45,
     "contradictions": 1,
     "explained": 9,
-    "papers": 0,
+    "papers": 1,
     "watch": 7,
     "watchPassed": 1
    },
@@ -6585,7 +6673,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2032-03-31",
       "completion": "2032-03-31",
-      "lastUpdate": "2026-10-21"
+      "lastUpdate": "2026-10-28"
      },
      "contradictions": [],
      "explained": [],
@@ -7174,7 +7262,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42930590",
+       "doi": "10.3390/medsci14060671",
+       "title": "Baseline Tumor Transcriptional Features and Event-Free Survival After Anti-CD19 CAR T-Cell Therapy with Axicabtagene Ciloleucel in Large B-Cell Lymphoma: An Exploratory Reanalysis of the Randomized ZUMA-7 Trial.",
+       "journal": "Med Sci (Basel)",
+       "date": "2026-10-13"
+      }
+     ]
     }
    ],
    "watch": [
@@ -7974,7 +8070,7 @@
     "checked": 14,
     "contradictions": 1,
     "explained": 1,
-    "papers": 0,
+    "papers": 1,
     "watch": 11,
     "watchPassed": 1
    },
@@ -8060,7 +8156,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42919966",
+       "doi": "10.1038/s41591-026-04734-7",
+       "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial.",
+       "journal": "Nat Med",
+       "date": "2026-10-23"
+      }
+     ]
     },
     {
      "id": "conko-001",
@@ -8372,7 +8476,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2029-05-10",
       "completion": "2030-07-10",
-      "lastUpdate": "2026-09-23"
+      "lastUpdate": "2026-10-23"
      },
      "contradictions": [],
      "explained": [],
@@ -8688,7 +8792,7 @@
       "enrolmentType": "ESTIMATED",
       "primaryCompletion": "2027-12-31",
       "completion": "2027-12-31",
-      "lastUpdate": "2026-10-01"
+      "lastUpdate": "2026-10-26"
      },
      "contradictions": [
       "enrolment 5954 in the corpus, 6452 on the registry (estimated; 8 percent apart)"
@@ -8733,7 +8837,7 @@
     "checked": 6,
     "contradictions": 0,
     "explained": 0,
-    "papers": 3,
+    "papers": 5,
     "watch": 8,
     "watchPassed": 0
    },
@@ -8770,6 +8874,13 @@
        "title": "Comparing NCCN-based risk groups to the PROTEUS definition of high-risk localized prostate cancer to inform peri-operative care.",
        "journal": "Urol Oncol",
        "date": "2026-10-03"
+      },
+      {
+       "pmid": "42910136",
+       "doi": "10.4103/iju.iju_374_26",
+       "title": "Perioperative apalutamide in high-risk localized or locally advanced prostate cancer: Is PROTEUS trial practice changing?",
+       "journal": "Indian J Urol",
+       "date": "2026-09-29"
       }
      ]
     },
@@ -8826,7 +8937,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42918424",
+       "doi": "10.1016/j.annonc.2026.10.097",
+       "title": "Capivasertib plus abiraterone in PTEN-deficient de novo metastatic hormone-sensitive prostate cancer: updated survival analysis from CAPItello-281.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-23"
+      }
+     ]
     },
     {
      "id": "psmaddition",
@@ -9536,7 +9655,7 @@
     "checked": 7,
     "contradictions": 0,
     "explained": 0,
-    "papers": 0,
+    "papers": 1,
     "watch": 5,
     "watchPassed": 0
    },
@@ -9700,7 +9819,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42930188",
+       "doi": "10.3390/curroncol33100621",
+       "title": "A Remotely Delivered Exercise-Based Rehabilitation Program for Patients with Persistent Chemotherapy-Induced Peripheral Neuropathy (EX-CIPN): A Phase I Feasibility Trial.",
+       "journal": "Curr Oncol",
+       "date": "2026-10-15"
+      }
+     ]
     },
     {
      "id": "rejuv-trial-proffi",
@@ -9959,7 +10086,7 @@
     "checked": 20,
     "contradictions": 0,
     "explained": 5,
-    "papers": 1,
+    "papers": 4,
     "watch": 0,
     "watchPassed": 0
    },
@@ -9990,7 +10117,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42927858",
+       "doi": "10.1016/j.annonc.2026.10.1280",
+       "title": "Clinical Complete Response with Dostarlimab Monotherapy in dMMR/MSI-H Locally Advanced Rectal Cancer: First Results from the Global AZUR-1 Trial.",
+       "journal": "Ann Oncol",
+       "date": "2026-10-25"
+      }
+     ]
     },
     {
      "id": "checkmate-816",
@@ -10190,7 +10325,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-10-14",
       "completion": "2025-10-14",
-      "lastUpdate": "2025-10-29"
+      "lastUpdate": "2026-10-22"
      },
      "contradictions": [],
      "explained": [],
@@ -10429,7 +10564,15 @@
      "explained": [
       "enrolment 115 in the corpus (registered), 353 on the registry (estimated; 67 percent apart): ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis."
      ],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42906564",
+       "doi": "10.1016/s0140-6736(26)01602-8",
+       "title": "Disease-free survival and overall survival after neoadjuvant immunotherapy in mismatch repair-deficient colon cancer in the Netherlands: results of the single-arm, multicentre, phase 2, NICHE-2 trial.",
+       "journal": "Lancet",
+       "date": "2026-10-21"
+      }
+     ]
     },
     {
      "id": "ovhipec-1",
@@ -10519,7 +10662,15 @@
      "explained": [
       "enrolment 309 in the corpus (analysed), 776 on the registry (actual; 60 percent apart): ClinicalTrials.gov lists 776 participants (actual); the Lancet Oncology 2025 paper reports 1,115 individuals screened and 309 included in the analysis (198 active surveillance, 111 standard surgery)."
      ],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42918421",
+       "doi": "10.1016/j.annonc.2026.10.1290",
+       "title": "Active surveillance versus standard surgery after neoadjuvant chemoradiotherapy for oesophageal cancer: long-term results of a cluster-randomised controlled trial (SANO).",
+       "journal": "Ann Oncol",
+       "date": "2026-10-23"
+      }
+     ]
     },
     {
      "id": "senticol-iii",
@@ -10569,7 +10720,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2022-09-01",
       "completion": "2026-10-30",
-      "lastUpdate": "2026-08-04"
+      "lastUpdate": "2026-10-26"
      },
      "contradictions": [],
      "explained": [],
@@ -10616,7 +10767,7 @@
     "checked": 25,
     "contradictions": 0,
     "explained": 1,
-    "papers": 3,
+    "papers": 4,
     "watch": 0,
     "watchPassed": 0
    },
@@ -10869,7 +11020,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2023-09-30",
       "completion": "2026-12-19",
-      "lastUpdate": "2026-10-01"
+      "lastUpdate": "2026-10-26"
      },
      "contradictions": [],
      "explained": [],
@@ -11260,7 +11411,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42933441",
+       "doi": "10.1016/s1470-2045(26)00440-7",
+       "title": "From biomarker actionability to surveillance utility in SERENA-6.",
+       "journal": "Lancet Oncol",
+       "date": "2026-11-01"
+      }
+     ]
     },
     {
      "id": "solo-1",
@@ -11652,7 +11811,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-10-14",
       "completion": "2025-10-14",
-      "lastUpdate": "2025-10-29"
+      "lastUpdate": "2026-10-22"
      },
      "contradictions": [],
      "explained": [],
@@ -11826,7 +11985,7 @@
     "checked": 10,
     "contradictions": 0,
     "explained": 1,
-    "papers": 7,
+    "papers": 9,
     "watch": 0,
     "watchPassed": 0
    },
@@ -11982,7 +12141,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-10-14",
       "completion": "2025-10-14",
-      "lastUpdate": "2025-10-29"
+      "lastUpdate": "2026-10-22"
      },
      "contradictions": [],
      "explained": [],
@@ -12068,7 +12227,15 @@
      "explained": [
       "enrolment 115 in the corpus (registered), 353 on the registry (estimated; 67 percent apart): ClinicalTrials.gov lists an estimated 353 participants for the amended NICHE protocol, which is still recruiting to further cohorts; the NEJM 2024 NICHE-2 analysis enrolled 115 patients, 111 of them in the efficacy analysis."
      ],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42906564",
+       "doi": "10.1016/s0140-6736(26)01602-8",
+       "title": "Disease-free survival and overall survival after neoadjuvant immunotherapy in mismatch repair-deficient colon cancer in the Netherlands: results of the single-arm, multicentre, phase 2, NICHE-2 trial.",
+       "journal": "Lancet",
+       "date": "2026-10-21"
+      }
+     ]
     },
     {
      "id": "persephone",
@@ -12151,7 +12318,15 @@
      },
      "contradictions": [],
      "explained": [],
-     "papers": []
+     "papers": [
+      {
+       "pmid": "42933441",
+       "doi": "10.1016/s1470-2045(26)00440-7",
+       "title": "From biomarker actionability to surveillance utility in SERENA-6.",
+       "journal": "Lancet Oncol",
+       "date": "2026-11-01"
+      }
+     ]
     },
     {
      "id": "stampede",
@@ -12670,7 +12845,7 @@
       "enrolmentType": "ACTUAL",
       "primaryCompletion": "2025-10-14",
       "completion": "2025-10-14",
-      "lastUpdate": "2025-10-29"
+      "lastUpdate": "2026-10-22"
      },
      "contradictions": [],
      "explained": [],

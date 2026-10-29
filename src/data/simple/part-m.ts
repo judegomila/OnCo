@@ -101,7 +101,7 @@ export const simpleM: Record<string, string> = {
   dzd8586: "Dizal Pharmaceuticals' DZD8586 is a small-molecule drug in phase 3 trials for chronic lymphocytic leukaemia and diffuse large B-cell lymphoma [two blood cancers], with its target not stated publicly.",
   "e-edv-d682": "Engeneic Pty's E-EDV-D682 packs chemotherapy inside bacteria-derived nanocells [tiny cell-like shells] steered to EGFR on cancer cells, in a phase 2 trial for pancreatic ductal adenocarcinoma [pancreatic cancer].",
   "eb-car30-nk": "Beijing Biotech's EB-CAR30-NK is a CAR-NK cell therapy [engineered immune cells] aimed at CD30, in a phase 2 trial for thymoma and thymic carcinoma [thymus gland tumours].",
-  "eb-mf-car-nk-01": "Beijing Biotech's EB-MF-CAR-NK-01 is a bispecific [two-target] treatment aimed at Mesothelin and FAP, using engineered donor natural killer cells, in a phase 2 trial for mesothelioma [lung-lining cancer].",
+  "eb-mf-car-nk-01": "Beijing Biotech's EB-MF-CAR-NK-01 is a two-target cell treatment aimed at Mesothelin and FAP, using engineered donor natural killer cells, in a phase 2 trial for mesothelioma [lung-lining cancer].",
   "eb-nk-301": "EB-NK-301, from Beijing Biotech, is a CAR-NK cell therapy [donor immune cells engineered to attack cancer] aimed at TROP2, given by intravenous infusion in a phase 2 cancer trial.",
   eik1001: "Eikon Therapeutics is testing EIK1001, an experimental medicine whose exact type and target it has not made public, in late-stage trials for melanoma and non-small-cell lung cancer.",
   "eikon-therapeutics": "Based in Millbrae, California, Eikon Therapeutics is a drug discovery company running six late-stage cancer trials of EIK1001, EIK1004-001 (IMP1707-001) and IMP1734 in melanoma, lung cancer and stomach cancer.",

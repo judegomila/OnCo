@@ -6750,7 +6750,7 @@ export const tldr_de: Record<string, string> = {
   dzd8586: "DZD8586 ist ein experimenteller niedermolekularer Wirkstoff von Dizal Pharmaceuticals in Phase-3-Studien für chronische lymphatische Leukämie und diffuses großzelliges B-Zell-Lymphom, wobei die Zielstruktur noch nicht öffentlich genannt wurde.",
   "e-edv-d682": "E-EDV-D682 ist ein experimentelles EDV-Nanozellen-Wirkstoffkonjugat (bakterielle Minizelle) von Engeneic Pty in Phase-2-Studien für das duktale Adenokarzinom des Pankreas, das auf EGFR abzielt.",
   "eb-car30-nk": "EB-CAR30-NK ist eine experimentelle CAR-NK-Zelltherapie von Beijing Biotech in Phase-2-Studien für Thymom und Thymuskarzinom, die auf CD30 abzielt.",
-  "eb-mf-car-nk-01": "EB-MF-CAR-NK-01 ist ein experimenteller bispezifischer Antikörper von Beijing Biotech in Phase-2-Studien für Mesotheliom, der auf Mesothelin und FAP abzielt.",
+  "eb-mf-car-nk-01": "EB-MF-CAR-NK-01 ist eine experimentelle CAR-NK-Zelltherapie von Beijing Biotech in Phase-2-Studien für Mesotheliom, die auf Mesothelin und FAP abzielt.",
   "eb-nk-301": "EB-NK-301 ist eine experimentelle CAR-NK-Zelltherapie von Beijing Biotech in Phase-2-Studien, die auf TROP2 abzielt.",
   eik1001: "EIK1001 ist eine experimentelle Prüfsubstanz, deren Form im Register nicht angegeben ist, von Eikon Therapeutics in Phase-3-Studien für Melanom und nicht-kleinzelliges Lungenkarzinom, wobei die Zielstruktur noch nicht öffentlich angegeben wurde.",
   "eikon-therapeutics": "Eikon Therapeutics ist ein Biotechnologieunternehmen mit Sitz in den USA, das 6 Krebsstudien im Spätstadium zu EIK1001, EIK1004-001 (IMP1707-001) und IMP1734 bei Melanom, nicht-kleinzelligem Lungenkarzinom sowie Magenkarzinom und Karzinom des gastroösophagealen Übergangs durchführt.",

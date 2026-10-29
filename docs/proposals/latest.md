@@ -1,11 +1,26 @@
-# Change proposals 2026-10-28
+# Change proposals 2026-10-29
 
-Drafted by scripts/propose-updates.ts from: factcheck 2026-10-26, trialChanges 2026-10-26, fda 2026-10-21, regional 2026-10-21.
+Drafted by scripts/propose-updates.ts from: factcheck 2026-10-26, trialChanges 2026-10-26, fda 2026-10-28, regional 2026-10-28.
 
 Review each line against its source. Apply by editing the file named; nothing in this list is applied automatically. EMA rows carry the reason a person is needed; the rows that passed every check were written on the auto branch by scripts/apply-proposals.ts and are listed at the end.
 
-## High confidence (18)
+## High confidence (21)
 
+- [ ] **Enzalutamide** ([page](https://onco.cc/drugs/enzalutamide/)) · regulatory-event · `regulatoryEvents`
+  - current: 0 events; none dated 2026-10-26
+  - proposed: { date: "2026-10-26", type: "approval", region: "US", note: "approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive" }
+  - evidence: On October 26, 2026, the Food and Drug Administration (FDA) approved talazoparib (Talzenna, Pfizer Inc.) in combination with enzalutamide for the treatment of adults with metastatic androgen pathway modulation-naïve or -sensitive (mAPMN/S) prostate cancer with homologous recombination repair (HRR) g ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive))
+  - file: `src/data/interactions.ts:112`
+- [ ] **Talazoparib** ([page](https://onco.cc/drugs/talazoparib/)) · regulatory-event · `regulatoryEvents`
+  - current: 2 events; none dated 2026-10-26
+  - proposed: { date: "2026-10-26", type: "approval", region: "US", note: "approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive" }
+  - evidence: On October 26, 2026, the Food and Drug Administration (FDA) approved talazoparib (Talzenna, Pfizer Inc.) in combination with enzalutamide for the treatment of adults with metastatic androgen pathway modulation-naïve or -sensitive (mAPMN/S) prostate cancer with homologous recombination repair (HRR) g ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive))
+  - file: `src/data/checkpoint-map.ts:612`
+- [ ] **Pembrolizumab** ([page](https://onco.cc/drugs/pembrolizumab/)) · regulatory-event · `regulatoryEvents`
+  - current: 49 events; none dated 2026-10-16
+  - proposed: { date: "2026-10-16", type: "approval", region: "US", note: "grants traditional approval for pembrolizumab or pembrolizumab and berahyaluronidase alfa-pmph for unresectable or metastatic TMB-H solid tumors with updated indication", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph" }
+  - evidence: On October 16, 2026, the Food and Drug Administration granted traditional approval to pembrolizumab (Keytruda, Merck) or pembrolizumab and berahyaluronidase alfa-pmph (Keytruda Qlex, Merck) for adult and pediatric patients with unresectable or metastatic tumor mutational burden-high (TMB-H) [≥13 mut ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph))
+  - file: `src/data/checkpoint-map.ts:158`
 - [ ] **KEYNOTE-522** ([page](https://onco.cc/trials/keynote-522/)) · trial-results · `result / outcomes`
   - current: EFS HR 0.63; OS HR 0.66 (5-year); 7-year OS 85.1% vs 77.2%.
   - proposed: add the posted primary outcome with the registry as source

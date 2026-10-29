@@ -1,13 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { initialsOf, tint } from "@/lib/monogram";
 
-/** Deterministic soft background for an initials tile, so the same organisation always gets the same tint. */
-function tint(name: string): string {
-  let h = 0; for (const ch of name) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-  const hues = [340, 20, 45, 160, 200, 230, 270, 300];
-  return `hsl(${hues[h % hues.length]} 55% 92%)`;
-}
 
 /**
  * Logo or portrait beside a table row's name. Shows initials when there is no image, when the image fails,
@@ -16,7 +11,7 @@ function tint(name: string): string {
  */
 export function RowAvatar({ src, name, round = false, size = "md" }: { src?: string; name: string; round?: boolean; /** "sm" is a 16 px tile for inside a pill. */ size?: "sm" | "md" }) {
   const [failed, setFailed] = useState(false);
-  const initials = name.replace(/\(.*?\)/g, "").split(/[\s/–-]+/).filter((w) => /[A-Za-z0-9]/.test(w)).slice(0, 2).map((w) => w[0]!.toUpperCase()).join("");
+  const initials = initialsOf(name);
   const shape = round ? "rounded-full" : "rounded-md";
   const show = src && !failed;
   return (

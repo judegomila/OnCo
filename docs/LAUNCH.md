@@ -109,6 +109,11 @@ lowered (see commit "Take the backlink fill back out"). `logos` sits at 80% beca
 any source can find; each needs a Wikidata QID by hand.
 
 ## Owner asks not yet started
+- [ ] **A scoped search beside the title on each major index page (owner, 29 October 2026).** For example
+  https://onco.cc/roadmaps/ would carry a search box next to its heading that searches only roadmaps. The owner points at
+  ultrametric.ai and its process page for how it is done there: read that pattern first. Likely shape: one shared
+  component taking the page's kind (or a filter), placed in the page header, using the existing search index filtered to
+  that kind, with "search everything" as the fallback. Product change: show the owner side-by-side screenshots first.
 - [ ] **A profile for Melissa Taylor (owner, 29 October 2026).** Confirm with the owner which Melissa Taylor is meant
   (and the role or connection to cancer) before writing anything: several public figures share the name, and a person
   record must be about the right one. Then a person record on the usual sourcing rules, with a portrait only if its

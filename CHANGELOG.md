@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 29 October 2026
+- A profile for Dr Melissa Taylor, breast medical oncologist at UCSF
 - Eleven people stop showing a stranger's photo, 28 gain a properly licensed portrait, and 77 logos get sharp
 - Portraits: 28 added, 11 wrong faces removed; logos: 77 sharper files
 - Portrait and logo fetchers: stricter identity checks, ORCID matching, site icons

@@ -10,21 +10,17 @@ export function domainOf(website?: string): string {
   try { return website ? new URL(website).hostname.replace(/^www\./, "") : ""; } catch { return ""; }
 }
 
-/** Hotlinked favicon fallback (Google's service), used only when no self-hosted file exists. */
-export function faviconUrl(website?: string, size = 128): string | undefined {
-  const d = domainOf(website);
-  return d ? `https://www.google.com/s2/favicons?domain=${encodeURIComponent(d)}&sz=${size}` : undefined;
-}
-
 /**
- * Resolve the best logo for an entity: the self-hosted file from public/logos when the fetch script
- * found one, otherwise the favicon service. `source` tells the caller how trustworthy the image is.
+ * Resolve the logo for an entity: the self-hosted file from public/logos when the fetch script found one, otherwise
+ * nothing, and the caller draws OnCo's own initials tile (src/lib/monogram.ts). There is no third-party fallback: until
+ * 29 October 2026 a missing file fell back to Google's favicon service, which showed website-builder stock icons for
+ * organisations whose own icon was the builder's. `website` is accepted for existing callers and no longer used.
  */
-export function logoFor(id: string | undefined, website?: string): { src?: string; source: LogoSource | "none"; entry?: LogoEntry } {
+export function logoFor(id: string | undefined, _website?: string): { src?: string; source: LogoSource | "none"; entry?: LogoEntry } {
+  void _website; // kept in the signature for existing callers; a website no longer produces an image
   const entry = id ? INDEX[id] : undefined;
   if (entry) return { src: `/logos/${entry.file}`, source: entry.source, entry };
-  const src = faviconUrl(website);
-  return src ? { src, source: "favicon" } : { source: "none" };
+  return { source: "none" };
 }
 
 /** Convenience for table rows: just the URL (or undefined). */

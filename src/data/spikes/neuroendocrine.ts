@@ -18,7 +18,7 @@ const pair = (x: Omit<PairingInput, "kind" | "asOf">): PairingInput => ({ kind: 
 
 // ======================= TECHNOLOGIES =======================
 const technologies: TechnologyInput[] = [
-  tech({ id: "sstr-pet", dependsOn: ["pet-ct", "radionuclide-generators-kits"], name: "Somatostatin receptor PET (68Ga/64Cu-DOTATATE)", sections: ["imaging", "radiopharma"], status: "standard-of-care", since: 2016, wikipedia: W("DOTA-TATE"),
+  tech({ id: "sstr-pet", companies: ["nuclearmedix"], dependsOn: ["pet-ct", "radionuclide-generators-kits"], name: "Somatostatin receptor PET (68Ga/64Cu-DOTATATE)", sections: ["imaging", "radiopharma"], status: "standard-of-care", since: 2016, wikipedia: W("DOTA-TATE"),
     tldr: "A PET scan using a radioactive hormone mimic that lights up neuroendocrine tumours and shows whether the matching radioactive treatment will work.",
     summary: "68Ga-DOTATATE (Netspot, 2016), 68Ga-DOTATOC (2019) and 64Cu-DOTATATE (Detectnet, 2020) replaced 111In-octreotide scintigraphy, with far higher sensitivity for small lesions and bone disease. Mandatory for staging, for selecting patients for PRRT (Krenning score ≥3 or uptake above liver), and for detecting occult primaries. FDG PET complements it in high-grade or dedifferentiated disease ('flip-flop' pattern).",
     principle: "Radiolabelled somatostatin analogue binds SSTR2 on tumour cells; positron emission imaged by PET/CT.",

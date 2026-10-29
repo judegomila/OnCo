@@ -223,6 +223,48 @@ any source can find; each needs a Wikidata QID by hand.
   work on solutions and possible solutions", so this is a link-out, not a programme of work, and prognosis
   presentation (issue 43) stays parked behind it.
 
+## Keeping the company list fresh (owner, 29 October 2026)
+The owner asked to "see all the latest companies in oncology so we can keep onco.cc fresh". On 29 October only 2 of
+1,245 company records had been founded in 2024 or later, and no company record had been touched in 30 days. The
+freshness SLA passed anyway, because companies, institutions and people share a 365-day SLA
+(src/lib/review-due.ts). That SLA cannot see a missing company, and it cannot see an acquisition. The round on
+29 October added the new companies to `src/data/companies-new-2026-*.ts` (one file per modality, plus `-sponsors` for
+companies found through the registry) and freshened the most-linked existing records. To keep this up:
+
+- **Monthly: new trial sponsors.** Run `npx tsx scripts/ctgov-new-sponsors.ts --since=<first day of last month> --first-trial`.
+  It lists industry lead sponsors of interventional cancer studies first posted in the window whose first study
+  of any kind falls in the window and which match no company record or sponsor alias. It writes nothing under
+  `src/data`. `--apply` only saves the queue to `.cache/ctgov-new-sponsors/queue.json`. In the 29 October run,
+  between 6 and 22 rows came from each month of 2024 to 2026, 453 in all. Many are hospitals, named
+  individuals or non-oncology sponsors. Confirm each remaining row on the
+  company's own website before writing a record.
+- **Monthly: launches and rounds.** Read the launch and financing news from the last month (Fierce Biotech,
+  Endpoints, STAT, BioSpace and the Business Wire, PR Newswire and GlobeNewswire company releases) as pointers.
+  Also read the portfolio pages of the investor records in `src/data/investors.ts`. Confirm each company on its
+  own site, and confirm each round amount in the company's or investor's release. Crunchbase and PitchBook forbid
+  scraping, so do not use them.
+- **Quarterly: IPOs.** Search SEC EDGAR full-text search for S-1 and F-1 filings that mention oncology or cancer,
+  and look at HKEX Chapter 18A listings. Add `ticker` and `stage: "public"` to the records they belong to.
+- **Quarterly: acquisitions and shutdowns.** Rank companies by inbound links (`g.incoming(id)` in src/lib/graph.ts)
+  and check the top 150 for acquisitions, mergers, renamings, shutdowns and delistings. Check every record whose text
+  says "pending", "definitive agreement" or "expected to close". Update `stage`, `acquiredBy`, an "Acquisition" funding
+  row with its source, and `asOf`.
+- **Every round:** `website` is always the company's own domain, never a news article. When a company's site has
+  gone, omit the field and say so in `notes`. New company records get their inbound link from their technologies
+  through `npx tsx scripts/orphan-links.ts --apply`. Read the plan first, and apply only the edits for the new ids.
+- Leave multi-cancer early detection companies to the MCED pass that owns them.
+- **What 29 October added, and what is still owed.** The round added 262 company records: 61 from launch and
+  financing news, and 201 from the registry list. The web search budget ran out early, and most trade-press sites
+  refuse automated reads, so the launch-news side is thin. Run it again with search available. Most of the 201
+  registry companies existed before 2024, but their first cancer trial was registered in 2024 to 2026.
+  Each record states its founding year only where the company gives one. 185 existing records went into the
+  freshening pass (the 150-plus most linked, every pending deal, and the four wrong websites), and 82 were updated.
+  These were not reached, or were checked only lightly because their sites block automated reads, and need a
+  second pass: servier, boehringer-ingelheim, siemens-healthineers, ge-healthcare, natera, medilink, moderna,
+  elekta, varian, foundation-medicine, kelun-biotech, remegen, systimmune, hutchmed, cspc, innovent, alphamab,
+  zelgen, lonza, ferring, pharmamar, taiho, canon-medical, fujifilm, deciphera and haihe-biopharma. Karyopharm's
+  lender forbearance ran to 1 November 2026, so check it after that date.
+
 ## Standing rules (see memory)
 Plain English first, UK spelling, no em-dashes in copy, no "as of", no invented numbers, corrections via issue form only,
 light theme default, pink accent, no red buttons, never "spike", survival figures behind a click, solution and mechanism first,

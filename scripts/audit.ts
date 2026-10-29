@@ -353,6 +353,10 @@ export function auditEntities(entities: Entity[], opts: AuditOptions = {}): Find
         if (na === nb) continue;
         if (na.length >= 9 && nb.length >= 9 && (na.includes(nb) || nb.includes(na))) add("near-duplicate-name", "low", a.id < b.id ? a : b, `name overlaps with ${a.id < b.id ? b.name : a.name} (${a.id < b.id ? b.id : a.id})`);
         else if (nb.length - na.length > 2) break; // sorted by length: nothing further can be within distance 2
+        // A pair an editor has already looked at and cross-linked in `related` is a known pair of different things
+        // (CRISM and CRISPR Therapeutics, Solu and Solve Therapeutics), not an undiscovered duplicate. Counting it
+        // anyway meant every new company with a near-namesake raised the ratchet, whether or not anyone had checked it.
+        else if ((a.related.includes(b.id) || b.related.includes(a.id))) continue;
         else if (nearDuplicateCandidates(na, nb) && levenshteinWithin(na, nb, 2)) {
           const [keep, fold] = a.id < b.id ? [a, b] : [b, a];
           add("near-duplicate-levenshtein", "medium", keep, `"${keep.name}" and "${fold.name}" (${fold.id}) differ by at most two characters; if they are one thing, keep ${keep.id}, move "${fold.name}" into its aka and repoint links`);

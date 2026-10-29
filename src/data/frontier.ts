@@ -52,7 +52,7 @@ const frontierBase: EntityInput[] = [
  */
 const frontierRadical: EntityInput[] = [
   {
-    id: "in-vivo-gene-editing-cancer", kind: "technology", name: "In vivo base and prime editing for cancer", sections: ["targeted-therapy", "drug-discovery"], status: "concept", asOf: RAD,
+    id: "in-vivo-gene-editing-cancer", companies: ["azalea-therapeutics"], kind: "technology", name: "In vivo base and prime editing for cancer", sections: ["targeted-therapy", "drug-discovery"], status: "concept", asOf: RAD,
     tldr: "In vivo base and prime editing would rewrite a cancer's DNA letter by letter inside the body. It works in the liver for inherited disease; nobody has yet corrected a cancer this way in a person.",
     summary: "Base editors change a single DNA letter without cutting; prime editors write short new sequences. Both are in the clinic for inherited liver and blood disease, and base editing is used ex vivo to build allogeneic CAR-T cells. Direct in vivo correction of a cancer driver, restoring TP53 or disabling a mutant KRAS allele, had not entered human trials by September 2026: solid-tumour delivery, editing every malignant cell, and the fact that a corrected cell must still out-compete an uncorrected one are all unsolved.",
     principle: "A catalytically impaired Cas protein fused to a deaminase or reverse transcriptase is guided to a locus and edits it without a double-strand break; delivered by lipid nanoparticle or virus.",
@@ -80,7 +80,7 @@ const frontierRadical: EntityInput[] = [
     principle: "An alphavirus-derived replicase amplifies the transcript in the cytoplasm (saRNA), or a permuted intron-exon strategy circularises the RNA to extend its half-life; both are delivered in lipid nanoparticles.",
     strengths: ["Lower dose for the same protein output", "Longer expression than linear mRNA", "Shares manufacturing with approved mRNA vaccines"],
     limitations: ["Innate sensing of double-stranded replication intermediates", "Little peer-reviewed oncology efficacy data", "Same delivery ceiling as all lipid nanoparticles: the liver takes most of it"],
-    technologies: ["neoantigen-mrna-vaccine", "shared-antigen-vaccine", "in-vivo-car-t"], companies: ["biontech", "moderna", "orna-therapeutics"],
+    technologies: ["neoantigen-mrna-vaccine", "shared-antigen-vaccine", "in-vivo-car-t"], companies: ["biontech", "moderna", "orna-therapeutics", "therorna"],
     tags: ["frontier", "promising"],
     links: [{ label: "ClinicalTrials.gov: self-amplifying RNA cancer", url: "https://clinicaltrials.gov/search?term=self-amplifying%20RNA%20cancer" }],
   },
@@ -96,7 +96,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: FAP CAR-T", url: "https://clinicaltrials.gov/search?term=FAP%20CAR-T" }],
   },
   {
-    id: "engineered-bacteria-therapy", related: ["bacterial-vector-vaccines"], kind: "technology", name: "Engineered bacteria as living cancer drugs", sections: ["immunotherapy", "drug-discovery"], status: "phase-2", asOf: RAD,
+    id: "engineered-bacteria-therapy", companies: ["laguna-biotherapeutics", "actym-therapeutics", "loki-therapeutics"], related: ["bacterial-vector-vaccines"], kind: "technology", name: "Engineered bacteria as living cancer drugs", sections: ["immunotherapy", "drug-discovery"], status: "phase-2", asOf: RAD,
     tldr: "Bacteria that seek out the low-oxygen core of tumours, then manufacture a drug on the spot.",
     summary: "Attenuated Salmonella and other anaerobes colonise hypoxic tumour cores that drugs reach poorly, and can be engineered to secrete cytokines or enzymes. Live programmes on ClinicalTrials.gov in September 2026 include SGN1, an engineered Salmonella expressing methioninase (NCT05038150 and NCT05103345, phase 1/2, recruiting), and Saltikva, a Salmonella carrying IL-2, in phase 2 in metastatic pancreatic cancer (NCT04589234). The field has a long history of tolerable but ineffective results, beginning with VNP20009 in the 2000s.",
     principle: "Attenuated bacteria given intravenously or intratumourally replicate selectively in hypoxic, necrotic tumour regions and express a therapeutic payload locally.",
@@ -151,7 +151,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: DNA nanostructure cancer", url: "https://clinicaltrials.gov/search?term=DNA%20nanostructure%20cancer" }],
   },
   {
-    id: "magnetic-nanoparticle-hyperthermia", kind: "technology", name: "Magnetic nanoparticle hyperthermia", sections: ["devices", "radiation"], status: "phase-2", asOf: RAD,
+    id: "magnetic-nanoparticle-hyperthermia", companies: ["new-phase"], kind: "technology", name: "Magnetic nanoparticle hyperthermia", sections: ["devices", "radiation"], status: "phase-2", asOf: RAD,
     tldr: "Magnetic nanoparticle hyperthermia injects iron-oxide nanoparticles into a tumour and heats them from outside with an alternating magnetic field.",
     summary: "NanoTherm received European approval for glioblastoma in 2010 and is used at a small number of German centres, usually with radiotherapy. A phase 2 adjuvant glioblastoma study is recruiting in Poland (NCT06271421); the US prostate focal-ablation study (NCT05010759) was terminated. Systemically delivered magnetic hyperthermia, as opposed to direct intratumoural injection, is still preclinical.",
     principle: "Superparamagnetic iron-oxide nanoparticles deposited in the tumour dissipate heat under an alternating magnetic field, reaching 40-45 °C and sensitising cells to radiation and chemotherapy.",
@@ -261,7 +261,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: Lu-177 PSMA plus olaparib", url: "https://clinicaltrials.gov/search?term=lutetium%20PSMA%20olaparib" }],
   },
   {
-    id: "nerve-tumour-denervation", kind: "technology", name: "Cancer neuroscience: cutting the nerve supply", sections: ["targeted-therapy", "supportive-care"], status: "phase-2", asOf: RAD,
+    id: "nerve-tumour-denervation", companies: ["coherence-neuro"], kind: "technology", name: "Cancer neuroscience: cutting the nerve supply", sections: ["targeted-therapy", "supportive-care"], status: "phase-2", asOf: RAD,
     tldr: "Tumours recruit nerves and use nerve signals to grow. Blocking that traffic, with beta-blockers or botulinum toxin, is being tested.",
     summary: "Nerves infiltrate tumours and drive proliferation through adrenergic and cholinergic signalling; perineural invasion is a long-standing prognostic marker. Trials are testing perioperative propranolol in prostate cancer (NCT05679193, completed), pancreatic cancer (NCT06145074, recruiting), and beta-blockade with a COX-2 inhibitor in ovarian cancer (NCT06839144, recruiting). Botulinum toxin denervation has been trialled in gastric cancer. Effects so far are on biomarkers, not survival.",
     principle: "Adrenergic and cholinergic nerve endings supply growth and survival signals to tumour and stromal cells; pharmacological or surgical denervation removes them.",
@@ -294,7 +294,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: time-of-day immunotherapy infusion", url: "https://clinicaltrials.gov/search?term=time%20of%20day%20immunotherapy%20infusion" }],
   },
   {
-    id: "metabolic-therapy", kind: "technology", name: "Metabolic therapy: starving the tumour of a nutrient", sections: ["targeted-therapy", "chemotherapy", "nutrition-lifestyle"], status: "phase-2", asOf: RAD,
+    id: "metabolic-therapy", companies: ["one-carbon-therapeutics", "jabez-biosciences", "remedy-plan-therapeutics"], kind: "technology", name: "Metabolic therapy: starving the tumour of a nutrient", sections: ["targeted-therapy", "chemotherapy", "nutrition-lifestyle"], status: "phase-2", asOf: RAD,
     tldr: "Removing an amino acid or nutrient that certain tumours cannot make for themselves, while normal cells can.",
     summary: "Arginine deprivation with pegargiminase (ADI-PEG 20) exploits ASS1 loss; the phase 2/3 ATOMIC-Meso study in mesothelioma completed (NCT02709512), while the phase 3 leiomyosarcoma study (NCT05712694) and a lung study were terminated. Glutaminase inhibition failed in renal cancer, asparaginase remains standard in ALL, and dietary approaches such as ketogenic or fasting-mimicking regimens have only small randomised trials with mixed results. The lesson so far is that metabolic dependencies are real but narrow.",
     principle: "Enzymatic depletion of a circulating nutrient (arginine, asparagine, methionine) kills tumour cells that have lost the biosynthetic enzyme, while normal cells resynthesise it.",
@@ -344,7 +344,7 @@ const frontierRadical: EntityInput[] = [
     principle: "A small molecule remodels the surface of an E3 ligase so it recognises a protein it would normally ignore, marking that protein for proteasomal destruction.",
     strengths: ["Oral, small and cell-permeable, unlike PROTACs", "Reaches proteins with no active site", "Catalytic: one molecule degrades many copies"],
     limitations: ["Discovery is still largely serendipitous", "Cereblon-dependent glues fail where the ligase is absent or mutated", "No approvals from rational design yet"],
-    technologies: ["protac-degrader", "degrader-antibody-conjugate", "ai-drug-design", "crispr-screens"], companies: ["monte-rosa", "nurix", "c4-therapeutics", "kymera"],
+    technologies: ["protac-degrader", "degrader-antibody-conjugate", "ai-drug-design", "crispr-screens"], companies: ["monte-rosa", "nurix", "c4-therapeutics", "kymera", "breakthru-medicine", "scibrunch-therapeutics", "rgenta-therapeutics", "seed-therapeutics"],
     tags: ["frontier", "promising"],
     links: [{ label: "ClinicalTrials.gov: molecular glue degrader", url: "https://clinicaltrials.gov/search?term=molecular%20glue%20degrader" }],
   },
@@ -366,12 +366,12 @@ const frontierRadical: EntityInput[] = [
     principle: "A synthetic receptor circuit integrates two antigen inputs; killing proceeds only if the required combination is present, and is blocked if a protective antigen is detected.",
     strengths: ["Directly addresses the antigen-specificity ceiling in solid tumours", "Turns non-specific antigens into usable targets", "Applies to bispecifics and masked drugs as well as cells"],
     limitations: ["Complex constructs are harder to manufacture and less potent", "Antigen loss defeats AND gates", "Very early clinical data"],
-    technologies: ["car-t", "armored-car", "masked-adc", "bispecific-adc", "in-vivo-car-t"], companies: ["arsenal-bio", "sana-biotechnology"],
+    technologies: ["car-t", "armored-car", "masked-adc", "bispecific-adc", "in-vivo-car-t"], companies: ["arsenal-bio", "sana-biotechnology", "senti-biosciences", "cartography-biosciences"],
     tags: ["frontier", "promising"],
     links: [{ label: "ClinicalTrials.gov: logic-gated CAR T", url: "https://clinicaltrials.gov/search?term=logic%20gated%20CAR%20T" }],
   },
   {
-    id: "in-situ-vaccination", trials: ["nct05688280"], kind: "technology", name: "In situ vaccination", sections: ["immunotherapy"], status: "phase-2", asOf: RAD,
+    id: "in-situ-vaccination", companies: ["trogenix", "aummune", "onchilles-pharma", "syncromune"], trials: ["nct05688280"], kind: "technology", name: "In situ vaccination", sections: ["immunotherapy"], status: "phase-2", asOf: RAD,
     tldr: "Treating one tumour so aggressively that the immune system learns to attack every other one, using the tumour itself as the vaccine.",
     summary: "Rather than manufacturing a vaccine, an injected adjuvant, virus, cytokine or ablative therapy turns a single lesion into an antigen source. Intratumoural TLR9 agonists with low-dose radiotherapy produced systemic responses in lymphoma, and oncolytic viruses, cryoablation, histotripsy and IL-12 electroporation all pursue the same idea. Systemic responses are real but modest and inconsistent, and the field lacks a way to predict who will respond.",
     principle: "Local immunogenic cell death plus an adjuvant recruits antigen-presenting cells at the tumour, priming T cells against the patient's own full antigen repertoire.",
@@ -382,7 +382,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: in situ vaccination cancer", url: "https://clinicaltrials.gov/search?term=in%20situ%20vaccination%20cancer" }],
   },
   {
-    id: "interception-vaccination", kind: "technology", name: "Cancer interception vaccines", sections: ["prevention", "immunotherapy"], status: "phase-2", asOf: RAD,
+    id: "interception-vaccination", companies: ["rinuagene-biotechnology"], kind: "technology", name: "Cancer interception vaccines", sections: ["prevention", "immunotherapy"], status: "phase-2", asOf: RAD,
     tldr: "Cancer interception vaccines immunise people who do not yet have cancer but carry a high inherited risk, such as Lynch syndrome carriers, against the antigens their future tumour is predicted to express, so memory T cells remove transformed cells early. Because healthy people accept risk for a probabilistic benefit, the safety bar is far higher and trials take years.",
     summary: "Lynch syndrome tumours share recurrent frameshift neoantigens, making a shared off-the-shelf vaccine possible; Nous-209 has been tested in Lynch carriers, and a preventive vaccine against alpha-lactalbumin is in early trials for triple-negative breast cancer at the Cleveland Clinic. The strategy asks a healthy person to accept risk for a probabilistic benefit, so the safety bar is far higher and trials need long follow-up with adenoma or lesion endpoints.",
     principle: "Immunising against antigens a future tumour is predicted to express creates memory T cells that eliminate transformed cells before a clinical cancer forms.",
@@ -393,7 +393,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: Lynch syndrome vaccine", url: "https://clinicaltrials.gov/search?term=Lynch%20syndrome%20vaccine" }],
   },
   {
-    id: "trained-innate-immunity", companies: ["hibercell"], kind: "technology", name: "Trained innate immunity", sections: ["immunotherapy", "prevention"], status: "phase-2", asOf: RAD,
+    id: "trained-innate-immunity", companies: ["hibercell", "kupando"], kind: "technology", name: "Trained innate immunity", sections: ["immunotherapy", "prevention"], status: "phase-2", asOf: RAD,
     tldr: "Giving the innate immune system a memory, so monocytes and NK cells respond harder the next time they meet a tumour.",
     summary: "BCG, the oldest immunotherapy, works partly by epigenetically reprogramming myeloid progenitors, an effect now called trained immunity. Beta-glucans and other agonists are being tested to induce the same state deliberately, alone or before checkpoint blockade. Evidence in cancer beyond intravesical BCG is early, and the same reprogramming can be immunosuppressive in the wrong context.",
     principle: "Epigenetic and metabolic rewiring of haematopoietic progenitors produces monocytes and NK cells with heightened effector responses lasting months.",
@@ -481,7 +481,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "COBRA2 (NCT05844514)", url: "https://clinicaltrials.gov/study/NCT05844514" }, { label: "MSK e-nose study (NCT06037941)", url: "https://clinicaltrials.gov/study/NCT06037941" }],
   },
   {
-    id: "drug-repurposing", kind: "technology", name: "Systematic drug repurposing", sections: ["drug-discovery", "prevention"], status: "phase-3", asOf: RAD,
+    id: "drug-repurposing", companies: ["launxp-biomedical"], kind: "technology", name: "Systematic drug repurposing", sections: ["drug-discovery", "prevention"], status: "phase-3", asOf: RAD,
     tldr: "Testing cheap old drugs, aspirin, metformin, statins, beta-blockers, as cancer treatments, because they are safe, available and sometimes work.",
     summary: "Large randomised trials of repurposed agents have mostly been negative: metformin did not improve invasive disease-free survival in the adjuvant breast cancer trial MA.32 (NCT01101438), while aspirin continues to be tested for adjuvant benefit (Add-Aspirin, NCT02804815) and is established in Lynch syndrome prevention. AI screening of prescription and expression databases now proposes candidates faster than trials can test them, and funding for non-proprietary agents is the real bottleneck.",
     principle: "Approved drugs with known safety are tested against cancer endpoints, either on mechanistic grounds or on signals mined from real-world prescription data.",

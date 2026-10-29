@@ -142,6 +142,12 @@ import { drugsEmaWave } from "./drugs-ema-wave";
 import { companiesSponsorsWave } from "./companies-sponsors-wave";
 import { companiesCooperativeGroups, cooperativeGroupTrialCompanies } from "./companies-cooperative-groups";
 import { companiesCooperativeGroupsMigrated } from "./companies-cooperative-groups-migrated";
+import { companiesNew2026Antibodies } from "./companies-new-2026-antibodies";
+import { companiesNew2026Radiopharma } from "./companies-new-2026-radiopharma";
+import { companiesNew2026CellGene } from "./companies-new-2026-cell-gene";
+import { companiesNew2026SmallMolecule } from "./companies-new-2026-small-molecule";
+import { companiesNew2026DxAi } from "./companies-new-2026-dx-ai";
+import { companiesNew2026Sponsors } from "./companies-new-2026-sponsors";
 import { drugsPipelineWave1 } from "./drugs-pipeline-wave1";
 import { trop2DualPayload } from "./trop2-dual-payload";
 import { pipelineTrialsWave2 } from "./pipeline-trials-wave2";
@@ -325,6 +331,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...companiesSponsors,
   ...companiesSponsorsWave3, ...companiesCooperativeGroups, ...companiesCooperativeGroupsMigrated,
   ...companiesMakersWave4,
+  ...companiesNew2026Antibodies, ...companiesNew2026Radiopharma, ...companiesNew2026CellGene, ...companiesNew2026SmallMolecule, ...companiesNew2026DxAi, ...companiesNew2026Sponsors,
   ...targetsWaveSoc, ...targetsReaderEdits, ...targetsGenesWave, ...targetsImmuneMarkers, ...drugsEmaWave, ...companiesSponsorsWave,
   ...drugsPipelineWave1,
   ...trop2DualPayload,

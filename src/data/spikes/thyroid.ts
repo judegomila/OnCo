@@ -138,7 +138,7 @@ const drugs: DrugInput[] = [
 
 // ======================= TECHNOLOGIES =======================
 const technologies: TechnologyInput[] = [
-  tech({ id: "radioiodine-therapy", name: "Radioiodine therapy and whole-body iodine scanning", sections: ["radiopharma", "radiation"], status: "standard-of-care", since: 1946, wikipedia: W("Isotopes_of_iodine#Iodine-131"),
+  tech({ id: "radioiodine-therapy", companies: ["nuclide-therapeutics"], name: "Radioiodine therapy and whole-body iodine scanning", sections: ["radiopharma", "radiation"], status: "standard-of-care", since: 1946, wikipedia: W("Isotopes_of_iodine#Iodine-131"),
     tldr: "Using the thyroid's natural appetite for iodine to image and treat thyroid cancer with a radioactive form of it. The oldest theranostic, and now used more selectively than it was.",
     summary: "I-123 or low-activity I-131 scans map iodine-avid tissue; therapeutic I-131 ablates remnants or treats metastases. Randomised trials (HiLo, ESTIMABL1/2, IoN) have progressively reduced activity and then removed ablation for low-risk disease. Refractory disease (no uptake, or progression despite uptake) defines the population for kinase inhibitors; redifferentiation with MEK/BRAF inhibitors can restore uptake in selected patients.",
     principle: "Thyroid cells take up iodine through the sodium-iodide symporter after TSH stimulation; the beta emission treats, the gamma emission images.",

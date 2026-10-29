@@ -7,7 +7,10 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 29 October 2026
+- 108 records that nothing linked to now appear on the pages they belong on, and six genes stop being called HER2 amplicon neighbours
+- Six genes from other chromosomes stop being listed as HER2 amplicon neighbours
 - The immune and microenvironment pages now show the trials acting on them: 88 for T-cell exhaustion, 28 for macrophages, 22 for adenosine
+- Give 108 orphan records a way in from the records they belong to
 - Alligator Bioscience's page stops claiming a single-arm trial showed longer survival
 - Connect the immune and microenvironment mechanisms to the agents and trials acting on them
 - To-do: a profile for Melissa Taylor, once the owner confirms which one

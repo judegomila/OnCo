@@ -7,6 +7,9 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 29 October 2026
+- 262 oncology companies new to OnCo, and 82 existing ones brought up to date with this year's acquisitions, approvals and listings
+- Exact Sciences records the completed Abbott purchase, with Abbott's own release
+- 262 oncology companies from 2024 to 2026 added, and 82 existing companies brought up to date with their acquisitions, approvals and closures
 - Every multi-cancer early detection test we could verify, 27 of them worldwide, with their real performance, regulatory status and an honest grade
 - Every multi-cancer early detection test we could find: 27 tests, 13 new companies, 57 registered studies and 26 papers
 - Organisations without a logo show OnCo's own initials tile instead of a stock icon, and a profile for Dr Melissa Taylor at UCSF

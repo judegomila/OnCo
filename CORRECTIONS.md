@@ -2,6 +2,14 @@
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
+## 2026-10-29
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-10-29 | [DETECT-A (Science 2020)](/key-papers/paper-detect-a-science-2020/) | Linked ClinicalTrials.gov NCT03934866 as the study's registration; that record is the UCL SUMMIT lung screening study. The paper's full text cites no registry number. The record also said 12 blood-detected cancers were treated with surgery; the paper says 15 of the 26 underwent PET-CT and nine of those (60%) were surgically excised. | Multi-cancer early detection census; registry record and paper full text read | Link removed and figures corrected (this commit) |
+| 2026-10-29 | [CancerSEEK (Science 2018)](/key-papers/paper-cohen-cancerseek-multi-analyte-blood-test-science-2018/) | Linked the CancerSEEK paper to Caris Life Sciences' MI Cancer Seek, an unrelated tumour profiling test with a similar name. | Multi-cancer early detection census | Linked to the new CancerSEEK and Cancerguard records instead (this commit) |
+| 2026-10-29 | [nhs-galleri](/trials/nhs-galleri/) | Said no peer-reviewed primary-endpoint paper existed; Sasieni et al. published it in NEJM (DOI 10.1056/NEJMoa2505723): incidence rate ratio for stage III or IV cancer 1.03 (95% CI 0.92 to 1.14). | Multi-cancer early detection census; Europe PMC | Summary updated and paper record added (this commit) |
+
 ## 2026-10-26
 
 | Date | Entity | What was wrong | How found | Fix |

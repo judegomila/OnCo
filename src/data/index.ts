@@ -105,6 +105,9 @@ import { protocolUpgradesRtSurgery } from "./spikes/protocol-upgrades-rt-surgery
 import { protocolUpgradesCare } from "./spikes/protocol-upgrades-care";
 import { rejuvenationMeasurement } from "./spikes/rejuvenation-measurement";
 import { tests } from "./tests";
+import { mcedPapers } from "./mced-census";
+import { mcedTests, mcedCompanies } from "./mced-census-tests";
+import { mcedTrials } from "./mced-census-trials";
 import { nciCoverage } from "./nci-coverage";
 import { institutionsIndia } from "./institutions/india";
 import { institutionsGermany } from "./institutions/germany";
@@ -299,6 +302,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...protocolUpgradesCare,
   ...rejuvenationMeasurement,
   ...tests,
+  ...mcedPapers, ...mcedTests, ...mcedCompanies, ...mcedTrials,
   ...nciCoverage,
   ...networkInstitutions, ...networkPeople,
   ...institutionsIndia,

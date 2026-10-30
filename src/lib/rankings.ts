@@ -6,6 +6,7 @@ import { logoSrc } from "./logos";
 import { portraitSrc } from "./portraits";
 import { modalityGroup } from "./modality-group";
 import { isSupportive, treatments } from "./supportive-care";
+import { isMedicine } from "./product-class";
 
 /**
  * League tables computed from corpus counts and dates only. Every ranking names the field it counts, states its
@@ -132,12 +133,12 @@ const DEFS: Def[] = [
     slug: "targets-by-drugs", title: "Targets by number of products", kind: "target",
     basis: "Targets ordered by how many product records in the corpus aim at them, any phase.",
     metricLabel: "Products", contextLabel: "Approved",
-    how: "Counts drug records whose targets field lists the target. Coverage is measured on products of a targeted modality (antibodies, conjugates, small molecules, cell therapies and the like); cytotoxics, hormonal agents, tests, devices and imaging agents have no molecular target field to fill and are not counted against it. The context column counts those products with status approved.",
+    how: "Counts drug records whose targets field lists the target, leaving out the companion diagnostics and imaging agents that measure it rather than act on it (a PD-L1 staining assay lists PD-L1 as its target). Coverage is measured on products of a targeted modality (antibodies, conjugates, small molecules, cell therapies and the like); cytotoxics, hormonal agents, tests, devices and imaging agents have no molecular target field to fill and are not counted against it. The context column counts those products with status approved.",
     compute: (g) => {
       const untargeted = new Set(["Cytotoxic", "Test", "Device", "Imaging agent", "Hormonal"]);
       const targeted = treatments(g).filter((d) => !untargeted.has(modalityGroup(d.modality)));
       const rows = g.kind("target").map((t) => {
-        const drugs = incoming(g, t.id, "drug").filter((d) => !isSupportive(d));
+        const drugs = incoming(g, t.id, "drug").filter((d) => !isSupportive(d) && isMedicine(d));
         return base(t, drugs.length, n(drugs.length), `${n(drugs.filter((d) => d.status === "approved").length)} approved`);
       }).filter((r) => r.value > 0);
       return { rows, coverage: cov(targeted.filter((d) => d.targets.length).length, targeted.length, "products of a targeted modality name at least one target") };

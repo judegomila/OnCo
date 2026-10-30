@@ -3,16 +3,24 @@
 import { MoleculeThumb } from "./MoleculeThumb";
 import { hasStructure } from "@/lib/structure-ids";
 import { Tip } from "./Tip";
+import { productClass, type ProductClass } from "@/lib/product-class";
 
-/** What kind of product this is when there is no small molecule to draw, inferred from the modality text. */
-export function placeholderKind(modality?: string): { id: string; label: string; why: string } {
+/**
+ * What kind of product this is when there is no small molecule to draw, inferred from the modality text. Tests,
+ * devices and imaging agents come first and from the shared rule in src/lib/product-class.ts, so the placeholder and
+ * the page title never disagree about whether a product is a medicine.
+ */
+export function placeholderKind(modality?: string, known?: ProductClass): { id: string; label: string; why: string } {
   const m = (modality ?? "").toLowerCase();
+  const cls = known ?? productClass({ modality });
+  if (cls === "test") return { id: "test", label: "Test", why: "A test on blood, tissue, urine or an image, not a medicine, so there is no molecule to draw." };
+  if (cls === "device") return { id: "device", label: "Device or software", why: "A device or a piece of software, not a medicine, so there is no molecule to draw." };
+  if (cls === "imaging-agent") return { id: "imaging", label: "Imaging agent", why: "Given to show a tumour on a scan or during surgery, not to treat it. Its structure is shown where we have one." };
   if (/antibody-drug|adc|conjugate/.test(m)) return { id: "adc", label: "Antibody-drug conjugate", why: "An antibody carrying a payload: too large for a small-molecule drawing. The payload itself has a structure on its own page." };
   if (/bispecific|engager|antibody|mab\b|checkpoint/.test(m)) return { id: "antibody", label: "Antibody", why: "A protein of about 150,000 atoms; shown as its Y shape rather than a wireframe." };
   if (/car-t|car t|tcr|til\b|cell therapy|cell-therapy|nk cell|lymphocyte/.test(m)) return { id: "cell", label: "Cell therapy", why: "Living cells, not a molecule." };
   if (/vaccine|mrna|oncolytic|virus|gene therapy|bacteri|oligonucleotide|nucleic acid/.test(m)) return { id: "vaccine", label: "Vaccine, viral or nucleic-acid therapy", why: "Nucleic acid, protein, a whole virus or live bacteria rather than one molecule." };
   if (/radioligand|radiopharm|isotope|lutetium|actinium|radium|iodine|alpha therapy|emitter/.test(m)) return { id: "radio", label: "Radiopharmaceutical", why: "A radioactive atom, alone or on a carrier; the carrier's structure is shown where known." };
-  if (/test|assay|diagnostic|sequencing|panel|classifier|device|software|imaging/.test(m)) return { id: "test", label: "Test or device", why: "Not a drug, so there is no molecule." };
   if (/cytokine|fusion|enzyme|protein|peptide|hormone analogue|recombinant|erythropoietin|interferon|growth factor|colony-stimulating|interleukin|il-\d|superagonist|toxin/.test(m)) return { id: "protein", label: "Protein therapeutic", why: "A large protein; no small-molecule drawing." };
   if (/nanoparticle/.test(m)) return { id: "particle", label: "Nanoparticle", why: "An inorganic or polymer particle of many thousands of atoms, not a single molecule." };
   if (/not yet disclosed|undisclosed/.test(m)) return { id: "undisclosed", label: "Structure not yet disclosed", why: "An investigational small molecule or peptide whose chemical structure the sponsor has not published; PubChem has no record, so there is nothing to draw yet." };
@@ -27,7 +35,8 @@ function Glyph({ id }: { id: string }) {
     case "cell": return <svg viewBox="0 0 32 32" aria-hidden {...s}><path d="M16 4c6 0 12 5 12 12s-5 12-12 12S4 23 4 16 10 4 16 4Z" /><circle cx="14" cy="15" r="4" /><circle cx="22" cy="21" r="1.2" fill="currentColor" stroke="none" /></svg>;
     case "vaccine": return <svg viewBox="0 0 32 32" aria-hidden {...s}><path d="M6 26l6-6M10 22l10-10 2 2-10 10M18 10l4-4M20 6l6 6M24 8l2-2" /></svg>;
     case "radio": return <svg viewBox="0 0 32 32" aria-hidden {...s}><circle cx="16" cy="16" r="2.2" fill="currentColor" stroke="none" /><ellipse cx="16" cy="16" rx="12" ry="5" /><ellipse cx="16" cy="16" rx="12" ry="5" transform="rotate(60 16 16)" /><ellipse cx="16" cy="16" rx="12" ry="5" transform="rotate(120 16 16)" /></svg>;
-    case "test": return <svg viewBox="0 0 32 32" aria-hidden {...s}><rect x="6" y="6" width="20" height="20" rx="3" /><path d="M11 16h10M11 12h6M11 20h8" /></svg>;
+    case "test": case "device": return <svg viewBox="0 0 32 32" aria-hidden {...s}><rect x="6" y="6" width="20" height="20" rx="3" /><path d="M11 16h10M11 12h6M11 20h8" /></svg>;
+    case "imaging": return <svg viewBox="0 0 32 32" aria-hidden {...s}><path d="M3 16s5-8 13-8 13 8 13 8-5 8-13 8S3 16 3 16Z" /><circle cx="16" cy="16" r="4" /></svg>;
     case "protein": return <svg viewBox="0 0 32 32" aria-hidden {...s}><path d="M6 20c3-8 6 8 9 0s6-8 9 0M8 12c2-3 4 3 6 0s4-3 6 0" /></svg>;
     case "particle": return <svg viewBox="0 0 32 32" aria-hidden {...s}><circle cx="16" cy="16" r="10" /><circle cx="12" cy="13" r="1.4" fill="currentColor" stroke="none" /><circle cx="19" cy="11" r="1.4" fill="currentColor" stroke="none" /><circle cx="21" cy="18" r="1.4" fill="currentColor" stroke="none" /><circle cx="14" cy="20" r="1.4" fill="currentColor" stroke="none" /></svg>;
     case "undisclosed": return <svg viewBox="0 0 32 32" aria-hidden {...s} strokeDasharray="3 3"><path d="M16 4l10 6v12l-10 6-10-6V10Z" /><path d="M13 14a3 3 0 1 1 3 3v2M16 22.5v.5" strokeDasharray="0" /></svg>;
@@ -39,9 +48,9 @@ function Glyph({ id }: { id: string }) {
  * A fixed-size slot for a product's molecule. Shows the rotating wireframe when a structure exists and an
  * explained placeholder glyph when it does not, so tables and cards line up whichever it is.
  */
-export function MoleculeSlot({ drugId, modality, className = "h-10 w-10", name }: { drugId: string; modality?: string; className?: string; name?: string }) {
+export function MoleculeSlot({ drugId, modality, cls, className = "h-10 w-10", name }: { drugId: string; modality?: string; /** The product class when the modality text is not to hand (a search result carries the class, not the modality). */ cls?: ProductClass; className?: string; name?: string }) {
   if (hasStructure(drugId)) return <span className={`inline-flex shrink-0 items-center justify-center rounded-md border border-border bg-card overflow-hidden ${className}`}><MoleculeThumb drugId={drugId} className="h-full w-full" /></span>;
-  const p = placeholderKind(modality);
+  const p = placeholderKind(modality, cls);
   return (
     <Tip title={p.label} text={p.why}>
       <span role="img" className={`inline-flex shrink-0 items-center justify-center rounded-md border border-dashed border-border bg-surface text-muted/70 overflow-hidden cursor-help ${className}`} aria-label={`${name ?? drugId}: ${p.label.toLowerCase()}, no molecule drawing`}>

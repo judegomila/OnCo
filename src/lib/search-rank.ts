@@ -114,7 +114,7 @@ export const NAME_BOOST = {
 /** The MiniSearch build every consumer shares, so tests index exactly what the browser indexes. */
 export const SEARCH_INDEX_OPTIONS: Options<SearchDoc> = {
   fields: ["name", "aka", "tldr", "tags", "id"],
-  storeFields: ["id", "kind", "name", "aka", "tldr", "route", "status", "cancers", "parent", "tags"],
+  storeFields: ["id", "kind", "name", "aka", "tldr", "route", "status", "cancers", "parent", "tags", "cls"],
   // `weights.prefix` is MiniSearch's own discount on a prefix expansion against an exact term, and its default
   // of 0.375 is why typing "pembro" returned trials with the word "Pembro" in their titles instead of
   // pembrolizumab: the trials matched the term exactly, the drug only by prefix. A reader typing a prefix means

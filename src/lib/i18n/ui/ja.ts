@@ -209,6 +209,7 @@ export const ja: UiDict = {
   "kind.technology.label": "技術", "kind.technology.plural": "技術",
   "kind.target.label": "標的", "kind.target.plural": "標的",
   "kind.drug.label": "治療", "kind.drug.plural": "製品", "kind.drug.title": "治療と検査",
+  "product.test.label": "検査", "product.test.group": "検査", "product.imaging-agent.label": "画像診断薬", "product.imaging-agent.group": "画像診断薬", "product.device.label": "医療機器・ソフトウェア", "product.device.group": "医療機器・ソフトウェア",
   "kind.company.label": "企業", "kind.company.plural": "企業",
   "kind.institution.label": "機関", "kind.institution.plural": "機関",
   "kind.pathway.label": "経路", "kind.pathway.plural": "経路",

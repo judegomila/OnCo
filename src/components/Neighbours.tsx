@@ -3,10 +3,10 @@ import { IntentLink } from "./IntentLink";
 import type { Kind } from "@/lib/kinds";
 import type { Entity } from "@/lib/schema";
 import { KIND_META, KINDS } from "@/lib/kinds";
-import { KindName } from "./T";
+import { KindName, ProductClassName } from "./T";
+import { PRODUCT_CLASSES, PRODUCT_CLASS_META, productClass, type ProductClass } from "@/lib/product-class";
 import type { SimilarLink } from "@/lib/similar";
-import { kindTone } from "@/lib/text";
-import { ChipList } from "./ui";
+import { ChipList, KindChip } from "./ui";
 import { DrugGrid } from "./DrugCard";
 import type { Drug } from "@/lib/schema";
 
@@ -25,21 +25,36 @@ export function Neighbours({ groups, exclude = [], similar, max, moreHref }: { g
       {similar && similar.length > 0 && <SimilarStrip items={similar} />}
       {order.length > 0 && (
         <div className="grid gap-4 sm:grid-cols-2 min-w-0">
-          {order.map((k) => {
+          {order.flatMap((k) => {
             const items = groups.get(k)!;
-            return (
-              <section key={k} aria-label={KIND_META[k].plural} className={`card p-4 min-w-0 ${k === "drug" ? "sm:col-span-2" : ""}`}>
+            if (k === "drug") return productGroups(items as Drug[]).map(({ cls, drugs }) => (
+              <section key={`drug-${cls}`} aria-label={PRODUCT_CLASS_META[cls].group} className="card p-4 min-w-0 sm:col-span-2" data-product-class={cls}>
+                {/* Products split by what they are: a blood test sat under "Drugs" on the page pairing it with
+                    adjuvant treatment until the owner caught it, 30 October 2026 (src/lib/product-class.ts). */}
+                <h3 className="kicker mb-2.5">{cls === "medicine" ? <KindName kind="drug" form="plural" fallback={KIND_META.drug.plural} /> : <ProductClassName cls={cls} form="group" />}</h3>
+                <DrugGrid drugs={max && drugs.length > max ? drugs.slice(0, max) : drugs} compact />{max && drugs.length > max && <p className="mt-2 text-sm"><Link href={moreHref?.(k) ?? `/${KIND_META[k].route}/`} className="underline" data-more>and {drugs.length - max} more →</Link></p>}
+              </section>
+            ));
+            return [(
+              <section key={k} aria-label={KIND_META[k].plural} className="card p-4 min-w-0">
                 {/* No count beside the heading: the rows are right there, and where the list is capped the
                     "and N more" link below already says how many are not shown. Owner, 2 October 2026. */}
                 <h3 className="kicker mb-2.5"><KindName kind={k} form="plural" fallback={KIND_META[k].plural} /></h3>
-                {k === "drug" ? <><DrugGrid drugs={(max && items.length > max ? items.slice(0, max) : items) as Drug[]} compact />{max && items.length > max && <p className="mt-2 text-sm"><Link href={moreHref?.(k) ?? `/${KIND_META[k].route}/`} className="underline" data-more>and {items.length - max} more →</Link></p>}</> : <ChipList items={items} kind={k} max={max} moreHref={moreHref?.(k)} />}
+                <ChipList items={items} kind={k} max={max} moreHref={moreHref?.(k)} />
               </section>
-            );
+            )];
           })}
         </div>
       )}
     </div>
   );
+}
+
+/** Linked products in the order medicines, tests, imaging agents, devices; only the classes that have any. */
+export function productGroups(drugs: Drug[]): { cls: ProductClass; drugs: Drug[] }[] {
+  const by = new Map<ProductClass, Drug[]>();
+  for (const d of drugs) { const c = productClass(d); by.set(c, [...(by.get(c) ?? []), d]); }
+  return PRODUCT_CLASSES.filter((c) => by.has(c)).map((cls) => ({ cls, drugs: by.get(cls)! }));
 }
 
 /** "Similar pages": not linked directly, but sharing links. Each card names what is shared. */
@@ -53,7 +68,7 @@ export function SimilarStrip({ items }: { items: SimilarLink[] }) {
         {items.map((s) => (
           <li key={s.id} className="min-w-0 rounded-lg border border-border p-2.5 text-sm">
             <div className="flex items-center gap-1.5 mb-1">
-              <span className={`chip border ${kindTone(s.kind)}`}><KindName kind={s.kind} form="label" fallback={KIND_META[s.kind].label} /></span>
+              <KindChip kind={s.kind} cls={s.cls} />
             </div>
             <IntentLink href={s.route} className="font-medium leading-snug hover:underline">{s.name}</IntentLink>
             <p className="text-xs text-muted mt-1 leading-snug">

@@ -240,6 +240,7 @@ export const EN = {
   "kind.technology.label": "Technology", "kind.technology.plural": "technologies",
   "kind.target.label": "Target", "kind.target.plural": "targets",
   "kind.drug.label": "Treatment", "kind.drug.plural": "drugs", "kind.drug.title": "Treatments & tests",
+  "product.test.label": "Test", "product.test.group": "Tests", "product.imaging-agent.label": "Imaging agent", "product.imaging-agent.group": "Imaging agents", "product.device.label": "Device or software", "product.device.group": "Devices and software",
   "kind.company.label": "Company", "kind.company.plural": "companies",
   "kind.institution.label": "Institution", "kind.institution.plural": "institutions",
   "kind.pathway.label": "Pathway", "kind.pathway.plural": "pathways",

@@ -14,6 +14,8 @@
  * "not-filed" is used only where a sponsor has publicly said so or where a product is regionally
  * exclusive by design (e.g. China-only PD-1 antibodies without ex-China filings).
  */
+import { productClass } from "@/lib/product-class";
+
 export type Region = "US" | "EU" | "UK" | "JP" | "CN" | "AU" | "IN";
 export const REGIONS: Region[] = ["US", "EU", "UK", "JP", "CN", "AU", "IN"];
 export const REGION_META: Record<Region, { label: string; regulator: string; url: string; flag: string }> = {
@@ -576,9 +578,14 @@ export function approvedRegions(row: RegionalRow): Region[] {
 }
 
 /** True when a product's approvals lie entirely outside the US and EU (e.g. China-only antibodies): a regional product rather than a gap in our records. */
-/** Tests, assays, imaging kits and AI software are cleared as devices, not authorised as medicines, so they carry no regional drug-approval row. */
+/**
+ * Tests, imaging agents, devices and AI software carry no regional drug-approval row. The class comes from the one rule in
+ * src/lib/product-class.ts. Until 30 October 2026 this was its own pattern, case-insensitive, with "kit" in it, so the KIT
+ * kinase in a modality ("Small-molecule kinase inhibitor (BCR-ABL, KIT, PDGFRA)") made imatinib, sunitinib and six other
+ * approved medicines read as diagnostics and skip the check.
+ */
 export function isDiagnostic(modality?: string): boolean {
-  return /\b(test|assay|kit|software|diagnostic|imaging agent|screening|classifier|panel)\b/i.test(modality ?? "");
+  return productClass({ modality }) !== "medicine";
 }
 
 /** A product's own `approvals` field names a US or EU approval, so it counts as anchored even without a curated regional row. */

@@ -11,6 +11,7 @@ import type { Graph } from "../src/lib/graph";
 import { REL_FIELDS, routeFor, type Entity, type Kind } from "../src/lib/schema";
 import { wikidataIds } from "../src/data/wikidata-ids";
 import { geneIdUrls } from "../src/lib/gene-ids";
+import { PRODUCT_CLASS_META, productClass } from "../src/lib/product-class";
 
 export const SITE = "https://onco.cc";
 export const NS = `${SITE}/ns#`;
@@ -64,7 +65,8 @@ export function recordTriples(g: Graph, e: Entity): Triple[] {
   const s = iri(pageIri(e));
   const out: Triple[] = [];
   const add = (p: string, o: string) => out.push([p, o]);
-  add(RDF_TYPE, iri(`${SCHEMA}${TYPE[e.kind]}`));
+  // A product that is not a medicine is typed as what it is (src/lib/product-class.ts): Signatera is a MedicalTest, not a Drug.
+  add(RDF_TYPE, iri(`${SCHEMA}${e.kind === "drug" ? PRODUCT_CLASS_META[productClass(e)].schemaType : TYPE[e.kind]}`));
   add(`${NS}kind`, lit(e.kind));
   add(`${SCHEMA}identifier`, lit(e.id));
   add(`${SCHEMA}name`, lit(e.name, "en"));

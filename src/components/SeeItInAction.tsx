@@ -8,10 +8,15 @@ import type { StructureEntry } from "./Molecule3D";
 
 export type ActionTarget = { id: string; name: string; route: string };
 
-/** Class-level account of what happens after binding, in plain words, used when a product has no steps of its own. */
+/**
+ * Class-level account of what happens after binding, in plain words, used when a product has no steps of its own. A
+ * test, an imaging agent or a device has none: it does not act on the cancer, and until 30 October 2026 83 of them fell
+ * to the small-molecule default and read "the cancer cells stop dividing or die" (src/lib/product-class.ts).
+ */
 export function defaultSteps(group: string, drug: string, target: string): string[] {
   const t = target || "its target";
   switch (group) {
+    case "Test": case "Imaging agent": case "Device": return [];
     case "Antibody-drug conjugate": return [`${drug}'s antibody arm binds ${t} on the surface of the cancer cell.`, "The cell pulls the whole conjugate inside (internalisation).", "The linker is cut in the cell's acidic compartments and the payload is released.", "The payload damages DNA or microtubules, so the cell cannot divide.", "The cancer cell dies; some payload leaks to neighbouring cells (bystander effect)."];
     case "Antibody": return [`${drug} binds ${t}.`, "The bound receptor or ligand can no longer pass its signal.", "Immune cells may recognise the antibody-coated cell and attack it.", "Growth and survival signals fall and the cancer cells stop dividing or die."];
     case "Bispecific or engager": return [`One arm of ${drug} binds ${t} on the cancer cell.`, "The other arm grips a T cell, holding the two cells together.", "The T cell is activated and releases cytotoxic granules.", "The cancer cell is killed and the T cell moves on to the next one."];
@@ -33,7 +38,7 @@ export function SeeItInAction({ drug, group, mechanism, steps, complex, molecule
   const targetText = targets.map((t) => t.name).join(", ");
   const list = steps.length ? steps : defaultSteps(group, drug, targets[0]?.name ?? "");
   const hasDock = !!(complex || molecule);
-  if (!hasDock && !schematic) return <MechanismCard steps={list} />;
+  if (!hasDock && !schematic) return list.length ? <MechanismCard steps={list} /> : null;
   return (
     <section className="card overflow-hidden" aria-label="See it in action">
       <div className="px-4 pt-4 pb-3 flex flex-wrap items-baseline justify-between gap-2">
@@ -43,7 +48,7 @@ export function SeeItInAction({ drug, group, mechanism, steps, complex, molecule
             {mechanism}{targets.length ? <> Connects to {targets.map((t, i) => <span key={t.id}>{i > 0 && (i === targets.length - 1 ? " and " : ", ")}<Link href={t.route} className="underline">{t.name}</Link></span>)}.</> : null}
           </p>
         </div>
-        <span className="text-[11px] text-muted">{complex ? "Left: a solved structure of the drug bound to its target." : hasDock ? "Left: the molecule; no solved complex yet." : ""}</span>
+        <span className="text-[11px] text-muted">{complex ? "Left: a solved structure of the molecule bound to its target." : hasDock ? "Left: the molecule; no solved complex yet." : ""}</span>
       </div>
       <div className={`grid gap-px bg-border ${hasDock && schematic ? "md:grid-cols-2" : ""}`}>
         {hasDock && (
@@ -59,9 +64,9 @@ export function SeeItInAction({ drug, group, mechanism, steps, complex, molecule
           </div>
         )}
       </div>
-      <div className="border-t border-border p-3">
+      {list.length > 0 && <div className="border-t border-border p-3">
         <MechanismCard steps={list} title={`${hasDock && schematic ? 3 : 2}. Step by step`} />
-      </div>
+      </div>}
     </section>
   );
 }

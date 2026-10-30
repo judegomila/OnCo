@@ -209,6 +209,7 @@ export const hi: UiDict = {
   "kind.technology.label": "तकनीक", "kind.technology.plural": "तकनीकें",
   "kind.target.label": "लक्ष्य", "kind.target.plural": "लक्ष्य",
   "kind.drug.label": "उपचार", "kind.drug.plural": "उत्पाद", "kind.drug.title": "उपचार और जाँच",
+  "product.test.label": "जाँच", "product.test.group": "जाँचें", "product.imaging-agent.label": "इमेजिंग एजेंट", "product.imaging-agent.group": "इमेजिंग एजेंट", "product.device.label": "उपकरण या सॉफ़्टवेयर", "product.device.group": "उपकरण और सॉफ़्टवेयर",
   "kind.company.label": "कंपनी", "kind.company.plural": "कंपनियाँ",
   "kind.institution.label": "संस्थान", "kind.institution.plural": "संस्थान",
   "kind.pathway.label": "मार्ग", "kind.pathway.plural": "मार्ग",

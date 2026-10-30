@@ -1,6 +1,17 @@
-/** Coarse class of a product from its modality text, for gallery and filter facets. Pure; safe on server and client. */
+import { productClass } from "./product-class";
+
+/**
+ * Coarse class of a product from its modality text, for gallery and filter facets. Pure; safe on server and client.
+ * Tests, devices and imaging agents come first, from the shared rule in src/lib/product-class.ts: before 30 October 2026
+ * a urine "mRNA biomarker test" fell into "Vaccine or virus", a zirconium-89 PET antibody into "Antibody" and a
+ * lymphatic-mapping tracer into "Radiopharmaceutical", and each record page then described it killing cancer cells.
+ */
 export function modalityGroup(modality: string): string {
   const m = modality.toLowerCase();
+  const cls = productClass({ modality });
+  if (cls === "test") return "Test";
+  if (cls === "device") return "Device";
+  if (cls === "imaging-agent") return "Imaging agent";
   if (/bispecific adc|\badc\b|drug conjugate|toxin conjugate|immunotoxin|cytotoxin|photoimmunotherapy/.test(m)) return "Antibody-drug conjugate";
   if (/bispecific|engager|immtac|bifunctional|biparatopic/.test(m)) return "Bispecific or engager";
   if (/antibody|\bmab\b|anti-pd|anti-ctla|anti-lag|anti-tigit|anti-cd|anti-her2|anti-vegf|anti-egfr|anti-gd2|checkpoint/.test(m)) return "Antibody";

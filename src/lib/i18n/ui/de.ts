@@ -209,6 +209,7 @@ export const de: UiDict = {
   "kind.technology.label": "Technologie", "kind.technology.plural": "Technologien",
   "kind.target.label": "Zielstruktur", "kind.target.plural": "Zielstrukturen",
   "kind.drug.label": "Behandlung", "kind.drug.plural": "Produkte", "kind.drug.title": "Therapien und Tests",
+  "product.test.label": "Test", "product.test.group": "Tests", "product.imaging-agent.label": "Bildgebendes Mittel", "product.imaging-agent.group": "Bildgebende Mittel", "product.device.label": "Gerät oder Software", "product.device.group": "Geräte und Software",
   "kind.company.label": "Unternehmen", "kind.company.plural": "Unternehmen",
   "kind.institution.label": "Institution", "kind.institution.plural": "Institutionen",
   "kind.pathway.label": "Signalweg", "kind.pathway.plural": "Signalwege",

@@ -3,11 +3,12 @@ import { graph } from "./graph";
 import { portraitSrc } from "./portraits";
 import { NAV_GROUPS } from "./nav";
 import { routeFor, type Kind } from "./kinds";
+import { nonMedicineClass, type ProductClass } from "./product-class";
 import { engineRoute, FORMATS, modalityRoute } from "./modular-formats";
 import { DECISION_TOOLS, toolRoute } from "./decision-tools";
 import { COMPARE_SETS, compareRoute } from "./cancer-compare";
 
-export type SearchDoc = { id: string; kind: Kind | "page"; name: string; /** Aliases, one per line: MiniSearch tokenises on the newline as it does on a space, and the ranking can still tell "Breast cancer in men" from a lone "Breast". */ aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string; /** The broader record this is a subtype of (a cancer's parent page); Ask ranks a subtype below its parent unless the query names it. */ parent?: string; /** A person's portrait, so the command palette can show a face without importing the portrait index. */ portrait?: string };
+export type SearchDoc = { id: string; kind: Kind | "page"; name: string; /** Aliases, one per line: MiniSearch tokenises on the newline as it does on a space, and the ranking can still tell "Breast cancer in men" from a lone "Breast". */ aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string; /** The broader record this is a subtype of (a cancer's parent page); Ask ranks a subtype below its parent unless the query names it. */ parent?: string; /** A person's portrait, so the command palette can show a face without importing the portrait index. */ portrait?: string; /** A product that is not a medicine (src/lib/product-class.ts), so its result chip says Test rather than Treatment. */ cls?: Exclude<ProductClass, "medicine"> };
 
 /** Pages outside the navigation groups that a search should still reach. */
 export const SITE_PAGES: ReadonlyArray<{ href: string; label: string; blurb: string }> = [
@@ -72,6 +73,7 @@ export function searchDocs(): SearchDoc[] {
     // the palette: importing the portrait index into a component the root layout renders pulls the whole
     // index into the first bundle, which src/app/layout-imports.test.ts refuses.
     portrait: e.kind === "person" ? portraitSrc(e.id) : undefined,
+    cls: nonMedicineClass(e),
   }));
 }
 

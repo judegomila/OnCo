@@ -12,6 +12,7 @@ import { graph } from "../src/lib/graph";
 import { KIND_META, KINDS, routeFor, type Entity } from "../src/lib/schema";
 import { NAV_GROUPS } from "../src/lib/nav";
 import { MACHINE } from "../src/lib/seo";
+import { productLabel } from "../src/lib/product-class";
 import { paragraphs } from "../src/lib/text";
 import { sectionsContextLines } from "../src/lib/record-sections";
 
@@ -25,7 +26,7 @@ function fields(e: Entity): string[] {
   const out: string[] = [];
   const row = (k: string, v?: string | number | boolean | null) => { if (v !== undefined && v !== null && v !== "" && v !== false) out.push(`- ${k}: ${v}`); };
   const list = (k: string, vs: string[]) => { if (vs.length) out.push(`- ${k}: ${vs.join("; ")}`); };
-  row("Kind", KIND_META[e.kind].label);
+  row("Kind", productLabel(e) ?? KIND_META[e.kind].label);
   row("Status", e.status);
   row("Last checked", e.asOf);
   list("Also known as", e.aka);
@@ -52,7 +53,7 @@ function fields(e: Entity): string[] {
 }
 
 function contextMd(e: Entity): string {
-  const parts: string[] = [`# ${e.name}`, "", `Source: ${url(e)}  `, `OnCo record \`${e.id}\` (${KIND_META[e.kind].label}). Data CC BY-NC 4.0, attribute "Data from OnCo (onco.cc)"; commercial use needs a licence.`, "", "## TL;DR", "", e.tldr, "", "## Summary", "", ...paragraphs(e.summary).flatMap((p) => [p, ""])];
+  const parts: string[] = [`# ${e.name}`, "", `Source: ${url(e)}  `, `OnCo record \`${e.id}\` (${productLabel(e) ?? KIND_META[e.kind].label}). Data CC BY-NC 4.0, attribute "Data from OnCo (onco.cc)"; commercial use needs a licence.`, "", "## TL;DR", "", e.tldr, "", "## Summary", "", ...paragraphs(e.summary).flatMap((p) => [p, ""])];
   const f = fields(e);
   if (f.length) parts.push("## Fields", "", ...f, "");
   if (e.kind === "cancer") {
@@ -162,7 +163,7 @@ const full: string[] = [
 for (const k of liveKinds) {
   const list = g.kind(k);
   full.push(`## ${KIND_META[k].plural[0].toUpperCase()}${KIND_META[k].plural.slice(1)} (${list.length.toLocaleString("en-GB")})`, "", KIND_META[k].blurb, "");
-  for (const e of list) full.push(`- ${e.name} (${KIND_META[k].label.toLowerCase()}): ${e.tldr.replace(/\s+/g, " ").trim()} ${SITE}/api/v1/context/${e.id}.md`);
+  for (const e of list) full.push(`- ${e.name} (${(productLabel(e) ?? KIND_META[k].label).toLowerCase()}): ${e.tldr.replace(/\s+/g, " ").trim()} ${SITE}/api/v1/context/${e.id}.md`);
   full.push("");
 }
 writeFileSync(join(process.cwd(), "public", "llms-full.txt"), full.join("\n"));

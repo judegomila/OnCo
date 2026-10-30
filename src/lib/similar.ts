@@ -11,9 +11,10 @@
 import { graph } from "./graph";
 import { publicTags } from "./tags";
 import { routeFor, type Kind } from "./kinds";
+import { nonMedicineClass, type ProductClass } from "./product-class";
 
 export type Similar = { id: string; score: number; shared: string[]; sharedTags: string[] };
-export type SimilarLink = { id: string; kind: Kind; name: string; route: string; score: number; shared: Array<{ id: string; name: string; route: string }>; sharedTags: string[] };
+export type SimilarLink = { id: string; kind: Kind; /** A product that is not a medicine (src/lib/product-class.ts), so its chip says Test rather than Treatment. */ cls?: ProductClass; name: string; route: string; score: number; shared: Array<{ id: string; name: string; route: string }>; sharedTags: string[] };
 
 export const TOP_N = 8;
 const MIN_SCORE = 0.04;
@@ -80,6 +81,6 @@ export function similarLinks(id: string, explain = 4): SimilarLink[] {
   const g = graph();
   return similarFor(id).map((s) => {
     const e = g.must(s.id);
-    return { id: e.id, kind: e.kind, name: e.name, route: routeFor(e), score: s.score, shared: s.shared.slice(0, explain).map((n) => { const x = g.must(n); return { id: x.id, name: x.name, route: routeFor(x) }; }), sharedTags: s.sharedTags };
+    return { id: e.id, kind: e.kind, cls: nonMedicineClass(e), name: e.name, route: routeFor(e), score: s.score, shared: s.shared.slice(0, explain).map((n) => { const x = g.must(n); return { id: x.id, name: x.name, route: routeFor(x) }; }), sharedTags: s.sharedTags };
   });
 }

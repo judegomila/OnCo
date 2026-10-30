@@ -1,3 +1,4 @@
+import { recordProductClass } from "@/lib/product-class";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -35,7 +36,7 @@ export default async function PathPage({ params }: { params: Promise<{ id: strin
             <li key={s.entityId} className="ml-6">
               <span className="absolute -left-[13px] mt-1 h-6 w-6 rounded-full bg-accent text-white text-xs font-semibold flex items-center justify-center ring-4 ring-background">{i + 1}</span>
               <Link href={routeFor(s.e)} className="card block p-4 hover:shadow-md hover:-translate-y-px transition">
-                <div className="flex items-center gap-2 mb-1"><KindChip kind={s.e.kind} /><StatusChip status={s.e.status} /></div>
+                <div className="flex items-center gap-2 mb-1"><KindChip kind={s.e.kind} cls={recordProductClass(s.e)} /><StatusChip status={s.e.status} /></div>
                 <div className="font-semibold">{s.e.name}</div>
                 <p className="text-sm text-muted mt-1">{s.e.tldr}</p>
                 <p className="text-sm mt-2"><span className="kicker">Why here</span> <span className="ml-1">{s.why}</span></p>

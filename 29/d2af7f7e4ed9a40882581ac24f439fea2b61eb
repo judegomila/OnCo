@@ -1,0 +1,119 @@
+src/lib/seo.ts
+  s_1e233a6be244f1::t_ef7a7b97d9e741 4
+  s_1e233a6be244f1::t_ee62cf1b63352f 76-77,80
+src/components/NotFoundHelper.tsx
+  s_1e233a6be244f1::t_e66641926a78d2 8,73
+src/lib/i18n/ui/hi.ts
+  s_1e233a6be244f1::t_6b15861fd63641 212
+src/lib/search-rank.ts
+  s_1e233a6be244f1::t_e66641926a78d2 117
+src/lib/health.ts
+  s_1e233a6be244f1::t_c36d9f4136194e 214
+  s_1e233a6be244f1::t_58a26d10e358a9 20
+src/lib/i18n/ui/pt.ts
+  s_1e233a6be244f1::t_6b15861fd63641 212
+src/components/GraphExplorer.tsx
+  s_1e233a6be244f1::t_2d03d4b84e609f 122,246,294,359
+  s_1e233a6be244f1::t_bfc0957181ecdf 15-18
+src/components/JsonLd.tsx
+  s_1e233a6be244f1::t_e6936fd2b70cd9 7,37-42,90-94,107-112,121
+src/lib/i18n/ui/zh.ts
+  s_1e233a6be244f1::t_6b15861fd63641 212
+src/lib/i18n/ui.ts
+  s_1e233a6be244f1::t_6b15861fd63641 243
+src/components/MoleculeSlot.tsx
+  s_1e233a6be244f1::t_5ad944becca9fb 6,13,15,51,53
+  s_1e233a6be244f1::t_0459e5a5116fa3 17,38
+  s_1e233a6be244f1::t_2e4e8b7a2948c2 8-12,16,18,39
+src/app/gaps/page.tsx
+  s_1e233a6be244f1::t_8ac3af63864416 1,45,123
+src/lib/kind-browser.ts
+  s_1e233a6be244f1::t_cde130f608f25a 14,149-152,158,162
+src/lib/rankings.ts
+  s_1e233a6be244f1::t_8a9126989100b3 9,136,141
+src/data/regional-approvals.ts
+  s_1e233a6be244f1::t_d2803a5ee5c670 17-18
+  s_1e233a6be244f1::t_333e647b0eeca8 581-586,588
+src/lib/search-index.ts
+  s_1e233a6be244f1::t_55ebc80d399a05 11
+  s_1e233a6be244f1::t_a62b9281c87002 6
+  s_1e233a6be244f1::t_33fbdc9f485c5d 76
+src/lib/modality-group.ts
+  s_1e233a6be244f1::t_b4a0d8ce5ff089 1-8,11-14
+src/components/EntityDetail.tsx
+  s_1e233a6be244f1::t_95b79cd5584ca6 19,70
+  s_1e233a6be244f1::t_4da8b2478629a0 628-639
+  s_1e233a6be244f1::t_748299a40a5f65 7
+  s_1e233a6be244f1::t_76ea4784eb5a43 282-288
+src/lib/similar.ts
+  s_1e233a6be244f1::t_da9cd095717ef9 14,84
+  s_1e233a6be244f1::t_f864aacf634a54 17
+src/app/failures/page.tsx
+  s_1e233a6be244f1::t_8ac3af63864416 1,51
+src/components/SearchResults.tsx
+  s_1e233a6be244f1::t_31aa087a8ff592 8
+  s_1e233a6be244f1::t_afb8ea438c1a2b 355,358-359
+scripts/build-context.ts
+  s_1e233a6be244f1::t_a0fc630b2f3e4e 29,56,166
+  s_1e233a6be244f1::t_dcfa50c5c6209e 15
+src/components/SeeItInAction.tsx
+  s_1e233a6be244f1::t_ce171a8f53deb9 11-15,19,41,51,67,69
+src/lib/product-class.ts
+  s_1e233a6be244f1::t_9ba66a7a14fe6d 71-76
+  s_1e233a6be244f1::t_27cd37715606ef 22-25,27-31
+  s_1e233a6be244f1::t_24fd0856157e19 1-21,26,32-70,77-84
+src/lib/checkpoints.ts
+  s_1e233a6be244f1::t_f50c2c27e3794b 1
+  s_1e233a6be244f1::t_333e647b0eeca8 65-69,71
+src/lib/i18n/ui/fr.ts
+  s_1e233a6be244f1::t_6b15861fd63641 212
+src/components/Neighbours.tsx
+  s_1e233a6be244f1::t_dc061e53ef2373 6-7
+  s_1e233a6be244f1::t_27b17ce5ab7939 53-59
+  s_1e233a6be244f1::t_f8177c6a6962e4 9
+  s_1e233a6be244f1::t_da9cd095717ef9 71
+  s_1e233a6be244f1::t_feee522378506f 28,30-39,43,45
+src/lib/i18n/ui/ja.ts
+  s_1e233a6be244f1::t_6b15861fd63641 212
+src/lib/product-class.test.ts
+  s_1e233a6be244f1::t_6b797bde125efa 6,31
+  s_1e233a6be244f1::t_a4eea6c39875a1 9-10
+  s_1e233a6be244f1::t_6528f26d92c03e 1-5,7-8,11-30,32-55,57,59-61,63-75
+  s_1e233a6be244f1::t_33717c6761b656 62
+  s_1e233a6be244f1::t_0459e5a5116fa3 56,58
+src/app/paths/[id]/page.tsx
+  s_1e233a6be244f1::t_8ac3af63864416 1,39
+src/components/T.tsx
+  s_1e233a6be244f1::t_db837c1a09a857 32-40
+  s_1e233a6be244f1::t_68d3f3461a6f88 5
+scripts/rdf.ts
+  s_1e233a6be244f1::t_cfb4db572d8b76 14,68-69
+src/components/ui.tsx
+  s_1e233a6be244f1::t_a1ced476653138 11-12,41
+  s_1e233a6be244f1::t_e44f7cdc773cf2 18-20
+src/lib/graph-export.ts
+  s_1e233a6be244f1::t_2d03d4b84e609f 4
+  s_1e233a6be244f1::t_561ebc737d03c1 7,38
+src/lib/i18n/ui/ar.ts
+  s_1e233a6be244f1::t_6b15861fd63641 212
+src/lib/i18n/ui/de.ts
+  s_1e233a6be244f1::t_6b15861fd63641 212
+src/lib/i18n/ui/es.ts
+  s_1e233a6be244f1::t_6b15861fd63641 212
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "29d2af7f7e4ed9a40882581ac24f439fea2b61eb",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

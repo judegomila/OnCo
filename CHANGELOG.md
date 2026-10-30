@@ -6,6 +6,9 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 30 October 2026
+- Logos for 218 of the 262 new oncology companies, from each company's own site icon
+
 ### 29 October 2026
 - 262 oncology companies new to OnCo, and 82 existing ones brought up to date with this year's acquisitions, approvals and listings
 - Exact Sciences records the completed Abbott purchase, with Abbott's own release

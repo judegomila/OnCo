@@ -31,6 +31,11 @@ describe("reading the choice", () => {
     expect(shouldShowBar(env(memStorage()))).toBe(true);
   });
 
+  it("asks previous Google-only opt-ins again and preserves previous refusals", () => {
+    expect(readConsent(env(memStorage({ "onco:analytics": "granted" })))).toBe("unset");
+    expect(readConsent(env(memStorage({ "onco:analytics": "denied" })))).toBe("denied");
+  });
+
   it("returns the stored choice", () => {
     expect(readConsent(env(memStorage({ [CONSENT_KEY]: "granted" })))).toBe("granted");
     expect(readConsent(env(memStorage({ [CONSENT_KEY]: "denied" })))).toBe("denied");
@@ -67,10 +72,12 @@ describe("acting on the choice", () => {
     expect(doc.appended).toHaveLength(1);
     expect(doc.appended[0]).toMatchObject({ async: true, src: GTAG_SRC });
     expect(GTAG_SRC).toContain(GA_ID);
-    const layer = win.dataLayer as unknown[][];
+    const layer = win.dataLayer as IArguments[];
     expect(layer[0][0]).toBe("js");
     expect(layer[0][1]).toBeInstanceOf(Date);
-    expect(layer[1]).toEqual(["config", GA_ID]);
+    expect(Array.isArray(layer[1])).toBe(false);
+    expect(Object.prototype.toString.call(layer[1])).toBe("[object Arguments]");
+    expect(Array.from(layer[1])).toEqual(["config", GA_ID]);
     expect(win[`ga-disable-${GA_ID}`]).toBe(false);
     // A second Allow (or a later mount) does not insert a second tag.
     expect(loadGtag(win, doc)).toBe(false);
@@ -99,6 +106,15 @@ describe("acting on the choice", () => {
     expect(doc.cookieWrites.some((c) => c.includes("domain=onco.cc"))).toBe(true);
     expect(doc.cookieWrites.some((c) => c.includes("domain=www.onco.cc"))).toBe(true);
     expect(doc.cookieWrites.every((c) => c.includes("expires=Thu, 01 Jan 1970"))).toBe(true);
+  });
+
+  it("resumes measurement when a visitor allows again after withdrawing consent", () => {
+    const win = fakeWin(); const doc = fakeDoc(); const e = env(memStorage());
+    applyConsent("granted", e, win, doc, "onco.cc");
+    applyConsent("denied", e, win, doc, "onco.cc");
+    applyConsent("granted", e, win, doc, "onco.cc");
+    expect(win[`ga-disable-${GA_ID}`]).toBe(false);
+    expect(doc.appended).toHaveLength(1);
   });
 
   it("clearGaCookies leaves other cookies alone and does nothing when there are none", () => {

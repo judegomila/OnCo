@@ -140,7 +140,7 @@ export const zh: UiDict = {
   "offer.switch": "OnCo 也提供{language}版本。",
   "offer.switchButton": "切换到{language}",
 
-  "consent.text": "OnCo 使用 Google Analytics 来帮助改进本网站。",
+  "consent.text": "OnCo 使用 Google Analytics + PostHog 来帮助改进本网站。",
   "consent.allow": "允许",
   "consent.decline": "不用了",
   "consent.choice": "统计分析选择",

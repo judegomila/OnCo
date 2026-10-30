@@ -140,7 +140,7 @@ export const hi: UiDict = {
   "offer.switch": "OnCo {language} में भी उपलब्ध है।",
   "offer.switchButton": "{language} में बदलें",
 
-  "consent.text": "OnCo साइट को बेहतर बनाने में मदद के लिए Google Analytics का उपयोग करता है।",
+  "consent.text": "OnCo साइट को बेहतर बनाने में मदद के लिए Google Analytics + PostHog का उपयोग करता है।",
   "consent.allow": "अनुमति दें",
   "consent.decline": "नहीं, धन्यवाद",
   "consent.choice": "एनालिटिक्स विकल्प",

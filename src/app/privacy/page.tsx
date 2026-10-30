@@ -51,7 +51,7 @@ const S = Object.fromEntries(SECTIONS.map((s, i) => [s.id, { def: s, index: i + 
 /** Every key the site writes to the browser, from the KEY constants in the code, with the plain meaning of each. */
 const STORAGE: ReadonlyArray<{ name: string; where: string; holds: string }> = [
   { name: "_ga, _ga_*", where: "Cookie (set by Google, only after you press Allow)", holds: "Google Analytics visitor and session identifiers, so repeat visits can be told apart. Not set while your analytics choice is No thanks or unmade." },
-  { name: "onco:analytics", where: "Local storage", holds: "Your analytics choice: granted or denied. Absent until you choose." },
+  { name: "onco:analytics:v2", where: "Local storage", holds: "Your analytics choice: granted or denied. Absent until you choose." },
   { name: "onco:theme", where: "Local storage", holds: "Light, dark, high-contrast or system theme." },
   { name: "onco.layer", where: "Local storage", holds: "Reading level (technical, plain, simple) and site language." },
   { name: "onco:region", where: "Local storage", holds: "The region you chose for approvals and access." },
@@ -88,7 +88,7 @@ export default function PrivacyPage() {
         <LegalSection {...S.summary}>
           <ul className="list-disc pl-5 space-y-1.5">
             <li>The site is a set of <Term tip="Pages built once, in advance, and served as plain files. There is no programme of ours running when you read them.">static pages</Term> served by Vercel. OnCo runs no server and no database for onco.cc.</li>
-            <li>Google Analytics counts visits and page views, but only after you press <em>Allow</em> on the bar at the foot of the page. Until then, and if you choose <em>No thanks</em>, it is not loaded at all. It is the only analytics on the site.</li>
+            <li>Google Analytics counts visits and page views, but only after you press <em>Allow</em> on the bar at the foot of the page. Until then, and if you choose <em>No thanks</em>, it is not loaded at all. PostHog also counts anonymous page views after the same consent.</li>
             <li>onco.cc has no accounts and holds no account data. <em>Sign in/up</em> in the header takes you to the separate signed-in site, <a href={ME} rel="noopener">me.onco.cc</a>, which has its own <a href={`${ME}privacy/`} rel="noopener">privacy notice</a>.</li>
             <li>Everything you choose on this site (your cancer, For me details such as stage, biomarkers and treatments, watched pages, saved views, appointment notes) stays in your own browser and is never sent to us.</li>
             <li>No advertising, no advertising trackers, no sale or sharing of personal data for marketing.</li>
@@ -101,8 +101,10 @@ export default function PrivacyPage() {
 
         <LegalSection {...S.analytics}>
           <p>The site can use <a href="https://marketingplatform.google.com/about/analytics/" rel="noopener">Google Analytics</a> (gtag.js, property <code>{GA_ID}</code>) for one thing: to see which pages are read and how often, so we know what to build next. It is gated behind your choice. The pages we publish contain no Google script at all; the first time you visit, a small bar at the foot of the page asks whether to count your visit, with two answers, <em>Allow</em> and <em>No thanks</em>. Until you answer, nothing is loaded and no cookie is set.</p>
-          <p>If you press <em>Allow</em>, the browser writes <code>onco:analytics</code> = <code>granted</code> to local storage and inserts the standard Google loader followed by a plain <code>gtag(&apos;config&apos;)</code> call, then and on every later visit while that choice stands. No advertising features are switched on and no extra parameters are passed (the snippet sets no IP anonymisation option; how Google Analytics 4 handles IP addresses is described in <a href="https://support.google.com/analytics/answer/12017362" rel="noopener">Google&apos;s documentation</a>). Through it Google receives the pages you view, the time, the page you came from, your device, browser and language, and a rough location derived from your IP address, and it sets the <code>_ga</code> cookies listed below so that repeat visits can be told apart.</p>
+          <p>If you press <em>Allow</em>, the browser writes <code>onco:analytics:v2</code> = <code>granted</code> to local storage and inserts the standard Google loader followed by a plain <code>gtag(&apos;config&apos;)</code> call, then and on every later visit while that choice stands. No advertising features are switched on and no extra parameters are passed (the snippet sets no IP anonymisation option; how Google Analytics 4 handles IP addresses is described in <a href="https://support.google.com/analytics/answer/12017362" rel="noopener">Google&apos;s documentation</a>). Through it Google receives the pages you view, the time, the page you came from, your device, browser and language, and a rough location derived from your IP address, and it sets the <code>_ga</code> cookies listed below so that repeat visits can be told apart.</p>
           <p>If you press <em>No thanks</em>, the browser writes <code>denied</code>, the loader is never inserted and no cookie is set. If your browser sends the <a href="https://globalprivacycontrol.org" rel="noopener">Global Privacy Control</a> signal, we read it as <em>No thanks</em> and do not show the bar at all; a choice you make on the site afterwards takes precedence. Changing from <em>Allow</em> to <em>No thanks</em> stops further measurement on the spot (Google&apos;s <code>ga-disable</code> flag) and expires the <code>_ga</code> cookies the page can reach.</p>
+          <p>Previous Google-only consent does not activate PostHog: the updated notice asks again before either service loads. A previous refusal is preserved.</p>
+          <p>PostHog also counts page views after you allow analytics. It receives the hostname and page path, timing, and basic browser and device information. Query strings, fragments, referrers, form entries, searches, account details and saved health choices are excluded. Session recording, automatic click and form capture, and person profiles are disabled. Its identifier is kept in memory rather than a cookie or local storage, so it does not reliably recognize repeat visits after the browser restarts. Choosing <em>No thanks</em> stops PostHog too. See <a href="https://posthog.com/privacy" rel="noopener">PostHog&apos;s privacy policy</a>.</p>
           <p>You can change your choice at any time here, or with the <em>Analytics choice</em> link in the footer of every page, which brings the bar back:</p>
           <AnalyticsChoice variant="panel" />
           <p>Beyond that, you can block <code>googletagmanager.com</code> with a content or tracker blocker, use your browser&apos;s tracking protection, or install Google&apos;s own <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">opt-out add-on</a>. How Google uses data from sites that use its services is at <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>, and Google&apos;s privacy policy is at <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.</p>
@@ -146,11 +148,11 @@ export default function PrivacyPage() {
 
         <LegalSection {...S.health}>
           <p>Any cancer type, stage, biomarker, treatment or reading mode you choose on OnCo is sensitive information about health. All of it is kept only on your device, in the storage listed above, and is never sent to OnCo or to Google. No health information leaves your device through onco.cc. Anything you choose to store on an account at <a href={ME} rel="noopener">me.onco.cc</a> is governed by that site&apos;s privacy notice.</p>
-          <p>Two limits are outside our control and worth knowing. First, the address of a page you read (for example a page about one cancer) is part of an ordinary page view, so it is visible to Vercel in its request log and, if you have allowed analytics, to Google Analytics as a page view. Second, if you type a condition, a drug or a place into a tool that queries ClinicalTrials.gov, Europe PMC or OpenStreetMap, that query goes to that service from your browser (next section).</p>
+          <p>Two limits are outside our control and worth knowing. First, the address of a page you read (for example a page about one cancer) is part of an ordinary page view, so it is visible to Vercel in its request log and, if you have allowed analytics, to Google Analytics and PostHog as a page view. Second, if you type a condition, a drug or a place into a tool that queries ClinicalTrials.gov, Europe PMC or OpenStreetMap, that query goes to that service from your browser (next section).</p>
         </LegalSection>
 
         <LegalSection {...S["third-parties"]}>
-          <p>Besides Vercel and Google, some features fetch from other services directly from your browser, only when you use them:</p>
+          <p>Besides Vercel, Google and PostHog, some features fetch from other services directly from your browser, only when you use them:</p>
           <ul className="list-disc pl-5 space-y-1.5">
             <li><a href="https://clinicaltrials.gov" rel="noopener">ClinicalTrials.gov</a>: the trial finders send the condition, drug and place you enter to its public API.</li>
             <li><a href="https://nominatim.openstreetmap.org" rel="noopener">OpenStreetMap Nominatim</a>: the trials-near-you finder turns the place name you type into coordinates.</li>
@@ -162,7 +164,7 @@ export default function PrivacyPage() {
         </LegalSection>
 
         <LegalSection {...S["no-ads"]}>
-          <p>OnCo shows no advertising, loads no advertising trackers and does not sell, rent or share personal data for marketing or any other purpose. The only measurement is Google Analytics as described above. Nothing about you is used to train models or shared with data brokers.</p>
+          <p>OnCo shows no advertising, loads no advertising trackers and does not sell, rent or share personal data for marketing or any other purpose. Measurement uses Google Analytics and PostHog as described above. Nothing about you is used to train models or shared with data brokers.</p>
         </LegalSection>
 
         <LegalSection {...S.rights}>
@@ -181,7 +183,7 @@ export default function PrivacyPage() {
         </LegalSection>
 
         <LegalSection {...S.transfers}>
-          <p>Vercel and Google are companies based in the United States, so request logs and analytics data may be processed there. Each publishes the legal safeguards it relies on for data moved out of the EU, the UK and other places with transfer rules; we cannot verify those arrangements for you here, so please see <a href="https://vercel.com/legal/privacy-policy" rel="noopener">Vercel&apos;s</a> and <a href="https://policies.google.com/privacy" rel="noopener">Google&apos;s</a> policies for the current terms.</p>
+          <p>Vercel, Google and PostHog may process request logs or analytics in the United States. Each publishes the legal safeguards it relies on for data moved out of the EU, the UK and other places with transfer rules; we cannot verify those arrangements for you here, so please see <a href="https://vercel.com/legal/privacy-policy" rel="noopener">Vercel&apos;s</a> and <a href="https://policies.google.com/privacy" rel="noopener">Google&apos;s</a> policies for the current terms.</p>
         </LegalSection>
 
         <LegalSection {...S.changes}>

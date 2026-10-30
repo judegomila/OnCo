@@ -11,11 +11,11 @@ const filter = (event: unknown) => {
 describe("consented PostHog page counts", () => {
   it("excludes health inputs, identities, referrers, query strings and fragments", () => {
     const result = filter({ event: "$pageview", properties: {
-      distinct_id: "anonymous-test", $current_url: "https://oncoopen.com/trials/?q=private#report",
+      token: "public-project-token", $process_person_profile: false, distinct_id: "anonymous-test", $current_url: "https://oncoopen.com/trials/?q=private#report",
       $referrer: "https://example.com/?private=value", email: "test@example.com",
       cancer: "private", $initial_current_url: "https://onco.cc/?private=value", $set: { name: "private" },
     } });
-    expect(result?.properties).toEqual({ distinct_id: "anonymous-test", $current_url: "https://oncoopen.com/trials/", $pathname: "/trials/" });
+    expect(result?.properties).toEqual({ token: "public-project-token", $process_person_profile: false, distinct_id: "anonymous-test", $current_url: "https://oncoopen.com/trials/", $pathname: "/trials/" });
   });
   it("drops non-pageview events and drops queued events after consent withdrawal", () => {
     expect(filter({ event: "$autocapture", properties: {} })).toBeNull();

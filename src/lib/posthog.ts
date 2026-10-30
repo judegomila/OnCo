@@ -26,7 +26,7 @@ export const posthogConfig: Partial<PostHogConfig> = {
   before_send: (event) => {
     if (!event || event.event !== "$pageview" || readConsent() !== "granted") return null;
     const safe: Record<string, unknown> = {};
-    for (const key of ["distinct_id", "$device_id", "$session_id", "$window_id", "$lib", "$lib_version", "$browser", "$os", "$device_type", "$screen_height", "$screen_width", "$viewport_height", "$viewport_width", "$host", "$pathname", "$current_url"]) {
+    for (const key of ["token", "$process_person_profile", "distinct_id", "$device_id", "$session_id", "$window_id", "$lib", "$lib_version", "$browser", "$os", "$device_type", "$screen_height", "$screen_width", "$viewport_height", "$viewport_width", "$host", "$pathname", "$current_url"]) {
       if (event.properties?.[key] !== undefined) safe[key] = event.properties[key];
     }
     if (typeof safe.$current_url === "string") {

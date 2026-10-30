@@ -13,7 +13,8 @@ import { useCallback, useEffect, useState } from "react";
  * Everything takes an optional environment so the logic runs unchanged in Node tests (no jsdom here).
  */
 export const GA_ID = "G-2TTJ25WSN8";
-export const CONSENT_KEY = "onco:analytics";
+export const CONSENT_KEY = "onco:analytics:v2";
+const LEGACY_CONSENT_KEY = "onco:analytics";
 /** Fired on window after every write, with the new choice as `detail`. */
 export const CONSENT_EVENT = "onco:analytics";
 /** Fired on window by the change-choice control; the bar listens and shows itself again. */
@@ -43,7 +44,11 @@ export function browserEnv(): ConsentEnv {
  */
 export function readConsent(env: ConsentEnv = browserEnv()): Consent {
   let saved: string | null = null;
-  try { saved = env.storage?.getItem(CONSENT_KEY) ?? null; } catch { saved = null; }
+  try {
+    saved = env.storage?.getItem(CONSENT_KEY) ?? null;
+    // Earlier consent named Google only. Ask again before introducing PostHog; preserve a previous refusal.
+    if (saved === null && env.storage?.getItem(LEGACY_CONSENT_KEY) === "denied") saved = "denied";
+  } catch { saved = null; }
   if (saved === "granted" || saved === "denied") return saved;
   return env.gpc ? "denied" : "unset";
 }
@@ -61,12 +66,16 @@ export type GtagDocument = { createElement(tag: "script"): { async: boolean; src
  * is already on the page does nothing and returns false. This is the only place gtag.js is referenced at runtime.
  */
 export function loadGtag(win: GtagWindow = window as unknown as GtagWindow, doc: GtagDocument = document as unknown as GtagDocument): boolean {
+  win[`ga-disable-${GA_ID}`] = false;
   if (win.__oncoGtagLoaded === true) return false;
   win.__oncoGtagLoaded = true;
-  win[`ga-disable-${GA_ID}`] = false;
   const layer: unknown[] = Array.isArray(win.dataLayer) ? win.dataLayer : [];
   win.dataLayer = layer;
-  const gtag = (...args: unknown[]) => { layer.push(args); };
+  // Google consumes Arguments commands; arrays are treated as data-layer values.
+  const gtag: (...args: unknown[]) => void = function () {
+    // eslint-disable-next-line prefer-rest-params -- gtag.js requires an Arguments object, not a rest array.
+    layer.push(arguments);
+  };
   win.gtag = gtag;
   gtag("js", new Date());
   gtag("config", GA_ID);

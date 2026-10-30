@@ -140,7 +140,7 @@ export const ja: UiDict = {
   "offer.switch": "OnCo は{language}でも読めます。",
   "offer.switchButton": "{language}に切り替える",
 
-  "consent.text": "OnCo はサイト改善のために Google Analytics を使用しています。",
+  "consent.text": "OnCo はサイト改善のために Google Analytics + PostHog を使用しています。",
   "consent.allow": "許可する",
   "consent.decline": "許可しない",
   "consent.choice": "アナリティクスの選択",

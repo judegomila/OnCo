@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { stopPosthog, trackPosthogPage } from "@/lib/posthog";
 import { useEffect, useState } from "react";
 import { T } from "./T";
 import { useT, type UiKey } from "@/lib/i18n/ui";
@@ -32,6 +34,12 @@ function ChoicePills({ consent, choose, size = "h-9" }: { consent: Consent; choo
 
 export function AnalyticsConsentBar() {
   const { consent, ready, set } = useAnalyticsConsent();
+  const pathname = usePathname();
+  useEffect(() => {
+    if (!ready) return;
+    if (consent === "granted") void trackPosthogPage(pathname);
+    else stopPosthog();
+  }, [consent, ready, pathname]);
   // Re-opened by the change-choice control; otherwise the bar is open exactly while no choice is stored.
   const [reopened, setReopened] = useState(false);
   const { t } = useT();

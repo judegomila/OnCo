@@ -5,6 +5,7 @@ import Link from "next/link";
 import { loadSearch, searchRanked } from "@/lib/search-client";
 import { KindIcon } from "./KindIcon";
 import type { SearchDoc } from "@/lib/search-index";
+import { PRODUCT_CLASS_META } from "@/lib/product-class";
 import { KIND_META, type Kind } from "@/lib/kinds";
 import { KIND_COLOR, STATUS_LABEL, statusClass } from "@/lib/text";
 import { brokenLinkIssueUrl, kindFromPath, MISSED_PATHS_KEY, parseMissed, pathToQuery, recordMiss } from "@/lib/not-found-query";
@@ -69,7 +70,7 @@ export function NotFoundHelper() {
                     <Link href={r.route} className="card card-link p-3 flex items-start gap-3 block">
                       <span className="min-w-0 flex-1">
                         <span className="flex flex-wrap items-center gap-2">
-                          <span className={`chip border inline-flex items-center gap-1 ${r.kind === "page" ? "border-border text-muted" : KIND_COLOR[r.kind]}`}>{r.kind !== "page" && <KindIcon kind={r.kind} className="h-3 w-3" />}{r.kind === "page" ? "Page" : KIND_META[r.kind].label}</span>
+                          <span className={`chip border inline-flex items-center gap-1 ${r.kind === "page" ? "border-border text-muted" : KIND_COLOR[r.kind]}`}>{r.kind !== "page" && <KindIcon kind={r.kind} className="h-3 w-3" />}{r.kind === "page" ? "Page" : r.cls ? PRODUCT_CLASS_META[r.cls].label : KIND_META[r.kind].label}</span>
                           <span className="font-medium">{r.name}</span>
                           {r.status && <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span>}
                         </span>

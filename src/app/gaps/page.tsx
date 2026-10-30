@@ -1,3 +1,4 @@
+import { recordProductClass } from "@/lib/product-class";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
@@ -41,7 +42,7 @@ function readAudit(): Audit | null {
 function Row({ e, why, field }: { e: Entity; why: string; field?: string }) {
   return (
     <li className="p-3 flex flex-wrap items-center gap-3">
-      <KindChip kind={e.kind} />
+      <KindChip kind={e.kind} cls={recordProductClass(e)} />
       <Link href={routeFor(e)} className="font-medium hover:underline">{e.name}</Link>
       <span className="text-xs text-muted">{why}</span>
       <a className="ml-auto text-xs underline text-muted" href={claimUrl(e, why, field)} rel="noopener" title="Opens the Suggest-an-edit issue form for this record, prefilled with the gap">claim</a>
@@ -119,7 +120,7 @@ export default function Gaps() {
               {shown.map(({ e, size, what, detail, field }) => (
                 <li key={e.id} className="p-3 flex flex-wrap items-center gap-3">
                   <span className={`chip ${SIZE_TONE[size]}`} title={SIZE_LABEL[size]}>{size}</span>
-                  <KindChip kind={e.kind} />
+                  <KindChip kind={e.kind} cls={recordProductClass(e)} />
                   <Link href={routeFor(e)} className="font-medium hover:underline">{e.name}</Link>
                   <span className="text-xs text-muted basis-full sm:basis-auto">{what} <span className="opacity-70">({detail})</span></span>
                   <a className="ml-auto text-xs underline text-muted" href={claimUrl(e, `${what} (${detail})`, field)} rel="noopener">claim</a>

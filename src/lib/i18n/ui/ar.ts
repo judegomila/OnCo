@@ -209,6 +209,7 @@ export const ar: UiDict = {
   "kind.technology.label": "تقنية", "kind.technology.plural": "تقنيات",
   "kind.target.label": "هدف", "kind.target.plural": "أهداف",
   "kind.drug.label": "علاج", "kind.drug.plural": "منتجات", "kind.drug.title": "العلاجات والفحوصات",
+  "product.test.label": "فحص", "product.test.group": "فحوصات", "product.imaging-agent.label": "عامل تصوير", "product.imaging-agent.group": "عوامل التصوير", "product.device.label": "جهاز أو برنامج", "product.device.group": "أجهزة وبرامج",
   "kind.company.label": "شركة", "kind.company.plural": "شركات",
   "kind.institution.label": "مؤسسة", "kind.institution.plural": "مؤسسات",
   "kind.pathway.label": "مسار", "kind.pathway.plural": "مسارات",

@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { SearchResult } from "minisearch";
 import { askLexical, loadSearch, searchRanked } from "@/lib/search-client";
 import { MoleculeSlot } from "./MoleculeSlot";
+import { PRODUCT_CLASS_META } from "@/lib/product-class";
 import { KindIcon } from "./KindIcon";
 import { NavIcon, NavItemIcon } from "./NavIcon";
 import type { SearchDoc } from "@/lib/search-index";
@@ -351,10 +352,11 @@ export function SearchResults() {
             {shown.map((r) => (
               <li key={r.id} className="card p-3 flex items-start gap-3">
                 <span className="text-xs text-muted tabular-nums w-6 pt-1">{r.rank}</span>
-                {r.kind === "drug" && <MoleculeSlot drugId={r.id} name={r.name} className="h-10 w-10" />}
+                {r.kind === "drug" && <MoleculeSlot drugId={r.id} name={r.name} cls={r.cls} className="h-10 w-10" />}
                 <div className="min-w-0 flex-1">
                   <div className="flex flex-wrap items-center gap-2">
-                    <button type="button" onClick={() => pickKind(r.kind)} aria-pressed={kind === r.kind} title={`Only ${kindLabel(r.kind).toLowerCase()} results`} className={`chip border ${kindChipClass(r.kind)} hover:brightness-95 dark:hover:brightness-125`}><KindGlyph kind={r.kind} />{kindLabel(r.kind)}</button>
+                    {/* The chip filters by kind, so its tooltip names the kind; its text names what this result is (a test is not a treatment). */}
+                    <button type="button" onClick={() => pickKind(r.kind)} aria-pressed={kind === r.kind} title={`Only ${kindLabel(r.kind).toLowerCase()} results`} className={`chip border ${kindChipClass(r.kind)} hover:brightness-95 dark:hover:brightness-125`}><KindGlyph kind={r.kind} />{r.cls ? PRODUCT_CLASS_META[r.cls].label : kindLabel(r.kind)}</button>
                     <Link href={r.route} className="font-medium hover:underline">{r.name}</Link>
                     {r.status && <span className={`chip ${statusClass(r.status)}`}>{STATUS_LABEL[r.status] ?? r.status}</span>}
                   </div>

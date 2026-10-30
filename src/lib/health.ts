@@ -17,6 +17,7 @@ import { completeness } from "./completeness";
 import { KINDS, KIND_META, routeFor, type Kind } from "./kinds";
 import { type Entity } from "./schema";
 import { hasMolecule } from "./structures";
+import { productClass } from "./product-class";
 import { papersExpected, roleBucket } from "./person-roles";
 import { SCHEMATIC_ALIAS, SPECIFIC_IDS, hasAnimation } from "@/data/schematics";
 import { hasAnchorApproval, isDiagnostic, regionalApprovals, regionSpecific } from "@/data/regional-approvals";
@@ -210,7 +211,7 @@ export const METRIC_DEFS: MetricDef[] = [
     id: "molecules", label: "Products with a molecule or an explained placeholder", kind: "drug",
     plain: "Small molecules should rotate on their page; biologics, cells, and tests should show a placeholder that says why there is no molecule.",
     action: "Add the product to structures.ts (PubChem CID or PDB id) and run `npm run fetch:structures`, or set a `modality` the placeholder recognises.",
-    check: (g) => fails(g.kind("drug"), (d) => (hasMolecule(d.id) || EXPLAINED_PLACEHOLDER.test(d.modality) ? null : `modality "${d.modality}" has no structure or placeholder`)),
+    check: (g) => fails(g.kind("drug"), (d) => (hasMolecule(d.id) || EXPLAINED_PLACEHOLDER.test(d.modality) || productClass(d) !== "medicine" ? null : `modality "${d.modality}" has no structure or placeholder`)),
   },
   {
     id: "schematics", label: "Technologies with a specific schematic", kind: "technology",

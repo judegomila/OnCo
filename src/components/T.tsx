@@ -2,6 +2,7 @@
 
 import { Fragment, type ReactNode } from "react";
 import { useT, type UiKey, type Vars } from "@/lib/i18n/ui";
+import { PRODUCT_CLASS_META, type ProductClass } from "@/lib/product-class";
 
 /**
  * Chrome text that follows the site language. Server components render these; the first client render is
@@ -26,6 +27,15 @@ export function TL({ text }: { text: string }) {
 export function KindName({ kind, form = "plural", fallback }: { kind: string; form?: "label" | "plural" | "title"; fallback?: string }) {
   const { kind: k } = useT();
   return <>{k(kind, form) ?? fallback ?? kind}</>;
+}
+
+/**
+ * The name of a product's class for a record that is not a medicine ("Test", "Imaging agents"), translated; the classes
+ * are in src/lib/product-class.ts. A medicine keeps its kind's name, so callers use KindName for it.
+ */
+export function ProductClassName({ cls, form = "label" }: { cls: Exclude<ProductClass, "medicine">; form?: "label" | "group" }) {
+  const { tOpt } = useT();
+  return <>{tOpt(`product.${cls}.${form}`) ?? PRODUCT_CLASS_META[cls][form]}</>;
 }
 
 export function StatusName({ status }: { status: string }) {

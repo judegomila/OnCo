@@ -1,3 +1,4 @@
+import { recordProductClass } from "@/lib/product-class";
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
 import Link from "next/link";
@@ -47,7 +48,7 @@ export default function FailuresPage() {
               <div className="grid gap-3 md:grid-cols-2">
                 {list.map((e) => (
                   <Link key={e.id} href={routeFor(e)} className="card p-4 hover:shadow-md transition">
-                    <div className="flex items-center gap-2 mb-1.5"><KindChip kind={e.kind} /><StatusChip status={e.status} /></div>
+                    <div className="flex items-center gap-2 mb-1.5"><KindChip kind={e.kind} cls={recordProductClass(e)} /><StatusChip status={e.status} /></div>
                     <div className="font-semibold">{e.name}</div>
                     <p className="text-sm text-muted mt-1">{e.tldr}</p>
                     {paragraphs(e.summary).find((p) => p.startsWith("Lesson:")) && (

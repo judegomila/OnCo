@@ -12,6 +12,10 @@ import { FrontIcon } from "./FrontIcon";
 import { KindIcon } from "./KindIcon";
 import { placeNear } from "./Tip";
 import { FacetSelect } from "./filters/FacetSelect";
+import { PRODUCT_CLASS_META } from "@/lib/product-class";
+
+/** A node's kind as a reader names it: a test or imaging agent says so rather than "Treatment" (src/lib/product-class.ts). */
+const nodeLabel = (n: Pick<GraphNode, "kind" | "cls">) => (n.cls ? PRODUCT_CLASS_META[n.cls].label : KIND_META[n.kind].label);
 
 /** Scene boxes. The full box leaves room for radial labels and the arc chips; the compact one (phones) drops both. */
 const FULL = { W: 960, H: 700 };
@@ -115,7 +119,7 @@ export function GraphExplorer({ data, initialFocus }: { data: GraphData; /** Nod
   const nodeProps = (p: Placed, needsTip: boolean) => ({
     role: "button" as const,
     tabIndex: 0,
-    "aria-label": `${p.n.name} (${KIND_META[p.n.kind].label.toLowerCase()})`,
+    "aria-label": `${p.n.name} (${nodeLabel(p.n).toLowerCase()})`,
     onMouseEnter: () => setHover(p.i),
     onMouseMove: (e: React.MouseEvent) => { if (needsTip) setTip(placeNear(e.clientX, e.clientY)); },
     onMouseLeave: () => { setHover(null); setTip(null); },
@@ -239,7 +243,7 @@ export function GraphExplorer({ data, initialFocus }: { data: GraphData; /** Nod
           {/* Centre card (desktop): who is in the middle, what kind, and a way to its page. */}
           {!compact && focusNode && focus !== null && (
             <div className="absolute z-[1] w-48 -translate-x-1/2 card px-3 py-2 text-center shadow-lift" style={{ left: "50%", top: `${((cy + CENTER_R + 8) / box.H) * 100}%` }}>
-              <span className={`chip border ${KIND_COLOR[focusNode.kind]} mx-auto`}><KindIcon kind={focusNode.kind} className="h-3 w-3" />{KIND_META[focusNode.kind].label}</span>
+              <span className={`chip border ${KIND_COLOR[focusNode.kind]} mx-auto`}><KindIcon kind={focusNode.kind} className="h-3 w-3" />{nodeLabel(focusNode)}</span>
               <p className="mt-1 text-sm font-semibold leading-snug line-clamp-2">{focusNode.name}</p>
               <p className="mt-0.5 text-xs text-muted">{num(adj[focus].length)} links · <Link href={focusNode.route} className="text-accent hover:underline underline-offset-2">Open page →</Link></p>
             </div>
@@ -287,7 +291,7 @@ export function GraphExplorer({ data, initialFocus }: { data: GraphData; /** Nod
       {tip && hoverNode && (
         <div role="tooltip" style={{ left: tip.left, top: tip.top, width: 288 }} className="fixed z-[80] max-w-[85vw] card shadow-xl p-3 text-sm text-left leading-snug pointer-events-none">
           <span className="block font-semibold text-foreground">{hoverNode.name}</span>
-          <span className="block text-xs text-muted mb-1">{KIND_META[hoverNode.kind].label} · {num(hoverNode.degree)} links</span>
+          <span className="block text-xs text-muted mb-1">{nodeLabel(hoverNode)} · {num(hoverNode.degree)} links</span>
           <span className="block text-muted">{hoverNode.blurb}</span>
         </div>
       )}
@@ -352,7 +356,7 @@ function Panel({ data, adj, idx, focus, onFocus, kindCounts }: { data: GraphData
       <div className="flex items-start gap-3">
         <span className="gx-avatar inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full" style={kindStyle(node.kind)}>{glyphFor(node, "h-6 w-6")}</span>
         <div className="min-w-0 flex-1">
-          <span className={`chip border ${KIND_COLOR[node.kind]}`}><KindIcon kind={node.kind} className="h-3 w-3" />{KIND_META[node.kind].label}</span>
+          <span className={`chip border ${KIND_COLOR[node.kind]}`}><KindIcon kind={node.kind} className="h-3 w-3" />{nodeLabel(node)}</span>
           <h2 className="mt-1 text-base font-semibold leading-snug">{node.name}</h2>
           <p className="text-xs text-muted">{num(node.degree)} links{isFocus ? " · in focus" : ""}</p>
         </div>

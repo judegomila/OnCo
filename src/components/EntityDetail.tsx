@@ -4,6 +4,7 @@ import { publicTags, tagRoute } from "@/lib/tags";
 import { Fragment, type ReactNode } from "react";
 import { EVIDENCE_TIER_LABEL, TARGET_ROLE_LABEL, type Entity, type Roadmap, type Term } from "@/lib/schema";
 import { KIND_META, KINDS, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
+import { PRODUCT_CLASS_META } from "@/lib/product-class";
 import { graph } from "@/lib/graph";
 import { Bullets, ChipList, Container, PageHeader, StatusChip } from "./ui";
 import { Block, Field, KeyPapers, keyPapersFor, LatestLiterature, Refs, Summary, ToolsStrip } from "./record-blocks";
@@ -15,7 +16,7 @@ import { CitationChip, CitationChipDefs } from "./CitationChip";
 import { OrganSchematic } from "./OrganSchematic";
 import { cancerTabs } from "./CancerRecord";
 import { NEIGHBOUR_CAP, forwardedAnchors } from "@/lib/record-sections";
-import { Neighbours } from "./Neighbours";
+import { Neighbours, productGroups } from "./Neighbours";
 import { PathwayDiagram } from "./PathwayDiagram";
 import { rankInstitutions } from "@/lib/ranking";
 import { MoleculeViewer, type StructureEntry } from "./MoleculeViewer";
@@ -66,7 +67,7 @@ import { TargetSpecificityPills } from "./TargetSpecificityPills";
 import { SupportivePill } from "./SupportivePill";
 import { CompanyTypePill } from "./CompanyTypePill";
 import { TargetWhereFound, hpaFor } from "./TargetWhereFound";
-import { KindName, TL } from "./T";
+import { KindName, ProductClassName, TL } from "./T";
 import { KIND_COLOR, statusClass } from "@/lib/text";
 import { withTermHovers } from "@/lib/term-hover";
 import { paperQuery } from "@/lib/europepmc";
@@ -278,9 +279,13 @@ function QuickLinks({ e }: { e: Entity }) {
   return (
     <nav className="card p-4 text-sm" aria-label="Connected records" data-quick-links>
       <div className="kicker mb-1.5"><TL text="Connected" /></div>
-      <ul className="space-y-0.5">{order.map((k) => (
-        <li key={k}><a className="flex justify-between gap-3 hover:underline" href="#connected"><span className="first-letter:uppercase"><KindName kind={k} form="plural" fallback={KIND_META[k].plural} /></span><span className="tabular-nums text-muted">{groups.get(k)!.length.toLocaleString("en-GB")}</span></a></li>
-      ))}</ul>
+      <ul className="space-y-0.5">{order.flatMap((k) => k === "drug"
+        // Products split as Connected splits them (src/lib/product-class.ts), so a test is not counted among the drugs.
+        ? productGroups(groups.get(k)! as Drug[]).map(({ cls, drugs }) => (
+          <li key={`drug-${cls}`}><a className="flex justify-between gap-3 hover:underline" href="#connected"><span className="first-letter:uppercase">{cls === "medicine" ? <KindName kind="drug" form="plural" fallback={KIND_META.drug.plural} /> : <ProductClassName cls={cls} form="group" />}</span><span className="tabular-nums text-muted">{drugs.length.toLocaleString("en-GB")}</span></a></li>
+        ))
+        : [<li key={k}><a className="flex justify-between gap-3 hover:underline" href="#connected"><span className="first-letter:uppercase"><KindName kind={k} form="plural" fallback={KIND_META[k].plural} /></span><span className="tabular-nums text-muted">{groups.get(k)!.length.toLocaleString("en-GB")}</span></a></li>],
+      )}</ul>
     </nav>
   );
 }
@@ -620,7 +625,18 @@ function peopleTab(items: Entity[]): Tab[] {
 
 function productsTab(drugs: Entity[]): Tab[] {
   if (!drugs.length) return [];
-  return [{ id: "products", label: "Products", count: drugs.length, content: <DrugGrid drugs={drugs.filter((d): d is Drug => d.kind === "drug")} /> }];
+  // Grouped by what each product is, as Connected is: on the PD-L1 page three staining assays sat in one grid with
+  // the antibodies they select patients for (src/lib/product-class.ts). One class keeps the plain grid.
+  const groups = productGroups(drugs.filter((d): d is Drug => d.kind === "drug"));
+  const content = groups.length < 2 ? <DrugGrid drugs={groups[0]?.drugs ?? []} /> : (
+    <div className="space-y-6">{groups.map(({ cls, drugs: list }) => (
+      <section key={cls} aria-label={PRODUCT_CLASS_META[cls].group} data-product-class={cls}>
+        <h3 className="kicker mb-2.5">{cls === "medicine" ? <KindName kind="drug" form="plural" fallback={KIND_META.drug.plural} /> : <ProductClassName cls={cls} form="group" />}</h3>
+        <DrugGrid drugs={list} />
+      </section>
+    ))}</div>
+  );
+  return [{ id: "products", label: "Products", count: drugs.length, content }];
 }
 
 /** Refs with product cards (molecule thumbnails) for drugs and chips for everything else. */

@@ -1,9 +1,10 @@
 import { graph } from "./graph";
 import { REL_FIELDS, routeFor, type Kind } from "./kinds";
 import { type Entity } from "./schema";
+import { nonMedicineClass, type ProductClass } from "./product-class";
 
 /** `blurb` is the first sentence of the TL;DR, clipped, so the explorer's side panel can describe a node without shipping the whole corpus. */
-export type GraphNode = { id: string; kind: Kind; name: string; route: string; degree: number; blurb: string };
+export type GraphNode = { id: string; kind: Kind; name: string; route: string; degree: number; blurb: string; /** A product that is not a medicine (src/lib/product-class.ts), so the explorer labels it a test. */ cls?: Exclude<ProductClass, "medicine"> };
 export type GraphEdge = [number, number];
 export type GraphData = { nodes: GraphNode[]; edges: GraphEdge[] };
 
@@ -34,7 +35,7 @@ export function blurbOf(tldr: string, max = 160): string {
 /** Compact node/edge lists for the client-side graph explorer. Edges are undirected and de-duplicated. */
 export function graphData(): GraphData {
   const g = graph();
-  const nodes: GraphNode[] = g.entities.map((e) => ({ id: e.id, kind: e.kind, name: e.name, route: routeFor(e), degree: g.degree(e.id), blurb: blurbOf(e.tldr) }));
+  const nodes: GraphNode[] = g.entities.map((e) => ({ id: e.id, kind: e.kind, name: e.name, route: routeFor(e), degree: g.degree(e.id), blurb: blurbOf(e.tldr), cls: nonMedicineClass(e) }));
   const index = new Map(nodes.map((n, i) => [n.id, i]));
   const seen = new Set<string>();
   const edges: GraphEdge[] = [];

@@ -1,3 +1,4 @@
+import { productClass } from "@/lib/product-class";
 import { graph } from "@/lib/graph";
 import type { Cancer, Drug, Target } from "@/lib/schema";
 import { absoluteUrl } from "@/lib/seo";
@@ -61,9 +62,13 @@ export function classifyDrug(d: Drug): DrugClass {
   return "other";
 }
 
-/** Companion diagnostics and kits are drug-kind records in the corpus; they measure a checkpoint, they do not act on it. */
+/**
+ * Companion diagnostics, imaging agents and devices are drug-kind records in the corpus; they measure a checkpoint, they do
+ * not act on it. The class is the shared rule in src/lib/product-class.ts; the pattern this replaced matched "KIT" (the
+ * kinase) in a modality and dropped pexidartinib and the KIT inhibitors from the checkpoint lists.
+ */
 export function isDiagnostic(d: Drug): boolean {
-  return /\b(test|kit|assay|diagnostic|pharmdx|cdx|panel)\b/i.test(`${d.modality} ${d.name}`);
+  return productClass(d) !== "medicine";
 }
 
 const classById = new Map(CHECKPOINT_CLASSES.map((c) => [c.id, c]));

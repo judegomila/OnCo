@@ -209,6 +209,7 @@ export const zh: UiDict = {
   "kind.technology.label": "技术", "kind.technology.plural": "技术",
   "kind.target.label": "靶点", "kind.target.plural": "靶点",
   "kind.drug.label": "治疗", "kind.drug.plural": "产品", "kind.drug.title": "治疗与检测",
+  "product.test.label": "检测", "product.test.group": "检测", "product.imaging-agent.label": "显像剂", "product.imaging-agent.group": "显像剂", "product.device.label": "器械或软件", "product.device.group": "器械与软件",
   "kind.company.label": "公司", "kind.company.plural": "公司",
   "kind.institution.label": "机构", "kind.institution.plural": "机构",
   "kind.pathway.label": "通路", "kind.pathway.plural": "通路",

@@ -4,6 +4,7 @@ import { graph } from "@/lib/graph";
 import { SITE, SITE_NAME, absoluteUrl, entityCrumbs, machineRoutes, type Crumb } from "@/lib/seo";
 import { wikidataIds } from "@/data/wikidata-ids";
 import { geneIdUrls } from "@/lib/gene-ids";
+import { PRODUCT_CLASS_META, productClass } from "@/lib/product-class";
 
 type Node = Record<string, unknown>;
 const CTX = "https://schema.org";
@@ -31,6 +32,12 @@ const identities = (e: Entity): Array<string | undefined> => [e.wikipedia, wikid
 function ref(id: string, type: string): Node | undefined {
   const x = graph().get(id);
   return x ? { "@type": type, name: x.name, url: absoluteUrl(routeFor(x)) } : undefined;
+}
+
+/** schema.org type of a product record: Drug for a medicine or an imaging agent, MedicalTest for a test, MedicalDevice for a device (src/lib/product-class.ts). */
+function productType(id: string): string {
+  const x = graph().get(id);
+  return x?.kind === "drug" ? PRODUCT_CLASS_META[productClass(x)].schemaType : "Drug";
 }
 
 /** Organization reference: company/institution website when we have one, else the OnCo page. */
@@ -80,7 +87,11 @@ function entityNode(e: Entity): Node {
     subjectOf: [twins.markdown, twins.json, twins.turtle].map((r) => ({ "@type": "DigitalDocument", url: absoluteUrl(r.url), encodingFormat: r.type })),
   };
   switch (e.kind) {
-    case "drug":
+    case "drug": {
+      // A test or a device is not a schema.org Drug, and none of Drug's properties (drug class, route, legal status as a
+      // medicine) describe it; it gets its own type and the shared fields only.
+      const type = PRODUCT_CLASS_META[productClass(e)].schemaType;
+      if (type !== "Drug") return { ...base, "@type": type, alternateName: uniq([...e.aka, e.brand, e.code]) };
       return {
         ...base,
         "@type": "Drug",
@@ -93,8 +104,12 @@ function entityNode(e: Entity): Node {
         legalStatus: legalStatus(e),
         indication: uniq(e.approvals.map((a) => a.indication))?.map((name) => ({ "@type": "ApprovedIndication", name })),
       };
-    case "cancer":
-      return { ...base, "@type": "MedicalCondition", possibleTreatment: e.drugs.length ? e.drugs.slice(0, 25).map((id) => ref(id, "Drug")).filter(Boolean) : undefined };
+    }
+    case "cancer": {
+      // A possible treatment is a medicine: a cancer's linked blood tests and PET tracers are not treatments for it.
+      const treatments = e.drugs.filter((id) => { const x = graph().get(id); return x?.kind === "drug" && productClass(x) === "medicine"; });
+      return { ...base, "@type": "MedicalCondition", possibleTreatment: treatments.length ? treatments.slice(0, 25).map((id) => ref(id, "Drug")).filter(Boolean) : undefined };
+    }
     case "trial":
       return {
         ...base,
@@ -103,7 +118,7 @@ function entityNode(e: Entity): Node {
         phase: e.phase && /^\d/.test(e.phase) ? phaseLabel(e.phase) : undefined,
         status: e.status ? TRIAL_STATUS[e.status] : undefined,
         sponsor: e.sponsor ? { "@type": "Organization", name: e.sponsor } : undefined,
-        studySubject: e.drugs.length ? e.drugs.map((id) => ref(id, "Drug")).filter(Boolean) : undefined,
+        studySubject: e.drugs.length ? e.drugs.map((id) => ref(id, productType(id))).filter(Boolean) : undefined,
         healthCondition: e.cancers.length ? e.cancers.map((id) => ref(id, "MedicalCondition")).filter(Boolean) : undefined,
         sameAs: uniq([...identities(e), e.nct ? `https://clinicaltrials.gov/study/${e.nct}` : undefined]),
       };

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { KIND_META, routeFor, type Kind } from "./kinds";
 import type { Entity } from "./schema";
+import { productLabel } from "./product-class";
 
 /** Canonical origin. Every canonical URL, sitemap entry and JSON-LD `url` is built from this. */
 export const SITE = "https://onco.cc";
@@ -72,10 +73,11 @@ export function shortTitle(text: string, reserve: number): string {
 /**
  * "Name · Kind" (layout template adds " · OnCo"). Long names, mostly registry trial titles and paper titles, are cut
  * at a word boundary so the whole <title> stays within `TITLE_MAX`. A trial's registry id stands in for the kind
- * label: people search by NCT number, and the id says "trial" on its own.
+ * label: people search by NCT number, and the id says "trial" on its own. A product that is not a medicine says what
+ * it is ("Signatera · Test"), from src/lib/product-class.ts.
  */
 export function entityTitle(e: Entity): string {
-  const tail = e.kind === "trial" && e.nct ? e.nct : KIND_META[e.kind].label;
+  const tail = e.kind === "trial" && e.nct ? e.nct : productLabel(e) ?? KIND_META[e.kind].label;
   return `${shortTitle(e.name, ` · ${tail} · ${SITE_NAME}`.length)} · ${tail}`;
 }
 

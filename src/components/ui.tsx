@@ -8,14 +8,16 @@ import { DrugChip } from "./DrugChip";
 import { NavIcon } from "./NavIcon";
 import { GardenBackdrop } from "./Garden";
 import { gardenSeed } from "@/lib/garden-seed";
-import { KindName, StatusName } from "./T";
+import { KindName, ProductClassName, StatusName } from "./T";
+import { recordProductClass, type ProductClass } from "@/lib/product-class";
 import { GroupText } from "./NavText";
 import { TldrText } from "./TldrText";
 import { IntentLink } from "./IntentLink";
 import { EN_TEXT, nameAttrs } from "@/lib/translate";
 
-export function KindChip({ kind }: { kind: Kind }) {
-  return <span className={`chip border ${kindTone(kind)}`}><KindName kind={kind} form="label" fallback={KIND_META[kind].label} /></span>;
+/** A record's kind as a chip. Pass `cls` (productClass of a drug record) so a test reads "Test" rather than "Treatment". */
+export function KindChip({ kind, cls }: { kind: Kind; cls?: ProductClass }) {
+  return <span className={`chip border ${kindTone(kind)}`}>{cls && cls !== "medicine" ? <ProductClassName cls={cls} /> : <KindName kind={kind} form="label" fallback={KIND_META[kind].label} />}</span>;
 }
 
 export function StatusChip({ status }: { status?: string }) {
@@ -36,7 +38,7 @@ export function EntityCard({ e, compact = false }: { e: Entity; compact?: boolea
   return (
     <IntentLink href={routeFor(e)} className="card block p-4">
       <div className="flex items-center gap-2 mb-1.5">
-        <KindChip kind={e.kind} />
+        <KindChip kind={e.kind} cls={recordProductClass(e)} />
         <StatusChip status={e.status} />
       </div>
       <div {...nameAttrs(e.kind, "font-semibold leading-snug text-balance")}>{e.name}</div>

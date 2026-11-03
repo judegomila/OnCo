@@ -1,10 +1,10 @@
 {
- "checked": "2026-10-14",
+ "checked": "2026-11-03",
  "source": {
   "label": "Even One Ventures: portfolio",
   "url": "https://evenone.ventures/"
  },
- "method": "The companies array embedded in the Even One Ventures home page (name, website and sector tag), read weekly so new portfolio companies surface on /completeness/.",
+ "method": "The portfolio tiles on the Even One Ventures home page (name from the logo, website and sector tag), read weekly so new portfolio companies surface on /completeness/.",
  "total": 17,
  "items": [
   {
@@ -18,14 +18,14 @@
    "tag": "oncology"
   },
   {
-   "name": "Echo Immune",
+   "name": "Echo Immunotherapeutics",
    "website": "https://www.echoimmune.com/",
    "tag": "oncology"
   },
   {
    "name": "Ignitus Bio",
    "website": "https://ignitus.bio/",
-   "tag": ""
+   "tag": "rare longevity"
   },
   {
    "name": "Invocata",
@@ -43,7 +43,7 @@
    "tag": "oncology"
   },
   {
-   "name": "Minuteman Tx",
+   "name": "Minuteman Therapeutics",
    "website": "https://minuteman.bio/",
    "tag": "oncology"
   },
@@ -58,14 +58,14 @@
    "tag": "womens"
   },
   {
-   "name": "Ranata Tx",
+   "name": "Ranata Therapeutics",
    "website": "https://ranatatx.com/",
    "tag": "oncology"
   },
   {
    "name": "Rarivive",
    "website": "https://rarivive.com/",
-   "tag": ""
+   "tag": "rare"
   },
   {
    "name": "Relit Biosciences",

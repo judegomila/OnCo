@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-28",
+ "checked": "2026-11-03",
  "source": {
   "label": "OECI: Member Profiles",
   "url": "https://www.oeci.eu/MemberList.aspx"
@@ -325,7 +325,7 @@
   },
   {
    "id": "151",
-   "name": "Copenhagen Comprehensive Cancer Center (CCCC) Departement of oncology Rigshospitalet",
+   "name": "Copenhagen Comprehensive Cancer Center (CCCC) Department of oncology Rigshospitalet",
    "altName": "Kræftafdelingen Rigshospitalet",
    "country": "Denmark",
    "website": "https://www.rigshospitalet.dk",
@@ -1388,8 +1388,8 @@
    "membership": "Associate Member",
    "leaders": [
     "Livio De Angelis",
-    "Maria Concetta Fargnoli",
     "Laura Figorilli",
+    "Maria Concetta Fargnoli",
     "Costanza Cavuto"
    ]
   },

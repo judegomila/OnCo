@@ -1,16 +1,16 @@
 {
- "checked": "2026-10-28",
+ "checked": "2026-11-03",
  "source": {
   "label": "ClinicalTrials.gov: interventional studies, condition 'cancer'",
   "url": "https://clinicaltrials.gov/search?cond=cancer&aggFilters=studyType:int"
  },
  "method": "ClinicalTrials.gov API v2 with query.cond=cancer and countTotal=true: interventional studies; of those, phase 3; of those, recruiting. Sponsors: distinct lead sponsor names (class INDUSTRY) across all phase 3 interventional cancer studies, so subsidiaries and name variants count separately.",
- "total": 97931,
- "phase3": 11066,
- "recruiting": 14425,
+ "total": 98049,
+ "phase3": 11081,
+ "recruiting": 14330,
  "industryPhase3": {
-  "studies": 4274,
-  "sponsors": 942
+  "studies": 4285,
+  "sponsors": 945
  },
  "items": [
   {
@@ -19,11 +19,11 @@
   },
   {
    "name": "Merck Sharp & Dohme LLC",
-   "studies": 219
+   "studies": 220
   },
   {
    "name": "AstraZeneca",
-   "studies": 205
+   "studies": 206
   },
   {
    "name": "Novartis Pharmaceuticals",
@@ -47,7 +47,7 @@
   },
   {
    "name": "Janssen Research & Development, LLC",
-   "studies": 72
+   "studies": 74
   },
   {
    "name": "Eli Lilly and Company",
@@ -87,7 +87,7 @@
   },
   {
    "name": "Sichuan Baili Pharmaceutical Co., Ltd.",
-   "studies": 33
+   "studies": 32
   },
   {
    "name": "Daiichi Sankyo",
@@ -114,11 +114,11 @@
    "studies": 24
   },
   {
-   "name": "Akeso",
-   "studies": 22
+   "name": "Regeneron Pharmaceuticals",
+   "studies": 23
   },
   {
-   "name": "Regeneron Pharmaceuticals",
+   "name": "Akeso",
    "studies": 22
   },
   {
@@ -138,6 +138,10 @@
    "studies": 18
   },
   {
+   "name": "Genmab",
+   "studies": 18
+  },
+  {
    "name": "Spectrum Pharmaceuticals, Inc",
    "studies": 18
   },
@@ -151,10 +155,6 @@
   },
   {
    "name": "Eisai Inc.",
-   "studies": 16
-  },
-  {
-   "name": "Genmab",
    "studies": 16
   },
   {
@@ -510,6 +510,10 @@
    "studies": 5
   },
   {
+   "name": "Kite, A Gilead Company",
+   "studies": 5
+  },
+  {
    "name": "Lee's Pharmaceutical Limited",
    "studies": 5
   },
@@ -651,10 +655,6 @@
   },
   {
    "name": "Intarcia Therapeutics",
-   "studies": 4
-  },
-  {
-   "name": "Kite, A Gilead Company",
    "studies": 4
   },
   {
@@ -975,6 +975,10 @@
   },
   {
    "name": "Shanghai Fosun Pharmaceutical Industrial Development Co. Ltd.",
+   "studies": 3
+  },
+  {
+   "name": "Shanghai Huaota Biopharmaceutical Co., Ltd.",
    "studies": 3
   },
   {
@@ -1378,6 +1382,10 @@
    "studies": 2
   },
   {
+   "name": "Keymed Biosciences Co.Ltd",
+   "studies": 2
+  },
+  {
    "name": "Kiadis Pharma",
    "studies": 2
   },
@@ -1419,10 +1427,6 @@
   },
   {
    "name": "Merrimack Pharmaceuticals",
-   "studies": 2
-  },
-  {
-   "name": "Merus B.V.",
    "studies": 2
   },
   {
@@ -1579,10 +1583,6 @@
   },
   {
    "name": "Shanghai Chia Tai Tianqing Pharmaceutical Technology Development Co., Ltd.",
-   "studies": 2
-  },
-  {
-   "name": "Shanghai Huaota Biopharmaceutical Co., Ltd.",
    "studies": 2
   },
   {
@@ -2018,6 +2018,10 @@
    "studies": 1
   },
   {
+   "name": "Biokin (Shanghai) Biopharmaceutical Co., Ltd.",
+   "studies": 1
+  },
+  {
    "name": "BioLineRx, Ltd.",
    "studies": 1
   },
@@ -2311,6 +2315,10 @@
   },
   {
    "name": "EndoCeutics Inc.",
+   "studies": 1
+  },
+  {
+   "name": "Enliven Therapeutics",
    "studies": 1
   },
   {
@@ -2735,10 +2743,6 @@
   },
   {
    "name": "Kexing Biopharm Co., Ltd.",
-   "studies": 1
-  },
-  {
-   "name": "Keymed Biosciences Co.Ltd",
    "studies": 1
   },
   {
@@ -3226,6 +3230,10 @@
    "studies": 1
   },
   {
+   "name": "Precigen, Inc",
+   "studies": 1
+  },
+  {
    "name": "Precision Life Sciences Group",
    "studies": 1
   },
@@ -3419,6 +3427,10 @@
   },
   {
    "name": "Shanghai Gebaide Biotechnology Co., Ltd.",
+   "studies": 1
+  },
+  {
+   "name": "Shanghai Hengrui Pharmaceutical Co., Ltd.",
    "studies": 1
   },
   {

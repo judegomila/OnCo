@@ -1,152 +1,159 @@
 {
- "checked": "2026-10-28",
+ "checked": "2026-11-03",
  "source": {
   "label": "OpenAlex: most-cited works, subfield Oncology",
   "url": "https://api.openalex.org/works?filter=primary_topic.subfield.id:subfields/2730&sort=cited_by_count:desc&per-page=100&select=id,doi,display_name,publication_year,cited_by_count"
  },
  "method": "OpenAlex works filtered to primary_topic.subfield = Oncology (2730), sorted by citation count, first 100.",
  "total": 100,
- "worksInSubfield": 1904894,
+ "worksInSubfield": 1909251,
  "items": [
   {
    "id": "https://openalex.org/W3128646645",
    "doi": "10.3322/caac.21660",
    "title": "Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries",
    "year": 2021,
-   "cited": 108474
+   "cited": 108707
   },
   {
    "id": "https://openalex.org/W2889646458",
    "doi": "10.3322/caac.21492",
    "title": "Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
    "year": 2018,
-   "cited": 83931
+   "cited": 83965
   },
   {
    "id": "https://openalex.org/W2117692326",
    "doi": "10.1016/j.cell.2011.02.013",
    "title": "Hallmarks of Cancer: The Next Generation",
    "year": 2011,
-   "cited": 66526
+   "cited": 66598
   },
   {
    "id": "https://openalex.org/W2106787323",
    "doi": "10.3322/caac.20107",
    "title": "Global cancer statistics",
    "year": 2011,
-   "cited": 54826
+   "cited": 54825
   },
   {
    "id": "https://openalex.org/W2560367415",
    "doi": "10.1159/000453569",
    "title": "PD-1 and PD-L1 Immune Checkpoint Blockade to Treat Breast Cancer",
    "year": 2016,
-   "cited": 30845
+   "cited": 30843
   },
   {
    "id": "https://openalex.org/W2034269086",
    "doi": "10.1016/s0092-8674(00)81683-9",
    "title": "The Hallmarks of Cancer",
    "year": 2000,
-   "cited": 29216
+   "cited": 29218
   },
   {
    "id": "https://openalex.org/W1757407923",
    "doi": "10.1002/ijc.29210",
    "title": "Cancer incidence and mortality worldwide: Sources, methods and major patterns in GLOBOCAN 2012",
    "year": 2014,
-   "cited": 28763
-  },
-  {
-   "id": "https://openalex.org/W2917837889",
-   "doi": "10.3322/caac.21262",
-   "title": "Global cancer statistics, 2012",
-   "year": 2015,
-   "cited": 26850
+   "cited": 28769
   },
   {
    "id": "https://openalex.org/W4393935425",
    "doi": "10.3322/caac.21834",
    "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
    "year": 2024,
-   "cited": 26813
+   "cited": 27064
+  },
+  {
+   "id": "https://openalex.org/W2917837889",
+   "doi": "10.3322/caac.21262",
+   "title": "Global cancer statistics, 2012",
+   "year": 2015,
+   "cited": 26851
   },
   {
    "id": "https://openalex.org/W1981989535",
    "doi": "10.1002/ijc.25516",
    "title": "Estimates of worldwide burden of cancer in 2008: GLOBOCAN 2008",
    "year": 2010,
-   "cited": 21290
+   "cited": 21292
   },
   {
    "id": "https://openalex.org/W2999417355",
    "doi": "10.3322/caac.21590",
    "title": "Cancer statistics, 2020",
    "year": 2020,
-   "cited": 20430
+   "cited": 20444
   },
   {
    "id": "https://openalex.org/W2911188335",
    "doi": "10.3322/caac.21551",
    "title": "Cancer statistics, 2019",
    "year": 2019,
-   "cited": 20155
+   "cited": 20159
   },
   {
    "id": "https://openalex.org/W2020830322",
    "doi": "10.3322/canjclin.55.2.74",
    "title": "Global Cancer Statistics, 2002",
    "year": 2005,
-   "cited": 18483
+   "cited": 18479
   },
   {
    "id": "https://openalex.org/W2502134830",
    "doi": "10.1007/978-3-319-40618-3",
    "title": "AJCC Cancer Staging Manual",
    "year": 2016,
-   "cited": 17235
+   "cited": 17240
   },
   {
    "id": "https://openalex.org/W4206841660",
    "doi": "10.3322/caac.21708",
    "title": "Cancer statistics, 2022",
    "year": 2022,
-   "cited": 17162
+   "cited": 17197
   },
   {
    "id": "https://openalex.org/W2272984102",
    "doi": "10.3322/caac.21338",
    "title": "Cancer statistics in China, 2015",
    "year": 2016,
-   "cited": 17033
+   "cited": 17039
   },
   {
    "id": "https://openalex.org/W2781525129",
    "doi": "10.3322/caac.21442",
    "title": "Cancer statistics, 2018",
    "year": 2018,
-   "cited": 16578
+   "cited": 16580
   },
   {
    "id": "https://openalex.org/W3119005666",
    "doi": "10.3322/caac.21654",
    "title": "Cancer Statistics, 2021",
    "year": 2021,
-   "cited": 16511
+   "cited": 16522
   },
   {
    "id": "https://openalex.org/W4315754639",
    "doi": "10.3322/caac.21763",
    "title": "Cancer statistics, 2023",
    "year": 2023,
-   "cited": 16248
+   "cited": 16318
   },
   {
    "id": "https://openalex.org/W1536690700",
    "doi": "10.1007/978-3-642-82982-6",
    "title": "TNM Classification of Malignant Tumours",
    "year": 1987,
-   "cited": 16061
+   "cited": 16062
+  },
+  {
+   "id": "https://openalex.org/W2167571044",
+   "doi": "10.1093/jnci/85.5.365",
+   "title": "The European Organization for Research and Treatment of Cancer QLQ-C30: A Quality-of-Life Instrument for Use in International Clinical Trials in Oncology",
+   "year": 1993,
+   "cited": 16010
   },
   {
    "id": "https://openalex.org/W2235523093",
@@ -154,13 +161,6 @@
    "title": "Cancer statistics, 2016",
    "year": 2016,
    "cited": 16003
-  },
-  {
-   "id": "https://openalex.org/W2167571044",
-   "doi": "10.1093/jnci/85.5.365",
-   "title": "The European Organization for Research and Treatment of Cancer QLQ-C30: A Quality-of-Life Instrument for Use in International Clinical Trials in Oncology",
-   "year": 1993,
-   "cited": 15994
   },
   {
    "id": "https://openalex.org/W2572174216",
@@ -174,77 +174,77 @@
    "doi": "10.1056/nejmoa1003466",
    "title": "Improved Survival with Ipilimumab in Patients with Metastatic Melanoma",
    "year": 2010,
-   "cited": 15152
+   "cited": 15155
   },
   {
    "id": "https://openalex.org/W2570618306",
    "doi": "10.3322/caac.21387",
    "title": "Cancer statistics, 2017",
    "year": 2017,
-   "cited": 14717
+   "cited": 14712
   },
   {
    "id": "https://openalex.org/W2581082771",
    "doi": "10.1038/nature21056",
    "title": "Dermatologist-level classification of skin cancer with deep neural networks",
    "year": 2017,
-   "cited": 14271
+   "cited": 14317
   },
   {
    "id": "https://openalex.org/W2066671159",
    "doi": "10.1038/nrc3239",
    "title": "The blockade of immune checkpoints in cancer immunotherapy",
    "year": 2012,
-   "cited": 13813
+   "cited": 13843
   },
   {
    "id": "https://openalex.org/W2160834915",
    "doi": "10.1056/nejmoa1200690",
    "title": "Safety, Activity, and Immune Correlates of Anti–PD-1 Antibody in Cancer",
    "year": 2012,
-   "cited": 12609
+   "cited": 12624
   },
   {
    "id": "https://openalex.org/W2158734599",
    "doi": "10.3322/caac.20073",
    "title": "Cancer Statistics, 2010",
    "year": 2010,
-   "cited": 12595
+   "cited": 12596
   },
   {
    "id": "https://openalex.org/W2170552969",
    "doi": "10.3322/caac.21254",
    "title": "Cancer statistics, 2015",
    "year": 2015,
-   "cited": 11846
+   "cited": 11847
   },
   {
    "id": "https://openalex.org/W2161817637",
    "doi": "10.3322/caac.21166",
    "title": "Cancer statistics, 2013",
    "year": 2013,
-   "cited": 11828
+   "cited": 11824
   },
   {
    "id": "https://openalex.org/W2141393790",
    "doi": "10.1126/science.3798106",
    "title": "Human Breast Cancer: Correlation of Relapse and Survival with Amplification of the HER-2/ neu Oncogene",
    "year": 1987,
-   "cited": 11758
-  },
-  {
-   "id": "https://openalex.org/W2169961966",
-   "doi": "10.3322/caac.21208",
-   "title": "Cancer statistics, 2014",
-   "year": 2014,
-   "cited": 11498
+   "cited": 11760
   },
   {
    "id": "https://openalex.org/W2318605753",
    "doi": "10.1056/nejm200103153441101",
    "title": "Use of Chemotherapy plus a Monoclonal Antibody against HER2 for Metastatic Breast Cancer That Overexpresses HER2",
    "year": 2001,
-   "cited": 11496
+   "cited": 11501
+  },
+  {
+   "id": "https://openalex.org/W2169961966",
+   "doi": "10.3322/caac.21208",
+   "title": "Cancer statistics, 2014",
+   "year": 2014,
+   "cited": 11499
   },
   {
    "id": "https://openalex.org/W2231156824",
@@ -264,21 +264,21 @@
    "doi": "10.3322/caac.20138",
    "title": "Cancer statistics, 2012",
    "year": 2012,
-   "cited": 10678
+   "cited": 10680
   },
   {
    "id": "https://openalex.org/W2023427658",
    "doi": "10.1073/pnas.0530291100",
    "title": "Prospective identification of tumorigenic breast cancer cells",
    "year": 2003,
-   "cited": 10385
+   "cited": 10391
   },
   {
    "id": "https://openalex.org/W2154589460",
    "doi": "10.1172/jci39104",
    "title": "The basics of epithelial-mesenchymal transition",
    "year": 2009,
-   "cited": 10185
+   "cited": 10191
   },
   {
    "id": "https://openalex.org/W2043103956",
@@ -292,28 +292,28 @@
    "doi": "10.1056/nejmoa1606774",
    "title": "Pembrolizumab versus Chemotherapy for PD-L1–Positive Non–Small-Cell Lung Cancer",
    "year": 2016,
-   "cited": 10075
+   "cited": 10090
   },
   {
    "id": "https://openalex.org/W1964081206",
    "doi": "10.1016/j.cell.2009.11.007",
    "title": "Epithelial-Mesenchymal Transitions in Development and Disease",
    "year": 2009,
-   "cited": 9928
+   "cited": 9931
   },
   {
    "id": "https://openalex.org/W4206662285",
    "doi": "10.1158/2159-8290.cd-21-1059",
    "title": "Hallmarks of Cancer: New Dimensions",
    "year": 2022,
-   "cited": 9837
+   "cited": 9907
   },
   {
    "id": "https://openalex.org/W2102085111",
    "doi": "10.1038/35102167",
    "title": "Stem cells, cancer, and cancer stem cells",
    "year": 2001,
-   "cited": 9736
+   "cited": 9738
   },
   {
    "id": "https://openalex.org/W2101995865",
@@ -327,35 +327,35 @@
    "doi": "10.3322/caac.21820",
    "title": "Cancer statistics, 2024",
    "year": 2024,
-   "cited": 9500
+   "cited": 9542
   },
   {
    "id": "https://openalex.org/W1940241680",
    "doi": "10.1056/nejmoa1500596",
    "title": "PD-1 Blockade in Tumors with Mismatch-Repair Deficiency",
    "year": 2015,
-   "cited": 9353
+   "cited": 9367
   },
   {
    "id": "https://openalex.org/W2104347254",
    "doi": "10.1056/nejmoa1507643",
    "title": "Nivolumab versus Docetaxel in Advanced Nonsquamous Non–Small-Cell Lung Cancer",
    "year": 2015,
-   "cited": 9330
+   "cited": 9336
   },
   {
    "id": "https://openalex.org/W1985213644",
    "doi": "10.1245/s10434-010-0985-4",
    "title": "The American Joint Committee on Cancer: the 7th Edition of the AJCC Cancer Staging Manual and the Future of TNM",
    "year": 2010,
-   "cited": 9036
+   "cited": 9037
   },
   {
    "id": "https://openalex.org/W2158294624",
    "doi": "10.1177/216507996801601208",
    "title": "1969 Cancer Facts and Figures",
    "year": 1968,
-   "cited": 8791
+   "cited": 8792
   },
   {
    "id": "https://openalex.org/W2014691022",
@@ -376,7 +376,7 @@
    "doi": "10.1056/nejmoa1504627",
    "title": "Nivolumab versus Docetaxel in Advanced Squamous-Cell Non–Small-Cell Lung Cancer",
    "year": 2015,
-   "cited": 8444
+   "cited": 8448
   },
   {
    "id": "https://openalex.org/W2015519364",
@@ -390,98 +390,98 @@
    "doi": "10.1056/nejmoa1504030",
    "title": "Combined Nivolumab and Ipilimumab or Monotherapy in Untreated Melanoma",
    "year": 2015,
-   "cited": 8147
+   "cited": 8158
   },
   {
    "id": "https://openalex.org/W1964847767",
    "doi": "10.1038/nrm3758",
    "title": "Molecular mechanisms of epithelial–mesenchymal transition",
    "year": 2014,
-   "cited": 8084
+   "cited": 8091
   },
   {
    "id": "https://openalex.org/W2042316019",
    "doi": "10.1126/science.1905840",
    "title": "p53 Mutations in Human Cancers",
    "year": 1991,
-   "cited": 8017
+   "cited": 8018
   },
   {
    "id": "https://openalex.org/W2033278321",
    "doi": "10.1038/nm.3394",
    "title": "Microenvironmental regulation of tumor progression and metastasis",
    "year": 2013,
-   "cited": 7990
+   "cited": 7996
   },
   {
    "id": "https://openalex.org/W2101653483",
    "doi": "10.1056/nejmoa1200694",
    "title": "Safety and Activity of Anti–PD-L1 Antibody in Patients with Advanced Cancer",
    "year": 2012,
-   "cited": 7937
+   "cited": 7946
   },
   {
    "id": "https://openalex.org/W2028415754",
    "doi": "10.1016/j.cell.2010.06.011",
    "title": "Cell Signaling by Receptor Tyrosine Kinases",
    "year": 2010,
-   "cited": 7918
+   "cited": 7930
   },
   {
    "id": "https://openalex.org/W2151253787",
    "doi": "10.1056/nejmoa1011923",
    "title": "FOLFIRINOX versus Gemcitabine for Metastatic Pancreatic Cancer",
    "year": 2011,
-   "cited": 7806
+   "cited": 7805
   },
   {
    "id": "https://openalex.org/W2049553585",
    "doi": "10.1126/science.aaa1348",
    "title": "Mutational landscape determines sensitivity to PD-1 blockade in non–small cell lung cancer",
    "year": 2015,
-   "cited": 7796
+   "cited": 7803
   },
   {
    "id": "https://openalex.org/W2141662760",
    "doi": "10.1056/nejmoa021423",
    "title": "Overweight, Obesity, and Mortality from Cancer in a Prospectively Studied Cohort of U.S. Adults",
    "year": 2003,
-   "cited": 7694
+   "cited": 7697
   },
   {
    "id": "https://openalex.org/W1991494214",
    "doi": "10.1016/s0092-8674(00)81871-1",
    "title": "p53, the Cellular Gatekeeper for Growth and Division",
    "year": 1997,
-   "cited": 7688
+   "cited": 7694
   },
   {
    "id": "https://openalex.org/W2895926103",
    "doi": "10.1002/ijc.31937",
    "title": "Estimating the global cancer incidence and mortality in 2018: GLOBOCAN sources and methods",
    "year": 2018,
-   "cited": 7548
+   "cited": 7554
   },
   {
    "id": "https://openalex.org/W1965734230",
    "doi": "10.3322/canjclin.57.1.43",
    "title": "Cancer Statistics, 2007",
    "year": 2007,
-   "cited": 7440
+   "cited": 7439
   },
   {
    "id": "https://openalex.org/W2001544973",
    "doi": "10.1038/nature03128",
    "title": "Identification of human brain tumour initiating cells",
    "year": 2004,
-   "cited": 7434
+   "cited": 7437
   },
   {
    "id": "https://openalex.org/W1965157206",
    "doi": "10.1038/nature07935",
    "title": "Single Lgr5 stem cells build crypt-villus structures in vitro without a mesenchymal niche",
    "year": 2009,
-   "cited": 7199
+   "cited": 7205
   },
   {
    "id": "https://openalex.org/W3134530972",
@@ -494,112 +494,112 @@
    "doi": "10.1158/0008-5472.can-14-0155",
    "title": "Projecting Cancer Incidence and Deaths to 2030: The Unexpected Burden of Thyroid, Liver, and Pancreas Cancers in the United States",
    "year": 2014,
-   "cited": 7089
+   "cited": 7095
   },
   {
    "id": "https://openalex.org/W1964321121",
    "doi": "10.1038/35052073",
    "title": "Untangling the ErbB signalling network",
    "year": 2001,
-   "cited": 6966
+   "cited": 6974
   },
   {
    "id": "https://openalex.org/W1994993231",
    "doi": "10.1016/j.immuni.2013.07.012",
    "title": "Oncology Meets Immunology: The Cancer-Immunity Cycle",
    "year": 2013,
-   "cited": 6921
+   "cited": 6931
   },
   {
    "id": "https://openalex.org/W2095156669",
    "doi": "10.1126/science.2470152",
    "title": "Studies of the HER-2/ neu Proto-Oncogene in Human Breast and Ovarian Cancer",
    "year": 1989,
-   "cited": 6815
+   "cited": 6818
   },
   {
    "id": "https://openalex.org/W2791483720",
    "doi": "10.1126/science.aar4060",
    "title": "Cancer immunotherapy using checkpoint blockade",
    "year": 2018,
-   "cited": 6750
+   "cited": 6792
   },
   {
    "id": "https://openalex.org/W2161074777",
    "doi": "10.1146/annurev.immunol.19.1.683",
    "title": "Interleukin-10 and the Interleukin-10 Receptor",
    "year": 2001,
-   "cited": 6730
+   "cited": 6737
   },
   {
    "id": "https://openalex.org/W2165480504",
    "doi": "10.1056/nejmoa1304369",
    "title": "Increased Survival in Pancreatic Cancer with nab-Paclitaxel plus Gemcitabine",
    "year": 2013,
-   "cited": 6705
+   "cited": 6709
   },
   {
    "id": "https://openalex.org/W1973268287",
    "doi": "10.1038/nature03445",
    "title": "Targeting the DNA repair defect in BRCA mutant cells as a therapeutic strategy",
    "year": 2005,
-   "cited": 6662
-  },
-  {
-   "id": "https://openalex.org/W2076583198",
-   "doi": "10.1038/nrc822",
-   "title": "Epithelial–mesenchymal transitions in tumour progression",
-   "year": 2002,
-   "cited": 6631
+   "cited": 6679
   },
   {
    "id": "https://openalex.org/W2622499649",
    "doi": "10.1126/science.aan6733",
    "title": "Mismatch repair deficiency predicts response of solid tumors to PD-1 blockade",
    "year": 2017,
-   "cited": 6625
+   "cited": 6638
   },
   {
-   "id": "https://openalex.org/W1650797637",
-   "doi": "10.1038/35042675",
-   "title": "Surfing the p53 network",
-   "year": 2000,
-   "cited": 6606
+   "id": "https://openalex.org/W2076583198",
+   "doi": "10.1038/nrc822",
+   "title": "Epithelial–mesenchymal transitions in tumour progression",
+   "year": 2002,
+   "cited": 6632
   },
   {
    "id": "https://openalex.org/W2039123767",
    "doi": "10.1038/nature13954",
    "title": "PD-1 blockade induces responses by inhibiting adaptive immune resistance",
    "year": 2014,
-   "cited": 6600
+   "cited": 6612
+  },
+  {
+   "id": "https://openalex.org/W1650797637",
+   "doi": "10.1038/35042675",
+   "title": "Surfing the p53 network",
+   "year": 2000,
+   "cited": 6608
   },
   {
    "id": "https://openalex.org/W2573152477",
    "doi": "10.3322/caac.21388",
    "title": "The Eighth Edition AJCC Cancer Staging Manual: Continuing to build a bridge from a population‐based to a more “personalized” approach to cancer staging",
    "year": 2017,
-   "cited": 6528
+   "cited": 6538
   },
   {
    "id": "https://openalex.org/W2142300779",
    "doi": "10.1126/science.1129139",
    "title": "Type, Density, and Location of Immune Cells Within Human Colorectal Tumors Predict Clinical Outcome",
    "year": 2006,
-   "cited": 6510
+   "cited": 6516
   },
   {
    "id": "https://openalex.org/W2004630197",
    "doi": "10.1126/science.1203486",
    "title": "Cancer Immunoediting: Integrating Immunity’s Roles in Cancer Suppression and Promotion",
    "year": 2011,
-   "cited": 6465
+   "cited": 6475
   },
   {
    "id": "https://openalex.org/W2198093519",
    "doi": "10.1016/s0140-6736(15)01281-7",
    "title": "Pembrolizumab versus docetaxel for previously treated, PD-L1-positive, advanced non-small-cell lung cancer (KEYNOTE-010): a randomised controlled trial",
    "year": 2015,
-   "cited": 6446
+   "cited": 6449
   },
   {
    "id": "https://openalex.org/W4239180165",
@@ -620,70 +620,70 @@
    "doi": "10.1001/jamaoncol.2016.5688",
    "title": "Global, Regional, and National Cancer Incidence, Mortality, Years of Life Lost, Years Lived With Disability, and Disability-Adjusted Life-years for 32 Cancer Groups, 1990 to 2015",
    "year": 2016,
-   "cited": 6217
+   "cited": 6219
   },
   {
    "id": "https://openalex.org/W1982488143",
    "doi": "10.1056/nejmoa1501824",
    "title": "Pembrolizumab for the Treatment of Non–Small-Cell Lung Cancer",
    "year": 2015,
-   "cited": 6190
-  },
-  {
-   "id": "https://openalex.org/W2787553551",
-   "doi": "10.1016/s0140-6736(17)33326-3",
-   "title": "Global surveillance of trends in cancer survival 2000–14 (CONCORD-3): analysis of individual records for 37 513 025 patients diagnosed with one of 18 cancers from 322 population-based registries in 71 countries",
-   "year": 2018,
-   "cited": 6141
+   "cited": 6195
   },
   {
    "id": "https://openalex.org/W2801309958",
    "doi": "10.1038/s41591-018-0014-x",
    "title": "Understanding the tumor immune microenvironment (TIME) for effective therapy",
    "year": 2018,
-   "cited": 6129
+   "cited": 6153
+  },
+  {
+   "id": "https://openalex.org/W2787553551",
+   "doi": "10.1016/s0140-6736(17)33326-3",
+   "title": "Global surveillance of trends in cancer survival 2000–14 (CONCORD-3): analysis of individual records for 37 513 025 patients diagnosed with one of 18 cancers from 322 population-based registries in 71 countries",
+   "year": 2018,
+   "cited": 6147
   },
   {
    "id": "https://openalex.org/W2121619780",
    "doi": "10.1101/gad.13.12.1501",
    "title": "CDK inhibitors: positive and negative regulators of G1-phase progression",
    "year": 1999,
-   "cited": 6121
+   "cited": 6115
   },
   {
    "id": "https://openalex.org/W2029275361",
    "doi": "10.1126/science.8197455",
    "title": "Jak-STAT Pathways and Transcriptional Activation in Response to IFNs and Other Extracellular Signaling Proteins",
    "year": 1994,
-   "cited": 6069
+   "cited": 6074
   },
   {
    "id": "https://openalex.org/W2915478882",
    "doi": "10.3322/caac.21349",
    "title": "Cancer treatment and survivorship statistics, 2016",
    "year": 2016,
-   "cited": 6066
+   "cited": 6067
   },
   {
    "id": "https://openalex.org/W2125452425",
    "doi": "10.1056/nejmoa040694",
    "title": "Preoperative versus Postoperative Chemoradiotherapy for Rectal Cancer",
    "year": 2004,
-   "cited": 6041
-  },
-  {
-   "id": "https://openalex.org/W2105258029",
-   "doi": "10.1200/jco.1993.11.3.570",
-   "title": "The Functional Assessment of Cancer Therapy scale: development and validation of the general measure.",
-   "year": 1993,
-   "cited": 6019
+   "cited": 6046
   },
   {
    "id": "https://openalex.org/W2773804840",
    "doi": "10.1056/nejmoa1707447",
    "title": "Axicabtagene Ciloleucel CAR T-Cell Therapy in Refractory Large B-Cell Lymphoma",
    "year": 2017,
-   "cited": 6018
+   "cited": 6027
+  },
+  {
+   "id": "https://openalex.org/W2105258029",
+   "doi": "10.1200/jco.1993.11.3.570",
+   "title": "The Functional Assessment of Cancer Therapy scale: development and validation of the general measure.",
+   "year": 1993,
+   "cited": 6020
   },
   {
    "id": "https://openalex.org/W1968766175",
@@ -697,14 +697,14 @@
    "doi": "10.1007/978-3-642-85849-9",
    "title": "Cancer Incidence in Five Continents",
    "year": 1966,
-   "cited": 5934
+   "cited": 5936
   },
   {
    "id": "https://openalex.org/W2765224588",
    "doi": "10.1158/0008-5472.can-17-0307",
    "title": "TIMER: A Web Server for Comprehensive Analysis of Tumor-Infiltrating Immune Cells",
    "year": 2017,
-   "cited": 5926
+   "cited": 5935
   }
  ]
 }

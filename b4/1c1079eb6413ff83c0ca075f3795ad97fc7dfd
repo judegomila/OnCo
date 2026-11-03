@@ -1,0 +1,50 @@
+src/components/BiomarkerDetail.tsx
+  s_1e233a6be244f1::t_ed509b665db549 6-7,50-53,88-91,106,109-110,112
+src/data/assay-records.ts
+  s_1e233a6be244f1::t_09604fa30a9daa 1-25
+src/lib/members.ts
+  s_1e233a6be244f1::t_a12bf5facbdd80 66,68-69
+  s_1e233a6be244f1::t_a006746fc39db7 60,62-63
+  s_1e233a6be244f1::t_c54f427e891ec8 1-7,9-33,38-59,61,64-65,67,70-225
+  s_1e233a6be244f1::t_c0eb01f80377f9 34-37
+  s_1e233a6be244f1::t_2a5df3d1d33b3c 8
+src/data/readout-test-technologies.ts
+  s_1e233a6be244f1::t_5313d62128c051 1-46
+scripts/section-members.ts
+  s_1e233a6be244f1::t_3fcdce2d84bdc4 1-71,77-90
+  s_1e233a6be244f1::t_fa7ae8b5b704da 72-76
+src/components/EntityDetail.tsx
+  s_1e233a6be244f1::t_ae43f8f8e2c3d2 430-431
+  s_1e233a6be244f1::t_1b41cd8dcf39d4 630-643,646-657,661-662,666
+  s_1e233a6be244f1::t_607ecfed5ba742 377
+  s_1e233a6be244f1::t_5ed9d07bded34d 276
+  s_1e233a6be244f1::t_6fa90b28863e3b 149-150
+  s_1e233a6be244f1::t_f639d448e7be07 113
+  s_1e233a6be244f1::t_400f534663cf60 331-332
+src/lib/members.test.ts
+  s_1e233a6be244f1::t_831a9cc034f4fe 152-153,158-159,163-164
+  s_1e233a6be244f1::t_04666657aee696 154-157,160
+  s_1e233a6be244f1::t_5fcfab49ad7a83 98-99,103,105,108-117
+  s_1e233a6be244f1::t_a1d68359d5ca29 12
+  s_1e233a6be244f1::t_9d9b7988f2d354 1-11,13-27,31-36,38-97,101-102,104,106-107,118-129,132-139,141-151,161-162,165-166
+  s_1e233a6be244f1::t_8630b4a9658e8d 28-30,37,100,130,140
+  s_1e233a6be244f1::t_bad9313ee01d24 131
+src/lib/biomarkers.ts
+  s_1e233a6be244f1::t_109d107787670f 3,50-53,56,59,64,66-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b41c1079eb6413ff83c0ca075f3795ad97fc7dfd",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "unknown"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+src/data/radiation-wave1.ts
+  ai_agent 13,89,91,94-95,100
+src/data/schematic-aliases/breast-residual-subclones.ts
+  ai_agent 17-18
+public/freshness.json
+  ai_agent 1
+CHANGELOG.md
+  ai_agent 10,13-17,20
+scripts/search-health.test.ts
+  ai_agent 1-74
+public/newsletter/feed.xml
+  ai_agent 14-16
+public/newsletter/2026-11-04/index.html
+  ai_agent 2,9-10
+src/data/spikes/index.ts
+  ai_agent 118-119
+scripts/search-health-lib.ts
+  ai_agent 1-229
+.github/workflows/search-health.yml
+  ai_agent 1-59
+public/.well-known/llms.txt
+  ai_agent 5
+src/data/complementary.ts
+  ai_agent 38,421,428
+src/data/gap-fill.ts
+  ai_agent 23,1136
+src/data/index.ts
+  ai_agent 178,254,388,395,398
+scripts/spike-sources.ts
+  ai_agent 99,104
+src/data/people/us-east.ts
+  ai_agent 698-705
+src/data/technologies.ts
+  ai_agent 467,469,474,974,976,980-981
+src/data/roadmaps-wave2.ts
+  ai_agent 14,209,218,233,244
+public/.well-known/mcp.json
+  ai_agent 3
+src/data/companies-invictus.ts
+  ai_agent 1-72
+public/newsletter/index.json
+  ai_agent 1
+src/data/paper-ids.json
+  ai_agent 1
+public/llms.txt
+  ai_agent 5
+src/data/tests.ts
+  ai_agent 768-769
+src/data/supporting.ts
+  ai_agent 12,479
+public/newsletter/2026-11-04.json
+  ai_agent 1
+src/data/machines-wave2.ts
+  ai_agent 23,25,39,41,45,47,386,388-390,392-393
+src/data/schematic-aliases/machines-wave3.ts
+  ai_agent 1-7
+src/data/schematics.ts
+  ai_agent 577,602
+src/data/machines-wave.ts
+  ai_agent 20,22,114,116,121-124,126,131-134,136,141,143-144,146,151,153-154,156,161,163-164,166,171,173-174,176,181,183-184,186,191,193,196,198,204,206-207,209,214,216,271,275
+src/data/machines-wave3.ts
+  ai_agent 1-437
+src/data/spikes/rna-tests.ts
+  ai_agent 1-623
+src/data/spikes/breast-residual-subclones.ts
+  ai_agent 78-81,319,603-629,733,737-743,753-754,771
+scripts/search-health.ts
+  ai_agent 1-164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "4ea7379ffe58eaf31a62ae3c50d0be1dd13643c3",
+  "prompts": {}
+}

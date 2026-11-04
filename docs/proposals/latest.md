@@ -1,10 +1,10 @@
-# Change proposals 2026-11-03
+# Change proposals 2026-11-04
 
 Drafted by scripts/propose-updates.ts from: factcheck 2026-11-02, trialChanges 2026-11-02, fda 2026-10-28, regional 2026-10-28.
 
 Review each line against its source. Apply by editing the file named; nothing in this list is applied automatically. EMA rows carry the reason a person is needed; the rows that passed every check were written on the auto branch by scripts/apply-proposals.ts and are listed at the end.
 
-## High confidence (22)
+## High confidence (15)
 
 - [ ] **NAPOLI-2: Fluorouracil, Leucovorin, and Nanoliposomal Irinotecan in Biliary Cancer** ([page](https://onco.cc/trials/nct04005339/)) · trial-results · `result / outcomes`
   - current: (none)
@@ -12,25 +12,15 @@ Review each line against its source. Apply by editing the file named; nothing in
   - evidence: ClinicalTrials.gov now has posted results for NCT04005339 (detected 2026-11-02). ([source](https://clinicaltrials.gov/study/NCT04005339?tab=results))
   - file: `src/data/spikes/gallbladder-registry-trials.ts:99`
 - [ ] **Enzalutamide** ([page](https://onco.cc/drugs/enzalutamide/)) · regulatory-event · `regulatoryEvents`
-  - current: 0 events; none dated 2026-10-26
+  - current: 1 events; none dated 2026-10-26
   - proposed: { date: "2026-10-26", type: "approval", region: "US", note: "approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive" }
   - evidence: On October 26, 2026, the Food and Drug Administration (FDA) approved talazoparib (Talzenna, Pfizer Inc.) in combination with enzalutamide for the treatment of adults with metastatic androgen pathway modulation-naïve or -sensitive (mAPMN/S) prostate cancer with homologous recombination repair (HRR) g ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive))
   - file: `src/data/interactions.ts:112`
-- [ ] **Talazoparib** ([page](https://onco.cc/drugs/talazoparib/)) · regulatory-event · `regulatoryEvents`
-  - current: 2 events; none dated 2026-10-26
-  - proposed: { date: "2026-10-26", type: "approval", region: "US", note: "approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive" }
-  - evidence: On October 26, 2026, the Food and Drug Administration (FDA) approved talazoparib (Talzenna, Pfizer Inc.) in combination with enzalutamide for the treatment of adults with metastatic androgen pathway modulation-naïve or -sensitive (mAPMN/S) prostate cancer with homologous recombination repair (HRR) g ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive))
-  - file: `src/data/checkpoint-map.ts:612`
-- [ ] **Pembrolizumab** ([page](https://onco.cc/drugs/pembrolizumab/)) · regulatory-event · `regulatoryEvents`
-  - current: 49 events; none dated 2026-10-16
-  - proposed: { date: "2026-10-16", type: "approval", region: "US", note: "grants traditional approval for pembrolizumab or pembrolizumab and berahyaluronidase alfa-pmph for unresectable or metastatic TMB-H solid tumors with updated indication", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph" }
-  - evidence: On October 16, 2026, the Food and Drug Administration granted traditional approval to pembrolizumab (Keytruda, Merck) or pembrolizumab and berahyaluronidase alfa-pmph (Keytruda Qlex, Merck) for adult and pediatric patients with unresectable or metastatic tumor mutational burden-high (TMB-H) [≥13 mut ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph))
-  - file: `src/data/checkpoint-map.ts:158`
 - [ ] **KEYNOTE-522** ([page](https://onco.cc/trials/keynote-522/)) · trial-results · `result / outcomes`
   - current: EFS HR 0.63; OS HR 0.66 (5-year); 7-year OS 85.1% vs 77.2%.
   - proposed: add the posted primary outcome with the registry as source
   - evidence: ClinicalTrials.gov now has posted results for NCT03036488 (detected 2026-10-26). ([source](https://clinicaltrials.gov/study/NCT03036488?tab=results))
-  - file: `src/data/regimens.ts:154`
+  - file: `src/data/regimens.ts:155`
 - [ ] **To Assess the Safety and Tolerability of Tafasitamab Alone or in Combination With Other Drugs in Japanese Participants With Non-Hodgkins Lymphoma (NHL** ([page](https://onco.cc/trials/nct04661007/)) · trial-results · `result / outcomes`
   - current: (none)
   - proposed: add the posted primary outcome with the registry as source
@@ -41,46 +31,21 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add the posted primary outcome with the registry as source
   - evidence: ClinicalTrials.gov now has posted results for NCT05210790 (detected 2026-10-26). ([source](https://clinicaltrials.gov/study/NCT05210790?tab=results))
   - file: `src/data/polycythaemia-vera.ts:114`
-- [ ] **Dostarlimab** ([page](https://onco.cc/drugs/dostarlimab/)) · regulatory-event · `regulatoryEvents`
-  - current: 6 events; none dated 2026-10-19
-  - proposed: { date: "2026-10-19", type: "approval", region: "US", note: "grants accelerated approval to dostarlimab for locally advanced rectal cancer (accelerated)", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dostarlimab-locally-advanced-rectal-cancer" }
-  - evidence: On October 19, 2026, the Food and Drug Administration granted accelerated approval to dostarlimab (Jemperli, GSK) for adults with Stage II/III locally advanced rectal cancer (LARC) that is microsatellite instability high (MSI-H) or mismatch repair deficient (dMMR), as determined by an FDA-authorized ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dostarlimab-locally-advanced-rectal-cancer))
-  - file: `src/data/checkpoint-map.ts:158`
-- [ ] **Nogapendekin alfa inbakicept** ([page](https://onco.cc/drugs/nogapendekin-alfa/)) · regulatory-event · `regulatoryEvents`
-  - current: 0 events; none dated 2026-10-14
-  - proposed: { date: "2026-10-14", type: "approval", region: "US", note: "approves an expanded indication for nogapendekin alfa inbakicept-pmln for BCG-unresponsive non-muscle invasive bladder cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-expanded-indication-nogapendekin-alfa-inbakicept-pmln-bcg-unresponsive-non-muscle" }
-  - evidence: On October 14, 2026, the Food and Drug Administration (FDA) approved nogapendekin alfa inbakicept-pmln (Anktiva, Altor BioScience, LLC, an indirect wholly-owned subsidiary of ImmunityBio, Inc.) with Bacillus Calmette-Guérin (BCG) for adults with BCG-unresponsive non-muscle invasive bladder cancer (N ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-expanded-indication-nogapendekin-alfa-inbakicept-pmln-bcg-unresponsive-non-muscle))
-  - file: `src/data/spikes/urothelial.ts:138`
-- [ ] **Atezolizumab** ([page](https://onco.cc/drugs/atezolizumab/)) · regulatory-event · `regulatoryEvents`
-  - current: 15 events; none dated 2026-10-08
-  - proposed: { date: "2026-10-08", type: "approval", region: "US", note: "approves atezolizumab in combination with chemotherapy for Stage III mismatch repair deficient colon cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-combination-chemotherapy-stage-iii-mismatch-repair-deficient-colon-cancer" }
-  - evidence: On October 8, 2026, the Food and Drug Administration approved atezolizumab (Tecentriq, Genentech, Inc.) in combination with a fluoropyrimidine and oxaliplatin for the adjuvant treatment of adult and pediatric patients two years of age and older with Stage III mismatch repair deficient (dMMR) colon c ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-combination-chemotherapy-stage-iii-mismatch-repair-deficient-colon-cancer))
-  - file: `src/data/checkpoint-map.ts:252`
 - [ ] **Trastuzumab** ([page](https://onco.cc/drugs/trastuzumab/)) · regulatory-event · `regulatoryEvents`
   - current: 7 events; none dated 2026-10-07
   - proposed: { date: "2026-10-07", type: "approval", region: "US", note: "approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer" }
   - evidence: On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following inductio ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer))
-  - file: `src/data/drugs.ts:705`
+  - file: `src/data/drugs.ts:706`
 - [ ] **Pertuzumab** ([page](https://onco.cc/drugs/pertuzumab/)) · regulatory-event · `regulatoryEvents`
-  - current: 5 events; none dated 2026-10-07
+  - current: 6 events; none dated 2026-10-07
   - proposed: { date: "2026-10-07", type: "approval", region: "US", note: "approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer" }
   - evidence: On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following inductio ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer))
   - file: `src/data/spikes/breast-her2-positive.ts:168`
-- [ ] **Tucatinib** ([page](https://onco.cc/drugs/tucatinib/)) · regulatory-event · `regulatoryEvents`
-  - current: 2 events; none dated 2026-10-07
-  - proposed: { date: "2026-10-07", type: "approval", region: "US", note: "approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer" }
-  - evidence: On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following inductio ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer))
-  - file: `src/data/drugs.ts:713`
 - [ ] **Study Of Palbociclib Combined With Chemotherapy In Pediatric Patients With Recurrent/Refractory Solid Tumors** ([page](https://onco.cc/trials/nct03709680/)) · trial-results · `result / outcomes`
   - current: (none)
   - proposed: add the posted primary outcome with the registry as source
   - evidence: ClinicalTrials.gov now has posted results for NCT03709680 (detected 2026-10-12). ([source](https://clinicaltrials.gov/study/NCT03709680?tab=results))
   - file: `src/data/pipeline-trials-wave5.ts:1415`
-- [ ] **Pirtobrutinib** ([page](https://onco.cc/drugs/pirtobrutinib/)) · regulatory-event · `regulatoryEvents`
-  - current: 4 events; none dated 2026-10-02
-  - proposed: { date: "2026-10-02", type: "approval", region: "US", note: "approves pirtobrutinib for previously untreated chronic lymphocytic leukemia or small lymphocytic lymphoma", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pirtobrutinib-previously-untreated-chronic-lymphocytic-leukemia-or-small-lymphocytic" }
-  - evidence: On October 2, 2026, the Food and Drug Administration approved pirtobrutinib (Jaypirca, Eli Lilly and Company) for adult patients with previously untreated chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL) with no known 17p deletion. ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pirtobrutinib-previously-untreated-chronic-lymphocytic-leukemia-or-small-lymphocytic))
-  - file: `src/data/interactions.ts:120`
 - [ ] **IMvigor011** ([page](https://onco.cc/trials/imvigor011/)) · trial-results · `result / outcomes`
   - current: DFS HR 0.64; OS HR 0.59 in ctDNA+.
   - proposed: add the posted primary outcome with the registry as source
@@ -178,12 +143,12 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: status phase-3; no US approval recorded
   - proposed: add { region: "US", year: <from label>, indication: <from label> } and set status to approved
   - evidence: openFDA has a label for "Givinostat" ([source](https://open.fda.gov/apis/drug/label/))
-  - file: `src/data/drugs-pipeline-wave1.ts:553`
+  - file: `src/data/drugs-pipeline-wave1.ts:561`
 - [ ] **Ivermectin** ([page](https://onco.cc/drugs/ivermectin/)) · drug-approval · `approvals / status`
   - current: status phase-2; no US approval recorded
   - proposed: add { region: "US", year: <from label>, indication: <from label> } and set status to approved
   - evidence: openFDA has a label for "Ivermectin" ([source](https://open.fda.gov/apis/drug/label/))
-  - file: `src/data/ivermectin.ts:65`
+  - file: `src/data/ivermectin.ts:66`
 - [ ] **Metyrapone** ([page](https://onco.cc/drugs/metyrapone/)) · drug-approval · `approvals / status`
   - current: status established; no US approval recorded
   - proposed: add { region: "US", year: <from label>, indication: <from label> } and set status to approved
@@ -269,7 +234,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2029-05
   - proposed: 2030-05
   - evidence: Primary completion date moved from 2029-05 to 2030-05; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06057831))
-  - file: `src/data/spikes/colorectal-registry-trials.ts:2615`
+  - file: `src/data/spikes/colorectal-registry-trials.ts:2618`
 - [ ] **AZD0305 as Monotherapy or in Combination With Anticancer Agents in Participants With Multiple Myeloma** ([page](https://onco.cc/trials/nct06106945/)) · trial-completion · `yearReported / calendar`
   - current: 2027-08-16
   - proposed: 2028-01-24
@@ -514,7 +479,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2026-03-01
   - proposed: 2029-09-30
   - evidence: Primary completion date moved from 2026-03-01 to 2029-09-30; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT06841159))
-  - file: `src/data/spikes/colorectal-registry-trials.ts:3641`
+  - file: `src/data/spikes/colorectal-registry-trials.ts:3644`
 - [ ] **A Study Comparing BL-B01D1 With Chemotherapy of Physician's Choice in Patients With Recurrent or Metastatic Urothelial Carcinoma(PANKU-Bladder01)** ([page](https://onco.cc/trials/nct06857175/)) · trial-status · `status`
   - current: recruiting
   - proposed: active
@@ -549,7 +514,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2027-05-27
   - proposed: 2028-12-16
   - evidence: Primary completion date moved from 2027-05-27 to 2028-12-16; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07595874))
-  - file: `src/data/spikes/colorectal-registry-trials.ts:1446`
+  - file: `src/data/spikes/colorectal-registry-trials.ts:1449`
 - [ ] **A Phase II Study of HS-20093 Injection Combined With Adebrelimab Versus HS-20093 Injection in Previously Treated Patients With Advanced or Metastatic Non-Squamo** ([page](https://onco.cc/trials/nct07824882/)) · trial-status · `status`
   - current: planned
   - proposed: recruiting
@@ -909,7 +874,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2025-04
   - proposed: 2026-11-01
   - evidence: Primary completion date moved from 2025-04 to 2026-11-01; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05752136))
-  - file: `src/data/spikes/colorectal-registry-trials.ts:3119`
+  - file: `src/data/spikes/colorectal-registry-trials.ts:3122`
 - [ ] **Study of AZD5863 in Adult Participants With Advanced or Metastatic Solid Tumors** ([page](https://onco.cc/trials/nct06005493/)) · trial-completion · `yearReported / calendar`
   - current: 2027-07-16
   - proposed: 2029-03-16
@@ -1034,7 +999,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2026-09-30
   - proposed: 2029-08-28
   - evidence: Primary completion date moved from 2026-09-30 to 2029-08-28; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07551596))
-  - file: `src/data/spikes/colorectal-registry-trials.ts:2355`
+  - file: `src/data/spikes/colorectal-registry-trials.ts:2358`
 - [ ] **A Study to Assess Adverse Events and Change in Disease Activity When Intravenous (IV) Pivekimab Sunirine is Given in Combination With Oral Venetoclax and IV or Subcutaneous Azacitidine in Adult Participants With Acute Myeloid Leukemia (AML)** ([page](https://onco.cc/trials/nct07581002/)) · trial-completion · `yearReported / calendar`
   - current: 2032-05
   - proposed: 2032-06
@@ -1054,7 +1019,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: 2026-05
   - proposed: 2027-05
   - evidence: Primary completion date moved from 2026-05 to 2027-05; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05845450))
-  - file: `src/data/spikes/colorectal-registry-trials.ts:1014`
+  - file: `src/data/spikes/colorectal-registry-trials.ts:1017`
 - [ ] **A Study of Risvutatug Rezetecan in Combination With Ivonescimab in Participants With Advanced Solid Tumors (EMBOLD PanTumour-103)** ([page](https://onco.cc/trials/nct07602855/)) · trial-completion · `yearReported / calendar`
   - current: 2029-07-05
   - proposed: 2029-06-21
@@ -1066,7 +1031,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - evidence: Primary completion date moved from 2026-10-18 to 2027-05-18; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07016230))
   - file: `src/data/spikes/lung-registry-trials.ts:1748`
 
-## Low confidence (44)
+## Low confidence (40)
 
 - [ ] **A Study of DS-3939a in Participants With Solid Tumors** ([page](https://onco.cc/trials/nct07739966/)) · trial-status · `status`
   - current: planned
@@ -1097,7 +1062,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: planned
   - proposed: recruiting
   - evidence: ClinicalTrials.gov overall status is RECRUITING; recorded planned. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT07645118))
-  - file: `src/data/spikes/colorectal-registry-trials.ts:3683`
+  - file: `src/data/spikes/colorectal-registry-trials.ts:3686`
 - [ ] **Enhancing ICB Efficacy Through IL-1 Inhibition in TNBC** ([page](https://onco.cc/trials/nct07698106/)) · trial-status · `status`
   - current: planned
   - proposed: recruiting
@@ -1127,12 +1092,12 @@ Review each line against its source. Apply by editing the file named; nothing in
   - current: planned
   - proposed: recruiting
   - evidence: ClinicalTrials.gov overall status is RECRUITING; recorded planned. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT07472868))
-  - file: `src/data/spikes/colorectal-registry-trials.ts:3731`
+  - file: `src/data/spikes/colorectal-registry-trials.ts:3734`
 - [ ] **Neoadjuvant Pembrolizumab and Porustobart in Resectable pMMR/MSS Colon Cancer** ([page](https://onco.cc/trials/nct07808151/)) · trial-status · `status`
   - current: planned
   - proposed: recruiting
   - evidence: ClinicalTrials.gov overall status is RECRUITING; recorded planned. Editorial statuses (positive, negative, mixed) need the result, so this is a floor, not a verdict. ([source](https://clinicaltrials.gov/study/NCT07808151))
-  - file: `src/data/spikes/colorectal-registry-trials.ts:383`
+  - file: `src/data/spikes/colorectal-registry-trials.ts:386`
 - [ ] **Pharmacokinetic Study of QL2107 Versus Keytruda® for Adjuvant Therapy of Non-Small Cell Lung Cancer (NSCLC)** ([page](https://onco.cc/trials/nct07162883/)) · trial-status · `status`
   - current: planned
   - proposed: active
@@ -1178,11 +1143,6 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add product etuvetidigene autotemcel (Waskyra) with the EU status the register page shows
   - evidence: EMA register: Waskyra (etuvetidigene autotemcel) Authorised, 2026-01-09. Register page: "Authorised: This medicine is authorised for use in the European Union", authorised 2026-01-09. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/waskyra))
   - why a person: no corpus product is named exactly etuvetidigene autotemcel / genetically modified autologous CD34+ cell enriched population that contains haematopoietic stem and progenitor cells (HSPC) transduced ex vivo using a lentiviral vector encoding the human Wiskott-Aldrich Syndrome (WAS) gene / Waskyra
-- [ ] **Lynkuet** · new-product · `new drug record`
-  - current: (not in corpus)
-  - proposed: add product elinzanetant (Lynkuet) with the EU status the register page shows
-  - evidence: EMA register: Lynkuet (elinzanetant) Authorised, 2025-11-17. Register page: "Authorised: This medicine is authorised for use in the European Union", authorised 2025-11-17. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/lynkuet))
-  - why a person: no corpus product is named exactly elinzanetant / elinzanetant / Lynkuet
 - [ ] **Casgevy** · new-product · `new drug record`
   - current: (not in corpus)
   - proposed: add product exagamglogene autotemcel (Casgevy) with the EU status the register page shows
@@ -1193,21 +1153,11 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add product autologous CD34+ cells encoding ARSA gene (Libmeldy) with the EU status the register page shows
   - evidence: EMA register: Libmeldy (autologous CD34+ cells encoding ARSA gene) Authorised, 2020-12-17. Register page: "Authorised: This medicine is authorised for use in the European Union", authorised 2020-12-17. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/libmeldy))
   - why a person: no corpus product is named exactly autologous CD34+ cells encoding ARSA gene / atidarsagene autotemcel / Libmeldy
-- [ ] **Lumeblue (previously Methylthioninium chloride Cosmo)** · new-product · `new drug record`
-  - current: (not in corpus)
-  - proposed: add product methylthioninium chloride (Lumeblue (previously Methylthioninium chloride Cosmo)) with the EU status the register page shows
-  - evidence: EMA register: Lumeblue (previously Methylthioninium chloride Cosmo) (methylthioninium chloride) Authorised, 2020-08-19. Register page: "Authorised: This medicine is authorised for use in the European Union", authorised 2020-08-19. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/lumeblue))
-  - why a person: no corpus product is named exactly methylthioninium chloride / methylthioninium chloride / Lumeblue (previously Methylthioninium chloride Cosmo)
 - [ ] **Xromi** · new-product · `new drug record`
   - current: (not in corpus)
   - proposed: add product hydroxycarbamide (Xromi) with the EU status the register page shows
   - evidence: EMA register: Xromi (hydroxycarbamide) Authorised, 2019-07-01. Register page: "Authorised: This medicine is authorised for use in the European Union", authorised 2019-07-01. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/xromi))
   - why a person: no corpus product is named exactly hydroxycarbamide / hydroxycarbamide / Xromi
-- [ ] **SomaKit TOC** · new-product · `new drug record`
-  - current: (not in corpus)
-  - proposed: add product edotreotide (SomaKit TOC) with the EU status the register page shows
-  - evidence: EMA register: SomaKit TOC (edotreotide) Authorised, 2016-12-08. Register page: "Authorised: This medicine is authorised for use in the European Union", authorised 2016-12-08. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/somakit-toc))
-  - why a person: no corpus product is named exactly edotreotide / edotreotide / SomaKit TOC
 - [ ] **Strimvelis** · new-product · `new drug record`
   - current: (not in corpus)
   - proposed: add product autologous CD34+ enriched cell fraction that contains CD34+ cells transduced with retroviral vector that encodes for the human ADA cDNA sequence (Strimvelis) with the EU status the register page shows
@@ -1223,11 +1173,6 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add product mercaptamine (Procysbi) with the EU status the register page shows
   - evidence: EMA register: Procysbi (mercaptamine) Authorised, 2013-09-05. Register page: "Authorised: This medicine is authorised for use in the European Union", authorised 2013-09-05. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/procysbi))
   - why a person: no corpus product is named exactly mercaptamine / mercaptamine bitartrate / Procysbi
-- [ ] **NeoRecormon** · new-product · `new drug record`
-  - current: (not in corpus)
-  - proposed: add product epoetin beta (NeoRecormon) with the EU status the register page shows
-  - evidence: EMA register: NeoRecormon (epoetin beta) Authorised, 1997-07-16. Register page: "Authorised: This medicine is authorised for use in the European Union", authorised 1997-07-16. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/neorecormon))
-  - why a person: no corpus product is named exactly epoetin beta / epoetin beta / NeoRecormon
 - [ ] **Cystagon** · new-product · `new drug record`
   - current: (not in corpus)
   - proposed: add product mercaptamine bitartrate (Cystagon) with the EU status the register page shows
@@ -1280,6 +1225,6 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add phase 3 trial NCT04543617 for Tiragolumab with status completed
   - evidence: A phase 3 study of Tiragolumab moved from ACTIVE_NOT_RECRUITING to COMPLETED (detected 2026-09-17). ([source](https://clinicaltrials.gov/study/NCT04543617))
 
-## EMA rows decided without a person (0 written, 0 already on main)
+## EMA rows decided without a person (0 written, 4 already on main)
 
 None this run.

@@ -1,0 +1,81 @@
+src/data/paediatric-subtypes.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 410
+scripts/institution-coverage.ts
+  s_1e233a6be244f1::t_729f93ab1e3e77 45
+src/data/institutions/japan-mhlw.ts
+  s_1e233a6be244f1::t_a11fa77b9f1ec8 122,195,247
+  s_1e233a6be244f1::t_7927864d0c6744 1-10,14,21,260
+  s_1e233a6be244f1::t_4303248c9693ca 11-13,15-20,22-23,25,27-35,37-47,49-53,55-59,61-65,67-72,74-79,81-85,87-97,99-103,105-109,111-121,123-127,129-139,141-145,147-188,190-194,196-200,202-206,208-212,214-218,220-224,226-230,232-242,244-246,248-259
+  s_1e233a6be244f1::t_f00ffb4cf49df8 24,26,36,48,54,60,66,73,80,86,98,104,110,128,140,146,189,201,207,213,219,225,231,243
+src/data/universe-lists/mhlw-english.ts
+  s_1e233a6be244f1::t_ad60bf399154ad 6-14,17-68
+  s_1e233a6be244f1::t_36b708cc6084ca 1-5,15-16,69
+src/data/people/leaders-wave2.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 679
+src/data/institutions/centres-wave3.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 213
+src/data/cancer-parents-wave2.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 13,60,81
+src/data/spikes/breast-hr-positive.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 236
+src/data/spikes/gallbladder-uk.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 146
+src/data/free-wave.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 97,174,210
+src/data/institutions/uk-cancer-charities.ts
+  s_1e233a6be244f1::t_60f50a4876ea7b 238
+  s_1e233a6be244f1::t_d2df12def7c237 148-171,174-191,193-220,222-237,239-249,251-331,335-336
+  s_1e233a6be244f1::t_f2780008d2d4d8 172-173,192,221,250,332-334
+  s_1e233a6be244f1::t_4717851c7e8abb 12-14,16-99,101-122,124-129,131-144,146-147
+  s_1e233a6be244f1::t_5bce4dbcf7e9ed 100,123,130,145
+src/data/institutions-wave-investigators.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 187
+src/data/institutions.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 45,123
+src/data/spikes/pancreatic-uk.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 155
+src/data/institutions/world.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 156
+src/data/technologies.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 447
+src/data/nutrition.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 135,364
+src/data/universe-lists/mhlw-cancer-hospitals.json
+  s_1e233a6be244f1::t_e6e41ba86f76be 8,10,412-415
+  s_1e233a6be244f1::t_5902d154efe09f 1-7,9,11-411,416-449
+src/data/institutions/europe.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 148,202,798,834
+src/data/spikes/gap-cancers.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 97,137,512,643,737,768,859
+src/data/sarcoma-bone-subtypes.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 18
+src/data/cancers.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 182,280,291,336,356,375,409,457,476,510,527,541,707,732
+src/data/index.ts
+  s_1e233a6be244f1::t_3dea7fc4c17cf8 128
+  s_1e233a6be244f1::t_0cb14311351703 367
+  s_1e233a6be244f1::t_e03cee706987bd 366
+  s_1e233a6be244f1::t_d717bf19d650bf 129
+src/data/institutions/uicc-societies.ts
+  s_1e233a6be244f1::t_a5cafa83148e67 1-14
+src/data/spikes/lung-uk.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 433
+src/data/spikes/nci-rare-other.ts
+  s_1e233a6be244f1::t_bfa594205d4d2c 94,161
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6f7b67bb4751c5a7dba1c0091a205a2b6883ce09",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+src/data/i18n/pt.ts
+  s_1e233a6be244f1::t_c3030d549d7a88 6663
+  s_1e233a6be244f1::t_63187d142163e4 6675,6745,6760,6779,7130,7161,7262
+  s_1e233a6be244f1::t_f541c3b20518cf 5158
+src/data/i18n/de.ts
+  s_1e233a6be244f1::t_c3030d549d7a88 6652
+  s_1e233a6be244f1::t_83ba6b8f8bdbf1 5147
+  s_1e233a6be244f1::t_63187d142163e4 6664,6734,6749,6768,7119,7150,7251
+src/data/gap-fill.ts
+  s_1e233a6be244f1::t_25c30609d75337 485
+src/data/spikes/colorectal-treatment.ts
+  s_1e233a6be244f1::t_d8908110ffd0c5 156,158-159
+  s_1e233a6be244f1::t_8a16e521f48d43 181
+src/data/i18n/zh.ts
+  s_1e233a6be244f1::t_05972963df1bf1 5158
+  s_1e233a6be244f1::t_63187d142163e4 6674,6744,6759,6778,7129,7160,7261,10691,10712
+  s_1e233a6be244f1::t_c3030d549d7a88 6662
+src/data/investors.ts
+  s_1e233a6be244f1::t_b93d36f6823d8b 330,332
+src/data/i18n/fr.ts
+  s_1e233a6be244f1::t_07bf3763097f0a 5147
+  s_1e233a6be244f1::t_c3030d549d7a88 6652
+  s_1e233a6be244f1::t_63187d142163e4 6664,6734,6749,6768,7119,7150,7251
+src/data/audit-floor.json
+  s_1e233a6be244f1::t_4c9431cb206b1f 2,8,12,17
+src/data/i18n/ar.ts
+  s_1e233a6be244f1::t_63187d142163e4 6664,6734,6749,6768,7119,7150,7251
+  s_1e233a6be244f1::t_c3030d549d7a88 6652
+  s_1e233a6be244f1::t_1f3d0cd0180a89 5147
+src/data/companies-startups.ts
+  s_1e233a6be244f1::t_5264a80d61753d 1671-1682
+src/data/i18n/es.ts
+  s_1e233a6be244f1::t_63187d142163e4 6675,6745,6760,6779,7130,7161,7262
+  s_1e233a6be244f1::t_afba89ba2a04b1 5158
+  s_1e233a6be244f1::t_c3030d549d7a88 6663
+src/data/drugs-pipeline-wave7.ts
+  s_1e233a6be244f1::t_ed3711b23ec94c 243
+  s_1e233a6be244f1::t_2547cb4b1b3705 244-248
+  s_1e233a6be244f1::t_9fbf5acb3b3147 85-90
+src/data/regional-approvals.ts
+  s_1e233a6be244f1::t_d9aa866ada7ae2 202
+  s_1e233a6be244f1::t_d0dd22361799ba 97
+  s_1e233a6be244f1::t_f4a80e76523131 193-201,203-204
+  s_1e233a6be244f1::t_19808c9507d751 95
+  s_1e233a6be244f1::t_d1de18569c14a0 181-187
+  s_1e233a6be244f1::t_5fbbd5ccc9fc50 602,606-609,612-613
+  s_1e233a6be244f1::t_5ca1afc416bf3c 43-52
+src/data/drugs-pipeline-wave1.ts
+  s_1e233a6be244f1::t_2d4c5453a803a0 512
+  s_1e233a6be244f1::t_89d3abc49cfcf4 617
+  s_1e233a6be244f1::t_58c6b7fe9bedb9 296-297
+  s_1e233a6be244f1::t_cefb963ac3afea 83-87
+  s_1e233a6be244f1::t_a2bd734ae9bfb3 71
+  s_1e233a6be244f1::t_94640e7e40f907 547-548
+  s_1e233a6be244f1::t_f6d8d51e27bb0c 120-124
+  s_1e233a6be244f1::t_5557140c8486f9 293
+  s_1e233a6be244f1::t_8ba990d97abbdb 70,72-74
+  s_1e233a6be244f1::t_f4cb72fe36c7c7 75-76
+  s_1e233a6be244f1::t_d1914705ddfd9e 125-126
+  s_1e233a6be244f1::t_f2e567bc57d176 445-446,448-449
+  s_1e233a6be244f1::t_6ae6d0a6f35902 516-517
+  s_1e233a6be244f1::t_12761ef05c9167 615-616,618-619
+  s_1e233a6be244f1::t_c13a2ac0a6b082 291-292,294-295
+  s_1e233a6be244f1::t_fe346f4caf3cee 511,513-515
+  s_1e233a6be244f1::t_56ad6b307e476d 450
+  s_1e233a6be244f1::t_234e6a89f789f7 620-621
+  s_1e233a6be244f1::t_9197358a4a9c84 88-89
+  s_1e233a6be244f1::t_1517bf65857081 542-546
+src/data/spikes/ovarian.ts
+  s_1e233a6be244f1::t_216e481f208fd9 226
+  s_1e233a6be244f1::t_b397b728352c8f 228
+  s_1e233a6be244f1::t_46a62c113592d6 227
+  s_1e233a6be244f1::t_ac78ac517b8898 229-230
+src/data/i18n/hi.ts
+  s_1e233a6be244f1::t_63187d142163e4 6675,6745,6760,6779,7130,7161,7262
+  s_1e233a6be244f1::t_e089b7e7eeb1bd 5158
+  s_1e233a6be244f1::t_c3030d549d7a88 6663
+src/data/companies.ts
+  s_1e233a6be244f1::t_5bed1825ad6f7d 401
+  s_1e233a6be244f1::t_87b1061b6abf36 304
+  s_1e233a6be244f1::t_2fadf1f38840ea 94-95
+  s_1e233a6be244f1::t_2f08a857cf9221 121
+  s_1e233a6be244f1::t_486fb955d8a208 289-291
+  s_1e233a6be244f1::t_00859c3a740340 381
+  s_1e233a6be244f1::t_6de557ba8a7db4 96
+  s_1e233a6be244f1::t_e46f810ab00bf8 116
+  s_1e233a6be244f1::t_b243cdaf7dee3f 110
+  s_1e233a6be244f1::t_37200bab0ec1ba 218-220
+  s_1e233a6be244f1::t_65f0066419ec30 222
+  s_1e233a6be244f1::t_191accec25c537 118
+  s_1e233a6be244f1::t_c294390dd95c14 119
+  s_1e233a6be244f1::t_194111f04eba2f 407
+  s_1e233a6be244f1::t_92be2abc4749da 379-380
+  s_1e233a6be244f1::t_5993e13cc44ed6 377
+  s_1e233a6be244f1::t_d50a93e37cac36 403-405
+  s_1e233a6be244f1::t_21d9e85dbce30f 113
+  s_1e233a6be244f1::t_fc97d8a1f5f376 123
+  s_1e233a6be244f1::t_f9d80597fc61f3 299-301
+  s_1e233a6be244f1::t_c8bd1de96cca96 112
+  s_1e233a6be244f1::t_92d1cb2d92c58a 156-157
+  s_1e233a6be244f1::t_7014722f55ac22 303
+  s_1e233a6be244f1::t_ab68d325ca1da5 397-399
+  s_1e233a6be244f1::t_dc32bacb37684a 154
+  s_1e233a6be244f1::t_9831737569f25c 373-375
+  s_1e233a6be244f1::t_8d916abd9d6fc2 108-109
+  s_1e233a6be244f1::t_f1c3fa20d74001 124
+  s_1e233a6be244f1::t_db1cec5e99407d 383
+  s_1e233a6be244f1::t_775e06117d0426 293
+  s_1e233a6be244f1::t_6c05d441c66924 677,679,681
+  s_1e233a6be244f1::t_37eb25fc22e548 98
+src/data/china.ts
+  s_1e233a6be244f1::t_46ffdeeaa29364 300-303
+  s_1e233a6be244f1::t_0f23d86093742e 284-286
+  s_1e233a6be244f1::t_5fe3252325c0a5 281
+  s_1e233a6be244f1::t_f12cf3da3caff7 304
+  s_1e233a6be244f1::t_51b0c70c70f970 283
+  s_1e233a6be244f1::t_5073992a6c4dc5 307,309
+  s_1e233a6be244f1::t_40cf536646fe7d 306
+  s_1e233a6be244f1::t_d35e36185ed8e5 298
+src/data/drugs-pipeline-wave2.ts
+  s_1e233a6be244f1::t_f25a7a8b755f13 85-86
+  s_1e233a6be244f1::t_30217a1729efb8 90
+src/data/simple/part-m.ts
+  s_1e233a6be244f1::t_63187d142163e4 85,119
+  s_1e233a6be244f1::t_c3030d549d7a88 3
+src/data/drugs.ts
+  s_1e233a6be244f1::t_b5913d402ceeca 155
+  s_1e233a6be244f1::t_8a9f8f8bf5cd1a 148-149,152,156
+src/data/i18n/ja.ts
+  s_1e233a6be244f1::t_63187d142163e4 6664,6734,6749,6768,7119,7150,7251
+  s_1e233a6be244f1::t_fcbfcdadd2b2dd 5147
+  s_1e233a6be244f1::t_c3030d549d7a88 6652
+src/data/cancers.ts
+  s_1e233a6be244f1::t_665f9bd21a3054 137
+src/data/simple/part-o.ts
+  s_1e233a6be244f1::t_63187d142163e4 638
+src/data/spikes/prostate.ts
+  s_1e233a6be244f1::t_665f9bd21a3054 191
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "30e57d6f43743a12270529d95cb72f6059ae73b9",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

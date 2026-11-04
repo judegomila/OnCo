@@ -1,0 +1,142 @@
+src/data/cancers-wave4-colon-kidney-testis.ts
+  s_1e233a6be244f1::t_261c5e04ffd01c 93
+public/globocan/editions.json
+  s_1e233a6be244f1::t_e0626a694fe6fc 4,6-7
+src/data/country-us.ts
+  s_1e233a6be244f1::t_0ad57d23c35a1a 26,32,35
+src/data/collections.ts
+  s_1e233a6be244f1::t_99a8ac846f9d25 45-46
+src/data/i18n/es.ts
+  s_1e233a6be244f1::t_a845619a6f4b3d 1066
+src/data/i18n/ja.ts
+  s_1e233a6be244f1::t_a845619a6f4b3d 909
+src/data/spikes/glioblastoma.ts
+  s_1e233a6be244f1::t_76fb908d604f16 260
+src/data/spikes/urothelial.ts
+  s_1e233a6be244f1::t_76fb908d604f16 275-276
+src/data/spikes/prostate.ts
+  s_1e233a6be244f1::t_76fb908d604f16 391
+src/data/spikes/endometrial.ts
+  s_1e233a6be244f1::t_76fb908d604f16 193-194
+src/lib/cancer-geography.test.ts
+  s_1e233a6be244f1::t_6ef00a2bc8c66e 24,135
+src/data/country-jp.ts
+  s_1e233a6be244f1::t_0ad57d23c35a1a 44,54
+src/data/spikes/nsclc.ts
+  s_1e233a6be244f1::t_76fb908d604f16 281
+src/data/spikes/colorectal-core.ts
+  s_1e233a6be244f1::t_8b0787482781d6 161,173
+src/data/spikes/gap-cancers.ts
+  s_1e233a6be244f1::t_4f90af7c851b87 514,644,959,987,1093,1121
+src/data/spikes/lymphoma-geography.ts
+  s_1e233a6be244f1::t_b31beb81f788c4 10-14,40,148,230,234,275-280,385,389,405-406,411-412,432
+src/data/combination-ideas.ts
+  s_1e233a6be244f1::t_99a8ac846f9d25 7-8
+  s_1e233a6be244f1::t_8032baf9fe8d2d 31,104,157,201,254,286-288,332,394,438,498-500,551-553,627,698,761,814,858,920,980-982,1045,1090,1134,1168,1230,1292,1345,1379,1434,1496,1559,1630,1692,1745,1779,1832,1883-1885,1917-1919,1990,2035,2097,2159,2193,2237,2299,2361,2423,2457,2510,2544,2606,2678,2731,2784,2846,2880,2933,2967,3030,3092,3126,3188
+src/data/spikes/rcc.ts
+  s_1e233a6be244f1::t_76fb908d604f16 238
+src/data/head-neck-hpv-subtypes.ts
+  s_1e233a6be244f1::t_261c5e04ffd01c 100,127,160,184
+src/data/i18n/hi.ts
+  s_1e233a6be244f1::t_a845619a6f4b3d 1066
+src/data/spikes/cervical.ts
+  s_1e233a6be244f1::t_76fb908d604f16 242-243,283
+src/data/country-in.ts
+  s_1e233a6be244f1::t_3d3133e62b4362 10,16,18,162,170
+scripts/fetch-universe.ts
+  s_1e233a6be244f1::t_80ffe9b905a962 98,126,131-132
+src/data/i18n/pt.ts
+  s_1e233a6be244f1::t_a845619a6f4b3d 1066
+src/data/doi-exists.json
+  s_1e233a6be244f1::t_96ee4d3a9415b7 6764
+src/data/spikes/gastric.ts
+  s_1e233a6be244f1::t_76fb908d604f16 194-195
+src/data/head-neck-subtypes.ts
+  s_1e233a6be244f1::t_261c5e04ffd01c 42,62
+src/data/spikes/hcc.ts
+  s_1e233a6be244f1::t_76fb908d604f16 301
+src/data/data-sources.ts
+  s_1e233a6be244f1::t_99a8ac846f9d25 75,77
+src/data/i18n/de.ts
+  s_1e233a6be244f1::t_a845619a6f4b3d 909
+scripts/fetch-globocan-site.ts
+  s_1e233a6be244f1::t_1268f1f2f3d525 90,93
+  s_1e233a6be244f1::t_acb88ab3ce57a9 10,20,88
+src/data/prostate-subtypes.ts
+  s_1e233a6be244f1::t_261c5e04ffd01c 171
+src/data/cancers-wave4-lung.ts
+  s_1e233a6be244f1::t_261c5e04ffd01c 62
+src/data/spikes/multiple-myeloma.ts
+  s_1e233a6be244f1::t_76fb908d604f16 314,325
+src/data/cancers.ts
+  s_1e233a6be244f1::t_25e57733855f03 121,142,357,372,376,390,394,409,415,441,458,471,494,507,619,654,674,680,703,709,728
+src/data/spikes/ovarian.ts
+  s_1e233a6be244f1::t_76fb908d604f16 308-309
+docs/DATA-SOURCES.md
+  s_1e233a6be244f1::t_a39864133a6428 23
+src/data/i18n/fr.ts
+  s_1e233a6be244f1::t_a845619a6f4b3d 909
+src/data/spikes/lymphoma-core.ts
+  s_1e233a6be244f1::t_76fb908d604f16 74,108
+src/data/universe-lists/globocan-sites.json
+  s_1e233a6be244f1::t_80ffe9b905a962 4,7
+public/globocan/countries.json
+  s_1e233a6be244f1::t_e0626a694fe6fc 1
+src/data/cancers-wave4-breast.ts
+  s_1e233a6be244f1::t_261c5e04ffd01c 68
+src/data/i18n/ar.ts
+  s_1e233a6be244f1::t_a845619a6f4b3d 909
+src/data/country-de.ts
+  s_1e233a6be244f1::t_0ad57d23c35a1a 26-27
+src/data/country-extras.ts
+  s_1e233a6be244f1::t_423b5450acf260 9,13-16
+  s_1e233a6be244f1::t_201365e06a7a74 78-79
+  s_1e233a6be244f1::t_8b210c7ae80328 35-47
+  s_1e233a6be244f1::t_f6af0668b3e15c 50-53,55-56,66-69,73-76,82-88
+  s_1e233a6be244f1::t_92bfede34edabc 5
+src/data/i18n/zh.ts
+  s_1e233a6be244f1::t_a845619a6f4b3d 1066
+src/data/country-ru.ts
+  s_1e233a6be244f1::t_3d3133e62b4362 28,68,239,246
+scripts/fetch-globocan.ts
+  s_1e233a6be244f1::t_cc8ad12f214dd0 11
+  s_1e233a6be244f1::t_870b9384202434 20-24,29-31
+  s_1e233a6be244f1::t_d47b98000dbb11 73
+  s_1e233a6be244f1::t_76990aa0bdd4ac 38-44
+  s_1e233a6be244f1::t_5ec06ce523d935 132
+src/data/universe.ts
+  s_1e233a6be244f1::t_99a8ac846f9d25 71
+src/data/spikes/gallbladder-geography.ts
+  s_1e233a6be244f1::t_45104f183d792b 10-11,28-29,102,108,114,122,128,134,148,237,245,255,263,274,276,278,303
+  s_1e233a6be244f1::t_537dd1de21235a 129
+src/data/spikes/mesothelioma.ts
+  s_1e233a6be244f1::t_76fb908d604f16 164
+src/data/india.ts
+  s_1e233a6be244f1::t_3d3133e62b4362 141,360
+src/data/spikes/esophageal.ts
+  s_1e233a6be244f1::t_76fb908d604f16 178-179
+src/data/bottlenecks.ts
+  s_1e233a6be244f1::t_99a8ac846f9d25 479
+src/data/country-gb.ts
+  s_1e233a6be244f1::t_0ad57d23c35a1a 27-28,30
+src/data/cancer-parents-wave2.ts
+  s_1e233a6be244f1::t_261c5e04ffd01c 62,80,83,102
+src/data/globocan-map.ts
+  s_1e233a6be244f1::t_99a8ac846f9d25 2-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5b9ab74ea65f4c146efa29009284f7bc670de67c",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"id":"idylla-cdx-msi","kind":"drug","name":"Idylla CDx MSI Test","query":"(TITLE:\"Idylla CDx MSI Test\" OR ABSTRACT:\"Idylla CDx MSI Test\") AND (cancer OR tumor OR tumour OR oncology OR carcinoma OR lymphoma OR leukemia OR leukaemia OR myeloma OR sarcoma OR melanoma OR glioma)","fetched":"2026-11-04","windowDays":90,"count":0,"preprints":[],"nowPublished":[]}

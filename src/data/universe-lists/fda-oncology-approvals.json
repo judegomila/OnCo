@@ -1,11 +1,11 @@
 {
- "checked": "2026-11-03",
+ "checked": "2026-11-04",
  "source": {
   "label": "FDA: Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
   "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications"
  },
  "method": "One item per approval notification dated 1 January 2020 or later: the live FDA page (19 January 2023 onwards when first read) plus, for 2020 to early 2023, the same FDA page as the Internet Archive kept it on 7 March 2023 (https://web.archive.org/web/20230307000830/https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications). Each item links to its own fda.gov notification. Drug names are the generic names the notification's first sentence gives before a (Brand, Sponsor) bracket. Public domain (US government work).",
- "total": 363,
+ "total": 364,
  "window": {
   "from": "2020-01-08",
   "to": "2026-10-26"
@@ -1867,6 +1867,21 @@
    "date": "2024-09-17",
    "title": "FDA approves Kisqali with an aromatase inhibitor and Kisqali Femara Co-Pack for early high-risk breast cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-ribociclib-aromatase-inhibitor-and-ribociclib-and-letrozole-co-pack-early-high-risk",
+   "drugs": [
+    {
+     "generic": "ribociclib",
+     "brand": "Kisqali",
+     "sponsor": "Novartis Pharmaceuticals Corporation"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 17, 2024, the Food and Drug Administration approved ribociclib (Kisqali, Novartis Pharmaceuticals Corporation) with an aromatase inhibitor for the adjuvant treatment of adults with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative stage II and III early breast cancer at high risk of recurrence.",
+   "via": "live"
+  },
+  {
+   "date": "2024-09-17",
+   "title": "FDA approves Kisqali with an aromatase inhibitor and Kisqali Femara Co-Pack for early high-risk breast cancer",
+   "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-kisqali-aromatase-inhibitor-and-kisqali-femara-co-pack-early-high-risk-breast-cancer",
    "drugs": [
     {
      "generic": "ribociclib",

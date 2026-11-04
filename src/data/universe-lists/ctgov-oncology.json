@@ -1,15 +1,15 @@
 {
- "checked": "2026-11-03",
+ "checked": "2026-11-04",
  "source": {
   "label": "ClinicalTrials.gov: interventional studies, condition 'cancer'",
   "url": "https://clinicaltrials.gov/search?cond=cancer&aggFilters=studyType:int"
  },
  "method": "ClinicalTrials.gov API v2 with query.cond=cancer and countTotal=true: interventional studies; of those, phase 3; of those, recruiting. Sponsors: distinct lead sponsor names (class INDUSTRY) across all phase 3 interventional cancer studies, so subsidiaries and name variants count separately.",
- "total": 98049,
+ "total": 98075,
  "phase3": 11081,
- "recruiting": 14330,
+ "recruiting": 14332,
  "industryPhase3": {
-  "studies": 4285,
+  "studies": 4286,
   "sponsors": 945
  },
  "items": [
@@ -842,6 +842,10 @@
    "studies": 3
   },
   {
+   "name": "Genfleet Therapeutics (Shanghai) Inc.",
+   "studies": 3
+  },
+  {
    "name": "Genor Biopharma Co., Ltd.",
    "studies": 3
   },
@@ -1287,10 +1291,6 @@
   },
   {
    "name": "GE Healthcare",
-   "studies": 2
-  },
-  {
-   "name": "Genfleet Therapeutics (Shanghai) Inc.",
    "studies": 2
   },
   {

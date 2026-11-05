@@ -1,10 +1,10 @@
-# Change proposals 2026-11-04
+# Change proposals 2026-11-05
 
-Drafted by scripts/propose-updates.ts from: factcheck 2026-11-02, trialChanges 2026-11-02, fda 2026-10-28, regional 2026-10-28.
+Drafted by scripts/propose-updates.ts from: factcheck 2026-11-02, trialChanges 2026-11-02, fda 2026-11-04, regional 2026-11-04.
 
 Review each line against its source. Apply by editing the file named; nothing in this list is applied automatically. EMA rows carry the reason a person is needed; the rows that passed every check were written on the auto branch by scripts/apply-proposals.ts and are listed at the end.
 
-## High confidence (15)
+## High confidence (16)
 
 - [ ] **NAPOLI-2: Fluorouracil, Leucovorin, and Nanoliposomal Irinotecan in Biliary Cancer** ([page](https://onco.cc/trials/nct04005339/)) · trial-results · `result / outcomes`
   - current: (none)
@@ -66,6 +66,11 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add the posted primary outcome with the registry as source
   - evidence: ClinicalTrials.gov now has posted results for NCT06331299 (detected 2026-10-05). ([source](https://clinicaltrials.gov/study/NCT06331299?tab=results))
   - file: `src/data/pipeline-trials-wave2.ts:1083`
+- [ ] **Study to Evaluate CCS1477 in Advanced Tumours** ([page](https://onco.cc/trials/nct03568656/)) · trial-results · `result / outcomes`
+  - current: (none)
+  - proposed: add the posted primary outcome with the registry as source
+  - evidence: ClinicalTrials.gov now has posted results for NCT03568656 (detected 2026-09-28). ([source](https://clinicaltrials.gov/study/NCT03568656?tab=results))
+  - file: `src/data/products-portfolio-monitors.ts:367`
 - [ ] **A Study of Pirtobrutinib (LOXO-305) Versus Bendamustine Plus Rituximab (BR) in Untreated Patients With Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL)** ([page](https://onco.cc/trials/nct05023980/)) · trial-results · `result / outcomes`
   - current: (none)
   - proposed: add the posted primary outcome with the registry as source
@@ -82,7 +87,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - evidence: ClinicalTrials.gov now has posted results for NCT05471843 (detected 2026-09-28). ([source](https://clinicaltrials.gov/study/NCT05471843?tab=results))
   - file: `src/data/pipeline-trials-wave5.ts:1547`
 
-## Medium confidence (189)
+## Medium confidence (191)
 
 - [ ] **A Study of Trastuzumab Deruxtecan in People With Non-Small Cell Lung Cancer** ([page](https://onco.cc/trials/nct07428044/)) · trial-status · `status`
   - current: recruiting
@@ -530,6 +535,11 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: 2031-06-01
   - evidence: Primary completion date moved from 2027-06-01 to 2031-06-01; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05317858))
   - file: `src/data/pipeline-trials-wave4.ts:1044`
+- [ ] **KAN-HER2 MRD** ([page](https://onco.cc/trials/kan-her2-mrd/)) · trial-completion · `yearReported / calendar`
+  - current: 2026-07
+  - proposed: 2027-07
+  - evidence: Primary completion date moved from 2026-07 to 2027-07; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT05388149))
+  - file: `src/data/spikes/breast-residual-subclones.ts:709`
 - [ ] **TROPION-Breast03** ([page](https://onco.cc/trials/tropion-breast03/)) · trial-completion · `yearReported / calendar`
   - current: 2027-09-20
   - proposed: 2027-09-01
@@ -600,6 +610,11 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: 2031-05-30
   - evidence: Primary completion date moved from 2031-06-17 to 2031-05-30; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07711002))
   - file: `src/data/trials.ts:1`
+- [ ] **A Study to Evaluate ATX-898 in Participants With Advanced Solid Tumors** ([page](https://onco.cc/trials/nct07767474/)) · trial-completion · `yearReported / calendar`
+  - current: 2028-10-28
+  - proposed: 2029-10-28
+  - evidence: Primary completion date moved from 2028-10-28 to 2029-10-28; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07767474))
+  - file: `src/data/company-pipeline-gap.ts:1432`
 - [ ] **CA-4948-101: Open-Label, Dose Escalation and Expansion Trial of Emavusertib (CA-4948) in Relapsed or Refractory Primary Central Nervous System Lymphoma (R/R PCNSL)** ([page](https://onco.cc/trials/nct03328078/)) · trial-completion · `yearReported / calendar`
   - current: 2026-08
   - proposed: 2027-07
@@ -1225,9 +1240,6 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add phase 3 trial NCT04543617 for Tiragolumab with status completed
   - evidence: A phase 3 study of Tiragolumab moved from ACTIVE_NOT_RECRUITING to COMPLETED (detected 2026-09-17). ([source](https://clinicaltrials.gov/study/NCT04543617))
 
-## EMA rows decided without a person (4 written, 0 already on main)
+## EMA rows decided without a person (0 written, 4 already on main)
 
-- elinzanetant: EU approved 2025 ("Authorised: This medicine is authorised for use in the European Union", [source](https://www.ema.europa.eu/en/medicines/human/EPAR/lynkuet))
-- methylthioninium-chloride-lumeblue: EU approved 2020 ("Authorised: This medicine is authorised for use in the European Union", [source](https://www.ema.europa.eu/en/medicines/human/EPAR/lumeblue))
-- ga68-edotreotide: EU approved 2016 ("Authorised: This medicine is authorised for use in the European Union", [source](https://www.ema.europa.eu/en/medicines/human/EPAR/somakit-toc))
-- epoetin-beta: EU approved 1997 ("Authorised: This medicine is authorised for use in the European Union", [source](https://www.ema.europa.eu/en/medicines/human/EPAR/neorecormon))
+None this run.

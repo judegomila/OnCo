@@ -1,0 +1,71 @@
+src/data/ideas-waves/wave-biology-1.ts
+  s_1e233a6be244f1::t_2ede1c67234904 534
+src/data/spikes/esophageal.ts
+  ai_agent 139
+src/data/institutions/germany.ts
+  s_1e233a6be244f1::t_2ede1c67234904 4,38,40-43
+src/data/prizes-gaps-2026-11.ts
+  s_1e233a6be244f1::t_2ede1c67234904 1-69
+src/data/staging.ts
+  s_1e233a6be244f1::t_2ede1c67234904 43,48-49,53
+src/data/spikes/gap-cancers.ts
+  s_1e233a6be244f1::t_2ede1c67234904 1099,1121
+src/data/index.ts
+  s_1e233a6be244f1::t_2ede1c67234904 187-188,402-403
+CORRECTIONS.md
+  s_1e233a6be244f1::t_2ede1c67234904 5-31
+src/data/ideas-waves/wave-people-moonshots.ts
+  s_1e233a6be244f1::t_2ede1c67234904 26
+src/data/side-effect-guidance.ts
+  s_1e233a6be244f1::t_2ede1c67234904 5,26-34,56,72-73
+src/data/data-sources.ts
+  s_1e233a6be244f1::t_2ede1c67234904 516
+scripts/audit.ts
+  s_1e233a6be244f1::t_2ede1c67234904 202-205
+scripts/build-fda-oce-events.ts
+  s_1e233a6be244f1::t_2ede1c67234904 57-58,66
+src/data/fda-oce-events.ts
+  s_1e233a6be244f1::t_2ede1c67234904 331-333
+src/data/drugs-deal-assets.ts
+  s_1e233a6be244f1::t_2ede1c67234904 81,83-86,88
+src/data/institutions.ts
+  s_1e233a6be244f1::t_2ede1c67234904 144-145,148-149
+src/data/irae.ts
+  s_1e233a6be244f1::t_2ede1c67234904 49
+src/data/spikes/nci-rare-other.ts
+  s_1e233a6be244f1::t_2ede1c67234904 30,52,64,89,378,391,415
+src/data/rare-subtypes.ts
+  s_1e233a6be244f1::t_2ede1c67234904 22,26,31
+src/data/terms-jargon.ts
+  s_1e233a6be244f1::t_2ede1c67234904 233,235-236,258
+src/data/companies-cooperative-groups.ts
+  s_1e233a6be244f1::t_2ede1c67234904 71-74
+src/data/institutions/us-cancer-charities.ts
+  s_1e233a6be244f1::t_2ede1c67234904 66,68-71,158,160-163
+src/data/veterinary-gaps-2026-11.ts
+  s_1e233a6be244f1::t_2ede1c67234904 1-68
+src/data/gap-fill.ts
+  ai_agent 1185
+src/data/hair-loss.ts
+  s_1e233a6be244f1::t_2ede1c67234904 250-254
+src/data/institutions/bodies.ts
+  s_1e233a6be244f1::t_2ede1c67234904 4,36,38-40
+src/data/institutions/donor-foundations.ts
+  s_1e233a6be244f1::t_2ede1c67234904 4,64,66-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "6e04d0d899b8d748c52fe5cdc0868f9356fdbbab",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

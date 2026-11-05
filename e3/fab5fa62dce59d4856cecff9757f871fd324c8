@@ -1,0 +1,56 @@
+scripts/gap-audit.ts
+  s_1e233a6be244f1::t_1e14db9d5c6e4e 68-69,298-301
+  s_1e233a6be244f1::t_844bf65d2f0e41 295-296
+src/data/payers-gaps-2026-11.ts
+  s_1e233a6be244f1::t_7325c247c95919 208-209
+  s_1e233a6be244f1::t_4383248c3c8319 1-176,178-207,210-227
+  s_1e233a6be244f1::t_22622150a3d49a 177
+src/data/index.ts
+  s_1e233a6be244f1::t_7b3c0f5be272e6 190-195,400-402
+  s_1e233a6be244f1::t_6b7bd250625f3d 466-501,510
+src/data/biobanks-gaps-2026-11.ts
+  s_1e233a6be244f1::t_cdc4db3a2d509f 21,134,177,185,202,205
+  s_1e233a6be244f1::t_27337c8d3132ce 1-20,22-133,135-176,178-184,186-201,203-204,206-224
+src/data/donor-registries-gaps-2026-11.ts
+  s_1e233a6be244f1::t_56646939d086b8 255
+  s_1e233a6be244f1::t_837f508ca2a416 1-20,22-40,42-47,49-78,80-85,87,89-95,97-115,117-120,122-129,131-156,158-159,161-177,179-184,186,188-226,229-233,235-254,256-270
+  s_1e233a6be244f1::t_820238c3874fdf 21,41,48,79,86,88,96,116,121,130,160,178,185,187,234
+  s_1e233a6be244f1::t_fb119f785c982e 157
+  s_1e233a6be244f1::t_808c87f27ced12 227-228
+src/data/particle-therapy-gaps-2026-11.ts
+  s_1e233a6be244f1::t_19531f223cbbb8 1-41,43-127,129-132,134-170,172-206
+  s_1e233a6be244f1::t_06d7e0e8d9fa69 128,133,171
+  s_1e233a6be244f1::t_1cf5390d98ee91 42
+src/data/laws-gaps-2026-11.ts
+  s_1e233a6be244f1::t_48fc43331708d8 237-238
+  s_1e233a6be244f1::t_a5b70aa863f33b 98
+  s_1e233a6be244f1::t_128062bc4b5b12 14-17,36,44,54,92-97,99-103
+  s_1e233a6be244f1::t_0ce9b2296bf411 1-13,18-35,37-43,45-53,55-91,104-108,111-122,125-136,139-163,165-236,239-241
+  s_1e233a6be244f1::t_c46759f93f18db 109-110,123-124,137-138,164
+src/data/sponsor-aliases.ts
+  s_1e233a6be244f1::t_c2870ae7beb2b3 360-362,385,387,389
+  s_1e233a6be244f1::t_fb119f785c982e 363,388,390-391
+  s_1e233a6be244f1::t_7a9c80ee04c6c3 386
+src/data/funding-programmes-gaps-2026-11.ts
+  s_1e233a6be244f1::t_5aa91d4eee160a 1-46,48-49,51-55,57-59,61-102,104-146,148-210,212,214-216,218-222,224-361
+  s_1e233a6be244f1::t_2ead48e65fd818 47,60,213,217
+  s_1e233a6be244f1::t_dc0442f6670c6e 56
+  s_1e233a6be244f1::t_56646939d086b8 211
+  s_1e233a6be244f1::t_b2fb27d05c80e0 50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e3fab5fa62dce59d4856cecff9757f871fd324c8",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

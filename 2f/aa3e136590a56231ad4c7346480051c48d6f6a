@@ -1,0 +1,169 @@
+src/data/simple/part-n.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 201,233,250-252
+src/data/spikes/colorectal-registry-trials.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1473,1475
+src/data/sponsor-aliases.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 366
+src/lib/i18n/nav/ja.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 171-180
+src/lib/i18n/nav/pt.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 171-180
+src/app/countries/ir/page.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-10
+src/app/countries/th/render.test.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-59
+src/app/countries/pk/page.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-10
+src/data/paper-ids.json
+  s_1e233a6be244f1::t_9406c9dfe502cd 1
+src/data/people/country-bd.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-4
+src/lib/i18n/nav/hi.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 171-180
+src/data/country-tr.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-391
+src/data/country-pl.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-429
+src/app/countries/bd/page.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-10
+src/data/country-extras.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 41-42,91-97
+src/data/pipeline-trials-wave4.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1442,1444
+src/lib/i18n/nav/es.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 171-180
+src/data/country-records-tr.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-111
+src/data/country-records-ng.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-146
+src/data/people/country-tr.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-4
+src/app/countries/pk/render.test.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-59
+src/data/institutions/centres-wave3.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 203-206,338-340,412-414,416-418,420-422
+src/data/country-bd.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-386
+src/app/countries/bd/render.test.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-59
+src/data/country-records-id.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-82
+src/data/institutions/europe.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 461,463
+src/data/institutions/bodies.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 342,344-345
+src/app/countries/eg/page.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-10
+src/app/countries/eg/render.test.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-59
+src/data/country-records-bd.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-105
+src/app/countries/id/render.test.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-59
+src/app/countries/ng/page.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-10
+src/data/country-eg.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-410
+src/app/countries/pl/page.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-10
+src/data/country-id.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-380
+src/data/people/country-pk.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-4
+src/app/countries/mx/page.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-10
+src/data/country-mx.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-376
+src/data/country-records-eg.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-119
+docs/proposals/country-coverage-2026-11.md
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-156
+src/app/countries/tr/render.test.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-59
+src/app/countries/th/page.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-10
+src/data/index.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 143-152,405
+src/components/RouteIcon.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 117-126
+src/data/country-records-th.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-120
+src/data/people/country-ng.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-4
+src/data/people/country-ir.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-4
+src/data/country-pk.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-434
+src/data/country-records-ir.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-286
+src/data/people/country-th.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-4
+src/app/countries/tr/page.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-10
+src/components/FooterNav.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 18-20,26-27
+src/app/countries/ir/render.test.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-59
+src/data/pipeline-trials-wave6.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1411,1413
+src/lib/i18n/nav/de.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 171-180
+src/data/people/country-id.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-4
+src/lib/i18n/nav/fr.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 171-180
+src/lib/i18n/nav/zh.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 171-180
+src/app/countries/id/page.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-10
+src/data/country-th.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-407
+src/data/people/country-mx.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-4
+src/lib/nav.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 153-162
+src/components/CountryDeepDive.tsx
+  s_1e233a6be244f1::t_9406c9dfe502cd 91
+src/app/countries/pl/render.test.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-59
+src/data/country-records-pl.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-87
+src/data/country-records-mx.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-84
+src/data/country-ng.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-400
+src/lib/i18n/nav/ar.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 171-180
+src/data/people/country-pl.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-4
+src/data/country-records-pk.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-180
+src/app/countries/mx/render.test.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-59
+src/data/people/country-eg.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-4
+src/data/people/index.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 21-30,33
+src/data/simple/part-h.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 136-139,149,154,165-166
+src/data/country-ir.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-392
+src/app/countries/ng/render.test.ts
+  s_1e233a6be244f1::t_9406c9dfe502cd 1-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2faa3e136590a56231ad4c7346480051c48d6f6a",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

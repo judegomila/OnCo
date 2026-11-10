@@ -1,0 +1,39 @@
+src/lib/kind-browser.ts
+  s_1e233a6be244f1::t_585c8ddf3487c4 152
+src/lib/company-score.ts
+  s_1e233a6be244f1::t_fe07cead27772f 71-72
+  s_1e233a6be244f1::t_585c8ddf3487c4 65-66,69
+src/lib/modular.ts
+  s_1e233a6be244f1::t_1c937549851ea0 557
+  s_1e233a6be244f1::t_585c8ddf3487c4 501,503,518,520
+  s_1e233a6be244f1::t_fe07cead27772f 521-522
+src/lib/side-effects.ts
+  s_1e233a6be244f1::t_585c8ddf3487c4 141-142
+src/lib/checkpoints.ts
+  s_1e233a6be244f1::t_1c937549851ea0 59
+src/lib/modality-group.ts
+  s_1e233a6be244f1::t_1c937549851ea0 27
+src/lib/classifier-word-bounds.test.ts
+  s_1e233a6be244f1::t_d4e66593b503a4 79
+  s_1e233a6be244f1::t_b13baddd0d96e8 1-78,80-81
+src/lib/sequencing.ts
+  s_1e233a6be244f1::t_24748d8496ba6c 20-24
+src/data/link-sense-floor.json
+  s_1e233a6be244f1::t_b4f8a46a416dde 6-8,11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "f64c719ffa9bfc31d054e2394839ddf58c8955fe",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+src/data/protocols/community-care-of-vascular-access-devices.ts
+  s_1e233a6be244f1::t_7c48e649dd1490 1-142
+src/data/protocols/index.ts
+  s_1e233a6be244f1::t_cb5fcb651f785d 14,54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "2a6c40768698d336d17e67f35b926309992988cd",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

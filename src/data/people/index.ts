@@ -39,7 +39,19 @@ import { peopleRO } from "./country-ro";
 import { peopleMY } from "./country-my";
 import { peopleDZ } from "./country-dz";
 import { peopleTW } from "./country-tw";
+import { peopleAZ } from "./country-az";
+import { peopleBA } from "./country-ba";
+import { peopleHT } from "./country-ht";
+import { peopleSN } from "./country-sn";
+import { peopleSI } from "./country-si";
+import { peopleML } from "./country-ml";
+import { peoplePG } from "./country-pg";
+import { peopleBF } from "./country-bf";
+import { peopleCR } from "./country-cr";
+import { peoplePY } from "./country-py";
 
 /** People (clinicians, scientists, leaders, and the heroes of /heroes/) grouped by file. Register each file here. */
 const files: PersonInput[][] = [peopleEurope, peopleAsiaPacific, peopleUsEast, peopleUsWest, heroes, heroesDonors, peopleLeadersWave2, peopleLeadersWave3, peopleLeadersWave4, peopleIndia, peopleIsrael, peopleChina, peopleKeyOpinionLeaders, peopleVirotherapy, peopleAU, peopleES, peopleBR, peopleSE, peopleCH, peopleID, peoplePK, peopleTR, peopleBD, peopleIR, peopleMX, peopleEG, peoplePL, peopleNG, peopleTH, peopleVN, peoplePH, peopleET, peopleZA, peopleCO, peopleAR, peopleUA, peopleRO, peopleMY, peopleDZ, peopleTW];
+// Wave 11 country pages (11 November 2026).
+files.push(peopleAZ, peopleBA, peopleHT, peopleSN, peopleSI, peopleML, peoplePG, peopleBF, peopleCR, peoplePY);
 export const people: PersonInput[] = files.flat();

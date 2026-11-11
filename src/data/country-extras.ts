@@ -45,6 +45,8 @@ const GCO_SLUG: Record<number, string> = {
   410: "korea-republic-of", 484: "mexico", 528: "the-netherlands", 578: "norway", 616: "poland", 620: "portugal",
   643: "russian-federation", 682: "saudi-arabia", 702: "singapore", 724: "spain", 752: "sweden", 756: "switzerland",
   792: "turkiye", 818: "egypt", 826: "united-kingdom", 840: "united-states-of-america",
+  // Wave 11 (11 November 2026); each answered with the GLOBOCAN 2024 PDF that day.
+  31: "azerbaijan", 70: "bosnia-herzegovina", 188: "costa-rica", 332: "haiti", 466: "mali", 598: "papua-new-guinea", 600: "paraguay", 686: "senegal", 705: "slovenia", 854: "burkina-faso",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -108,4 +110,16 @@ export const countryExtras: Record<string, CountryExtra> = {
   RO: { name: "Romania", population: 19, incidence: 266, mortality: 128, gcoUrl: gco(642) },
   MY: { name: "Malaysia", population: 36, incidence: 141, mortality: 85, gcoUrl: gco(458) },
   DZ: { name: "Algeria", population: 47, incidence: 153, mortality: 79, gcoUrl: gco(12) },
+  // Wave 11 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from its API that day) to one decimal, as these countries are small. No funder researched.
+  AZ: { name: "Azerbaijan", population: 10.2, incidence: 120, mortality: 69, gcoUrl: gco(31) },
+  BA: { name: "Bosnia and Herzegovina", population: 3.2, incidence: 215, mortality: 112, gcoUrl: gco(70) },
+  HT: { name: "Haiti", population: 11.8, incidence: 167, mortality: 111, gcoUrl: gco(332) },
+  SN: { name: "Senegal", population: 18.5, incidence: 121, mortality: 85, gcoUrl: gco(686) },
+  SI: { name: "Slovenia", population: 2.1, incidence: 297, mortality: 114, gcoUrl: gco(705) },
+  ML: { name: "Mali", population: 24.5, incidence: 117, mortality: 80, gcoUrl: gco(466) },
+  PG: { name: "Papua New Guinea", population: 10.6, incidence: 200, mortality: 118, gcoUrl: gco(598) },
+  BF: { name: "Burkina Faso", population: 23.5, incidence: 110, mortality: 76, gcoUrl: gco(854) },
+  CR: { name: "Costa Rica", population: 5.1, incidence: 178, mortality: 73, gcoUrl: gco(188) },
+  PY: { name: "Paraguay", population: 6.9, incidence: 190, mortality: 93, gcoUrl: gco(600) },
 };

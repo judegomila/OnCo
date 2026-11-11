@@ -1,15 +1,15 @@
 {
- "checked": "2026-11-04",
+ "checked": "2026-11-11",
  "source": {
   "label": "FDA Oncology Center of Excellence: approval notifications",
   "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
  },
  "method": "Sponsor named in brackets in each FDA OCE oncology approval notification on the current page, grouped after removing corporate suffixes. Covers the notifications the page still lists (see window), so it is a floor for 'companies with a recent FDA oncology approval'.",
  "total": 80,
- "notifications": 204,
+ "notifications": 206,
  "window": {
   "from": "2023-01-19",
-  "to": "2026-10-26"
+  "to": "2026-11-10"
  },
  "items": [
   {
@@ -20,9 +20,9 @@
   },
   {
    "name": "Janssen Biotech, Inc.",
-   "approvals": 13,
+   "approvals": 14,
    "first": "2023-08-09",
-   "last": "2026-03-05"
+   "last": "2026-11-05"
   },
   {
    "name": "Bristol-Myers Squibb Company",
@@ -119,6 +119,12 @@
    "approvals": 2,
    "first": "2025-08-08",
    "last": "2026-02-26"
+  },
+  {
+   "name": "EMD Serono, Inc.",
+   "approvals": 2,
+   "first": "2024-02-15",
+   "last": "2026-11-10"
   },
   {
    "name": "GlaxoSmithKline",
@@ -299,12 +305,6 @@
    "approvals": 1,
    "first": "2026-09-23",
    "last": "2026-09-23"
-  },
-  {
-   "name": "EMD Serono, Inc.",
-   "approvals": 1,
-   "first": "2024-02-15",
-   "last": "2024-02-15"
   },
   {
    "name": "Exelixis, Inc.",

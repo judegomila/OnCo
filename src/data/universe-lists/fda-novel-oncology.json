@@ -1,12 +1,12 @@
 {
- "checked": "2026-11-04",
+ "checked": "2026-11-11",
  "source": {
   "label": "FDA CDER: Novel Drug Approvals (2020 onwards)",
   "url": "https://www.fda.gov/drugs/development-approval-process-drugs/novel-drug-approvals-fda"
  },
  "method": "Every row of CDER's yearly 'Novel Drug Approvals' tables from 2020 (the 2020 page is no longer on fda.gov and is read from the Internet Archive copy of 14 June 2021) whose 'FDA-approved use on approval date' names a cancer, a myeloid or lymphoid neoplasm, cancer imaging or a cancer-treatment complication. CBER products (cell and gene therapies) are not on these tables; they are in the FDA oncology notifications list. Public domain (US government work).",
  "total": 109,
- "novelAll": 336,
+ "novelAll": 337,
  "licence": "Public domain (US government work)",
  "items": [
   {

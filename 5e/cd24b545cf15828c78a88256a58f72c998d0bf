@@ -1,0 +1,33 @@
+src/data/protocols/renal-dose-adjustment-of-anticancer-drugs.ts
+  s_1e233a6be244f1::t_86953d402d442b 95,118-119
+src/data/protocols/medicines-reconciliation-in-cancer-care.ts
+  s_1e233a6be244f1::t_86953d402d442b 81
+src/data/protocols/carboplatin-dose-calculation.ts
+  s_1e233a6be244f1::t_86953d402d442b 137
+src/data/protocols/body-size-based-dose-calculation.ts
+  s_1e233a6be244f1::t_f7498af39c2fed 113
+src/data/protocols/drug-desensitisation-after-anticancer-hypersensitivity.ts
+  s_1e233a6be244f1::t_86953d402d442b 45,122-123
+src/data/protocols/dose-banding-of-anticancer-drugs.ts
+  s_1e233a6be244f1::t_f7498af39c2fed 74
+src/data/protocols/midline-catheters-for-anticancer-therapy.ts
+  s_1e233a6be244f1::t_f7498af39c2fed 94
+src/data/protocols/aseptic-compounding-of-hazardous-anticancer-drugs.ts
+  s_1e233a6be244f1::t_f7498af39c2fed 113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5ecd24b545cf15828c78a88256a58f72c998d0bf",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

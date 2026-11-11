@@ -1,0 +1,147 @@
+src/data/country-rw.ts
+  s_1e233a6be244f1::t_b17cf03c2cf415 7,204,206,208
+  s_1e233a6be244f1::t_c48cb79c9ed209 21,61,64
+  s_1e233a6be244f1::t_cf3149fd0a97eb 1-6,8-20,22-34,36-46,48-60,62-63,65-128,130-203,205,207,209-222,224-278
+  s_1e233a6be244f1::t_b6ee8c23db2450 35,47,129
+  s_1e233a6be244f1::t_ea5ba34711a982 223
+src/data/people/country-md.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+src/data/country-records-gn.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 2
+  s_1e233a6be244f1::t_798543893ffbf3 1,3-19,21,30-34
+  s_1e233a6be244f1::t_ba8785119ff876 24
+  s_1e233a6be244f1::t_52cdcd9f29b9b9 20,22-23,25-29
+src/data/country-pa.ts
+  s_1e233a6be244f1::t_ea5ba34711a982 83,100,119,158,176
+  s_1e233a6be244f1::t_04188dd8d8ae99 33,69,84,98,160
+  s_1e233a6be244f1::t_d237f66ff566ea 1-32,34-68,70-82,85-97,99,101-118,120-157,159,161-175,177-219
+src/data/people/leaders-wave2.ts
+  s_1e233a6be244f1::t_753908ab3d4a6b 1222
+src/data/people/country-hn.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-2
+  s_1e233a6be244f1::t_4e771bc2b8d24b 3-19
+src/data/country-lv.ts
+  s_1e233a6be244f1::t_a19d4b03dcbe8f 132,134
+  s_1e233a6be244f1::t_4c96ea79757c72 1-32,34,36-64,66-131,133,135-155,157-208,210-252
+  s_1e233a6be244f1::t_481e347aaa1881 65
+  s_1e233a6be244f1::t_61cd76cd8ac707 33,35
+  s_1e233a6be244f1::t_9a15644dd26ab0 156
+  s_1e233a6be244f1::t_ea5ba34711a982 209
+src/data/people/country-am.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-2
+  s_1e233a6be244f1::t_4c86965c3b0671 3-19
+src/data/index.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 167-176,437
+src/data/country-gn.ts
+  s_1e233a6be244f1::t_b791b5230c5222 30
+  s_1e233a6be244f1::t_851085529ad20d 125
+  s_1e233a6be244f1::t_32db911ec5e4fd 1-29,31-124,126-160,162-188,190-203
+  s_1e233a6be244f1::t_52cdcd9f29b9b9 189
+  s_1e233a6be244f1::t_ea5ba34711a982 161
+src/data/country-extras.ts
+  s_1e233a6be244f1::t_620afe9d6b9bcd 48-49,113-124
+src/data/people/country-jo.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+src/data/country-records-jo.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+src/data/country-am.ts
+  s_1e233a6be244f1::t_5e43458fb2a088 28,154
+  s_1e233a6be244f1::t_ea5ba34711a982 149
+  s_1e233a6be244f1::t_3bd1f4494c737e 1-27,29-148,150-153,155-181,183-191
+  s_1e233a6be244f1::t_840d75ab8e5bca 182
+src/data/country-jo.ts
+  s_1e233a6be244f1::t_bfde9f25f92f36 59
+  s_1e233a6be244f1::t_ea5ba34711a982 168
+  s_1e233a6be244f1::t_3bc100301bacef 150,152
+  s_1e233a6be244f1::t_217631a4231a9a 1-58,60-149,151,153-167,169-211
+src/data/country-so.ts
+  s_1e233a6be244f1::t_ea5ba34711a982 162
+  s_1e233a6be244f1::t_1122e1bbb30b3a 148,150
+  s_1e233a6be244f1::t_9011e0506959f6 1-26,28,30,32-52,54,56,58-77,79-145,147,149,151-161,163-195,197-201
+  s_1e233a6be244f1::t_6b63707ade3935 27,29,31,53,55,57,78,146,196
+src/data/country-records-hn.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 2
+  s_1e233a6be244f1::t_0735f294c54b86 18
+  s_1e233a6be244f1::t_689b039de7b509 1,3-17,19-23
+src/data/institutions/world.ts
+  s_1e233a6be244f1::t_0ecba9e56e837d 407
+  s_1e233a6be244f1::t_c189ea47cda7ed 404
+  s_1e233a6be244f1::t_342575b0bd9cd2 405
+src/data/country-records-lv.ts
+  s_1e233a6be244f1::t_3f5954d6a50eca 35
+  s_1e233a6be244f1::t_bf336d5729abe8 1,3-32,36-38,40-46
+  s_1e233a6be244f1::t_dc248927bd36ae 39
+  s_1e233a6be244f1::t_771ab552e7ab99 2
+  s_1e233a6be244f1::t_7e8481a6a7d4a8 33
+  s_1e233a6be244f1::t_61cd76cd8ac707 34
+src/data/people/index.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 42-51,55
+src/data/country-md.ts
+  s_1e233a6be244f1::t_6fbba42e46c095 1-127,129-162,164-165,167-202
+  s_1e233a6be244f1::t_c1f0290b73fd03 166
+  s_1e233a6be244f1::t_ea5ba34711a982 163
+  s_1e233a6be244f1::t_089eb2e81eea52 128
+src/data/country-records-sv.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+src/data/country-records-am.ts
+  s_1e233a6be244f1::t_0735f294c54b86 17
+  s_1e233a6be244f1::t_619f3ca67f2713 15-16
+  s_1e233a6be244f1::t_e46704d3b82f98 1,3-14,18-23
+  s_1e233a6be244f1::t_771ab552e7ab99 2
+src/data/people/country-rw.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+src/data/country-records-rw.ts
+  s_1e233a6be244f1::t_b6ee8c23db2450 23-24
+  s_1e233a6be244f1::t_771ab552e7ab99 2
+  s_1e233a6be244f1::t_4a8a6d3a4e7673 1,3-22,25-26,28-60,62-69
+  s_1e233a6be244f1::t_a09b6a8c1ded4b 27,61
+src/data/people/country-so.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+src/data/country-hn.ts
+  s_1e233a6be244f1::t_bb154f682aa72a 1-28,30-101,103,105,107-139,141-153,155-158,160-186,188-196
+  s_1e233a6be244f1::t_840d75ab8e5bca 187
+  s_1e233a6be244f1::t_ea5ba34711a982 154
+  s_1e233a6be244f1::t_fb02ce3b624724 159
+  s_1e233a6be244f1::t_d98cefad20e351 29
+  s_1e233a6be244f1::t_0880d8c50fb593 102,104,106,140
+src/data/people/country-sv.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+src/data/country-sv.ts
+  s_1e233a6be244f1::t_67f758806ddb8b 136,138,153
+  s_1e233a6be244f1::t_ce83b89d79395d 27,119
+  s_1e233a6be244f1::t_f35303e4096e2d 1-26,28-101,103-118,120-135,137,139-149,151-152,154-192
+  s_1e233a6be244f1::t_71f06b47b7de26 102
+  s_1e233a6be244f1::t_ea5ba34711a982 150
+src/data/people/country-gn.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+src/data/country-records-md.ts
+  s_1e233a6be244f1::t_2b1fdb977eead8 18
+  s_1e233a6be244f1::t_771ab552e7ab99 2
+  s_1e233a6be244f1::t_fc9743afd38948 1,3-17,19-38
+src/data/people/country-lv.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+src/data/country-records-pa.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 2
+  s_1e233a6be244f1::t_5f836087e066d8 32
+  s_1e233a6be244f1::t_8f35bc742e43f2 1,3-31,33-44
+src/data/country-records-so.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+src/data/people/country-pa.ts
+  s_1e233a6be244f1::t_771ab552e7ab99 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ade2db01d2fcd56e4dc3e62b9ade88d583cb2448",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

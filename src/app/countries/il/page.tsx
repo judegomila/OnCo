@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
@@ -121,7 +122,7 @@ export default function IsraelPage() {
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
-          {[["#profile", "Cancer profile"], ["#basket", "The health basket"], ["#paying", "Who pays"], ["#regulator", "Regulator"], ["#genetics", "Founder genetics"], ["#doing", "What Israel does"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
+          {[["#profile", "Cancer profile"], ["#basket", "The health basket"], ["#paying", "Who pays"], ["#regulator", "Regulator"], ["#genetics", "Founder genetics"], ["#doing", "What Israel does"], ["#recruiting", "Recruiting here"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">Registry figures in the cards; the table below is GLOBOCAN {GLOBOCAN.year}</span>}>
@@ -184,6 +185,8 @@ export default function IsraelPage() {
             </div>
           )}
         </Section>
+
+        <CountryTrialsSection iso2="IL" />
 
         <Section id="institutions" title="Institutions" aside={<span className="text-sm text-muted">{allInstitutions} Israeli institutions in the corpus · <Link href="/institutions/" className="underline">map and ranking</Link></span>}>
           <Grid items={institutions} />

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
@@ -152,7 +153,7 @@ export default function UnitedKingdomPage() {
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
-          {[["#profile", "Cancer profile"], ["#nations", "Four nations"], ["#pathways", "The eight cancer pathways"], ["#paying", "Who pays"], ["#medicines", "Who decides what is funded"], ["#refusals", "The three kinds of no"], ["#doing", "What it does best"], ["#failing", "What it does badly"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "What could not be sourced"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
+          {[["#profile", "Cancer profile"], ["#nations", "Four nations"], ["#pathways", "The eight cancer pathways"], ["#paying", "Who pays"], ["#medicines", "Who decides what is funded"], ["#refusals", "The three kinds of no"], ["#doing", "What it does best"], ["#failing", "What it does badly"], ["#recruiting", "Recruiting here"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "What could not be sourced"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">GLOBOCAN {GLOBOCAN.year} estimates, rendered from the corpus data file</span>}>
@@ -265,6 +266,8 @@ export default function UnitedKingdomPage() {
             <p className="mt-3 text-xs text-muted">Age-standardised net survival, both sexes except ovary, from the ICBP SURVMARK-2 data file published by IARC (<a href="https://gco.iarc.who.int/survival/survmark/" className="underline" rel="noopener">gco.iarc.who.int/survival/survmark</a>), read 25 September 2026. The seven countries are Australia, Canada, Denmark, Ireland, New Zealand, Norway and the United Kingdom. The cohort ends in 2014, so this describes the patients of a decade ago, and the 1995 to 1999 column is here because the trend and the gap say different things: British survival roughly doubled in lung, pancreatic and oesophageal cancer over the period and still finished last on five of the seven sites. Paper: <a href="https://doi.org/10.1016/S1470-2045(19)30456-5" className="underline" rel="noopener">Arnold et al, Lancet Oncology 2019</a>.</p>
           </div>
         </Section>
+
+        <CountryTrialsSection iso2="GB" />
 
         <Section id="institutions" title="Research institutions, cancer centres and charities" aside={<span className="text-sm text-muted">{allInstitutions} UK institutions in the corpus · <Link href="/institutions/" className="underline">map and ranking</Link></span>}>
           <Grid items={institutions} />

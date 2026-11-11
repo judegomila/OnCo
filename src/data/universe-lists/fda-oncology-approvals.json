@@ -1,18 +1,48 @@
 {
- "checked": "2026-11-04",
+ "checked": "2026-11-11",
  "source": {
   "label": "FDA: Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
   "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications"
  },
  "method": "One item per approval notification dated 1 January 2020 or later: the live FDA page (19 January 2023 onwards when first read) plus, for 2020 to early 2023, the same FDA page as the Internet Archive kept it on 7 March 2023 (https://web.archive.org/web/20230307000830/https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications). Each item links to its own fda.gov notification. Drug names are the generic names the notification's first sentence gives before a (Brand, Sponsor) bracket. Public domain (US government work).",
- "total": 364,
+ "total": 548,
  "window": {
   "from": "2020-01-08",
-  "to": "2026-10-26"
+  "to": "2026-11-10"
  },
- "drugs": 200,
+ "drugs": 201,
  "licence": "Public domain (US government work)",
  "items": [
+  {
+   "date": "2026-11-10",
+   "title": "FDA approves pimicotinib for symptomatic tenosynovial giant cell tumor",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pimicotinib-symptomatic-tenosynovial-giant-cell-tumor",
+   "drugs": [
+    {
+     "generic": "pimicotinib",
+     "brand": "Pimjetmi",
+     "sponsor": "EMD Serono, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 10, 2026, the Food and Drug Administration approved pimicotinib (Pimjetmi, EMD Serono, Inc.), a kinase inhibitor, for adults with symptomatic tenosynovial giant cell tumor (TGCT) for which surgical resection may cause worsening functional limitation or severe morbidity.",
+   "via": "live"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "FDA grants accelerated approval to amivantamab and hyaluronidase-lpuj for recurrent or metastatic head and neck squamous cell carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-amivantamab-and-hyaluronidase-lpuj-recurrent-or-metastatic-head-and",
+   "drugs": [
+    {
+     "generic": "hyaluronidase-lpuj",
+     "brand": "Rybrevant Faspro",
+     "sponsor": "Janssen Biotech, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On November 5, 2026, the Food and Drug Administration granted accelerated approval to amivantamab and hyaluronidase-lpuj (Rybrevant Faspro, Janssen Biotech, Inc.) for adults with recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) whose disease has progressed on or after platinum-based chemotherapy and an anti-PD-(L)1 antibody.",
+   "via": "live"
+  },
   {
    "date": "2026-10-26",
    "title": "FDA approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations",
@@ -29,9 +59,39 @@
    "via": "live"
   },
   {
+   "date": "2026-10-26",
+   "title": "FDA approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive",
+   "drugs": [
+    {
+     "generic": "talazoparib",
+     "brand": "Talzenna",
+     "sponsor": "Pfizer Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 26, 2026, the Food and Drug Administration (FDA) approved talazoparib (Talzenna, Pfizer Inc.) in combination with enzalutamide for the treatment of adults with metastatic androgen pathway modulation-naïve or -sensitive (mAPMN/S) prostate cancer with homologous recombination repair (HRR) gene mutations, as detected by an FDA-authorized test.",
+   "via": "live"
+  },
+  {
    "date": "2026-10-19",
    "title": "FDA grants accelerated approval to dostarlimab for locally advanced rectal cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dostarlimab-locally-advanced-rectal-cancer",
+   "drugs": [
+    {
+     "generic": "dostarlimab",
+     "brand": "Jemperli",
+     "sponsor": "GSK"
+    }
+   ],
+   "accelerated": true,
+   "text": "On October 19, 2026, the Food and Drug Administration granted accelerated approval to dostarlimab (Jemperli, GSK) for adults with Stage II/III locally advanced rectal cancer (LARC) that is microsatellite instability high (MSI-H) or mismatch repair deficient (dMMR), as determined by an FDA-authorized test for solid tumors.",
+   "via": "live"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "FDA grants accelerated approval to dostarlimab for locally advanced rectal cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-dostarlimab-locally-advanced-rectal-cancer",
    "drugs": [
     {
      "generic": "dostarlimab",
@@ -64,9 +124,44 @@
    "via": "live"
   },
   {
+   "date": "2026-10-16",
+   "title": "FDA grants traditional approval for pembrolizumab or pembrolizumab and berahyaluronidase alfa-pmph for unresectable or metastatic TMB-H solid tumors with updated indication",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    },
+    {
+     "generic": "berahyaluronidase alfa-pmph",
+     "brand": "Keytruda Qlex",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 16, 2026, the Food and Drug Administration granted traditional approval to pembrolizumab (Keytruda, Merck) or pembrolizumab and berahyaluronidase alfa-pmph (Keytruda Qlex, Merck) for adult and pediatric patients with unresectable or metastatic tumor mutational burden-high (TMB-H) [≥13 mutations/megabase (mut/Mb)] solid tumors, as determined by an FDA-authorized test, that have progressed following prior treatment and who have no satisfactory alternative treatment options.",
+   "via": "live"
+  },
+  {
    "date": "2026-10-14",
    "title": "FDA approves an expanded indication for nogapendekin alfa inbakicept-pmln for BCG-unresponsive non-muscle invasive bladder cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-expanded-indication-nogapendekin-alfa-inbakicept-pmln-bcg-unresponsive-non-muscle",
+   "drugs": [
+    {
+     "generic": "nogapendekin alfa inbakicept-pmln",
+     "brand": "Anktiva",
+     "sponsor": "Altor BioScience, LLC, an indirect wholly-owned subsidiary of ImmunityBio, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 14, 2026, the Food and Drug Administration (FDA) approved nogapendekin alfa inbakicept-pmln (Anktiva, Altor BioScience, LLC, an indirect wholly-owned subsidiary of ImmunityBio, Inc.) with Bacillus Calmette-Guérin (BCG) for adults with BCG-unresponsive non-muscle invasive bladder cancer (NMIBC).",
+   "via": "live"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "FDA approves an expanded indication for nogapendekin alfa inbakicept-pmln for BCG-unresponsive non-muscle invasive bladder cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-expanded-indication-nogapendekin-alfa-inbakicept-pmln-bcg-unresponsive-non-muscle",
    "drugs": [
     {
      "generic": "nogapendekin alfa inbakicept-pmln",
@@ -94,6 +189,21 @@
    "via": "live"
   },
   {
+   "date": "2026-10-08",
+   "title": "FDA approves atezolizumab in combination with chemotherapy for Stage III mismatch repair deficient colon cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-atezolizumab-combination-chemotherapy-stage-iii-mismatch-repair-deficient-colon-cancer",
+   "drugs": [
+    {
+     "generic": "atezolizumab",
+     "brand": "Tecentriq",
+     "sponsor": "Genentech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 8, 2026, the Food and Drug Administration approved atezolizumab (Tecentriq, Genentech, Inc.) in combination with a fluoropyrimidine and oxaliplatin for the adjuvant treatment of adult and pediatric patients two years of age and older with Stage III mismatch repair deficient (dMMR) colon cancer.",
+   "via": "live"
+  },
+  {
    "date": "2026-10-07",
    "title": "FDA approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer",
@@ -109,9 +219,39 @@
    "via": "live"
   },
   {
+   "date": "2026-10-07",
+   "title": "FDA approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer",
+   "drugs": [
+    {
+     "generic": "tucatinib",
+     "brand": "Tukysa",
+     "sponsor": "Seagen Inc., a subsidiary of Pfizer"
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following induction treatment.",
+   "via": "live"
+  },
+  {
    "date": "2026-10-02",
    "title": "FDA approves pirtobrutinib for previously untreated chronic lymphocytic leukemia or small lymphocytic lymphoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pirtobrutinib-previously-untreated-chronic-lymphocytic-leukemia-or-small-lymphocytic",
+   "drugs": [
+    {
+     "generic": "pirtobrutinib",
+     "brand": "Jaypirca",
+     "sponsor": "Eli Lilly and Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 2, 2026, the Food and Drug Administration approved pirtobrutinib (Jaypirca, Eli Lilly and Company) for adult patients with previously untreated chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL) with no known 17p deletion.",
+   "via": "live"
+  },
+  {
+   "date": "2026-10-02",
+   "title": "FDA approves pirtobrutinib for previously untreated chronic lymphocytic leukemia or small lymphocytic lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pirtobrutinib-previously-untreated-chronic-lymphocytic-leukemia-or-small-lymphocytic",
    "drugs": [
     {
      "generic": "pirtobrutinib",
@@ -144,9 +284,44 @@
    "via": "live"
   },
   {
+   "date": "2026-09-24",
+   "title": "FDA approves belzutifan in combination with lenvatinib for advanced renal cell carcinoma with a clear cell component",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-belzutifan-combination-lenvatinib-advanced-renal-cell-carcinoma-clear-cell-component",
+   "drugs": [
+    {
+     "generic": "belzutifan",
+     "brand": "Welireg",
+     "sponsor": "Merck & Co., Inc."
+    },
+    {
+     "generic": "lenvatinib",
+     "brand": "Lenvima",
+     "sponsor": "Eisai Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 24, 2026, the Food and Drug Administration approved belzutifan (Welireg, Merck & Co., Inc.) in combination with lenvatinib (Lenvima, Eisai Inc.) for adults with advanced renal cell carcinoma with a clear cell component (ccRCC) following a programmed death receptor-1 (PD-1) or programmed death-ligand 1 (PD-L1) inhibitor.",
+   "via": "live"
+  },
+  {
    "date": "2026-09-23",
    "title": "FDA approves lirafugratinib for previously treated, unresectable, locally advanced or metastatic cholangiocarcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lirafugratinib-previously-treated-unresectable-locally-advanced-or-metastatic",
+   "drugs": [
+    {
+     "generic": "lirafugratinib",
+     "brand": "Lyrfigtu",
+     "sponsor": "Elevar Therapeutics, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 23, 2026, the Food and Drug Administration approved lirafugratinib (Lyrfigtu, Elevar Therapeutics, Inc.), a kinase inhibitor, for the treatment of adults with previously treated unresectable, locally advanced or metastatic cholangiocarcinoma harboring a fibroblast growth factor receptor 2 (FGFR2) gene fusion or other rearrangement.",
+   "via": "live"
+  },
+  {
+   "date": "2026-09-23",
+   "title": "FDA approves lirafugratinib for previously treated, unresectable, locally advanced or metastatic cholangiocarcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-lirafugratinib-previously-treated-unresectable-locally-advanced-or-metastatic",
    "drugs": [
     {
      "generic": "lirafugratinib",
@@ -177,9 +352,42 @@
    "via": "live"
   },
   {
+   "date": "2026-09-18",
+   "title": "FDA approves imlunestrant in combination with abemaciclib for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-imlunestrant-combination-abemaciclib-er-positive-her2-negative-esr1-mutated-advanced-or",
+   "drugs": [
+    {
+     "generic": "imlunestrant",
+     "brand": "Inluriyo"
+    },
+    {
+     "generic": "abemaciclib",
+     "brand": "Verzenio"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 18, 2026, the Food and Drug Administration approved imlunestrant (Inluriyo) in combination with abemaciclib (Verzenio), for adults with estrogen receptor (ER)-positive, human epidermal growth factor receptor 2 (HER2)-negative, estrogen receptor 1 (ESR1)-mutated advanced or metastatic breast cancer, as detected by an FDA-authorized test, with disease progression following at least one line of endocrine therapy.",
+   "via": "live"
+  },
+  {
    "date": "2026-09-09",
    "title": "FDA grants accelerated approval to sevabertinib for locally advanced or metastatic non-squamous non-small cell lung cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sevabertinib-locally-advanced-or-metastatic-non-squamous-non-small",
+   "drugs": [
+    {
+     "generic": "sevabertinib",
+     "brand": "Hyrnuo",
+     "sponsor": "Bayer Healthcare Pharmaceuticals Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On September 9, 2026, the Food and Drug Administration granted accelerated approval to sevabertinib (Hyrnuo, Bayer Healthcare Pharmaceuticals Inc.), a kinase inhibitor, for adult patients with locally advanced or metastatic non-squamous non-small cell lung cancer (NSCLC) whose tumors have HER2 (ERBB2) tyrosine kinase domain (TKD) activating mutations, as detected by an FDA-authorized test.",
+   "via": "live"
+  },
+  {
+   "date": "2026-09-09",
+   "title": "FDA grants accelerated approval to sevabertinib for locally advanced or metastatic non-squamous non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-sevabertinib-locally-advanced-or-metastatic-non-squamous-non-small",
    "drugs": [
     {
      "generic": "sevabertinib",
@@ -207,9 +415,39 @@
    "via": "live"
   },
   {
+   "date": "2026-09-04",
+   "title": "FDA grants accelerated approval to camizestrant with a CDK4/6 inhibitor for ESR1-Mutated HR-positive, HER2-negative locally advanced or metastatic breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-camizestrant-cdk46-inhibitor-esr1-mutated-hr-positive-her2-negative",
+   "drugs": [
+    {
+     "generic": "camizestrant",
+     "brand": "Etcamah",
+     "sponsor": "AstraZeneca"
+    }
+   ],
+   "accelerated": true,
+   "text": "On September 4, 2026, the Food and Drug Administration granted accelerated approval to camizestrant (Etcamah, AstraZeneca), an estrogen receptor antagonist, in combination with a CDK4/6 inhibitor (abemaciclib, palbociclib, or ribociclib) for adults with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative locally advanced or metastatic breast cancer upon detection of estrogen receptor-1 (ESR1) mutation during aromatase inhibitor and CDK4/6 inhibitor therapy, based on an FDA-authorized test.",
+   "via": "live"
+  },
+  {
    "date": "2026-08-26",
    "title": "FDA approves daraxonrasib for metastatic pancreatic adenocarcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma",
+   "drugs": [
+    {
+     "generic": "daraxonrasib",
+     "brand": "RASONQUE",
+     "sponsor": "Revolution Medicines, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On August 26, 2026, the Food and Drug Administration approved daraxonrasib (RASONQUE, Revolution Medicines, Inc.), an inhibitor of the RAS GTPase family, for adults with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy or who are not candidates for multiagent systemic therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "FDA approves daraxonrasib for metastatic pancreatic adenocarcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-daraxonrasib-metastatic-pancreatic-adenocarcinoma",
    "drugs": [
     {
      "generic": "daraxonrasib",
@@ -242,9 +480,44 @@
    "via": "live"
   },
   {
+   "date": "2026-08-25",
+   "title": "FDA approves zanidatamab-hrii and tislelizumab-jsgr for HER2-positive gastric, gastroesophageal junction, or esophageal adenocarcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-zanidatamab-hrii-and-tislelizumab-jsgr-her2-positive-gastric-gastroesophageal-junction",
+   "drugs": [
+    {
+     "generic": "zanidatamab-hrii",
+     "brand": "Ziihera",
+     "sponsor": "Jazz Pharmaceuticals"
+    },
+    {
+     "generic": "tislelizumab-jsgr",
+     "brand": "Tevimbra",
+     "sponsor": "BeOne Medicines USA, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On August 25, 2026, the Food and Drug Administration approved zanidatamab-hrii (Ziihera, Jazz Pharmaceuticals) in combination with fluoropyrimidine- and platinum-containing chemotherapy and tislelizumab-jsgr (Tevimbra, BeOne Medicines USA, Inc.), as first-line treatment for adults with HER2-positive (IHC 3+ or IHC 2+/ISH+) unresectable locally advanced or metastatic gastric, gastroesophageal junction, or esophageal adenocarcinoma, as detected by an FDA-approved test, and in combination with fluoropyrimidine-, and platinum-containing chemotherapy, as first-line treatment for adults with HER2-positive (IHC 3+) unresectable locally advanced or metastatic gastric, gastroesophageal junction, or esophageal adenocarcinoma, as detected by an FDA-approved test.: dolutegravir",
+   "via": "live"
+  },
+  {
    "date": "2026-08-13",
    "title": "FDA grants accelerated approval to iberdomide with daratumumab and hyaluronidase-fihj and dexamethasone for multiple myeloma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-iberdomide-daratumumab-and-hyaluronidase-fihj-and-dexamethasone",
+   "drugs": [
+    {
+     "generic": "iberdomide",
+     "brand": "Zenbexus",
+     "sponsor": "Bristol-Myers Squibb Company"
+    }
+   ],
+   "accelerated": true,
+   "text": "On August 13, 2026, the Food and Drug Administration granted accelerated approval to iberdomide (Zenbexus, Bristol-Myers Squibb Company) in combination with daratumumab and hyaluronidase-fihj and dexamethasone for adults with multiple myeloma who have received at least one prior line of therapy including a proteasome inhibitor and an immunomodulatory agent.",
+   "via": "live"
+  },
+  {
+   "date": "2026-08-13",
+   "title": "FDA grants accelerated approval to iberdomide with daratumumab and hyaluronidase-fihj and dexamethasone for multiple myeloma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-iberdomide-daratumumab-and-hyaluronidase-fihj-and-dexamethasone",
    "drugs": [
     {
      "generic": "iberdomide",
@@ -272,6 +545,21 @@
    "via": "live"
   },
   {
+   "date": "2026-08-06",
+   "title": "FDA grants accelerated approval to vusolimogene oderparepvec-wtpg in combination with nivolumab for melanoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-vusolimogene-oderparepvec-wtpg-combination-nivolumab-melanoma",
+   "drugs": [
+    {
+     "generic": "vusolimogene oderparepvec-wtpg",
+     "brand": "Tudriqev",
+     "sponsor": "Replimune, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On August 6, 2026, the Food and Drug Administration granted accelerated approval to vusolimogene oderparepvec-wtpg (Tudriqev, Replimune, Inc.), a genetically modified oncolytic viral therapy, in combination with nivolumab for the treatment of adult patients with unresectable advanced cutaneous melanoma who experienced disease progression on a programmed death receptor-1 (PD-1)-blocking antibody-based regimen.",
+   "via": "live"
+  },
+  {
    "date": "2026-07-31",
    "title": "FDA approves lutetium Lu 177 vipivotide tetraxetan with androgen receptor pathway inhibitor therapy for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lutetium-lu-177-vipivotide-tetraxetan-androgen-receptor-pathway-inhibitor-therapy",
@@ -287,9 +575,39 @@
    "via": "live"
   },
   {
+   "date": "2026-07-31",
+   "title": "FDA approves lutetium Lu 177 vipivotide tetraxetan with androgen receptor pathway inhibitor therapy for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-lutetium-lu-177-vipivotide-tetraxetan-androgen-receptor-pathway-inhibitor-therapy",
+   "drugs": [
+    {
+     "generic": "lutetium Lu 177 vipivotide tetraxetan",
+     "brand": "Pluvicto",
+     "sponsor": "Novartis Pharmaceuticals Corporation"
+    }
+   ],
+   "accelerated": false,
+   "text": "On July 31, 2026, the Food and Drug Administration approved lutetium Lu 177 vipivotide tetraxetan (Pluvicto, Novartis Pharmaceuticals Corporation) in combination with androgen receptor pathway inhibitor (ARPI) therapy for adults with prostate-specific membrane antigen (PSMA)-positive metastatic androgen pathway modulation-naïve or-sensitive (mAPMN/S) prostate cancer (previously referred to as metastatic hormone-sensitive prostate cancer).",
+   "via": "live"
+  },
+  {
    "date": "2026-07-22",
    "title": "FDA approves zidesamtinib for ROS1 -positive non-small cell lung cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zidesamtinib-ros1-positive-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "zidesamtinib",
+     "brand": "Jideytro",
+     "sponsor": "Nuvalent, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On July 22, 2026, the Food and Drug Administration approved zidesamtinib (Jideytro, Nuvalent, Inc.) for adults with locally advanced or metastatic ROS1 -positive non-small cell lung cancer (NSCLC) who received at least one prior ROS1 tyrosine kinase inhibitor (TKI).",
+   "via": "live"
+  },
+  {
+   "date": "2026-07-22",
+   "title": "FDA approves zidesamtinib for ROS1 -positive non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-zidesamtinib-ros1-positive-non-small-cell-lung-cancer",
    "drugs": [
     {
      "generic": "zidesamtinib",
@@ -318,8 +636,38 @@
   },
   {
    "date": "2026-07-14",
+   "title": "FDA approves gedatolisib with fulvestrant, with or without palbociclib, for HR-positive, HER2-negative locally advanced or metastatic breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-gedatolisib-fulvestrant-or-without-palbociclib-hr-positive-her2-negative-locally",
+   "drugs": [
+    {
+     "generic": "gedatolisib",
+     "brand": "Revtorpyk",
+     "sponsor": "Celcuity Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On July 14, 2026, the Food and Drug Administration approved gedatolisib (Revtorpyk, Celcuity Inc.) in combination with fulvestrant, with or without palbociclib, for adults with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative locally advanced or metastatic breast cancer without a PIK3CA mutation detected following progression on or after treatment with at least one line of endocrine therapy in the metastatic setting.",
+   "via": "live"
+  },
+  {
+   "date": "2026-07-14",
    "title": "FDA grants traditional approval to selpercatinib for locally advanced or metastatic RET fusion-positive solid tumors",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-selpercatinib-locally-advanced-or-metastatic-ret-fusion-positive",
+   "drugs": [
+    {
+     "generic": "selpercatinib",
+     "brand": "Retevmo",
+     "sponsor": "Eli Lilly and Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On July 14, 2026, the Food and Drug Administration granted traditional approval to selpercatinib (Retevmo, Eli Lilly and Company) for adult and pediatric patients two years of age and older with locally advanced or metastatic solid tumors with a RET gene fusion, as detected by an FDA-approved test, that have progressed on or following prior systemic treatment or who have no satisfactory alternative treatment options.",
+   "via": "live"
+  },
+  {
+   "date": "2026-07-14",
+   "title": "FDA grants traditional approval to selpercatinib for locally advanced or metastatic RET fusion-positive solid tumors",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-selpercatinib-locally-advanced-or-metastatic-ret-fusion-positive",
    "drugs": [
     {
      "generic": "selpercatinib",
@@ -357,6 +705,31 @@
    "via": "live"
   },
   {
+   "date": "2026-07-10",
+   "title": "FDA approves pembrolizumab or pembrolizumab and berahyaluronidase alfa-pmph each with enfortumab vedotin-ejfv for muscle invasive bladder cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-enfortumab-vedotin",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    },
+    {
+     "generic": "berahyaluronidase alfa-pmph",
+     "brand": "Keytruda Qlex",
+     "sponsor": "Merck"
+    },
+    {
+     "generic": "enfortumab vedotin-ejfv",
+     "brand": "Padcev",
+     "sponsor": "Astellas Pharma"
+    }
+   ],
+   "accelerated": false,
+   "text": "On July 10, 2026, the Food and Drug Administration approved pembrolizumab (Keytruda, Merck) or pembrolizumab and berahyaluronidase alfa-pmph (Keytruda Qlex, Merck) each in combination with enfortumab vedotin-ejfv (Padcev, Astellas Pharma) as neoadjuvant treatment (before surgery) followed by adjuvant treatment after cystectomy (surgery to remove the bladder) for adults with muscle invasive bladder cancer (MIBC).",
+   "via": "live"
+  },
+  {
    "date": "2026-07-09",
    "title": "FDA approves isatuximab-irfc for subcutaneous injection for multiple myeloma indications",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-isatuximab-irfc-subcutaneous-injection-multiple-myeloma-indications",
@@ -372,9 +745,39 @@
    "via": "live"
   },
   {
+   "date": "2026-07-09",
+   "title": "FDA approves isatuximab-irfc for subcutaneous injection for multiple myeloma indications",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-isatuximab-irfc-subcutaneous-injection-multiple-myeloma-indications",
+   "drugs": [
+    {
+     "generic": "isatuximab-irfc",
+     "brand": "Sarclisa Escena",
+     "sponsor": "Sanofi-Aventis U.S. LLC"
+    }
+   ],
+   "accelerated": false,
+   "text": "On July 9, 2026, the Food and Drug Administration approved isatuximab-irfc (Sarclisa Escena, Sanofi-Aventis U.S. LLC) for subcutaneous injection for multiple myeloma indications.",
+   "via": "live"
+  },
+  {
    "date": "2026-06-30",
    "title": "FDA approves allogeneic regulatory T cell-based immunotherapy with HSPC and T cells-vldq for use in matched donor hematopoietic stem cell transplantation for adults with hematologic malignancies",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-allogeneic-regulatory-t-cell-based-immunotherapy-hspc-and-t-cells-vldq-use-matched",
+   "drugs": [
+    {
+     "generic": "cells-vldq",
+     "brand": "Tregzi",
+     "sponsor": "Orca Bio"
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 30, 2026, the Food and Drug Administration approved allogeneic regulatory T cell-based immunotherapy with hematopoietic stem and progenitor cell (HSPC) and T cells-vldq (Tregzi, Orca Bio) for use in matched donor hematopoietic stem cell transplantation (HSCT) with a myeloablative preparative regimen, for hematopoietic and immunologic reconstitution and to improve chronic graft-versus-host disease (cGHVD)-free survival, in the treatment of adults with hematological malignancies.",
+   "via": "live"
+  },
+  {
+   "date": "2026-06-30",
+   "title": "FDA approves allogeneic regulatory T cell-based immunotherapy with HSPC and T cells-vldq for use in matched donor hematopoietic stem cell transplantation for adults with hematologic malignancies",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-allogeneic-regulatory-t-cell-based-immunotherapy-hspc-and-t-cells-vldq-use-matched",
    "drugs": [
     {
      "generic": "cells-vldq",
@@ -403,8 +806,38 @@
   },
   {
    "date": "2026-06-24",
+   "title": "FDA approves palbociclib with trastuzumab, with or without pertuzumab, and endocrine therapy for the maintenance treatment of HR-positive, HER2-positive metastatic breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-palbociclib-trastuzumab-or-without-pertuzumab-and-endocrine-therapy-maintenance",
+   "drugs": [
+    {
+     "generic": "palbociclib",
+     "brand": "Ibrance",
+     "sponsor": "Pfizer Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 24, 2026, the Food and Drug Administration approved palbociclib (Ibrance, Pfizer Inc.) in combination with trastuzumab, with or without pertuzumab, and endocrine therapy for the maintenance treatment of adults with HR-positive, HER2-positive locally advanced or metastatic breast cancer following induction treatment.",
+   "via": "live"
+  },
+  {
+   "date": "2026-06-24",
    "title": "FDA approves sacituzumab govitecan-hziy as monotherapy and in combination with pembrolizumab for first-line treatment of triple-negative breast cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line",
+   "drugs": [
+    {
+     "generic": "sacituzumab govitecan-hziy",
+     "brand": "Trodelvy",
+     "sponsor": "Gilead Sciences, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 24, 2026, the Food and Drug Administration approved sacituzumab govitecan-hziy (Trodelvy, Gilead Sciences, Inc.) for two indications in adults with triple-negative breast cancer (TNBC).",
+   "via": "live"
+  },
+  {
+   "date": "2026-06-24",
+   "title": "FDA approves sacituzumab govitecan-hziy as monotherapy and in combination with pembrolizumab for first-line treatment of triple-negative breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line",
    "drugs": [
     {
      "generic": "sacituzumab govitecan-hziy",
@@ -443,8 +876,48 @@
   },
   {
    "date": "2026-06-12",
+   "title": "FDA approves belzutifan with pembrolizumab for adjuvant treatment of renal cell carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-belzutifan-pembrolizumab-adjuvant-treatment-renal-cell-carcinoma",
+   "drugs": [
+    {
+     "generic": "belzutifan",
+     "brand": "Welireg",
+     "sponsor": "Merck & Co., Inc."
+    },
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck & Co., Inc."
+    },
+    {
+     "generic": "berahyaluronidase alfa-pmph",
+     "brand": "Keytruda Qlex",
+     "sponsor": "Merck & Co., Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 12, 2026, the Food and Drug Administration approved belzutifan (Welireg, Merck & Co., Inc.) in combination with pembrolizumab (Keytruda, Merck & Co., Inc.) or pembrolizumab and berahyaluronidase alfa-pmph (Keytruda Qlex, Merck & Co., Inc.) for the adjuvant treatment of adults with renal cell carcinoma with a clear cell component (ccRCC) at intermediate-high or high risk of recurrence following nephrectomy, or following nephrectomy and resection of metastatic lesions.",
+   "via": "live"
+  },
+  {
+   "date": "2026-06-12",
    "title": "FDA approves capivasertib with abiraterone and prednisone for PTEN-deficient androgen pathway modulation-naïve or -sensitive prostate cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-capivasertib-abiraterone-and-prednisone-pten-deficient-androgen-pathway-modulation",
+   "drugs": [
+    {
+     "generic": "capivasertib",
+     "brand": "Truqap",
+     "sponsor": "AstraZeneca"
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 12, 2026, the Food and Drug Administration approved capivasertib (Truqap, AstraZeneca) in combination with abiraterone and prednisone for adults with metastatic androgen pathway modulation-naïve or -sensitive (mAPMN/S) prostate cancer (previously referred to as metastatic hormone-sensitive prostate cancer) that is PTEN-deficient as detected by an FDA-authorized test.",
+   "via": "live"
+  },
+  {
+   "date": "2026-06-12",
+   "title": "FDA approves capivasertib with abiraterone and prednisone for PTEN-deficient androgen pathway modulation-naïve or -sensitive prostate cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-capivasertib-abiraterone-and-prednisone-pten-deficient-androgen-pathway-modulation",
    "drugs": [
     {
      "generic": "capivasertib",
@@ -472,6 +945,21 @@
    "via": "live"
   },
   {
+   "date": "2026-05-28",
+   "title": "FDA approves durvalumab in combination with Bacillus Calmette-Guerin for high-risk non-muscle invasive bladder cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-durvalumab-combination-bacillus-calmette-guerin-high-risk-non-muscle-invasive-bladder",
+   "drugs": [
+    {
+     "generic": "durvalumab",
+     "brand": "Imfinzi",
+     "sponsor": "AstraZeneca"
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 28, 2026, the Food and Drug Administration approved durvalumab (Imfinzi, AstraZeneca) in combination with Bacillus Calmette-Guerin (BCG) for the treatment of adult patients with BCG-naïve, high-risk non-muscle invasive bladder cancer (NMIBC).",
+   "via": "live"
+  },
+  {
    "date": "2026-05-27",
    "title": "FDA approves pivekimab sunirine-pvzy for blastic plasmacytoid dendritic cell neoplasm, an ultra-rare hematologic malignancy",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pivekimab-sunirine-pvzy-blastic-plasmacytoid-dendritic-cell-neoplasm-ultra-rare",
@@ -487,9 +975,39 @@
    "via": "live"
   },
   {
+   "date": "2026-05-27",
+   "title": "FDA approves pivekimab sunirine-pvzy for blastic plasmacytoid dendritic cell neoplasm, an ultra-rare hematologic malignancy",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pivekimab-sunirine-pvzy-blastic-plasmacytoid-dendritic-cell-neoplasm-ultra-rare",
+   "drugs": [
+    {
+     "generic": "pivekimab sunirine-pvzy",
+     "brand": "Decnupaz",
+     "sponsor": "AbbVie, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 27, 2026, the Food and Drug Administration approved pivekimab sunirine-pvzy (Decnupaz, AbbVie, Inc.), a CD123-directed antibody and alkylating agent conjugate, for adults with blastic plasmacytoid dendritic cell neoplasm (BPDCN).",
+   "via": "live"
+  },
+  {
    "date": "2026-05-22",
    "title": "FDA approves datopotamab deruxtecan-dlnk for unresectable or metastatic triple-negative breast cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-triple-negative-breast-cancer",
+   "drugs": [
+    {
+     "generic": "datopotamab deruxtecan-dlnk",
+     "brand": "Datroway",
+     "sponsor": "Daiichi Sankyo, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 22, 2026, the Food and Drug Administration approved datopotamab deruxtecan-dlnk (Datroway, Daiichi Sankyo, Inc.) for adult patients with unresectable or metastatic triple-negative breast cancer (TNBC) who are not candidates for PD-1/PD-L1 inhibitor therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2026-05-22",
+   "title": "FDA approves datopotamab deruxtecan-dlnk for unresectable or metastatic triple-negative breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-triple-negative-breast-cancer",
    "drugs": [
     {
      "generic": "datopotamab deruxtecan-dlnk",
@@ -518,8 +1036,38 @@
   },
   {
    "date": "2026-05-15",
+   "title": "FDA approves atezolizumab for adjuvant treatment of muscle invasive bladder cancer in patients with molecular residual disease",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-atezolizumab-adjuvant-treatment-muscle-invasive-bladder-cancer-patients-molecular",
+   "drugs": [
+    {
+     "generic": "hyaluronidase-tqjs",
+     "brand": "Tecentriq Hybreza",
+     "sponsor": "Genentech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 15, 2026, the Food and Drug Administration approved atezolizumab (Tecentriq, Genentech, Inc. and atezolizumab and hyaluronidase-tqjs (Tecentriq Hybreza, Genentech, Inc.) as adjuvant treatments for adults with muscle invasive bladder cancer (MIBC) after cystectomy who have circulating tumor DNA molecular residual disease (ctDNA MRD) as determined by an FDA-authorized test.",
+   "via": "live"
+  },
+  {
+   "date": "2026-05-15",
    "title": "FDA approves two separate indications for fam-trastuzumab deruxtecan-nxki in HER2-positive early-stage breast cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage",
+   "drugs": [
+    {
+     "generic": "fam-trastuzumab deruxtecan-nxki",
+     "brand": "T-DXd",
+     "sponsor": "Enhertu, Daiichi Sankyo, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 15, 2026, the Food and Drug Administration (FDA) approved fam-trastuzumab deruxtecan-nxki (T-DXd, Enhertu, Daiichi Sankyo, Inc.) for two separate indications in adults with HER2-positive early-stage breast cancer.",
+   "via": "live"
+  },
+  {
+   "date": "2026-05-15",
+   "title": "FDA approves two separate indications for fam-trastuzumab deruxtecan-nxki in HER2-positive early-stage breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-two-separate-indications-fam-trastuzumab-deruxtecan-nxki-her2-positive-early-stage",
    "drugs": [
     {
      "generic": "fam-trastuzumab deruxtecan-nxki",
@@ -552,8 +1100,42 @@
   },
   {
    "date": "2026-05-13",
+   "title": "FDA approves oral combination of decitabine and cedazuridine tablets with venetoclax for newly diagnosed acute myeloid leukemia",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-oral-combination-decitabine-and-cedazuridine-tablets-venetoclax-newly-diagnosed-acute",
+   "drugs": [
+    {
+     "generic": "decitabine"
+    },
+    {
+     "generic": "cedazuridine"
+    },
+    {
+     "generic": "venetoclax"
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 13, 2026, the Food and Drug Administration approved an oral combination of decitabine and cedazuridine tablets (Inqovi, Taiho Oncology, Inc.) with venetoclax for the treatment of newly diagnosed acute myeloid leukemia (AML) in adults 75 years or older, or who have comorbidities that preclude the use of intensive induction chemotherapy.",
+   "via": "live"
+  },
+  {
+   "date": "2026-05-13",
    "title": "FDA grants accelerated approval to sonrotoclax for relapsed or refractory mantle cell lymphoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sonrotoclax-relapsed-or-refractory-mantle-cell-lymphoma",
+   "drugs": [
+    {
+     "generic": "sonrotoclax",
+     "brand": "Beqalzi",
+     "sponsor": "BeOne Medicines USA, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On May 13, 2026, the Food and Drug Administration granted accelerated approval to sonrotoclax (Beqalzi, BeOne Medicines USA, Inc.), a BCL-2 inhibitor, for adults with relapsed or refractory mantle cell lymphoma (MCL) after at least two lines of systemic therapy, including a Bruton’s tyrosine kinase (BTK) inhibitor.",
+   "via": "live"
+  },
+  {
+   "date": "2026-05-13",
+   "title": "FDA grants accelerated approval to sonrotoclax for relapsed or refractory mantle cell lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-sonrotoclax-relapsed-or-refractory-mantle-cell-lymphoma",
    "drugs": [
     {
      "generic": "sonrotoclax",
@@ -581,9 +1163,39 @@
    "via": "live"
   },
   {
+   "date": "2026-05-08",
+   "title": "FDA approves zenocutuzumab-zbco for advanced, unresectable or metastatic cholangiocarcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-zenocutuzumab-zbco-advanced-unresectable-or-metastatic-cholangiocarcinoma",
+   "drugs": [
+    {
+     "generic": "zenocutuzumab-zbco",
+     "brand": "Bizengri",
+     "sponsor": "Partner Therapeutics, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 8, 2026, the Food and Drug Administration approved zenocutuzumab-zbco (Bizengri, Partner Therapeutics, Inc.) for adults with advanced, unresectable or metastatic cholangiocarcinoma harboring a neuregulin 1 (NRG1) gene fusion with disease progression on or after prior systemic therapy.",
+   "via": "live"
+  },
+  {
    "date": "2026-05-01",
    "title": "FDA approves vepdegestrant for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-vepdegestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast",
+   "drugs": [
+    {
+     "generic": "vepdegestrant",
+     "brand": "Veppanu",
+     "sponsor": "Arvinas Operations, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 1, 2026, the Food and Drug Administration approved vepdegestrant (Veppanu, Arvinas Operations, Inc.), a heterobifunctional protein degrader, for adults with estrogen receptor (ER)-positive, human epidermal growth factor receptor 2 (HER2)-negative, ESR1 -mutated advanced or metastatic breast cancer, as detected by an FDA-authorized test, with disease progression following at least one line of endocrine therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2026-05-01",
+   "title": "FDA approves vepdegestrant for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-vepdegestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast",
    "drugs": [
     {
      "generic": "vepdegestrant",
@@ -611,9 +1223,39 @@
    "via": "live"
   },
   {
+   "date": "2026-03-25",
+   "title": "FDA approves relacorilant with nab-paclitaxel for platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-relacorilant-nab-paclitaxel-platinum-resistant-epithelial-ovarian-fallopian-tube-or",
+   "drugs": [
+    {
+     "generic": "relacorilant",
+     "brand": "Lifyorli",
+     "sponsor": "Corcept Therapeutics Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 25, 2026, the Food and Drug Administration approved relacorilant (Lifyorli, Corcept Therapeutics Inc.), a glucocorticoid receptor antagonist, in combination with nab-paclitaxel for the treatment of adults with platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer who have received one to three prior systemic treatment regimens, at least one of which included bevacizumab.",
+   "via": "live"
+  },
+  {
    "date": "2026-03-20",
    "title": "FDA approves nivolumab with chemotherapy for previously untreated Hodgkin lymphoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-nivolumab-chemotherapy-previously-untreated-hodgkin-lymphoma",
+   "drugs": [
+    {
+     "generic": "nivolumab",
+     "brand": "Opdivo",
+     "sponsor": "Bristol Myers Squibb Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 20, 2026, the Food and Drug Administration approved nivolumab (Opdivo, Bristol Myers Squibb Company) with doxorubicin, vinblastine, and dacarbazine (AVD) for adult and pediatric patients 12 years and older with previously untreated, Stage III or IV classical Hodgkin lymphoma (cHL).",
+   "via": "live"
+  },
+  {
+   "date": "2026-03-20",
+   "title": "FDA approves nivolumab with chemotherapy for previously untreated Hodgkin lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-chemotherapy-previously-untreated-hodgkin-lymphoma",
    "drugs": [
     {
      "generic": "nivolumab",
@@ -641,9 +1283,39 @@
    "via": "live"
   },
   {
+   "date": "2026-03-05",
+   "title": "FDA approves teclistamab in combination with daratumumab hyaluronidase-fihj for relapsed or refractory multiple myeloma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-teclistamab-combination-daratumumab-hyaluronidase-fihj-relapsed-or-refractory-multiple",
+   "drugs": [
+    {
+     "generic": "teclistamab",
+     "brand": "Tecvayli",
+     "sponsor": "Janssen Biotech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 5, 2026, the Food and Drug Administration approved teclistamab (Tecvayli, Janssen Biotech, Inc.) in combination with daratumumab hyaluronidase-fihj for adult patients with relapsed or refractory multiple myeloma who have received at least one prior line of therapy including a proteasome inhibitor and an immunomodulatory agent.",
+   "via": "live"
+  },
+  {
    "date": "2026-02-26",
    "title": "FDA grants accelerated approval to zongertinib for unresectable or metastatic non-squamous non-small cell lung cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-zongertinib-unresectable-or-metastatic-non-squamous-non-small-cell",
+   "drugs": [
+    {
+     "generic": "zongertinib",
+     "brand": "Hernexeos",
+     "sponsor": "Boehringer Ingelheim Pharmaceuticals, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On February 26, 2026, the Food and Drug Administration granted accelerated approval to zongertinib (Hernexeos, Boehringer Ingelheim Pharmaceuticals, Inc.), a kinase inhibitor, for an expanded indication for adults with unresectable or metastatic non-squamous non-small cell lung cancer (NSCLC) whose tumors have HER2 (ERBB2) tyrosine kinase domain (TKD) activating mutations, as detected by an FDA-authorized test.",
+   "via": "live"
+  },
+  {
+   "date": "2026-02-26",
+   "title": "FDA grants accelerated approval to zongertinib for unresectable or metastatic non-squamous non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-zongertinib-unresectable-or-metastatic-non-squamous-non-small-cell",
    "drugs": [
     {
      "generic": "zongertinib",
@@ -671,9 +1343,44 @@
    "via": "live"
   },
   {
+   "date": "2026-02-24",
+   "title": "FDA grants traditional approval to encorafenib for metastatic colorectal cancer with a BRAF V600E mutation",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-encorafenib-metastatic-colorectal-cancer-braf-v600e-mutation",
+   "drugs": [
+    {
+     "generic": "encorafenib",
+     "brand": "Braftovi",
+     "sponsor": "Array BioPharma Inc., a subsidiary of Pfizer Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 24, 2026, the Food and Drug Administration granted traditional approval to encorafenib (Braftovi, Array BioPharma Inc., a subsidiary of Pfizer Inc.) in combination with cetuximab and fluorouracil-based chemotherapy for the treatment of adult patients with metastatic colorectal cancer (CRC) with a BRAF V600E mutation, as detected by an FDA-authorized test.",
+   "via": "live"
+  },
+  {
    "date": "2026-02-19",
    "title": "FDA approves acalabrutinib with venetoclax for chronic lymphocytic leukemia or small lymphocytic lymphoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-acalabrutinib-venetoclax-chronic-lymphocytic-leukemia-or-small-lymphocytic-lymphoma",
+   "drugs": [
+    {
+     "generic": "acalabrutinib",
+     "brand": "Calquence",
+     "sponsor": "AstraZeneca"
+    },
+    {
+     "generic": "venetoclax",
+     "brand": "Venclexta",
+     "sponsor": "AbbVie Inc. and Genentech Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 19, 2026, the Food and Drug Administration approved acalabrutinib (Calquence, AstraZeneca) tablets and capsules in combination with venetoclax (Venclexta, AbbVie Inc. and Genentech Inc.) for adults with chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL).",
+   "via": "live"
+  },
+  {
+   "date": "2026-02-19",
+   "title": "FDA approves acalabrutinib with venetoclax for chronic lymphocytic leukemia or small lymphocytic lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-acalabrutinib-venetoclax-chronic-lymphocytic-leukemia-or-small-lymphocytic-lymphoma",
    "drugs": [
     {
      "generic": "acalabrutinib",
@@ -711,9 +1418,48 @@
    "via": "live"
   },
   {
+   "date": "2026-02-10",
+   "title": "FDA approves pembrolizumab with paclitaxel for platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-paclitaxel-platinum-resistant-epithelial-ovarian-fallopian-tube-or",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    },
+    {
+     "generic": "berahyaluronidase alfa-pmph",
+     "brand": "Keytruda Qlex",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 10, 2026, the Food and Drug Administration approved pembrolizumab (Keytruda, Merck) as well as pembrolizumab and berahyaluronidase alfa-pmph (Keytruda Qlex, Merck) in combination with paclitaxel, with or without bevacizumab, for adult patients with platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal carcinoma whose tumors express PD-L1 (CPS≥1) as determined by an FDA-authorized test, and who have received one or two prior systemic treatment regimens.",
+   "via": "live"
+  },
+  {
    "date": "2026-01-27",
    "title": "FDA approves daratumumab and hyaluronidase-fihj with bortezomib, lenalidomide, and dexamethasone for newly diagnosed multiple myeloma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-daratumumab-and-hyaluronidase-fihj-bortezomib-lenalidomide-and-dexamethasone-newly",
+   "drugs": [
+    {
+     "generic": "hyaluronidase-fihj",
+     "brand": "Darzalex Faspro",
+     "sponsor": "Janssen Biotech, Inc."
+    },
+    {
+     "generic": "dexamethasone",
+     "brand": "VRd"
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 27, 2026, the Food and Drug Administration approved daratumumab and hyaluronidase-fihj (Darzalex Faspro, Janssen Biotech, Inc.) in combination with bortezomib, lenalidomide, and dexamethasone (VRd) for adults with newly diagnosed multiple myeloma who are ineligible for autologous stem cell transplant (ASCT).",
+   "via": "live"
+  },
+  {
+   "date": "2026-01-27",
+   "title": "FDA approves daratumumab and hyaluronidase-fihj with bortezomib, lenalidomide, and dexamethasone for newly diagnosed multiple myeloma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-daratumumab-and-hyaluronidase-fihj-bortezomib-lenalidomide-and-dexamethasone-newly",
    "drugs": [
     {
      "generic": "hyaluronidase-fihj",
@@ -751,8 +1497,43 @@
   },
   {
    "date": "2025-12-17",
+   "title": "FDA approves amivantamab and hyaluronidase-lpuj for subcutaneous injection",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-amivantamab-and-hyaluronidase-lpuj-subcutaneous-injection",
+   "drugs": [
+    {
+     "generic": "hyaluronidase-lpuj",
+     "brand": "Rybrevant Faspro",
+     "sponsor": "Janssen Biotech, Inc."
+    },
+    {
+     "generic": "amivantamab",
+     "brand": "Rybrevant",
+     "sponsor": "Janssen Biotech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 17, 2025, the Food and Drug Administration approved amivantamab and hyaluronidase-lpuj (Rybrevant Faspro, Janssen Biotech, Inc.) for subcutaneous injection for adult patients across all indications approved for the intravenous formulation of amivantamab (Rybrevant, Janssen Biotech, Inc.).",
+   "via": "live"
+  },
+  {
+   "date": "2025-12-17",
    "title": "FDA grants regular approval to rucaparib for metastatic castration-resistant prostate cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-rucaparib-metastatic-castration-resistant-prostate-cancer",
+   "drugs": [
+    {
+     "generic": "rucaparib",
+     "brand": "Rubraca",
+     "sponsor": "pharmaand GmbH"
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 17, 2025, the Food and Drug Administration approved rucaparib (Rubraca, pharmaand GmbH) for adults with a deleterious BRCA mutation ( BRCA m) (germline and/or somatic)-associated metastatic castration-resistant prostate cancer (mCRPC) previously treated with an androgen receptor-directed therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2025-12-17",
+   "title": "FDA grants regular approval to rucaparib for metastatic castration-resistant prostate cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-regular-approval-rucaparib-metastatic-castration-resistant-prostate-cancer",
    "drugs": [
     {
      "generic": "rucaparib",
@@ -795,9 +1576,39 @@
    "via": "live"
   },
   {
+   "date": "2025-12-12",
+   "title": "FDA approves niraparib and abiraterone acetate plus prednisone for BRCA2-mutated metastatic castration-sensitive prostate cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-niraparib-and-abiraterone-acetate-plus-prednisone-brca2-mutated-metastatic-castration",
+   "drugs": [
+    {
+     "generic": "abiraterone acetate",
+     "brand": "Akeega",
+     "sponsor": "Janssen Biotech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 12, 2025, the Food and Drug Administration approved niraparib and abiraterone acetate (Akeega, Janssen Biotech, Inc.) with prednisone for adults with deleterious or suspected deleterious BRCA2-mutated (BRCA2m) metastatic castration-sensitive prostate cancer (mCSPC), as determined by an FDA-approved test.",
+   "via": "live"
+  },
+  {
    "date": "2025-12-04",
    "title": "FDA approves lisocabtagene maraleucel for relapsed or refractory marginal zone lymphoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lisocabtagene-maraleucel-relapsed-or-refractory-marginal-zone-lymphoma",
+   "drugs": [
+    {
+     "generic": "lisocabtagene maraleucel",
+     "brand": "Breyanzi",
+     "sponsor": "Juno Therapeutics, Inc., a Bristol-Myers Squibb Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 4, 2025, the Food and Drug Administration approved lisocabtagene maraleucel (Breyanzi, Juno Therapeutics, Inc., a Bristol-Myers Squibb Company) for adults with relapsed or refractory marginal zone lymphoma (MZL) who have received at least two prior lines of systemic therapy",
+   "via": "live"
+  },
+  {
+   "date": "2025-12-04",
+   "title": "FDA approves lisocabtagene maraleucel for relapsed or refractory marginal zone lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-lisocabtagene-maraleucel-relapsed-or-refractory-marginal-zone-lymphoma",
    "drugs": [
     {
      "generic": "lisocabtagene maraleucel",
@@ -825,6 +1636,21 @@
    "via": "live"
   },
   {
+   "date": "2025-12-03",
+   "title": "FDA grants traditional approval to pirtobrutinib for chronic lymphocytic leukemia and small lymphocytic lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pirtobrutinib-chronic-lymphocytic-leukemia-and-small-lymphocytic",
+   "drugs": [
+    {
+     "generic": "pirtobrutinib",
+     "brand": "Jaypirca",
+     "sponsor": "Eli Lilly and Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 3, 2025, the Food and Drug Administration granted traditional approval to pirtobrutinib (Jaypirca, Eli Lilly and Company) for adults with relapsed or refractory chronic lymphocytic leukemia or small lymphocytic lymphoma (CLL/SLL) who have previously been treated with a covalent BTK inhibitor.",
+   "via": "live"
+  },
+  {
    "date": "2025-11-25",
    "title": "FDA approves durvalumab for resectable gastric or gastroesophageal junction adenocarcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-durvalumab-resectable-gastric-or-gastroesophageal-junction-adenocarcinoma",
@@ -840,9 +1666,49 @@
    "via": "live"
   },
   {
+   "date": "2025-11-25",
+   "title": "FDA approves durvalumab for resectable gastric or gastroesophageal junction adenocarcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-durvalumab-resectable-gastric-or-gastroesophageal-junction-adenocarcinoma",
+   "drugs": [
+    {
+     "generic": "durvalumab",
+     "brand": "Imfinzi",
+     "sponsor": "AstraZeneca"
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 25, 2025, the Food and Drug Administration approved durvalumab (Imfinzi, AstraZeneca) with fluorouracil, leucovorin, oxaliplatin, and docetaxel (FLOT) chemotherapy as neoadjuvant and adjuvant treatment, followed by single agent durvalumab, for adults with resectable gastric or gastroesophageal junction adenocarcinoma (GC/GEJC).",
+   "via": "live"
+  },
+  {
    "date": "2025-11-21",
    "title": "FDA approves pembrolizumab with enfortumab vedotin-ejfv for muscle invasive bladder cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-enfortumab-vedotin-ejfv-muscle-invasive-bladder-cancer",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    },
+    {
+     "generic": "berahyaluronidase alfa-pmph",
+     "brand": "Keytruda Qlex",
+     "sponsor": "Merck"
+    },
+    {
+     "generic": "enfortumab vedotin-ejfv",
+     "brand": "Padcev",
+     "sponsor": "Astellas Pharma"
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 21, 2025, the Food and Drug Administration approved pembrolizumab (Keytruda, Merck) or pembrolizumab and berahyaluronidase alfa-pmph (Keytruda Qlex, Merck) with enfortumab vedotin-ejfv (Padcev, Astellas Pharma) as neoadjuvant treatment followed by adjuvant treatment after cystectomy for adults with muscle invasive bladder cancer (MIBC) who are ineligible for cisplatin.",
+   "via": "live"
+  },
+  {
+   "date": "2025-11-21",
+   "title": "FDA approves pembrolizumab with enfortumab vedotin-ejfv for muscle invasive bladder cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-enfortumab-vedotin-ejfv-muscle-invasive-bladder-cancer",
    "drugs": [
     {
      "generic": "pembrolizumab",
@@ -881,8 +1747,38 @@
   },
   {
    "date": "2025-11-19",
+   "title": "FDA approves selumetinib for adults with neurofibromatosis type 1 with symptomatic, inoperable plexiform neurofibromas",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-selumetinib-adults-neurofibromatosis-type-1-symptomatic-inoperable-plexiform",
+   "drugs": [
+    {
+     "generic": "selumetinib",
+     "brand": "KOSELUGO",
+     "sponsor": "AstraZeneca Pharmaceuticals LP"
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 19, 2025, the Food and Drug Administration approved selumetinib (KOSELUGO, AstraZeneca Pharmaceuticals LP) for adults with neurofibromatosis type 1 (NF1) who have symptomatic, inoperable plexiform neurofibromas (PN).",
+   "via": "live"
+  },
+  {
+   "date": "2025-11-19",
    "title": "FDA grants accelerated approval to sevabertinib for non-squamous non-small cell lung cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sevabertinib-non-squamous-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "sevabertinib",
+     "brand": "Hyrnuo",
+     "sponsor": "Bayer HealthCare Pharmaceuticals Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On November 19, 2025, the Food and Drug Administration granted accelerated approval to sevabertinib (Hyrnuo, Bayer HealthCare Pharmaceuticals Inc.), a kinase inhibitor, for adults with locally advanced or metastatic, non-squamous non-small cell lung cancer (NSCLC) whose tumors have HER2 ( ERBB2 ) tyrosine kinase domain (TKD) activating mutations, as detected by an FDA-approved test, and who have received a prior systemic therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2025-11-19",
+   "title": "FDA grants accelerated approval to sevabertinib for non-squamous non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-sevabertinib-non-squamous-non-small-cell-lung-cancer",
    "drugs": [
     {
      "generic": "sevabertinib",
@@ -915,8 +1811,42 @@
   },
   {
    "date": "2025-11-19",
+   "title": "FDA grants traditional approval to daratumumab and hyaluronidase-fihj for newly diagnosed light chain amyloidosis",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-daratumumab-and-hyaluronidase-fihj-newly-diagnosed-light-chain",
+   "drugs": [
+    {
+     "generic": "hyaluronidase-fihj",
+     "brand": "Darzalex Faspro",
+     "sponsor": "Janssen Biotech Inc."
+    },
+    {
+     "generic": "dexamethasone",
+     "brand": "VCd"
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 19, 2025, the Food and Drug Administration granted traditional approval to daratumumab and hyaluronidase-fihj (Darzalex Faspro, Janssen Biotech Inc.) with bortezomib, cyclophosphamide, and dexamethasone (VCd) for newly diagnosed light chain (AL) amyloidosis.",
+   "via": "live"
+  },
+  {
+   "date": "2025-11-19",
    "title": "FDA grants traditional approval to tarlatamab-dlle for extensive stage small cell lung cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "tarlatamab-dlle",
+     "brand": "Imdelltra",
+     "sponsor": "Amgen Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 19, 2025, the Food and Drug Administration granted traditional approval to tarlatamab-dlle (Imdelltra, Amgen Inc.) for adults with extensive stage small cell lung cancer (ES-SCLC) with disease progression on or after platinum-based chemotherapy.",
+   "via": "live"
+  },
+  {
+   "date": "2025-11-19",
+   "title": "FDA grants traditional approval to tarlatamab-dlle for extensive stage small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer",
    "drugs": [
     {
      "generic": "tarlatamab-dlle",
@@ -932,6 +1862,21 @@
    "date": "2025-11-18",
    "title": "FDA approves epcoritamab-bysp for follicular lymphoma indications",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-epcoritamab-bysp-follicular-lymphoma-indications",
+   "drugs": [
+    {
+     "generic": "epcoritamab-bysp",
+     "brand": "Epkinly",
+     "sponsor": "Genmab US, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 18, 2025, the Food and Drug Administration approved epcoritamab-bysp (Epkinly, Genmab US, Inc.) with lenalidomide and rituximab for relapsed or refractory follicular lymphoma (FL).",
+   "via": "live"
+  },
+  {
+   "date": "2025-11-18",
+   "title": "FDA approves epcoritamab-bysp for follicular lymphoma indications",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-epcoritamab-bysp-follicular-lymphoma-indications",
    "drugs": [
     {
      "generic": "epcoritamab-bysp",
@@ -965,8 +1910,43 @@
   },
   {
    "date": "2025-11-13",
+   "title": "FDA approves new interchangeable biosimilar to Perjeta",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-new-interchangeable-biosimilar-perjeta",
+   "drugs": [
+    {
+     "generic": "pertuzumab-dpzb",
+     "brand": "Poherdy",
+     "sponsor": "Shanghai Henlius Biologics Co. Ltd."
+    },
+    {
+     "generic": "pertuzumab",
+     "brand": "Perjeta",
+     "sponsor": "Genentech Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 13, 2025, the Food and Drug Administration approved Poherdy (pertuzumab-dpzb, Shanghai Henlius Biologics Co. Ltd.) as an interchangeable biosimilar to Perjeta (pertuzumab, Genentech Inc.).",
+   "via": "live"
+  },
+  {
+   "date": "2025-11-13",
    "title": "FDA approves ziftomenib for relapsed or refractory acute myeloid leukemia with a NPM1 mutation",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-ziftomenib-relapsed-or-refractory-acute-myeloid-leukemia-npm1-mutation",
+   "drugs": [
+    {
+     "generic": "ziftomenib",
+     "brand": "Komzifti",
+     "sponsor": "Kura Oncology, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 13, 2025, the Food and Drug Administration approved ziftomenib (Komzifti, Kura Oncology, Inc.), a menin inhibitor, for adults with relapsed or refractory acute myeloid leukemia (AML) with a susceptible nucleophosmin 1 ( NPM1 ) mutation who have no satisfactory alternative treatment options.",
+   "via": "live"
+  },
+  {
+   "date": "2025-11-13",
+   "title": "FDA approves ziftomenib for relapsed or refractory acute myeloid leukemia with a NPM1 mutation",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-ziftomenib-relapsed-or-refractory-acute-myeloid-leukemia-npm1-mutation",
    "drugs": [
     {
      "generic": "ziftomenib",
@@ -994,9 +1974,39 @@
    "via": "live"
   },
   {
+   "date": "2025-11-06",
+   "title": "FDA approves daratumumab and hyaluronidase-fihj for high-risk smoldering multiple myeloma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-daratumumab-and-hyaluronidase-fihj-high-risk-smoldering-multiple-myeloma",
+   "drugs": [
+    {
+     "generic": "hyaluronidase-fihj",
+     "brand": "Darzalex Faspro",
+     "sponsor": "Janssen Biotech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 6, 2025, the Food and Drug Administration approved daratumumab and hyaluronidase-fihj (Darzalex Faspro, Janssen Biotech, Inc.) for adults with high-risk smoldering multiple myeloma (SMM).",
+   "via": "live"
+  },
+  {
    "date": "2025-10-24",
    "title": "FDA approves revumenib for relapsed or refractory acute myeloid leukemia with a susceptible NPM1 mutation",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-revumenib-relapsed-or-refractory-acute-myeloid-leukemia-susceptible-npm1-mutation",
+   "drugs": [
+    {
+     "generic": "revumenib",
+     "brand": "Revuforj",
+     "sponsor": "Syndax Pharmaceuticals, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 24, 2025, the Food and Drug Administration approved revumenib (Revuforj, Syndax Pharmaceuticals, Inc.), a menin inhibitor, for relapsed or refractory acute myeloid leukemia with a susceptible nucleophosmin 1 ( NPM1 ) mutation in adult and pediatric patients 1 year and older who have no satisfactory alternative treatment options.",
+   "via": "live"
+  },
+  {
+   "date": "2025-10-24",
+   "title": "FDA approves revumenib for relapsed or refractory acute myeloid leukemia with a susceptible NPM1 mutation",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-myeloid-leukemia-susceptible-npm1-mutation",
    "drugs": [
     {
      "generic": "revumenib",
@@ -1024,9 +2034,39 @@
    "via": "live"
   },
   {
+   "date": "2025-10-23",
+   "title": "FDA approves belantamab mafodotin-blmf for relapsed or refractory multiple myeloma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-belantamab-mafodotin-blmf-relapsed-or-refractory-multiple-myeloma",
+   "drugs": [
+    {
+     "generic": "belantamab mafodotin-blmf",
+     "brand": "Blenrep",
+     "sponsor": "GlaxoSmithKline"
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 23, 2025, the Food and Drug Administration approved belantamab mafodotin-blmf (Blenrep, GlaxoSmithKline), a B-cell maturation antigen (BCMA)-directed antibody and microtubule inhibitor conjugate, with bortezomib and dexamethasone for adults with relapsed or refractory multiple myeloma who have received at least two prior lines of therapy, including a proteasome inhibitor and an immunomodulatory agent.",
+   "via": "live"
+  },
+  {
    "date": "2025-10-08",
    "title": "FDA approves cemiplimab-rwlc for adjuvant treatment of cutaneous squamous cell carcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-cemiplimab-rwlc-adjuvant-treatment-cutaneous-squamous-cell-carcinoma",
+   "drugs": [
+    {
+     "generic": "cemiplimab-rwlc",
+     "brand": "Libtayo",
+     "sponsor": "Regeneron Pharmaceuticals Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 8, 2025, the Food and Drug Administration approved cemiplimab-rwlc (Libtayo, Regeneron Pharmaceuticals Inc.) for the adjuvant treatment of adults with cutaneous squamous cell carcinoma (CSCC) at high risk of recurrence after surgery and radiation.",
+   "via": "live"
+  },
+  {
+   "date": "2025-10-08",
+   "title": "FDA approves cemiplimab-rwlc for adjuvant treatment of cutaneous squamous cell carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-cemiplimab-rwlc-adjuvant-treatment-cutaneous-squamous-cell-carcinoma",
    "drugs": [
     {
      "generic": "cemiplimab-rwlc",
@@ -1064,9 +2104,49 @@
    "via": "live"
   },
   {
+   "date": "2025-10-02",
+   "title": "FDA approves lurbinectedin in combination with atezolizumab or atezolizumab and hyaluronidase-tqjs for extensive-stage small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-lurbinectedin-combination-atezolizumab-or-atezolizumab-and-hyaluronidase-tqjs-extensive",
+   "drugs": [
+    {
+     "generic": "lurbinectedin",
+     "brand": "Zepzelca",
+     "sponsor": "Jazz Pharmaceuticals, Inc."
+    },
+    {
+     "generic": "atezolizumab",
+     "brand": "Tecentriq",
+     "sponsor": "Genentech Inc."
+    },
+    {
+     "generic": "hyaluronidase-tqjs",
+     "brand": "Tecentriq Hybreza",
+     "sponsor": "Genentech Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 2, 2025, the Food and Drug Administration approved lurbinectedin (Zepzelca, Jazz Pharmaceuticals, Inc.) in combination with atezolizumab (Tecentriq, Genentech Inc.) or atezolizumab and hyaluronidase-tqjs (Tecentriq Hybreza, Genentech Inc.) for the maintenance treatment of adult patients with extensive-stage small cell lung cancer (ES-SCLC) whose disease has not progressed after first-line induction therapy with atezolizumab or atezolizumab and hyaluronidase-tqjs, carboplatin, and etoposide.",
+   "via": "live"
+  },
+  {
    "date": "2025-09-25",
    "title": "FDA approves imlunestrant for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-imlunestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast",
+   "drugs": [
+    {
+     "generic": "imlunestrant",
+     "brand": "Inluriyo",
+     "sponsor": "Eli Lilly and Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 25, 2025, the Food and Drug Administration approved imlunestrant (Inluriyo, Eli Lilly and Company), an estrogen receptor antagonist, for adults with estrogen receptor (ER)-positive, human epidermal growth factor 2 (HER2)-negative, estrogen receptor-1 (ESR1)-mutated advanced or metastatic breast cancer with disease progression following at least one line of endocrine therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2025-09-25",
+   "title": "FDA approves imlunestrant for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-imlunestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast",
    "drugs": [
     {
      "generic": "imlunestrant",
@@ -1099,9 +2179,44 @@
    "via": "live"
   },
   {
+   "date": "2025-09-19",
+   "title": "FDA approves pembrolizumab and berahyaluronidase alfa-pmph for subcutaneous injection",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-and-berahyaluronidase-alfa-pmph-subcutaneous-injection",
+   "drugs": [
+    {
+     "generic": "berahyaluronidase alfa-pmph",
+     "brand": "Keytruda Qlex",
+     "sponsor": "Merck"
+    },
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 19, 2025, the Food and Drug Administration approved pembrolizumab and berahyaluronidase alfa-pmph (Keytruda Qlex, Merck) for subcutaneous injection for adult and pediatric (12 years and older) solid tumor indications approved for the intravenous formulation of pembrolizumab (Keytruda, Merck).",
+   "via": "live"
+  },
+  {
    "date": "2025-09-10",
    "title": "FDA approves selumetinib for pediatric patients 1 year of age and older with neurofibromatosis type 1 with symptomatic, inoperable plexiform neurofibromas",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-selumetinib-pediatric-patients-1-year-age-and-older-neurofibromatosis-type-1",
+   "drugs": [
+    {
+     "generic": "selumetinib",
+     "brand": "KOSELUGO",
+     "sponsor": "AstraZeneca Pharmaceuticals LP"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 10, 2025, the Food and Drug Administration approved selumetinib (KOSELUGO, AstraZeneca Pharmaceuticals LP) granules and capsules for pediatric patients 1 year of age and older with neurofibromatosis type 1 (NF1) who have symptomatic, inoperable plexiform neurofibromas (PN).",
+   "via": "live"
+  },
+  {
+   "date": "2025-09-10",
+   "title": "FDA approves selumetinib for pediatric patients 1 year of age and older with neurofibromatosis type 1 with symptomatic, inoperable plexiform neurofibromas",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-selumetinib-pediatric-patients-1-year-age-and-older-neurofibromatosis-type-1",
    "drugs": [
     {
      "generic": "selumetinib",
@@ -1129,6 +2244,21 @@
    "via": "live"
   },
   {
+   "date": "2025-09-09",
+   "title": "FDA approves gemcitabine intravesical system for non-muscle invasive bladder cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-gemcitabine-intravesical-system-non-muscle-invasive-bladder-cancer",
+   "drugs": [
+    {
+     "generic": "gemcitabine intravesical system",
+     "brand": "Inlexzo",
+     "sponsor": "Janssen Biotech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 9, 2025, the Food and Drug Administration approved gemcitabine intravesical system (Inlexzo, Janssen Biotech, Inc.) for adults with Bacillus Calmette-Guérin (BCG)-unresponsive non-muscle invasive bladder cancer (NMIBC) with carcinoma in situ (CIS) with or without papillary tumors.",
+   "via": "live"
+  },
+  {
    "date": "2025-08-08",
    "title": "FDA grants accelerated approval to zongertinib for non-squamous NSCLC with HER2 TKD activating mutations",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-zongertinib-non-squamous-nsclc-her2-tkd-activating-mutations",
@@ -1144,9 +2274,39 @@
    "via": "live"
   },
   {
+   "date": "2025-08-08",
+   "title": "FDA grants accelerated approval to zongertinib for non-squamous NSCLC with HER2 TKD activating mutations",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-zongertinib-non-squamous-nsclc-her2-tkd-activating-mutations",
+   "drugs": [
+    {
+     "generic": "zongertinib",
+     "brand": "Hernexeos",
+     "sponsor": "Boehringer Ingelheim Pharmaceuticals, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On August 8, 2025, the Food and Drug Administration granted accelerated approval to zongertinib (Hernexeos, Boehringer Ingelheim Pharmaceuticals, Inc.), a kinase inhibitor, for adults with unresectable or metastatic non-squamous non-small cell lung cancer (NSCLC) whose tumors have HER2 (ERBB2) tyrosine kinase domain (TKD) activating mutations, as detected by an FDA-approved test, and who have received prior systemic therapy.",
+   "via": "live"
+  },
+  {
    "date": "2025-08-06",
    "title": "FDA grants accelerated approval to dordaviprone for diffuse midline glioma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-dordaviprone-diffuse-midline-glioma",
+   "drugs": [
+    {
+     "generic": "dordaviprone",
+     "brand": "Modeyso",
+     "sponsor": "Jazz Pharmaceuticals, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On August 6, 2025, the Food and Drug Administration granted accelerated approval to dordaviprone (Modeyso, Jazz Pharmaceuticals, Inc.), a protease activator, for adult and pediatric patients 1 year of age and older with diffuse midline glioma harboring an H3 K27M mutation with progressive disease following prior therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2025-08-06",
+   "title": "FDA grants accelerated approval to dordaviprone for diffuse midline glioma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-dordaviprone-diffuse-midline-glioma",
    "drugs": [
     {
      "generic": "dordaviprone",
@@ -1175,8 +2335,36 @@
   },
   {
    "date": "2025-07-02",
+   "title": "FDA grants accelerated approval to linvoseltamab-gcpt for relapsed or refractory multiple myeloma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-linvoseltamab-gcpt-relapsed-or-refractory-multiple-myeloma",
+   "drugs": [
+    {
+     "generic": "linvoseltamab-gcpt",
+     "brand": "Lynozyfic",
+     "sponsor": "Regeneron Pharmaceuticals, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On July 2, 2025, the Food and Drug Administration granted accelerated approval to linvoseltamab-gcpt (Lynozyfic, Regeneron Pharmaceuticals, Inc.), a bispecific B-cell maturation antigen (BCMA)-directed CD3 T-cell engager, for adults with relapsed or refractory multiple myeloma who have received at least four prior lines of therapy, including a proteasome inhibitor (PI), an immunomodulatory agent (IMiD), and an anti-CD38 monoclonal antibody.",
+   "via": "live"
+  },
+  {
+   "date": "2025-07-02",
    "title": "FDA grants accelerated approval to sunvozertinib for metastatic non-small cell lung cancer with EGFR exon 20 insertion mutations",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sunvozertinib-metastatic-non-small-cell-lung-cancer-egfr-exon-20",
+   "drugs": [
+    {
+     "generic": "sunvozertinib"
+    }
+   ],
+   "accelerated": true,
+   "text": "On July 2, 2025, the Food and Drug Administration granted accelerated approval to sunvozertinib (Zegfrovy, Dizal (Jiangsu) Pharmaceutical Co., Ltd.) for adult patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) exon 20 insertion mutations, as detected by an FDA-approved test, whose disease has progressed on or after platinum-based chemotherapy.",
+   "via": "live"
+  },
+  {
+   "date": "2025-07-02",
+   "title": "FDA grants accelerated approval to sunvozertinib for metastatic non-small cell lung cancer with EGFR exon 20 insertion mutations",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-sunvozertinib-metastatic-non-small-cell-lung-cancer-egfr-exon-20",
    "drugs": [
     {
      "generic": "sunvozertinib"
@@ -1202,9 +2390,39 @@
    "via": "live"
   },
   {
+   "date": "2025-06-23",
+   "title": "FDA grants accelerated approval to datopotamab deruxtecan-dlnk for EGFR-mutated non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-datopotamab-deruxtecan-dlnk-egfr-mutated-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "datopotamab deruxtecan-dlnk",
+     "brand": "Datroway",
+     "sponsor": "Daiichi Sankyo, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On June 23, 2025, the Food and Drug Administration granted accelerated approval to datopotamab deruxtecan-dlnk (Datroway, Daiichi Sankyo, Inc.) for adults with locally advanced or metastatic epidermal growth factor receptor (EGFR)-mutated non-small cell lung cancer (NSCLC) who have received prior EGFR-directed therapy and platinum-based chemotherapy.",
+   "via": "live"
+  },
+  {
    "date": "2025-06-18",
    "title": "FDA approves tafasitamab-cxix for relapsed or refractory follicular lymphoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tafasitamab-cxix-relapsed-or-refractory-follicular-lymphoma",
+   "drugs": [
+    {
+     "generic": "tafasitamab-cxix",
+     "brand": "Monjuvi",
+     "sponsor": "Incyte Corporation"
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 18, 2025, the Food and Drug Administration approved tafasitamab-cxix (Monjuvi, Incyte Corporation) with lenalidomide and rituximab for adults with relapsed or refractory follicular lymphoma (FL).",
+   "via": "live"
+  },
+  {
+   "date": "2025-06-18",
+   "title": "FDA approves tafasitamab-cxix for relapsed or refractory follicular lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-tafasitamab-cxix-relapsed-or-refractory-follicular-lymphoma",
    "drugs": [
     {
      "generic": "tafasitamab-cxix",
@@ -1233,8 +2451,38 @@
   },
   {
    "date": "2025-06-12",
+   "title": "FDA approves mitomycin intravesical solution for recurrent low-grade intermediate-risk non-muscle invasive bladder cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-mitomycin-intravesical-solution-recurrent-low-grade-intermediate-risk-non-muscle",
+   "drugs": [
+    {
+     "generic": "mitomycin intravesical solution",
+     "brand": "Zusduri",
+     "sponsor": "UroGen Pharma"
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 12, 2025, the Food and Drug Administration approved mitomycin intravesical solution (Zusduri, UroGen Pharma) for adult patients with recurrent low-grade intermediate-risk non-muscle invasive bladder cancer (LG-IR-NMIBC).",
+   "via": "live"
+  },
+  {
+   "date": "2025-06-12",
    "title": "FDA approves neoadjuvant and adjuvant pembrolizumab for resectable locally advanced head and neck squamous cell carcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-neoadjuvant-and-adjuvant-pembrolizumab-resectable-locally-advanced-head-and-neck",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 12, 2025, the Food and Drug Administration approved pembrolizumab (Keytruda, Merck) for adults with resectable locally advanced head and neck squamous cell carcinoma (HNSCC) whose tumors express PD-L1 [Combined Positive Score (CPS) ≥1] as determined by an FDA-approved test, as a single agent as neoadjuvant treatment, continued as adjuvant treatment in combination with radiotherapy (RT) with or without cisplatin after surgery, and then as a single agent.",
+   "via": "live"
+  },
+  {
+   "date": "2025-06-12",
+   "title": "FDA approves neoadjuvant and adjuvant pembrolizumab for resectable locally advanced head and neck squamous cell carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-neoadjuvant-and-adjuvant-pembrolizumab-resectable-locally-advanced-head-and-neck",
    "drugs": [
     {
      "generic": "pembrolizumab",
@@ -1262,6 +2510,21 @@
    "via": "live"
   },
   {
+   "date": "2025-06-11",
+   "title": "FDA approves taletrectinib for ROS1-positive non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-taletrectinib-ros1-positive-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "taletrectinib",
+     "brand": "Ibtrozi",
+     "sponsor": "Nuvation Bio Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 11, 2025, the Food and Drug Administration approved taletrectinib (Ibtrozi, Nuvation Bio Inc.), a kinase inhibitor, for adults with locally advanced or metastatic ROS1-positive non-small cell lung cancer (NSCLC).",
+   "via": "live"
+  },
+  {
    "date": "2025-06-03",
    "title": "FDA approves darolutamide for metastatic castration-sensitive prostate cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-darolutamide-metastatic-castration-sensitive-prostate-cancer",
@@ -1277,9 +2540,39 @@
    "via": "live"
   },
   {
+   "date": "2025-06-03",
+   "title": "FDA approves darolutamide for metastatic castration-sensitive prostate cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-darolutamide-metastatic-castration-sensitive-prostate-cancer",
+   "drugs": [
+    {
+     "generic": "darolutamide",
+     "brand": "Nubeqa",
+     "sponsor": "Bayer Healthcare Pharmaceuticals Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 3, 2025, the Food and Drug Administration (FDA) approved darolutamide (Nubeqa, Bayer Healthcare Pharmaceuticals Inc.) for metastatic castration-sensitive prostate cancer (mCSPC).",
+   "via": "live"
+  },
+  {
    "date": "2025-05-15",
    "title": "FDA approves retifanlimab-dlwr with carboplatin and paclitaxel and as a single agent for squamous cell carcinoma of the anal canal",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-retifanlimab-dlwr-carboplatin-and-paclitaxel-and-single-agent-squamous-cell-carcinoma",
+   "drugs": [
+    {
+     "generic": "retifanlimab-dlwr",
+     "brand": "Zynyz",
+     "sponsor": "Incyte Corporation"
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 15, 2025, the Food and Drug Administration approved retifanlimab-dlwr (Zynyz, Incyte Corporation) with carboplatin and paclitaxel for the first-line treatment of adults with inoperable locally recurrent or metastatic squamous cell carcinoma of the anal canal (SCAC).",
+   "via": "live"
+  },
+  {
+   "date": "2025-05-15",
+   "title": "FDA approves retifanlimab-dlwr with carboplatin and paclitaxel and as a single agent for squamous cell carcinoma of the anal canal",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-retifanlimab-dlwr-carboplatin-and-paclitaxel-and-single-agent-squamous-cell-carcinoma",
    "drugs": [
     {
      "generic": "retifanlimab-dlwr",
@@ -1308,8 +2601,38 @@
   },
   {
    "date": "2025-05-14",
+   "title": "FDA approves belzutifan for pheochromocytoma or paraganglioma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-belzutifan-pheochromocytoma-or-paraganglioma",
+   "drugs": [
+    {
+     "generic": "belzutifan",
+     "brand": "Welireg",
+     "sponsor": "Merck & Co., Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 14, 2025, the Food and Drug Administration approved belzutifan (Welireg, Merck & Co., Inc.) for adult and pediatric patients 12 years and older with locally advanced, unresectable, or metastatic pheochromocytoma or paraganglioma (PPGL).",
+   "via": "live"
+  },
+  {
+   "date": "2025-05-14",
    "title": "FDA grants accelerated approval to telisotuzumab vedotin-tllv for NSCLC with high c-Met protein overexpression",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-telisotuzumab-vedotin-tllv-nsclc-high-c-met-protein-overexpression",
+   "drugs": [
+    {
+     "generic": "telisotuzumab vedotin-tllv",
+     "brand": "Emrelis",
+     "sponsor": "AbbVie Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On May 14, 2025, the Food and Drug Administration granted accelerated approval to telisotuzumab vedotin-tllv (Emrelis, AbbVie Inc.), a c-Met-directed antibody and microtubule inhibitor conjugate, for adults with locally advanced or metastatic, non-squamous non-small cell lung cancer (NSCLC) with high c-Met protein overexpression [≥50% of tumor cells with strong (3+) staining], as determined by an FDA-approved test, who have received a prior systemic therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2025-05-14",
+   "title": "FDA grants accelerated approval to telisotuzumab vedotin-tllv for NSCLC with high c-Met protein overexpression",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-telisotuzumab-vedotin-tllv-nsclc-high-c-met-protein-overexpression",
    "drugs": [
     {
      "generic": "telisotuzumab vedotin-tllv",
@@ -1337,6 +2660,21 @@
    "via": "live"
   },
   {
+   "date": "2025-05-08",
+   "title": "FDA grants accelerated approval to the combination of avutometinib and defactinib for KRAS-mutated recurrent low-grade serous ovarian cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-combination-avutometinib-and-defactinib-kras-mutated-recurrent-low",
+   "drugs": [
+    {
+     "generic": "defactinib",
+     "brand": "Avmapki Fakzynja Co-pack",
+     "sponsor": "Verastem, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On May 8, 2025, the Food and Drug Administration granted accelerated approval to the combination of avutometinib and defactinib (Avmapki Fakzynja Co-pack, Verastem, Inc.) for adult patients with KRAS-mutated recurrent low-grade serous ovarian cancer (LGSOC) who have received prior systemic therapy.",
+   "via": "live"
+  },
+  {
    "date": "2025-04-23",
    "title": "FDA approves penpulimab-kcqx for non-keratinizing nasopharyngeal carcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-penpulimab-kcqx-non-keratinizing-nasopharyngeal-carcinoma",
@@ -1352,9 +2690,44 @@
    "via": "live"
   },
   {
+   "date": "2025-04-23",
+   "title": "FDA approves penpulimab-kcqx for non-keratinizing nasopharyngeal carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-penpulimab-kcqx-non-keratinizing-nasopharyngeal-carcinoma",
+   "drugs": [
+    {
+     "generic": "penpulimab-kcqx",
+     "brand": "Akeso Biopharma Co.",
+     "sponsor": "Ltd."
+    }
+   ],
+   "accelerated": false,
+   "text": "On April 23, 2025, the Food and Drug Administration approved penpulimab-kcqx (Akeso Biopharma Co., Ltd.) with cisplatin or carboplatin and gemcitabine for the first-line treatment of adults with recurrent or metastatic non-keratinizing nasopharyngeal carcinoma (NPC).",
+   "via": "live"
+  },
+  {
    "date": "2025-04-11",
    "title": "FDA approves nivolumab with ipilimumab for unresectable or metastatic hepatocellular carcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-nivolumab-ipilimumab-unresectable-or-metastatic-hepatocellular-carcinoma",
+   "drugs": [
+    {
+     "generic": "nivolumab",
+     "brand": "Opdivo",
+     "sponsor": "Bristol Myers Squibb Company"
+    },
+    {
+     "generic": "ipilimumab",
+     "brand": "Yervoy",
+     "sponsor": "Bristol Myers Squibb Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On April 11, 2025, the Food and Drug Administration approved nivolumab (Opdivo, Bristol Myers Squibb Company) with ipilimumab (Yervoy, Bristol Myers Squibb Company) for the first-line treatment of adult patients with unresectable or metastatic hepatocellular carcinoma (HCC).",
+   "via": "live"
+  },
+  {
+   "date": "2025-04-11",
+   "title": "FDA approves nivolumab with ipilimumab for unresectable or metastatic hepatocellular carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-ipilimumab-unresectable-or-metastatic-hepatocellular-carcinoma",
    "drugs": [
     {
      "generic": "nivolumab",
@@ -1392,9 +2765,44 @@
    "via": "live"
   },
   {
+   "date": "2025-04-08",
+   "title": "FDA approves nivolumab with ipilimumab for unresectable or metastatic MSI-H or dMMR colorectal cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-ipilimumab-unresectable-or-metastatic-msi-h-or-dmmr-colorectal-cancer",
+   "drugs": [
+    {
+     "generic": "nivolumab",
+     "brand": "Opdivo",
+     "sponsor": "Bristol Myers Squibb Company"
+    },
+    {
+     "generic": "ipilimumab",
+     "brand": "Yervoy",
+     "sponsor": "Bristol Myers Squibb Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On April 8, 2025, the Food and Drug Administration approved nivolumab (Opdivo, Bristol Myers Squibb Company) with ipilimumab (Yervoy, Bristol Myers Squibb Company) for adult and pediatric patients 12 years of age and older with unresectable or metastatic microsatellite instability-high (MSI-H) or mismatch repair deficient (dMMR) colorectal cancer (CRC).",
+   "via": "live"
+  },
+  {
    "date": "2025-03-28",
    "title": "FDA approves durvalumab for muscle invasive bladder cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-durvalumab-muscle-invasive-bladder-cancer",
+   "drugs": [
+    {
+     "generic": "durvalumab",
+     "brand": "Imfinzi",
+     "sponsor": "AstraZeneca"
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 28, 2025, the Food and Drug Administration approved durvalumab (Imfinzi, AstraZeneca) with gemcitabine and cisplatin as neoadjuvant treatment, followed by single agent durvalumab as adjuvant treatment following radical cystectomy, for adults with muscle invasive bladder cancer (MIBC).",
+   "via": "live"
+  },
+  {
+   "date": "2025-03-28",
+   "title": "FDA approves durvalumab for muscle invasive bladder cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-durvalumab-muscle-invasive-bladder-cancer",
    "drugs": [
     {
      "generic": "durvalumab",
@@ -1422,9 +2830,39 @@
    "via": "live"
   },
   {
+   "date": "2025-03-28",
+   "title": "FDA expands Pluvicto’s metastatic castration-resistant prostate cancer indication",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-expands-pluvictos-metastatic-castration-resistant-prostate-cancer-indication",
+   "drugs": [
+    {
+     "generic": "lutetium Lu 177 vipivotide tetraxetan",
+     "brand": "Pluvicto",
+     "sponsor": "Novartis Pharmaceuticals Corporation"
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 28, 2025, the Food and Drug Administration expanded the indication for lutetium Lu 177 vipivotide tetraxetan (Pluvicto, Novartis Pharmaceuticals Corporation) to include adults with prostate-specific membrane antigen (PSMA)-positive metastatic castration-resistant prostate cancer (mCRPC) who have been treated with androgen receptor pathway inhibitor (ARPI) therapy and are considered appropriate to delay taxane-based chemotherapy.",
+   "via": "live"
+  },
+  {
    "date": "2025-03-26",
    "title": "FDA approves cabozantinib for adults and pediatric patients 12 years of age and older with pNET and epNET",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-cabozantinib-adults-and-pediatric-patients-12-years-age-and-older-pnet-and-epnet",
+   "drugs": [
+    {
+     "generic": "cabozantinib",
+     "brand": "Cabometyx",
+     "sponsor": "Exelixis, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 26, 2025, the Food and Drug Administration approved cabozantinib (Cabometyx, Exelixis, Inc.) for adult and pediatric patients 12 years of age and older with previously treated, unresectable, locally advanced or metastatic, well-differentiated pancreatic neuroendocrine tumors (pNET) and well-differentiated extra-pancreatic neuroendocrine tumors (epNET).",
+   "via": "live"
+  },
+  {
+   "date": "2025-03-26",
+   "title": "FDA approves cabozantinib for adults and pediatric patients 12 years of age and older with pNET and epNET",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-cabozantinib-adults-and-pediatric-patients-12-years-age-and-older-pnet-and-epnet",
    "drugs": [
     {
      "generic": "cabozantinib",
@@ -1452,9 +2890,39 @@
    "via": "live"
   },
   {
+   "date": "2025-03-19",
+   "title": "FDA approves pembrolizumab for HER2 positive gastric or gastroesophageal junction adenocarcinoma expressing PD-L1 (CPS ≥1)",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-her2-positive-gastric-or-gastroesophageal-junction-adenocarcinoma",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 19, 2025, the Food and Drug Administration granted traditional approval to pembrolizumab (Keytruda, Merck) with trastuzumab, fluoropyrimidine- and platinum-containing chemotherapy for the first-line treatment of adults with locally advanced unresectable or metastatic HER2-positive gastric or gastroesophageal junction (GEJ) adenocarcinoma whose tumors express PD-L1 (CPS ≥1).",
+   "via": "live"
+  },
+  {
    "date": "2025-02-14",
    "title": "FDA approves vimseltinib for symptomatic tenosynovial giant cell tumor",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-vimseltinib-symptomatic-tenosynovial-giant-cell-tumor",
+   "drugs": [
+    {
+     "generic": "vimseltinib",
+     "brand": "Romvimza",
+     "sponsor": "Deciphera Pharmaceuticals, LLC"
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 14, 2025, the Food and Drug Administration approved vimseltinib (Romvimza, Deciphera Pharmaceuticals, LLC), a kinase inhibitor, for adult patients with symptomatic tenosynovial giant cell tumor (TGCT) for which surgical resection will potentially cause worsening functional limitation or severe morbidity.",
+   "via": "live"
+  },
+  {
+   "date": "2025-02-14",
+   "title": "FDA approves vimseltinib for symptomatic tenosynovial giant cell tumor",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-vimseltinib-symptomatic-tenosynovial-giant-cell-tumor",
    "drugs": [
     {
      "generic": "vimseltinib",
@@ -1483,8 +2951,38 @@
   },
   {
    "date": "2025-02-11",
+   "title": "FDA approves brentuximab vedotin with lenalidomide and rituximab for relapsed or refractory large B-cell lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-brentuximab-vedotin-lenalidomide-and-rituximab-relapsed-or-refractory-large-b-cell",
+   "drugs": [
+    {
+     "generic": "brentuximab vedotin",
+     "brand": "Adcetris",
+     "sponsor": "Seagen Inc., a subsidiary of Pfizer"
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 11, 2025, the Food and Drug Administration approved brentuximab vedotin (Adcetris, Seagen Inc., a subsidiary of Pfizer) in combination with lenalidomide and a rituximab product for adult patients with relapsed or refractory large B-cell lymphoma (LBCL), including diffuse large B-cell lymphoma (DLBCL) not otherwise specified (NOS), DLBCL arising from indolent lymphoma, or high-grade B-cell lymphoma (HGBL), after two or more lines of systemic therapy who are ineligible for autologous hematopoietic stem cell transplantation (auto-HSCT) or CAR T-cell therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2025-02-11",
    "title": "FDA approves mirdametinib for adult and pediatric patients with neurofibromatosis type 1 who have symptomatic plexiform neurofibromas not amenable to complete resection",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-mirdametinib-adult-and-pediatric-patients-neurofibromatosis-type-1-who-have-symptomatic",
+   "drugs": [
+    {
+     "generic": "mirdametinib",
+     "brand": "Gomekli",
+     "sponsor": "SpringWorks Therapeutics, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 11, 2025, the Food and Drug Administration approved mirdametinib (Gomekli, SpringWorks Therapeutics, Inc.), a kinase inhibitor, for adult and pediatric patients 2 years of age and older with neurofibromatosis type 1 (NF1) who have symptomatic plexiform neurofibromas (PN) not amenable to complete resection.",
+   "via": "live"
+  },
+  {
+   "date": "2025-02-11",
+   "title": "FDA approves mirdametinib for adult and pediatric patients with neurofibromatosis type 1 who have symptomatic plexiform neurofibromas not amenable to complete resection",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-mirdametinib-adult-and-pediatric-patients-neurofibromatosis-type-1-who-have-symptomatic",
    "drugs": [
     {
      "generic": "mirdametinib",
@@ -1512,6 +3010,21 @@
    "via": "live"
   },
   {
+   "date": "2025-01-27",
+   "title": "FDA approves fam-trastuzumab deruxtecan-nxki for unresectable or metastatic HR-positive, HER2-low or HER2-ultralow breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-fam-trastuzumab-deruxtecan-nxki-unresectable-or-metastatic-hr-positive-her2-low-or-her2",
+   "drugs": [
+    {
+     "generic": "fam-trastuzumab deruxtecan-nxki",
+     "brand": "Enhertu",
+     "sponsor": "Daiichi Sankyo, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 27, 2025, the Food and Drug Administration approved fam-trastuzumab deruxtecan-nxki (Enhertu, Daiichi Sankyo, Inc.) for unresectable or metastatic hormone receptor (HR)-positive, HER2-low (IHC 1+ or IHC 2+/ISH-) or HER2-ultralow (IHC 0 with membrane staining) breast cancer, as determined by an FDA-approved test, that has progressed on one or more endocrine therapies in the metastatic setting.",
+   "via": "live"
+  },
+  {
    "date": "2025-01-21",
    "title": "FDA approves treosulfan with fludarabine as a preparative regimen for alloHSCT in adult and pediatric patients with AML or MDS",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-treosulfan-fludarabine-preparative-regimen-allohsct-adult-and-pediatric-patients-aml-or",
@@ -1527,9 +3040,39 @@
    "via": "live"
   },
   {
+   "date": "2025-01-21",
+   "title": "FDA approves treosulfan with fludarabine as a preparative regimen for alloHSCT in adult and pediatric patients with AML or MDS",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-treosulfan-fludarabine-preparative-regimen-allohsct-adult-and-pediatric-patients-aml-or",
+   "drugs": [
+    {
+     "generic": "treosulfan",
+     "brand": "Grafapex",
+     "sponsor": "medac GmbH"
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 21, 2025, the Food and Drug Administration approved treosulfan (Grafapex, medac GmbH), an alkylating agent, with fludarabine as a preparative regimen for allogeneic hematopoietic stem cell transplantation (alloHSCT) in adult and pediatric patients 1 year of age and older with acute myeloid leukemia (AML) or myelodysplastic syndrome (MDS).",
+   "via": "live"
+  },
+  {
    "date": "2025-01-17",
    "title": "FDA approves datopotamab deruxtecan-dlnk for unresectable or metastatic, HR-positive, HER2-negative breast cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-hr-positive-her2-negative-breast",
+   "drugs": [
+    {
+     "generic": "datopotamab deruxtecan-dlnk",
+     "brand": "Datroway",
+     "sponsor": "Daiichi Sankyo, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 17, 2025, the Food and Drug Administration approved datopotamab deruxtecan-dlnk (Datroway, Daiichi Sankyo, Inc.), a Trop-2-directed antibody and topoisomerase inhibitor conjugate, for adult patients with unresectable or metastatic, hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative (IHC 0, IHC1+ or IHC2+/ISH-) breast cancer who have received prior endocrine-based therapy and chemotherapy for unresectable or metastatic disease.",
+   "via": "live"
+  },
+  {
+   "date": "2025-01-17",
+   "title": "FDA approves datopotamab deruxtecan-dlnk for unresectable or metastatic, HR-positive, HER2-negative breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-hr-positive-her2-negative-breast",
    "drugs": [
     {
      "generic": "datopotamab deruxtecan-dlnk",
@@ -1558,8 +3101,43 @@
   },
   {
    "date": "2025-01-16",
+   "title": "FDA approves acalabrutinib with bendamustine and rituximab for previously untreated mantle cell lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-acalabrutinib-bendamustine-and-rituximab-previously-untreated-mantle-cell-lymphoma",
+   "drugs": [
+    {
+     "generic": "acalabrutinib",
+     "brand": "Calquence",
+     "sponsor": "AstraZeneca"
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 16, 2025, the Food and Drug Administration granted traditional approval to acalabrutinib (Calquence, AstraZeneca) with bendamustine and rituximab for adults with previously untreated mantle cell lymphoma (MCL) who are ineligible for autologous hematopoietic stem cell transplantation (HSCT).",
+   "via": "live"
+  },
+  {
+   "date": "2025-01-16",
    "title": "FDA approves sotorasib with panitumumab for KRAS G12C-mutated colorectal cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sotorasib-panitumumab-kras-g12c-mutated-colorectal-cancer",
+   "drugs": [
+    {
+     "generic": "sotorasib",
+     "brand": "Lumakras",
+     "sponsor": "Amgen Inc."
+    },
+    {
+     "generic": "panitumumab",
+     "brand": "Vectibix",
+     "sponsor": "Amgen Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 16, 2025, the Food and Drug Administration approved sotorasib (Lumakras, Amgen Inc.) with panitumumab (Vectibix, Amgen Inc.) for adult patients with KRAS G12C-mutated metastatic colorectal cancer (mCRC), as determined by an FDA-approved test, who have received prior fluoropyrimidine-, oxaliplatin-, and irinotecan-based chemotherapy.",
+   "via": "live"
+  },
+  {
+   "date": "2025-01-16",
+   "title": "FDA approves sotorasib with panitumumab for KRAS G12C-mutated colorectal cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-sotorasib-panitumumab-kras-g12c-mutated-colorectal-cancer",
    "drugs": [
     {
      "generic": "sotorasib",
@@ -1596,9 +3174,43 @@
    "via": "live"
   },
   {
+   "date": "2024-12-27",
+   "title": "FDA approves nivolumab and hyaluronidase-nvhy for subcutaneous injection",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-and-hyaluronidase-nvhy-subcutaneous-injection",
+   "drugs": [
+    {
+     "generic": "hyaluronidase-nvhy",
+     "brand": "Opdivo Qvantig",
+     "sponsor": "Bristol Myers Squibb Company"
+    },
+    {
+     "generic": "ipilimumab",
+     "brand": "Yervoy"
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 27, 2024, the Food and Drug Administration approved nivolumab and hyaluronidase-nvhy (Opdivo Qvantig, Bristol Myers Squibb Company) for subcutaneous injection across approved adult, solid tumor nivolumab (Opdivo, Bristol Myers Squibb Company) indications as monotherapy, monotherapy maintenance following completion of Opdivo plus Yervoy (ipilimumab) combination therapy, or in combination with chemotherapy or cabozantinib.",
+   "via": "live"
+  },
+  {
    "date": "2024-12-20",
    "title": "FDA grants accelerated approval to encorafenib with cetuximab and mFOLFOX6 for metastatic colorectal cancer with a BRAF V600E mutation",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-encorafenib-cetuximab-and-mfolfox6-metastatic-colorectal-cancer-braf",
+   "drugs": [
+    {
+     "generic": "encorafenib",
+     "brand": "Braftovi",
+     "sponsor": "Array BioPharma Inc., a subsidiary of Pfizer Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On December 20, 2024, the Food and Drug Administration granted accelerated approval to encorafenib (Braftovi, Array BioPharma Inc., a subsidiary of Pfizer Inc.) with cetuximab and mFOLFOX6 for patients with metastatic colorectal cancer (mCRC) with a BRAF V600E mutation, as detected by an FDA-approved test.",
+   "via": "live"
+  },
+  {
+   "date": "2024-12-20",
+   "title": "FDA grants accelerated approval to encorafenib with cetuximab and mFOLFOX6 for metastatic colorectal cancer with a BRAF V600E mutation",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-encorafenib-cetuximab-and-mfolfox6-metastatic-colorectal-cancer-braf",
    "drugs": [
     {
      "generic": "encorafenib",
@@ -1627,8 +3239,36 @@
   },
   {
    "date": "2024-12-18",
+   "title": "FDA approves ensartinib for ALK-positive locally advanced or metastatic non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-ensartinib-alk-positive-locally-advanced-or-metastatic-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "ensartinib",
+     "brand": "Ensacove",
+     "sponsor": "Xcovery Holdings, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 18, 2024, the Food and Drug Administration approved ensartinib (Ensacove, Xcovery Holdings, Inc.) for adult patients with anaplastic lymphoma kinase (ALK)-positive locally advanced or metastatic non-small cell lung cancer (NSCLC) who have not previously received an ALK-inhibitor.",
+   "via": "live"
+  },
+  {
+   "date": "2024-12-18",
    "title": "FDA approves remestemcel-L-rknd for steroid-refractory acute graft versus host disease in pediatric patients",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-remestemcel-l-rknd-steroid-refractory-acute-graft-versus-host-disease-pediatric",
+   "drugs": [
+    {
+     "generic": "remestemcel-l-rknd"
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 18, 2024, the Food and Drug Administration approved remestemcel-L-rknd (Ryoncil, Mesoblast, Inc.), an allogeneic bone marrow-derived mesenchymal stromal cell (MSC) therapy, for steroid-refractory acute graft versus host disease (SR-aGVHD) in pediatric patients 2 months of age and older.",
+   "via": "live"
+  },
+  {
+   "date": "2024-12-18",
+   "title": "FDA approves remestemcel-L-rknd for steroid-refractory acute graft versus host disease in pediatric patients",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-remestemcel-l-rknd-steroid-refractory-acute-graft-versus-host-disease-pediatric",
    "drugs": [
     {
      "generic": "remestemcel-l-rknd"
@@ -1642,6 +3282,21 @@
    "date": "2024-12-13",
    "title": "FDA approves cosibelimab-ipdl for metastatic or locally advanced cutaneous squamous cell carcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-cosibelimab-ipdl-metastatic-or-locally-advanced-cutaneous-squamous-cell-carcinoma",
+   "drugs": [
+    {
+     "generic": "cosibelimab-ipdl",
+     "brand": "Unloxcyt",
+     "sponsor": "Checkpoint Therapeutics, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 13, 2024, the Food and Drug Administration approved cosibelimab-ipdl (Unloxcyt, Checkpoint Therapeutics, Inc.), a programmed death ligand-1 (PD-L1) blocking antibody, for adults with metastatic cutaneous squamous cell carcinoma (mCSCC) or locally advanced CSCC (laCSCC) who are not candidates for curative surgery or curative radiation.",
+   "via": "live"
+  },
+  {
+   "date": "2024-12-13",
+   "title": "FDA approves cosibelimab-ipdl for metastatic or locally advanced cutaneous squamous cell carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-cosibelimab-ipdl-metastatic-or-locally-advanced-cutaneous-squamous-cell-carcinoma",
    "drugs": [
     {
      "generic": "cosibelimab-ipdl",
@@ -1670,8 +3325,38 @@
   },
   {
    "date": "2024-12-04",
+   "title": "FDA approves durvalumab for limited-stage small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-durvalumab-limited-stage-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "durvalumab",
+     "brand": "Imfinzi",
+     "sponsor": "AstraZeneca"
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 4, 2024, the Food and Drug Administration approved durvalumab (Imfinzi, AstraZeneca) for adults with limited-stage small cell lung cancer (LS-SCLC) whose disease has not progressed following concurrent platinum-based chemotherapy and radiation therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2024-12-04",
    "title": "FDA grants accelerated approval to zenocutuzumab-zbco for non-small cell lung cancer and pancreatic adenocarcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-zenocutuzumab-zbco-non-small-cell-lung-cancer-and-pancreatic",
+   "drugs": [
+    {
+     "generic": "zenocutuzumab-zbco",
+     "brand": "Bizengri",
+     "sponsor": "Merus N.V."
+    }
+   ],
+   "accelerated": true,
+   "text": "On December 4, 2024, the Food and Drug Administration granted accelerated approval to zenocutuzumab-zbco (Bizengri, Merus N.V.) for adults with the following: advanced, unresectable, or metastatic non-small cell lung cancer (NSCLC) harboring a neuregulin 1 (NRG1) gene fusion with disease progression on or after prior systemic therapy, or advanced, unresectable, or metastatic pancreatic adenocarcinoma harboring a NRG1 gene fusion with disease progression on or after prior systemic therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2024-12-04",
+   "title": "FDA grants accelerated approval to zenocutuzumab-zbco for non-small cell lung cancer and pancreatic adenocarcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-zenocutuzumab-zbco-non-small-cell-lung-cancer-and-pancreatic",
    "drugs": [
     {
      "generic": "zenocutuzumab-zbco",
@@ -1714,9 +3399,39 @@
    "via": "live"
   },
   {
+   "date": "2024-11-19",
+   "title": "FDA approves updated drug labeling for fludarabine phosphate under Project Renewal",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-updated-drug-labeling-fludarabine-phosphate-under-project-renewal",
+   "drugs": [
+    {
+     "generic": "fludarabine phosphate",
+     "brand": "Fludarabine Phosphate Injection",
+     "sponsor": "Sandoz"
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 19, 2024, the Food and Drug Administration approved updated drug labeling for fludarabine phosphate (Fludarabine Phosphate Injection, Sandoz) under Project Renewal, an Oncology Center of Excellence (OCE) initiative aimed at updating labeling information for certain older oncology drugs to ensure information is clinically meaningful and scientifically up to date.",
+   "via": "live"
+  },
+  {
    "date": "2024-11-15",
    "title": "FDA approves revumenib for relapsed or refractory acute leukemia with a KMT2A translocation",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
+   "drugs": [
+    {
+     "generic": "revumenib",
+     "brand": "Revuforj",
+     "sponsor": "Syndax Pharmaceuticals, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 15, 2024, the Food and Drug Administration approved revumenib (Revuforj, Syndax Pharmaceuticals, Inc.), a menin inhibitor, for relapsed or refractory acute leukemia with a lysine methyltransferase 2A gene (KMT2A) translocation in adult and pediatric patients 1 year and older.",
+   "via": "live"
+  },
+  {
+   "date": "2024-11-15",
+   "title": "FDA approves revumenib for relapsed or refractory acute leukemia with a KMT2A translocation",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-revumenib-relapsed-or-refractory-acute-leukemia-kmt2a-translocation",
    "drugs": [
     {
      "generic": "revumenib",
@@ -1744,9 +3459,39 @@
    "via": "live"
   },
   {
+   "date": "2024-11-08",
+   "title": "FDA approves obecabtagene autoleucel for adults with relapsed or refractory B-cell precursor acute lymphoblastic leukemia",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-obecabtagene-autoleucel-adults-relapsed-or-refractory-b-cell-precursor-acute",
+   "drugs": [
+    {
+     "generic": "obecabtagene autoleucel",
+     "brand": "Aucatzyl",
+     "sponsor": "Autolus Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 8, 2024, the Food and Drug Administration approved obecabtagene autoleucel (Aucatzyl, Autolus Inc.), a CD19-directed genetically modified autologous T cell immunotherapy, for adults with relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL).",
+   "via": "live"
+  },
+  {
    "date": "2024-10-29",
    "title": "FDA grants accelerated approval to asciminib for newly diagnosed chronic myeloid leukemia",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-asciminib-newly-diagnosed-chronic-myeloid-leukemia",
+   "drugs": [
+    {
+     "generic": "asciminib",
+     "brand": "Scemblix",
+     "sponsor": "Novartis AG"
+    }
+   ],
+   "accelerated": true,
+   "text": "On October 29, 2024, the Food and Drug Administration granted accelerated approval to asciminib (Scemblix, Novartis AG) for adult patients with newly diagnosed Philadelphia chromosome-positive chronic myeloid leukemia (Ph+ CML) in chronic phase (CP).",
+   "via": "live"
+  },
+  {
+   "date": "2024-10-29",
+   "title": "FDA grants accelerated approval to asciminib for newly diagnosed chronic myeloid leukemia",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-asciminib-newly-diagnosed-chronic-myeloid-leukemia",
    "drugs": [
     {
      "generic": "asciminib",
@@ -1789,9 +3534,39 @@
    "via": "live"
   },
   {
+   "date": "2024-10-10",
+   "title": "FDA approves inavolisib with palbociclib and fulvestrant for endocrine-resistant, PIK3CA-mutated, HR-positive, HER2-negative, advanced breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-inavolisib-palbociclib-and-fulvestrant-endocrine-resistant-pik3ca-mutated-hr-positive",
+   "drugs": [
+    {
+     "generic": "inavolisib",
+     "brand": "Itovebi",
+     "sponsor": "Genentech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 10, 2024, the Food and Drug Administration approved inavolisib (Itovebi, Genentech, Inc.) with palbociclib and fulvestrant for adults with endocrine-resistant, PIK3CA-mutated, hormone receptor (HR)-positive, human epidermal growth-factor receptor 2 (HER2)-negative, locally advanced or metastatic breast cancer, as detected by an FDA-approved test, following recurrence on or after completing adjuvant endocrine therapy.",
+   "via": "live"
+  },
+  {
    "date": "2024-10-03",
    "title": "FDA approves neoadjuvant/adjuvant nivolumab for resectable non-small cell lung cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-neoadjuvantadjuvant-nivolumab-resectable-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "nivolumab",
+     "brand": "Opdivo",
+     "sponsor": "Bristol Myers Squibb Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 3, 2024, the Food and Drug Administration approved nivolumab (Opdivo, Bristol Myers Squibb Company) with platinum-doublet chemotherapy as neoadjuvant treatment, followed by single-agent nivolumab after surgery as adjuvant treatment, for adults with resectable (tumors ≥ 4 cm and/or node positive) non-small cell lung cancer (NSCLC) and no known epidermal growth factor receptor (EGFR) mutations or anaplastic lymphoma kinase (ALK) rearrangements.",
+   "via": "live"
+  },
+  {
+   "date": "2024-10-03",
+   "title": "FDA approves neoadjuvant/adjuvant nivolumab for resectable non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-neoadjuvantadjuvant-nivolumab-resectable-non-small-cell-lung-cancer",
    "drugs": [
     {
      "generic": "nivolumab",
@@ -1819,9 +3594,39 @@
    "via": "live"
   },
   {
+   "date": "2024-09-27",
+   "title": "FDA approves selpercatinib for medullary thyroid cancer with a RET mutation",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-selpercatinib-medullary-thyroid-cancer-ret-mutation",
+   "drugs": [
+    {
+     "generic": "selpercatinib",
+     "brand": "Retevmo",
+     "sponsor": "Eli Lilly and Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 27, 2024, the Food and Drug Administration granted traditional approval to selpercatinib (Retevmo, Eli Lilly and Company) for adult and pediatric patients 2 years of age and older with advanced or metastatic medullary thyroid cancer (MTC) with a RET mutation, as detected by an FDA-approved test, who require systemic therapy.",
+   "via": "live"
+  },
+  {
    "date": "2024-09-25",
    "title": "FDA approves osimertinib for locally advanced, unresectable (stage III) non-small cell lung cancer following chemoradiation therapy",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-osimertinib-locally-advanced-unresectable-stage-iii-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "osimertinib",
+     "brand": "Tagrisso",
+     "sponsor": "AstraZeneca Pharmaceuticals"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 25, 2024, the Food and Drug Administration approved osimertinib (Tagrisso, AstraZeneca Pharmaceuticals) for adult patients with locally advanced, unresectable (stage III) non-small cell lung cancer (NSCLC) whose disease has not progressed during or following concurrent or sequential platinum-based chemoradiation therapy and whose tumors have EGFR exon 19 deletions or exon 21 L858R mutations, as detected by an FDA-approved test.",
+   "via": "live"
+  },
+  {
+   "date": "2024-09-25",
+   "title": "FDA approves osimertinib for locally advanced, unresectable (stage III) non-small cell lung cancer following chemoradiation therapy",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-osimertinib-locally-advanced-unresectable-stage-iii-non-small-cell-lung-cancer",
    "drugs": [
     {
      "generic": "osimertinib",
@@ -1849,9 +3654,39 @@
    "via": "live"
   },
   {
+   "date": "2024-09-20",
+   "title": "FDA approves isatuximab-irfc with bortezomib, lenalidomide, and dexamethasone for newly diagnosed multiple myeloma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-isatuximab-irfc-bortezomib-lenalidomide-and-dexamethasone-newly-diagnosed-multiple",
+   "drugs": [
+    {
+     "generic": "isatuximab-irfc",
+     "brand": "Sarclisa",
+     "sponsor": "Sanofi-Aventis U.S. LLC"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 20, 2024, the Food and Drug Administration approved isatuximab-irfc (Sarclisa, Sanofi-Aventis U.S. LLC) with bortezomib, lenalidomide, and dexamethasone for adults with newly diagnosed multiple myeloma who are not eligible for autologous stem cell transplant (ASCT).",
+   "via": "live"
+  },
+  {
    "date": "2024-09-19",
    "title": "FDA approves amivantamab-vmjw with carboplatin and pemetrexed for non-small cell lung cancer with EGFR exon 19 deletions or L858R mutations",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-amivantamab-vmjw-carboplatin-and-pemetrexed-non-small-cell-lung-cancer-egfr-exon-19",
+   "drugs": [
+    {
+     "generic": "amivantamab-vmjw",
+     "brand": "Rybrevant",
+     "sponsor": "Janssen Biotech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 19, 2024, the Food and Drug Administration approved amivantamab-vmjw (Rybrevant, Janssen Biotech, Inc.) with carboplatin and pemetrexed for adult patients with locally advanced or metastatic non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 L858R substitution mutations whose disease has progressed on or after treatment with an EGFR tyrosine kinase inhibitor.",
+   "via": "live"
+  },
+  {
+   "date": "2024-09-19",
+   "title": "FDA approves amivantamab-vmjw with carboplatin and pemetrexed for non-small cell lung cancer with EGFR exon 19 deletions or L858R mutations",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-amivantamab-vmjw-carboplatin-and-pemetrexed-non-small-cell-lung-cancer-egfr-exon-19",
    "drugs": [
     {
      "generic": "amivantamab-vmjw",
@@ -1895,8 +3730,38 @@
   },
   {
    "date": "2024-09-17",
+   "title": "FDA approves Kisqali with an aromatase inhibitor and Kisqali Femara Co-Pack for early high-risk breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-ribociclib-aromatase-inhibitor-and-ribociclib-and-letrozole-co-pack-early-high-risk",
+   "drugs": [
+    {
+     "generic": "ribociclib",
+     "brand": "Kisqali",
+     "sponsor": "Novartis Pharmaceuticals Corporation"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 17, 2024, the Food and Drug Administration approved ribociclib (Kisqali, Novartis Pharmaceuticals Corporation) with an aromatase inhibitor for the adjuvant treatment of adults with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative stage II and III early breast cancer at high risk of recurrence.",
+   "via": "live"
+  },
+  {
+   "date": "2024-09-17",
    "title": "FDA approves pembrolizumab with chemotherapy for unresectable advanced or metastatic malignant pleural mesothelioma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-chemotherapy-unresectable-advanced-or-metastatic-malignant-pleural",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 17, 2024, the Food and Drug Administration approved pembrolizumab (Keytruda, Merck) with pemetrexed and platinum chemotherapy as first-line treatment of unresectable advanced or metastatic malignant pleural mesothelioma (MPM).",
+   "via": "live"
+  },
+  {
+   "date": "2024-09-17",
+   "title": "FDA approves pembrolizumab with chemotherapy for unresectable advanced or metastatic malignant pleural mesothelioma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-chemotherapy-unresectable-advanced-or-metastatic-malignant-pleural",
    "drugs": [
     {
      "generic": "pembrolizumab",
@@ -1912,6 +3777,26 @@
    "date": "2024-09-12",
    "title": "FDA approves atezolizumab and hyaluronidase-tqjs for subcutaneous injection",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-and-hyaluronidase-tqjs-subcutaneous-injection",
+   "drugs": [
+    {
+     "generic": "hyaluronidase-tqjs",
+     "brand": "Tecentriq Hybreza",
+     "sponsor": "Genentech, Inc."
+    },
+    {
+     "generic": "atezolizumab",
+     "brand": "Tecentriq",
+     "sponsor": "Genentech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 12, 2024, the Food and Drug Administration approved atezolizumab and hyaluronidase-tqjs (Tecentriq Hybreza, Genentech, Inc.) for subcutaneous injection for all the adult indications as the intravenous formulation of atezolizumab (Tecentriq, Genentech, Inc.), including non-small cell lung cancer (NSCLC), small cell lung cancer (SCLC), hepatocellular carcinoma (HCC), melanoma, and alveolar soft part sarcoma (ASPS).",
+   "via": "live"
+  },
+  {
+   "date": "2024-09-12",
+   "title": "FDA approves atezolizumab and hyaluronidase-tqjs for subcutaneous injection",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-atezolizumab-and-hyaluronidase-tqjs-subcutaneous-injection",
    "drugs": [
     {
      "generic": "hyaluronidase-tqjs",
@@ -1949,9 +3834,44 @@
    "via": "live"
   },
   {
+   "date": "2024-08-19",
+   "title": "FDA approves lazertinib with amivantamab-vmjw for non-small lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-lazertinib-amivantamab-vmjw-non-small-lung-cancer",
+   "drugs": [
+    {
+     "generic": "lazertinib",
+     "brand": "Lazcluze",
+     "sponsor": "Janssen Biotech, Inc."
+    },
+    {
+     "generic": "amivantamab-vmjw",
+     "brand": "Rybrevant",
+     "sponsor": "Janssen Biotech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On August 19, 2024, the Food and Drug Administration approved lazertinib (Lazcluze, Janssen Biotech, Inc.) in combination with amivantamab-vmjw (Rybrevant, Janssen Biotech, Inc.) for the first-line treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) exon 19 deletions or exon 21 L858R substitution mutations, as detected by an FDA-approved test.",
+   "via": "live"
+  },
+  {
    "date": "2024-08-15",
    "title": "FDA approves neoadjuvant/adjuvant durvalumab for resectable non-small cell lung cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-neoadjuvantadjuvant-durvalumab-resectable-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "durvalumab",
+     "brand": "Imfinzi",
+     "sponsor": "AstraZeneca"
+    }
+   ],
+   "accelerated": false,
+   "text": "On August 15, 2024, the Food and Drug Administration approved durvalumab (Imfinzi, AstraZeneca) with platinum-containing chemotherapy as neoadjuvant treatment, followed by single-agent durvalumab as adjuvant treatment after surgery for adults with resectable (tumors ≥ 4 cm and/or node positive) non-small cell lung cancer (NSCLC) and no known epidermal growth factor receptor (EGFR) mutations or anaplastic lymphoma kinase (ALK) rearrangements.",
+   "via": "live"
+  },
+  {
+   "date": "2024-08-15",
+   "title": "FDA approves neoadjuvant/adjuvant durvalumab for resectable non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-neoadjuvantadjuvant-durvalumab-resectable-non-small-cell-lung-cancer",
    "drugs": [
     {
      "generic": "durvalumab",
@@ -1979,9 +3899,39 @@
    "via": "live"
   },
   {
+   "date": "2024-08-14",
+   "title": "FDA approves axatilimab-csfr for chronic graft-versus-host disease",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-axatilimab-csfr-chronic-graft-versus-host-disease",
+   "drugs": [
+    {
+     "generic": "axatilimab-csfr",
+     "brand": "Niktimvo",
+     "sponsor": "Incyte Corporation"
+    }
+   ],
+   "accelerated": false,
+   "text": "On August 14, 2024, the Food and Drug Administration approved axatilimab-csfr (Niktimvo, Incyte Corporation), a colony stimulating factor-1 receptor-blocking antibody, for the treatment of chronic graft-versus-host disease (cGVHD) after failure of at least two prior lines of systemic therapy in adult and pediatric patients weighing at least 40 kg.",
+   "via": "live"
+  },
+  {
    "date": "2024-08-06",
    "title": "FDA approves vorasidenib for Grade 2 astrocytoma or oligodendroglioma with a susceptible IDH1 or IDH2 mutation",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-vorasidenib-grade-2-astrocytoma-or-oligodendroglioma-susceptible-idh1-or-idh2-mutation",
+   "drugs": [
+    {
+     "generic": "vorasidenib",
+     "brand": "Voranigo",
+     "sponsor": "Servier Pharmaceuticals LLC"
+    }
+   ],
+   "accelerated": false,
+   "text": "On August 6, 2024, the Food and Drug Administration approved vorasidenib (Voranigo, Servier Pharmaceuticals LLC), an isocitrate dehydrogenase-1 (IDH1) and isocitrate dehydrogenase-2 (IDH2) inhibitor, for adult and pediatric patients 12 years and older with Grade 2 astrocytoma or oligodendroglioma with a susceptible IDH1 or IDH2 mutation, following surgery including biopsy, sub-total resection, or gross total resection.",
+   "via": "live"
+  },
+  {
+   "date": "2024-08-06",
+   "title": "FDA approves vorasidenib for Grade 2 astrocytoma or oligodendroglioma with a susceptible IDH1 or IDH2 mutation",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-vorasidenib-grade-2-astrocytoma-or-oligodendroglioma-susceptible-idh1-or-idh2-mutation",
    "drugs": [
     {
      "generic": "vorasidenib",
@@ -2009,9 +3959,39 @@
    "via": "live"
   },
   {
+   "date": "2024-08-02",
+   "title": "FDA grants accelerated approval to afamitresgene autoleucel for unresectable or metastatic synovial sarcoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-afamitresgene-autoleucel-unresectable-or-metastatic-synovial-sarcoma",
+   "drugs": [
+    {
+     "generic": "afamitresgene autoleucel",
+     "brand": "TECELRA",
+     "sponsor": "Adaptimmune, LLC"
+    }
+   ],
+   "accelerated": true,
+   "text": "On August 2, 2024, the Food and Drug Administration granted accelerated approval to afamitresgene autoleucel (TECELRA, Adaptimmune, LLC), a melanoma-associated antigen A4 (MAGE-A4)-directed genetically modified autologous T cell immunotherapy, for adults with unresectable or metastatic synovial sarcoma who have received prior chemotherapy, are HLA-A*02:01P, -A*02:02P, -A*02:03P, or -A*02:06P positive and whose tumor expresses the MAGE-A4 antigen as determined by FDA-approved or cleared companion diagnostic devices.",
+   "via": "live"
+  },
+  {
    "date": "2024-08-01",
    "title": "FDA expands endometrial cancer indication for dostarlimab-gxly with chemotherapy",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-expands-endometrial-cancer-indication-dostarlimab-gxly-chemotherapy",
+   "drugs": [
+    {
+     "generic": "dostarlimab-gxly",
+     "brand": "Jemperli",
+     "sponsor": "GSK"
+    }
+   ],
+   "accelerated": false,
+   "text": "On August 1, 2024, the Food and Drug Administration approved dostarlimab-gxly (Jemperli, GSK) with carboplatin and paclitaxel, followed by single-agent dostarlimab-gxly, for adult patients with primary advanced or recurrent endometrial cancer (EC).",
+   "via": "live"
+  },
+  {
+   "date": "2024-08-01",
+   "title": "FDA expands endometrial cancer indication for dostarlimab-gxly with chemotherapy",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-expands-endometrial-cancer-indication-dostarlimab-gxly-chemotherapy",
    "drugs": [
     {
      "generic": "dostarlimab-gxly",
@@ -2039,9 +4019,39 @@
    "via": "live"
   },
   {
+   "date": "2024-07-30",
+   "title": "FDA approves daratumumab and hyaluronidase-fihj with bortezomib, lenalidomide, and dexamethasone for multiple myeloma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-daratumumab-and-hyaluronidase-fihj-bortezomib-lenalidomide-and-dexamethasone-multiple",
+   "drugs": [
+    {
+     "generic": "hyaluronidase-fihj",
+     "brand": "Darzalex Faspro",
+     "sponsor": "Janssen Research & Development, LLC"
+    }
+   ],
+   "accelerated": false,
+   "text": "On July 30, 2024, the Food and Drug Administration approved daratumumab and hyaluronidase-fihj (Darzalex Faspro, Janssen Research & Development, LLC) in combination with bortezomib, lenalidomide, and dexamethasone for induction and consolidation in patients with newly diagnosed multiple myeloma who are eligible for autologous stem cell transplant (ASCT).",
+   "via": "live"
+  },
+  {
    "date": "2024-06-26",
    "title": "FDA grants accelerated approval to epcoritamab-bysp for relapsed or refractory follicular lymphoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-epcoritamab-bysp-relapsed-or-refractory-follicular-lymphoma",
+   "drugs": [
+    {
+     "generic": "epcoritamab-bysp",
+     "brand": "Epkinly",
+     "sponsor": "Genmab US, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On June 26, 2024, the Food and Drug Administration granted accelerated approval to epcoritamab-bysp (Epkinly, Genmab US, Inc.), a bispecific CD20-directed CD3 T-cell engager, for adult patients with relapsed or refractory follicular lymphoma (FL) after two or more lines of systemic therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2024-06-26",
+   "title": "FDA grants accelerated approval to epcoritamab-bysp for relapsed or refractory follicular lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-epcoritamab-bysp-relapsed-or-refractory-follicular-lymphoma",
    "drugs": [
     {
      "generic": "epcoritamab-bysp",
@@ -2069,9 +4079,39 @@
    "via": "live"
   },
   {
+   "date": "2024-06-21",
+   "title": "FDA grants accelerated approval to adagrasib with cetuximab for KRAS G12C-mutated colorectal cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-adagrasib-cetuximab-kras-g12c-mutated-colorectal-cancer",
+   "drugs": [
+    {
+     "generic": "adagrasib",
+     "brand": "Krazati; Mirati Therapeutics",
+     "sponsor": "Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On June 21, 2024, the Food and Drug Administration granted accelerated approval to adagrasib (Krazati; Mirati Therapeutics, Inc.) plus cetuximab for adults with KRAS G12C-mutated locally advanced or metastatic colorectal cancer (CRC), as determined by an FDA-approved test, who have received prior treatment with fluoropyrimidine-, oxaliplatin-, and irinotecan-based chemotherapy.",
+   "via": "live"
+  },
+  {
    "date": "2024-06-17",
    "title": "FDA approves pembrolizumab with chemotherapy for primary advanced or recurrent endometrial carcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-chemotherapy-primary-advanced-or-recurrent-endometrial-carcinoma",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 17, 2024, the Food and Drug Administration approved pembrolizumab (Keytruda, Merck) with carboplatin and paclitaxel, followed by single-agent pembrolizumab, for adult patients with primary advanced or recurrent endometrial carcinoma.",
+   "via": "live"
+  },
+  {
+   "date": "2024-06-17",
+   "title": "FDA approves pembrolizumab with chemotherapy for primary advanced or recurrent endometrial carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-chemotherapy-primary-advanced-or-recurrent-endometrial-carcinoma",
    "drugs": [
     {
      "generic": "pembrolizumab",
@@ -2100,8 +4140,38 @@
   },
   {
    "date": "2024-06-14",
+   "title": "FDA approves blinatumomab as consolidation for CD19-positive Philadelphia chromosome-negative B-cell precursor acute lymphoblastic leukemia",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-blinatumomab-consolidation-cd19-positive-philadelphia-chromosome-negative-b-cell",
+   "drugs": [
+    {
+     "generic": "blinatumomab",
+     "brand": "Blincyto",
+     "sponsor": "Amgen Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 14, 2024, the Food and Drug Administration approved blinatumomab (Blincyto, Amgen Inc.) for adult and pediatric patients one month and older with CD19-positive Philadelphia chromosome-negative B-cell precursor acute lymphoblastic leukemia (Ph-negative BCP ALL) in the consolidation phase of multiphase chemotherapy.",
+   "via": "live"
+  },
+  {
+   "date": "2024-06-14",
    "title": "FDA approves durvalumab with chemotherapy for mismatch repair deficient primary advanced or recurrent endometrial cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-durvalumab-chemotherapy-mismatch-repair-deficient-primary-advanced-or-recurrent",
+   "drugs": [
+    {
+     "generic": "durvalumab",
+     "brand": "Imfinzi",
+     "sponsor": "AstraZeneca UK Limited"
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 14, 2024, the Food and Drug Administration approved durvalumab (Imfinzi, AstraZeneca UK Limited) with carboplatin plus paclitaxel followed by single-agent durvalumab for adult patients with primary advanced or recurrent endometrial cancer that is mismatch repair deficient (dMMR).",
+   "via": "live"
+  },
+  {
+   "date": "2024-06-14",
+   "title": "FDA approves durvalumab with chemotherapy for mismatch repair deficient primary advanced or recurrent endometrial cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-durvalumab-chemotherapy-mismatch-repair-deficient-primary-advanced-or-recurrent",
    "drugs": [
     {
      "generic": "durvalumab",
@@ -2144,9 +4214,39 @@
    "via": "live"
   },
   {
+   "date": "2024-06-12",
+   "title": "FDA approves selpercatinib for RET fusion-positive thyroid cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-selpercatinib-ret-fusion-positive-thyroid-cancer",
+   "drugs": [
+    {
+     "generic": "selpercatinib",
+     "brand": "Retevmo",
+     "sponsor": "Eli Lilly and Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 12, 2024, the Food and Drug Administration granted traditional approval to selpercatinib (Retevmo, Eli Lilly and Company) for adult and pediatric patients 2 years of age and older with advanced or metastatic RET fusion-positive thyroid cancer who require systemic therapy and who are radioactive iodine-refractory (if radioactive iodine is appropriate).",
+   "via": "live"
+  },
+  {
    "date": "2024-06-06",
    "title": "FDA approves imetelstat for low- to intermediate-1 risk myelodysplastic syndromes with transfusion-dependent anemia",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-imetelstat-low-intermediate-1-risk-myelodysplastic-syndromes-transfusion-dependent",
+   "drugs": [
+    {
+     "generic": "imetelstat",
+     "brand": "Rytelo",
+     "sponsor": "Geron Corporation"
+    }
+   ],
+   "accelerated": false,
+   "text": "On June 6, 2024, the Food and Drug Administration approved imetelstat (Rytelo, Geron Corporation), an oligonucleotide telomerase inhibitor, for adults with low- to intermediate-1 risk myelodysplastic syndromes (MDS) with transfusion-dependent anemia requiring four or more red blood cell units over 8 weeks who have not responded to or have lost response to or are ineligible for erythropoiesis-stimulating agents (ESAs).",
+   "via": "live"
+  },
+  {
+   "date": "2024-06-06",
+   "title": "FDA approves imetelstat for low- to intermediate-1 risk myelodysplastic syndromes with transfusion-dependent anemia",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-imetelstat-low-intermediate-1-risk-myelodysplastic-syndromes-transfusion-dependent",
    "drugs": [
     {
      "generic": "imetelstat",
@@ -2174,9 +4274,39 @@
    "via": "live"
   },
   {
+   "date": "2024-05-30",
+   "title": "FDA approves lisocabtagene maraleucel for relapsed or refractory mantle cell lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-lisocabtagene-maraleucel-relapsed-or-refractory-mantle-cell-lymphoma",
+   "drugs": [
+    {
+     "generic": "lisocabtagene maraleucel",
+     "brand": "Breyanzi",
+     "sponsor": "Juno Therapeutics, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On May 30, 2024, the Food and Drug Administration approved lisocabtagene maraleucel (Breyanzi, Juno Therapeutics, Inc.) for adult patients with relapsed or refractory mantle cell lymphoma (MCL) who have received at least two prior lines of systemic therapy, including a Bruton tyrosine kinase inhibitor (BTKi).",
+   "via": "live"
+  },
+  {
    "date": "2024-05-29",
    "title": "FDA grants accelerated approval to selpercatinib for pediatric patients two years and older with RET-altered metastatic thyroid cancer or solid tumors",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-selpercatinib-pediatric-patients-two-years-and-older-ret-altered",
+   "drugs": [
+    {
+     "generic": "selpercatinib",
+     "brand": "Retevmo",
+     "sponsor": "Eli Lilly and Company"
+    }
+   ],
+   "accelerated": true,
+   "text": "On May 29, 2024, the Food and Drug Administration granted accelerated approval to selpercatinib (Retevmo, Eli Lilly and Company) for pediatric patients two years of age and older.",
+   "via": "live"
+  },
+  {
+   "date": "2024-05-29",
+   "title": "FDA grants accelerated approval to selpercatinib for pediatric patients two years and older with RET-altered metastatic thyroid cancer or solid tumors",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-selpercatinib-pediatric-patients-two-years-and-older-ret-altered",
    "drugs": [
     {
      "generic": "selpercatinib",
@@ -2219,6 +4349,21 @@
    "via": "live"
   },
   {
+   "date": "2024-05-15",
+   "title": "FDA grants accelerated approval to lisocabtagene maraleucel for follicular lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-lisocabtagene-maraleucel-follicular-lymphoma",
+   "drugs": [
+    {
+     "generic": "lisocabtagene maraleucel",
+     "brand": "Breyanzi",
+     "sponsor": "Juno Therapeutics, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On May 15, 2024, the Food and Drug Administration granted accelerated approval to lisocabtagene maraleucel (Breyanzi, Juno Therapeutics, Inc.) for adults with relapsed or refractory follicular lymphoma (FL) who have received two or more prior lines of systemic therapy.",
+   "via": "live"
+  },
+  {
    "date": "2024-04-29",
    "title": "FDA approves tisotumab vedotin-tftv for recurrent or metastatic cervical cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tisotumab-vedotin-tftv-recurrent-or-metastatic-cervical-cancer",
@@ -2234,9 +4379,39 @@
    "via": "live"
   },
   {
+   "date": "2024-04-29",
+   "title": "FDA approves tisotumab vedotin-tftv for recurrent or metastatic cervical cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-tisotumab-vedotin-tftv-recurrent-or-metastatic-cervical-cancer",
+   "drugs": [
+    {
+     "generic": "tisotumab vedotin-tftv",
+     "brand": "Tivdak",
+     "sponsor": "Seagen Inc. [now a part of Pfizer Inc.]"
+    }
+   ],
+   "accelerated": false,
+   "text": "On April 29, 2024, the Food and Drug Administration granted traditional approval to tisotumab vedotin-tftv (Tivdak, Seagen Inc. [now a part of Pfizer Inc.]) for recurrent or metastatic cervical cancer with disease progression on or after chemotherapy.",
+   "via": "live"
+  },
+  {
    "date": "2024-04-23",
    "title": "FDA approves lutetium Lu 177 dotatate for pediatric patients 12 years and older with GEP-NETS",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lutetium-lu-177-dotatate-pediatric-patients-12-years-and-older-gep-nets",
+   "drugs": [
+    {
+     "generic": "lutetium Lu 177 dotatate",
+     "brand": "Lutathera",
+     "sponsor": "Advanced Accelerator Applications USA, Inc., a Novartis company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On April 23, 2024, the Food and Drug Administration approved lutetium Lu 177 dotatate (Lutathera, Advanced Accelerator Applications USA, Inc., a Novartis company) for pediatric patients 12 years and older with somatostatin receptor (SSTR)-positive gastroenteropancreatic neuroendocrine tumors (GEP-NETs), including foregut, midgut, and hindgut neuroendocrine tumors.",
+   "via": "live"
+  },
+  {
+   "date": "2024-04-23",
+   "title": "FDA approves lutetium Lu 177 dotatate for pediatric patients 12 years and older with GEP-NETS",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-lutetium-lu-177-dotatate-pediatric-patients-12-years-and-older-gep-nets",
    "drugs": [
     {
      "generic": "lutetium Lu 177 dotatate",
@@ -2279,9 +4454,39 @@
    "via": "live"
   },
   {
+   "date": "2024-04-22",
+   "title": "FDA approves nogapendekin alfa inbakicept-pmln for BCG-unresponsive non-muscle invasive bladder cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-nogapendekin-alfa-inbakicept-pmln-bcg-unresponsive-non-muscle-invasive-bladder-cancer",
+   "drugs": [
+    {
+     "generic": "nogapendekin alfa inbakicept-pmln",
+     "brand": "Anktiva",
+     "sponsor": "Altor BioScience, LLC"
+    }
+   ],
+   "accelerated": false,
+   "text": "On April 22, 2024, the Food and Drug Administration approved nogapendekin alfa inbakicept-pmln (Anktiva, Altor BioScience, LLC) with Bacillus Calmette-Guérin (BCG) for adult patients with BCG-unresponsive non-muscle invasive bladder cancer (NMIBC) with carcinoma in situ (CIS) with or without papillary tumors.",
+   "via": "live"
+  },
+  {
    "date": "2024-04-18",
    "title": "FDA approves alectinib as adjuvant treatment for ALK-positive non-small cell lung cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-alectinib-adjuvant-treatment-alk-positive-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "alectinib",
+     "brand": "Alecensa",
+     "sponsor": "Genentech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On April 18, 2024, the Food and Drug Administration approved alectinib (Alecensa, Genentech, Inc.) for adjuvant treatment following tumor resection in patients with anaplastic lymphoma kinase (ALK)-positive non-small cell lung cancer (NSCLC), as detected by an FDA-approved test.",
+   "via": "live"
+  },
+  {
+   "date": "2024-04-18",
+   "title": "FDA approves alectinib as adjuvant treatment for ALK-positive non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-alectinib-adjuvant-treatment-alk-positive-non-small-cell-lung-cancer",
    "drugs": [
     {
      "generic": "alectinib",
@@ -2309,6 +4514,21 @@
    "via": "live"
   },
   {
+   "date": "2024-04-05",
+   "title": "FDA grants accelerated approval to fam-trastuzumab deruxtecan-nxki for unresectable or metastatic HER2-positive solid tumors",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-fam-trastuzumab-deruxtecan-nxki-unresectable-or-metastatic-her2",
+   "drugs": [
+    {
+     "generic": "fam-trastuzumab deruxtecan-nxki",
+     "brand": "Enhertu",
+     "sponsor": "Daiichi Sankyo, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On April 5, 2024, the Food and Drug Administration granted accelerated approval to fam-trastuzumab deruxtecan-nxki (Enhertu, Daiichi Sankyo, Inc.) for adult patients with unresectable or metastatic HER2-positive (IHC3+) solid tumors who have received prior systemic treatment and have no satisfactory alternative treatment options.",
+   "via": "live"
+  },
+  {
    "date": "2024-03-22",
    "title": "FDA approves mirvetuximab soravtansine-gynx for FRα positive, platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-mirvetuximab-soravtansine-gynx-fra-positive-platinum-resistant-epithelial-ovarian",
@@ -2324,9 +4544,33 @@
    "via": "live"
   },
   {
+   "date": "2024-03-22",
+   "title": "FDA approves mirvetuximab soravtansine-gynx for FRα positive, platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-mirvetuximab-soravtansine-gynx-fra-positive-platinum-resistant-epithelial-ovarian",
+   "drugs": [
+    {
+     "generic": "mirvetuximab soravtansine-gynx",
+     "brand": "Elahere",
+     "sponsor": "ImmunoGen, Inc. [now a part of AbbVie]"
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 22, 2024, the Food and Drug Administration approved mirvetuximab soravtansine-gynx (Elahere, ImmunoGen, Inc. [now a part of AbbVie]) for adult patients with FRα positive, platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal cancer, who have received one to three prior systemic treatment regimens.",
+   "via": "live"
+  },
+  {
    "date": "2024-03-21",
    "title": "FDA approves safety labeling changes regarding DPD deficiency for fluorouracil injection products",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-safety-labeling-changes-regarding-dpd-deficiency-fluorouracil-injection-products",
+   "drugs": [],
+   "accelerated": false,
+   "text": "On March 21, 2024, the Food and Drug Administration approved safety labeling changes for fluorouracil injection products.",
+   "via": "live"
+  },
+  {
+   "date": "2024-03-21",
+   "title": "FDA approves safety labeling changes regarding DPD deficiency for fluorouracil injection products",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-safety-labeling-changes-regarding-dpd-deficiency-fluorouracil-injection-products",
    "drugs": [],
    "accelerated": false,
    "text": "On March 21, 2024, the Food and Drug Administration approved safety labeling changes for fluorouracil injection products.",
@@ -2379,8 +4623,38 @@
   },
   {
    "date": "2024-03-06",
+   "title": "FDA approves inotuzumab ozogamicin for pediatric patients with acute lymphoblastic leukemia",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-inotuzumab-ozogamicin-pediatric-patients-acute-lymphoblastic-leukemia",
+   "drugs": [
+    {
+     "generic": "inotuzumab ozogamicin",
+     "brand": "Besponsa",
+     "sponsor": "Pfizer"
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 6, 2024, the Food and Drug Administration approved inotuzumab ozogamicin (Besponsa, Pfizer) for pediatric patients 1 year and older with relapsed or refractory CD22-positive B-cell precursor acute lymphoblastic leukemia (ALL).",
+   "via": "live"
+  },
+  {
+   "date": "2024-03-06",
    "title": "FDA approves nivolumab in combination with cisplatin and gemcitabine for unresectable or metastatic urothelial carcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-nivolumab-combination-cisplatin-and-gemcitabine-unresectable-or-metastatic-urothelial",
+   "drugs": [
+    {
+     "generic": "nivolumab",
+     "brand": "Opdivo",
+     "sponsor": "Bristol-Myers Squibb Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 6, 2024, the Food and Drug Administration approved nivolumab (Opdivo, Bristol-Myers Squibb Company) in combination with cisplatin and gemcitabine for first-line treatment of adult patients with unresectable or metastatic urothelial carcinoma (UC).",
+   "via": "live"
+  },
+  {
+   "date": "2024-03-06",
+   "title": "FDA approves nivolumab in combination with cisplatin and gemcitabine for unresectable or metastatic urothelial carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-combination-cisplatin-and-gemcitabine-unresectable-or-metastatic-urothelial",
    "drugs": [
     {
      "generic": "nivolumab",
@@ -2396,6 +4670,21 @@
    "date": "2024-03-01",
    "title": "FDA approves amivantamab-vmjw for EGFR exon 20 insertion-mutated non-small cell lung cancer indications",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-amivantamab-vmjw-egfr-exon-20-insertion-mutated-non-small-cell-lung-cancer-indications",
+   "drugs": [
+    {
+     "generic": "amivantamab-vmjw",
+     "brand": "Rybrevant",
+     "sponsor": "Janssen Biotech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 1, 2024, the Food and Drug Administration approved amivantamab-vmjw (Rybrevant, Janssen Biotech, Inc.) with carboplatin and pemetrexed for the first-line treatment of locally advanced or metastatic non-small cell lung cancer (NSCLC) with epidermal growth factor receptor (EGFR) exon 20 insertion mutations, as detected by an FDA-approved test.",
+   "via": "live"
+  },
+  {
+   "date": "2024-03-01",
+   "title": "FDA approves amivantamab-vmjw for EGFR exon 20 insertion-mutated non-small cell lung cancer indications",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-amivantamab-vmjw-egfr-exon-20-insertion-mutated-non-small-cell-lung-cancer-indications",
    "drugs": [
     {
      "generic": "amivantamab-vmjw",
@@ -2424,8 +4713,38 @@
   },
   {
    "date": "2024-02-16",
+   "title": "FDA approves osimertinib with chemotherapy for EGFR-mutated non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-osimertinib-chemotherapy-egfr-mutated-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "osimertinib",
+     "brand": "Tagrisso",
+     "sponsor": "AstraZeneca Pharmaceuticals LP"
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 16, 2024, the Food and Drug Administration approved osimertinib (Tagrisso, AstraZeneca Pharmaceuticals LP) with platinum-based chemotherapy for patients with locally advanced or metastatic non-small cell lung cancer (la/mNSCLC) whose tumors have EGFR exon 19 deletions or exon 21 L858R mutations, as detected by an FDA-approved test.",
+   "via": "live"
+  },
+  {
+   "date": "2024-02-16",
    "title": "FDA grants accelerated approval to lifileucel for unresectable or metastatic melanoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-lifileucel-unresectable-or-metastatic-melanoma",
+   "drugs": [
+    {
+     "generic": "lifileucel",
+     "brand": "Amtagvi",
+     "sponsor": "Iovance Biotherapeutics, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On February 16, 2024, the Food and Drug Administration granted accelerated approval to lifileucel (Amtagvi, Iovance Biotherapeutics, Inc.), a tumor-derived autologous T cell immunotherapy, for adult patients with unresectable or metastatic melanoma previously treated with a PD-1 blocking antibody, and if BRAF V600 positive, a BRAF inhibitor with or without a MEK inhibitor.",
+   "via": "live"
+  },
+  {
+   "date": "2024-02-16",
+   "title": "FDA grants accelerated approval to lifileucel for unresectable or metastatic melanoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-lifileucel-unresectable-or-metastatic-melanoma",
    "drugs": [
     {
      "generic": "lifileucel",
@@ -2453,9 +4772,39 @@
    "via": "live"
   },
   {
+   "date": "2024-02-15",
+   "title": "FDA approves tepotinib for metastatic non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-tepotinib-metastatic-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "tepotinib",
+     "brand": "Tepmetko",
+     "sponsor": "EMD Serono, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 15, 2024, the Food and Drug Administration granted traditional approval to tepotinib (Tepmetko, EMD Serono, Inc.) for adult patients with metastatic non-small cell lung cancer (NSCLC) harboring mesenchymal-epithelial transition (MET) exon 14 skipping alterations.",
+   "via": "live"
+  },
+  {
    "date": "2024-02-13",
    "title": "FDA approves irinotecan liposome for first-line treatment of metastatic pancreatic adenocarcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-irinotecan-liposome-first-line-treatment-metastatic-pancreatic-adenocarcinoma",
+   "drugs": [
+    {
+     "generic": "irinotecan liposome",
+     "brand": "Onivyde",
+     "sponsor": "Ipsen Biopharmaceuticals, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 13, 2024, the Food and Drug Administration approved irinotecan liposome (Onivyde, Ipsen Biopharmaceuticals, Inc.) with oxaliplatin, fluorouracil, and leucovorin, for the first-line treatment of metastatic pancreatic adenocarcinoma.",
+   "via": "live"
+  },
+  {
+   "date": "2024-02-13",
+   "title": "FDA approves irinotecan liposome for first-line treatment of metastatic pancreatic adenocarcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-irinotecan-liposome-first-line-treatment-metastatic-pancreatic-adenocarcinoma",
    "drugs": [
     {
      "generic": "irinotecan liposome",
@@ -2483,9 +4832,39 @@
    "via": "live"
   },
   {
+   "date": "2024-01-19",
+   "title": "FDA approves erdafitinib for locally advanced or metastatic urothelial carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-erdafitinib-locally-advanced-or-metastatic-urothelial-carcinoma",
+   "drugs": [
+    {
+     "generic": "erdafitinib",
+     "brand": "Balversa",
+     "sponsor": "Janssen Biotech"
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 19, 2024, the Food and Drug Administration approved erdafitinib (Balversa, Janssen Biotech) for adult patients with locally advanced or metastatic urothelial carcinoma (mUC) with susceptible FGFR3 genetic alterations, as determined by an FDA-approved companion diagnostic test, whose disease has progressed on or after at least one line of prior systemic therapy.",
+   "via": "live"
+  },
+  {
    "date": "2024-01-12",
    "title": "FDA approves pembrolizumab with chemoradiotherapy for FIGO 2014 Stage III-IVA cervical cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-chemoradiotherapy-figo-2014-stage-iii-iva-cervical-cancer",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 12, 2024, the Food and Drug Administration approved pembrolizumab (Keytruda, Merck) with chemoradiotherapy (CRT) for patients with FIGO 2014 Stage III-IVA cervical cancer.",
+   "via": "live"
+  },
+  {
+   "date": "2024-01-12",
+   "title": "FDA approves pembrolizumab with chemoradiotherapy for FIGO 2014 Stage III-IVA cervical cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-chemoradiotherapy-figo-2014-stage-iii-iva-cervical-cancer",
    "drugs": [
     {
      "generic": "pembrolizumab",
@@ -2518,9 +4897,44 @@
    "via": "live"
   },
   {
+   "date": "2023-12-15",
+   "title": "FDA approves enfortumab vedotin-ejfv with pembrolizumab for locally advanced or metastatic urothelial cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-enfortumab-vedotin-ejfv-pembrolizumab-locally-advanced-or-metastatic-urothelial-cancer",
+   "drugs": [
+    {
+     "generic": "enfortumab vedotin-ejfv",
+     "brand": "Padcev",
+     "sponsor": "Astellas Pharma"
+    },
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 15, 2023, the Food and Drug Administration (FDA) approved enfortumab vedotin-ejfv (Padcev, Astellas Pharma) in combination with pembrolizumab (Keytruda, Merck) for patients with locally advanced or metastatic urothelial cancer (la/mUC).",
+   "via": "live"
+  },
+  {
    "date": "2023-12-14",
    "title": "FDA approves belzutifan for advanced renal cell carcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-belzutifan-advanced-renal-cell-carcinoma",
+   "drugs": [
+    {
+     "generic": "belzutifan",
+     "brand": "Welireg",
+     "sponsor": "Merck & Co., Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 14, 2023, the Food and Drug Administration approved belzutifan (Welireg, Merck & Co., Inc.) for patients with advanced renal cell carcinoma (RCC) following a programmed death receptor-1 (PD-1) or programmed death-ligand 1 (PD-L1) inhibitor and a vascular endothelial growth factor tyrosine kinase inhibitor (VEGF-TKI).",
+   "via": "live"
+  },
+  {
+   "date": "2023-12-14",
+   "title": "FDA approves belzutifan for advanced renal cell carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-belzutifan-advanced-renal-cell-carcinoma",
    "drugs": [
     {
      "generic": "belzutifan",
@@ -2548,6 +4962,21 @@
    "via": "live"
   },
   {
+   "date": "2023-12-13",
+   "title": "FDA approves eflornithine for adult and pediatric patients with high-risk neuroblastoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-eflornithine-adult-and-pediatric-patients-high-risk-neuroblastoma",
+   "drugs": [
+    {
+     "generic": "eflornithine",
+     "brand": "IWILFIN",
+     "sponsor": "USWM, LLC"
+    }
+   ],
+   "accelerated": false,
+   "text": "On December 13, 2023, the Food and Drug Administration approved eflornithine (IWILFIN, USWM, LLC) to reduce the risk of relapse in adult and pediatric patients with high-risk neuroblastoma (HRNB) who have demonstrated at least a partial response to prior multiagent, multimodality therapy including anti-GD2 immunotherapy.",
+   "via": "live"
+  },
+  {
    "date": "2023-12-01",
    "title": "FDA grants accelerated approval to pirtobrutinib for chronic lymphocytic leukemia and small lymphocytic lymphoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-pirtobrutinib-chronic-lymphocytic-leukemia-and-small-lymphocytic",
@@ -2563,9 +4992,39 @@
    "via": "live"
   },
   {
+   "date": "2023-12-01",
+   "title": "FDA grants accelerated approval to pirtobrutinib for chronic lymphocytic leukemia and small lymphocytic lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-pirtobrutinib-chronic-lymphocytic-leukemia-and-small-lymphocytic",
+   "drugs": [
+    {
+     "generic": "pirtobrutinib",
+     "brand": "Jaypirca",
+     "sponsor": "Eli Lilly and Company"
+    }
+   ],
+   "accelerated": true,
+   "text": "On December 1, 2023, the Food and Drug Administration granted accelerated approval to pirtobrutinib (Jaypirca, Eli Lilly and Company) for adults with chronic lymphocytic leukemia or small lymphocytic lymphoma (CLL/SLL) who have received at least two prior lines of therapy, including a BTK inhibitor and a BCL-2 inhibitor.",
+   "via": "live"
+  },
+  {
    "date": "2023-11-27",
    "title": "FDA approves nirogacestat for desmoid tumors",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-nirogacestat-desmoid-tumors",
+   "drugs": [
+    {
+     "generic": "nirogacestat",
+     "brand": "OGSIVEO",
+     "sponsor": "SpringWorks Therapeutics, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 27, 2023, the Food and Drug Administration approved nirogacestat (OGSIVEO, SpringWorks Therapeutics, Inc.) for adult patients with progressing desmoid tumors who require systemic treatment.",
+   "via": "live"
+  },
+  {
+   "date": "2023-11-27",
+   "title": "FDA approves nirogacestat for desmoid tumors",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-nirogacestat-desmoid-tumors",
    "drugs": [
     {
      "generic": "nirogacestat",
@@ -2594,8 +5053,38 @@
   },
   {
    "date": "2023-11-16",
+   "title": "FDA approves capivasertib with fulvestrant for breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-capivasertib-fulvestrant-breast-cancer",
+   "drugs": [
+    {
+     "generic": "capivasertib",
+     "brand": "Truqap",
+     "sponsor": "AstraZeneca Pharmaceuticals"
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 16, 2023, the Food and Drug Administration approved capivasertib (Truqap, AstraZeneca Pharmaceuticals) with fulvestrant for adult patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative locally advanced or metastatic breast cancer with one or more PIK3CA/AKT1/PTEN-alterations, as detected by an FDA-approved test, following progression on at least one endocrine-based regimen in the metastatic setting or recurrence on or within 12 months of completing adjuvant therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2023-11-16",
    "title": "FDA approves enzalutamide for non-metastatic castration-sensitive prostate cancer with biochemical recurrence",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-enzalutamide-non-metastatic-castration-sensitive-prostate-cancer-biochemical-recurrence",
+   "drugs": [
+    {
+     "generic": "enzalutamide",
+     "brand": "Xtandi",
+     "sponsor": "Astellas Pharma US, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 16, 2023, the Food and Drug Administration approved enzalutamide (Xtandi, Astellas Pharma US, Inc.) for non-metastatic castration-sensitive prostate cancer (nmCSPC) with biochemical recurrence at high risk for metastasis (high-risk BCR).",
+   "via": "live"
+  },
+  {
+   "date": "2023-11-16",
+   "title": "FDA approves enzalutamide for non-metastatic castration-sensitive prostate cancer with biochemical recurrence",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-enzalutamide-non-metastatic-castration-sensitive-prostate-cancer-biochemical-recurrence",
    "drugs": [
     {
      "generic": "enzalutamide",
@@ -2623,9 +5112,39 @@
    "via": "live"
   },
   {
+   "date": "2023-11-16",
+   "title": "FDA approves pembrolizumab with chemotherapy for HER2-negative gastric or gastroesophageal junction adenocarcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-chemotherapy-her2-negative-gastric-or-gastroesophageal-junction",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 16, 2023, the Food and Drug Administration approved pembrolizumab (Keytruda, Merck) with fluoropyrimidine- and platinum-containing chemotherapy for the first-line treatment of adults with locally advanced unresectable or metastatic HER2-negative gastric or gastroesophageal junction (GEJ) adenocarcinoma.",
+   "via": "live"
+  },
+  {
    "date": "2023-11-15",
    "title": "FDA approves repotrectinib for ROS1-positive non-small cell lung cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-repotrectinib-ros1-positive-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "repotrectinib",
+     "brand": "Augtyro",
+     "sponsor": "Bristol-Myers Squibb Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 15, 2023, the Food and Drug Administration approved repotrectinib (Augtyro, Bristol-Myers Squibb Company) for locally advanced or metastatic ROS1-positive non-small cell lung cancer (NSCLC).",
+   "via": "live"
+  },
+  {
+   "date": "2023-11-15",
+   "title": "FDA approves repotrectinib for ROS1-positive non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-repotrectinib-ros1-positive-non-small-cell-lung-cancer",
    "drugs": [
     {
      "generic": "repotrectinib",
@@ -2653,9 +5172,39 @@
    "via": "live"
   },
   {
+   "date": "2023-11-08",
+   "title": "FDA approves fruquintinib in refractory metastatic colorectal cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-fruquintinib-refractory-metastatic-colorectal-cancer",
+   "drugs": [
+    {
+     "generic": "fruquintinib",
+     "brand": "Fruzaqla",
+     "sponsor": "Takeda Pharmaceuticals, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On November 8, 2023, the Food and Drug Administration approved fruquintinib (Fruzaqla, Takeda Pharmaceuticals, Inc.) for adult patients with metastatic colorectal cancer (mCRC) who received prior fluoropyrimidine-, oxaliplatin-, and irinotecan-based chemotherapy, an anti-VEGF therapy, and, if RAS wild-type and medically appropriate, an anti-EGFR therapy.",
+   "via": "live"
+  },
+  {
    "date": "2023-10-31",
    "title": "FDA approves pembrolizumab with chemotherapy for biliary tract cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-chemotherapy-biliary-tract-cancer",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 31, 2023, the Food and Drug Administration approved pembrolizumab (Keytruda, Merck) to be used with gemcitabine and cisplatin for locally advanced unresectable or metastatic biliary tract cancer (BTC).",
+   "via": "live"
+  },
+  {
+   "date": "2023-10-31",
+   "title": "FDA approves pembrolizumab with chemotherapy for biliary tract cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-chemotherapy-biliary-tract-cancer",
    "drugs": [
     {
      "generic": "pembrolizumab",
@@ -2683,9 +5232,39 @@
    "via": "live"
   },
   {
+   "date": "2023-10-27",
+   "title": "FDA approves toripalimab-tpzi for nasopharyngeal carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-toripalimab-tpzi-nasopharyngeal-carcinoma",
+   "drugs": [
+    {
+     "generic": "toripalimab-tpzi",
+     "brand": "LOQTORZ",
+     "sponsor": "Coherus BioSciences, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 27, 2023, the Food and Drug Administration approved toripalimab-tpzi (LOQTORZ, Coherus BioSciences, Inc.) with cisplatin and gemcitabine for the first-line treatment of adults with metastatic or recurrent, locally advanced nasopharyngeal carcinoma (NPC).",
+   "via": "live"
+  },
+  {
    "date": "2023-10-24",
    "title": "FDA approves ivosidenib for myelodysplastic syndromes",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-ivosidenib-myelodysplastic-syndromes",
+   "drugs": [
+    {
+     "generic": "ivosidenib",
+     "brand": "Tibsovo",
+     "sponsor": "Servier Pharmaceuticals LLC"
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 24, 2023, the Food and Drug Administration approved ivosidenib (Tibsovo, Servier Pharmaceuticals LLC) for adult patients with relapsed or refractory myelodysplastic syndromes (MDS) with a susceptible isocitrate dehydrogenase-1 (IDH1) mutation, as detected by an FDA-approved test.",
+   "via": "live"
+  },
+  {
+   "date": "2023-10-24",
+   "title": "FDA approves ivosidenib for myelodysplastic syndromes",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-ivosidenib-myelodysplastic-syndromes",
    "drugs": [
     {
      "generic": "ivosidenib",
@@ -2713,6 +5292,21 @@
    "via": "live"
   },
   {
+   "date": "2023-10-20",
+   "title": "FDA expands pediatric indication for entrectinib and approves new pellet formulation",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-expands-pediatric-indication-entrectinib-and-approves-new-pellet-formulation",
+   "drugs": [
+    {
+     "generic": "entrectinib",
+     "brand": "Rozlytrek",
+     "sponsor": "Genentech Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On October 20, 2023, the Food and Drug Administration granted accelerated approval to entrectinib (Rozlytrek, Genentech Inc.) for pediatric patients older than 1 month with solid tumors that have a neurotrophic tyrosine receptor kinase (NTRK) gene fusion without a known acquired resistance mutation, are metastatic or where surgical resection is likely to result in severe morbidity, and have progressed following treatment or have no satisfactory standard therapy.",
+   "via": "live"
+  },
+  {
    "date": "2023-10-16",
    "title": "FDA approves neoadjuvant/ adjuvant pembrolizumab for resectable non-small cell lung cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-neoadjuvant-adjuvant-pembrolizumab-resectable-non-small-cell-lung-cancer",
@@ -2728,9 +5322,39 @@
    "via": "live"
   },
   {
+   "date": "2023-10-16",
+   "title": "FDA approves neoadjuvant/ adjuvant pembrolizumab for resectable non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-neoadjuvant-adjuvant-pembrolizumab-resectable-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 16, 2023, the Food and Drug Administration approved pembrolizumab (Keytruda, Merck) with platinum-containing chemotherapy as neoadjuvant treatment, and with continuation of single-agent pembrolizumab as post-surgical adjuvant treatment for resectable (tumors ≥4 cm or node positive) non-small cell lung cancer (NSCLC).",
+   "via": "live"
+  },
+  {
    "date": "2023-10-13",
    "title": "FDA approves nivolumab for adjuvant treatment of Stage IIB/C melanoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-nivolumab-adjuvant-treatment-stage-iibc-melanoma",
+   "drugs": [
+    {
+     "generic": "nivolumab",
+     "brand": "Opdivo",
+     "sponsor": "Bristol-Myers Squibb Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 13, 2023, the Food and Drug Administration approved nivolumab (Opdivo, Bristol-Myers Squibb Company) for the adjuvant treatment of completely resected Stage IIB/C melanoma in patients 12 years and older.",
+   "via": "live"
+  },
+  {
+   "date": "2023-10-13",
+   "title": "FDA approves nivolumab for adjuvant treatment of Stage IIB/C melanoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-nivolumab-adjuvant-treatment-stage-iibc-melanoma",
    "drugs": [
     {
      "generic": "nivolumab",
@@ -2763,6 +5387,26 @@
    "via": "live"
   },
   {
+   "date": "2023-10-11",
+   "title": "FDA approves encorafenib with binimetinib for metastatic non-small cell lung cancer with a BRAF V600E mutation",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-encorafenib-binimetinib-metastatic-non-small-cell-lung-cancer-braf-v600e-mutation",
+   "drugs": [
+    {
+     "generic": "encorafenib",
+     "brand": "Braftovi",
+     "sponsor": "Array BioPharma Inc., a wholly owned subsidiary of Pfizer"
+    },
+    {
+     "generic": "binimetinib",
+     "brand": "Mektovi",
+     "sponsor": "Array BioPharma Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On October 11, 2023, the Food and Drug Administration approved encorafenib (Braftovi, Array BioPharma Inc., a wholly owned subsidiary of Pfizer) with binimetinib (Mektovi, Array BioPharma Inc.) for adult patients with metastatic non-small cell lung cancer (NSCLC) with a BRAF V600E mutation, as detected by an FDA-approved test.",
+   "via": "live"
+  },
+  {
    "date": "2023-09-26",
    "title": "FDA approves bosutinib for pediatric patients with chronic myelogenous leukemia",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-bosutinib-pediatric-patients-chronic-myelogenous-leukemia",
@@ -2778,9 +5422,39 @@
    "via": "live"
   },
   {
+   "date": "2023-09-26",
+   "title": "FDA approves bosutinib for pediatric patients with chronic myelogenous leukemia",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-bosutinib-pediatric-patients-chronic-myelogenous-leukemia",
+   "drugs": [
+    {
+     "generic": "bosutinib",
+     "brand": "Bosulif",
+     "sponsor": "Pfizer"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 26, 2023, the Food and Drug Administration approved bosutinib (Bosulif, Pfizer) for pediatric patients 1 year of age and older with chronic phase (CP) Ph+ chronic myelogenous leukemia (CML) that is newly diagnosed (ND) or resistant or intolerant (R/I) to prior therapy.",
+   "via": "live"
+  },
+  {
    "date": "2023-09-14",
    "title": "FDA approves new and updated indications for temozolomide under Project Renewal",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-new-and-updated-indications-temozolomide-under-project-renewal",
+   "drugs": [
+    {
+     "generic": "temozolomide",
+     "brand": "Temodar",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On September 14, 2023, the Food and Drug Administration (FDA) approved updated labeling for temozolomide (Temodar, Merck) under Project Renewal, an Oncology Center of Excellence (OCE) initiative aimed at updating labeling information for older oncology drugs to ensure information is clinically meaningful and scientifically up-to-date.",
+   "via": "live"
+  },
+  {
+   "date": "2023-09-14",
+   "title": "FDA approves new and updated indications for temozolomide under Project Renewal",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-new-and-updated-indications-temozolomide-under-project-renewal",
    "drugs": [
     {
      "generic": "temozolomide",
@@ -2809,8 +5483,38 @@
   },
   {
    "date": "2023-08-14",
+   "title": "FDA approves melphalan as a liver-directed treatment for uveal melanoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-melphalan-liver-directed-treatment-uveal-melanoma",
+   "drugs": [
+    {
+     "generic": "melphalan",
+     "brand": "HEPZATO",
+     "sponsor": "Delcath Systems, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On August 14, 2023, the Food and Drug Administration approved HEPZATO KIT (melphalan for Injection/Hepatic Delivery System) containing melphalan (HEPZATO, Delcath Systems, Inc.) as a liver-directed treatment for adult patients with uveal melanoma with unresectable hepatic metastases affecting less than 50% of the liver and no extrahepatic disease, or extrahepatic disease limited to the bone, lymph nodes, subcutaneous tissues, or lung that is amenable to resection or radiation.",
+   "via": "live"
+  },
+  {
+   "date": "2023-08-14",
    "title": "FDA grants accelerated approval to elranatamab-bcmm for multiple myeloma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-elranatamab-bcmm-multiple-myeloma",
+   "drugs": [
+    {
+     "generic": "elranatamab-bcmm",
+     "brand": "Elrexfio",
+     "sponsor": "Pfizer, Inc."
+    }
+   ],
+   "accelerated": true,
+   "text": "On August 14, 2023, the Food and Drug Administration granted accelerated approval to elranatamab-bcmm (Elrexfio, Pfizer, Inc.), a bispecific B-cell maturation antigen (BCMA)-directed CD3 T-cell engager, for adults with relapsed or refractory multiple myeloma who have received at least four prior lines of therapy, including a proteasome inhibitor, an immunomodulatory agent, and an anti-CD38 monoclonal antibody.",
+   "via": "live"
+  },
+  {
+   "date": "2023-08-14",
+   "title": "FDA grants accelerated approval to elranatamab-bcmm for multiple myeloma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-elranatamab-bcmm-multiple-myeloma",
    "drugs": [
     {
      "generic": "elranatamab-bcmm",
@@ -2826,6 +5530,21 @@
    "date": "2023-08-11",
    "title": "FDA approves niraparib and abiraterone acetate plus prednisone for BRCA-mutated metastatic castration-resistant prostate cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-niraparib-and-abiraterone-acetate-plus-prednisone-brca-mutated-metastatic-castration",
+   "drugs": [
+    {
+     "generic": "abiraterone acetate",
+     "brand": "Akeega",
+     "sponsor": "Janssen Biotech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On August 11, 2023, the Food and Drug Administration approved the fixed dose combination of niraparib and abiraterone acetate (Akeega, Janssen Biotech, Inc.), with prednisone, for adult patients with deleterious or suspected deleterious BRCA-mutated castration-resistant prostate cancer (mCRPC), as determined by an FDA-approved test.",
+   "via": "live"
+  },
+  {
+   "date": "2023-08-11",
+   "title": "FDA approves niraparib and abiraterone acetate plus prednisone for BRCA-mutated metastatic castration-resistant prostate cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-niraparib-and-abiraterone-acetate-plus-prednisone-brca-mutated-metastatic-castration",
    "drugs": [
     {
      "generic": "abiraterone acetate",
@@ -2988,6 +5707,21 @@
    "via": "live"
   },
   {
+   "date": "2023-04-19",
+   "title": "FDA approves polatuzumab vedotin-piiq for previously untreated diffuse large B-cell lymphoma, not otherwise specified, and high-grade B-cell lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-polatuzumab-vedotin-piiq-previously-untreated-diffuse-large-b-cell-lymphoma-not",
+   "drugs": [
+    {
+     "generic": "polatuzumab vedotin-piiq",
+     "brand": "Polivy",
+     "sponsor": "Genentech, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On April 19, 2023, the Food and Drug Administration approved polatuzumab vedotin-piiq (Polivy, Genentech, Inc.) with a rituximab product, cyclophosphamide, doxorubicin, and prednisone (R-CHP) for adult patients who have previously untreated diffuse large B-cell lymphoma (DLBCL), not otherwise specified (NOS), or high-grade B-cell lymphoma (HGBL) and who have an International Prognostic Index (IPI) score of 2 or greater.",
+   "via": "live"
+  },
+  {
    "date": "2023-04-17",
    "title": "FDA approves omidubicel to reduce time to neutrophil recovery and infection in patients with hematologic malignancies",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-omidubicel-reduce-time-neutrophil-recovery-and-infection-patients-hematologic",
@@ -3003,9 +5737,44 @@
    "via": "live"
   },
   {
+   "date": "2023-04-17",
+   "title": "FDA approves omidubicel to reduce time to neutrophil recovery and infection in patients with hematologic malignancies",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-omidubicel-reduce-time-neutrophil-recovery-and-infection-patients-hematologic",
+   "drugs": [
+    {
+     "generic": "omidubicel-onlv",
+     "brand": "Omisirge",
+     "sponsor": "Gamida Cell Ltd."
+    }
+   ],
+   "accelerated": false,
+   "text": "On April 17, 2023, the Food and Drug Administration approved omidubicel-onlv (Omisirge, Gamida Cell Ltd.) for use in adult and pediatric patients (12 years and older) with hematologic malignancies who are planned for umbilical cord blood transplantation following myeloablative conditioning to reduce the time to neutrophil recovery and the incidence of infection.",
+   "via": "live"
+  },
+  {
    "date": "2023-04-03",
    "title": "FDA grants accelerated approval to enfortumab vedotin-ejfv with pembrolizumab for locally advanced or metastatic urothelial carcinoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-enfortumab-vedotin-ejfv-pembrolizumab-locally-advanced-or-metastatic",
+   "drugs": [
+    {
+     "generic": "enfortumab vedotin-ejfv",
+     "brand": "Padcev",
+     "sponsor": "Astellas Pharma"
+    },
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": true,
+   "text": "On April 3, 2023, the Food and Drug Administration granted accelerated approval to enfortumab vedotin-ejfv (Padcev, Astellas Pharma) with pembrolizumab (Keytruda, Merck) for patients with locally advanced or metastatic urothelial carcinoma who are ineligible for cisplatin-containing chemotherapy.",
+   "via": "live"
+  },
+  {
+   "date": "2023-04-03",
+   "title": "FDA grants accelerated approval to enfortumab vedotin-ejfv with pembrolizumab for locally advanced or metastatic urothelial carcinoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-enfortumab-vedotin-ejfv-pembrolizumab-locally-advanced-or-metastatic",
    "drugs": [
     {
      "generic": "enfortumab vedotin-ejfv",
@@ -3058,9 +5827,44 @@
    "via": "live"
   },
   {
+   "date": "2023-03-16",
+   "title": "FDA approves dabrafenib with trametinib for pediatric patients with low-grade glioma with a BRAF V600E mutation",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-dabrafenib-trametinib-pediatric-patients-low-grade-glioma-braf-v600e-mutation",
+   "drugs": [
+    {
+     "generic": "dabrafenib",
+     "brand": "Tafinlar",
+     "sponsor": "Novartis"
+    },
+    {
+     "generic": "trametinib",
+     "brand": "Mekinist",
+     "sponsor": "Novartis"
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 16, 2023, the Food and Drug Administration approved dabrafenib (Tafinlar, Novartis) with trametinib (Mekinist, Novartis) for pediatric patients 1 year of age and older with low-grade glioma (LGG) with a BRAF V600E mutation who require systemic therapy.",
+   "via": "live"
+  },
+  {
    "date": "2023-03-03",
    "title": "FDA expands early breast cancer indication for abemaciclib with endocrine therapy",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-expands-early-breast-cancer-indication-abemaciclib-endocrine-therapy",
+   "drugs": [
+    {
+     "generic": "abemaciclib",
+     "brand": "Verzenio",
+     "sponsor": "Eli Lilly and Company"
+    }
+   ],
+   "accelerated": false,
+   "text": "On March 3, 2023, the Food and Drug Administration (FDA) approved abemaciclib (Verzenio, Eli Lilly and Company) with endocrine therapy (tamoxifen or an aromatase inhibitor) for the adjuvant treatment of adult patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative, node-positive, early breast cancer at high risk of recurrence.",
+   "via": "live"
+  },
+  {
+   "date": "2023-03-03",
+   "title": "FDA expands early breast cancer indication for abemaciclib with endocrine therapy",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-expands-early-breast-cancer-indication-abemaciclib-endocrine-therapy",
    "drugs": [
     {
      "generic": "abemaciclib",
@@ -3088,9 +5892,39 @@
    "via": "live"
   },
   {
+   "date": "2023-02-09",
+   "title": "FDA grants regular approval to dostarlimab-gxly for dMMR endometrial cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-regular-approval-dostarlimab-gxly-dmmr-endometrial-cancer",
+   "drugs": [
+    {
+     "generic": "dostarlimab-gxly",
+     "brand": "Jemperli",
+     "sponsor": "GlaxoSmithKline LLC"
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 9, 2023, the Food and Drug Administration (FDA) approved dostarlimab-gxly (Jemperli, GlaxoSmithKline LLC) for adult patients with mismatch repair deficient (dMMR) recurrent or advanced endometrial cancer, as determined by an FDA-approved test, that has progressed on or following a prior platinum-containing regimen in any setting and are not candidates for curative surgery or radiation.",
+   "via": "live"
+  },
+  {
    "date": "2023-02-03",
    "title": "FDA approves sacituzumab govitecan-hziy for HR-positive breast cancer",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-hr-positive-breast-cancer",
+   "drugs": [
+    {
+     "generic": "sacituzumab govitecan-hziy",
+     "brand": "Trodelvy",
+     "sponsor": "Gilead Sciences, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On February 3, 2023, the Food and Drug Administration (FDA) approved sacituzumab govitecan-hziy (Trodelvy, Gilead Sciences, Inc.) for unresectable locally advanced or metastatic hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative (IHC 0, IHC 1+ or IHC 2+/ISH-) breast cancer who have received endocrine-based therapy and at least two additional systemic therapies in the metastatic setting.",
+   "via": "live"
+  },
+  {
+   "date": "2023-02-03",
+   "title": "FDA approves sacituzumab govitecan-hziy for HR-positive breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-sacituzumab-govitecan-hziy-hr-positive-breast-cancer",
    "drugs": [
     {
      "generic": "sacituzumab govitecan-hziy",
@@ -3119,8 +5953,38 @@
   },
   {
    "date": "2023-01-27",
+   "title": "FDA approves elacestrant for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-elacestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast-cancer",
+   "drugs": [
+    {
+     "generic": "elacestrant",
+     "brand": "Orserdu",
+     "sponsor": "Stemline Therapeutics, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 27, 2023, the Food and Drug Administration (FDA) approved elacestrant (Orserdu, Stemline Therapeutics, Inc.) for postmenopausal women or adult men with ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer with disease progression following at least one line of endocrine therapy.",
+   "via": "live"
+  },
+  {
+   "date": "2023-01-27",
    "title": "FDA grants accelerated approval to pirtobrutinib for relapsed or refractory mantle cell lymphoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-pirtobrutinib-relapsed-or-refractory-mantle-cell-lymphoma",
+   "drugs": [
+    {
+     "generic": "pirtobrutinib",
+     "brand": "Jaypirca",
+     "sponsor": "Eli Lilly and Company"
+    }
+   ],
+   "accelerated": true,
+   "text": "On January 27, 2023, the Food and Drug Administration (FDA) granted accelerated approval to pirtobrutinib (Jaypirca, Eli Lilly and Company) for relapsed or refractory mantle cell lymphoma (MCL) after at least two lines of systemic therapy, including a BTK inhibitor.",
+   "via": "live"
+  },
+  {
+   "date": "2023-01-27",
+   "title": "FDA grants accelerated approval to pirtobrutinib for relapsed or refractory mantle cell lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-pirtobrutinib-relapsed-or-refractory-mantle-cell-lymphoma",
    "drugs": [
     {
      "generic": "pirtobrutinib",
@@ -3148,9 +6012,39 @@
    "via": "live"
   },
   {
+   "date": "2023-01-26",
+   "title": "FDA approves pembrolizumab as adjuvant treatment for non-small cell lung cancer",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-adjuvant-treatment-non-small-cell-lung-cancer",
+   "drugs": [
+    {
+     "generic": "pembrolizumab",
+     "brand": "Keytruda",
+     "sponsor": "Merck"
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 26, 2023, the Food and Drug Administration (FDA) approved pembrolizumab (Keytruda, Merck) for adjuvant treatment following resection and platinum-based chemotherapy for stage IB (T2a ≥4 cm), II, or IIIA non-small cell lung cancer (NSCLC).",
+   "via": "live"
+  },
+  {
    "date": "2023-01-19",
    "title": "FDA approves zanubrutinib for chronic lymphocytic leukemia or small lymphocytic lymphoma",
    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zanubrutinib-chronic-lymphocytic-leukemia-or-small-lymphocytic-lymphoma",
+   "drugs": [
+    {
+     "generic": "zanubrutinib",
+     "brand": "Brukinsa",
+     "sponsor": "BeiGene USA, Inc."
+    }
+   ],
+   "accelerated": false,
+   "text": "On January 19, 2023, the Food and Drug Administration (FDA) approved zanubrutinib (Brukinsa, BeiGene USA, Inc.) for chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL).",
+   "via": "live"
+  },
+  {
+   "date": "2023-01-19",
+   "title": "FDA approves zanubrutinib for chronic lymphocytic leukemia or small lymphocytic lymphoma",
+   "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-zanubrutinib-chronic-lymphocytic-leukemia-or-small-lymphocytic-lymphoma",
    "drugs": [
     {
      "generic": "zanubrutinib",

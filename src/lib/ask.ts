@@ -10,6 +10,7 @@
  * indexes); this module turns retrieved records into an answer.
  */
 import type { Kind } from "./kinds";
+import { normaliseName } from "./search-rank";
 import { fuseRanks, tokenize } from "./semantic";
 
 export type Passage = { text: string; field: string };
@@ -144,9 +145,44 @@ export function composeAnswer(question: string, records: AskRecord[], opts: Comp
   return { sentences: out, sources: used, confidence, note };
 }
 
-/** Merge lexical and concept-search hits into one ordered id list (reciprocal rank fusion), capped at `k`. */
-export function retrieveIds(lexical: Array<{ id: string }>, semantic: Array<{ id: string }>, k = 6): string[] {
-  return fuseRanks([lexical, semantic]).slice(0, k).map((h) => h.id);
+/** What retrieval needs to know about a record to tell whether a question names it: its kind, its name and its aliases (brand names included). */
+export type NamedLookup = (id: string) => { kind: string; names: string[] } | undefined;
+
+/** A NamedLookup over search documents (`aka`, one alias a line, brand included) or Ask index entries (`aliases`). */
+export function namedLookup(entries: Iterable<{ id: string; kind: string; name: string; aka?: string; aliases?: string[] }>): NamedLookup {
+  const m = new Map<string, { kind: string; names: string[] }>();
+  for (const e of entries) m.set(e.id, { kind: e.kind, names: [e.name, ...(e.aliases ?? []), ...(e.aka ? e.aka.split("\n") : [])] });
+  return (id) => m.get(id);
+}
+
+/** How far down the word-search list a named medicine is looked for. */
+const NAMED_DEPTH = 12;
+/** Shorter names are too often ordinary words or initials ("SG", "ADC") to count as the reader naming a medicine. */
+const NAMED_MIN = 4;
+
+/**
+ * Medicines in the word search's top 12 that the question names word for word, by name or alias (which carries the
+ * brand): "before starting an ADC such as Enhertu" names trastuzumab deruxtecan. Only medicines: a reader who types a
+ * brand means that product, whereas the name of a class or a concept ("inhibitor", "CAR-T") is also an ordinary word
+ * in a question and pinning it pushed better records out (measured on the Ask benchmark, 11 November 2026).
+ */
+export function namedDrugs(question: string, lexical: Array<{ id: string }>, lookup: NamedLookup): string[] {
+  const q = ` ${normaliseName(question)} `;
+  return lexical.slice(0, NAMED_DEPTH).map((h) => h.id).filter((id) => {
+    const r = lookup(id);
+    return r?.kind === "drug" && r.names.some((n) => { const x = normaliseName(n); return x.length >= NAMED_MIN && q.includes(` ${x} `); });
+  });
+}
+
+/**
+ * Merge lexical and concept-search hits into one ordered id list (reciprocal rank fusion), capped at `k`. With
+ * `named`, a medicine the question names (namedDrugs) comes first, so a reader who asks about Enhertu gets Enhertu's
+ * page even when near-ties in the two lists would have left it seventh.
+ */
+export function retrieveIds(lexical: Array<{ id: string }>, semantic: Array<{ id: string }>, k = 6, named?: { question: string; lookup: NamedLookup }): string[] {
+  const fused = fuseRanks([lexical, semantic]).map((h) => h.id);
+  if (!named) return fused.slice(0, k);
+  return [...new Set([...namedDrugs(named.question, lexical, named.lookup), ...fused])].slice(0, k);
 }
 
 /** Plain-text rendering with numbered citations, for the copy button, tests and the MCP tool. */

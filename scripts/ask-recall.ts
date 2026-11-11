@@ -4,7 +4,7 @@
  * browser's index build, Ask's word search fused with the concept search, top six.
  */
 import MiniSearch from "minisearch";
-import { answerText, composeAnswer, recordFromEntity, retrieveIds } from "@/lib/ask";
+import { answerText, composeAnswer, namedLookup, recordFromEntity, retrieveIds } from "@/lib/ask";
 import { benchmark, scoreAnswer } from "@/data/benchmark";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/kinds";
@@ -16,11 +16,13 @@ import { semanticDocs } from "@/lib/semantic-docs";
 
 const g = graph();
 const ms = new MiniSearch<SearchDoc>(SEARCH_INDEX_OPTIONS);
-ms.addAll(searchDocs());
+const docs = searchDocs();
+ms.addAll(docs);
+const lookup = namedLookup(docs);
 const sem = buildSemanticIndex(semanticDocs());
 let score = 0, recall = 0;
 for (const q of benchmark) {
-  const ids = retrieveIds(askLexical(ms, q.question, 12).map((id) => ({ id })), semanticSearch(sem, q.question, 12), 6);
+  const ids = retrieveIds(askLexical(ms, q.question, 12).map((id) => ({ id })), semanticSearch(sem, q.question, 12), 6, { question: q.question, lookup });
   const records = ids.map((id) => { const e = g.must(id); return recordFromEntity(e, routeFor(e)); });
   score += scoreAnswer(q, answerText(composeAnswer(q.question, records))).score;
   recall += q.entities.length ? q.entities.filter((id) => ids.includes(id)).length / q.entities.length : 1;

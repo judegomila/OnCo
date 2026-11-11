@@ -109,6 +109,16 @@ import { peoplePG } from "./country-pg";
 import { peopleBF } from "./country-bf";
 import { peopleCR } from "./country-cr";
 import { peoplePY } from "./country-py";
+import { peopleRW } from "./country-rw"; // wave 12
+import { peopleGN } from "./country-gn"; // wave 12
+import { peopleMD } from "./country-md"; // wave 12
+import { peopleLV } from "./country-lv"; // wave 12
+import { peopleHN } from "./country-hn"; // wave 12
+import { peopleAM } from "./country-am"; // wave 12
+import { peopleSO } from "./country-so"; // wave 12
+import { peopleJO } from "./country-jo"; // wave 12
+import { peopleSV } from "./country-sv"; // wave 12
+import { peoplePA } from "./country-pa"; // wave 12
 
 /** People (clinicians, scientists, leaders, and the heroes of /heroes/) grouped by file. Register each file here. */
 const files: PersonInput[][] = [peopleEurope, peopleAsiaPacific, peopleUsEast, peopleUsWest, heroes, heroesDonors, peopleLeadersWave2, peopleLeadersWave3, peopleLeadersWave4, peopleIndia, peopleIsrael, peopleChina, peopleKeyOpinionLeaders, peopleVirotherapy, peopleAU, peopleES, peopleBR, peopleSE, peopleCH, peopleID, peoplePK, peopleTR, peopleBD, peopleIR, peopleMX, peopleEG, peoplePL, peopleNG, peopleTH, peopleVN, peoplePH, peopleET, peopleZA, peopleCO, peopleAR, peopleUA, peopleRO, peopleMY, peopleDZ, peopleTW];
@@ -124,5 +134,7 @@ files.push(peopleSK, peopleNZ, peopleHR, peopleMZ, peopleMW, peopleMG, peopleDO,
 files.push(peopleTD, peopleLB, peopleBO, peopleZM, peoplePR, peopleUY, peopleLT, peopleNE, peopleCM, peopleGE);
 // Country deep dives, wave 11.
 files.push(peopleAZ, peopleBA, peopleHT, peopleSN, peopleSI, peopleML, peoplePG, peopleBF, peopleCR, peoplePY);
+// Country deep dives, wave 12.
+files.push(peopleRW, peopleGN, peopleMD, peopleLV, peopleHN, peopleAM, peopleSO, peopleJO, peopleSV, peoplePA);
 export const people: PersonInput[] = files.flat();
 people.push(...peopleAF, ...peopleBG, ...peopleNO, ...peopleFI, ...peopleKP, ...peopleKH, ...peopleIE, ...peopleZW, ...peopleAO, ...peopleTN);

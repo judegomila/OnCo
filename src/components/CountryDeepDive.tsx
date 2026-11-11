@@ -89,7 +89,7 @@ export function CountryDeepDive({ dive }: { dive: CountryDive }) {
 
   // Approvals: a national row where the matrix has one (Australia), otherwise the EU row for EU members, and the US
   // row for Puerto Rico, where FDA approval is what puts a medicine on the market.
-  const EU = new Set(["ES", "SE", "FR", "IT", "NL", "DE", "PL", "RO", "BE", "PT", "GR", "CZ", "HU", "AT", "DK", "FI", "IE", "BG", "SK", "HR", "LT", "SI"]);
+  const EU = new Set(["ES", "SE", "FR", "IT", "NL", "DE", "PL", "RO", "BE", "PT", "GR", "CZ", "HU", "AT", "DK", "FI", "IE", "BG", "SK", "HR", "LT", "SI", "LV"]);
   const US_TERRITORY = new Set(["PR"]);
   const region: Region | undefined = dive.iso2 in REGION_META ? (dive.iso2 as Region) : EU.has(dive.iso2) ? "EU" : US_TERRITORY.has(dive.iso2) ? "US" : undefined;
   const approved = region ? g.kind("drug").filter((d) => { const r = regionalApprovals[d.id]?.[region]; return r && (r.status === "approved" || r.status === "conditional"); }).length : 0;

@@ -1219,7 +1219,7 @@ export const peopleLeadersWave2: PersonInput[] = [
     tags: ["leadership", "hospital management"] }),
   // =================== King Hussein Cancer Center ===================
   p({ id: "asem-mansour", name: "Asem Mansour", role: "CEO and Director General", institutionId: "khcc", specialisms: ["Radiology", "Cancer centre leadership", "Oncology services in the Middle East"],
-    tldr: "Radiologist who leads the King Hussein Cancer Center in Amman, the leading comprehensive cancer centre in Jordan and the region.",
+    tldr: "Radiologist who leads the King Hussein Cancer Center in Amman, Jordan's cancer-only hospital.",
     summary: "Asem Mansour is CEO and Director General of the King Hussein Cancer Center (KHCC) in Amman, Jordan. A diagnostic radiologist, he has overseen the centre's expansion into a Joint Commission-accredited comprehensive cancer centre treating adults and children from Jordan and neighbouring countries, and its growing clinical research and training activities.",
     profiles: [{ label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Mansour+A%5BAuthor%5D+King+Hussein+Cancer+Center" }],
     tags: ["leadership", "cancer centre management", "global oncology"],

@@ -45,6 +45,8 @@ const GCO_SLUG: Record<number, string> = {
   410: "korea-republic-of", 484: "mexico", 528: "the-netherlands", 578: "norway", 616: "poland", 620: "portugal",
   643: "russian-federation", 682: "saudi-arabia", 702: "singapore", 724: "spain", 752: "sweden", 756: "switzerland",
   792: "turkiye", 818: "egypt", 826: "united-kingdom", 840: "united-states-of-america",
+  // Wave 12 (11 November 2026): each answered with the GLOBOCAN 2024 PDF that day; Moldova is "republic-of-moldova" (the bare slug serves 2022).
+  51: "armenia", 222: "el-salvador", 324: "guinea", 340: "honduras", 400: "jordan", 428: "latvia", 498: "republic-of-moldova", 591: "panama", 646: "rwanda", 706: "somalia",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -108,4 +110,16 @@ export const countryExtras: Record<string, CountryExtra> = {
   RO: { name: "Romania", population: 19, incidence: 266, mortality: 128, gcoUrl: gco(642) },
   MY: { name: "Malaysia", population: 36, incidence: 141, mortality: 85, gcoUrl: gco(458) },
   DZ: { name: "Algeria", population: 47, incidence: 153, mortality: 79, gcoUrl: gco(12) },
+  // Wave 12 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from api.worldbank.org that day). No funder is given; each country page names its funders.
+  RW: { name: "Rwanda", population: 14, incidence: 136, mortality: 91, gcoUrl: gco(646) },
+  GN: { name: "Guinea", population: 15, incidence: 127, mortality: 88, gcoUrl: gco(324) },
+  MD: { name: "Moldova", population: 2, incidence: 225, mortality: 111, gcoUrl: gco(498) },
+  LV: { name: "Latvia", population: 2, incidence: 282, mortality: 117, gcoUrl: gco(428) },
+  HN: { name: "Honduras", population: 11, incidence: 128, mortality: 82, gcoUrl: gco(340) },
+  AM: { name: "Armenia", population: 3, incidence: 216, mortality: 106, gcoUrl: gco(51) },
+  SO: { name: "Somalia", population: 19, incidence: 104, mortality: 69, gcoUrl: gco(706) },
+  JO: { name: "Jordan", population: 12, incidence: 112, mortality: 56, gcoUrl: gco(400) },
+  SV: { name: "El Salvador", population: 6, incidence: 130, mortality: 75, gcoUrl: gco(222) },
+  PA: { name: "Panama", population: 5, incidence: 158, mortality: 66, gcoUrl: gco(591) },
 };

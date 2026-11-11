@@ -1,0 +1,36 @@
+src/data/sponsor-aliases.ts
+  s_1e233a6be244f1::t_6474fd78669d75 23
+src/data/supportive-care-gaps-2026-11.ts
+  s_1e233a6be244f1::t_cc6d6a6020f78f 409
+  s_1e233a6be244f1::t_816413d962f616 159
+  s_1e233a6be244f1::t_3e19a720e76954 239
+  s_1e233a6be244f1::t_6474fd78669d75 105-112,215,250-381
+src/lib/health-denominators.test.ts
+  s_1e233a6be244f1::t_8360aa6b867143 43-46,49-52,90-93
+src/data/regional-approvals.ts
+  s_1e233a6be244f1::t_a297ab96cd2bb3 70-75
+src/data/animated.ts
+  s_1e233a6be244f1::t_bccdbee42ac3ab 474-477
+src/data/supportive-care-gaps-2026-11-terms.ts
+  s_1e233a6be244f1::t_eaf82f845c4c28 119
+src/data/interactions.ts
+  s_1e233a6be244f1::t_1bfb86d27f20d9 186,201-202,206,209,216
+src/data/schematic-aliases/devices-gaps-2026-11.ts
+  s_1e233a6be244f1::t_cc6d6a6020f78f 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "228c64f2300f6ae6ebaa5c55741b51bd1d67a996",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": null
+    }
+  }
+}

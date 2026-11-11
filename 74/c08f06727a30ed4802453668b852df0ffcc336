@@ -1,0 +1,73 @@
+src/data/country-codes.ts
+  s_1e233a6be244f1::t_fabf72f9f22a9a 22-24,71-72
+  s_1e233a6be244f1::t_af4d95bdc25d04 1-21,25-70,73-79
+src/lib/tables/index.ts
+  s_1e233a6be244f1::t_f6cc9e76858c84 9,50
+src/components/CountryParts.tsx
+  s_1e233a6be244f1::t_1ab51f5e5df211 22
+  s_1e233a6be244f1::t_cd680e4751c008 1-21,23-44
+src/app/countries/page.tsx
+  s_1e233a6be244f1::t_7467da8e77ea68 29,39
+  s_1e233a6be244f1::t_0d559fa06a2936 8-10,13,27-28,30,37-38,40-42
+src/components/CountryDirectory.tsx
+  s_1e233a6be244f1::t_7467da8e77ea68 7,20,42
+  s_1e233a6be244f1::t_0ac85fddfc9535 1-6,8-19,21-41,43-53
+src/lib/sitemap-urls.ts
+  s_1e233a6be244f1::t_7bbf7e4124ba3c 20,119-120
+scripts/build-context.ts
+  s_1e233a6be244f1::t_092bd7272c516a 156
+  s_1e233a6be244f1::t_fb57f2353bfbfd 18
+  s_1e233a6be244f1::t_f79d27fbb99e16 152-155,157
+src/app/countries/[iso]/render.test.ts
+  s_1e233a6be244f1::t_d59c1e2745e977 8-10,54-59
+  s_1e233a6be244f1::t_b3d360504ef69a 1-5,7,11-53,60-68
+  s_1e233a6be244f1::t_65156fb27733e7 76-78
+  s_1e233a6be244f1::t_65526aea193ccf 69-75,79-86
+  s_1e233a6be244f1::t_58b3976fcad246 6
+src/lib/country-pages.test.ts
+  s_1e233a6be244f1::t_dc927402a08826 1-89
+scripts/api-layout.ts
+  s_1e233a6be244f1::t_b39bbb88521bb6 48
+  s_1e233a6be244f1::t_6fd6c962e8e9be 117-118
+  s_1e233a6be244f1::t_1a3599345460bd 47
+src/lib/search-index.ts
+  s_1e233a6be244f1::t_7bbf7e4124ba3c 10-11,37-42
+src/components/CancerGeography.tsx
+  s_1e233a6be244f1::t_9df7257dd51309 11-14
+src/app/countries/[iso]/page.tsx
+  s_1e233a6be244f1::t_2abf50a0fe2429 1-38
+src/lib/globocan-methods.ts
+  s_1e233a6be244f1::t_9df7257dd51309 1-37
+src/components/CountryAuto.tsx
+  s_1e233a6be244f1::t_986a9a3a531387 1-95,97-220
+  s_1e233a6be244f1::t_2d753ad26938e0 96
+scripts/build-api.ts
+  s_1e233a6be244f1::t_1a3599345460bd 42,89-92
+src/app/countries/fr/page.tsx
+  s_1e233a6be244f1::t_7467da8e77ea68 10,111,132-134
+src/lib/tables/country-trials.ts
+  s_1e233a6be244f1::t_4a0d385bdedaf0 1-45
+public/.well-known/llms.txt
+  s_1e233a6be244f1::t_33103e64f5243b 281-282,284
+src/lib/country-pages.ts
+  s_1e233a6be244f1::t_fabf72f9f22a9a 7,35-49,61,64,72,78,247
+  s_1e233a6be244f1::t_99570dfdb02870 1-6,8-34,50-60,62-63,65-71,73-77,79-246,248
+public/llms.txt
+  s_1e233a6be244f1::t_33103e64f5243b 281-282,284
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "74c08f06727a30ed4802453668b852df0ffcc336",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

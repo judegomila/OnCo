@@ -45,6 +45,8 @@ const GCO_SLUG: Record<number, string> = {
   410: "korea-republic-of", 484: "mexico", 528: "the-netherlands", 578: "norway", 616: "poland", 620: "portugal",
   643: "russian-federation", 682: "saudi-arabia", 702: "singapore", 724: "spain", 752: "sweden", 756: "switzerland",
   792: "turkiye", 818: "egypt", 826: "united-kingdom", 840: "united-states-of-america",
+  // Added 11 November 2026 with the wave 9 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  703: "slovakia", 554: "new-zealand", 191: "croatia", 508: "mozambique", 454: "malawi", 450: "madagascar", 214: "dominican-republic", 320: "guatemala", 384: "cote-divoire",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -108,4 +110,15 @@ export const countryExtras: Record<string, CountryExtra> = {
   RO: { name: "Romania", population: 19, incidence: 266, mortality: 128, gcoUrl: gco(642) },
   MY: { name: "Malaysia", population: 36, incidence: 141, mortality: 85, gcoUrl: gco(458) },
   DZ: { name: "Algeria", population: 47, incidence: 153, mortality: 79, gcoUrl: gco(12) },
+  // Wave 9 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read through its API the same day), rounded to millions. Singapore already has a row above.
+  SK: { name: "Slovakia", population: 5, incidence: 286, mortality: 122, gcoUrl: gco(703) },
+  NZ: { name: "New Zealand", population: 5, incidence: 294, mortality: 98, gcoUrl: gco(554) },
+  HR: { name: "Croatia", population: 4, incidence: 312, mortality: 123, gcoUrl: gco(191) },
+  MZ: { name: "Mozambique", population: 35, incidence: 119, mortality: 75, gcoUrl: gco(508) },
+  MW: { name: "Malawi", population: 22, incidence: 171, mortality: 109, gcoUrl: gco(454) },
+  MG: { name: "Madagascar", population: 32, incidence: 100, mortality: 64, gcoUrl: gco(450) },
+  DO: { name: "Dominican Republic", population: 11, incidence: 165, mortality: 91, gcoUrl: gco(214) },
+  GT: { name: "Guatemala", population: 18, incidence: 149, mortality: 88, gcoUrl: gco(320) },
+  CI: { name: "Côte d'Ivoire", population: 32, incidence: 114, mortality: 75, gcoUrl: gco(384) },
 };

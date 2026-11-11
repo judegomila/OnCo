@@ -45,6 +45,11 @@ const GCO_SLUG: Record<number, string> = {
   // Added 11 November 2026 with the wave 5 country pages; each answered with the GLOBOCAN 2024 PDF that day.
   504: "morocco", 368: "iraq", 604: "peru", 104: "myanmar", 152: "chile", 404: "kenya", 203: "czechia",
   50: "bangladesh", 360: "indonesia", 566: "nigeria", 586: "pakistan", 764: "thailand",
+  // The wave 4 rows (4 November 2026) were added without slugs, so their fact-sheet links read "<code>-undefined-";
+  // each slug below answered with the GLOBOCAN 2024 PDF on 11 November 2026.
+  12: "algeria", 32: "argentina", 170: "colombia", 231: "ethiopia", 458: "malaysia", 608: "philippines", 642: "romania", 704: "viet-nam", 710: "south-africa", 804: "ukraine",
+  // Added 11 November 2026 with the wave 6 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  144: "sri-lanka", 180: "congo-democratic-republic-of", 348: "hungary", 729: "sudan", 800: "uganda", 834: "tanzania-united-republic-of", 860: "uzbekistan", 862: "venezuela",
   36: "australia", 40: "austria", 56: "belgium", 76: "brazil", 124: "canada", 156: "china", 208: "denmark", 250: "france-metropolitan",
   276: "germany", 300: "greece", 356: "india", 364: "iran-islamic-republic-of", 376: "israel", 380: "italy", 392: "japan",
   410: "korea-republic-of", 484: "mexico", 528: "the-netherlands", 578: "norway", 616: "poland", 620: "portugal",
@@ -122,4 +127,14 @@ export const countryExtras: Record<string, CountryExtra> = {
   CL: { name: "Chile", population: 20, incidence: 162, mortality: 83, gcoUrl: gco(152) },
   KE: { name: "Kenya", population: 56, incidence: 111, mortality: 75, gcoUrl: gco(404) },
   CZ: { name: "Czechia", population: 11, incidence: 282, mortality: 102, gcoUrl: gco(203) },
+  // Wave 6 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series as tabulated in docs/proposals/country-coverage-2026-11.md. Saudi Arabia and Austria already had rows.
+  SD: { name: "Sudan", population: 50, incidence: 132, mortality: 87, gcoUrl: gco(729) },
+  CD: { name: "Democratic Republic of the Congo", population: 109, incidence: 116, mortality: 77, gcoUrl: gco(180) },
+  HU: { name: "Hungary", population: 10, incidence: 333, mortality: 135, gcoUrl: gco(348) },
+  TZ: { name: "Tanzania", population: 69, incidence: 78, mortality: 53, gcoUrl: gco(834) },
+  UZ: { name: "Uzbekistan", population: 36, incidence: 112, mortality: 67, gcoUrl: gco(860) },
+  UG: { name: "Uganda", population: 50, incidence: 124, mortality: 81, gcoUrl: gco(800) },
+  VE: { name: "Venezuela", population: 28, incidence: 174, mortality: 85, gcoUrl: gco(862) },
+  LK: { name: "Sri Lanka", population: 22, incidence: 134, mortality: 82, gcoUrl: gco(144) },
 };

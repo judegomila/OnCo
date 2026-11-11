@@ -67,7 +67,7 @@ export const simpleL2: Record<string, string> = {
   "maha-hussain": "Maha Hussain, deputy director of Northwestern's Lurie Cancer Center, led PROSPER and the PROfound survival analysis and settled the intermittent hormone therapy question in prostate cancer.",
   "mahesh-parmar": "Mahesh Parmar, a UCL statistician, invented the multi-arm multi-stage trial design behind STAMPEDE, letting one prostate cancer trial test many treatments at once.",
   "maike-sander": "Maike Sander is a stem cell and pancreas biologist who has led Berlin's Max Delbrück Center for Molecular Medicine, including its cancer research programmes, since November 2022.",
-  "majid-alfayyadh": "Majid Alfayyadh is a physician and chief executive of King Faisal Specialist Hospital and Research Centre, Saudi Arabia's flagship referral centre for cancer care.",
+  "majid-alfayyadh": "Majid Alfayyadh is a physician and chief executive of King Faisal Specialist Hospital and Research Centre, a Saudi specialist hospital with cancer centres in Riyadh, Jeddah and Madinah.",
   "malachi-griffith": "Malachi Griffith, at Washington University, co-created CIViC, the open database of what cancer mutations mean, and the pVACtools pipeline for designing personalised vaccines.",
   "mansoor-raza-mirza": "Mansoor Raza Mirza, chief oncologist at Rigshospitalet in Copenhagen, led NOVA and RUBY, the trials that established niraparib maintenance in ovarian cancer and dostarlimab in endometrial cancer.",
   "marc-besselink": "Marc Besselink, an Amsterdam UMC surgeon, leads the Dutch PREOPANC trials testing chemotherapy or chemoradiation before pancreatic cancer surgery.",

@@ -164,6 +164,16 @@ import { recordsRO } from "./country-records-ro";
 import { recordsMY } from "./country-records-my";
 import { recordsDZ } from "./country-records-dz";
 import { recordsTW } from "./country-records-tw";
+import { recordsTD } from "./country-records-td";
+import { recordsLB } from "./country-records-lb";
+import { recordsBO } from "./country-records-bo";
+import { recordsZM } from "./country-records-zm";
+import { recordsPR } from "./country-records-pr";
+import { recordsUY } from "./country-records-uy";
+import { recordsLT } from "./country-records-lt";
+import { recordsNE } from "./country-records-ne";
+import { recordsCM } from "./country-records-cm";
+import { recordsGE } from "./country-records-ge";
 import { china } from "./china";
 import { approvedWave1 } from "./drugs-approved-wave1";
 import { targetsWave1 } from "./targets-wave1";
@@ -424,6 +434,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...recordsAU, ...recordsES, ...recordsBR, ...recordsSE, ...recordsCH,
   ...recordsID, ...recordsPK, ...recordsTR, ...recordsBD, ...recordsIR, ...recordsMX, ...recordsEG, ...recordsPL, ...recordsNG, ...recordsTH,
   ...recordsVN, ...recordsPH, ...recordsET, ...recordsZA, ...recordsCO, ...recordsAR, ...recordsUA, ...recordsRO, ...recordsMY, ...recordsDZ, ...recordsTW,
+  ...recordsTD, ...recordsLB, ...recordsBO, ...recordsZM, ...recordsPR, ...recordsUY, ...recordsLT, ...recordsNE, ...recordsCM, ...recordsGE,
   ...china,
   ...approvedWave1,
   ...targetsWave1,

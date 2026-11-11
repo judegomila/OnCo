@@ -45,6 +45,8 @@ const GCO_SLUG: Record<number, string> = {
   410: "korea-republic-of", 484: "mexico", 528: "the-netherlands", 578: "norway", 616: "poland", 620: "portugal",
   643: "russian-federation", 682: "saudi-arabia", 702: "singapore", 724: "spain", 752: "sweden", 756: "switzerland",
   792: "turkiye", 818: "egypt", 826: "united-kingdom", 840: "united-states-of-america",
+  // Added 11 November 2026 with the wave 10 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  68: "bolivia-plurinational-state-of", 120: "cameroon", 148: "chad", 268: "georgia", 422: "lebanon", 440: "lithuania", 562: "niger", 630: "puerto-rico", 858: "uruguay", 894: "zambia",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -108,4 +110,16 @@ export const countryExtras: Record<string, CountryExtra> = {
   RO: { name: "Romania", population: 19, incidence: 266, mortality: 128, gcoUrl: gco(642) },
   MY: { name: "Malaysia", population: 36, incidence: 141, mortality: 85, gcoUrl: gco(458) },
   DZ: { name: "Algeria", population: 47, incidence: 153, mortality: 79, gcoUrl: gco(12) },
+  // Wave 10 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from api.worldbank.org that day). No funder is given; each country page names its own.
+  TD: { name: "Chad", population: 20, incidence: 180, mortality: 121, gcoUrl: gco(148) },
+  LB: { name: "Lebanon", population: 6, incidence: 242, mortality: 117, gcoUrl: gco(422) },
+  BO: { name: "Bolivia", population: 12, incidence: 153, mortality: 92, gcoUrl: gco(68) },
+  ZM: { name: "Zambia", population: 21, incidence: 152, mortality: 97, gcoUrl: gco(894) },
+  PR: { name: "Puerto Rico", population: 3, incidence: 236, mortality: 100, gcoUrl: gco(630) },
+  UY: { name: "Uruguay", population: 3, incidence: 273, mortality: 126, gcoUrl: gco(858) },
+  LT: { name: "Lithuania", population: 3, incidence: 276, mortality: 113, gcoUrl: gco(440) },
+  NE: { name: "Niger", population: 27, incidence: 121, mortality: 82, gcoUrl: gco(562) },
+  CM: { name: "Cameroon", population: 29, incidence: 100, mortality: 63, gcoUrl: gco(120) },
+  GE: { name: "Georgia", population: 4, incidence: 234, mortality: 109, gcoUrl: gco(268) },
 };

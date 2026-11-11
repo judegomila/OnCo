@@ -1,0 +1,15 @@
+src/components/SideEffectLookup.tsx
+  ai_agent 9,41-61,67,153
+src/lib/side-effects.test.ts
+  ai_agent 3,57-85
+src/app/side-effects/page.tsx
+  ai_agent 7,23
+src/lib/side-effects.ts
+  ai_agent 171-259
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "19a9c80dd04e3886e98d7489dbc8cd17307ed06c",
+  "prompts": {}
+}

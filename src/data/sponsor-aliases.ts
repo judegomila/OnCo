@@ -185,7 +185,7 @@ export const SPONSOR_PATTERNS: Array<[RegExp, SponsorTarget]> = [
   [/gritstone/, { id: "gritstone", label: "Gritstone", kind: "company" }],
   [/elicio/, { id: "elicio-therapeutics", label: "Elicio Therapeutics", kind: "company" }],
   [/galapagos/, { id: "galapagos", label: "Galapagos", kind: "company" }],
-  [/^essa/, { id: "essa-pharma", label: "ESSA Pharma", kind: "company" }],
+  [/^essa\b/, { id: "essa-pharma", label: "ESSA Pharma", kind: "company" }],
   [/^aveo/, { id: "aveo", label: "AVEO", kind: "company" }],
   [/pharmamar/, { id: "pharmamar", label: "PharmaMar", kind: "company" }],
   [/adc therapeutics/, { id: "adc-therapeutics", label: "ADC Therapeutics", kind: "company" }],
@@ -363,7 +363,7 @@ export const SPONSOR_PATTERNS: Array<[RegExp, SponsorTarget]> = [
   [/\btelehealth research centers of excellence\b|\bnci trace\b/, { id: "nci-trace", label: "NCI Telehealth Research Centers of Excellence", kind: "other" }],
   [/national clinical trials network|nctn/, { id: "nci", label: "NCI National Clinical Trials Network", kind: "government" }],
   // ---- Government ----
-  [/^(us )?national cancer institute \(nci\)|^(us )?national cancer institute$|^nci\b(?! (cairo|egypt|thailand|malaysia))|\(nci\)/, { id: "nci", label: "National Cancer Institute (US)", kind: "government" }],
+  [/^(us )?national cancer institute \(nci\)|^(us )?national cancer institute$|^nci\b(?! (cairo|egypt|thailand|malaysia|k\b|kenya)|-k(enya)?\b)|\(nci\)/, { id: "nci", label: "National Cancer Institute (US)", kind: "government" }],
   // Centres and institutes that carry the Cancer Research UK name are the host institutions, and a fund named for
   // the charity is its own record; only the charity itself resolves to `cruk` (link-sense review, 3 Nov 2026). The
   // City of London and Convergence Science centres are partnerships recorded as consortia, which no institution alias

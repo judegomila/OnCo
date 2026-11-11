@@ -39,6 +39,11 @@ export type CountryExtra = {
  */
 const GCO_SLUG: Record<number, string> = {
   // Added 4 November 2026 with the wave 3 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  // The wave 4 rows (4 November 2026) had no slug, so their links read "<code>-undefined-fact-sheet.pdf"; each slug below
+  // answered with the GLOBOCAN 2024 PDF on 11 November 2026.
+  704: "viet-nam", 608: "philippines", 231: "ethiopia", 710: "south-africa", 170: "colombia", 32: "argentina", 804: "ukraine", 642: "romania", 458: "malaysia", 12: "algeria",
+  // Added 11 November 2026 with the wave 5 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  504: "morocco", 368: "iraq", 604: "peru", 104: "myanmar", 152: "chile", 404: "kenya", 203: "czechia",
   50: "bangladesh", 360: "indonesia", 566: "nigeria", 586: "pakistan", 764: "thailand",
   36: "australia", 40: "austria", 56: "belgium", 76: "brazil", 124: "canada", 156: "china", 208: "denmark", 250: "france-metropolitan",
   276: "germany", 300: "greece", 356: "india", 364: "iran-islamic-republic-of", 376: "israel", 380: "italy", 392: "japan",
@@ -108,4 +113,13 @@ export const countryExtras: Record<string, CountryExtra> = {
   RO: { name: "Romania", population: 19, incidence: 266, mortality: 128, gcoUrl: gco(642) },
   MY: { name: "Malaysia", population: 36, incidence: 141, mortality: 85, gcoUrl: gco(458) },
   DZ: { name: "Algeria", population: 47, incidence: 153, mortality: 79, gcoUrl: gco(12) },
+  // Wave 5 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series as tabulated in docs/proposals/country-coverage-2026-11.md. Belgium, Portugal and Greece already had rows.
+  MA: { name: "Morocco", population: 38, incidence: 113, mortality: 62, gcoUrl: gco(504) },
+  IQ: { name: "Iraq", population: 46, incidence: 111, mortality: 69, gcoUrl: gco(368) },
+  PE: { name: "Peru", population: 34, incidence: 187, mortality: 84, gcoUrl: gco(604) },
+  MM: { name: "Myanmar", population: 55, incidence: 126, mortality: 90, gcoUrl: gco(104) },
+  CL: { name: "Chile", population: 20, incidence: 162, mortality: 83, gcoUrl: gco(152) },
+  KE: { name: "Kenya", population: 56, incidence: 111, mortality: 75, gcoUrl: gco(404) },
+  CZ: { name: "Czechia", population: 11, incidence: 282, mortality: 102, gcoUrl: gco(203) },
 };

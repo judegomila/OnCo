@@ -618,7 +618,7 @@ export const institutionsEurope: InstitutionInput[] = [
     institutions: ["oeci"], related: ["humanitas","ieo-milan"] }),
 
   i({ id: "haukeland-university-hospital", wikipedia: "https://en.wikipedia.org/wiki/Haukeland_University_Hospital", people: ["oddbjorn-straume"], name: "Haukeland University Hospital", aka: ["Helse Bergen","Haukeland universitetssjukehus"], city: "Bergen", country: "NO", lat: 60.374, lng: 5.359, institutionType: "hospital", website: "https://helse-bergen.no",
-    tldr: "Haukeland University Hospital in Bergen is Norway's largest hospital by number of patients and the cancer centre for western Norway, and a full member of the Organisation of European Cancer Institutes.",
+    tldr: "Haukeland University Hospital in Bergen is the cancer centre for western Norway, and a full member of the Organisation of European Cancer Institutes.",
     summary: "Haukeland University Hospital is the main hospital of Bergen Hospital Trust (Helse Bergen), one of eleven institutions in the trust, and is described as the largest hospital in Norway by number of patients; it dates from 1912 and is the university hospital of the University of Bergen. It provides the specialised cancer care for Western Norway and is listed by the Organisation of European Cancer Institutes as a full member. Programme, trial and leadership details are not yet recorded here and should be checked on the hospital's own pages.",
     links: [{ label: "Official website", url: "https://helse-bergen.no" }, { label: "OECI membership list", url: "https://www.oeci.eu/Membership.aspx" }, { label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Haukeland_University_Hospital" }],
     institutions: ["oeci"], related: ["akershus-university-hospital"] }),

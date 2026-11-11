@@ -88,7 +88,7 @@ export function CountryDeepDive({ dive }: { dive: CountryDive }) {
   const allCompanies = g.kind("company").filter((c) => c.country === dive.iso2).length;
 
   // Approvals: a national row where the matrix has one (Australia), otherwise the EU row for EU members.
-  const EU = new Set(["ES", "SE", "FR", "IT", "NL", "DE", "PL", "RO", "BE", "PT", "GR", "CZ", "HU", "AT", "DK"]);
+  const EU = new Set(["ES", "SE", "FR", "IT", "NL", "DE", "PL", "RO", "BE", "PT", "GR", "CZ", "HU", "AT", "DK", "FI", "IE", "BG"]);
   const region: Region | undefined = dive.iso2 in REGION_META ? (dive.iso2 as Region) : EU.has(dive.iso2) ? "EU" : undefined;
   const approved = region ? g.kind("drug").filter((d) => { const r = regionalApprovals[d.id]?.[region]; return r && (r.status === "approved" || r.status === "conditional"); }).length : 0;
 

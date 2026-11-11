@@ -1,0 +1,26 @@
+src/data/protocols/index.ts
+  s_1e233a6be244f1::t_0f0f5e9ef4ff0d 9,23
+  s_1e233a6be244f1::t_d117557f76d7c9 7,22
+src/data/protocols/vte-prophylaxis-after-cancer-surgery.ts
+  s_1e233a6be244f1::t_0f0f5e9ef4ff0d 176
+  s_1e233a6be244f1::t_eb44448c8ad384 1-175,177-180
+src/data/protocols/surgical-site-infection-prevention.ts
+  s_1e233a6be244f1::t_9db62f1d14aa19 1-23,25-29,31-118,120-143,145-210
+  s_1e233a6be244f1::t_d117557f76d7c9 24,30,119,144
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "87d1e0e607627df09da408d2e615a7e34bb9de07",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

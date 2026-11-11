@@ -79,6 +79,16 @@ import { peopleIE } from "./country-ie";
 import { peopleZW } from "./country-zw";
 import { peopleAO } from "./country-ao";
 import { peopleTN } from "./country-tn";
+import { peopleSK } from "./country-sk";
+import { peopleNZ } from "./country-nz";
+import { peopleHR } from "./country-hr";
+import { peopleMZ } from "./country-mz";
+import { peopleMW } from "./country-mw";
+import { peopleMG } from "./country-mg";
+import { peopleDO } from "./country-do";
+import { peopleGT } from "./country-gt";
+import { peopleCI } from "./country-ci";
+import { peopleSG } from "./country-sg";
 
 /** People (clinicians, scientists, leaders, and the heroes of /heroes/) grouped by file. Register each file here. */
 const files: PersonInput[][] = [peopleEurope, peopleAsiaPacific, peopleUsEast, peopleUsWest, heroes, heroesDonors, peopleLeadersWave2, peopleLeadersWave3, peopleLeadersWave4, peopleIndia, peopleIsrael, peopleChina, peopleKeyOpinionLeaders, peopleVirotherapy, peopleAU, peopleES, peopleBR, peopleSE, peopleCH, peopleID, peoplePK, peopleTR, peopleBD, peopleIR, peopleMX, peopleEG, peoplePL, peopleNG, peopleTH, peopleVN, peoplePH, peopleET, peopleZA, peopleCO, peopleAR, peopleUA, peopleRO, peopleMY, peopleDZ, peopleTW];
@@ -88,5 +98,7 @@ files.push(peopleBE, peopleMA, peopleIQ, peoplePE, peopleMM, peopleCL, peoplePT,
 files.push(peopleSD, peopleCD, peopleHU, peopleAT, peopleTZ, peopleUZ, peopleSA, peopleUG, peopleVE, peopleLK);
 // Country deep dives, wave 7.
 files.push(peopleGH, peopleDK, peopleNP, peopleKZ, peopleEC, peopleCU, peopleYE, peopleBY, peopleRS, peopleSY);
+// Country deep dives, wave 9.
+files.push(peopleSK, peopleNZ, peopleHR, peopleMZ, peopleMW, peopleMG, peopleDO, peopleGT, peopleCI, peopleSG);
 export const people: PersonInput[] = files.flat();
 people.push(...peopleAF, ...peopleBG, ...peopleNO, ...peopleFI, ...peopleKP, ...peopleKH, ...peopleIE, ...peopleZW, ...peopleAO, ...peopleTN);

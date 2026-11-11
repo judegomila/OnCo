@@ -1,0 +1,28 @@
+src/data/protocols/picc-and-tunnelled-line-care.ts
+  s_1e233a6be244f1::t_d4470fb76bd87f 292
+src/data/protocols/hazardous-drug-handling-in-clinical-areas.ts
+  s_1e233a6be244f1::t_d4470fb76bd87f 242
+src/data/index.ts
+  s_1e233a6be244f1::t_ba2a7fa955db67 116,403
+src/data/spikes/protocol-upgrades-administration.ts
+  s_1e233a6be244f1::t_d4470fb76bd87f 31
+  s_1e233a6be244f1::t_57fca38b61077b 1-30,32-59
+src/data/protocols/sact-administration-checks-at-the-chair.ts
+  s_1e233a6be244f1::t_d4470fb76bd87f 146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c294b95b00d49ffff634c70ce485aa4f3b976a43",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -349,7 +349,7 @@ export const simpleP: Record<string, string> = {
   "capio-st-goran": "Capio S:t Göran's Hospital is a privately run acute hospital in Stockholm working under contract to the Swedish public system, with breast and bowel cancer surgery and oncology.",
   "iba-masaryk": "The Institute of Biostatistics and Analyses at Masaryk University in Brno provides health data analysis and runs registry infrastructure for Czech cancer data.",
   "fondazione-the-bridge": "Fondazione The Bridge is a Milan-based non-profit foundation working on health policy, patient rights and research including cancer, and an OECI associate member.",
-  "herlev-hospital": "Herlev Hospital, part of Copenhagen University Hospital, opened in 1976 north-west of the city and runs one of Denmark's largest cancer departments within the Copenhagen Comprehensive Cancer Center.",
+  "herlev-hospital": "Herlev Hospital, part of Copenhagen University Hospital, opened in 1976 north-west of the city and runs a cancer department within the Copenhagen Comprehensive Cancer Center.",
   "nci-ukraine": "The National Cancer Institute of Ukraine in Kyiv is the country's main specialist cancer hospital and research centre, giving surgery, radiotherapy and drug treatment and training oncologists.",
   "blida-anti-cancer-center": "The Anti-Cancer Center of Blida is one of Algeria's regional cancer hospitals, south-west of Algiers, and an associate member of the Organisation of European Cancer Institutes.",
   "cecurio": "CeCurio is the oncology and haematology practice of MVZ Tübingen in Germany, offering personalised peptide vaccines built with the sequencing laboratory CeGaT, with survival data in glioblastoma.",

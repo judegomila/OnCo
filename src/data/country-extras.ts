@@ -61,6 +61,8 @@ const GCO_SLUG: Record<number, string> = {
   703: "slovakia", 554: "new-zealand", 191: "croatia", 508: "mozambique", 454: "malawi", 450: "madagascar", 214: "dominican-republic", 320: "guatemala", 384: "cote-divoire",
   // Added 11 November 2026 with the wave 10 country pages; each answered with the GLOBOCAN 2024 PDF that day.
   68: "bolivia-plurinational-state-of", 120: "cameroon", 148: "chad", 268: "georgia", 422: "lebanon", 440: "lithuania", 562: "niger", 630: "puerto-rico", 858: "uruguay", 894: "zambia",
+  // Wave 11 (11 November 2026); each answered with the GLOBOCAN 2024 PDF that day.
+  31: "azerbaijan", 70: "bosnia-herzegovina", 188: "costa-rica", 332: "haiti", 466: "mali", 598: "papua-new-guinea", 600: "paraguay", 686: "senegal", 705: "slovenia", 854: "burkina-faso",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -189,4 +191,16 @@ export const countryExtras: Record<string, CountryExtra> = {
   NE: { name: "Niger", population: 27, incidence: 121, mortality: 82, gcoUrl: gco(562) },
   CM: { name: "Cameroon", population: 29, incidence: 100, mortality: 63, gcoUrl: gco(120) },
   GE: { name: "Georgia", population: 4, incidence: 234, mortality: 109, gcoUrl: gco(268) },
+  // Wave 11 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from its API that day) to one decimal, as these countries are small. No funder researched.
+  AZ: { name: "Azerbaijan", population: 10.2, incidence: 120, mortality: 69, gcoUrl: gco(31) },
+  BA: { name: "Bosnia and Herzegovina", population: 3.2, incidence: 215, mortality: 112, gcoUrl: gco(70) },
+  HT: { name: "Haiti", population: 11.8, incidence: 167, mortality: 111, gcoUrl: gco(332) },
+  SN: { name: "Senegal", population: 18.5, incidence: 121, mortality: 85, gcoUrl: gco(686) },
+  SI: { name: "Slovenia", population: 2.1, incidence: 297, mortality: 114, gcoUrl: gco(705) },
+  ML: { name: "Mali", population: 24.5, incidence: 117, mortality: 80, gcoUrl: gco(466) },
+  PG: { name: "Papua New Guinea", population: 10.6, incidence: 200, mortality: 118, gcoUrl: gco(598) },
+  BF: { name: "Burkina Faso", population: 23.5, incidence: 110, mortality: 76, gcoUrl: gco(854) },
+  CR: { name: "Costa Rica", population: 5.1, incidence: 178, mortality: 73, gcoUrl: gco(188) },
+  PY: { name: "Paraguay", population: 6.9, incidence: 190, mortality: 93, gcoUrl: gco(600) },
 };

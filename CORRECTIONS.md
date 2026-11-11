@@ -1,6 +1,18 @@
 # Corrections
 
+### Payload comparison species and endpoints
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-09 | [Payload comparison](/payloads/) | Used a free-drug permeability flag as a bystander result, assigned family-wide efflux/loading values and required a cleavable linker universally | Named product labels, exact-species membrane/cell experiments and actual export checks | Reads sourced chemical and conjugate observations, keeps differing findings with their contexts and makes missing evidence explicit; [verification](research/scoped-evidence-schema-2026-11-08/chemical-observations-2026-11-09/README.md); owner approval remains pending in [draft #376](https://github.com/judegomila/OnCo/pull/376) |
+
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
+
+## 2026-11-08
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-08 | Pathway product highlighting | Diagnostic tests with target metadata appeared among products said to hit and block a pathway | Rendered RAS–MAPK review showed cobas BRAF/EGFR tests in the treatment selector; checked against the shared product classification | Restrict treatment highlighting to the existing medicine class; retain test records and their graph relationships |
 
 ## 2026-11-04
 

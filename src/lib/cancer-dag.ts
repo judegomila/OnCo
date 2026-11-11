@@ -3,6 +3,9 @@ import { buildDag, layering, orderLayers, type Dag } from "./dag";
 import { routeFor } from "./kinds";
 import type { Cancer } from "./schema";
 
+/** Shared with the page and its tests; page modules cannot export arbitrary constants. */
+export const CANCER_MAP_JSON_PATH = "/cancers/map/graph.json";
+
 /**
  * The cancer map: every cancer page placed under the groupings the corpus already records, as a directed acyclic
  * graph rather than a tree, because one cancer can sit under more than one node.

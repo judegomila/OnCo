@@ -7,16 +7,17 @@ import { KIND_META } from "./kinds";
 import { recordWeight } from "./search-rank";
 import { type Entity } from "./schema";
 import type { SemanticDoc } from "./semantic";
+import { scopedEvidencePassages } from "./scoped-evidence-text";
 
 const rep = (s: string, n: number) => Array(n).fill(s).join(" ");
 
 /** Kind-specific fields worth indexing, as plain text. */
-export function fieldText(e: Entity): string {
+function legacyFieldText(e: Entity): string {
   switch (e.kind) {
     case "cancer": return [e.group, e.burden ?? "", ...e.subtypes, ...e.biomarkers, ...e.standardOfCare.map((s) => `${s.setting} ${s.approach}`), ...e.stateOfArt, ...e.openProblems, e.prognosis?.text ?? ""].join(" ");
     case "technology": return [e.principle, e.generation ?? "", ...e.strengths, ...e.limitations].join(" ");
     case "target": return [e.symbol ?? "", e.biology, e.targetClass, ...e.whereFound].join(" ");
-    case "drug": return [e.brand ?? "", e.code ?? "", e.modality, e.payload ?? "", e.linker ?? "", e.mechanism, ...e.approvals.map((a) => `${a.region} ${a.indication}`), ...e.toxicity.map((t) => t.event)].join(" ");
+    case "drug": return [e.brand ?? "", e.code ?? "", e.modality, e.conjugateComposition ? "" : e.payload ?? "", e.linker ?? "", e.mechanism, ...e.approvals.map((a) => `${a.region} ${a.indication}`), ...e.toxicity.map((t) => t.event)].join(" ");
     case "company": return [e.hq, e.companyType].join(" ");
     case "institution": return [e.city, e.institutionType, e.university ?? "", ...e.programs].join(" ");
     case "pathway": return [e.analogy, ...e.interventions, ...e.nodes.map((n) => n.label)].join(" ");
@@ -33,6 +34,10 @@ export function fieldText(e: Entity): string {
     case "person": return [e.role, ...e.specialisms].join(" ");
     default: return "";
   }
+}
+
+export function fieldText(e: Entity): string {
+  return [legacyFieldText(e), ...scopedEvidencePassages(e).map(p => p.text)].join(" ");
 }
 
 /** One weighted text per entity: name and aliases count most, then tags, TL;DR, fields, summary, neighbour names. */

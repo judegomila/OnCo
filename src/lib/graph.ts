@@ -1,7 +1,7 @@
 import { EntitySchema, KINDS, REL_FIELDS, type Entity, type Kind, type RelField } from "./schema";
 import { ALL_INPUTS } from "@/data";
 
-export type Backlink = { from: Entity; via: RelField | "pairing" | "roadmap" | "history" | "pipeline" | "standardOfCare" | "pathway-node" | "investors" | "acquiredBy" | "parent" };
+export type Backlink = { from: Entity; via: RelField | "pairing" | "roadmap" | "history" | "pipeline" | "standardOfCare" | "pathway-node" | "investors" | "acquiredBy" | "parent" | "composition-delivery" | "payload-component" | "payload-class" | "payload-target" | "released-species" | "chemical-species" | "chemical-conjugate" | "regulatory-use" };
 
 class Graph {
   readonly entities: Entity[];
@@ -123,6 +123,24 @@ class Graph {
 export function outgoing(e: Entity): Array<[string, Backlink["via"]]> {
   const out: Array<[string, Backlink["via"]]> = [];
   for (const f of REL_FIELDS) for (const to of e[f]) out.push([to, f]);
+  if (e.kind === "drug") for (const claim of e.regulatoryClaims ?? []) {
+    for (const to of [...(claim.intendedUse?.diseaseIds ?? []), ...(claim.intendedUse?.therapyIds ?? [])]) out.push([to, "regulatory-use"]);
+  }
+  if (e.kind === "term") {
+    for (const observation of e.chemicalObservations ?? []) {
+      if (observation.species.entityId) out.push([observation.species.entityId, "chemical-species"]);
+      if (observation.conjugate?.entityId) out.push([observation.conjugate.entityId, "chemical-conjugate"]);
+    }
+  }
+  if (e.kind === "drug" && e.conjugateComposition) {
+    for (const target of e.conjugateComposition.deliveryTargetIds ?? []) out.push([target, "composition-delivery"]);
+    for (const component of e.conjugateComposition.payloads) {
+      if (component.chemical.entityId) out.push([component.chemical.entityId, "payload-component"]);
+      for (const cls of component.classIds ?? []) out.push([cls, "payload-class"]);
+      for (const target of component.molecularTargets ?? []) if (target.entityId) out.push([target.entityId, "payload-target"]);
+      for (const species of component.releasedSpecies ?? []) if (species.chemical.entityId) out.push([species.chemical.entityId, "released-species"]);
+    }
+  }
   if (e.kind === "pairing") {
     out.push([e.a, "pairing"], [e.b, "pairing"]);
   }

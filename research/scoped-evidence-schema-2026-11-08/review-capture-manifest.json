@@ -1,0 +1,753 @@
+{
+  "location": "External local review bundle, not committed",
+  "viewportMatrix": [
+    [
+      320,
+      852
+    ],
+    [
+      393,
+      667
+    ],
+    [
+      393,
+      852
+    ],
+    [
+      1440,
+      1000
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "captures": [
+    {
+      "capture": "pass-0/desktop-after.png",
+      "sha256": "79e15f1eed34d38c402001408fbb090faec67e50bdec72e5a7595fd1b874cb1a",
+      "bytes": 57064
+    },
+    {
+      "capture": "pass-0/desktop-before.png",
+      "sha256": "8ebf44ac4ec3cdde7c07408ff6543d655260d3242df2d4d185227a8e2e981601",
+      "bytes": 31180
+    },
+    {
+      "capture": "pass-0/mobile-after.png",
+      "sha256": "4b9718dcc5132be2bf2dcb9a6862243cb99caa34929e4c742439736e48fe517d",
+      "bytes": 38981
+    },
+    {
+      "capture": "pass-0/mobile-before.png",
+      "sha256": "27ba73bc2091a999b0d401091127e9eda6e456a71aa83e51d87b195ce56c2061",
+      "bytes": 17177
+    },
+    {
+      "capture": "pass-0/mobile-short-after.png",
+      "sha256": "7a7c4df090190abf0fde140e9dea16d23200db0532c7cfab397b1f58de777992",
+      "bytes": 37973
+    },
+    {
+      "capture": "pass-0/mobile-short-before.png",
+      "sha256": "7d0aa32e8ca6a10932de18779b4b015a875a79c1c0dea0a2d01e48eec10426cc",
+      "bytes": 16391
+    },
+    {
+      "capture": "pass-0/reflow-after.png",
+      "sha256": "de41f1423d616212df8c52931095a881442c96e438a91fc8a412ce4addcc8278",
+      "bytes": 37253
+    },
+    {
+      "capture": "pass-0/reflow-before.png",
+      "sha256": "0f05d4113be2671e12f8c04e5f27e355ef2d519a7a934cc2e45dc07043d8ea41",
+      "bytes": 15688
+    },
+    {
+      "capture": "pass-0/wide-after.png",
+      "sha256": "23ef473616ed7749a3c34960352346999fb85490349cbedcee25f04185dcf0eb",
+      "bytes": 60114
+    },
+    {
+      "capture": "pass-0/wide-before.png",
+      "sha256": "2f5b8aa0c7f1b1698389eaf2098da5cbb2a97c461ee40b5782da82c3e21e876b",
+      "bytes": 33293
+    },
+    {
+      "capture": "pass-1/desktop-after.png",
+      "sha256": "18647de09ba7bc71e965a7df6ffcd2ce56be9a2a17ce67e1a9074145aa1a4aba",
+      "bytes": 57056
+    },
+    {
+      "capture": "pass-1/desktop-before.png",
+      "sha256": "8ebf44ac4ec3cdde7c07408ff6543d655260d3242df2d4d185227a8e2e981601",
+      "bytes": 31180
+    },
+    {
+      "capture": "pass-1/mobile-after.png",
+      "sha256": "6170c8c4c76aa5007c302ad07224d448855bfed1d5deb2ee1adc6c7882d05a6f",
+      "bytes": 39007
+    },
+    {
+      "capture": "pass-1/mobile-before.png",
+      "sha256": "27ba73bc2091a999b0d401091127e9eda6e456a71aa83e51d87b195ce56c2061",
+      "bytes": 17177
+    },
+    {
+      "capture": "pass-1/mobile-short-after.png",
+      "sha256": "063e2f4a61cd4934900f2dc94e6076c9baacb70e49034d9b20fe9a3ee879d198",
+      "bytes": 37995
+    },
+    {
+      "capture": "pass-1/mobile-short-before.png",
+      "sha256": "7d0aa32e8ca6a10932de18779b4b015a875a79c1c0dea0a2d01e48eec10426cc",
+      "bytes": 16391
+    },
+    {
+      "capture": "pass-1/reflow-after.png",
+      "sha256": "dc070b396ceaa69410c7253531ca1da8dd08083f4b0849db649f59b3f37dd8db",
+      "bytes": 37870
+    },
+    {
+      "capture": "pass-1/reflow-before.png",
+      "sha256": "0f05d4113be2671e12f8c04e5f27e355ef2d519a7a934cc2e45dc07043d8ea41",
+      "bytes": 15688
+    },
+    {
+      "capture": "pass-1/wide-after.png",
+      "sha256": "32b758d0adde9d7ccde11a3a6976cd80d47f7253c85159ca7dcc42c39fb336dc",
+      "bytes": 60114
+    },
+    {
+      "capture": "pass-1/wide-before.png",
+      "sha256": "2f5b8aa0c7f1b1698389eaf2098da5cbb2a97c461ee40b5782da82c3e21e876b",
+      "bytes": 33293
+    },
+    {
+      "capture": "pass-1-real/desktop-after.png",
+      "sha256": "5a2c211130dd27d97550c102b474c41f10f1e9c21e8225dd858f6bd3fa27047e",
+      "bytes": 89184
+    },
+    {
+      "capture": "pass-1-real/desktop-before.png",
+      "sha256": "1b54f070584c0a1559c50e92d8a93746277a5da31c18a39d2778483e8dc25dc1",
+      "bytes": 88128
+    },
+    {
+      "capture": "pass-1-real/mobile-after.png",
+      "sha256": "f6be1870dd87670ba687ced69a7c465b50e08b9a801137e5a1b5bf7aa02a1dec",
+      "bytes": 58082
+    },
+    {
+      "capture": "pass-1-real/mobile-before.png",
+      "sha256": "73b174e9c1430db3021b55393bbb4832eb31615bf85216e8031c27606cf0b51c",
+      "bytes": 57568
+    },
+    {
+      "capture": "pass-1-real/mobile-short-after.png",
+      "sha256": "02be5960294ba452a8d6a81019b8f88f3d176726d45e431bcf64cd1730e9e6a1",
+      "bytes": 52348
+    },
+    {
+      "capture": "pass-1-real/mobile-short-before.png",
+      "sha256": "4d95d24aeb87bd26a34f1df2069a3fac0ccdf85195e7327d38bc486515bb9dba",
+      "bytes": 51979
+    },
+    {
+      "capture": "pass-1-real/reflow-after.png",
+      "sha256": "6c8d506819830f17d88154355f2fbf73d2870a7f3312324be0867f6fbb4e26b7",
+      "bytes": 47732
+    },
+    {
+      "capture": "pass-1-real/reflow-before.png",
+      "sha256": "2390c47c46489d8c690a4ae2fbcd67d53b5a2bf9bd88aa35cb98043c8b53e1cd",
+      "bytes": 47611
+    },
+    {
+      "capture": "pass-1-real/wide-after.png",
+      "sha256": "57322b1804083f52b6259835df3634f7613e94fa573e7dfa42f957ace54f9710",
+      "bytes": 97704
+    },
+    {
+      "capture": "pass-1-real/wide-before.png",
+      "sha256": "4c7e35f7eab1d47918e19d0fa085417aa0147b811c70bd09c975633af79e5c7e",
+      "bytes": 93110
+    },
+    {
+      "capture": "pass-2/desktop-after.png",
+      "sha256": "18647de09ba7bc71e965a7df6ffcd2ce56be9a2a17ce67e1a9074145aa1a4aba",
+      "bytes": 57056
+    },
+    {
+      "capture": "pass-2/desktop-before.png",
+      "sha256": "8ebf44ac4ec3cdde7c07408ff6543d655260d3242df2d4d185227a8e2e981601",
+      "bytes": 31180
+    },
+    {
+      "capture": "pass-2/mobile-after.png",
+      "sha256": "6170c8c4c76aa5007c302ad07224d448855bfed1d5deb2ee1adc6c7882d05a6f",
+      "bytes": 39007
+    },
+    {
+      "capture": "pass-2/mobile-before.png",
+      "sha256": "27ba73bc2091a999b0d401091127e9eda6e456a71aa83e51d87b195ce56c2061",
+      "bytes": 17177
+    },
+    {
+      "capture": "pass-2/mobile-short-after.png",
+      "sha256": "063e2f4a61cd4934900f2dc94e6076c9baacb70e49034d9b20fe9a3ee879d198",
+      "bytes": 37995
+    },
+    {
+      "capture": "pass-2/mobile-short-before.png",
+      "sha256": "7d0aa32e8ca6a10932de18779b4b015a875a79c1c0dea0a2d01e48eec10426cc",
+      "bytes": 16391
+    },
+    {
+      "capture": "pass-2/reflow-after.png",
+      "sha256": "dc070b396ceaa69410c7253531ca1da8dd08083f4b0849db649f59b3f37dd8db",
+      "bytes": 37870
+    },
+    {
+      "capture": "pass-2/reflow-before.png",
+      "sha256": "0f05d4113be2671e12f8c04e5f27e355ef2d519a7a934cc2e45dc07043d8ea41",
+      "bytes": 15688
+    },
+    {
+      "capture": "pass-2/wide-after.png",
+      "sha256": "32b758d0adde9d7ccde11a3a6976cd80d47f7253c85159ca7dcc42c39fb336dc",
+      "bytes": 60114
+    },
+    {
+      "capture": "pass-2/wide-before.png",
+      "sha256": "2f5b8aa0c7f1b1698389eaf2098da5cbb2a97c461ee40b5782da82c3e21e876b",
+      "bytes": 33293
+    },
+    {
+      "capture": "pass-2-real/desktop-after.png",
+      "sha256": "9ea35b936ce25c115bfaca98470ca96733653d74f701e133b7bc1517e8bbf788",
+      "bytes": 83894
+    },
+    {
+      "capture": "pass-2-real/desktop-before.png",
+      "sha256": "00e5f737efc96a0eb193d2ca71cd59f6726bf13f0a3e2516676967c1f36cf9af",
+      "bytes": 82936
+    },
+    {
+      "capture": "pass-2-real/mobile-after.png",
+      "sha256": "939961d03210782be831a8acadbf1a3a1fdf15bc2f28505c1708f40999256ed1",
+      "bytes": 53753
+    },
+    {
+      "capture": "pass-2-real/mobile-before.png",
+      "sha256": "0adf87136eaeae9881025da62e8c61948d4b71b27aeba3684430f6b842eaece0",
+      "bytes": 53267
+    },
+    {
+      "capture": "pass-2-real/mobile-short-after.png",
+      "sha256": "63861cb867ec79f261f10a7252cbfa9cef85044a027702269307ce5082a16a74",
+      "bytes": 45916
+    },
+    {
+      "capture": "pass-2-real/mobile-short-before.png",
+      "sha256": "746856f862eae6e283ce508097bc5b0e3515b6a3125804ec68c4460d3ec1d6ca",
+      "bytes": 45413
+    },
+    {
+      "capture": "pass-2-real/reflow-after.png",
+      "sha256": "a0229a606bd2e9438f042d1cdbcb14e69847936f73ce16b1977cd8169e9530c6",
+      "bytes": 41899
+    },
+    {
+      "capture": "pass-2-real/reflow-before.png",
+      "sha256": "a697523cd5475dc351d770ae30c4842ae3dd232f0f0f69d9406c1d4ff49a98e7",
+      "bytes": 41885
+    },
+    {
+      "capture": "pass-2-real/wide-after.png",
+      "sha256": "ca74842f15ee1cee512d90e6ea279872d434acd64b32171c698bd2dda369ad77",
+      "bytes": 91205
+    },
+    {
+      "capture": "pass-2-real/wide-before.png",
+      "sha256": "7a3b13174b22e1db6c2e17061872ddcb5c5b3afd7e2b6138f41abd47653fe3dc",
+      "bytes": 86072
+    },
+    {
+      "capture": "rendered/desktop.png",
+      "sha256": "7010013258198d3ad941eb60b3571d155dfde0757c73251c697b00d1ab706307",
+      "bytes": 167642
+    },
+    {
+      "capture": "rendered/mobile.png",
+      "sha256": "893e6dc22484fe92fe072fa44eed16aa3cd9d7463fa82d82366fa3728988a539",
+      "bytes": 82424
+    },
+    {
+      "capture": "rendered/reflow.png",
+      "sha256": "208175fbaff85476a7210fa51e839c0c4bbbcc5604afd2cd6e5262f9f37be03b",
+      "bytes": 72019
+    },
+    {
+      "capture": "rendered/wide.png",
+      "sha256": "938fd9069f279f6b5a2c536319c26e2c15d0dfe23de3c0049b27c4a5cb95aa39",
+      "bytes": 186734
+    },
+    {
+      "capture": "pass-final/desktop-after.png",
+      "sha256": "50ffec774a715ef7274bf70a24bc74cc8b8a26e7323368916fe820792d77c683",
+      "bytes": 57056
+    },
+    {
+      "capture": "pass-final/desktop-before.png",
+      "sha256": "8ebf44ac4ec3cdde7c07408ff6543d655260d3242df2d4d185227a8e2e981601",
+      "bytes": 31180
+    },
+    {
+      "capture": "pass-final/mobile-after.png",
+      "sha256": "ffd1577ed29f984e9dabff25a441341744152cb73e4245676e0da92af8284e4e",
+      "bytes": 39054
+    },
+    {
+      "capture": "pass-final/mobile-before.png",
+      "sha256": "27ba73bc2091a999b0d401091127e9eda6e456a71aa83e51d87b195ce56c2061",
+      "bytes": 17177
+    },
+    {
+      "capture": "pass-final/mobile-short-after.png",
+      "sha256": "acdd174d1c0a612526f765c68a541ff6cc15d75623ab3317b129a0bd469a4ed6",
+      "bytes": 38410
+    },
+    {
+      "capture": "pass-final/mobile-short-before.png",
+      "sha256": "7d0aa32e8ca6a10932de18779b4b015a875a79c1c0dea0a2d01e48eec10426cc",
+      "bytes": 16391
+    },
+    {
+      "capture": "pass-final/reflow-after.png",
+      "sha256": "6a5a29f3dc51db4066e4fd152689e07693552509477f4f3a0d462300f4248f98",
+      "bytes": 37888
+    },
+    {
+      "capture": "pass-final/reflow-before.png",
+      "sha256": "0f05d4113be2671e12f8c04e5f27e355ef2d519a7a934cc2e45dc07043d8ea41",
+      "bytes": 15688
+    },
+    {
+      "capture": "pass-final/wide-after.png",
+      "sha256": "b4d6398d301cfe41ecb44ba15a1d52202bad8e633813d3f063af6f4d95130820",
+      "bytes": 60114
+    },
+    {
+      "capture": "pass-final/wide-before.png",
+      "sha256": "2f5b8aa0c7f1b1698389eaf2098da5cbb2a97c461ee40b5782da82c3e21e876b",
+      "bytes": 33293
+    },
+    {
+      "capture": "pass-final-real/desktop-after.png",
+      "sha256": "6ccc80b0bcc371eba70045d99f2a86241e0733b7b330ab479ca8d935c7cd7e78",
+      "bytes": 83894
+    },
+    {
+      "capture": "pass-final-real/desktop-before.png",
+      "sha256": "e92bdf94378140fb7713680c49642bbd833d73a58aac04ec9616ea5a60c2cfd2",
+      "bytes": 87617
+    },
+    {
+      "capture": "pass-final-real/mobile-after.png",
+      "sha256": "91ad989d53192e081ed53c7db54360eec2a2675adc92ceb6399a1c46e9e33ce5",
+      "bytes": 53744
+    },
+    {
+      "capture": "pass-final-real/mobile-before.png",
+      "sha256": "8c3c3f9479e4c4f2b58ba48f74e737a0b971c427e7e12972d87bd377c4714f33",
+      "bytes": 57318
+    },
+    {
+      "capture": "pass-final-real/mobile-short-after.png",
+      "sha256": "7584c24edb3cc4bcccf8d9555be2b0e05d147cf2fe6063e421b320f09010aba2",
+      "bytes": 45925
+    },
+    {
+      "capture": "pass-final-real/mobile-short-before.png",
+      "sha256": "89e4522426d1c39bf176cb06cce3e2abc91141b7a76cd5a23a3ba1b1dd5ad974",
+      "bytes": 51708
+    },
+    {
+      "capture": "pass-final-real/reflow-after.png",
+      "sha256": "fa836bd1aaa55560592430eb71bd2cc89d9af8c1269d31f18dff7236d62a9ba2",
+      "bytes": 41895
+    },
+    {
+      "capture": "pass-final-real/reflow-before.png",
+      "sha256": "96425b8f65320412a07f35aa41fcaf0c897b180dee86df0042fa5a936a6de8a0",
+      "bytes": 47362
+    },
+    {
+      "capture": "pass-final-real/wide-after.png",
+      "sha256": "7311280a650672acc5a5304d3ffc9b9135c835be3f24bb9d442d285cb0f91493",
+      "bytes": 91190
+    },
+    {
+      "capture": "pass-final-real/wide-before.png",
+      "sha256": "f3e3bd7806d6d07564e55b7805c7ac7759a21db63d2f30c29d761fa7f44ad7f6",
+      "bytes": 92577
+    }
+  ],
+  "source": "Actual components rendered with matching public/fictional states; actual webpack pages separately checked",
+  "imagegen": "Synthetic mobile/desktop references plus final mobile reference; accepted target enlargement, rejected extra borders/decoration and type changes",
+  "finalComponentCapture": "pass-final and pass-final-real; before uses pinned baseline renderer/resolver and original RAF label; after uses current proposal",
+  "consumerCaptureRoot": "/tmp/onco-evidence-consumers",
+  "consumerImages": [
+    {
+      "path": "captures-final/desktop-assays-after.png",
+      "bytes": 234281,
+      "sha256": "099e8d94a4fc8e797d939279dc6088131bf1974b370ddbf1e9e768f24fb009c3"
+    },
+    {
+      "path": "captures-final/desktop-assays-before.png",
+      "bytes": 242655,
+      "sha256": "4d16ce0c1923ea889a5583ac168537ec767893d42dd824cb3e08c1f58a9e9206"
+    },
+    {
+      "path": "captures-final/desktop-bl-b01d1-307-after.png",
+      "bytes": 196370,
+      "sha256": "1c8f04f324d219f46fa9fc07b47ddd5a3fcdb6b0bce8b2e5f08a39c47bd2e59c"
+    },
+    {
+      "path": "captures-final/desktop-bl-b01d1-307-before.png",
+      "bytes": 211854,
+      "sha256": "b7cc5ccc763e92a74a1ed59404705a2f01f452961ba2714b220d9c20cd72a17d"
+    },
+    {
+      "path": "captures-final/desktop-clio-8221-after.png",
+      "bytes": 141689,
+      "sha256": "04ad954b65a5249943cadad5d715909ca7855703a45b22263c85cc6f24de91af"
+    },
+    {
+      "path": "captures-final/desktop-clio-8221-before.png",
+      "bytes": 154773,
+      "sha256": "6e62d4bdb53ca760771313194f57fb4598011822c1f329f2f7fe4794d580f500"
+    },
+    {
+      "path": "captures-final/desktop-dako-pd-l1-22c3-pharmdx-after.png",
+      "bytes": 169910,
+      "sha256": "bf11c6e4f771e79b3e6874e7c3cb619a7bb8c444ac08b2f8d634c0ef314e56a9"
+    },
+    {
+      "path": "captures-final/desktop-dako-pd-l1-22c3-pharmdx-before.png",
+      "bytes": 146759,
+      "sha256": "3d5337c81ca6afbe9242579bd5c6cd3d0c06aa6251318d8b4628b8a35f8b78e8"
+    },
+    {
+      "path": "captures-final/desktop-trastuzumab-emtansine-after.png",
+      "bytes": 175484,
+      "sha256": "7d50da3a34c88bc383c24e7f1e1d95ec393967d06343864de5077b8eb6bade77"
+    },
+    {
+      "path": "captures-final/desktop-trastuzumab-emtansine-before.png",
+      "bytes": 232718,
+      "sha256": "f8c5933a3aeaed364c7e7bc231cd304918be7f5d77cf39ea4a8656bd57b6db3c"
+    },
+    {
+      "path": "captures-final/mobile-assays-after.png",
+      "bytes": 54065,
+      "sha256": "5c04b24103b2e3bc41bbed2005fc40b8d1ee901cb43d5301346dbc841d1d7107"
+    },
+    {
+      "path": "captures-final/mobile-assays-before.png",
+      "bytes": 80508,
+      "sha256": "4fa82ebd65e038ce30916b129eaaa9140a226ba355dd3d1f0e28cb6ade90eed5"
+    },
+    {
+      "path": "captures-final/mobile-bl-b01d1-307-after.png",
+      "bytes": 71691,
+      "sha256": "f6eed3c62d2de913b3a4c078efc04687d0eac7f2a77009403e58c0567d75583a"
+    },
+    {
+      "path": "captures-final/mobile-bl-b01d1-307-before.png",
+      "bytes": 72030,
+      "sha256": "0416f30e36525feef0529f7e3d82805c73c6d4ace4283c2586847b8d2e11d0ef"
+    },
+    {
+      "path": "captures-final/mobile-clio-8221-after.png",
+      "bytes": 78422,
+      "sha256": "fb1b34f080c1040873b06761c38197382780b73ea3d316261ff357a0e2cd17bd"
+    },
+    {
+      "path": "captures-final/mobile-clio-8221-before.png",
+      "bytes": 73800,
+      "sha256": "32a938046c6462b8933d220bdb341b9f934aaaba1e9fc0a122332903facc6d0a"
+    },
+    {
+      "path": "captures-final/mobile-dako-pd-l1-22c3-pharmdx-after.png",
+      "bytes": 88324,
+      "sha256": "853322426352245ab41bf1659b7640ffbac49fea7c8996af7c0752d6989d1977"
+    },
+    {
+      "path": "captures-final/mobile-dako-pd-l1-22c3-pharmdx-before.png",
+      "bytes": 61527,
+      "sha256": "0a9d1e02626c9c5255e00d0ef6feada540aa44dca3aa0386cd56a1bd6a363997"
+    },
+    {
+      "path": "captures-final/mobile-short-assays-after.png",
+      "bytes": 44787,
+      "sha256": "ae3c7963631efd38c7c633012fa948954c0332bd54365896a13cef213ce0a946"
+    },
+    {
+      "path": "captures-final/mobile-short-assays-before.png",
+      "bytes": 62792,
+      "sha256": "27310540f5671a0aedc5fca941b72c293e95878a3f3fe2642e9125ceeca8b7f1"
+    },
+    {
+      "path": "captures-final/mobile-short-bl-b01d1-307-after.png",
+      "bytes": 52081,
+      "sha256": "4016f8a7a3bf685f0b92c106e430f531e56354051096ac26dfaba2c364bf0c7e"
+    },
+    {
+      "path": "captures-final/mobile-short-bl-b01d1-307-before.png",
+      "bytes": 50054,
+      "sha256": "2e8692b168d1f7c4962f0ccb25366949685c5fa18fb182a3876c460b612701f8"
+    },
+    {
+      "path": "captures-final/mobile-short-clio-8221-after.png",
+      "bytes": 58614,
+      "sha256": "22e07a0a204105dd785a6993453db41a22a6fd842a8f95d7d915aacc62aaff34"
+    },
+    {
+      "path": "captures-final/mobile-short-clio-8221-before.png",
+      "bytes": 55624,
+      "sha256": "fc0058207cd986aeabafbdb6d5dc7b17f901be4baeed78d77941b1bbd09273c6"
+    },
+    {
+      "path": "captures-final/mobile-short-dako-pd-l1-22c3-pharmdx-after.png",
+      "bytes": 62722,
+      "sha256": "d6f415fe418f3da94b5de928658464bd520a5b838b1e85bb0608244b8b9cdf3c"
+    },
+    {
+      "path": "captures-final/mobile-short-dako-pd-l1-22c3-pharmdx-before.png",
+      "bytes": 49119,
+      "sha256": "262537d7885d50eccfe0be70a250a313dc2cfde1516ca41974cd9fdb980dfb7a"
+    },
+    {
+      "path": "captures-final/mobile-short-trastuzumab-emtansine-after.png",
+      "bytes": 42949,
+      "sha256": "a2a770f2310c19aa44fb2494f2f056d2904d31a26b9a4b5fa67c2879fc050b7b"
+    },
+    {
+      "path": "captures-final/mobile-short-trastuzumab-emtansine-before.png",
+      "bytes": 46652,
+      "sha256": "a739a5e155c8ac183a751251e8ffb57e762e34989401b1caa78221b734ff5d06"
+    },
+    {
+      "path": "captures-final/mobile-trastuzumab-emtansine-after.png",
+      "bytes": 58271,
+      "sha256": "8c8a5f8501f777c070f6a76ee5284b3622732e2b5b5d1272e14c79759abb78a6"
+    },
+    {
+      "path": "captures-final/mobile-trastuzumab-emtansine-before.png",
+      "bytes": 62253,
+      "sha256": "89e6f3a106048147c45bc4737fb62836646bb58eab6c0980a993e499fcdb412a"
+    },
+    {
+      "path": "captures-final/reflow-assays-after.png",
+      "bytes": 56828,
+      "sha256": "d5ff3bf63850f740d5da5a8d9d72a9b18e74d74aa5a4b5a382d9cc7a1ac43e4e"
+    },
+    {
+      "path": "captures-final/reflow-assays-before.png",
+      "bytes": 72763,
+      "sha256": "737cc77f91ffa3741253711499fd437d239f46c0f49d1788fc2a24ddd3963880"
+    },
+    {
+      "path": "captures-final/reflow-bl-b01d1-307-after.png",
+      "bytes": 60256,
+      "sha256": "2a70e65030302244b32c975dc2a34c7b9cbc8bf7b7c00d8a5d149eaf7e1ab9e4"
+    },
+    {
+      "path": "captures-final/reflow-bl-b01d1-307-before.png",
+      "bytes": 64694,
+      "sha256": "f489307f3bd5d3267c29cf9e9c8fd6ad0239fe1144eb799b1061c83786ca92c0"
+    },
+    {
+      "path": "captures-final/reflow-clio-8221-after.png",
+      "bytes": 69480,
+      "sha256": "28ff33760ed2fa6ad94e71c4c75bca6ae09a7dac0edbd34902c7c6e19cbe34cb"
+    },
+    {
+      "path": "captures-final/reflow-clio-8221-before.png",
+      "bytes": 65756,
+      "sha256": "da415efc7baa3a83efb4f8524277d31ed8073e95b5b62fd6a64acd97948ff3ac"
+    },
+    {
+      "path": "captures-final/reflow-dako-pd-l1-22c3-pharmdx-after.png",
+      "bytes": 77239,
+      "sha256": "9d4cca9f7f79eb076a81b49d6d383aef12ebd17a1edc141e5aebc5954c78061e"
+    },
+    {
+      "path": "captures-final/reflow-dako-pd-l1-22c3-pharmdx-before.png",
+      "bytes": 50783,
+      "sha256": "2950105a54824468880241e6547bb88ba540b69aea589f6da508306eac17123a"
+    },
+    {
+      "path": "captures-final/reflow-trastuzumab-emtansine-after.png",
+      "bytes": 56214,
+      "sha256": "e2141865689fe668a43286fd01ee79dc481936d18f835563c248b95a908ea249"
+    },
+    {
+      "path": "captures-final/reflow-trastuzumab-emtansine-before.png",
+      "bytes": 59055,
+      "sha256": "4b7af33ca1b0785c83272dbf6a5f2a1779d23fbdd9f2f14ca7b31d9814c6c6bf"
+    },
+    {
+      "path": "captures-final/wide-assays-after.png",
+      "bytes": 259637,
+      "sha256": "12d987e2fc2606b61fe6de611317900aded002870601ce5f0c37af78f7bc76f0"
+    },
+    {
+      "path": "captures-final/wide-assays-before.png",
+      "bytes": 277406,
+      "sha256": "5f1a1c5f69ae347252f71ae34eb9227445585b164778b94a7118840ac573d7f5"
+    },
+    {
+      "path": "captures-final/wide-bl-b01d1-307-after.png",
+      "bytes": 232290,
+      "sha256": "e8cab252ddf9bde78a617d5581f2d935a506a9e02c2732604d270c20eb46e961"
+    },
+    {
+      "path": "captures-final/wide-bl-b01d1-307-before.png",
+      "bytes": 240827,
+      "sha256": "9bf98433640775382c86f8801b89e1cb239ccbcf175b23ef14eb8b5695df3120"
+    },
+    {
+      "path": "captures-final/wide-clio-8221-after.png",
+      "bytes": 156135,
+      "sha256": "28e1893c291133bf0b35bbf5637ddd61d0f0a2b6985d1a146a1d55bf610317df"
+    },
+    {
+      "path": "captures-final/wide-clio-8221-before.png",
+      "bytes": 161992,
+      "sha256": "852add387a7194607feee233c5df61323e7b78d0fe13567118755ff1e48e422a"
+    },
+    {
+      "path": "captures-final/wide-dako-pd-l1-22c3-pharmdx-after.png",
+      "bytes": 189541,
+      "sha256": "d081d367ed02612b35ba325d630834c1effb87ca2665dc6c40f871510932dd0e"
+    },
+    {
+      "path": "captures-final/wide-dako-pd-l1-22c3-pharmdx-before.png",
+      "bytes": 155309,
+      "sha256": "db75953229b28e28fbb495708a554289e8a6f5102ee92a783231c32c5323c788"
+    },
+    {
+      "path": "captures-final/wide-trastuzumab-emtansine-after.png",
+      "bytes": 189690,
+      "sha256": "bd674463e87e7fab0847a670c3a22b08bce652a9b36f7947ea7829a9bb4162a3"
+    },
+    {
+      "path": "captures-final/wide-trastuzumab-emtansine-before.png",
+      "bytes": 265669,
+      "sha256": "f19ac87723a6b6f8100f8b725c0de93e061850044aa643f2cf6eb394f3436307"
+    },
+    {
+      "path": "exported/desktop-assay-list.png",
+      "bytes": 156689,
+      "sha256": "73dbea1e4cc6cd9b3774d90fc6b5092bdb13aedc5f583d95d1fc1a4538e3c9d7"
+    },
+    {
+      "path": "exported/desktop-assay-product.png",
+      "bytes": 189877,
+      "sha256": "83d30a7c84b4851467f35fc6365db27d261b24d10150679b8722d4722a67623d"
+    },
+    {
+      "path": "exported/desktop-clio.png",
+      "bytes": 158667,
+      "sha256": "e8fe3d815bae4db9d52c4ceb9ec1bca9e9e4f63b81ac011c6545f5e1a4bbbfab"
+    },
+    {
+      "path": "exported/desktop-dm1.png",
+      "bytes": 196153,
+      "sha256": "98ec5e1fbd274cc5b1968cd46a3256c32c9c1e4869c19d47b513cf5f6f2b5756"
+    },
+    {
+      "path": "exported/desktop-trial.png",
+      "bytes": 257150,
+      "sha256": "0be9ecfc565a76879f67c69cfc7e8babed611a94da6228b91fded02df9b9dac2"
+    },
+    {
+      "path": "exported/mobile-assay-list.png",
+      "bytes": 97471,
+      "sha256": "442662b55aeb2542a100be5f9fef4713a3cfed59ac8c33592c393d347d503417"
+    },
+    {
+      "path": "exported/mobile-assay-product.png",
+      "bytes": 94086,
+      "sha256": "b670f3176119299b4b29a0118fcd2df7addae09545cc42e3b1e5a2ea5e5c52e7"
+    },
+    {
+      "path": "exported/mobile-clio.png",
+      "bytes": 73129,
+      "sha256": "6b61316ad5bddcda79c95ea4fd7ef7911a386baa59c05552baa14f166acc9e0a"
+    },
+    {
+      "path": "exported/mobile-dm1.png",
+      "bytes": 82679,
+      "sha256": "ead79a763ebf1f1f3faa17adcef923385d3258f9730f95f82facee68f7774d91"
+    },
+    {
+      "path": "exported/mobile-trial.png",
+      "bytes": 90817,
+      "sha256": "95b45a5dd1525b9f4c2a7a29befa9a938816cce0b508fddbe864f95cf737bedd"
+    },
+    {
+      "path": "exported/reflow-assay-list.png",
+      "bytes": 83423,
+      "sha256": "6ca93475c3c7bbcd075d58e50b403a32ae759e03d19c630f671e42c556c8bbe8"
+    },
+    {
+      "path": "exported/reflow-assay-product.png",
+      "bytes": 87616,
+      "sha256": "b680581b278ed8112d9d381d5e9f5dacd502e76861ffdceddd3b83901898a57f"
+    },
+    {
+      "path": "exported/reflow-clio.png",
+      "bytes": 69397,
+      "sha256": "45fc036eeb11df104983c8c72c7c0d7812ad3dc43bb043c1c7d2dfc1c21db078"
+    },
+    {
+      "path": "exported/reflow-dm1.png",
+      "bytes": 70773,
+      "sha256": "b7e8c9f1bc2048c8b6bf18d018e1bfff365bb4678f25ab36a64684bcf6f6c6fa"
+    },
+    {
+      "path": "exported/reflow-trial.png",
+      "bytes": 78756,
+      "sha256": "293e18f05a288435cecdb7b74b12422a8bf32b262f2d5680c794ab3f1d36c0ec"
+    },
+    {
+      "path": "exported/wide-assay-list.png",
+      "bytes": 170060,
+      "sha256": "3a157445f3354cb2c448c28f6b01b8f8b5dc01487ea6b351ee4037fa02e010f2"
+    },
+    {
+      "path": "exported/wide-assay-product.png",
+      "bytes": 202616,
+      "sha256": "9939ca1fc48f51655d6513a5e22401f41a131e4c5124f7f23144cf8a588525eb"
+    },
+    {
+      "path": "exported/wide-clio.png",
+      "bytes": 169782,
+      "sha256": "46e213fba00645a95fd54494bc6508d113d72e10b3934b3dd39db613b02e46e8"
+    },
+    {
+      "path": "exported/wide-dm1.png",
+      "bytes": 212652,
+      "sha256": "9640a7cf0455a67fe5411e1bfadb188b5fac4347a6aaad671ca39fce46a68c8b"
+    },
+    {
+      "path": "exported/wide-trial.png",
+      "bytes": 270189,
+      "sha256": "024961e2e209f0c6cf5aabd9f54780c57802974fd2fe20ed492d1f2551c3b860"
+    }
+  ]
+}

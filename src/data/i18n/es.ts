@@ -448,7 +448,7 @@ export const tldr_es: Record<string, string> = {
 
   // ---- vías ----
   "pi3k-akt-mtor": "El circuito de 'crecer y sobrevivir' de la célula. Las señales de crecimiento de la superficie encienden PI3K, que enciende AKT, que enciende mTOR, que fabrica proteínas y bloquea la autodestrucción.",
-  "ras-mapk": "El relevo de 'dividirse' de la célula. Una señal en la superficie activa RAS, que pasa a RAF, MEK y ERK, que ordenan al núcleo dividir la célula. Las mutaciones de KRAS y BRAF lo dejan atascado en encendido.",
+
   "p53-cell-cycle": "Los frenos. p53 detecta el daño y detiene la copia de la célula; RB retiene la célula en la puerta G1 hasta que CDK4/6 la abre. Los cánceres cortan estos frenos.",
   ddr: "Los equipos de reparación. Las roturas de una cadena las repara PARP; las de doble cadena, la recombinación homóloga dependiente de BRCA. Pierde un equipo y la célula sobrevive; pierde ambos y muere. Así funcionan los inhibidores de PARP.",
   "pd1-checkpoint": "Cómo deciden atacar las células T. Necesitan ver la diana (TCR-MHC) y una señal de 'adelante' (CD28). PD-1 y CTLA-4 son señales de 'alto'; los tumores las explotan. Los inhibidores de puntos de control eliminan el alto.",

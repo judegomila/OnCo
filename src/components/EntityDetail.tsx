@@ -55,6 +55,8 @@ import { RecoveryPanel } from "./RecoveryPanel";
 import { cellsForDrug as recoveryCellsForDrug } from "@/data/recovery-matrix";
 import { AccessTable } from "./AccessTable";
 import { RegulatoryTimeline } from "./RegulatoryTimeline";
+import { ConjugateComposition, RegulatoryClaims } from "./ScopedEvidence";
+import { ChemicalEvidence } from "./ChemicalEvidence";
 import { SeeItInAction } from "./SeeItInAction";
 import { modalityGroup } from "@/lib/modality-group";
 import { TldrText } from "./TldrText";
@@ -392,9 +394,10 @@ function kindTabs(e: Entity): Tab[] {
             <Field label="Modality">{e.modality}</Field>
             <Field label="Mechanism">{e.mechanism}</Field>
             <Field label="Brand / code">{[e.brand, e.code].filter(Boolean).join(" · ")}</Field>
-            <Field label="Payload">{e.payload}</Field>
+            {!e.conjugateComposition && <Field label="Payload">{e.payload}</Field>}
             <Field label="Linker">{e.linker}</Field>
           </div>
+          {e.conjugateComposition && <Block title="Conjugate composition"><ConjugateComposition composition={e.conjugateComposition} /></Block>}
           {e.dosing && <div className="mt-6"><DosingCard drug={e} /></div>}
           <ReadoutsForDrug drugId={e.id} />
           {assaysForDrug(e.id).length > 0 && <div className="mt-6"><div className="kicker mb-2"><TL text="Companion diagnostics" /></div><ul className="text-sm space-y-1">{assaysForDrug(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></div>}
@@ -402,7 +405,8 @@ function kindTabs(e: Entity): Tab[] {
           <div className="mt-6 space-y-4"><ExclusivityPanel drugId={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /></div>
           {regionalApprovals[e.id] && <div className="mt-6"><div className="kicker mb-2"><TL text="Where it is approved" /></div><RegionStrip row={regionalApprovals[e.id]} /><p className="text-xs text-muted mt-1"><Link className="underline" href="/regulatory/regions/">Compare all products across the US, EU, UK, Japan, China and Australia →</Link></p></div>}
         </>),
-        ...(e.approvals.length || e.regulatoryEvents.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length, content: (<>
+        ...(e.approvals.length || e.regulatoryEvents.length || e.regulatoryClaims?.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length || e.regulatoryClaims?.length, content: (<>
+          {!!e.regulatoryClaims?.length && <Block title="Regulatory claims and intended uses"><RegulatoryClaims claims={e.regulatoryClaims} /></Block>}
           {e.regulatoryEvents.length > 0 && <RegulatoryTimeline events={e.regulatoryEvents} />}
           {e.approvals.length > 0 && <Block title="Approvals"><ScrollRow className="-mx-4 px-4"><table className="onco" lang="en"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
             <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> · {a.note}</span>}</td></tr>)}</tbody></table></ScrollRow></Block>}
@@ -463,7 +467,7 @@ function kindTabs(e: Entity): Tab[] {
         { id: "interventions", label: "How drugs attack it", count: e.interventions.length, content: <Bullets items={e.interventions} linked={(t) => withTermHovers(t, { skipId: e.id })} /> },
       ];
     case "term":
-      return [overview(<><div className="mt-8"><TermVisualPanel term={e} /></div><ReadoutsForTerm termId={e.id} /><div className="mt-6"><Field label="Category"><Link className="underline" href={`/terms/?category=${encodeURIComponent(e.category)}`}>{e.category}</Link></Field></div></>)];
+      return [overview(<><div className="mt-8"><TermVisualPanel term={e} /></div><ReadoutsForTerm termId={e.id} />{!!e.chemicalObservations?.length && <ChemicalEvidence id={e.id} name={e.name} observations={e.chemicalObservations} />}<div className="mt-6"><Field label="Category"><Link className="underline" href={`/terms/?category=${encodeURIComponent(e.category)}`}>{e.category}</Link></Field></div></>)];
     case "trial":
       return [
         overview(<div className="grid *:min-w-0 gap-6 sm:grid-cols-2 mt-8">

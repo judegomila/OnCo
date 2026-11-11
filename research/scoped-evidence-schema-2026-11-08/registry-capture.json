@@ -1,0 +1,10 @@
+{
+  "nct": "NCT06382142",
+  "source": "https://clinicaltrials.gov/api/v2/studies/NCT06382142?fields=NCTId%2CBriefTitle%2COfficialTitle%2CAcronym%2CprotocolSection.statusModule%2CprotocolSection.descriptionModule%2CprotocolSection.conditionsModule%2CprotocolSection.sponsorCollaboratorsModule.leadSponsor%2CprotocolSection.sponsorCollaboratorsModule.collaborators%2CprotocolSection.designModule%2CprotocolSection.armsInterventionsModule%2CprotocolSection.outcomesModule%2CprotocolSection.eligibilityModule%2CLocationFacility%2CLocationStatus%2CLocationCity%2CLocationState%2CLocationZip%2CLocationCountry%2CLocationGeoPoint&format=json",
+  "fetchedAt": "2026-11-09T01:56:04.268Z",
+  "rawResponseSha256": "1d1c9feb493ba1a2c39f7b15eb2759c2ac344f307836f7aa8d2cbfbc29bbd973",
+  "responseStudySha256": "1d1c9feb493ba1a2c39f7b15eb2759c2ac344f307836f7aa8d2cbfbc29bbd973",
+  "retainedStudySha256": "1d1c9feb493ba1a2c39f7b15eb2759c2ac344f307836f7aa8d2cbfbc29bbd973",
+  "facilityCount": 1,
+  "rawRetention": "Outside checkout; contacts excluded from the projection and facility contact strings removed before retention. No slot or cohort availability inferred."
+}

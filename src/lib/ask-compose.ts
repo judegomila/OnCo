@@ -18,6 +18,7 @@ import { tokenize } from "./semantic";
 import type { Kind } from "./kinds";
 import { REGION_META, REGIONS, regionalApprovals, type Region, type RegionalEntry } from "@/data/regional-approvals";
 import { SURVIVAL_SITES } from "@/data/survival-map";
+import { compositionText, isScopedEvidenceField, regulatoryClaimText, scopedEvidencePassages } from "./scoped-evidence-text";
 
 export type Neighbour = { id: string; kind: Kind; name: string; route: string };
 
@@ -129,7 +130,7 @@ class Builder {
   add(src: Source, text: string | undefined, field: string, score = 1): boolean {
     if (!text) return false;
     const t = text.replace(/\s+/g, " ").trim();
-    if (!t || this.has(t)) return false;
+    if (!t || (isScopedEvidenceField(field) ? this.seen.has(t) : this.has(t))) return false;
     if (!FIGURE_FIELDS.has(field) && hasSurvivalFigure(t)) return false;
     this.seen.add(t);
     this.tokens.push(new Set(tokenize(t)));
@@ -396,6 +397,12 @@ function tApproval(c: Ctx, r: AskEntityRecord): boolean {
   const s = toSource(r), e = r.entity;
   if (e.kind === "drug") {
     c.b.add(s, e.tldr, "TL;DR");
+    if (e.regulatoryClaims?.length) {
+      // Keep the coexisting scopes together, so approximate sentence deduplication cannot collapse two
+      // treatment-specific rules into one. No global approval verdict follows from a scoped claim.
+      c.b.add(s, e.regulatoryClaims.map(regulatoryClaimText).join(". "), "regulatory claims");
+      return true;
+    }
     if (e.mechanism && e.modality) c.b.add(s, `It is ${/^[aeiou]/i.test(e.modality) ? "an" : "a"} ${e.modality}: ${e.mechanism}`, "mechanism");
     for (const x of regionalSentences(short(r), e.id, regionFromQuestion(c.question) ?? c.region)) c.b.add(s, x, "regional approvals");
     const ap = [...(e.approvals ?? [])].sort((a, b) => a.year - b.year);
@@ -428,7 +435,8 @@ function tMechanism(c: Ctx, r: AskEntityRecord): boolean {
     case "drug":
       c.b.add(s, e.mechanism, "mechanism");
       if (e.mechanismSteps?.length) c.b.add(s, `Step by step: ${e.mechanismSteps.map((x, i) => `${i + 1}) ${x.replace(/\.$/, "")}`).join("; ")}.`, "mechanism steps");
-      if (e.payload) c.b.add(s, `Payload: ${e.payload}${e.linker ? `; linker: ${e.linker}` : ""}.`, "payload");
+      if (e.conjugateComposition) c.b.add(s, compositionText(e.conjugateComposition), "conjugate composition");
+      else if (e.payload) c.b.add(s, `Payload: ${e.payload}${e.linker ? `; linker: ${e.linker}` : ""}.`, "payload");
       for (const t of c.related.filter((x) => x.entity.kind === "target").slice(0, 1)) c.b.add(toSource(t), t.entity.biology, "biology");
       return true;
     case "technology": {
@@ -437,9 +445,12 @@ function tMechanism(c: Ctx, r: AskEntityRecord): boolean {
       else if (e.strengths?.[0]) c.b.add(s, `Strengths: ${e.strengths.slice(0, 2).join("; ")}.`, "strengths");
       return true;
     }
-    case "pathway": c.b.add(s, e.analogy, "analogy"); for (const x of first(e.summary, 1)) c.b.add(s, x, "summary"); for (const x of e.interventions?.slice(0, 2) ?? []) c.b.add(s, x, "interventions"); return true;
+    case "pathway": c.b.add(s, e.analogy, "analogy"); for (const x of first(e.summary, 1)) c.b.add(s, x, "summary"); for (const x of e.interventions?.slice(0, 2) ?? []) c.b.add(s, x, "interventions"); for (const p of scopedEvidencePassages(e).slice(0, 2)) c.b.add(s, p.text, p.field); return true;
     case "target": c.b.add(s, e.biology, "biology"); for (const x of first(e.summary, 1)) c.b.add(s, x, "summary"); return true;
-    case "term": for (const x of first(e.summary, 2)) c.b.add(s, x, "summary"); return true;
+    case "term":
+      for (const x of first(e.summary, 2)) c.b.add(s, x, "summary");
+      for (const observation of scopedEvidencePassages(e)) c.b.add(s, observation.text, observation.field);
+      return true;
     default: return false;
   }
 }
@@ -481,6 +492,15 @@ function tSideEffects(c: Ctx, r: AskEntityRecord): boolean {
 
 function tTrials(c: Ctx, r: AskEntityRecord): boolean {
   const s = toSource(r), e = r.entity;
+  if (e.kind === "trial" && e.participation?.length && /\b(?:sites?|facilit(?:y|ies)|cohorts?|slots?)\b/i.test(c.question)) {
+    c.b.add(s, "Overall trial recruitment does not establish a facility's status or local cohort and slot availability.", "trial access");
+    const observations = scopedEvidencePassages(e).filter(p => p.field === "registry facility" || p.field === "cohort observation");
+    if (observations.length) {
+      c.b.add(s, observations.slice(0, 6).map(p => p.text).join(". "), "trial access observations");
+      if (observations.length > 6) c.b.add(s, `Showing six of ${observations.length} captured facility/cohort observations; the full set is on the trial page.`, "trial access");
+    } else c.b.add(s, "No named facility or separately sourced cohort observations are retained on this record; check its dated registry source and study team.", "trial access");
+    return true;
+  }
   if (e.kind === "trial") return tResults(c, r);
   const trials = trialsOf(r, c.lookup, 6);
   c.b.add(s, e.tldr, "TL;DR");
@@ -539,9 +559,11 @@ function compareFields(r: AskEntityRecord, lookup: ComposeInput["lookup"]): Arra
   switch (e.kind) {
     case "drug": {
       const ap = e.approvals ?? [];
+      const delivery = e.conjugateComposition ? e.conjugateComposition.deliveryTargetIds : e.targets;
+      const cargo = e.conjugateComposition ? e.conjugateComposition.payloads.map(p => `${p.chemical.name} (${p.mechanism})`).join(" + ") : e.payload ?? "";
       const tox = (e.toxicity ?? []).filter((t) => t.grade3PlusPct !== undefined).sort((a, b) => (b.grade3PlusPct ?? 0) - (a.grade3PlusPct ?? 0)).slice(0, 3);
       const common = (e.toxicity ?? []).filter((t) => t.anyGradePct !== undefined).sort((a, b) => (b.anyGradePct ?? 0) - (a.anyGradePct ?? 0)).slice(0, 5);
-      return [["Modality", `${e.modality ?? ""}${e.targets?.length ? ` against ${list(names(e.targets))}` : ""}`], ["Payload", e.payload ?? ""], ["Mechanism", e.mechanism ?? ""], ["Approvals", ap.length ? `${ap.length} recorded, first ${Math.min(...ap.map((a) => a.year))}: ${[...ap].sort((a, b) => a.year - b.year)[0].indication}` : `none yet (${e.status ?? "status unknown"})`], ["Grade 3 or higher side effects", tox.map((t) => `${t.event.toLowerCase()} ${t.grade3PlusPct}%`).join(", ")], ["Most common side effects (any grade)", common.map((t) => `${t.event.toLowerCase()} ${t.anyGradePct}%`).join(", ")], ["Companies", list(names(e.companies))]];
+      return [["Modality", `${e.modality ?? ""}${delivery?.length ? ` against ${list(names(delivery))}` : ""}`], ["Payload", cargo], ["Mechanism", e.mechanism ?? ""], e.regulatoryClaims?.length ? ["Regulatory claims", e.regulatoryClaims.map(regulatoryClaimText).join("; ")] : ["Approvals", ap.length ? `${ap.length} recorded, first ${Math.min(...ap.map((a) => a.year))}: ${[...ap].sort((a, b) => a.year - b.year)[0].indication}` : `none yet (${e.status ?? "status unknown"})`], ["Grade 3 or higher side effects", tox.map((t) => `${t.event.toLowerCase()} ${t.grade3PlusPct}%`).join(", ")], ["Most common side effects (any grade)", common.map((t) => `${t.event.toLowerCase()} ${t.anyGradePct}%`).join(", ")], ["Companies", list(names(e.companies))]];
     }
     case "technology": return [["Principle", first(e.principle, 1)[0] ?? ""], ["Since", e.since ? String(e.since) : ""], ["Status", e.status ?? ""], ["Strengths", (e.strengths ?? []).slice(0, 2).join("; ")], ["Limitations", (e.limitations ?? []).slice(0, 2).join("; ")]];
     case "cancer": return [["Burden", e.burden ?? ""], ["Biomarkers", (e.biomarkers ?? []).slice(0, 4).join("; ")], ["Standard of care", (e.standardOfCare ?? []).slice(0, 2).map((x) => `${x.setting}: ${x.approach}`).join(" ")]];

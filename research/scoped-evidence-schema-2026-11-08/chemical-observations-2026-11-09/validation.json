@@ -1,0 +1,46 @@
+{
+  "checkedOn": "2026-11-09",
+  "verificationCapturedBeforeCommit": true,
+  "baseHead": "95374f255e9dcaee8a63a9c50fe0d235e207a451",
+  "standaloneGraphEntities": 22683,
+  "validate": "pass",
+  "typecheck": "pass",
+  "lint": {
+    "errors": 0,
+    "preExistingWarnings": 7
+  },
+  "fullVitest": {
+    "filesPassed": 286,
+    "testsPassed": 2838,
+    "testsSkipped": 2,
+    "durationSeconds": 92.62
+  },
+  "focusedChemicalTests": {
+    "passed": 5,
+    "covers": [
+      "source/species/method/context requirements",
+      "endpoint-specific transporter and conjugate requirements",
+      "free drug versus retained-linker identity",
+      "substrate versus inhibition",
+      "differing source preservation through retrieval, reader and mechanism answer",
+      "missing evidence versus negative results",
+      "explicit species/conjugate references",
+      "loading range versus invented mean"
+    ]
+  },
+  "integration": {
+    "canonicalOwners": 65,
+    "structuredObservations": 46,
+    "jsonAndMarkdownObservationCount": 46,
+    "temporarySourceFiles": 19,
+    "sourceBytesRestoredByHash": true,
+    "combinedTypecheck": "pass",
+    "pairedStaticPagesPerState": 66
+  },
+  "newProductionBuild": "not rerun for this follow-up",
+  "newBrowserHydrationResponsiveAndHostedPreview": "not claimed",
+  "ownerApproval": "pending",
+  "merged": false,
+  "deployed": false,
+  "gatePolicy": "No floors, budgets, ranking or expected-entity changes."
+}

@@ -104,7 +104,7 @@ const raw: TrialInput[] = [
 
     targets: ["trop2"],
   }),
-  t({ id: "bl-b01d1-307", name: "BL-B01D1-307", nct: "NCT06382142", phase: "3", status: "positive", yearReported: 2026, sponsor: "SystImmune / BMS",
+  t({ id: "bl-b01d1-307", name: "BL-B01D1-307", nct: "NCT06382142", asOf: "2026-11-08", phase: "3", status: "positive", yearReported: 2026, sponsor: "SystImmune / BMS",
     setting: "Previously treated locally advanced or metastatic TNBC: izalontamab brengitecan vs chemotherapy",
     tldr: "The first phase 3 win for a bispecific ADC, in triple-negative breast cancer, announced February 2026.",
     summary: "BL-B01D1-307, trial NCT06382142 sponsored by SystImmune and Bristol Myers Squibb and announced on 26 February 2026, delivered the first phase 3 win for a bispecific antibody-drug conjugate, izalontamab brengitecan, in previously treated locally advanced or metastatic triple-negative breast cancer. It randomised 418 patients in China to the EGFR by HER3 conjugate or chemotherapy and met its primary progression-free survival endpoint by blinded review and its interim overall survival endpoint with statistically significant and clinically meaningful improvements, with full data at ASCO 2026 and a parallel positive phase 3 in oesophageal squamous cell carcinoma. It has not been replicated outside China, and the global first-line IZABRIGHT-Breast01 trial will show whether the result travels, which is the open question.",

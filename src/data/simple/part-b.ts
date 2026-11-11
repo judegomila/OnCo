@@ -83,7 +83,7 @@ export const simpleB: Record<string, string> = {
 
   // ---- pathways ----
   "pi3k-akt-mtor": "The cell's 'grow and survive' circuit. Growth signals switch on a chain of proteins that build the cell up and stop it self-destructing.",
-  "ras-mapk": "The cell's 'divide' relay. A signal at the surface passes along a chain of proteins telling the cell to divide. KRAS and BRAF faults jam it 'on'.",
+
   "p53-cell-cycle": "The cell's brakes. p53 senses damage and stops the cell copying itself. Cancers cut these brakes.",
   ddr: "The DNA repair crews. Lose one crew and the cell survives; lose two and it dies. That is how PARP pills work.",
   "pd1-checkpoint": "How T cells decide to attack. They need a target and a 'go' signal; PD-1 and CTLA-4 are 'stop' signals that tumours exploit.",

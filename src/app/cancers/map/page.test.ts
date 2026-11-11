@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
-import CancerMapPage, { GRAPH_JSON } from "./page";
+import CancerMapPage from "./page";
 import { GET } from "./graph.json/route";
-import { cancerDag } from "@/lib/cancer-dag";
+import { CANCER_MAP_JSON_PATH as GRAPH_JSON, cancerDag } from "@/lib/cancer-dag";
 
 /**
  * The cancer map page: the SVG stays under its HTML budget, every node is a link with a tooltip, the four badge

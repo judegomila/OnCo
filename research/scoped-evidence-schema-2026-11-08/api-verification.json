@@ -1,0 +1,73 @@
+{
+  "scope": "Local API/context generation; no deployment",
+  "entityChecks": [
+    {
+      "id": "clio-8221",
+      "field": "conjugateComposition",
+      "markdownRetainsScopedFields": true,
+      "jsonSha256": "c29d1f179c451161004a4713b4d642f544b4145fbafc7f9f00444dd88e9fd7d0",
+      "markdownSha256": "f3d2f45959c087aeb173af6422c2a879edae3c7ed27e72d8559819ded4dd6e2b"
+    },
+    {
+      "id": "trastuzumab-emtansine",
+      "field": "conjugateComposition",
+      "markdownRetainsScopedFields": true,
+      "jsonSha256": "15429d16f65ea20ba0c18c2998b11cbce77ff1ec251225a1558760323ae44aa9",
+      "markdownSha256": "5a7b519cd48284ad2c7824b38921411b1653c7b7f56a06a098f97d94899b0db4"
+    },
+    {
+      "id": "dako-pd-l1-22c3-pharmdx",
+      "field": "regulatoryClaims",
+      "markdownRetainsScopedFields": true,
+      "jsonSha256": "cde3591f410449ba2f3f03875f8857d20590cc71885a40b0056eb34c75d93a20",
+      "markdownSha256": "3c717489a6a916bf2aad34d18676de4641df6ba2f3ffe6b42c32853416ac0f3e"
+    },
+    {
+      "id": "bl-b01d1-307",
+      "field": "participation",
+      "markdownRetainsScopedFields": true,
+      "jsonSha256": "43a926134348ac14258f7a7a264aea0ed184876013d53eeaaeeb8b3fff6ce56b",
+      "markdownSha256": "2106a22a973c17ab9902121c20b5a3e80e39195a2f603c59902709d57e50e090"
+    },
+    {
+      "id": "ras-mapk",
+      "field": "edges",
+      "markdownRetainsScopedFields": true,
+      "jsonSha256": "173ad51c089cc1030c45f0184064dece8fd4aec02d864a670cee247376c32fa6",
+      "markdownSha256": "6ff439dcbb1123f87ef2d18eea097f6e369ce93deaec7619c64c662f9f449e45"
+    }
+  ],
+  "engineChecks": {
+    "clioPayloadBundle": {
+      "id": "clio-8221-berzosertib+clio-8221-exatecan",
+      "name": "Berzosertib + Exatecan",
+      "href": null,
+      "confidence": "high",
+      "from": [
+        "conjugateComposition.payloads[].chemical"
+      ],
+      "detail": "Reported together on one construct; no component ratio inferred"
+    },
+    "clioClassBundle": {
+      "id": "atr-chk1-inhibitors+topoisomerase-i-payloads",
+      "name": "ATR and CHK1 inhibitors + Topoisomerase-I inhibitor payloads",
+      "href": null,
+      "confidence": "high",
+      "from": [
+        "conjugateComposition.payloads[].classIds"
+      ],
+      "detail": "Reported together on one construct; no component ratio inferred"
+    },
+    "clioLoadingNotInferred": true,
+    "tdm1ExactMean": {
+      "id": "3.5",
+      "name": "Mean loading 3.5",
+      "href": null,
+      "confidence": "high",
+      "from": [
+        "conjugateComposition.payloads[].loadingObservations"
+      ],
+      "detail": "payload-molecules/antibody. Average in the labeled product description; the label does not give a complete loading distribution."
+    }
+  }
+}

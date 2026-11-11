@@ -1,0 +1,82 @@
+[
+  {
+    "id": "kadcyla-composition",
+    "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+    "recordIds": [
+      "trastuzumab-emtansine"
+    ],
+    "scope": "Label sections 11, 12.1 and 12.3: MCC-linked DM1, mean 3.5 DM1 molecules per antibody, and low levels of three reported plasma catabolites. Plasma detection is not a tumour concentration measurement.",
+    "evidenceType": "official-product-label",
+    "checkedOn": "2026-11-08",
+    "retainedRaw": {
+      "fileName": "kadcyla-dailymed.txt",
+      "sha256": "6796adff16dc1b083549f337703ef7e9834af4edc1a035b3291c4087c824283b",
+      "bytes": 90992,
+      "location": "Outside this checkout; only scoped label sections summarized"
+    }
+  },
+  {
+    "id": "clio-dual-payload",
+    "source": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162",
+    "recordIds": [
+      "clio-8221"
+    ],
+    "scope": "Crossref-resolved trial-design abstract names exatecan and berzosertib on an engineered trastuzumab construct. It supplies no component loading ratio or released-species measurements; preclinical background and planned trial design are not clinical outcomes.",
+    "evidenceType": "conference-trial-design-abstract",
+    "retainedRaw": {
+      "fileName": "clio-trial-design.json",
+      "sha256": "475975e02525ca4c7d00bde3d603eddc3bea8a64ff149e81db5752652d747a06",
+      "bytes": 9330,
+      "location": "Outside this checkout; no abstract/manuscript body republished"
+    },
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "id": "fda-22c3-intended-uses",
+    "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+    "recordIds": [
+      "dako-pd-l1-22c3-pharmdx"
+    ],
+    "scope": "Two separately scoped NSCLC tissue uses: pembrolizumab TPS >=1% (P150013/S012) and cemiplimab TPS >=50% (P150013/S021). Full clinical settings remain with the therapy labels. Authorization is not a laboratory certification or an individual benefit prediction. No approval date inferred from a listing row.",
+    "evidenceType": "official-regulator-device-list",
+    "retainedRaw": {
+      "fileName": "fda-companion-list.html.gz",
+      "sha256": "3779fe16e83a375c713afa1b9c1b57bee75cd08e68002daee3413ed929d4eb78",
+      "bytes": 26831,
+      "location": "Outside this checkout; no abstract/manuscript body republished"
+    },
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "id": "raf-mek-experiment",
+    "source": "https://doi.org/10.1073/pnas.90.23.10947",
+    "recordIds": [
+      "ras-mapk"
+    ],
+    "scope": "Crossref and Europe PMC resolve the same title and PMID 8248196; abstract read. Recombinant CRAF/Mek1 in Sf9 cells. The annotation does not generalize to every RAF isoform or establish patient benefit.",
+    "evidenceType": "primary-experimental-abstract",
+    "retainedRaw": {
+      "fileName": "raf-mek-europepmc.json",
+      "sha256": "e83cfb311266469ab793089fde9f5e9cf3e63f642332c5deff5c4aac2c9e2149",
+      "bytes": 5966,
+      "location": "Outside this checkout; no abstract/manuscript body republished"
+    },
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "id": "trial-facility-observation",
+    "source": "https://clinicaltrials.gov/study/NCT06382142",
+    "recordIds": [
+      "bl-b01d1-307"
+    ],
+    "scope": "Projected live registry capture: one facility is named, its facility status is not supplied. Overall ACTIVE_NOT_RECRUITING is kept separately. No cohort, slot count or local status inferred.",
+    "evidenceType": "trial-registry-observation",
+    "retainedRaw": {
+      "fileName": "NCT06382142-projected-response.json",
+      "sha256": "1d1c9feb493ba1a2c39f7b15eb2759c2ac344f307836f7aa8d2cbfbc29bbd973",
+      "bytes": 11159,
+      "location": "Outside this checkout; no abstract/manuscript body republished"
+    },
+    "checkedOn": "2026-11-08"
+  }
+]

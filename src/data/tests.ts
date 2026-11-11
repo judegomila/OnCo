@@ -14,6 +14,7 @@
  */
 import type { CompanyInput, DrugInput, EntityInput, PaperInput, TechnologyInput, TermInput, TrialInput } from "@/lib/schema";
 import { TRIAL_OUTCOMES } from "./trial-outcomes";
+import { ASSAY_REGULATORY_CLAIMS } from "./assay-regulatory-claims";
 
 const asOf = "2026-09-10";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
@@ -90,6 +91,7 @@ const companionDiagnostics: DrugInput[] = [
     technologies: ["companion-diagnostic", "histopathology-ihc"], terms: ["pd-l1-testing", "ihc"],
     links: [PMA("P160046")] }),
   d({ id: "dako-pd-l1-22c3-pharmdx", name: "PD-L1 IHC 22C3 pharmDx", brand: "PD-L1 IHC 22C3 pharmDx", modality: "PD-L1 immunohistochemistry companion diagnostic assay", status: "approved",
+    asOf: "2026-11-08", regulatoryClaims: ASSAY_REGULATORY_CLAIMS["dako-pd-l1-22c3-pharmdx"],
     mechanism: "Mouse monoclonal antibody 22C3 on the Dako Autostainer Link 48, reported as tumour proportion score (TPS) in lung cancer or combined positive score (CPS, tumour plus immune cells relative to tumour cells) in other cancers.",
     tldr: "The 22C3 pharmDx assay is the PD-L1 stain tied to pembrolizumab since 2015 and the source of the combined positive score (CPS). The cut-off differs by cancer: 1% of tumour cells in lung cancer, CPS 1 in gastric, cervical and head and neck cancer, CPS 10 in oesophageal and triple-negative breast cancer, so one stain is read differently per disease.",
     summary: "Approved 2 October 2015 (PMA P150013, Dako, now Agilent) as the companion diagnostic for pembrolizumab in non-small-cell lung cancer, initially at TPS ≥50% and from 2016 at TPS ≥1%. It has since been approved for gastric and gastro-oesophageal junction cancer (CPS ≥1, 2017), cervical cancer (CPS ≥1, 2018), head and neck squamous cell carcinoma (CPS ≥1, 2019), oesophageal squamous cell carcinoma (CPS ≥10, 2019) and triple-negative breast cancer (CPS ≥10, 2020, KEYNOTE-355). The many cut-offs are a source of confusion for patients: the same stain is read differently depending on the cancer and the trial that set the threshold.",

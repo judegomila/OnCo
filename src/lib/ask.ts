@@ -11,6 +11,7 @@
  */
 import type { Kind } from "./kinds";
 import { fuseRanks, tokenize } from "./semantic";
+import { isScopedEvidenceField, scopedEvidencePassages, type ScopedFields } from "./scoped-evidence-text";
 
 export type Passage = { text: string; field: string };
 export type AskRecord = { id: string; kind: Kind; name: string; route: string; tldr: string; passages: Passage[] };
@@ -19,7 +20,7 @@ export type Source = { id: string; kind: Kind; name: string; route: string };
 export type Answer = { sentences: Cited[]; sources: Source[]; confidence: "high" | "medium" | "low"; note?: string };
 
 /** The subset of an entity record the composer reads. Accepts the JSON from /api/v1/entities/<id>.json. */
-export type EntityLike = {
+export type EntityLike = ScopedFields & {
   id: string; kind: Kind; name: string; tldr: string; summary: string; route?: string; simple?: string; notes?: string[];
   stateOfArt?: string[]; openProblems?: string[]; standardOfCare?: Array<{ setting: string; approach: string }>;
   principle?: string; strengths?: string[]; limitations?: string[]; biology?: string; whereFound?: string[]; mechanism?: string;
@@ -74,6 +75,9 @@ export function recordFromEntity(e: EntityLike, route: string): AskRecord {
   if (e.dosing) add("dosing", `${e.name} dosing: ${e.dosing.route}; ${e.dosing.schedule}.`);
   addAll("notes", e.notes);
   add("plain language", e.simple);
+  // These statements retain the whole scoped observation. Sentence splitting could detach a threshold,
+  // hypothesis or local recruitment claim from the subject, model, facility or date that qualifies it.
+  p.push(...scopedEvidencePassages(e));
   return { id: e.id, kind: e.kind, name: e.name, route, tldr: e.tldr, passages: p };
 }
 
@@ -122,7 +126,9 @@ export function composeAnswer(question: string, records: AskRecord[], opts: Comp
     if (chosen.length >= maxSentences) break;
     if (c.score < 0.25) break;
     if ((perRec.get(c.r) ?? 0) >= perRecord) continue;
-    if (chosen.some((x) => similar(x.toks, c.toks) > 0.7)) continue;
+    // Similar wording can describe different therapies, thresholds or models. Keep distinct scoped
+    // observations intact; only exact repeats of those passages are duplicates.
+    if (chosen.some((x) => isScopedEvidenceField(c.field) ? x.text === c.text : similar(x.toks, c.toks) > 0.7)) continue;
     chosen.push(c);
     perRec.set(c.r, (perRec.get(c.r) ?? 0) + 1);
   }

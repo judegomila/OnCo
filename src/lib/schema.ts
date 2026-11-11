@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { EVIDENCE_TIERS, KINDS, MACHINE_FAMILIES, STATUSES, TARGET_DISTRIBUTIONS, TARGET_ROLES, TARGET_SPECIFICITIES } from "./kinds";
 import { DATE_PRECISIONS, YEAR_EVENT_GROUPS } from "./year-groups";
+import { ChemicalPropertyObservationSchema, ConjugateCompositionSchema, MechanismEvidenceSchema, RegulatoryClaimSchema, TrialCohortObservationSchema, TrialFacilitySchema } from "./scoped-evidence";
 
 export { KINDS, STATUSES, REL_FIELDS, KIND_META, PHASE_ORDER, routeFor, phaseLabel, normalisePhaseLabel, TARGET_ROLES, TARGET_ROLE_LABEL, EVIDENCE_TIERS, EVIDENCE_TIER_LABEL, TARGET_SPECIFICITIES, TARGET_SPECIFICITY_LABEL, TARGET_DISTRIBUTIONS, TARGET_DISTRIBUTION_LABEL } from "./kinds";
 export type { Kind, Status, RelField, TargetRole, EvidenceTier, TargetSpecificity, TargetDistribution } from "./kinds";
@@ -230,6 +231,10 @@ export const DrugSchema = Base.extend({
   supportive: z.boolean().optional(),
   payload: z.string().optional(),
   linker: z.string().optional(),
+  /** Optional sourced decomposition; the legacy payload/linker strings remain valid. */
+  conjugateComposition: ConjugateCompositionSchema.optional(),
+  /** Scoped product/laboratory claims also apply to test products represented as drug records. */
+  regulatoryClaims: z.array(RegulatoryClaimSchema).min(1).optional(),
   mechanism: z.string(),
   approvals: z.array(ApprovalSchema).default([]),
   /** Step-by-step mechanism for the animated mechanism card. */
@@ -320,7 +325,10 @@ export const InstitutionSchema = Base.extend({
 });
 
 export const PathwayNodeSchema = z.object({ id: z.string(), label: z.string(), x: z.number(), y: z.number(), targetId: id.optional() });
-export const PathwayEdgeSchema = z.object({ from: z.string(), to: z.string(), type: z.enum(["activates", "inhibits"]).default("activates") });
+export const PathwayEdgeSchema = z.object({
+  from: z.string(), to: z.string(), type: z.enum(["activates", "inhibits"]).default("activates"),
+  evidence: z.array(MechanismEvidenceSchema).min(1).optional(),
+});
 
 export const PathwaySchema = Base.extend({
   kind: z.literal("pathway"),
@@ -335,6 +343,7 @@ export const PathwaySchema = Base.extend({
 export const TermSchema = Base.extend({
   kind: z.literal("term"),
   category: z.string(),
+  chemicalObservations: z.array(ChemicalPropertyObservationSchema).optional(),
   /**
    * Date English Wikipedia was last searched for this term and found to have no article about it (title or redirect
    * matching the name or an alias, medical sense). Set by scripts/fetch-term-wikipedia.ts for its SKIP list; the
@@ -358,8 +367,10 @@ export const TrialParticipationSchema = z.object({
   nct: z.string().regex(/^NCT\d{8}$/),
   source: url,
   fetchedAt: z.iso.datetime(),
-  /** SHA-256 of the complete study as the registry returned it, not of the fields kept here. */
+  /** SHA-256 of the retained structured study, including any documented facility-contact redaction. */
   studySha256: z.string().regex(/^[0-9a-f]{64}$/),
+  /** Hash before redaction, when retained by a newer capture; not invented for old snapshots. */
+  responseStudySha256: z.string().regex(/^[0-9a-f]{64}$/).optional(),
   overallStatus: z.string().optional(),
   lastUpdatePosted: z.string().optional(),
   whyStopped: z.string().optional(),
@@ -375,6 +386,10 @@ export const TrialParticipationSchema = z.object({
   siteCount: z.number().int().nonnegative(),
   recruitingSiteCount: z.number().int().nonnegative(),
   countries: z.array(z.string()).optional(),
+  /** Optional named locations from this exact capture; missing status stays missing. */
+  facilities: z.array(TrialFacilitySchema).optional(),
+  /** Separately sourced information; never inferred from overall/site recruitment. */
+  cohortObservations: z.array(TrialCohortObservationSchema).optional(),
   /** A retained old reading must not be presented as a successful new registry capture. */
   noLongerReturnedAt: z.iso.datetime().optional(),
 });

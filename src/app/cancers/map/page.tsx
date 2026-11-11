@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { absoluteUrl, pageMeta } from "@/lib/seo";
-import { METRICS, cancerDag, layoutCancerDag, type CancerDag, type CancerDagLayout, type CancerDagNode, type Metric } from "@/lib/cancer-dag";
+import { CANCER_MAP_JSON_PATH as GRAPH_JSON, METRICS, cancerDag, layoutCancerDag, type CancerDag, type CancerDagLayout, type CancerDagNode, type Metric } from "@/lib/cancer-dag";
 import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CancerMapBy } from "@/components/CancerMapBy";
 import { CancerIcon } from "@/components/CancerIcon";
 import { WebPageJsonLd } from "@/components/JsonLd";
 
 const PATH = "/cancers/map/";
-export const GRAPH_JSON = "/cancers/map/graph.json";
 
 const base = pageMeta({
   title: "Cancer map",

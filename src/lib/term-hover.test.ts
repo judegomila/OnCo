@@ -41,6 +41,17 @@ describe("entity matcher", () => {
 });
 
 describe("corpus auto-linking", () => {
+  it("leaves ordinary same and reflect unlinked while retaining the specific supplement names", () => {
+    const text = "The same result may reflect a different exposure. SAME and Reflect are ordinary words here.";
+    const hrefs = termMarks(text, 20).map(mark => mark.href);
+    expect(hrefs).not.toContain("/technologies/sam-e-supplements/");
+    expect(hrefs).not.toContain("/trials/reflect/");
+    for (const word of ["same", "reflect"]) {
+      expect(termMarks(word)).toEqual([]);
+    }
+    expect(termMarks("SAM-e and S-adenosyl-L-methionine are names of the supplement.", 8).map(mark => mark.href)).toContain("/technologies/sam-e-supplements/");
+  });
+
   it("builds patterns for thousands of names and links HER2-low as a term, not a target", () => {
     const patterns = entityPatterns();
     expect(patterns.length).toBeGreaterThan(3000);

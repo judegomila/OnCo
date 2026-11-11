@@ -448,7 +448,7 @@ export const tldr_zh: Record<string, string> = {
 
   // ---- 通路 ----
   "pi3k-akt-mtor": "细胞的“生长与生存”回路。来自表面的生长信号开启PI3K，PI3K开启AKT，AKT开启mTOR，mTOR合成蛋白并阻止自毁。",
-  "ras-mapk": "细胞的“分裂”接力。表面信号开启RAS，传给RAF、MEK、ERK，它们告知细胞核让细胞分裂。KRAS和BRAF突变把它卡在开启位置。",
+
   "p53-cell-cycle": "刹车。p53感知损伤并阻止细胞复制；RB把细胞扣在G1门口直到CDK4/6开锁。癌症切断这些刹车。",
   ddr: "修复队。单链断裂由PARP修补；双链断裂由BRCA依赖的同源重组修复。失去一队细胞存活；两队都失去则死亡。这就是PARP抑制剂的原理。",
   "pd1-checkpoint": "T细胞如何决定攻击。T细胞需要看到靶标（TCR-MHC）并获得“通行”信号（CD28）。PD-1和CTLA-4是“停止”信号；肿瘤利用它们。检查点抑制剂移除停止信号。",

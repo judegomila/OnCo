@@ -1,0 +1,40 @@
+[
+  {
+    "id": "trastuzumab-emtansine",
+    "fields": [
+      "conjugateComposition",
+      "asOf",
+      "links"
+    ]
+  },
+  {
+    "id": "ras-mapk",
+    "fields": [
+      "asOf",
+      "nodes",
+      "edges"
+    ]
+  },
+  {
+    "id": "bl-b01d1-307",
+    "fields": [
+      "participation",
+      "asOf"
+    ]
+  },
+  {
+    "id": "dako-pd-l1-22c3-pharmdx",
+    "fields": [
+      "asOf",
+      "regulatoryClaims"
+    ]
+  },
+  {
+    "id": "clio-8221",
+    "fields": [
+      "conjugateComposition",
+      "asOf",
+      "links"
+    ]
+  }
+]

@@ -49,6 +49,13 @@ function fields(e: Entity): string[] {
     case "collection": row("URL", e.url); row("Holds", e.holds); row("Licence", e.license); break;
     default: break;
   }
+  const scoped = e.kind === "drug" ? { regulatoryClaims: e.regulatoryClaims, conjugateComposition: e.conjugateComposition }
+    : e.kind === "trial" ? { participation: e.participation?.map(p => ({ nct: p.nct, source: p.source, fetchedAt: p.fetchedAt, studySha256: p.studySha256, responseStudySha256: p.responseStudySha256, facilities: p.facilities, cohortObservations: p.cohortObservations })).filter(p => p.facilities !== undefined || p.cohortObservations !== undefined) }
+    : e.kind === "pathway" ? { edges: e.edges.filter(edge => edge.evidence?.length) }
+    : e.kind === "term" ? { chemicalObservations: e.chemicalObservations } : {};
+  if (Object.values(scoped).some(v => v !== undefined && (!Array.isArray(v) || v.length > 0))) {
+    out.push("", "### Scoped source observations", "", "```json", JSON.stringify(scoped, null, 2), "```");
+  }
   return out;
 }
 

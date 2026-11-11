@@ -132,7 +132,8 @@ const PAYLOAD_WORDS: Array<[RegExp, { id: string; name: string } | undefined, { 
   [/\bDXd\b|deruxtecan|MAAA-1181/i, { id: "dxd", name: "DXd" }, TOP1],
   [/\bSN-?38\b|govitecan/i, { id: "sn-38", name: "SN-38" }, TOP1],
   [/\bT030\b|tirumotecan|belotecan/i, { id: "t030", name: "T030" }, TOP1],
-  [/\bEd-04\b|brengitecan/i, { id: "exatecan", name: "Exatecan derivative (Ed-04)" }, TOP1],
+  [/\bEd-04\b/i, { id: "ed-04", name: "Ed-04" }, TOP1],
+  [/brengitecan|exatecan[- ](?:based|derived|derivatives?)/i, undefined, TOP1],
   [/rezetecan|SHR9265/i, { id: "rezetecan", name: "Rezetecan" }, TOP1],
   [/exatecan/i, { id: "exatecan", name: "Exatecan" }, TOP1],
   [/AZ14170133|samrotecan/i, { id: "az14170133", name: "AZ14170133" }, TOP1],
@@ -158,7 +159,7 @@ const INN_PAYLOAD: Array<[RegExp, PayloadHit]> = [
   [/deruxtecan$/, { payload: { id: "dxd", name: "DXd" }, payloadClass: TOP1, confidence: "high" }],
   [/govitecan$/, { payload: { id: "sn-38", name: "SN-38" }, payloadClass: TOP1, confidence: "high" }],
   [/tirumotecan$/, { payload: { id: "t030", name: "T030" }, payloadClass: TOP1, confidence: "high" }],
-  [/brengitecan$/, { payload: { id: "exatecan", name: "Exatecan derivative (Ed-04)" }, payloadClass: TOP1, confidence: "high" }],
+  [/brengitecan$/, { payloadClass: TOP1, confidence: "medium" }],
   [/rezetecan$/, { payload: { id: "rezetecan", name: "Rezetecan" }, payloadClass: TOP1, confidence: "high" }],
   [/samrotecan$/, { payload: { id: "az14170133", name: "AZ14170133" }, payloadClass: TOP1, confidence: "high" }],
   [/tecan$/, { payloadClass: TOP1, confidence: "medium" }],
@@ -322,6 +323,9 @@ class Decomposer {
 
   /** Antigen-like targets: the record's own first (high), else those the prose names (medium), else an "anti-X" the mechanism spells out (low, no page). */
   private antigens(d: Drug, opts: { allowProse?: boolean } = { allowProse: true }): { ids: string[]; names: string[]; confidence: Confidence; from: string[] } {
+    // A scoped composition separates the delivery address from the cargo's molecular targets. Do not
+    // reintroduce those targets through legacy prose or backlinks when the delivery address is unstated.
+    if (d.conjugateComposition) return { ids: d.conjugateComposition.deliveryTargetIds ?? [], names: [], confidence: "high", from: ["conjugateComposition.deliveryTargetIds"] };
     const own = d.targets.filter((t) => !NOT_ANTIGEN.has(t));
     if (own.length) return { ids: own, names: [], confidence: "high", from: ["targets"] };
     const back = this.targetsNaming(d.id);
@@ -353,14 +357,60 @@ class Decomposer {
 
   private payload(d: Drug): { payload?: Resolved; payloadClass?: Resolved; dar?: Resolved } {
     const out: { payload?: Resolved; payloadClass?: Resolved; dar?: Resolved } = {};
+    let multiCargo = false;
+    if (d.conjugateComposition) {
+      const parts = d.conjugateComposition.payloads;
+      // Keep a multi-cargo construct as one bundle, rather than assigning its development/approval state
+      // to each single-payload combination. Unlinked chemical identities stay local to their drug.
+      const chemicals = parts.map(p => ({ id: p.chemical.entityId ?? `${d.id}-${p.id}`, name: p.chemical.name }));
+      const join = (key: "payload" | "payloadClass", values: Array<{ id: string; name: string }>, field: string): Resolved | undefined => {
+        if (!values.length) return undefined;
+        const unique = [...new Map(values.map(v => [v.id, v])).values()].sort((a, b) => a.id.localeCompare(b.id));
+        return { key, id: unique.map(v => v.id).join("+"), name: unique.map(v => v.name).join(" + "),
+          href: unique.length === 1 ? this.entityHref(unique[0].id) : undefined,
+          confidence: "high", from: [field], ...(parts.length > 1 ? { detail: "Reported together on one construct; no component ratio inferred" } : {}) };
+      };
+      out.payload = join("payload", chemicals, "conjugateComposition.payloads[].chemical");
+      // A class is unresolved if any cargo lacks its class; a partial list must not stand for the bundle.
+      if (parts.every(p => p.classIds?.length)) {
+        out.payloadClass = join("payloadClass", parts.flatMap(p => p.classIds!.map(id => ({ id, name: this.g.must(id).name }))), "conjugateComposition.payloads[].classIds");
+      }
+      // A single scoped mean can be shown exactly. Do not round it, add unlike observations, select a lot
+      // from several, or borrow a total DAR from prose to invent per-cargo loading.
+      const loads = parts.length === 1 ? parts[0].loadingObservations : undefined;
+      if (loads?.length === 1 && loads[0].unit === "payload-molecules/antibody") {
+        const l = loads[0];
+        out.dar = this.named("dar", { id: String(l.value), name: `Mean loading ${l.value}` }, "high", ["conjugateComposition.payloads[].loadingObservations"], [], `${l.unit}. ${l.scope}`);
+      }
+      return out;
+    }
     const reg = this.payloadByDrug.get(d.id);
     const classFor = (cls: keyof typeof PAYLOAD_CLASSES) => PAYLOAD_CLASSES[cls];
-    if (reg) {
+    // The legacy exatecan comparison row groups different derivatives. It supplies a class,
+    // not a chemical identity; prefer the drug's actual payload field for those records.
+    if (reg && reg.id !== "exatecan") {
       out.payload = this.named("payload", { id: reg.id, name: reg.name }, "high", ["payload registry"], [reg.id]);
       out.payloadClass = this.named("payloadClass", classFor(reg.class), "high", ["payload registry"], [classFor(reg.class).id]);
     } else {
+      if (reg) out.payloadClass = this.named("payloadClass", classFor(reg.class), "high", ["payload registry"], [classFor(reg.class).id]);
       const fieldText = d.payload ?? "";
       const hitIn = (text: string, from: string, confidence: Confidence) => {
+        // An explicit list of named cargoes must remain one construct. Only combine known
+        // identities from the payload field; prose mentioning a combination is insufficient.
+        if (from === "payload") {
+          const pieces = text.split(/\s+(?:and|plus)\s+|\s*\+\s*/i);
+          const hits = pieces.map(piece => PAYLOAD_WORDS.find(([re]) => re.test(piece)));
+          if (pieces.length > 1 && hits.every(hit => hit?.[1])) {
+            const chemicals = [...new Map(hits.map(hit => [hit![1]!.id, hit![1]!])).values()].sort((a, b) => a.id.localeCompare(b.id));
+            if (chemicals.length > 1) {
+              multiCargo = true;
+              const classes = [...new Map(hits.map(hit => [hit![2].id, hit![2]])).values()].sort((a, b) => a.id.localeCompare(b.id));
+              out.payload = { key: "payload", id: chemicals.map(p => p.id).join("+"), name: chemicals.map(p => p.name).join(" + "), confidence, from: [from], detail: "Named together in the payload field; no component ratio inferred" };
+              out.payloadClass = { key: "payloadClass", id: classes.map(p => p.id).join("+"), name: classes.map(p => p.name).join(" + "), href: classes.length === 1 ? this.entityHref(classes[0].id) : undefined, confidence, from: [from] };
+              return true;
+            }
+          }
+        }
         for (const [re, p, cls] of PAYLOAD_WORDS) if (re.test(text)) {
           if (p) out.payload = this.named("payload", p, confidence, [from], [p.id]);
           out.payloadClass = this.named("payloadClass", cls, confidence, [from], [cls.id]);
@@ -376,6 +426,8 @@ class Decomposer {
         } else hitIn(`${d.mechanism} ${d.modality}`, "mechanism", "medium");
       }
     }
+    // A prose total for several cargoes supplies no per-component loading observation.
+    if (multiCargo) return out;
     const dar = (d.payload ?? "").match(/DAR\s*~?\s*(\d+(?:\.\d+)?)/i) ?? d.mechanism.match(/DAR\s*~?\s*(\d+(?:\.\d+)?)/i) ?? d.mechanism.match(/drug-to-antibody ratio[^0-9]{0,20}(\d+(?:\.\d+)?)/i);
     if (dar) out.dar = this.named("dar", { id: String(Math.round(Number(dar[1]))), name: `DAR ~${Math.round(Number(dar[1]))}` }, "high", [d.payload && /DAR/i.test(d.payload) ? "payload" : "mechanism"], ["dar"], `recorded as ${dar[1]}`);
     return out;
@@ -732,7 +784,9 @@ export function engine(): Engine {
     const missingA = !components[def.axes[0]];
     if (missingA) {
       const missing = def.components.filter((k) => !components[k]);
-      bucket.unresolved.push({ id: d.id, name: d.name, route, format: cl.format, modality: d.modality, missing, why: `No ${COMPONENT_LABEL[def.axes[0]].toLowerCase()} on the record: the targets field is empty and the modality and mechanism text name none the corpus knows.` });
+      bucket.unresolved.push({ id: d.id, name: d.name, route, format: cl.format, modality: d.modality, missing, why: d.conjugateComposition
+        ? `No ${COMPONENT_LABEL[def.axes[0]].toLowerCase()} on the record's scoped composition; legacy targets and prose are not substituted for its delivery address.`
+        : `No ${COMPONENT_LABEL[def.axes[0]].toLowerCase()} on the record: the targets field is empty and the modality and mechanism text name none the corpus knows.` });
       continue;
     }
     const resolved = Object.values(components) as Resolved[];

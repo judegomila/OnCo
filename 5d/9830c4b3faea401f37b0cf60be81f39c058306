@@ -1,0 +1,89 @@
+src/app/countries/ug/render.test.ts
+  s_1e233a6be244f1::t_4596bcacd28620 1-59
+src/lib/i18n/nav/de.ts
+  s_1e233a6be244f1::t_c4c10b40167961 200
+  s_1e233a6be244f1::t_e8a445066673fc 192-199,201
+src/app/countries/cd/page.tsx
+  s_1e233a6be244f1::t_24fbdd200ec9d4 1-10
+src/app/countries/tz/page.tsx
+  s_1e233a6be244f1::t_4596bcacd28620 1-10
+src/lib/i18n/nav/hi.ts
+  s_1e233a6be244f1::t_c4c10b40167961 200
+  s_1e233a6be244f1::t_e8a445066673fc 192-199,201
+src/lib/i18n/nav/fr.ts
+  s_1e233a6be244f1::t_e8a445066673fc 192-199,201
+  s_1e233a6be244f1::t_c4c10b40167961 200
+src/app/countries/sa/render.test.ts
+  s_1e233a6be244f1::t_4596bcacd28620 1-59
+src/lib/i18n/nav/zh.ts
+  s_1e233a6be244f1::t_c4c10b40167961 200
+  s_1e233a6be244f1::t_e8a445066673fc 192-199,201
+src/components/RouteIcon.tsx
+  s_1e233a6be244f1::t_04ad5258c28181 138-147
+src/app/countries/sa/page.tsx
+  s_1e233a6be244f1::t_4596bcacd28620 1-10
+src/app/countries/sd/render.test.ts
+  s_1e233a6be244f1::t_24fbdd200ec9d4 1-59
+src/app/countries/hu/page.tsx
+  s_1e233a6be244f1::t_4596bcacd28620 1-10
+src/app/countries/ve/page.tsx
+  s_1e233a6be244f1::t_4596bcacd28620 1-10
+src/app/countries/ug/page.tsx
+  s_1e233a6be244f1::t_4596bcacd28620 1-10
+src/app/countries/sd/page.tsx
+  s_1e233a6be244f1::t_24fbdd200ec9d4 1-10
+src/lib/i18n/nav/ja.ts
+  s_1e233a6be244f1::t_c4c10b40167961 200
+  s_1e233a6be244f1::t_e8a445066673fc 192-199,201
+src/components/CountryDeepDive.tsx
+  s_1e233a6be244f1::t_cdb46db26e5623 91
+src/lib/i18n/nav/es.ts
+  s_1e233a6be244f1::t_c4c10b40167961 200
+  s_1e233a6be244f1::t_e8a445066673fc 192-199,201
+src/app/countries/tz/render.test.ts
+  s_1e233a6be244f1::t_4596bcacd28620 1-59
+src/app/countries/lk/page.tsx
+  s_1e233a6be244f1::t_4596bcacd28620 1-10
+src/app/countries/lk/render.test.ts
+  s_1e233a6be244f1::t_4596bcacd28620 1-59
+src/app/countries/at/page.tsx
+  s_1e233a6be244f1::t_4596bcacd28620 1-10
+src/lib/i18n/nav/ar.ts
+  s_1e233a6be244f1::t_c4c10b40167961 200
+  s_1e233a6be244f1::t_e8a445066673fc 192-199,201
+src/app/countries/uz/render.test.ts
+  s_1e233a6be244f1::t_4596bcacd28620 1-59
+src/app/countries/ve/render.test.ts
+  s_1e233a6be244f1::t_4596bcacd28620 1-59
+src/app/countries/uz/page.tsx
+  s_1e233a6be244f1::t_4596bcacd28620 1-10
+src/app/countries/hu/render.test.ts
+  s_1e233a6be244f1::t_4596bcacd28620 1-59
+src/lib/i18n/nav/pt.ts
+  s_1e233a6be244f1::t_c4c10b40167961 200
+  s_1e233a6be244f1::t_e8a445066673fc 192-199,201
+src/lib/nav.ts
+  s_1e233a6be244f1::t_e8a445066673fc 174-181,183
+  s_1e233a6be244f1::t_c4c10b40167961 182
+src/app/countries/cd/render.test.ts
+  s_1e233a6be244f1::t_1ec5ab0f08a49d 54
+  s_1e233a6be244f1::t_24fbdd200ec9d4 1-53,55-59
+src/app/countries/at/render.test.ts
+  s_1e233a6be244f1::t_4596bcacd28620 1-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "5d9830c4b3faea401f37b0cf60be81f39c058306",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "unknown"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

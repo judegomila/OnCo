@@ -63,7 +63,10 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // the country deep dives of waves 3 and 4 added the registries, ministries, insurers, regulators, assessment bodies
   // and cancer centres each country page rests on. Each is an institution page that should name the people who lead
   // it, the kind this gauge asks about, so the denominator grows and the score falls.
-  { id: "institution-people", total: 1330, label: "Institutions with people" },
+  // 1,330 to 1,730 on 11 November 2026: the country deep dives of waves 5 to 12 (80 countries) added the registries,
+  // ministries, insurers, regulators and cancer centres each page rests on. Each is an institution page that should
+  // name the people who lead it, the kind this gauge asks about, so the denominator grows and the score falls.
+  { id: "institution-people", total: 1730, label: "Institutions with people" },
   { id: "people-papers", total: 1567, label: "People with papers, or in a role that produces none" },
   // 45 to 55 on 4 November 2026: the rejuvenation front's agenda bottlenecks and, last, the residual disease bottleneck
   // (src/data/spikes/breast-residual-subclones.ts). Each is a bottleneck that ideas are meant to attack, the kind this
@@ -80,7 +83,10 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // and the drugs added by the startup monitors and the coverage lists. They are drugs and targets, which is what this
   // gauge asks about, so the denominator grows; their Europe PMC snapshots come with the next fetch:research run.
   { id: "papers-snapshot", total: 4561, label: "Drugs, targets, cancers and technologies with a Europe PMC snapshot" },
-  { id: "citations", total: 2419, label: "Key papers with a citation count" },
+  // 2,419 to 3,094 on 11 November 2026: the papers behind the country deep dives (registry reports, screening and
+  // survival studies) and the rounds since the last recording. They are key papers, the kind this gauge asks about,
+  // so the denominator grows; their counts come from the Europe PMC fetch run in the same change.
+  { id: "citations", total: 3094, label: "Key papers with a citation count" },
   { id: "trials-snapshot", total: 1442, label: "Products with a ClinicalTrials.gov snapshot" },
   // 2,078 to 2,563 on 4 November 2026: the company rounds since the last recording, ending with the 83 companies the
   // startup monitors found (SEC filings, orphan designations, NCI SBIR awards). Companies are exactly what this gauge

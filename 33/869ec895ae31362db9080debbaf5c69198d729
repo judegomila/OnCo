@@ -1,0 +1,36 @@
+src/data/supportive-care-gaps-2026-11.ts
+  s_1e233a6be244f1::t_b215ba24a7097f 96,259,364
+  s_1e233a6be244f1::t_feedfa3c01f337 1,27-29
+  s_1e233a6be244f1::t_341708f6a16532 326
+  s_1e233a6be244f1::t_9041bf72689169 2-26,30-95,97-258,260-325,327-363,365-406
+src/data/index.ts
+  s_1e233a6be244f1::t_99b17e3bfeb791 226-227,452,520,528,530,532
+src/data/gap-fill.ts
+  s_1e233a6be244f1::t_0ae0c1a691169d 1032,1034
+  s_1e233a6be244f1::t_4a8d2dd66cc7fd 1028
+src/data/nutrition.ts
+  s_1e233a6be244f1::t_51d1734ca39fcf 59
+src/data/supportive-care-gaps-2026-11-terms.ts
+  s_1e233a6be244f1::t_93087b2efeb9d5 1-4,30-32
+  s_1e233a6be244f1::t_1d70ae763a3022 185
+  s_1e233a6be244f1::t_9d7bc429be4dea 78,83,92-94,102-103,113,140,143,145,151,157,169,187,199-200
+  s_1e233a6be244f1::t_214ff7a1627f44 5-29,33-77,79-82,84-91,95-101,104-112,114-139,141-142,144,146-150,152-156,158-168,170-184,186,188-198,201-213
+src/data/supportive-drugs.ts
+  s_1e233a6be244f1::t_341708f6a16532 57-69,79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "33869ec895ae31362db9080debbaf5c69198d729",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

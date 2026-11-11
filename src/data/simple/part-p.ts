@@ -366,7 +366,7 @@ export const simpleP: Record<string, string> = {
   "virgen-de-la-victoria-malaga": "Hospital Universitario Virgen de la Victoria is one of the two public university hospitals of Málaga in the Andalusian health service, and a full OECI member.",
   "doctor-peset-valencia": "Hospital Universitario Doctor Peset is a public university hospital of the Valencian health service, and a full member of the Organisation of European Cancer Institutes.",
   "umea-university-hospital": "Umeå University Hospital is the university hospital for northern Sweden, run by Region Västerbotten with Umeå University, and an OECI associate member.",
-  "aga-khan-hospital-dar-es-salaam": "The Aga Khan Hospital, Dar es Salaam is a private teaching hospital whose cancer centre is one of Tanzania's few comprehensive cancer services.",
+  "aga-khan-hospital-dar-es-salaam": "The Aga Khan Hospital, Dar es Salaam is a private teaching and referral hospital where members of Tanzania's National Health Insurance Fund can be treated for cancer.",
   "dokuz-eylul-institute-of-oncology": "The Dokuz Eylül University Institute of Oncology in İzmir combines cancer research with graduate training and is an associate member of the Organisation of European Cancer Institutes.",
   "northern-cancer-alliance": "The Northern Cancer Alliance is the NHS England partnership that plans and improves cancer services across the North East of England and North Cumbria, from Northumberland to Teesside and Carlisle.",
   "humber-north-yorkshire-cancer-alliance": "The Humber and North Yorkshire Cancer Alliance is the NHS England partnership that plans and improves cancer services across Hull, the East Riding, northern Lincolnshire, York and North Yorkshire.",

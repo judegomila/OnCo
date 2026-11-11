@@ -2225,7 +2225,7 @@ export const tldr_pt: Record<string, string> = {
   "niche-2": "No NICHE-2, quatro semanas de imunoterapia antes da cirurgia eliminaram a maioria dos cânceres de cólon com deficiência no reparo de incompatibilidades, e ninguém havia recidivado três anos depois.",
   "nicholas-turner": "Pesquisador do câncer de mama que transformou o ctDNA em uma ferramenta para escolher o tratamento, liderando o SERENA-6 e o CAPItello-291.",
   "nicoletta-colombo": "Liderou o KEYNOTE-826, que tornou pembrolizumabe mais quimioterapia o padrão de primeira linha para o câncer do colo do útero recorrente ou metastático.",
-  "noi-budapest": "O instituto nacional do cancro da Hungria, sede do registo nacional de cancro e de um programa de referência em braquiterapia da mama.",
+  "noi-budapest": "O instituto nacional do cancro da Hungria, em Budapeste. Trata cancros raros e gere o registo nacional de cancro.",
   "nordic-lymphoma-group": "A rede dinamarquesa, finlandesa, norueguesa, sueca e islandesa de ensaios em linfoma, mais conhecida pelo regime nórdico para o linfoma de células do manto.",
   "northwell-cancer-institute": "O serviço de oncologia do maior sistema de saúde do estado de Nova Iorque, com a tradição de investigação em LLC dos Feinstein Institutes iniciada por Kanti Rai.",
   novocure: "A Novocure fabrica os campos de tratamento tumoral Optune, aprovados em glioblastoma, pulmão, mesotelioma e (2026) cancro do pâncreas.",

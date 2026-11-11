@@ -27,4 +27,10 @@ describe("country-extras incidence and mortality", () => {
     }
     expect(wrong).toEqual([]);
   });
+
+  it("link every fact sheet by its slug, not \"<code>-undefined-\"", () => {
+    // The wave 4 rows were added without a GCO_SLUG entry and linked ten fact sheets IARC does not serve.
+    const unslugged = Object.entries(countryExtras).filter(([, r]) => r.gcoUrl?.includes("undefined")).map(([code]) => code);
+    expect(unslugged).toEqual([]);
+  });
 });

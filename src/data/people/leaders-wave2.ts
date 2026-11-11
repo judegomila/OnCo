@@ -1226,7 +1226,7 @@ export const peopleLeadersWave2: PersonInput[] = [
     papers: [{ title: "Oncology Medical Training and Practice: Managing Jordan’s Brain Drain Through Brain Train—The King Hussein Cancer Center Experience", journal: "JCO Global Oncology", year: 2020, doi: "10.1200/go.20.00141" }, { title: "Cancer care in Jordan", journal: "Hematology/Oncology and Stem Cell Therapy", year: 2015, doi: "10.1016/j.hemonc.2015.02.001" }, { title: "Burden of Cancer Among Syrian Refugees in Jordan", journal: "Journal of Global Oncology", year: 2018, doi: "10.1200/jgo.18.00132" }], journals: ["hematology-oncology-and-stem-cell-therapy"] }),
   // =================== King Faisal Specialist Hospital and Research Centre ===================
   p({ id: "majid-alfayyadh", name: "Majid Ibrahim Alfayyadh", role: "Chief Executive Officer", institutionId: "kfshrc", specialisms: ["Paediatric cardiology", "Hospital leadership", "Health system transformation"],
-    tldr: "Physician and CEO of King Faisal Specialist Hospital and Research Centre, Saudi Arabia's flagship tertiary and oncology referral centre.",
+    tldr: "Physician and CEO of King Faisal Specialist Hospital and Research Centre, a Saudi specialist hospital with cancer centres in Riyadh, Jeddah and Madinah.",
     summary: "Majid Ibrahim Alfayyadh is Chief Executive Officer of King Faisal Specialist Hospital and Research Centre (KFSHRC), which operates major oncology centres in Riyadh, Jeddah and Madinah. Trained in paediatric cardiology, he has led the institution's corporatisation and its drive to become a leading academic medical centre in the region.",
     profiles: [{ label: "PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/?term=Alfayyadh+M%5BAuthor%5D" }],
     tags: ["leadership", "hospital management"] }),

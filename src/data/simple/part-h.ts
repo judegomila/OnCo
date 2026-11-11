@@ -161,7 +161,7 @@ export const simpleH: Record<string, string> = {
   "kenyatta-national-hospital": "Kenyatta National Hospital in Nairobi is Kenya's national referral hospital, which describes itself as the biggest referral hospital in East and Central Africa, with a public radiotherapy and cancer treatment centre.",
   "uganda-cancer-institute": "Uganda Cancer Institute in Kampala is the country's national cancer institute, founded in 1967 to study Burkitt lymphoma, and now partners with Fred Hutch.",
   "ocean-road-cancer-institute": "Ocean Road Cancer Institute in Dar es Salaam is Tanzania's national cancer institute, set up by law in 1996, and gives radiotherapy, chemotherapy, palliative care and cancer screening.",
-  "korle-bu-teaching-hospital": "Korle Bu Teaching Hospital in Accra is Ghana's premier teaching hospital and West Africa's largest, hosting the national radiotherapy centre and leading African breast cancer research.",
+  "korle-bu-teaching-hospital": "Korle Bu Teaching Hospital in Accra is a teaching hospital that hosts the national radiotherapy centre and takes part in African breast cancer research.",
   "luth-lagos": "Lagos University Teaching Hospital is the teaching hospital of the University of Lagos. Its cancer centre is now called the Medserve-LUTH Cancer Centre.",
   "nci-cairo": "The National Cancer Institute of Cairo University treats cancer patients of all ages free of charge. It says it sees a quarter of Egypt's new cancer patients each year.",
   "cche-57357": "Children's Cancer Hospital Egypt 57357 in Cairo is one of the world's largest paediatric cancer hospitals, built entirely through public donations and treating children free since 2007.",

@@ -1,0 +1,34 @@
+src/lib/ask-pipeline.ts
+  s_1e233a6be244f1::t_d3f53127bb20cd 81
+scripts/ask-recall.ts
+  s_1e233a6be244f1::t_877655392fca09 7,19-21,25
+scripts/ask-retrieval-diag.ts
+  s_1e233a6be244f1::t_877655392fca09 18,38-40,54
+src/lib/ask.ts
+  s_1e233a6be244f1::t_85acd6b879c8e3 13
+  s_1e233a6be244f1::t_ea6afd8d9b87e7 151-157
+  s_1e233a6be244f1::t_1a3ffec31c9873 167
+  s_1e233a6be244f1::t_a5c7f53b9dd926 148-150,158-166,168-185
+src/lib/ask.test.ts
+  s_1e233a6be244f1::t_fdd2ada003d7f4 67,88
+  s_1e233a6be244f1::t_877655392fca09 3,537-539,543
+  s_1e233a6be244f1::t_524bde36d51779 496-505
+  s_1e233a6be244f1::t_5b71191c6abc22 516-518
+  s_1e233a6be244f1::t_d9d6588e8288f5 63-66,68-87,89-95
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "e4d22b2e70eeb17cff29ff9deaff16e0e32cc48b",
+  "prompts": {},
+  "sessions": {
+    "s_1e233a6be244f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37ad65a2-9126-4075-af38-0a10e402f1c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jude Gomila <jude.gomila@gmail.com>"
+    }
+  }
+}

@@ -45,6 +45,13 @@ const GCO_SLUG: Record<number, string> = {
   410: "korea-republic-of", 484: "mexico", 528: "the-netherlands", 578: "norway", 616: "poland", 620: "portugal",
   643: "russian-federation", 682: "saudi-arabia", 702: "singapore", 724: "spain", 752: "sweden", 756: "switzerland",
   792: "turkiye", 818: "egypt", 826: "united-kingdom", 840: "united-states-of-america",
+  // Wave 4 rows called gco() for codes with no slug, which printed "undefined" into the URL; added 11 November 2026, each
+  // answered with the GLOBOCAN 2024 PDF that day.
+  704: "viet-nam", 608: "philippines", 231: "ethiopia", 710: "south-africa", 170: "colombia", 32: "argentina", 804: "ukraine",
+  642: "romania", 458: "malaysia", 12: "algeria",
+  // Wave 8 (11 November 2026); each answered with the GLOBOCAN 2024 PDF that day.
+  4: "afghanistan", 100: "bulgaria", 246: "finland", 408: "korea-democratic-peoples-republic-of", 116: "cambodia", 372: "ireland",
+  716: "zimbabwe", 24: "angola", 788: "tunisia",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -108,4 +115,15 @@ export const countryExtras: Record<string, CountryExtra> = {
   RO: { name: "Romania", population: 19, incidence: 266, mortality: 128, gcoUrl: gco(642) },
   MY: { name: "Malaysia", population: 36, incidence: 141, mortality: 85, gcoUrl: gco(458) },
   DZ: { name: "Algeria", population: 47, incidence: 153, mortality: 79, gcoUrl: gco(12) },
+  // Wave 8 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series as tabulated in docs/proposals/country-coverage-2026-11.md. Norway already has a row above. No funder is given.
+  AF: { name: "Afghanistan", population: 43, incidence: 119, mortality: 78, gcoUrl: gco(4) },
+  BG: { name: "Bulgaria", population: 6, incidence: 220, mortality: 117, gcoUrl: gco(100) },
+  FI: { name: "Finland", population: 6, incidence: 259, mortality: 78, gcoUrl: gco(246) },
+  KP: { name: "North Korea", population: 27, incidence: 172, mortality: 120, gcoUrl: gco(408) },
+  KH: { name: "Cambodia", population: 18, incidence: 136, mortality: 93, gcoUrl: gco(116) },
+  IE: { name: "Ireland", population: 5, incidence: 317, mortality: 93, gcoUrl: gco(372) },
+  ZW: { name: "Zimbabwe", population: 17, incidence: 266, mortality: 182, gcoUrl: gco(716) },
+  AO: { name: "Angola", population: 38, incidence: 121, mortality: 76, gcoUrl: gco(24) },
+  TN: { name: "Tunisia", population: 12, incidence: 106, mortality: 58, gcoUrl: gco(788) },
 };

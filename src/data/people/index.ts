@@ -39,7 +39,18 @@ import { peopleRO } from "./country-ro";
 import { peopleMY } from "./country-my";
 import { peopleDZ } from "./country-dz";
 import { peopleTW } from "./country-tw";
+import { peopleAF } from "./country-af";
+import { peopleBG } from "./country-bg";
+import { peopleNO } from "./country-no";
+import { peopleFI } from "./country-fi";
+import { peopleKP } from "./country-kp";
+import { peopleKH } from "./country-kh";
+import { peopleIE } from "./country-ie";
+import { peopleZW } from "./country-zw";
+import { peopleAO } from "./country-ao";
+import { peopleTN } from "./country-tn";
 
 /** People (clinicians, scientists, leaders, and the heroes of /heroes/) grouped by file. Register each file here. */
 const files: PersonInput[][] = [peopleEurope, peopleAsiaPacific, peopleUsEast, peopleUsWest, heroes, heroesDonors, peopleLeadersWave2, peopleLeadersWave3, peopleLeadersWave4, peopleIndia, peopleIsrael, peopleChina, peopleKeyOpinionLeaders, peopleVirotherapy, peopleAU, peopleES, peopleBR, peopleSE, peopleCH, peopleID, peoplePK, peopleTR, peopleBD, peopleIR, peopleMX, peopleEG, peoplePL, peopleNG, peopleTH, peopleVN, peoplePH, peopleET, peopleZA, peopleCO, peopleAR, peopleUA, peopleRO, peopleMY, peopleDZ, peopleTW];
 export const people: PersonInput[] = files.flat();
+people.push(...peopleAF, ...peopleBG, ...peopleNO, ...peopleFI, ...peopleKP, ...peopleKH, ...peopleIE, ...peopleZW, ...peopleAO, ...peopleTN);

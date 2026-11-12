@@ -69,7 +69,11 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // the country deep dives of waves 3 and 4 added the registries, ministries, insurers, regulators, assessment bodies
   // and cancer centres each country page rests on. Each is an institution page that should name the people who lead
   // it, the kind this gauge asks about, so the denominator grows and the score falls.
-  { id: "institution-people", total: 1330, label: "Institutions with people" },
+  // 1,330 to 1,743 on 12 November 2026: the institutions for the countries that held fewer than three
+  // (src/data/institutions/countries-2026-11-*.ts: national cancer centres, radiotherapy centres, registries, regulators
+  // and payers) and the Newsweek 2026 ranked hospitals OnCo did not hold. Each is an institution page that should name
+  // the people who lead it, the kind this gauge asks about, so the denominator grows and the score falls; no target changed.
+  { id: "institution-people", total: 1743, label: "Institutions with people" },
   { id: "people-papers", total: 1567, label: "People with papers, or in a role that produces none" },
   // 45 to 55 on 4 November 2026: the rejuvenation front's agenda bottlenecks and, last, the residual disease bottleneck
   // (src/data/spikes/breast-residual-subclones.ts). Each is a bottleneck that ideas are meant to attack, the kind this

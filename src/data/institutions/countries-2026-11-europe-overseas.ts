@@ -62,7 +62,8 @@ export const institutionsCountriesEuropeOverseas: InstitutionInput[] = [
     tldr: "Armenia's health ministry. The national medicines expert body answers to it, the minister sets the rules for assessing clinical trials, and it runs the haematology centre where children with cancer are treated.",
     summary: "The Ministry of Health of the Republic of Armenia is the government ministry for health. The Scientific Centre of Drug and Medical Technology Expertise, which evaluates medicines for state registration and examines clinical trial protocols, is accountable to it, and the minister's Order N322-N of 4 November 2024 approved the rules for expert assessment and monitoring of clinical trials. The Hematology Center after Prof. R. Yeolyan, where the Pediatric Cancer and Blood Disorders Center of Armenia works, is described by Yerevan's municipality as a Ministry of Health centre; its 2016 modernisation was carried out by the Ministry with government and World Bank funds. Erebouni Medical Center's patient page says a Universal Health Insurance system was introduced from 1 January 2026 and is being implemented in phases, first covering groups that include people under 18 and people aged 65 and over, and that the lists of covered diseases, screenings and medicines are published by the Ministry and the Insurance Fund. The coordinates are an approximate Yerevan city point. The Ministry's own site needs a browser to render and was not read.",
     programs: ["Universal Health Insurance system (introduced from 1 January 2026, in phases)", "Rules for expert assessment and monitoring of clinical trials (Order N322-N, 2024)"],
-    institutions: ["scdmte-armenia", "hematology-center-yeolyan", "national-center-of-oncology-armenia", "erebouni-medical-center"],
+    // TODO: re-link national-center-of-oncology-armenia (defined in the country deep dive, PR #395) once it merges.
+    institutions: ["scdmte-armenia", "hematology-center-yeolyan", "erebouni-medical-center"],
     links: [
       { label: "Scientific Centre of Drug and Medical Technology Expertise: about us", url: "https://www.pharm.am/index.php/en/aboutus" },
       { label: "Scientific Centre of Drug and Medical Technology Expertise: home page, orders of the Minister of Health", url: "https://www.pharm.am/" },
@@ -102,7 +103,8 @@ export const institutionsCountriesEuropeOverseas: InstitutionInput[] = [
     tldr: "A large general hospital in Yerevan with an oncology service, a nuclear medicine centre and a radiotherapy centre. It treats patients under Armenia's new universal health insurance as well as privately.",
     summary: "Erebouni Medical Center was founded in 1991 on the basis of the Erebuni clinical hospital. Its own pages describe about 100 departments, a maternity clinic, a polyclinic and the European Center for Nuclear Medicine, with 480 doctors and 685 nurses. Its oncology section lists an oncology service, the nuclear medicine centre and a Radiation Therapy Center, initiated in 2023 beside the hospital to bring oncology services together; the centre lists Varian Edge, Halcyon and Bravos equipment, a Siemens SOMATOM go.Open Pro CT and a Biograph mCT PET/CT scanner. The hospital's patient page explains how to be treated under the Universal Health Insurance system introduced from 1 January 2026. ClinicalTrials.gov lists \"Erebouni MC\" in Yerevan as a site of the early access study of ivosidenib in cholangiocarcinoma (NCT05876754), alongside the National Center of Oncology. The coordinates are OpenStreetMap's point for the hospital at 14 Titogradyan Street.",
     programs: ["Oncology service", "Radiation Therapy Center (initiated 2023)", "European Center for Nuclear Medicine (PET/CT)", "Care under the Universal Health Insurance system"],
-    institutions: ["ministry-of-health-armenia", "national-center-of-oncology-armenia"],
+    // TODO: re-link national-center-of-oncology-armenia (defined in the country deep dive, PR #395) once it merges.
+    institutions: ["ministry-of-health-armenia"],
     links: [
       { label: "Erebouni Medical Center: about", url: "https://www.erebunimed.com/eng/about-us" },
       { label: "Erebouni Medical Center: oncology", url: "https://www.erebunimed.com/eng/oncology" },
@@ -677,7 +679,7 @@ export const institutionsCountriesEuropeOverseas: InstitutionInput[] = [
 
 /** Existing record id to the new institution ids it should list (applied in src/data/index.ts). */
 export const countriesEuropeOverseasBacklinks: Record<string, string[]> = {
-  "national-center-of-oncology-armenia": ["ministry-of-health-armenia", "erebouni-medical-center"],
+  // TODO: national-center-of-oncology-armenia is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "national-center-of-oncology-armenia": ["ministry-of-health-armenia", "erebouni-medical-center"],
   "st-jude": ["hematology-center-yeolyan"],
   "nct05876754": ["erebouni-medical-center"],
   "mother-teresa-hospital-tirana": ["akbpm-albania", "fsdksh-albania", "ishp-albania"],

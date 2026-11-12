@@ -102,7 +102,8 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "Côte d'Ivoire's public cancer centre for radiotherapy and chemotherapy, in Cocody, Abidjan, open to patients since January 2018. It also offers consultations, teleconsultations, a laboratory, a pharmacy and support such as nutrition, psychology and social work.",
     summary: "CNRAO is a public establishment created by Decree 2018-460 of 9 May 2018, inaugurated on 18 December 2017 and open to patients from 25 January 2018, under the technical supervision of the health ministry. Its UICC member page describes an 11,000 square metre site with a radiotherapy unit (a CT simulator and two linear accelerators, one upgraded for RapidArc), a 10-bed medical oncology unit with centralised chemotherapy preparation, a laboratory and a pharmacy, plus supportive and palliative care. IAEA DIRAC lists two linear accelerators and no brachytherapy, updated in 2026. The national cancer plan of March 2022 calls it the country's first radiotherapy centre, notes a high-dose-rate brachytherapy unit not yet working, and reports more than 500 patients treated with radiotherapy.\n\nThe UICC page says no treatment is delayed for lack of money: from 25 January 2018 to 31 July 2022, 1,960 uninsured patients were allowed to pay in instalments, for 2,416,000,000 CFA francs, and an agreement between the State and Roche gives uninsured patients free medicines in the public sector. Of more than 7,000 patients seen from January 2018 to March 2022, 1,179 had breast cancer and 75% of those were at an advanced stage. The centre's own site lists teleconsultation, nutrition consultations since June 2022, and a colorectal cancer screening campaign launched in April 2026. It is a site of the IMbrave152 liver cancer trial (NCT05904886).",
     programs: ["External beam radiotherapy (two linear accelerators)", "Medical oncology day unit (10 beds)", "Teleconsultation", "Supportive care: nutrition, psychology, socio-aesthetics, sport, social work", "Colorectal cancer screening campaign (2026)"],
-    institutions: ["cote-divoire-ministry-of-health", "pnlca-cote-divoire", "abidjan-cancer-registry", "chu-treichville", "iaea"],
+    // TODO: re-link abidjan-cancer-registry (defined in the country deep dive, PR #395) once it merges.
+    institutions: ["cote-divoire-ministry-of-health", "pnlca-cote-divoire", "chu-treichville", "iaea"],
     cancers: ["breast-cancer", "colorectal", "hcc"],
     links: [{ label: "CNRAO", url: "https://cnrao-ci.com/" }, UICC_CNRAO, CI_PLAN, DIRAC, CT_IMBRAVE152] }),
 
@@ -111,7 +112,8 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "The health ministry's national cancer programme in Côte d'Ivoire, based in Treichville, Abidjan. It coordinates prevention, screening, care and research, and the Abidjan cancer registry sits inside it.",
     summary: "The PNLCa is the Ministry of Health's national cancer control programme; its UICC member page gives its address as Km 4, Boulevard de Marseille, Treichville, and its mission as reducing the impact of cancer through promotion, prevention, care and research. The national cancer plan of March 2022, which it led, says the programme has 27 staff in seven services under an order of 4 December 2014, including a cancer registry service, and that the Abidjan cancer registry, running since 1 January 1994, is integrated into it. The plan records the programme's State budget falling from 108,692,633 CFA francs in 2015 to 85,262,895 in 2021, and that in 2021 the PNLCa joined the national medicines supply chain and led the quantification of anticancer medicines. The coordinates are an approximate Abidjan city point.",
     programs: ["Plan stratégique national de lutte contre le cancer 2022 to 2025", "Abidjan cancer registry (registry service)", "Quantification of anticancer medicines for the national supply chain"],
-    institutions: ["cote-divoire-ministry-of-health", "abidjan-cancer-registry", "cnrao-abidjan", "chu-treichville"],
+    // TODO: re-link abidjan-cancer-registry (defined in the country deep dive, PR #395) once it merges.
+    institutions: ["cote-divoire-ministry-of-health", "cnrao-abidjan", "chu-treichville"],
     links: [UICC_PNLCA, CI_PLAN] }),
 
   i({ id: "cote-divoire-ministry-of-health", name: "Ministère de la Santé, de l'Hygiène Publique et de la Couverture Maladie Universelle, Côte d'Ivoire", aka: ["MSHPCMU", "Ministry of Health, Public Hygiene and Universal Health Coverage, Côte d'Ivoire"],
@@ -119,7 +121,8 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "Côte d'Ivoire's health ministry. Its national cancer plan for 2022 to 2025 found that the universal health insurance package did not yet cover cancer and that only about 6% of people with cancer had health insurance.",
     summary: "The ministry oversees CNRAO and the national cancer programme (PNLCa), which wrote the Plan stratégique national de lutte contre le cancer 2022 to 2025 (March 2022). The plan lists the public places that give anticancer treatment: the cancer service and paediatric oncology unit of CHU de Treichville, the onco-haematology unit of CHU de Yopougon, CNRAO and the Hôpital Mère-Enfant de Bingerville. It states that the care package set for universal health coverage (CMU) did not cover non-communicable diseases including cancer, that about 6% of people with cancer had health insurance, and that since 2014 an agreement between the State and Roche, worth 137,053,937 euros over five years with a State share of 29,964,035 euros, has made costly medicines available to people on low incomes without private insurance. It sets a target of bringing three cancers into CMU cover by 2025 and plans a second national radiotherapy centre at Grand-Bassam through a partnership with the Republic of Korea. The ministry's website showed only an entry page when read. The coordinates are an approximate Abidjan city point.",
     programs: ["Plan stratégique national de lutte contre le cancer 2022 to 2025", "Access Roche agreement (since 2014)", "Couverture Maladie Universelle (with IPS-CNAM)"],
-    institutions: ["pnlca-cote-divoire", "cnrao-abidjan", "ips-cnam-cote-divoire", "chu-treichville", "chu-yopougon", "hopital-mere-enfant-bingerville", "abidjan-cancer-registry"],
+    // TODO: re-link abidjan-cancer-registry (defined in the country deep dive, PR #395) once it merges.
+    institutions: ["pnlca-cote-divoire", "cnrao-abidjan", "ips-cnam-cote-divoire", "chu-treichville", "chu-yopougon", "hopital-mere-enfant-bingerville"],
     links: [CI_PLAN, { label: "Ministère de la Santé, Côte d'Ivoire", url: "https://www.sante.gouv.ci/" }] }),
 
   i({ id: "ips-cnam-cote-divoire", name: "Caisse Nationale d'Assurance Maladie, Côte d'Ivoire (IPS-CNAM)", aka: ["IPS-CNAM", "CNAM Côte d'Ivoire", "National Health Insurance Fund, Côte d'Ivoire"],
@@ -135,7 +138,8 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "A university hospital in Abidjan with a cancer service and a children's cancer unit. It is one of five public places in Côte d'Ivoire that give anticancer medicines.",
     summary: "The national cancer plan of March 2022 names CHU de Treichville's Service de Cancérologie and its paediatric oncology unit among the five public services able to give anticancer treatment, alongside CHU de Yopougon, CNRAO and the Hôpital Mère-Enfant de Bingerville. It also has one of three public pathology services (with Cocody and Bouaké; the plan gives about 4,000 to 6,000 specimens a year and says Cocody and Treichville were equipped for immunohistochemistry in 2020), a breast imaging unit, and treatment of precancerous cervical lesions. The plan records that the Franco-African paediatric oncology group (GFAOP) began sending childhood cancer medicines in 2004 and was reducing them from 2021, and that a pilot to digitise Abidjan registry data collection was running in the hospital's cancer unit and at CNRAO. CNRAO's UICC page lists the hospital among public sites where the State's agreement with Roche gives uninsured patients free medicines. The hospital's own website did not resolve.",
     programs: ["Service de Cancérologie (adult medical oncology)", "Paediatric oncology unit", "Pathology", "Breast imaging and cervical precancer treatment"],
-    institutions: ["cote-divoire-ministry-of-health", "pnlca-cote-divoire", "abidjan-cancer-registry", "cnrao-abidjan"],
+    // TODO: re-link abidjan-cancer-registry (defined in the country deep dive, PR #395) once it merges.
+    institutions: ["cote-divoire-ministry-of-health", "pnlca-cote-divoire", "cnrao-abidjan"],
     cancers: ["breast-cancer", "cervical"],
     links: [CI_PLAN, UICC_CNRAO] }),
 
@@ -169,7 +173,8 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "Guinea's health ministry. It is the authority for medicines approval and clinical trials, through its ethics committee and its pharmacy directorate, and it runs the national cancer programme.",
     summary: "NIH ClinRegs (Guinea profile, reviewed January 2026) describes the Ministère de la Santé et de l'Hygiène Publique as the regulatory authority for national marketing authorisation and for clinical trials: the Comité National d'Ethique pour la Recherche en Santé (CNERS) reviews and approves protocols, and the Direction Nationale de la Pharmacie et du Médicament handles registration, authorisation and import of medicines. ClinRegs gives its address as Almamiya, Kaloum, Conakry. On World Cancer Day 2025 the ministry reported the national cancer programme's coordinator saying that registry data showed 840 new cases and 595 deaths, and stated that cervical cancer is the commonest cancer in Guinea, with more than 2,000 cases and nearly 1,500 deaths a year; it thanked the IAEA and the Association Guinéenne pour la Lutte contre le Cancer for support including vaccines against liver and cervical cancer. The coordinates are an approximate point for Kaloum, Conakry.",
     programs: ["National cancer control programme (PNLCC)", "Clinical trial authorisation (CNERS and DNPM)"],
-    institutions: ["dnpm-guinea", "pnlcc-guinea", "hopital-national-donka", "registre-cancers-guinee", "iaea"],
+    // TODO: re-link hopital-national-donka, registre-cancers-guinee (defined in the country deep dive, PR #395) once it merges.
+    institutions: ["dnpm-guinea", "pnlcc-guinea", "iaea"],
     cancers: ["cervical", "hcc"],
     links: [CLINREGS_GN, GN_WCD] }),
 
@@ -186,7 +191,8 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "Guinea's national cancer programme, part of the health ministry. Its work covers prevention, screening, care, palliative care, research and cancer registration.",
     summary: "The programme's UICC member page lists its scope as prevention, early detection, screening, care, palliation, research, cancer registration, monitoring and surveillance, organised on the six pillars of the Guinean health system, and gives its address as Corniche Nord, Centre de santé du Port, Conakry. At the ministry's World Cancer Day event in February 2025 its coordinator reported registry data of 840 new cases and 595 deaths. The coordinates are an approximate Conakry city point.",
     programs: ["Prevention, screening and early detection", "Cancer registration and surveillance", "Palliative care"],
-    institutions: ["guinea-ministry-of-health", "registre-cancers-guinee"],
+    // TODO: re-link registre-cancers-guinee (defined in the country deep dive, PR #395) once it merges.
+    institutions: ["guinea-ministry-of-health"],
     links: [UICC_PNLCC_GN, GN_WCD] }),
 
   // ───────────────────────── Benin ─────────────────────────
@@ -502,11 +508,11 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
 /** Existing record id to the new institution ids it should list (applied in src/data/index.ts). */
 export const countriesWestCentralAfricaBacklinks: Record<string, string[]> = {
   // The Abidjan registry is integrated into the PNLCa, and collects from CHU de Treichville and CNRAO (national cancer plan 2022).
-  "abidjan-cancer-registry": ["pnlca-cote-divoire", "cote-divoire-ministry-of-health", "chu-treichville", "cnrao-abidjan"],
+  // TODO: abidjan-cancer-registry is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "abidjan-cancer-registry": ["pnlca-cote-divoire", "cote-divoire-ministry-of-health", "chu-treichville", "cnrao-abidjan"],
   // ClinicalTrials.gov lists both Abidjan facilities by name as sites of IMbrave152.
   nct05904886: ["cnrao-abidjan", "pisam-abidjan"],
-  "registre-cancers-guinee": ["pnlcc-guinea", "guinea-ministry-of-health"],
-  "hopital-national-donka": ["guinea-ministry-of-health"],
+  // TODO: registre-cancers-guinee is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "registre-cancers-guinee": ["pnlcc-guinea", "guinea-ministry-of-health"],
+  // TODO: hopital-national-donka is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "hopital-national-donka": ["guinea-ministry-of-health"],
   // IPO Porto researchers co-wrote the São Tomé evacuation study with the hospital's doctors.
   "ipo-porto": ["hospital-ayres-de-menezes"],
 };

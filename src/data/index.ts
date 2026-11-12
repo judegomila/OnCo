@@ -303,6 +303,13 @@ import { institutionsBiobankGaps2026, collectionsBiobankGaps2026, biobankBacklin
 import { institutionsGrantGaps2026, collectionsGrantGaps2026, trialsGrantGaps2026, grantBacklinks } from "./funding-programmes-gaps-2026-11";
 import { termsLawGaps2026, lawBacklinks } from "./laws-gaps-2026-11";
 import { termsPayerGaps2026, institutionsPayerGaps2026, payerBacklinks } from "./payers-gaps-2026-11";
+// Institutions for the countries that held fewer than three (census of 11 November 2026, by region).
+import { institutionsCountriesMena, countriesMenaBacklinks } from "./institutions/countries-2026-11-mena";
+import { institutionsCountriesAsiaPacific, countriesAsiaPacificBacklinks } from "./institutions/countries-2026-11-asia-pacific";
+import { institutionsCountriesAmericas, countriesAmericasBacklinks } from "./institutions/countries-2026-11-americas";
+import { institutionsCountriesWestCentralAfrica, countriesWestCentralAfricaBacklinks } from "./institutions/countries-2026-11-west-central-africa";
+import { institutionsCountriesEastSouthernAfrica, countriesEastSouthernAfricaBacklinks } from "./institutions/countries-2026-11-east-southern-africa";
+import { institutionsCountriesEuropeOverseas, countriesEuropeOverseasBacklinks } from "./institutions/countries-2026-11-europe-overseas";
 import { drugsPipelineWave1 } from "./drugs-pipeline-wave1";
 import { trop2DualPayload } from "./trop2-dual-payload";
 import { pipelineTrialsWave2 } from "./pipeline-trials-wave2";
@@ -535,6 +542,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...veterinaryGapDrugs, ...veterinaryGapInstitutions,
   ...institutionsPrizes202611,
   ...institutionsParticleTherapyGaps2026, ...institutionsDonorRegistryGaps2026, ...institutionsBiobankGaps2026, ...collectionsBiobankGaps2026, ...institutionsGrantGaps2026, ...collectionsGrantGaps2026, ...trialsGrantGaps2026, ...termsLawGaps2026, ...termsPayerGaps2026, ...institutionsPayerGaps2026,
+  ...institutionsCountriesMena, ...institutionsCountriesAsiaPacific, ...institutionsCountriesAmericas, ...institutionsCountriesWestCentralAfrica, ...institutionsCountriesEastSouthernAfrica, ...institutionsCountriesEuropeOverseas,
   ...targetsWaveSoc, ...targetsPipelineGap, ...targetsReaderEdits, ...targetsGenesWave, ...targetsImmuneMarkers, ...drugsEmaWave, ...drugsUniverseGaps, ...companiesSponsorsWave,
   ...drugsPipelineWave1,
   ...trop2DualPayload,
@@ -610,10 +618,11 @@ const CENSUS_FILL_BACKLINKS: Map<string, Map<string, string[]>> = (() => {
   const kindOf = new Map<string, string>([
     ...institutionsParticleTherapyGaps2026, ...institutionsDonorRegistryGaps2026, ...institutionsBiobankGaps2026, ...collectionsBiobankGaps2026,
     ...institutionsGrantGaps2026, ...collectionsGrantGaps2026, ...trialsGrantGaps2026, ...termsLawGaps2026, ...termsPayerGaps2026, ...institutionsPayerGaps2026,
+    ...institutionsCountriesMena, ...institutionsCountriesAsiaPacific, ...institutionsCountriesAmericas, ...institutionsCountriesWestCentralAfrica, ...institutionsCountriesEastSouthernAfrica, ...institutionsCountriesEuropeOverseas,
   ].map((e) => [e.id, e.kind] as [string, string]));
   const fieldFor: Record<string, string> = { institution: "institutions", term: "terms", trial: "trials", collection: "related" };
   const out = new Map<string, Map<string, string[]>>();
-  for (const map of [particleTherapyHostBacklinks, donorRegistryBacklinks, biobankBacklinks, grantBacklinks, lawBacklinks, payerBacklinks])
+  for (const map of [particleTherapyHostBacklinks, donorRegistryBacklinks, biobankBacklinks, grantBacklinks, lawBacklinks, payerBacklinks, countriesMenaBacklinks, countriesAsiaPacificBacklinks, countriesAmericasBacklinks, countriesWestCentralAfricaBacklinks, countriesEastSouthernAfricaBacklinks, countriesEuropeOverseasBacklinks])
     for (const [from, ids] of Object.entries(map)) for (const id of ids) {
       const kind = kindOf.get(id);
       if (!kind) throw new Error(`Census fill backlink names a record not in the fill files: ${id}`);
